@@ -572,7 +572,7 @@
   {
     "id": 115,
     "question": "What is the treasury yield curve, and what does its shape tell you?",
-    "answer": "The yield curve is just a plot of the relation between the yield and the term of otherwise similar bonds. The treasury yield curve plots treasury bond yields across their terms and is the most widely used yield curve as it sets a “risk-free” benchmark for other bonds (corporate, municipal, etc.). A treasury yield curve is normally upward sloping because, all else being equal, an investor would prefer a one year, 3% bond than being locked into a 30-year, 3% bond. However, investors’expectations about future interest rates affect the slope as well. When investors expect the Fed to raise short-term interest rates in the future, investors will decrease demand for short-term treasuries to avoid getting locked into a low but soon-to-be higher short-term rate. This decrease in the relative demand for short-term treasuries will raise short-term yields and flatten the yield curve."
+    "answer": "The yield curve is just a plot of the relation between the yield and the term of otherwise similar bonds. The treasury yield curve plots treasury bond yields across their terms and is the most widely used yield curve as it sets a “risk-free” benchmark for other bonds (corporate, municipal, etc.). A treasury yield curve is normally upward sloping because, all else being equal, an investor would prefer a one year, 3% bond than being locked into a 30-year, 3% bond. However, investors’ expectations about future interest rates affect the slope as well. When investors expect the Fed to raise short-term interest rates in the future, investors will decrease demand for short-term treasuries to avoid getting locked into a low but soon-to-be higher short-term rate. This decrease in the relative demand for short-term treasuries will raise short-term yields and flatten the yield curve."
   },
   {
     "id": 116,
@@ -627,7 +627,7 @@
   {
     "id": 126,
     "question": "If the Fed wants to lower rates, what can it do?",
-    "answer": "If the Fed wants to lower rates, it can directly purchase treasuries in the open market, and then T-bill yields would directly decline. The buyers, which consist of other foreign governments, individuals, institutional investors, and large banks, will store this cash and raise the supply. Alternatively, the Fed can lower rates through repurchase agreements (RPs). This would lower banks’demand for reserves and thus the Fed funds rate, which is the basis on which commercial banks lend."
+    "answer": "If the Fed wants to lower rates, it can directly purchase treasuries in the open market, and then T-bill yields would directly decline. The buyers, which consist of other foreign governments, individuals, institutional investors, and large banks, will store this cash and raise the supply. Alternatively, the Fed can lower rates through repurchase agreements (RPs). This would lower banks’ demand for reserves and thus the Fed funds rate, which is the basis on which commercial banks lend."
   },
   {
     "id": 127,
@@ -637,6 +637,586 @@
   {
     "id": 128,
     "question": "Besides direct purchases or sales, what is another policy tool the Fed can use to manipulate interest rates?",
-    "answer": "Source note: This answer uses terminology from the PDF and should be checked against current Federal Reserve terminology before use. Another policy tool available to the Fed is to adjust the provided interest on bank reserves. The lowering of this rate (called interest on excess reserves, or \"IOER\") would encourage lending (and vice versa). The IOER is the interest rate the Federal Reserve pays on excess reserves. This rate is typically within the fed funds’target range. For example, if the fed funds target range is 1.5% to 1.75%, the IOER would be ~1.6%."
+    "answer": "Source note: This answer uses terminology from the PDF and should be checked against current Federal Reserve terminology before use. Another policy tool available to the Fed is to adjust the provided interest on bank reserves. The lowering of this rate (called interest on excess reserves, or \"IOER\") would encourage lending (and vice versa). The IOER is the interest rate the Federal Reserve pays on excess reserves. This rate is typically within the fed funds’ target range. For example, if the fed funds target range is 1.5% to 1.75%, the IOER would be ~1.6%."
+  },
+  {
+    "id": 129,
+    "question": "What is a repurchase agreement (repo)?",
+    "answer": "Repos (RPs) are short-hand for repurchase agreements (formally called “sale and repurchase agreements”) and refer to when a borrower, usually a government securities dealer, gets short-term funding by selling securities such as treasuries and agency mortgage securities to a lender. The lenders could be money market funds, governments, and financial institutions. For a pre-determined period, the borrower will purchase the securities back for the original price plus interest (e.g., the repo rate), usually completed overnight."
+  },
+  {
+    "id": 130,
+    "question": "What are reverse repurchase agreements (reverse repo)?",
+    "answer": "Conversely, a reverse repurchase agreement (reverse repo, or \"RRP\") is when the purchaser of the security agrees to re-sell the security back to the seller for a pre-determined price at a later date. Essentially, repos and reverse repos are the two sides of a lending agreement from the perspective of the two opposing parties. Note, these are short-dated transactions with a guarantee of repurchase."
+  },
+  {
+    "id": 131,
+    "question": "What is the Federal Open Market Committee (FOMC)?",
+    "answer": "The Federal Open Market Committee (\"FOMC\") is the monetary policy-making body of the Federal Reserve System. The members meet eight times a year to set the interest rate policy and the federal funds rate. Following these meetings, a statement will be publicly issued to communicate the following changes in rates and commentary on their outlook on the economy and guidance on their forward-view of current policies (i.e., the potential for changes, risks considerations)."
+  },
+  {
+    "id": 132,
+    "question": "What is the federal funds rate?",
+    "answer": "Source note: The example rates and operating framework below reflect the PDF's historical context. Refresh them before using this answer. The federal funds rate represents the target interest rate set by the Federal Open Market Committee (FOMC) for short-term loans. The fed funds rate target has historically been one rate (e.g., 1.5%) but is now a range (1.5% to 1.75%). Based on the agreed-upon Federal funds rate, commercial banks and institutions will borrow and lend their excess reserves to one other (usually completed overnight) at this rate. This is the rate that banks charge other banks for overnight loans to cover their reserve requirements. Banks with excess reserves can lend to banks with insufficient reserves. The federal funds rate affects the lending market because banks and many institutional lenders tie their lending rates (e.g., Prime, LIBOR) to the fed funds rate. As a result, any adjustments will flow throughout the entire market, including short-term US treasuries."
+  },
+  {
+    "id": 133,
+    "question": "What is the federal discount rate?",
+    "answer": "The federal discount rate refers to the interest rate that the Federal Reserve charges commercial banks and other financial intuitions for short-term loans through the discount window loan process. In contrast to the federal funds rate, the federal discount rate is the rate charged to banks to borrow funds from them, whereas the federal funds rate is the rate that banks lend to each other. Compared to the fed funds target rate, the federal discount rate is typically 50 bps higher."
+  },
+  {
+    "id": 134,
+    "question": "What are the reserve requirements set by the Fed?",
+    "answer": "Source note: This answer reflects the reserve framework described in the PDF and should be checked against current Federal Reserve policy before use. The reserve requirement is the minimum level of cash a commercial bank is required to keep on-hand to cover its deposits. If this requirement were to be lowered by the Fed, the result would be more loans could be made. Therefore, lowering the reserve requirement is an expansionary policy option."
+  },
+  {
+    "id": 135,
+    "question": "What would happen if interest rates turned negative?",
+    "answer": "In an environment with negative interest rates, the payment of interest flips between the borrower and lender. The borrower is being paid interest by the lender, rather than the other way around. Central banks use this drastic monetary policy tool to incentivize commercial bank lenders to make loans rather than sit on the funds."
+  },
+  {
+    "id": 136,
+    "question": "From shortest to longest maturity, list treasury notes, treasury bonds, and treasury bills.",
+    "answer": "Treasury Bills: T-bills mature within one year of issuance Treasury Notes: T-notes mature between two and ten years Treasury Bonds: T-bonds mature in twenty to thirty years"
+  },
+  {
+    "id": 137,
+    "question": "What is a certificate of deposit (CD)?",
+    "answer": "A certificate of deposit (CD) is an agreement with a bank to deposit money for a specified rate of return (i.e., earn interest). CDs are short-term agreements, issued at par based on the deposit amount, and have the same credit risk as a deposit."
+  },
+  {
+    "id": 138,
+    "question": "What is the money market yield?",
+    "answer": "The money market yield is defined as the interest rate earned from holding securities of higher liquidity and short maturities of less than one year. Examples include certificates of deposit, US Treasury bills, and municipal bonds. Money Market Yield = ((Final Cash Flow - Initial Cash Flow) / Initial Cash Flow) × (360 / Actual Days)."
+  },
+  {
+    "id": 139,
+    "question": "What are Treasury inflation-protected securities (TIPS)?",
+    "answer": "Treasury inflation-protected securities (\"TIPS\") are issued by the US Treasury and protect bondholders from the risk of inflation. Periodically, TIPS adjust the par value (and the coupon) by the inflation rate for the bondholder to receive the originally expected return. Based on changes in inflation, the principal amount will be adjusted, which would then affect the coupon paid."
+  },
+  {
+    "id": 140,
+    "question": "When does a liquidity trap occur?",
+    "answer": "A liquidity trap refers to when short-term interest rates are close to zero, which leaves the central bank unable to lower them further to stimulate economic activity. In effect, a liquidity trap makes monetary policy ineffective and restricts the options available to the Fed. Because of the near-zero interest rates, consumers hoard cash rather than invest it into bonds under the belief that the economy is headed in a negative trajectory."
+  },
+  {
+    "id": 141,
+    "question": "What does the consumer price index (CPI) measure?",
+    "answer": "The consumer price index (CPI) is used to measure the change in prices that consumers pay for goods and services on average over a period. The index considers the prices of consumer goods (e.g., housing, apparel, transportation, education, recreation, food, medical care). CPI is followed by many to measure inflation and as a proxy to assess how effective (or not effective) the government’s current economic policies are."
+  },
+  {
+    "id": 142,
+    "question": "Would you agree with the statement that deflation is worse than inflation?",
+    "answer": "Deflation is the macroeconomic condition when a country experiences decreased prices. This is the opposite of inflation, which is characterized by an increase in prices. While initially, consumers may enjoy the lower prices, this cuts into the profit margins of companies. Then begins the cycle of employee layoffs, reduced pay, cutbacks on spending by companies, and overall, the output of the economy contracts, and the level of unemployment increases. This deflationary spiral will eventually lead to reduced investments made by companies to conserve cash, less overall economic growth, and increases in bankruptcies as borrowers cannot pay back loans. From many economists' perspective, deflation is more serious than inflation as deflation is more difficult to control. An example of deflation's long-lasting effects can be seen in Japan, where even after decades of near-zero interest rates and quantitative easing (QE) efforts, the country has still failed to turn around and struggles to get prices rising again."
+  },
+  {
+    "id": 143,
+    "question": "Pitch me a stock.",
+    "answer": "Source note: The company figures, dates, prices, and sample pitches below are historical examples from the PDF. Refresh them before using this answer. Being asked to pitch a stock is a test of your understanding of how equities are valued and how markets function, as well as your ability to think about a business and industry. This is arguably the most important portion of a hedge fund interview as it opens up a lengthy discussion. Come prepared to discuss one company in-detail and to defend your viewpoint of why its share price will increase (or decrease if pitching a short). Before the interview, try your best to understand the firm's investment strategy and put together a pitch based on the information you can compile. This will require some creativity and guesswork, but it's very important to have a general sense of the fund's strategy heading into the interview. It can be difficult to gather information on hedge funds, as most will not even have a website, or their website will show their logo and contact information due to regulatory reasons. However, you can still find bits-and-pieces of information to understand their focus vaguely. In addition to being aware of the fund's strategy, avoid well-known stocks where the interviewer may have a predisposed view. For example, if you're a firm believer in the growth story of Tesla, but your interviewer is not, it's unlikely you'll change their mind. The interviewer will not wait three months and evaluate your performance vs. your peers. Therefore, it's recommended to pitch a lesser-known stock the chance the interviewer has an existing thesis on is rather unlikely. Even if they agree with your pitch, it'll lead to a far more granular discussion since they've looked at this company before. Throughout your pitch, have conviction in your thesis and be prepared to hold your ground, as your assumptions will be challenged. No matter what, avoid changing your recommendation or even give off the impression of beginning to show doubt amidst giving your pitch. If your recommendation can be dismantled within a ten-minute discussion, you have either chosen the wrong stock to pitch or you didn't come adequately prepared to defend your assumptions. Remember, counter-arguments with valid concerns can be made against all pitches. But as long as the assumptions that serve as the basis for your pitch remain intact, there's no reason to question the validity of your pitch – as that's precisely what the interviewer is attempting to do. Understand which specific factors matter and which ones don't matter in the share price of the company you're pitching. When you can distinguish between the two and make it clear to the interviewer, the discussion becomes structured around those key points your pitch was crafted around – putting you in a far more advantageous position. Stock Pitch Structure Recommendation The pitch should begin with a clear statement on whether you recommend the fund to take either a long or short position. This introduction is your “hook” to grab the interviewer's interest and your view on the potential upside (or downside) of an intriguing investment, so it's important you get this part right to get the interviewer interested in hearing more about your investment thought process and rationale. Company Overview Next, contextualize the company’s “story,” which should progressively lead to the reason this stock you have chosen will perform better than its peers. Included in this section should be a basic overview of the business model with commentary on each of the segments, products/services sold, and any recent news that could affect the future performance of the business (e.g., M&A, management change). Competitive Advantage Then, explain what competitive advantage (i.e., economic moat) this company currently possesses. This section will be most relevant if you pitch a long position, but regardless of the fund strategy, try to show how you understand the competitive dynamics within an industry and focus on what differentiates this business that'll protect its profits. Examples could be patents, intangibles such as branding, switching costs, or offering a product/service that cannot be easily replicated. Market/Competitive Next, the ongoing trends in the market that affect the company's performance Landscape should be brought up, as well as your thoughts on the company’s current positioning within the competitive landscape. An approximation of the company's market share and whether it's a market leader or challenger should also be made clear. Catalysts Since the company's background and market overview is done, the catalysts that can cause the market to “correct” its mispricing can be identified. Phrased another way: \"Which specific catalyst will cause the share price to change?\" Price Target Range In the next part, state an approximate price target range, how it compares to the current share price on a percentage basis, and the expected time for the target to be reached given the catalysts mentioned. While you need to mention the methods used to arrive at the valuation, a broad overview is sufficient because a significant portion of the follow-up discussion will be related to your valuation. Investment Risks Considering the interviewer has a deep understanding of the different risks specific to particular industries and the recurring risks that impact all industries, expect questions on the risk factors (and how they could be mitigated). If you're interviewing with a fundamentals-oriented fund, you could bring up the margin of safety, consistent FCF generation in past years, low cyclicality, and revenue diversification to defend how it could uphold during a recession. Closing Finally, close out the initial remarks by reiterating your earlier statement on the upside (or downside) potential. Then, expect an in-depth discussion with the interviewer on your price target, specific assumptions used for the DCF and comps analysis, and any points of disagreement/concern – which collectively measure how well you can defend your thesis using sound logic and reasoning. Sample Fundamental Initial Pitch “The company that I’ve chosen to pitch a long-position on is Genasys (NASDAQ: GNSS), a provider of mission-critical communications and emergency management solutions. Genasys has three business segments, with the first segment being its Public Warning System (PWS) software, a location-based messaging platform for emergency messages sent out via mobile devices. This software benefits from the trend of critical communications solutions, and its use case is comparable to AMBER Alert. In 2019, the EU mandated its member nations to deploy country-wide PWS by June 2022 (Regulation Article 110 of the EECC), which should serve as a secular tailwind for Genasys. Next, Genasys offers Long Range Acoustic Device (LRAD) and Acoustic Hailing Devices (AHD), which are types of speaker systems that provide long-range audio sirens to bring attention to an emergency or hazard in real-time. This segment is a legacy business, and industry growth has been on the lower end, but there are very few competitors of comparable size, and Genasys appears to have carved a defensible niche. Most of the customers for these products are specialized for the defense, law enforcement, and the military end markets, which fluctuate based on governmental budgets and depend on securing contracts. However, Genasys is becoming the global leader for LRAD systems, as shown by a recent $14.5mm follow-on AHD order with the US Army and a $4.3mm IDIQ contract with the US Navy. Genasys’ third segment offers Integrated Solutions, which combines hardware and software in a single system and represents the company's greatest growth potential, as it has a significantly larger market to sell. Large enterprises are signing contracts now, as shown by the recent telecom carrier contracts announced in Australia. In terms of M&A, Genasys made a complementary acquisition of the Ottawa-based emergency communications company, Amika Mobile. This continued geographic expansion through M&A, the long-term customer contracts, and how the company's products are gradually becoming requirements by regulatory bodies worldwide all decrease the downside risk of Genasys. Genasys’ software business represents a relatively minor percentage of total revenue at the present day. I am under the belief that the continued build-out of its software platform and the upcoming regulations on public safety will be catalysts leading to significant incremental value creation over the next few years and drive higher profitability, as seen by its Q3 2020 ~$12mm in revenue (35% YoY growth) and ~54.1% gross margin. The latest closing price of Genasys was $6.78. The share price has appreciated 100%+ from trading around $3 at the beginning of 2020 and may no longer be undervalued, but this could be a growth play with more upside potential remaining. I believe the future growth (especially in the EU) and the value of the multi-year contracts are being ignored at the current share price. Based on my valuation, I believe Genasys should be trading around ~$8.15 (approximately 20% upside), and this positive upward trajectory should continue to gain momentum as we enter 2021 and get closer to 2022. By then, more countries, other than just the EU and US, would have increase regulatory requirements for PWS and LRAD related hardware and force adoption – thus, making this opportunity a promising long-term investment. Sample Trading Initial Pitch “The stock I would like to pitch is Medpace Holdings (NASDAQ: MEDP). They're a mid-sized contract research organization that performs clinical trials for biotech firms to get new drugs approved. Medpace primarily operates on a fee-for-service basis, meaning they get paid whether or not the drug is successful but get paid more for successful trials as those run longer and have more fees. Medpace focuses on smaller biotech firms, which have seen a surge of venture capital funding. This VC funding pays for the services of Medpace to see if potential drugs can get FDA approval. There is a lag in timing, so the funding we are seeing now will show up on Medpace’s future earnings. Compared to its peers, Medpace is well-positioned. Labor costs are a big input in Medpace’s business but are lower when compared to its peers. Medpace has consistently delivered above averages, strong profit margins. The stock is trading at $116, which is in the middle of a wide 52-week trading range of $58 to $144. The current trailing or backward-looking P/E ratio is 41x, which feels high on a standalone basis, but is negatively impacted by COVID related lockdowns slowing existing clinical trials. On a normalized forward basis, it's a quite reasonable 24x. I believe that stronger revenue growth and EPS growth will drive the stock price higher. I think we can easily see the stock trading closer to $130 in the next six months with annual EPS ticking up to $4.33 with a 30x P/E ratio.” Notice how compared to the fundamental pitch, there's less of a focus on the company specific details and “story.” This doesn't mean that the fundamentals of the business don't matter; instead, the takeaway is that most trading usually has a shorter-term outlook on the company. Traders, particularly those that specialize in complex financial derivatives or short-selling, don't have the luxury of being able to wait for a thesis to come true (usually a few months at most). Right now, Medpace is benefiting from a short-term, unexpected event, as seen in its share price growth since the beginning of 2020."
+  },
+  {
+    "id": 144,
+    "question": "Let’s say you're about to analyze an investment opportunity on a public company. What are some questions you would ask?",
+    "answer": "During your analysis, try to first understand where the company has been, where it's at the present day, and then attempt to build an investment thesis on where the company is headed. What is the company’s mission statement and what value do they provide to their customers? What is the background of the management team, how long have they been running the company, and what is their track record? What is the business model? How does the company generate cash flow? What types of products/services does the company sell? Would you consider them to be valuable? What is the company’s strategy to achieve growth? Has its strategy adapted alongside the market? What are the end markets to whom the company sells its products/services? How has the company’s financial performance been in recent years? Is the company’s cash flows sustainable? Does its revenue have a recurring component? What are the risks to the company’s cash flows? How competitive is the market? What are the growth prospects of the cash flows? Where do you predict revenue growth and opportunities to create profitability to come from? What has earnings per share (EPS) been historically, and how has it been trending in recent years? Question each of your assumptions carefully from the perspective that your thesis might be flawed, as doing so will help solidify your pitch as you understand the counter-arguments. By identifying the weaker areas of your pitch, you can defend your viewpoints better since you've looked at the investment from both perspectives with an open mind, as opposed to looking for what confirms your pre-existing beliefs."
+  },
+  {
+    "id": 145,
+    "question": "What are some of the various investment strategies employed by hedge funds?",
+    "answer": "Long-Short Equity: Involving picking winners and losers based on the fundamental analysis of companies; The long-short offsetting pairs reduce the overall market risk. Event-Driven Investing: Pursues pricing inefficiencies before or after major corporate events such as mergers, acquisitions, and spinoffs – either looking for potential M&A targets or seeking to trade the acquisition premium on announced acquisitions. Activist: Activist funds seek underperforming companies they believe are poorly managed and attempt to be the catalyst for a successful turnaround. Quants: Includes systematic, rules-based, algorithmic trading, proprietary strategies, momentum, mean reversion, and high-frequency trading (HFT). Arbitrage/Relative Value: Seeks pricing inefficiencies/mispricing and trading spreads within an asset class (e.g., volatility arbitrage in the options market, convertible arbitrage in stock vs. convert trading). Long-Only: Often associated with value investing, long-only funds only take long positions on the common equity of companies they believe are undervalued with a longer-term holding horizon. Short-Only: Short-selling specialists pursue overvalued stocks. However, the most prominent short-only funds are associated with uncovering accounting frauds or other types of malfeasance. Market Neutral: Like a long-short fund, but will pair long and short trades to mitigate market risk."
+  },
+  {
+    "id": 146,
+    "question": "What is the investment rationale behind the long-short strategy?",
+    "answer": "When an investment firm goes “long,” it purchases a stock that it believes will increase to turn a profit. The opposite being the firm goes “short” on companies with share prices they expect to decrease. So if the share price goes down, the firm profits. Each equity investment contains some components of market and industry and company-specific risks. The objective of long-short investing is to hedge the market risk (i.e., cancel out the market risk) and then the industry and company-specific risk to some extent, so they're not on the wrong side in case the economy's trajectory suddenly flips."
+  },
+  {
+    "id": 147,
+    "question": "How does a long-short fund differ from an equity market-neutral (EMN) fund?",
+    "answer": "A long-short fund and an equity market-neutral fund (\"EMN\") are closely aligned, and at an initial glance, they appear to share the same goal. The difference is that a market-neutral fund will ensure the total value of long and short positions are close to being equal as possible to lower the portfolio risk, which is closer to the original intent of a hedge fund. For this reason, market-neutral funds exhibit the lowest correlation with the market, and the goal of an equity market neutral fund is to generate returns independent of market movements. A distinct feature of a market-neutral fund is that it always yields positive returns, even if it could mean losing out on the more potential upside (i.e., limited upside). From a returns perspective, an EMN fund appears the least exciting overall, but it remains consistent with its objective of having no correlation to the equity markets. Long-short hedge funds are similar in that they take long-short positions to hedge their investments, but they're more lenient on the portfolio's rebalancing. This means they don't require a perfect balance between longs and shorts, and if a certain market trend is performing well, they'll try to let the profits continue (even if the risk increases). Unlike EMN funds that have portfolio betas close to zero, long-short funds will have positive betas and have a direction while hedged (e.g., net long or net short) based on their market outlook."
+  },
+  {
+    "id": 148,
+    "question": "Broadly, what is the purpose of hedging?",
+    "answer": "Hedging is a strategy used by an investor or a company to mitigate the risks of an investment. Hedging usually involves investing in derivative products that will be profitable if the market moves in the opposite direction the investor expects. While it may lower the potential upside, it provides downside protection in return."
+  },
+  {
+    "id": 149,
+    "question": "What is the difference between gross and net exposure?",
+    "answer": "Two terms that are frequently thrown around in the hedge fund industry when discussing measures of risk are gross and net exposure. Gross exposure is a leverage metric, whereas net exposure is a market risk metric. Gross Exposure: Gross exposure is defined as the percentage of a portfolio invested in longs, plus the percentage that's short. If the gross exposure is in excess of 100%, the portfolio is levered (e.g., using borrowed funds). Gross Exposure = Long Exposure % + Short Exposure %. Net Exposure: Net exposure is calculated as the percentage of a portfolio invested in longs minus the percentage of the portfolio that's short. Net Exposure = Long Exposure % - Short Exposure %."
+  },
+  {
+    "id": 150,
+    "question": "What is a maximum drawdown?",
+    "answer": "The maximum drawdown (MDD) is a measure of a portfolio's maximum downside risk over a period. The MDD is viewed as the maximum potential loss as the question being answered is: “What is the most an investor might lose?” MDD = (Peak Portfolio Value - Lowest Portfolio Value) / Lowest Portfolio Value. As shown above, the MDD formula shows the largest percentage drop in a portfolio's value based on the peak and lowest points of a portfolio. But be mindful that for MDD to be a meaningful measure of risk, the portfolio should have become active in the market for more than a decade at a minimum to ensure the portfolio has undergone at least one full economic cycle and experienced at least one major bear market."
+  },
+  {
+    "id": 151,
+    "question": "How do investment strategies based on beta, enhanced beta, and alpha differ?",
+    "answer": "Beta: Roughly, beta is the correlation of your portfolio with the broad market. If your portfolio has a beta of 1.0, then if the stock market goes up 10%, you would expect your portfolio to go up 10% too. Beta strategies track an underlying index, most often the S&P 500. Enhanced Beta: Strategies that track an underlying index but outperform Beta by adding an Alpha strategy (called “overlay”). Enhanced beta is still classified as passive investing and tracks an index, for the most part. However, there are some additional adjustments to the holdings to achieve greater returns, such as taking market capitalization and dividend payments into considerations (i.e., added element of active management to adjust the proportion of the weighting of specific stocks to outperform beta while remaining risk-averse). Alpha: In contrast, alpha is the excess return amount above the market return and measures the out-performance of a certain security or portfolio, achieved with above-market returns. Said another way, alpha involves the uncorrelated returns to the market. When portfolio managers discuss alpha, they're almost always referring to “beating the market.”"
+  },
+  {
+    "id": 152,
+    "question": "Explain the merger arbitrage investment strategy?",
+    "answer": "The merger arbitrage investment strategy is when an investor purchases the shares of a company undergoing an M&A deal. The investor can take advantage of inefficiencies in pricing surrounding M&A, as it often takes time for the market to digest the recent information and settle on a valuation. The investor can profit from the uncertainty that exists as the market evaluates an announced acquisition. The overarching aim is to profit from the spread between the current market price and the announced acquisition price."
+  },
+  {
+    "id": 153,
+    "question": "What is the event-driven turnaround investment strategy?",
+    "answer": "The goal is to capitalize on a particular event, ranging from a regulatory change to a full operational turnaround. The ideal investment characteristics are underperformance vs. peers with a strong, aligned management team. The right team is of high importance because they execute the turnaround strategy. The investor would examine the management team's track record and see if they have any relevant history in turnaround situations and what makes them the right leaders for the job."
+  },
+  {
+    "id": 154,
+    "question": "What is activist investing?",
+    "answer": "In activist investing, poorly run and underperforming companies are targeted by turnaround specialists that will push for changes in either management practices or completely replace the management team. A key distinction is that the catalyst to the turnaround is the entrance of the activist investors themselves. The public announcement of an investment by a well-known activist investor alone can cause a company's share price to spike, as investors expect drastic changes to come. For example, an activist investor could take a large equity stake in a company intending to drive the management's strategic decisions (or maybe even replace the team). Their goal is to convince existing shareholders that there's hidden value in the company that the current management is not extracting (and thus, the company is undervalued). Even though their investment is a minority stake, these activist investors can often change a company's trajectory (e.g., Starboard Value, Elliott Management) and influence an underperforming company."
+  },
+  {
+    "id": 155,
+    "question": "What does convertible bond arbitrage mean?",
+    "answer": "The convertible bond arbitrage strategy is when an investor will take a long position on a convertible bond and then short the underlying stock. The investor would then benefit from the difference in pricing between the convertible bond and the share price. If the share price declines, the investor can benefit from the short position taken, and thus there'll be more downside protection. But if the share price increases, the investor can convert the bond into shares and then sell, earning enough to cover the short position (and again minimize the downside)."
+  },
+  {
+    "id": 156,
+    "question": "What is momentum investing, and how does it differ from GARP?",
+    "answer": "Richard Driehaus, of Driehaus Capital Management, is often credited as being the father of momentum investing. The general theme of momentum investing is: “buy high, sell higher.” The momentum investing strategy strives to capitalize on the continuance of ongoing trends in the market – hoping the trend persists. The difference from GARP investing is that momentum investing relies more on technical indicators to decide trades, rather than being value-oriented and looking for high-growth but still undervalued companies. The holding period is shorter in momentum investing as it intends to take advantage of trends that are often driven by human emotion, which coincides with overvaluations of certain equities."
+  },
+  {
+    "id": 157,
+    "question": "How does momentum investing differ from mean reversion?",
+    "answer": "Momentum Strategies: Momentum-based strategies rely on the continuance of existing market trends to ride the upward trend. Recently, securities (or a specific asset class) have performed well, and these investors believe there's still more upside remaining for profits to be made. Mean Reversion Strategies: Mean reversion based strategies pursue unusually large drops or increases in pricing due to market over-reactions (either oversold or overbought) and then place bets that the price will revert towards the mean."
+  },
+  {
+    "id": 158,
+    "question": "How does quant vs. human investment strategies compare?",
+    "answer": "Systematic Strategies Rules-Based: Investments are unaffected by emotion – the most frequently cited reason for misjudgment. Data Capacity: Systems can interpret and analyze more data and inputs in volume and speed. Machine Learning (ML): Systematic strategies will adapt and continuously improve over time. Back Tested: These systems can identify which specific strategies would have worked in the past to help guide future decisions (i.e., run simulations of how a strategy would have performed). Human Traders Adaptability: Traders are more experienced, can adjust to market changes, and can pick up sudden sentiment changes that computers cannot capture. More Resourceful: Capable of capturing more market color and feedback that's not in electronic format (e.g., salesperson calls, investor presentation meetings)."
+  },
+  {
+    "id": 159,
+    "question": "How does a hedge fund with a global macro strategy invest?",
+    "answer": "A hedge fund with a global macro strategy bases its investments on the overall economic and political environment. The relations between countries and macroeconomic trends can affect numerous financial instruments. Thus, a global macro fund's holdings are more diverse relative to traditional hedge funds and include common equity, fixed income, currencies, futures on commodities, and other specialized options. The strategy will shift based on changes in economic policies, global events, and changes in foreign policies/regulations as these present the investment opportunities that these global macro funds seek and then actively pursue. The fund’s focus will often be on liquid broad indices rather than specific equities, which is why macro hedge funds are very active in rates, currencies/FX, commodities, and equity indices."
+  },
+  {
+    "id": 160,
+    "question": "Most large institutional asset management firms are multi-strat. What does this mean?",
+    "answer": "Most institutional investors that manage billions of dollars, such as Blackrock, are considered multi-strat, which is a catch-all term for having a diversified combination of investment strategies. Given the various strategies employed, this type of approach provides more stability in returns and has more downside protection. For example, a multi-strat investment firm will invest in equities, bonds, real estate, and private equity to spread its capital allocation and de-risk its portfolio holdings. Considering their AUM, capital preservation often takes priority over achieving outsized returns."
+  },
+  {
+    "id": 161,
+    "question": "Why would it be incorrect to compare a hedge fund’s returns to the market return?",
+    "answer": "Traditionally, hedge funds were never intended to be investment vehicles to “outperform” the markets. Instead, hedge funds provided their investors with decent risk-adjusted returns regardless of the market conditions. As the name suggests, they serve as a “hedge” against the market, and wealthy investors would park a small portion of their wealth into funds, rather than placing 90%+ of their net worth into these funds, as many people falsely assume that they do. During bull markets, funds would have relatively decent returns, whereas, during bear markets, funds would again have decent returns. Many investors, particularly those in favor of long-term value investing, criticize the high active management fees and argue that index funds would be a better strategy, but under the false presumption that hedge fund LPs share the same belief system as them. However, over the years, the objective of hedge funds has significantly shifted, and many fund managers explicitly aim to outperform the market in both bull and bear markets."
+  },
+  {
+    "id": 162,
+    "question": "Why does it become more difficult to achieve high returns as a fund grows in AUM?",
+    "answer": "If the assets under management (AUM) of a firm grow, achieving high returns becomes increasingly difficult. The reason being large firms are considered “market movers,” meaning each of their actions is closely followed and the sheer size of their investments alone can cause the pricing of a stock to move up or down. For example, if a large firm sells its shares, other investors in the market could assume they're selling for a reason (i.e., under the belief the firm has more information than them), purchase demand will shrink, and the price will fall. Given the reasons above, large asset managers cannot invest in small-cap stocks, and instead, they're limited to invest in large-cap stocks since the impact their decisions have is lessened. But because large-cap stocks are widely followed by equity research analysts and investors alike, these assets are more efficiently priced. Hence, many small-cap oriented funds place a cap on their AUM, even if they could raise more capital. These firms specialize in small-cap companies, where they believe the likelihood of finding mispriced securities is higher and they could achieve the highest returns for their investors."
+  },
+  {
+    "id": 163,
+    "question": "Tell me about the Modern Portfolio Theory (MPT).",
+    "answer": "Introduced by Economist Harry Markowitz, the premise on which the Modern Portfolio Theory (MPT) is built upon is that “efficient portfolios” can be constructed in which the expected return can be maximized for a level of market risk with the proper allocation. Simply put, MPT is maximizing the return investors could achieve from their portfolio while bearing the least amount of risk possible (for their targeted return). A central idea of MPT is that an asset shouldn't be assessed as a standalone investment from a risk standpoint but based on its contribution to the overall portfolio. Meaning, the portfolio beta matters more when selecting investments for a portfolio, rather than considering only the asset's individual beta. The relationship between risk and return of various portfolios would be plotted to determine the optimal asset allocation at each risk level where the expected return is maximized. Although systematic risk is unavoidable, diversified assets in a portfolio that are not correlated with one another can reduce the unsystematic risk of a portfolio. In a well-diversified portfolio, the total risk in the portfolio should be mostly systematic risk."
+  },
+  {
+    "id": 164,
+    "question": "What is the Sharpe ratio and why does it have such popularity among investors?",
+    "answer": "The Sharpe ratio was developed by William Sharpe, who is also responsible for the CAPM model. The ratio is one of the most widely referenced metrics in academics, certain institutional investors, and everyday investors due to its simplicity. The use case is to assess the risk/return of a portfolio, or an individual investment, although most use it for a group of investments (e.g., mutual funds). Sharpe Ratio = (Rp - Rf) / σp. The Sharpe ratio begins by subtracting the risk-free rate to isolate the excess return of the portfolio. The excess return is then divided by the portfolio's standard deviation (a proxy for portfolio risk). A ratio below 1.0 would be considered a sub-par portfolio return considering the risk undertaken, while a ratio above 1.0 being acceptable and beyond 2.0 is rated as a well-performing portfolio on a risk-adjusted return basis (with 3.0+ being exceptional). The frequent critique of the Sharpe ratio is how total portfolio risk is proxied by the portfolio's standard deviation, which is an oversimplified assumption that all equity returns are on a normal distribution. For this reason, there are many variations of the Sharpe ratio that account for portfolio risk in different ways, such as the Sortino ratio, which uses downside deviation rather than the total standard deviation of portfolio returns."
+  },
+  {
+    "id": 165,
+    "question": "Why do many investors disregard equity research reports?",
+    "answer": "An equity research report is a document that provides a formal recommendation on whether investors should buy, hold, or sell shares in a specific public company. However, most equity research analysts have an inherent bias to be more positive about a stock. Equity research analysts have an incentive to give “buy” recommendations to maintain close relationships with the company's management teams being assessed. If an equity research analyst scrutinizes a company, it may not take future calls from that analyst. The investment banking division may also indirectly benefit if the company has a close relationship with the equity research division. This could lead to assignments helping the company if it raises capital or makes an acquisition in the future. The skewed rating system is well known across the market; for example, if an analyst issues a “hold” recommendation for a company, this is usually interpreted as a very negative signal by the investor community. In addition, equity research analysts are legally restricted from investing in the companies under their coverage group due to regulations to prevent a conflict of interest. For these reasons, it's important for investors to not take equity research reports at face value and instead make their own decisions."
+  },
+  {
+    "id": 166,
+    "question": "What would happen if the US stopped requiring quarterly earnings reports?",
+    "answer": "Under SEC requirements, public companies in the US must file quarterly reports. This became a topic of debate after many prominent CEOs and investors such as Jamie Dimon, Elon Musk, and Warren Buffett expressed their agreement with modifying the quarterly filing requirement, under the reasoning that quarterly reporting places too much pressure on the management teams to meet quarterly EPS and earnings expectations. Counter-Arguments Management teams that desire longer gaps between reporting periods could be hoping to conceal their poor performance. Although many acknowledge quarterly reports can lead to short-term oriented decision-making at the expense of a long-term strategy, one can attest that hitting short-term targets is proof that a long-term strategy is working. Any company can make poor choices, underperform, and then claim they're employing a long-term strategy. If short-term EPS targets distract a qualified management team from wise decision-making, they likely are not qualified to be running a public company. Shareholders are owners of the business and would create further distance between managers and shareholders (i.e., worsen the “agency problem”). As partial owners, shareholders should have the right to be aware of recent performance and company news. The lack of available information on what's going on within companies could make equities less attractive to risk-averse investors. The market would become less efficient since less public information is available. Thereby, market volatility would decrease during non-reporting periods while reporting periods would see substantial price movements (i.e., leading to instability in markets)."
+  },
+  {
+    "id": 167,
+    "question": "Walk me through the process of a hedge fund shorting a stock.",
+    "answer": "Short selling is when an investor predicts a short-term decline in the price of a particular security. For an investor to short a stock, it means the investor has “borrowed” the security from a broker and sold it in the open market, under the belief they'll repurchase the shares for a lower price later. First, the hedge funds will go onto the exchange and sell the shares that they have borrowed from a securities lender or broker – meaning, they sold a stock that they don't actually own on paper. Once the hedge fund wants to exit their short position, they'll re-purchase the shares and return the shares they bought to the lender. If the short went as planned (i.e., the share price dropped), then the hedge fund’s profit will be the difference between the purchase and sale price, less any associated fees paid to the lender – so the hedge fund has bought it back at a lower price than what they had sold the shares."
+  },
+  {
+    "id": 168,
+    "question": "Name two of the key metrics to assess short interest.",
+    "answer": "Short Interest Ratio: Total number of shares shorted and open positions not bought back as reported by the exchange, divided by average trading volume Short Interest Ratio = Short Interest / Average Trading Volume. Short % of Free Float: Short interest as a percentage of Free float, or the number of shares available to be traded (excludes insider owned shares) Short % of Free Float = Short Interest / Free Float."
+  },
+  {
+    "id": 169,
+    "question": "Tell me about the difference between index shorting and alpha shorting.",
+    "answer": "Index Shorting: Index shorting can involve shorting an index such as the S&P 500 or buying put options on an index to hedge out the long positions. Alpha Shorting: Alpha shorting refers to taking individual short positions to make a profit. Funds will employ both approaches, but alpha shorting is much more difficult."
+  },
+  {
+    "id": 170,
+    "question": "What is the difference between shorting a stock and purchasing a put option?",
+    "answer": "For shorting a stock, the investor has unlimited downside potential. Recall that short-selling means the investor sold a stock that they technically don't actually own, believing that they'll purchase it for a lower price in the future (i.e., the potential share price upside is unlimited). When purchasing put options, the maximum loss is limited to the initial investment amount."
+  },
+  {
+    "id": 171,
+    "question": "Could you explain what a short squeeze is?",
+    "answer": "A short squeeze occurs when there's much short interest on a particular stock, and then positive news comes out. Many short sellers simultaneously attempt to cover their short positions at once, which causes a rapid increase in the share price. A short squeeze accelerates a share price’s upward movement as short-sellers attempt to buy back the stock and cut their losses."
+  },
+  {
+    "id": 172,
+    "question": "List some characteristics of an ideal short.",
+    "answer": "Complacent incumbents facing a threat from innovative new entrants – must assess the management’s willingness to adapt and the likelihood of a proper reaction (e.g., Nokia’s failure to adjust). Companies focused on consumer euphoria – significant short-term interest in a consumer-oriented product (i.e., the demand is driven by a consumer-led “fad”). Incumbents that are unlikely to exist in the future (e.g., physical newspaper business) and don't appear to be making any effort to adjust to the changing environment. Signs of accounting fraud or allegations made by credible sources"
+  },
+  {
+    "id": 173,
+    "question": "Why do many investors pay such close attention to special situations?",
+    "answer": "Special situations refer to specific event catalysts that could cause significant price movement in the near-term (or long-term) future. The term special situation is an umbrella term for many transactional, corporate restructuring, or financial engineering efforts completed by companies. The common theme among these examples is they present potential arbitrage opportunities. There is significant empirical evidence suggesting that spin-offs, split-offs, and divestitures can present positive value investment opportunities. Many examples of special situations are related to M&A, including spin-offs, split-offs, merger arbitrage, and tender offers. Others are related to internal decisions such as new management teams, restructuring plans (turnaround strategy), recapitalizations, and more."
+  },
+  {
+    "id": 174,
+    "question": "Specifically, what does it mean when an investor is a “contrarian” investor?",
+    "answer": "The simplest answer is that contrarian investors attempt to find investment opportunities that go against the consensus view. But the more detailed response is that contrarian investors invest in companies the market has given up on, either following poor performance or because future prospects appear bleak. The contrarian investor is implicitly investing under the belief that the markets over-react or neglect certain factors that have distorted a company's pricing. A contrarian investor nearly always takes on a contrarian mindset when searching for investments, but the common misconception is that they constantly invest differently just for the sake of being a contrarian. Instead, contrarians are extremely patient and rarely make an investment unless they have sufficient conviction to take on this bet against the consensus. The basic principle of being a contrarian investor is the ability to think for oneself and being able to develop a set of views independent of what other people around you believe or want you to think. While this quote was said in the context of VC investing, Reid Hoffman, the co-founder of LinkedIn and partner at Greylock, said, “It's actually pretty easy to be a contrarian. It's hard to be contrarian and right.”"
+  },
+  {
+    "id": 175,
+    "question": "Why have so many hedge funds closed in recent years?",
+    "answer": "Source note: The recent-performance comparison below reflects the period when the PDF was written. In aggregate, hedge fund returns have compressed in recent times and underperformed the S&P 500 over the past decade. The increased AUM in the market has made it more difficult to find good investment opportunities. Because of this, many large, brand-name funds have closed and returned capital to their investors. And given the increased competition, some ways that hedge funds are becoming increasingly sophisticated are the usage of satellite imagery, point-of-sale data, credit card data, and the employment of data scientists. The need for a hedge fund to be differentiated and carve out a unique niche to achieve outsized returns has never been greater – but this is far easier said than done in reality."
+  },
+  {
+    "id": 176,
+    "question": "What is the purpose of diversification in portfolio management?",
+    "answer": "Portfolio diversification is when a portfolio contains investments in diverse industries, asset classes, and geographies. The end objective is to limit exposure to one asset class or particular risk and construct a portfolio of holdings that are not correlated while still attempting to maximize returns (i.e., nearly all unsystematic risk is eliminated). The chosen investments shouldn't be correlated with one another, or else that would defeat the purpose of diversification."
+  },
+  {
+    "id": 177,
+    "question": "Broadly, could you define what value investing entails?",
+    "answer": "Value investing could be best described as the strategy of finding temporarily mispriced stocks trading for less than their intrinsic values, under the belief that the market is undervaluing these companies. From their viewpoint, these opportunities arise because the market is emotional and often overreacts to good or bad news, resulting in share price movements that incorrectly align with the company's long-term fundamentals in question. By purchasing equities at deflated prices, they seek to profit from share price appreciation once the market corrects itself. To recap, value investing is essentially attempting to capture some level of disconnect between the current trading price and the company's true intrinsic value (that's not immediately apparent to the market). The value investor will then attempt to identify the catalyst that would make the market realize the company is undervalued, but by then, the investor would have purchased the security at the discounted price."
+  },
+  {
+    "id": 178,
+    "question": "What does it mean when a security has a sufficient margin of safety?",
+    "answer": "A margin of safety is one of the fundamental concepts of value investing in which a security is purchased only when the share price is significantly below its intrinsic value. The margin of safety serves as an investor’s downside risk protection and can be thought of as the difference between the estimated intrinsic value and the current share price. Said another way, the margin of safety is the buffer that value investors place into their investment decision making to protect them against downside risk if the share price drops post-investment. Rather than shorting stocks or purchasing puts, many value investors view this as their primary method to mitigate investment risk. Margin of Safety (MOS) = 1 - (Current Share Price / Intrinsic Value). Often, many value investors will not invest in a security unless the margin of safety is ~20-30%. If the MOS hurdle is 20%, the investor will only purchase a security if the current share price is 20% below the intrinsic value based on their valuation."
+  },
+  {
+    "id": 179,
+    "question": "How do you determine whether a company has an “economic moat” or not?",
+    "answer": "An 'economic moat' is the competitive advantage of a company and the factors that protect its profits from competitors. The moat will be evident in the company's unit economics, such as consistent operating performance and high margins, and may be caused by patents, proprietary technology, branding or reputation, product or service value, switching costs, or network effects. These traits should not be easy for competitors to replicate and may come with barriers such as high switching costs or capital requirements. Said another way, an economic moat refers to a company's ability to maintain its competitive edge over competitors and protect continued long-term profit generation. The stronger and more defensible the advantage, the more difficult it becomes for new entrants to breach the moat and take market share."
+  },
+  {
+    "id": 180,
+    "question": "Why would an investor use the “Scuttlebutt method”?",
+    "answer": "Coined by Phil Fisher in his book “Common Stocks and Uncommon Profits,” the Scuttlebutt method refers to investing based around going out and conducting your own proprietary research (i.e., listen for rumors, observe surrounding developments, observe stores), rather than just reading equity research reports and financial news, and relying on the opinions of others. This type of diligence involves talking to all kinds of people (e.g., customers, employees, industry experts) to gain their insights and identify trends by gathering your information and then making investment decisions based on your intuition."
+  },
+  {
+    "id": 181,
+    "question": "Why does Warren Buffett dislike the EBITDA metric?",
+    "answer": "Warren Buffett and Charlie Munger are both known for having a particular distaste for management teams and equity research analysts using the EBITDA metric. In Berkshire Hathaway’s 2000 shareholder letter, Buffett famously wrote, “References to EBITDA make us shudder – does management think the tooth fairy pays for capital expenditures? We're very suspicious of any accounting methodology that's vague or unclear since too often that means management wishes to hide something.” Given how EBITDA neglects capex, Buffett doesn't believe EBITDA is a true representation of a company’s financial performance. Failing to account for capex would particularly apply to capital-intensive industries such as manufacturing."
+  },
+  {
+    "id": 182,
+    "question": "What is Warren Buffett’s view on the capital asset pricing model (CAPM)?",
+    "answer": "Warren Buffett has a negative view of the capital asset pricing model (CAPM) due to his disagreement with beta as a measure of risk. From his perspective, CAPM is ineffective because it mistakes volatility as a risk when in reality, it could represent an opportunity to purchase undervalued securities (rather than being a sign it's a risky, less valuable investment that should be avoided). Buffett has been very outspoken about this topic, going as far as calling beta nonsense, and has stated how in his and Charlie Munger’s opinion, “Volatility is no measure of risk to us.” Instead, Buffett defined risk as “the possibility of harm or injury.” Contrary to what’s taught in academic literature, volatility doesn't equate to risk according to Buffett. This means that the higher the chance you might lose your initial capital, the riskier the investment is. How you determine the probability of losing your capital is based on the quality of the fundamentals of the business, the margin of safety (pricing vs. intrinsic value), and doing enough research into every aspect of the business as risk comes from ignorance."
+  },
+  {
+    "id": 183,
+    "question": "What is the difference between value investing and deep value investing?",
+    "answer": "Value investing and deep value investing are price-focused strategies to profit from companies trading at a discount to their NPV. While the definition is subjective, deep value investors are distinct for refusing to pay a higher price for quality. This means they're often willing to make reasonable bets on cheap equities despite a clear deterioration in quality, including weak recent financials, ineffective growth strategies, and incompetent management teams. The reasoning behind this is that deep value investors believe quality is already priced in. Thus, the only way to make outsized returns in the market is by searching for opportunities where the investors have over-reacted to bad news (often terrible news) on underperforming companies. Many deep value investors speculate on a new turnaround strategy once rock bottom has been reached, as this would imply a restructuring of some sort, such as a new management team and the sale of non-core assets. An activist investor may frequently step in and help initiate a change of course for the business, precisely the type of catalyst the deep value investor is waiting on."
+  },
+  {
+    "id": 184,
+    "question": "How do value investors deal with volatility in share price movement?",
+    "answer": "Simply put, value investors have a long-term thesis and therefore ignore short-term movements. Often, a value investor will hold a security for 5+ years and invest with the mindset of \"never selling.\""
+  },
+  {
+    "id": 185,
+    "question": "Explain to me what the purpose of dollar-cost averaging (DCA) is.",
+    "answer": "Commonly recommended by practitioners of value investing, the practice of dollar-cost averaging (DCA) refers to committing to buying shares at pre-determined intervals. This can be useful during periods of market volatility and prevent an investor from attempting to “time the bottom.” If the stock price decreases, then the investor can simply purchase more to lower the average cost paid on a per-share basis. But if the price increases, the investor can either continue purchasing (if still undervalued based on their beliefs) or pursue other opportunities in the market."
+  },
+  {
+    "id": 186,
+    "question": "Explain the growth at a reasonable price (GARP) investment strategy?",
+    "answer": "Growth at a reasonable price (GARP) is a hybrid investment strategy that combines growth investing and value investing. GARP could be best described as profiting from a company trading at a material discount on an earnings basis but not to the same extent as traditional value investments. The GARP investment strategy is based on finding high-quality companies with a sustainable competitive advantage, above-market consistent earnings growth, and large market potential. Then, the NPV of the cash flows will be determined with the growth potential incorporated to see if the company is undervalued. While this is not necessarily pure value investing, it's a reasonable compromise that many investors have adopted."
+  },
+  {
+    "id": 187,
+    "question": "What are value traps?",
+    "answer": "Investors new to value investing will frequently fall into the so-called value trap. This fallacy is the false belief that a particular stock is currently undervalued because it has fallen out of favor with the market and dropped significantly in recent weeks or months. Because these investments appear to trade at such low levels compared to the prior levels, many investors will view this as a buying opportunity. However, the fall in price is misleading, as there's usually a good explanation for the decrease in valuation."
+  },
+  {
+    "id": 188,
+    "question": "Explain the efficient market hypothesis (EMH) and its three forms?",
+    "answer": "Introduced by Eugene Fama, the efficient market hypothesis (EMH) theory asserts that asset prices fully reflect all available information. Following the release of new information or relevant data, prices will automatically adjust instantaneously to reflect the accurate price within a matter of seconds. Weak Form EMH: The weak form of the EMH states that all past information such as historical trading prices and volume data is reflected in current asset prices. Semi-Strong EMH: The semi-strong form of the EMH states that all publicly available information is reflected in current asset prices. Strong Form EMH: The strong form of the EMH states that all public and private information (including inside information) is reflected in current asset prices."
+  },
+  {
+    "id": 189,
+    "question": "If the efficient market hypothesis were true, what implication would this have on active management?",
+    "answer": "Since the EMH theory contends the current prices reflected in the market already reflect all information, an attempt by an investment manager to outperform the market by finding mispriced securities or timing the performance of a certain asset class in an industry is a game of chance rather than skill. If the efficient market hypothesis were strong form efficient, there would be no point in active management. It is important to note that EMH by its definition is referring to the long-run. Therefore, if an investor purchased a temporarily undervalued stock (by their definition) and then sold for an above-market return – that doesn't invalidate the EMH theory. Rather, most proponents of EMH suggest that these types of occurrences are rare and not worth the effort (and active management fees) over the long-term."
+  },
+  {
+    "id": 190,
+    "question": "Why has passive investing become more popular for everyday investors?",
+    "answer": "Index funds such as mutual funds and exchange-traded funds (ETFs) are convenient for the everyday investor to participate in the markets. The widely held belief among the passive investing community is that it's very difficult to beat the market, and it would be a futile attempt when investment professionals that spend considerable resources and time on analyzing securities struggle to do so consistently."
+  },
+  {
+    "id": 191,
+    "question": "How does the random walk theory differ from the efficient market hypothesis?",
+    "answer": "The random walk theory similarly concludes that attempts to predict share price movements accurately are futile, and past successes are due to luck rather than actual skill. The random walk theory is a hypothesis that assumes the share price changes in the financial markets are due to random, unpredictable events that nobody can predict. In contrast, EMH is the theory that asset prices perfectly reflect all the information available in the market. Under this assumption, a company’s share price can neither be undervalued nor overvalued, but it's precisely trading where it should be because the market is efficient."
+  },
+  {
+    "id": 192,
+    "question": "What is the role of the sales & trading division in an investment bank?",
+    "answer": "Sales & Trading is the division of an investment bank responsible for selling issuances of stocks, bonds, and derivatives. Sales Division: The salespeople work more closely with institutional investors such as large asset managers, hedge funds, insurance companies, pension funds, and other buy-side investors to pitch ideas and buy or sell securities or derivatives. Simply put, the sales division manages the communication and relationship building with clients on behalf of the investment bank. Trading Division: Traders make a market and execute trades on behalf of the investors they represent. Unique to this role, sometimes traders have their own trading book where they can take positions and generate a personal P&L. Traders need to be quick with mental math, have the quantitative skills to understand complex products, and have an intuitive understanding of markets to spot mispricing."
+  },
+  {
+    "id": 193,
+    "question": "What is a derivative?",
+    "answer": "A derivative refers to a financial instrument in which its value is derived from an underlying asset or index. Some of the most common derivatives include options, futures contracts, forwards, and swaps. For example, a call option tied to a particular stock would be an example of a derivative, since the option's value depends on the company's share price."
+  },
+  {
+    "id": 194,
+    "question": "What are options?",
+    "answer": "Options are financial derivative instruments that give the holder the right, but not the obligation, to purchase or sell an underlying asset at an agreed-upon price. This right will have a set expiration date upon which, if the option is not exercised, it'll expire worthless."
+  },
+  {
+    "id": 195,
+    "question": "What is the difference between a call and a put option?",
+    "answer": "Call Options: Call options are financial contracts that give the owner the right, but not the obligation, to buy an underlying asset at a pre-specified price within a period. If the option holder believes the price of the underlying asset will increase (“bullish”), they'll purchase calls because the value of a call option will increase as the underlying asset's value increases. Put Options: Put options, in contrast, are contracts that give the owner the right, but not the obligation, to sell an underlying asset at a pre-specified price within a period. If the option holder believes the price of the underlying asset will decrease (“bearish”), they'll purchase puts since the value of a put option increases as the underlying asset's value decreases."
+  },
+  {
+    "id": 196,
+    "question": "Tell me the differences among options that are in-the-money, out-of-the-money, and at-the-money.",
+    "answer": "In-the-Money (“ITM”): If an option is “in-the-money” (ITM), this means that the option is profitable to exercise. For a call option, an ITM option would mean that the option price of the underlying asset is above the exercise price (or strike price). Out-of-the-Money (“OTM”): If an option cannot be exercised profitably, it's referred to as being “out-of-the-money” since the option has no intrinsic value. At-the-Money (“ATM”): When an option is at-the-money, this means the option’s strike price is equal to the price of the underlying security. An ATM option, similar to an OTM option, has no intrinsic value but could still have time value depending on the expiration date."
+  },
+  {
+    "id": 197,
+    "question": "What are cash equities trading groups at investment banks?",
+    "answer": "Within investment banks, the equities groups are split between cash equities and derivatives. The term “cash equities” is another term for stock trading commonly used when discussing sales & trading. The set-up of a cash equities group is completely different today due to the diminished requirements for actual traders on the floor or market makers due to the reliance on electronic trading. Nowadays, most investment banks have only a handful of cash equity traders globally, as opposed to the hundreds formally employed in the last decade."
+  },
+  {
+    "id": 198,
+    "question": "What does a book of orders consist of on trading exchanges?",
+    "answer": "During the period of open-trading (or “continuous market-making”), there's a book of orders that contains bids and offers. Bids: Bids are when there's interest to purchase the security from buyers. Offers: Offers are when existing holders are interested in selling the security to the open market. Each order has a price and the number of shares at that specific price. Orders are then automatically ranked, with the highest bid at the top and the lowest sell offer at the top."
+  },
+  {
+    "id": 199,
+    "question": "What is the indicative cross size?",
+    "answer": "The indicative cross size calculates the number of shares that can connect buyers with sellers at a specific price point. The closing price would be the price with the highest cross size (i.e., the price at which you can get the maximum number of buyers and sellers to exchange shares)."
+  },
+  {
+    "id": 200,
+    "question": "List some key volume indicators used by traders.",
+    "answer": "Volume: The total number of shares that are traded within a day. A stock with a higher average daily volume means you can trade more shares before moving the price. VWAP: VWAP stands for the “volume-weighted average price.” This indicator measures the average price based on actual trading volumes. Depth: The depth reflects the total buy and sell orders currently on the order book and is used to measure how much one could purchase in terms of volume without “moving markets.”"
+  },
+  {
+    "id": 201,
+    "question": "How does an order get routed?",
+    "answer": "There are multiple venues for a sales trader to send an order to: Order to the Floor: The exchange (NYSE or NASDAQ) where the stock is listed. Internalization: The bank executing the trade could provide the other side, offsetting the trade flow with their trade flows. Electronic Communication Network: ECN is a computerized stock exchange that connects buyers with sellers. Stocks are not listed on an ECN, but the ECN pays rebates taken out of the bid-offer spread to participants, which provides liquidity to the ECN. Smart Order Routing (SOR): Alternatively, SOR algorithms can scan the market and spread the order through multiple trading venues."
+  },
+  {
+    "id": 202,
+    "question": "What are some examples of off-exchange trading platforms?",
+    "answer": "Block Trades: A large number of shares are traded off the exchange, reporting requirements to FINRA (ticker, size, and the price paid), and typically traded after the market close. Dark Pools: Platforms to allow large trades to be executed without moving prices. Has reporting requirements similar to block trades, lower execution fees than exchanges, and flexibility in order types. OTCBB/Pink Sheets: Over-the-Counter Market (not exchange-traded) can be used by smaller companies that don't meet the exchange listing requirements but still need to file with the SEC."
+  },
+  {
+    "id": 203,
+    "question": "What is a stock index and how can one be traded in the public markets?",
+    "answer": "A stock index is just a tracker of a collection of equities, reflecting the price of stocks included in the index and calculated based on the index provider's rules. The index by itself is not tradable on an exchange, although there are financial instruments such as ETFs that follow these major indices (e.g., SPY, VTI, QQQ)."
+  },
+  {
+    "id": 204,
+    "question": "What are the key equity indices and their unique traits?",
+    "answer": "Source note: Constituent counts, eligibility thresholds, divisor values, and rebalancing details below reflect the PDF's historical example and should be refreshed before use. S&P 500 (Bloomberg Ticker: SPX) 500 Large Cap US Stocks selected by Standard and Poor’s (S&P) Minimum Market Capitalization of $8.2 Billion Price Return Index (Total Return Index Available) Market Capitalization Weighted (i.e., Float Adjusted) Updated Quarterly to Add or Remove Constituents (and Update Share Counts for Market Cap Weighting) DJIA (Bloomberg Ticker: INDU) Stands for “Dow Jones Industrial Average” 30 Large-Cap US Stocks (excluding Transportation and Utilities) chosen by S&P and the Wall Street Journal Price Return Index: Price-Weighted During stock splits, the share prices are multiplied by a divisor to reflect the split (divisor is ~0.147) NASDAQ 100 (Bloomberg Ticker: NDX) Largest 100 Stocks Listed on the NASDAQ Ranked in Order of Market Cap Size Price Return Index (Total Return Index Available) Market Capitalization Weighted (Not Float Adjusted) Maximum Weights Rebalanced Quarterly"
+  },
+  {
+    "id": 205,
+    "question": "What is a mutual fund?",
+    "answer": "A mutual fund is an investment vehicle for both retail and institutional investors, in which investors are pooled together and each own shares of the fund proportional to the amount invested. Most mutual funds are open-ended, allowing for investors to increase or decrease their investment. Mutual funds are typically bought and sold at the end of the day, at the fund’s net asset value (NAV). The NAV is the total value of all the securities in the fund, plus cash, divided by the number of shares. It's the value of each mutual fund share as determined by closing market prices. A few traits to be aware of are that mutual funds are regulated by the SEC and are managed by an asset manager."
+  },
+  {
+    "id": 206,
+    "question": "Could you define what an asset manager is?",
+    "answer": "An example of an asset manager would be one that actively manages a mutual fund on behalf of the fund’s investors. These asset managers are considered fiduciaries, meaning that they're hired and compensated for advising their investors and making recommendations and/or investments in the best interests of their clients."
+  },
+  {
+    "id": 207,
+    "question": "How do hedge funds differ from mutual funds?",
+    "answer": "The distinction between hedge funds and mutual funds is that hedge funds are not targeted towards retail investors. Instead, only accredited investors can invest as LPs in hedge funds. Hedge funds come with higher risks of losing capital. Thus, these strict qualification rules were put in place to protect the interests of those that can’t afford to lose a significant sum of money. In addition, hedge funds are more actively managed, use different strategies, and are resultingly compensated more due to the “2 and 20” compensation model."
+  },
+  {
+    "id": 208,
+    "question": "Would sales & traders be considered as fiduciaries?",
+    "answer": "No, sales and trading professionals are not considered being fiduciaries. Instead, sales and traders work directly with institutional and high-wealth investors that don't require (or request) advisory services. The primary role of S&T is to execute orders on behalf of clients without providing investment advice."
+  },
+  {
+    "id": 209,
+    "question": "What is an ETF?",
+    "answer": "An exchange-traded fund (ETF) is a type of financial product that tracks a specific underlying index (i.e., collection of securities, most often equities). An ETF can be viewed as a blend between a mutual fund (portfolio of investments, passive strategy, benchmarked to index) while being similar to equities by being listed and traded on exchanges. ETFs have become a very popular choice recently due to lower fees and convenience."
+  },
+  {
+    "id": 210,
+    "question": "What is the difference between the initial margin vs. the variation margin?",
+    "answer": "Initial Margin A fixed amount you need to pay to cover your credit risk, set by the Clearing Bank’s Risk Department, which may allow offsetting positions Varies based on the volatility of the underlying product Covers the cure period risk of a clearing client not making their variation margin Variation Margin (or Maintenance Margin) The Market-to-Market gain or loss you have on your position Cash or collateral is received if your position is in-the-money, but you pay cash or collateral if your position is out-of-the-money"
+  },
+  {
+    "id": 211,
+    "question": "What purpose do clearing houses serve in the derivatives market?",
+    "answer": "Following 2008, the Dodd-Frank Act required most derivatives (both exchange-traded and over-the-counter) to be formally cleared. Originally, the buyer or seller of an exchange-traded derivative would not be aware of who the counterparty is – but now, clearing houses are required to intermediate the transaction and help mitigate the credit risk. While the counterparty risk associated with derivative instruments is not eliminated by any means, the facilitation of the exchange by a 3 rd party seeks to minimize it."
+  },
+  {
+    "id": 212,
+    "question": "What is securitization?",
+    "answer": "Securitization is when financial instruments are pooled together into one group to become more marketable. The issuer will then sell this pool of repackaged assets to investors (e.g., mortgages pooled together and divided into securitized bonds). By themselves, the assets within the group would not have sufficient liquidity to be sold as a standalone product, but securitization can allow for the grouped assets to be easily tradeable in the market and thus have high liquidity."
+  },
+  {
+    "id": 213,
+    "question": "What are collateralized debt obligations (CDOs)?",
+    "answer": "A collateralized debt obligation (CDO) is a structured-financial instrument backed by a collateral pool, which can include loans and other assets. These underlying assets are offered as collateral in case the loan defaults. Often put together by investment banks, the bankers will collect cash flow-generative assets (e.g., mortgages, bonds, debt) and then repackage them into a pool and customize it based on the level of credit risk the investor is comfortable taking on. The most well-known example of a CDO would be mortgage-backed securities (MBS), a type of asset-backed security (ABS) secured by a collection of mortgages. MBS that consisted of subprime loans played a central role in the housing financial crisis and revealed one weakness of the securitization process: the lack of transparency in the assets pooled. Many felt the combination of collateral concealed the lack of quality to make the MBS appear less risky. In addition, securitization allowed for mortgage originators to originate new, low-quality mortgages and then quickly offload them through an MBS offering."
+  },
+  {
+    "id": 214,
+    "question": "Give me an overview of the mortgage-backed securities market.",
+    "answer": "Mortgage-backed securities are a very common way to finance mortgages in the US, UK, and Netherlands. The US MBS market is very large, even of greater size than the corporate bond market. Mortgage loans will first be placed into a special purpose vehicle (SPV), a holding company for the mortgages. The SPV will then issue MBS bonds. As the homeowners that took out the underlying loans make mortgage payments, they go to the MBS bondholders."
+  },
+  {
+    "id": 215,
+    "question": "How is the MBS market split in the US?",
+    "answer": "Agency Mortgages: A government agency (e.g., Freddie Mac or Fannie Mae) guarantees the mortgage loan. If the underlying homeowner defaults, the agency takes on the credit risk and repays the loan. Non-Agency Mortgages: There is no guarantee, and the bond investors take the credit risk of the underlying borrowers. This risk is reflected in the higher interest rate these borrowers pay, as well as over-collateralization, having a higher value of loans than MBS bonds issued."
+  },
+  {
+    "id": 216,
+    "question": "What is an asset-backed security (ABS), and how do they differ from MBS?",
+    "answer": "Asset-backed securities (ABS) function similarly to mortgage-backed securities (MBS). Although mortgages are technically classified as an “asset,” the differences lie in how ABS is typically used to refer to financing (e.g., credit card loans, car loans or leases, student debt). In comparison, the ABS market is smaller than the MBS market since the borrowings related to ABS are typically smaller than mortgages, especially in the US."
+  },
+  {
+    "id": 217,
+    "question": "What are collateralized loan obligations (CLO)?",
+    "answer": "Collateralized loan obligations (CLOs) are securities backed by a pool of low-rated corporate loans. CLOs are structured using low-credit rated corporate loans that are bundled together. The CLOs will have many tranches to appeal to different investors from a risk perspective. CLOs would be an example of a CDO but are unique in that usually just business loans are involved, and each distinct class of owners will receive differing yields based on the tranche and risk they're undertaking."
+  },
+  {
+    "id": 218,
+    "question": "What is a forward contract?",
+    "answer": "Forward contracts are formal agreements between two parties in which one party agrees to purchase an underlying asset from the other party at a later date. The future date of purchase and the price at which the purchase will be made will both be stated in the original agreement."
+  },
+  {
+    "id": 219,
+    "question": "What are futures contracts?",
+    "answer": "Futures are derivative instruments that serve as a contractual obligation for two parties to exchange an underlying asset at a pre-determined price at a later date. This exchange is completed regardless of the change in the asset's price (whether up or down). The buyer must either buy the underlying asset, or the seller must sell the underlying asset at the pre-specified set price. Historically, futures were most common with commodities such as bushels of corn. Physical commodities would be physically settled, meaning the commodity (e.g., corn, barrels of oil, lumber) would actually be delivered in person. But in today’s market, equity and interest rate futures have significantly higher trading volumes in comparison, which don't involve any physical delivery since they are monetary exchanges (i.e., cash-settled based on the value difference)."
+  },
+  {
+    "id": 220,
+    "question": "What is the difference between forwards and futures contracts?",
+    "answer": "The two derivatives, forward and futures contracts, are similar in that both involve agreements between two parties to buy or sell an underlying asset at a pre-determined price by a specified date. The difference is that a forward contract is a private agreement that settles at the end of the agreement term and is traded over-the-counter. A futures contract has more standardized terms (i.e., less customization) and is traded on exchanges, in which the changes in prices can be readily seen daily until the end of the contract term."
+  },
+  {
+    "id": 221,
+    "question": "How does the spot exchange rate and forward exchange rate differ?",
+    "answer": "Spot Exchange Rate: The spot exchange rate is the exchange ratio of one currency into another currency on a particular day. The key characteristics of spot exchange rates are that they're reported on a real-time basis and determined by the supply/demand of that currency relative to the same supply/demand dynamics of the other currency (i.e., set by the market). Forward Exchange Rates: In forward exchange rates, two parties will exchange currency at a specific date in the future. These deals are executed to hedge against foreign exchange risk, to which many multinational companies are exposed. Forward exchange rates can be quoted for limited durations (e.g., 30 days, 60 days, 90 days, 180 days). Distinction: The key distinction is that the rate is negotiated and agreed upon by the two parties for forward exchange rates (rather than letting the market determine the rate)."
+  },
+  {
+    "id": 222,
+    "question": "What is the difference between a warrant and a stock option?",
+    "answer": "Warrants: A warrant gives the holder the right, but not the obligation, to purchase common shares of stock directly from the issuing company at a fixed price for a pre-determined period. The key distinction is that the warrant is issued directly by a company to an investor. Therefore, if the warrant is exercised, the shares required to fulfill the agreement are issued, so warrants have more of a dilutive impact when exercised because the company will actually issue new stock. Stock Options: A stock option gives the holder the right, but not the obligation, to purchase or sell shares at a pre-specified price for a defined period. Options are commonly traded amongst investors. The exercising of a stock option has less of a dilutive impact because no new shares are issued since options are derivatives based on an underlying asset (i.e., the pre-existing common shares of the company)."
+  },
+  {
+    "id": 223,
+    "question": "What is implied volatility?",
+    "answer": "The implied volatility (“IV”) is the market’s expectations on the movement in a specific security or indexes’ price. Implied volatility has a significant role in the pricing of options contracts, as higher IV results in higher premiums (and vice versa). During periods of bearish sentiment, implied volatility typically increases, whereas when the market is bullish, the implied volatility decreases."
+  },
+  {
+    "id": 224,
+    "question": "If the implied volatility were to rise, how would option prices be affected?",
+    "answer": "The implied volatility has a significant impact on the options market. The higher the volatility of the underlying asset (e.g., share price, commodity price), the higher is the price for both call and put options (and vice versa). The reason being higher implied volatility means there's greater price movement being expected by market participants, thus increased upside and downside potential. As a general proxy, higher implied volatility (IV) indicates uncertainty in the markets that can cause swings in either direction, but it's interpreted as a bearish signal because many equity investors exit the market when there's greater uncertainty."
+  },
+  {
+    "id": 225,
+    "question": "How is the VIX traded?",
+    "answer": "The VIX is an index and not directly tradable, similar to the S&P 500. Market participants can trade VIX futures and take a view of where the calculated index will be in the future. Like other future products, VIX futures can be packaged into Exchange Traded Notes (ETNs) and bought by retail investors."
+  },
+  {
+    "id": 226,
+    "question": "If an investor wants to go long on the VIX, what factors would need to be considered?",
+    "answer": "The return of being long on the VIX is affected by the futures’ roll-yield. In normal times, the VIX curve is in a contango shape, where the level where I can lock VIX in the future is higher than the level today. The return of a long VIX strategy, whether in futures directly or ETNs, needs to factor in the cost of rolling futures due to the contango shape."
+  },
+  {
+    "id": 227,
+    "question": "What will happen to the market if North Korea invades South Korea?",
+    "answer": "This is a test of your understanding of how markets are connected and interrelated. The question to ask is: \"Is the move a risk-on move or a risk-off move?\" Here, political instability is a risk-off move. Sample Response “If North Korea invades South Korea, stocks and stock futures will fall, most notably in the direct market (say the KOSPI) and across the world. Assets would pour into safe-haven assets, US Treasuries, Gold, and currencies such as the Swiss Franc. And the prices for all these assets would increase. Yields on government bonds will go down as yields and prices are inversely related. For Corporate bonds, the overall price performance would be mixed, with the treasury yields declining offset by widening credit spreads. In terms of safe-haven currencies, the Japanese Yen, which would typically be included and has appreciated during other times of dislocation, would likely weaken in this scenario due to the geographical proximity of Japan to the Korean peninsula and interconnected economies.” Pick one asset class or part of the market you know well and dive a bit deeper. For example, you can talk about options. Sample Response “I would expect implied volatility in the market to increase substantially. Demand for puts would increase, particularly for out of the money puts, and we would see skew increase significantly. Skew is the difference between the implied volatility of out of the money puts and out of the money calls, and the supply/demand imbalance in this scenario would increase skew significantly. You could also expand into specific stocks and trading strategies you would recommend: South Korea is a large producer of cell phone components, and this disruption would affect Apple's ability to hit its sales numbers for the next quarter. I would short Apple stock and short a basket of Apple suppliers in the delta-one market using a custom basket equity swap. General Motors has a large manufacturing operation in Korea from its purchase of Daewoo. Their global sales numbers would be particularly affected if their Korean plants are offline for an extended period. I would short GM shares to express this view.”"
+  },
+  {
+    "id": 228,
+    "question": "Could you provide some examples of how swaps can hedge fixed income risks?",
+    "answer": "Swaps are financial agreements that can hedge a variety of fixed income risks, including: Interest Rate Risk: Interest rate swaps are derivatives that enable investors to convert floating rate cash flows into fixed-rate cash flows. The swap protects against the potential bond price decline caused by when bank deposit rates rise and investors want more yield to own bonds (i.e., yields rise, prices decline). An interest rate swap refers to a forward contract that usually involves the exchange of a fixed and floating rate between two parties. The contract is agreed upon by the two borrowers having different preferences for interest rates based on their specific needs (and speculations). Credit Default Risk: Credit default risk swaps are used when investors are concerned about the bond being repaid in full and demand more yield to own bonds (yields rise, prices decline) Foreign Exchange Risk: FX swaps come into play when the bond issuer pays coupons and the bond principal in a different currency – therefore, this is used to hedge against the possibility the currency's value might fall"
+  },
+  {
+    "id": 229,
+    "question": "What are the four main types of trading on Wall Street?",
+    "answer": "Proprietary Trading: In proprietary trading, traders will purchase and sell securities using the firm’s capital to make profits. Prop trading doesn't involve clients, but it functions as if it were an investment bank’s internal hedge fund. However, due to regulatory changes and the Volcker Rule, many banks have been forced to stop prop trading – instead, most banks have spun out their prop trading desks into independent hedge funds. Flow Trading: Today, most of the traders currently working on Wall Street are flow traders. Flow trading is when the bank acts as a principal, and the client decides if they want to buy or sell. Based on their decision, the trader will set the price and take the other side. Flow traders bring in profits through high volume transactions and charging a bid-offer spread on each transaction. A bid-offer spread involves making markets in a stock, bond, or a derivative, with the trader buying at a lower price (bid price) than they're selling it (ask price). Agency Trading: In agency trading, the trader executes orders on behalf of a particular client. Stocks, futures, and equity options are typically agency traded on an exchange (e.g., NASDAQ, NYSE, CME). The exchange is a natural market maker, and a flow trader is rarely needed to intermediate. An exception is large-sized trades, called block trades, which often happen off-exchange and use a traditional flow trader. Electronic Trading: Electronic trading removes human touchpoints from the trading process. The employment of salespeople and traders can be expensive, and trading in margins in certain asset classes are becoming increasingly slim. Thus, these types of automated trading platforms based on advanced algorithms are more profitable for investment banks. Electronic trading develops, sells, and supports a trading platform or algorithm. Investors can trade without having to make a call or chat with a salesperson to execute the trade. Electronic trading works best for simple, high liquidity products where there's an electronic market that could be hedged. If the platform or algorithm can connect to an exchange and trade equities or futures, electronic trading makes sense. It also works outside an exchange such as FX Spot, where market participants have moved to an electronic platform, and the algorithm can trade with other banks electronically to hedge the risk."
+  },
+  {
+    "id": 230,
+    "question": "What category of trading would most trades fall under today?",
+    "answer": "Most trades today are agency trades, in which traders employed at an investment bank will act as an intermediary between the investor and the exchange (and collect a commission). Based on the orders of the client (the investor), the sales trader will execute the trade as directed."
+  },
+  {
+    "id": 231,
+    "question": "Explain how the Volcker Rule changed the sales & trading division of investment banks.",
+    "answer": "The Volcker Rule is a section under the Dodd-Frank Act that prohibits investment banks from using their accounts for short-term proprietary trading of securities and derivatives, such as futures and options. In effect, the rule stated the investment banks could no longer perform proprietary trading. However, they can make markets through flow trading. This rule was imposed because banks were becoming too involved in the monetary gains from their trading divisions instead of focusing more on agency and flow trading (i.e., clients’ interests come first)."
+  },
+  {
+    "id": 232,
+    "question": "What is the “Chinese Wall” in investment banks?",
+    "answer": "In the context of an investment bank, the “Chinese Wall” refers to the barrier intended to separate the M&A and Capital Markets division from the Equity Research and Sales & Trading divisions. Given the amount of non-public information that the M&A and Capital Markets division possesses on their clients (e.g., potential acquisition news, plans for capital raises, IPOs), this separation blocks the exchange of confidential information. Thus, the Chinese Wall is an information barrier protecting Material Non-Public Information (MNPI) from passing from those working on the private-side to those on the public-side."
+  },
+  {
+    "id": 233,
+    "question": "What is a credit default swap (CDS), and why are they used?",
+    "answer": "A credit default swap (“CDS”) is a derivative instrument that enables an investor to “swap” their credit risk with another investor. Essentially, a CDS serves as an insurance policy whereby, upon the occurrence of a credit event, the credit protection buyer will be compensated by the seller. The buyer of a CDS is said to be buying protection (i.e., benefits if the company becomes less creditworthy and cost increases, similar to buying puts). On the other side, the seller of a CDS sells this protection, speculating that the credit will improve and can thus keep the sale price for the CDS. Later, if there's a default that must be paid out to the buyer of protection (similar to selling puts on a stock), the seller loses money."
+  },
+  {
+    "id": 234,
+    "question": "How does the CDS market differ from the options market?",
+    "answer": "The credit default swap market (“CDS”) is similar to the options market, in which investors buy or sell options in anticipation of a share price going up or down, usually to hedge an underlying position. The difference lies in how the investor is speculating that the company’s perceived creditworthiness will increase or decrease, rather than share price movement."
+  },
+  {
+    "id": 235,
+    "question": "What is an option premium, and who receives it: the buyer or seller?",
+    "answer": "The option premium is the total amount that a buyer has paid to purchase an options contract. In all instances, the seller of the option will receive the premium."
+  },
+  {
+    "id": 236,
+    "question": "What are the three components of an option premium?",
+    "answer": "Intrinsic Value: The intrinsic value of an option is the amount of profit investors would get if they immediately exercised the option. Time Value: The time value of an option is the amount that an investor will pay in excess of the intrinsic value. As the expiration date nears, the time decay of the option will cause the option premium to decline. Implied Volatility (IV): The pace of the decline will depend on the implied volatility of the stock and any potential catalysts on the horizon (e.g., investor presentation, earning report release)."
+  },
+  {
+    "id": 237,
+    "question": "If an option has more time until expiration and greater implied volatility, would you expect the premium to be greater or smaller?",
+    "answer": "The option premium would be greater since there's more time for the price of the underlying asset to increase, and more volatility means a greater likelihood of price movement in either direction."
+  },
+  {
+    "id": 238,
+    "question": "Explain the role that time decay has in the value of an option.",
+    "answer": "Time decay, which is denoted by the option Greek theta, is the measurement of the rate of decline in the value of an option from the passage of time as the expiration date nears. As the expiration date comes closer, the effect of time decay on the option's value accelerates as there's less time for the underlying asset to change in value. However, the rate of this value erosion will be slower, and the option will retain more of its value if it's currently in-the-money (ITM)."
+  },
+  {
+    "id": 239,
+    "question": "What would you expect the theta of a long-term option to be?",
+    "answer": "A long-term contract will have a theta close to zero because it doesn't lose value each passing day, and the expiration date is far away. Theta would be significantly higher for short-term options nearing expiration, especially if it's out-of-the-money. Short-term options will lose value each day, as they have more premium to lose relative to a long-term option."
+  },
+  {
+    "id": 240,
+    "question": "What is the relationship between delta and gamma?",
+    "answer": "Delta: A measure of the expected change in an option’s price resulting from a $1.00 change in the price of the underlying asset (security or index) – used by many traders to determine the likelihood of an option being in-the-money on the expiration date. Gamma: A measure of the rate of change in the delta of an option per $1.00 change in the price of the underlying asset – gamma is a proxy for the stability of delta."
+  },
+  {
+    "id": 241,
+    "question": "What is the difference between American options and European options?",
+    "answer": "The major distinction is that American-style options can be exercised before the expiration date, whereas European-style options can only be exercised on the date of expiration. For this reason, the ability to exercise an option contract before expiration makes American options more valuable than European options, all else being equal. However, whether an early exercise would have been the most profitable choice would depend on the time premium remaining on the option and the potential for events in the future that can affect its value (which cannot be predicted)."
+  },
+  {
+    "id": 242,
+    "question": "What are eurobonds?",
+    "answer": "A eurobond is a type of bond that's denominated in a currency different from the currency of the country in which the bond is being issued and sold. When spelled with a non-capitalized “e,” the term “euro” refers to external rather than Europe."
+  },
+  {
+    "id": 243,
+    "question": "What is the bid-ask spread?",
+    "answer": "The bid-ask spread is the difference between the highest price that a buyer will pay for a particular asset and the lowest price that a seller will sell it. The more illiquid an asset is, the greater the bid-ask spread will be."
+  },
+  {
+    "id": 244,
+    "question": "What is a black swan event?",
+    "answer": "A black swan event is an unexpected, very improbable event that statistically rarely occurs, but when it does – it brings havoc and severe consequences. These events cannot be predicted and often cause catastrophic damage to the global financial markets and economy."
   }
 ]
