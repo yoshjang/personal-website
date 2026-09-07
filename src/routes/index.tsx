@@ -10,7 +10,7 @@ import {
 import { Figure } from "@/components/site/Figure";
 import { photos } from "@/components/site/photos";
 
-const SITE_URL = "https://joshwang.app/";
+const SITE_URL = "https://joshuawang.app/";
 const TITLE = "Joshua Wang | Statistics, Sustainability, and Service";
 const DESCRIPTION =
   "The story of Joshua Wang: a Duke statistical science student whose work spans piano and math competitions, solar and energy research, nonprofit service in Toledo, and the financing side of sustainability.";
@@ -594,7 +594,7 @@ function SiteFooter() {
           <div>
             <p className="display-title text-2xl">Joshua Wang</p>
             <p className="chapter-label mt-2 text-background/60">
-              joshwang.app
+              joshuawang.app
             </p>
           </div>
           <div className="flex flex-col gap-2 sm:items-end">

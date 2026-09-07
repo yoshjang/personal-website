@@ -1,4 +1,4 @@
-# joshwang.app
+# joshuawang.app
 
 Personal storytelling website for Joshua Wang. Single page, five narrative
 chapters, fully static output suitable for GitHub Pages.
@@ -27,7 +27,7 @@ bun run build   # production build, static output in dist/client
    runs `bun run build`, and uploads `dist/client`.
 3. Push to `main` (or run the workflow manually) and wait for the
    "Deploy to GitHub Pages" run to finish.
-4. In Settings, Pages, Custom domain, enter `joshwang.app` and save. The
+4. In Settings, Pages, Custom domain, enter `joshuawang.app` and save. The
    repository already contains `public/CNAME` with that value, so the build
    keeps the domain configured. Leave "Enforce HTTPS" enabled once the
    certificate is issued.
@@ -37,9 +37,9 @@ bun run build   # production build, static output in dist/client
 Configure DNS only after the repository exists and GitHub Pages has shown you
 the target hostname for the site. GitHub's Pages settings page and its
 "Managing a custom domain" documentation list the exact A, AAAA, or CNAME
-values to use for an apex domain such as `joshwang.app`. Copy those values from
-GitHub, then in Name.com open Manage DNS Records for `joshwang.app` and add
+values to use for an apex domain such as `joshuawang.app`. Copy those values from
+GitHub, then in Name.com open Manage DNS Records for `joshuawang.app` and add
 them. Do not guess the records ahead of time.
 
 After DNS propagates, GitHub Pages will validate the domain and issue the
-certificate, and the site will be live at https://joshwang.app/.
+certificate, and the site will be live at https://joshuawang.app/.
