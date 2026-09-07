@@ -14,7 +14,6 @@ const SITE_URL = "https://joshwang.app/";
 const TITLE = "Joshua Wang | Statistics, Sustainability, and Service";
 const DESCRIPTION =
   "The story of Joshua Wang: a Duke statistical science student whose work spans piano and math competitions, solar and energy research, nonprofit service in Toledo, and the financing side of sustainability.";
-const OG_IMAGE = "https://joshwang.app/photos/hero-portrait.jpg";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -26,9 +25,7 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: DESCRIPTION },
       { property: "og:type", content: "profile" },
       { property: "og:url", content: SITE_URL },
-      { property: "og:image", content: OG_IMAGE },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: OG_IMAGE },
+      { name: "twitter:card", content: "summary" },
     ],
     links: [{ rel: "canonical", href: SITE_URL }],
     scripts: [
@@ -40,7 +37,6 @@ export const Route = createFileRoute("/")({
           name: "Joshua Wang",
           email: "mailto:joshua.wang@duke.edu",
           url: SITE_URL,
-          image: OG_IMAGE,
           sameAs: ["https://www.linkedin.com/in/-joshua-wang-/"],
           alumniOf: "Maumee Valley Country Day School",
           affiliation: "Duke University",
@@ -112,7 +108,7 @@ function Index() {
           id="high-school"
           number="02"
           kicker="Maumee Valley Country Day School"
-          title="Class president, distance runner, cashier"
+          title="Class president, sprinter, cashier"
           tinted
           after={<HighSchoolGallery />}
         >
@@ -280,57 +276,38 @@ function Index() {
             <RoleCard
               org="Wood Creek Advisors"
               role="M&amp;A Analyst Intern"
-              dates="May 2026 to August 2026"
+              dates="Summer 2026"
             >
               <Para>
-                Joshua supported buy-side acquisition sourcing and execution for
-                two clients: The Fremont Company, a specialty food manufacturer,
-                and Seneca Label &amp; Packaging, a commercial label-printing
-                company. He ran company searches across Capital IQ, ZoomInfo,
-                Orbis, Grata, PitchBook, and LSEG Refinitiv, helped build master
-                databases containing approximately 22,000 unique companies, and
-                presented approximately 10 seriously reviewed acquisition targets
-                to the clients each week.
+                Joshua supported buy-side advisory work for two clients: The
+                Fremont Company and Seneca Label &amp; Packaging. He ran company
+                research across Capital IQ, ZoomInfo, Orbis, Grata, PitchBook,
+                and LSEG Refinitiv, and sourced about 30 acquisition targets
+                that received serious review.
               </Para>
               <Para>
-                He designed and built Airtable and AI deal-tracking databases
-                that the managing partner adopted as the firm&rsquo;s primary
-                internal sourcing system, then transferred ownership of both
-                before the internship ended. On the analysis side he built a
-                historical three-statement model and an EBITDA bridge for Safie
-                Foods, a seven-transaction precedent analysis for Yost Foods and
-                comparable spice and flavoring companies, and a General Press
-                financial summary used during a live acquisition process. When
-                automated tools returned unreliable contact data, he manually
-                identified 30 verified contacts across 10 food-sector investment
-                banks.
+                He built an Airtable and Claude workflow that the firm adopted,
+                and prepared a General Press tax-return summary used for live
+                diligence.
               </Para>
             </RoleCard>
 
             <RoleCard
               org="CoreNetwork Fund"
               role="Venture Capital Intern"
-              dates="May 2026 to present"
+              dates="Summer 2026"
             >
               <Para>
-                At CoreNetwork Fund, a Midwest technology-focused venture fund in
-                Toledo, Joshua authored most of the Q1 and Q2 2026 investor
-                newsletters distributed to approximately 50 limited partners and
-                investors, covering Cycle, 7Signal, Astronomer, Enosix, and
-                Satelytics.
+                At CoreNetwork Fund, Joshua supported investor
+                communications, a website redesign, and work on a Satelytics
+                capital raise or sale. He authored much of the Q1 2026 investor
+                report sent to about 50 limited partners, covering Cycle,
+                7Signal, Astronomer, Enosix, and Satelytics.
               </Para>
               <Para>
-                He led the redesign and development of the fund&rsquo;s public
-                website using Astro and Tailwind CSS and deployed it on portfolio
-                company Cycle&rsquo;s container infrastructure, documenting a
-                repeatable release process. He supported a potential $30M to $50M
-                Satelytics capital raise or strategic sale by researching more
-                than 30 investment banks, managing outreach and relationships
-                across 11 banks and advisory firms, coordinating NDAs and
-                diligence materials, attending valuation pitches, and completing
-                comparable-company and precedent-transaction analyses. He also
-                rebuilt a full record of capital calls and distributions and
-                identified two distributions omitted from investor statements.
+                He built the CoreNetwork Fund website with Astro and Tailwind
+                CSS, and researched comparable transactions and investment
+                banks.
               </Para>
             </RoleCard>
           </div>
@@ -362,7 +339,7 @@ function Opening() {
             <p className="prose-narrative mt-7 text-lg sm:text-xl">
               A rising sophomore at Duke University from Toledo, Ohio. His work
               so far spans piano and math competitions, student government and
-              distance running, solar and energy research, nonprofit and church
+              track and field, solar and energy research, nonprofit and church
               service, and the strategy and financing side of sustainability.
             </p>
 
@@ -428,7 +405,7 @@ function HighSchoolGallery() {
       <div className="grid gap-4 sm:grid-cols-3">
         <Figure
           photo={photos.hsGraduation}
-          caption="Graduation, 2024."
+          caption="Graduation."
           sizes="(min-width: 640px) 22rem, 100vw"
           frameClassName="aspect-[3/4]"
         />
@@ -440,7 +417,7 @@ function HighSchoolGallery() {
         />
         <Figure
           photo={photos.hsClassEvent}
-          caption="A class event organized as Class President."
+          caption="At a Maumee Valley class event."
           sizes="(min-width: 640px) 22rem, 100vw"
           frameClassName="aspect-[3/4]"
         />
