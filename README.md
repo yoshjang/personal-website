@@ -14,7 +14,7 @@ Requires [Bun](https://bun.sh).
 ```sh
 bun install
 bun run dev     # local dev server
-bun run build   # production build, static output in .output/public
+bun run build   # production build, static output in dist/client
 ```
 
 ## Deployment to GitHub Pages
@@ -24,7 +24,7 @@ bun run build   # production build, static output in .output/public
 2. In the GitHub repository, open Settings, Pages, and under "Build and
    deployment" set Source to **GitHub Actions**. The workflow in
    `.github/workflows/deploy-pages.yml` installs with the committed lockfile,
-   runs `bun run build`, and uploads `.output/public`.
+   runs `bun run build`, and uploads `dist/client`.
 3. Push to `main` (or run the workflow manually) and wait for the
    "Deploy to GitHub Pages" run to finish.
 4. In Settings, Pages, Custom domain, enter `joshwang.app` and save. The
