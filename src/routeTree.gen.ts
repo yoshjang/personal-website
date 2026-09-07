@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as MarketsRouteImport } from './routes/markets'
+import { Route as TechnicalsRouteImport } from './routes/technicals'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -22,31 +23,40 @@ const MarketsRoute = MarketsRouteImport.update({
   path: '/markets',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TechnicalsRoute = TechnicalsRouteImport.update({
+  id: '/technicals',
+  path: '/technicals',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/markets': typeof MarketsRoute
+  '/technicals': typeof TechnicalsRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/markets': typeof MarketsRoute
+  '/technicals': typeof TechnicalsRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/markets': typeof MarketsRoute
+  '/technicals': typeof TechnicalsRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/markets'
+  fullPaths: '/' | '/markets' | '/technicals'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/markets'
-  id: '__root__' | '/' | '/markets'
+  to: '/' | '/markets' | '/technicals'
+  id: '__root__' | '/' | '/markets' | '/technicals'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   MarketsRoute: typeof MarketsRoute
+  TechnicalsRoute: typeof TechnicalsRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -65,12 +75,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MarketsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/technicals': {
+      id: '/technicals'
+      path: '/technicals'
+      fullPath: '/technicals'
+      preLoaderRoute: typeof TechnicalsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   MarketsRoute: MarketsRoute,
+  TechnicalsRoute: TechnicalsRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

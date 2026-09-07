@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { ChartNoAxesCombined, Linkedin, Mail } from "lucide-react";
+import { BookOpenCheck, ChartNoAxesCombined, Linkedin, Mail } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 import { cn } from "@/lib/utils";
 import { LINKS, type SectionDef } from "./content";
@@ -200,6 +200,14 @@ export function TopNav({ sections }: { sections: SectionDef[] }) {
           >
             <ChartNoAxesCombined aria-hidden="true" className="h-4 w-4" />
             <span className="hidden sm:inline">Markets</span>
+          </Link>
+          <Link
+            to="/technicals"
+            aria-label="Open investment banking technicals practice"
+            className="flex min-h-9 items-center gap-2 rounded-full bg-primary/15 px-3 text-[0.8125rem] font-semibold text-primary-bright transition-colors hover:bg-primary/25 hover:text-foreground"
+          >
+            <BookOpenCheck aria-hidden="true" className="h-4 w-4" />
+            <span className="hidden lg:inline">Technicals</span>
           </Link>
           <a
             href={LINKS.mailto}
