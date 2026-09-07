@@ -1,0 +1,922 @@
+[
+  {
+    "id": 1,
+    "question": "What are the most common types of business models in the telecom and media industry?",
+    "answer": "Traditional Equipment Sales/Wireless Services: The first category comprises the traditional range of telecommunications equipment, networking products, and wireless services (e.g., Wi-Fi plans, cable television). As the oldest segment in TMT, recent revenue growth has been very low because this type of revenue is related to one-time equipment sales and then monthly plans, making revenue growth a function of geographic expansion (which has begun to stall). However, companies in this space tend to benefit from high operating leverage, barriers to entry, and lack of competition; hence, the anti-trust concerns. The incumbents are few and include companies such as AT&T, Verizon, and T-Mobile. Subscription-Based Streaming: The next category would include companies such as Netflix, Hulu, Spotify, in which business models are built around new customer acquisitions, minimizing churn, and increasing pricing by offering more value than their competitors. For companies in this segment, user count growth is the priority and many have no clear pathway towards becoming profitable without first achieving significant scale. Streaming has quickly become one of the most competitive spaces across all industries as traditional industries such as cable television and radio have been completely disrupted and new developments appear (e.g., cloud gaming, Esports) Advertising: This category would include companies such as Facebook, Twitter, and Google, which are companies that focus primarily on metrics such as MAU and DAU. Given their reliance on advertising, user engagement a key measure when assessing these companies' recent performance. While industry growth has been very strong for years now, particularly for the leading companies, the greatest hurdle looking ahead appears to be increased efforts by regulatory bodies to restrict user data collection and attempts to break-up these tech monopolies (citing anti-trust regulations). Media Networks/Diversified Entertainment: This category involves companies that create, acquire, and distribute programming content such as movies, films, theater events, and other media content. Through their broad reach, these companies can produce revenue from various segments such as advertising, affiliate fees, subscriptions, product sales, and licensing. Companies under this category could be best described as \"media conglomerates\" and examples include ViacomCBS, Disney, and NBCUniversal."
+  },
+  {
+    "id": 2,
+    "question": "What are a few notable trends going on in the TMT industry right now?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. Convergence of Business Models: More companies are increasingly stepping outside into different segments either organically or through M&A. For instance, Google has countless subscription-based services, such as YouTube Music and Google Play Pass, as well as new ventures into communication services through Google Voice, home devices through Google Home, streaming through Chromecast, and fitness through its acquisition of Fitbit. Facebook has also been active by entering social commerce through Facebook Shops, music and video content creation through Creator Studio, and livestreaming through Facebook Pages and Facebook Watch Party. While this should come as no surprise for FAANG companies, this trend includes companies in low-growth segments as well, such as AT&T, which has continued its efforts to establish itself in streaming through AT&T TV, DIRECTV, U-Verse, and WatchTV. ViacomCBS is also planning to release its new streaming service Paramount+ in 2021. Scale-Oriented M&A: There have been many mergers of equals in recent years such as the merger between CBS/Viacom, Time Warner/AT&T, and T-Mobile/Sprint, which were all significant industry-changing mergers that raised regulatory concerns. Growth opportunities have run out in these areas, thus the pursuit of market leadership through consolidation of these low-growth industries has become more common due to the benefits from cost synergies, operating leverage, and diversification. \"Streaming Wars\": 2020 was a transformative year for the streaming video industry, as COVID-19 accelerated the adoption of video streaming with consumers streaming unprecedented amounts of video content through providers such as Netflix and Hulu. The competition has intensified as of late as more companies are increasingly moving into the streaming market, with some of the most notable entrants being Disney+, Apple TV+, HBO Max, Peacock, and Quibi just to name a few. Hosted Online Events: As lockdowns and social distancing measures prevented large social gatherings and events, many events have shifted to digital means. This has benefited media segments such as e-sports and livestreaming in particular. The number of major live musical or cinematic events hosted in real-time online has also increased with positive reception from consumers. The trend is expected to pick up and become more frequent in 2021 after a slow start following the initial outbreak in early 2020. 5G & Edge Computing: 5G and edge computing are forecasted to be two of the highest growth segments, with adoption being led by large enterprises and increased B2B collaborations such as AT&T and Microsoft's multi-year alliance to work on the cloud, AI, and 5G. This trend is cited as being a central catalyst before 5G can reach mass adoption since 5G requires edge computing for its full capabilities to become more widely accessible given its reliance on the edge-computing infrastructure (likewise, edge computing requires more applications with 5G capabilities, particularly for mobile). Consumer Usage of AI Assistants: Sales in artificial intelligence (AI) assistants have increased amongst consumers and adoption is expected to increase, despite the security concerns. Many attribute this to work-from-home (WFM), which has led to consumers increasingly spending more on their homes (and thereby benefiting the \"smart home\" trend). This trend concurs with consumers' changed spending habits where more money is spent on their homes as seen in the record spending on gardening, home renovations, and various home-improvement projects."
+  },
+  {
+    "id": 3,
+    "question": "Which valuation metrics are common to see for traditional telecom companies?",
+    "answer": "The category of traditional telecom companies would include mobile telecom service providers, convergent telecom service providers, cable operators, and data centers/infrastructure providers. The traditional telecom industry is capital-intensive with high fixed costs, which are typically financed using debt as these companies operate in a highly concentrated, mature industry with minimal cyclicality. Because of the large amount of debt in their capital structure, telecom companies will incur substantial debt-related expenses. In addition, high amounts of depreciation will be recognized each year given their large fixed asset base. Another notable consideration is the tax incentives from the government provided for research & development (R&D), especially as the US attempts to build out its 5G infrastructure. For the reasons stated above, accrual-based earnings are volatile year-over-year (YoY), making equity value based multiples like P/E less useful. Instead, the most commonly used valuation multiple is EV/EBITDA, but often EBITDA is on a run-rate basis or normalized over several years to account for inconsistencies. EV/(EBITDA – Capex) is also common to see, as many consider it a better approximation of operating free cash flow given the capital intensive nature of the telecom industry and the need to adjust for capex. Telecom would be an example of an industry where trailing (LTM) and forward (NTM) multiples would be truly necessary to fully understand the valuation trends. Unique to telecom companies, other multiples include EV/Data Centers, EV/Net PP&E, EV/Route Miles, EV/Fiber Miles, and EV/Access Lines in Service, EV/Broadband Subscribers, and EV/Broadcast Revenue. As a side note, considering how diversified many of the traditional telecom companies have become, it may be necessary to perform a sum-of-the-parts valuation (SOTP)."
+  },
+  {
+    "id": 4,
+    "question": "What metrics would you use to measure user engagement?",
+    "answer": "In the context of media companies, user engagement is the level of involvement a customer has with a particular product, such as a website, application, or online platform. Higher user engagement rates imply users derive value from the product (leading to continued usage). This is of high importance for media companies because user engagement leads to customer retention and more recurring revenue. User Engagement KPIs Daily Active Users (DAU) and Monthly Active Users (MAU) Active Subscriber Count Time Spent In-App Per Day or Week Pageviews/Website Hits Churn Rate (Retention %) Conversion Rate (Free  Paid Plan)"
+  },
+  {
+    "id": 5,
+    "question": "Which multiples are most commonly used to value modern media companies?",
+    "answer": "For high-growth media companies, operational KPI-based multiples are very common due to many of them being unprofitable or barely profitable. Traditional cash flow based metrics fail to capture the true value of many of these companies. By virtue of many of these companies having the objective of acquiring new customers, large losses will inevitably be incurred. Therefore, it would be unreasonable to assess a growth-oriented company based on profitability-based cash flow metrics. EV/Revenue is often looked at, but it may not be the ideal multiple to look at if user growth is currently being prioritized over monetization. Instead, user count, growth in new customers, and the churn rate are the key value drivers used to assess performance. And multiples such as EV/MAU, EV/DAU, and EV/Monthly Subscriber Count may provide a better indication of the company's value."
+  },
+  {
+    "id": 6,
+    "question": "For a company with a product meant for high frequency in usage, what is one way to assess user engagement?",
+    "answer": "A popular metric for measuring the level of user engagement (\"stickiness\") is the ratio between daily active users (DAU) and monthly active users (MAU). The DAU/MAU ratio, expressed as a percentage, is the proportion of monthly active users that engage with an application in a single day. DAU/MAU = Daily Active Users / Monthly Active Users × 100. For example, if the company's app has 500 DAU and 1,000 MAU, then the DAU/MAU ratio is 50%. This can be interpreted as the average user engaging with the app roughly 15 days in a 30 day month. According to Sequoia, the standard DAU/MAU is between 10% and 20%, but certain apps such as WhatsApp can easily top 50%. Note, this metric would only be useful for products with daily use (e.g., social media, messaging platforms, mobile applications). It wouldn't be useful for products that don't require daily use. For example, this metric would be useful for companies such as Facebook, Twitter, and Snapchat, but not applicable for Airbnb, Uber, and Lyft."
+  },
+  {
+    "id": 7,
+    "question": "What are economies of scale and could you give me an example?",
+    "answer": "Economies of scale occur when the per-unit costs of production decrease as output increases. These cost savings from greater scale will result in higher margins. The cost per unit decreases as more output units are produced because the costs are being spread over the increased number of goods. An example of a company benefiting from economies of scale would be Apple. Because Apple sells millions of iPhones each quarter, it can commit to component purchases at a massive scale with significant negotiating leverage that results in volume discounts (and a lower average cost per unit)."
+  },
+  {
+    "id": 8,
+    "question": "What effect does having high operating leverage have on the scalability of a business?",
+    "answer": "Operating leverage represents the proportion of a company's cost structure that consists of fixed costs rather than variable costs. Companies with a higher proportion of fixed costs have greater operating leverage. High Operating Leverage: Each additional dollar of revenue can be brought in at higher profits once fixed operating costs are paid. Each marginal unit is sold at a lower cost, creating the potential for greater profitability because fixed costs such as rent and utilities remain the same regardless of output. Low Operating Leverage: If a company has high variable costs, each additional dollar of revenue may generate less profit as costs rise proportionally with revenue."
+  },
+  {
+    "id": 9,
+    "question": "Can you give me an example of a company benefiting from operating leverage?",
+    "answer": "An example would be a telecom business that has finished building out its network infrastructure. Initially, the business will incur substantial upfront capex to enable connectivity and network capabilities (e.g., equipment purchases, construction, security implementations). But once the network has been built out and operations are running, each new customer acquisition comes at a low incremental cost, as the cost of adding one customer to an existing network is inexpensive. Most of the expenses incurred are mostly maintenance-related later on. The initial investment will eventually be earned back and what remains is a high margin business with recurring revenue."
+  },
+  {
+    "id": 10,
+    "question": "When might having high operating leverage not benefit a company?",
+    "answer": "Companies with high operating leverage have the potential to earn more profits on each incremental sale as the business scales. The caveat being, if sales and customer volume turn out lower than anticipated, the company can end up in financial ruin, given the initial investment spent and fixed cost structure. This means companies with high operating leverage have more business risk (i.e., higher risk of insufficient profitability) because the break-even point has been moved higher. If sales were to decrease, a business with a variable cost structure could easily reduce costs, but a company with a fixed cost structure has very limited flexibility."
+  },
+  {
+    "id": 11,
+    "question": "What are network effects and can you provide some examples?",
+    "answer": "The network effect is a phenomenon whereby the value of a product or service offering increases with each incremental user and increased adoption. Network effects compound once critical mass is attained, meaning past this inflection point, new customers' acquisition experiences a domino effect where less effort and monetary investments are required. Facebook is an excellent example of the network effect, as its advertising revenue took off once its user base grew and customer engagement increased. By virtue of being the largest, fastest-growing social media platform, Facebook obtained a durable moat in the advertising market, which led to an influx of advertisers wanting to place ads on Facebook’s platform (driving up ad revenue) and new opportunities for different products and services to be introduced. Another example would be Google’s search engine, which provides more accurate results as more users use the platform. Here, the network effects led to more advertising revenue and a more effective product as more usage of the product by users increased the product’s value for all users. This explains why Google has dominated the search engine market with a near ~87% market share."
+  },
+  {
+    "id": 12,
+    "question": "What is pricing power and how would you measure it?",
+    "answer": "While there is no exact formulaic method to calculate a company's pricing power, a useful question is: If the company raised prices by approximately 25%, what would the impact on customer retention be? It is a positive sign if retention remains relatively stable after a price increase. If a company has pricing power, it can raise prices without a substantial increase in customer churn. Pricing power is determined by how essential the product is to users, how unique its value is, and the availability of alternatives in the market."
+  },
+  {
+    "id": 13,
+    "question": "What is the difference between a cyclical and secular trend?",
+    "answer": "Cyclical: A cyclical trend will be less predictable in terms of timing than seasonality and can result in more severe implications on the financial performance of a company. Cyclical trends can be near impossible to time. An example would be the semiconductor industry, which is largely driven by GDP growth and spending trends by enterprises. Secular: A secular trend is a long-lasting, often permanent change in an industry because it's related to new technology developments or changing consumer behaviors. An example would be the rise of Netflix and how it benefited from the secular trend of over-the-top (\"OTT\") content. Most secular trends are here to stay and these shifts are often gradual with plenty of time for companies to make adjustments, but many still ignore ongoing trends until their products/services become obsolete (Blockbuster in this example)"
+  },
+  {
+    "id": 14,
+    "question": "What are some examples of barriers to entry that can help protect a company's profit margins?",
+    "answer": "Network Effects: Once a platform attains critical mass, the incremental benefits from more users make it difficult for competitors to take market share. Economies of Scale: Improved cost structures from increased scale can deter competitors because incumbents have a clear profitability advantage and more cash flow to reinvest. Proprietary Technology: A differentiated offering that others cannot replicate can limit competition, especially when protected by patents. High Capex Requirements: Infrastructure, machinery, and R&D requirements can deter new entrants. Switching Costs: Switching can be unattractive unless a new entrant offers a significantly better product or service. Regulatory Hurdles: Approval requirements can deter new entrants, especially in highly regulated industries such as healthcare."
+  },
+  {
+    "id": 15,
+    "question": "What is 5G, and what benefits will it provide?",
+    "answer": "5G is the next-generation network that's much faster (at full capacity) than 4G that it has the promise of dramatically accelerating the development of smart cities, autonomous vehicles, drone technology, virtual reality, public transportations, and manufacturing, agriculture, health care, and many other industries. The 5G communication system claims to provide 100 gigabits per second, which would be 100x faster than the speed of 4G communication. This coincides with the reduced latency and clearance of bandwidth issues associated with emerging new technologies (which 4G struggled to handle). The nationwide deployment of 5G has come at a slower pace than advertised. Today, many users with 5G devices are actually on a slower form of 5G because many carriers are rolling out different tiers of 5G (i.e., technically no mobile devices are on “5G” as of the current date). While the major US carriers have been racing to launch 5G this year, successful implementation in some form or another has only been in select regions and has been inconsistent. For those in less developed cities, the step-up from LTE (e.g., the download speeds) has been marginal, and many users have been left disappointed by the barely noticeable change. The shift towards 5G could take up to several years as this is the natural process of technology deployment, especially given its potential implications on society. However, 5G will be well worth the wait since it'll be the catalyst of what takes IoT to new levels and allows applications such as robotics, industrial automation, and autonomous vehicles to become a reality."
+  },
+  {
+    "id": 16,
+    "question": "The term “latency” often comes up when discussing 5G. What does it mean?",
+    "answer": "To enable connectivity between devices, large amounts of data are being exchanged online. A delay in transmitting data is referred to as latency and can hinder the user experience. Thus, reduced network latency when transmitting data packages prevents irritation and frustration from users (i.e., comparable to being stuck in road traffic). Latency is directly related to a network’s bandwidth, which is a network’s maximum data transfer rate over a certain period. While the two are not interchangeable terms, they're closely interlinked."
+  },
+  {
+    "id": 17,
+    "question": "Which companies do you expect to benefit the most from the increased adoption of 5G?",
+    "answer": "In the US, the companies that stand to benefit will be the leading wireless networks such as AT&T, T-Mobile, and Verizon, especially when you consider their collective market share in the wireless carrier space. Many semiconductor companies are also expected to benefit, such as Qualcomm, Broadcom, and Qorvo. Qualcomm recently announced a new portfolio of 5G infrastructure semiconductor platforms, Broadcom is a leading vendor of chips for 5G smartphones, and Qorvo is a supplier at the forefront of radio frequency (RF) solutions."
+  },
+  {
+    "id": 18,
+    "question": "Many enterprises are expected to test private 5G deployments. What are the implications?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. The increased deployment of private 5G networks by enterprises means more next-generation wireless 5G radio antennas and transmission resources will be dedicated to a specific enterprise (and become independent of cellular networks). In effect, private 5G networks will bring bandwidth to areas that carriers have neglected or locations with greater security requirements. In theory, these private networks should be more secure as the enterprise (the network operator) will set up and monitor its security policies instead of relying on a 3 rd party, and it would enable data to be stored locally on the nearby premises of the facility."
+  },
+  {
+    "id": 19,
+    "question": "\"Edge AI\" is a common buzzword when discussing artificial intelligence. What does it involve?",
+    "answer": "Edge AI is a combination of edge computing and AI. Using too many devices and traffic on a single network can often clog the network and slow down the speed. To ease these issues of latency and bandwidth that hamper performance, machine learning algorithms can be run on a local server (or device) with edge computing capacity as opposed to remote servers and data centers – this is known as “Edge AI.” To further explain, the algorithms are processed locally on a hardware device requiring no connection to a remote server. The chip uses data generated from within the device and then processes it to give immediate, real-time insights with no delay from network congestion. Edge AI's main advantage is that Edge AI-enabled devices can process data faster and be more responsive relative to centralized IoT devices, leading to better customer experiences."
+  },
+  {
+    "id": 20,
+    "question": "What do over-the-top services refer to and can you name a few examples of “OTT” providers?",
+    "answer": "Over-the-top (“OTT”) is the delivery of film and television content through the Internet, bypassing traditional cable and satellite TV services. Examples of OTT providers include Netflix, Hulu, and Amazon Prime Video. The trend of OTT is being driven by cord-cutters and trimmers, which refers to consumers increasingly cutting off their cable connections to switch to a lower cost subscription-based OTT provider. Simply put, digital transformation has re-defined the media industry and traditional business models are being replaced by consumer-oriented experiences. Many consumers nowadays don't see the benefit of having access to programs they don't watch and desire the customization that OTT enables them to have."
+  },
+  {
+    "id": 21,
+    "question": "Tell me about the pricing models used in the OTT industry.",
+    "answer": "Broadly, there are three types of pricing models used by OTT providers: Subscription Video on Demand (“SVOD”): The SVOD pricing model provides video-on-demand services that enable users to access an entire library of videos for a recurring fee under a subscription (most commonly a month). Once the user has paid the fee, they can watch unlimited content on any device using internet access. The most mainstream examples of SVOD include Netflix, Hulu, and HBO. At present day, SVOD is the most common type of VOD offered by media companies. Transactional Video on Demand (“TVOD”): Under TVOD pricing, users purchase content on a pay-per-view basis. Rather than unlimited access under SVOD, the users are charged per video or video package rather than the entire catalog. Examples of TVOD would be Google Play, Amazon Prime Video, and iTunes. Ad-Based Video on Demand (“AVOD”): AVOD refers to video content that's available for free to consumers. Here, the revenue brought in is through ad revenue rather than directly from the consumers. An example would be Hulu, which offers SVOD plans in addition to a free AVOD plan."
+  },
+  {
+    "id": 22,
+    "question": "What is the “varied access” pricing model?",
+    "answer": "The varied access pricing model provides different content access levels to subscribers (i.e., different subscription plans based on their preferences). For example, Netflix offers its users options to sign up for a single, one-screen plan or a family plan option with additional features such as higher resolution."
+  },
+  {
+    "id": 23,
+    "question": "What are the two categories of programming we see in OTT?",
+    "answer": "Original Content: Offering original content can give an OTT service provider a significant competitive edge. Therefore, a company such as Netflix invests considerable amounts in content development (e.g., Stranger Things, Bird Box, House of Cards) to gain an edge over its competitors. Licensed Programming: Licensed programming includes agreements to replay content previously aired elsewhere. The benefit of licensed programming is lower costs but at the expense of less control over the content (e.g., Disney pulled its content and Pixar content from Netflix’s catalog as it rolled out Disney+)."
+  },
+  {
+    "id": 24,
+    "question": "How would you forecast the subscription revenue for Netflix?",
+    "answer": "The revenue of an OTT provider such as Netflix would be based on its ability to minimize churn. Netflix has established itself as the market leader with the highest market share. From now on, Netflix’s success (or failure) in being able to fend off new entrants such as Disney+ and Hulu will be very impactful on Netflix’s revenue forecast and anticipated churn. Renewal Rate: The first metric to begin with would be the number of paid memberships at the end of the period. This is mostly a function of the renewal rate of Netflix's existing customer base. Netflix doesn't disclose its customer renewal rate or churn, but there are streaming services analytics reports to use as estimates. The key question is: \"Can Netflix hold on to the new customers that subscribed during the stay-at-home period, as well as prevent its customers from leaving for its competitors?\" New Subscribers: Then, the number of paid net membership additions can be forecasted. For a mature market-leading company such as Netflix, this metric was relatively stable, but COVID and the emergence of new competitors have made this a challenging task. One consideration should be Netflix's pricing increase in late 2020 at a time when the competition in the OTT space has increased substantially. But most consider the increase to be modest and the impact on churn will be negligible. Plus, its new plans for up-and-coming content will be important – this would have to be compared to the offerings of its competitors (Hulu and Disney+ in particular). For this reason, the churn forecasted should be a wide range as it depends on how customers react to the new content quality. Average Monthly Fees: Next, the average monthly revenue per paying membership would be forecasted. This will be straight-forward and done based on historical averages and trends, as well as with the recent price increase in mind. But the pricing plans shouldn't deviate much in the future, especially with the ongoing attempts to undercut Netflix's pricing. Since the subscriber counts are in annual figures, you would need to annualize this fee amount. Total Subscription Revenue: To wrap up this basic revenue build, you would take the projected subscriber count (net of customer churn) and multiply this figure by the annualized average membership fee to get Netflix's revenue for the year, and then continue this for the rest of the forecast."
+  },
+  {
+    "id": 25,
+    "question": "For pricing, why does Disney undercut its competitors?",
+    "answer": "Disney+ is viewed as the main competitor of Netflix for the foreseeable future, but interestingly, the service cost was priced at only $6.99 per month, vs. Netflix’s basic plan of $8.99. However, Netflix’s more popular plans are its standard and premium plans, which were increased to $13.99 and $17.99 per month in 2020. There are a few reasons Disney has the flexibility to take this aggressive strategy: First, unlike Netflix, whose revenue generation and business model is entirely based on subscription sign-ups, Disney is essentially a diversified conglomerate with enough funds to take on this type of customer acquisition strategy. While Disney+ is likely to see an increase in price later on to become a more profitable division (in ~2024, according to the management), its current focus is to steal market share from Netflix. By strategically undercutting Netflix and providing its own original content pulled from Netflix, Disney has a significant advantage. Next, Disney+ is not a priority for Disney. The larger, overarching focus of Disney is its core businesses (e.g., Disney Theme Parks, Disney Studios, Disney Original Content). By controlling the distribution of its own content by going D2C, Disney can strengthen its relationships with its customers and create a network effect where each offering builds upon each other – for customers and families, in particular, this creates a fully integrated, cross-platform user experience not just in terms of online media but in-person visits. Rather than dispersing its content through various channels, Disney has now become a one-stop-shop for its content, especially given the lucrative opportunities in video streaming on the horizon."
+  },
+  {
+    "id": 26,
+    "question": "Disney owns Disney+, Hulu, and ESPN+. Why does Disney not just bundle them in one offering?",
+    "answer": "Disney actually offers this bundled plan, but many users choose to opt for individual offerings. From an initial glance, it might appear odd that Disney has three different streaming services. But the controlling stake in Hulu brought immediate synergistic benefits to Disney. Right away, Disney+ became a part of the \"streaming wars\" conversation before their offering became more developed. Hulu was long considered the primary competitor of Netflix, and now it became Hulu and Disney+ in an instant. For ESPN+, sports differ from streaming TV shows and movies because real-time, live events are the preferred consumption method by consumers (i.e., the traditional TV model). Thus, ESPN and Disney could develop an affiliate fee business model and offer a pay-per-view or pay-for-access type pricing for this arrangement. And given how sporting events have natural breaks in between, this creates an opportunity for commercials (and thus greater ad revenue)."
+  },
+  {
+    "id": 27,
+    "question": "Many investors initially dismissed Roku following their IPO. Why has the company far exceeded initial expectations to date?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. Following their IPO, many investors had a negative outlook on Roku, given the ongoing shift away from hardware. Competitors such as Apple with its cult-following were expected to steal Roku’s customers with ease. But to the surprise of many, Roku is one of the market leaders in 2020 for connected TV platforms and has outperformed expectations. Despite still using hardware (e.g., the stick users plugged into the TV), Roku made several strategic moves that enabled them to have a leading position. Roku partnered with television manufacturers to make Roku OS come built-in the TV right out of the box. Despite having an arguably outdated design, its simple interface, ease-of-use, and affordability created a niche. Next, Roku established partnerships with Netflix, Hulu, and Disney+ to allow its users to stream any of the top media apps from their TV. This level of independence from not trying to get customers to use a certain app over another (i.e., from Amazon, Google, Apple) is a key reason it has become the choice of consumers – all Roku concerns itself with is providing an easy, affordable way for customers to stream content from their homes."
+  },
+  {
+    "id": 28,
+    "question": "Why has Apple shifted its focus from hardware to software?",
+    "answer": "Computing hardware sales peaked in 2011 and have seen a contraction in growth every year since, and it has become increasingly challenging for Apple to provide an incentive for customers to upgrade to newer models. Since hardware products are periodic one-time purchases, rather than recurring revenue sources, Apple has shifted its focus to building out its software and related services. Software-based services have a larger total addressable market (TAM) and lead to higher customer retention rates (i.e., product “stickiness”), thus Apple has shifted its focus on strengthening its online service offerings and further integrating the Apple ecosystem (e.g., iOS App Store, iCloud, iTunes, Apple Music, Macs). Once a customer enters this ecosystem, it becomes more difficult to leave. Many of Apple’s products are intentionally not compatible with other competitors’ products (e.g., cannot download Apple apps on a Windows laptop; only the web-based versions are available)."
+  },
+  {
+    "id": 29,
+    "question": "What is enterprise collaboration software?",
+    "answer": "Enterprise collaboration software provides teams with tools to share information, coordinate activities, manage projects, and communicate. The collaboration market consists of many submarkets – for instance, employee communication applications (real-time chat, video-conferencing), file sharing and content collaboration, and project management. The global workplace collaboration software market is expected to exceed ~$18 billion within the next few years as the adoption of integrated collaboration and communication software increases. Amid the recent global coronavirus crisis, collaboration software applications have become an increasingly integral part of how businesses' workflow is organized and carried out. As enterprises were forced to function remotely, executives deployed new collaboration tools company-wide to connect physically distant teams. Zoom (ZM) is considered a primary beneficiary of the coronavirus outbreak, as many employers and schools were left with no other option but to use remote video-conferencing software."
+  },
+  {
+    "id": 30,
+    "question": "Tell me about a few of the ongoing trends in the enterprise collaboration software industry.",
+    "answer": "Platform Vendors vs. Specialist Players: As the market matures, collaboration solutions that offer a suite of offerings under a unified platform will have a key competitive advantage. Third-Party Application Integrations: To compete with larger established vendors, specialized single-application companies must include more third-party application integration within the collaboration ecosystem to increase end-user satisfaction. Upcoming Consolidation Phase: The market remains highly fragmented with a low barrier to entry, making it ripe for M&A activity (e.g., productivity apps, note-taking apps, time management apps, employee tracking, and scheduling apps). Thus, more enterprise software providers will include social software and collaboration into their product mix. Shift Towards Remote Work: Before COVID, approximately ~70% of the global workforce worked remotely at least once a week. In 2020, remote work became completely normalized in our society, and many large corporations have stated they intend to continue working remotely for the foreseeable future. Security Customer Trust: Privacy and security concerns will be a major topic of discussion in the future – earlier in 2020, Zoom came under scrutiny after major security flaws and platform deficiencies were uncovered. Thus, Zoom rolled out more encryption offerings and acquired Keybase to strengthen its security and regain users' trust."
+  },
+  {
+    "id": 31,
+    "question": "There are two distinct groups in enterprise collaboration software, platform vendors and specialist players. Could you tell me how they differ?",
+    "answer": "Platform Vendors: Platform vendors have an existing portfolio of software products, an established brand name, and a trusted customer base. For example, Microsoft is a trusted brand with established security infrastructures and a loyal customer following - therefore, their strategic focus is integrating Teams into Office 365 and onboarding existing customers. Specialist Players: Specialist players are new entrant, high-growth companies with one service offering (e.g., Zoom). While platform vendors can afford to offer free option plans over the long-term, specialist players must urgently acquire new customers and monetize them. For specialist players, the acquisition of new customers is the focus – whereas platform vendors can leverage their existing user base that's already familiar with using their products and have gained their trust."
+  },
+  {
+    "id": 32,
+    "question": "How were Microsoft Teams able to capture market share away from Zoom?",
+    "answer": "MS Teams took significant market share away from Zoom with relative ease because Microsoft had an existing customer base. Microsoft was not necessarily better at acquiring new customers than Zoom or more innovative; instead, it had existing long-term customer relationships, and it was a more convenient change from the perspective of consumers. Many of whom were already users of Office."
+  },
+  {
+    "id": 33,
+    "question": "Would you consider B2B software to be non-cyclical?",
+    "answer": "Robert F. Smith of Vista Equity Partners once stated that “Software contracts are better than first-lien debt. You realize a company will not pay the interest payment on their first-lien until after they pay their software maintenance or subscription fee. We get paid our money first.” Today, many B2B software applications have become essential, embedded parts of companies – meaning, the removal of a software product from a business would leave its operations unable to continue functioning. Also, most software arrangements are structured as long-term contracts and include high switching costs. For these reasons, B2B software would be considered non-cyclical and resistant to downturns."
+  },
+  {
+    "id": 34,
+    "question": "In the context of technology applications, what does product bundling mean and could you provide an example?",
+    "answer": "The concept of product bundling is taking complementary products that frequently get purchased together and selling them as a whole. There is typically a direct complementary relationship between the products such as Adobe's Creative Cloud offerings (Photoshop, Illustrator, and After Effects), whereas with others, there's a broad, indirect link. An example would be an Amazon Prime membership and Amazon Prime Video, in which a customer having both doesn't add more value to each other (other than the savings from the discount)."
+  },
+  {
+    "id": 35,
+    "question": "Name a weakness in Spotify’s business model that explains its lack of profitability.",
+    "answer": "While Spotify’s fixed costs (e.g., SG&A and R&D) are in line with its comparables, Spotify’s problem is its marginal costs. These marginal costs are mostly related to the royalty fees it pays to record labels, songwriters, and publishers. In contrast to Netflix, Spotify has close to no original content, although they're negotiating new deals for lower rates and their mass adoption of subscribers provides an incentive for record labels to partner with Spotify to expand their reach. Spotify’s value proposition to its customers completely depends on record labels – who ultimately control the rates charged. To add insult to injury, competitors such as Apple offered free trials that lasted up to 3+ months. Similar to the Disney/Netflix relationship, Apple’s revenue comes from diversified sources, unlike Spotify."
+  },
+  {
+    "id": 36,
+    "question": "Despite its low margins, why do you suppose Spotify offers so many discount pricing models on its offerings?",
+    "answer": "Despite its often-cited struggles with profitability, Spotify offers a wide variety of discounted plans such as a very popular student plan and partnerships with Hulu, Showtime, Starbucks, and more. While this may decrease revenue in the short-term, this strategy is based on the focus on customer retention and the belief that this metric, for the time being, is more important than ARPU. These discounted plans may cut into their ability to make more revenue, but its impact on finding loyal customers has been positive. The churn rate for Spotify has been on the higher end, but over time this will decrease as the retained customers become a reliable base to sell other products and services (e.g., podcasts, audiobooks). For Spotify to become more profitable, its primary competitive advantage is its customer count and network. Thus, this metric must be prioritized to provide an incentive for artists of all sorts to partner with their platform and not have all the leverage when negotiating contract terms (i.e., the artist would be missing out if their music or content is not on the Spotify platform)."
+  },
+  {
+    "id": 37,
+    "question": "What is demand-aggregation and could you name some companies capitalizing on this trend?",
+    "answer": "Demand-aggregation companies have business models built around establishing themselves as the middlemen between businesses and consumers. The two most well-known companies that enable this type of feature would be Groupon and Yelp. Groupon is known for providing discount coupons to consumers and connecting them with retailers/restaurants, whereas Yelp is known for its crowd-sourced reviews on businesses of all sizes. Another example would be Apple News+, which aggregates the news from various news outlets and blogs for the customer to create their personalized, curated news platform."
+  },
+  {
+    "id": 38,
+    "question": "Tell me about the trend of livestreaming.",
+    "answer": "Consumers are increasingly following live video streaming apps to interact with friends, family, and other users. The popularity of live streaming first became mainstream in South Korea, but there has been a surge in popularity as many consumers enjoy watching content as it's happening in real-time and interacting with the content creator. The amount of livestreamed content and speed of adoption shows a clear desire for live content worldwide. Examples of companies capitalizing on this trend are Facebook Live, Periscope, and Twitch."
+  },
+  {
+    "id": 39,
+    "question": "Where do the opportunities for monetization in the Esports industry lie?",
+    "answer": "There are four general monetization strategies for the Esports industry: merchandising, sponsorships, media rights, and gate revenues. But most industry revenue comes from advertising, which is a direct function of audience count and engagement hours, rather than just viewership. Therefore, advertisers see a large market opportunity in Esports, as these streams often have some of the highest levels of engagement, and there's a level of trust between an Esports athlete and his/her fans that's rare to find these days. Esports athletes (especially those that stream on video platforms) often stream for hours daily and interact with fans, thus creating a sense of community. However, Esports is often considered difficult to monetize as the Esports audience is heavily skewed towards the younger demographic, who have less discretionary spending power."
+  },
+  {
+    "id": 40,
+    "question": "Why is the semiconductor industry known for being cyclical?",
+    "answer": "The semiconductor industry highly depends on the economic conditions (i.e., usually follows GDP growth rate), as IT spending fluctuates heavily based on how the economy is doing. Besides being tied to enterprises' spending trends, it depends on new device purchases such as smartphones and laptops by consumers, which are very cyclical and decrease substantially during downturns. Another aspect is how the industry's products have short life-cycles and can become obsolete quickly once better new developments occur, even from minor incremental improvements. Hence, the industry is known for inventory build-up and write-downs of inventory."
+  },
+  {
+    "id": 41,
+    "question": "What are the five types of virtualization?",
+    "answer": "Virtualization refers to running multiple operating systems on a single system simultaneously, resulting in reduced IT expenses and increased efficiency for businesses. Desktop Virtualization: Desktop virtualization is when a desktop operating system can run as a virtual machine on a physical server with other virtual desktops. Application Virtualization: Application virtualization packages several applications into a single application, which is then separated from the operating system to run in a “sandbox.” Server Virtualization: Server virtualization enables many virtual machines to run on one physical server, which leads to more efficient utilization of the physical server. Storage Virtualization: Storage virtualization is physical storage being grouped to have a single storage device in a virtual format. Network Virtualization: Network virtualization combines hardware appliances and software to enable management from a single external virtual network (i.e., aggregate various physical networks into one network)."
+  },
+  {
+    "id": 42,
+    "question": "Could you name an example of virtualized distribution?",
+    "answer": "An example of virtualized distribution would be cloud-based gaming. Often referred to as “gaming-as-a-service,” cloud gaming offers gaming through remote servers and streams them directly to a user’s device. Cloud gaming is a form of virtualized distribution instead of dependence on hardware (e.g., traditional disks). When it was initially released to the public and used by consumers, it was compared to Netflix due to its similarities in the consumer experience."
+  },
+  {
+    "id": 43,
+    "question": "What impact did the success of Fortnite have on business models in the gaming industry?",
+    "answer": "The online video game Fortnite was unique in that it had a “free-to-play” business model, yet it generated well over $2 billion in revenue across all platforms and became one of the most successful games that brought mainstream attention to Esports. Rather than selling its game for an upfront fee, Epic Games (the publisher of Fortnite) made the game free to download – betting on its ability to monetize content through offering optional in-game purchases of different costumes, skins, Battle Passes, and V-Bucks. By offering the game for free, Fortnite amassed a cult-like following in a very short duration because of the minimal friction for a user to play with their peers. And this popularity and customer acquisitions led to opportunities for sponsorships, ad revenue, and live competitions. In effect, the success of Fortnite made video game incumbents realize the revenue potential besides the initial purchase (e.g., Esports, advertising, in-app purchases, priced unlocks)."
+  },
+  {
+    "id": 44,
+    "question": "What will the implications of Apple’s IDFA changes in iOS 14 have on advertising companies?",
+    "answer": "During its annual Worldwide Developers Conference (WWDC), Apple announced that following the release of iOS 14, developers and publishers will be required to receive permission from users before using the Identification for Advertisers (IDFA), which is Apple’s proprietary mobile ad ID used for ad tracking and measurement. Apple has effectively restricted one of the important elements of in-app mobile advertising. The result is that developers must now explicitly ask users to gather their data and track them across mobile apps and websites accessed on the iPhone/iPad. While originally the feature was slated for release in fall 2020, Apple delayed the privacy feature change to early 2021 to provide developers with sufficient time to adjust. This privacy feature is one of the most aggressive policy changes a tech giant has made in recent years, and what Apple users should expect to see is a prompt requesting their IDFA – as one would expect, most users are expected to select the decline option. Advertising companies such as Facebook have publicly announced this change has the potential to impact its ad revenue negatively going forward."
+  },
+  {
+    "id": 45,
+    "question": "What did Apple announce in 2020 that will negatively impact Intel?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. In 2020, Apple’s CEO Tim Cook officially announced Apple would part ways with Intel and confirmed the company would begin its transition towards using its own custom-built ARM processors in its laptops and desktops (i.e., to proprietary ARM-based processors developed in-house). Apple stated its “Apple Silicon” chips would allow for better, more powerful Macs, and its own chips would bring a new level of performance speed while being more energy-efficient. Apple claims the chip’s advanced power management capabilities would enable maximized performance paired with industry-leading battery life. The first Mac with Apple Silicon will be released at the end of 2020, and Apple expects the split with Intel to take approximately two years."
+  },
+  {
+    "id": 46,
+    "question": "Tell me about the controversial T-Mobile and Sprint merger that brought up concerns of a monopoly and how it ended up being approved.",
+    "answer": "The T-Mobile and Sprint merger was finally approved and completed in 2020, after the initial deal announcement in 2018 and delays related to regulatory scrutiny. The merger was controversial as it effectively brought down the number of major cell phone carriers in the US down from four to three. As part of the agreement for the acquisition to be completed, T-Mobile agreed not to raise prices for three years. Thus, T-Mobile and Sprint users cannot see any price increases until 2023. One reason the Justice Department agreed to the T-Mobile and Spring merger was because of DISH Network’s involvement. To secure the Justice Department’s approval, the two carriers agreed to divest certain assets to DISH, most notably its prepaid subsidiaries (e.g., Boost Mobile), spectrum licenses, and many of Sprint’s retail stores. DISH would become a viable 4 th wireless carrier, allowing for healthy competition to be maintained."
+  },
+  {
+    "id": 47,
+    "question": "How have the acquisitions of Time Warner and DirectTV by AT&T performed to date?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. In the past five years, AT&T has spent billions to position itself well for the streaming wars. Its M&A spending spree began with its acquisition of DirecTV in 2015 in a $49 billion deal, which appeared to be a well-planned, strategic acquisition when media companies were benefiting from a surge in online video consumption from consumers. Then the hugely controversial merger with Time Warner took place in 2018. Since then, AT&T’s streaming ambitions have appeared overzealous, and it currently owns many seemingly redundant streaming brands such as HBO Go, HBO Now, AT&T Now, AT&T TV, AT&T WatchTV, AT&T U-verse, and DirecTV. By the end of the fiscal year 2019, AT&T carried more than $150 billion in debt on its balance sheet – which flowed down to its customers through increased pricing. In its FY 2019 annual report, AT&T not only lost traditional TV service customers but internet video platform users. Initially, AT&T had expected to benefit from the influx of new subscribers acquired from DirecTV and use this leverage in negotiations with programmers. Then, by merging with Time Warner and the acquisition of HBO, AT&T would have access to original programming and be the most well-rounded premium service offering in both quality and quantity. While the original grand vision was to create a media conglomerate; instead, it saddled AT&T with massive debt, higher pricing plans than its competitors, and a lagging market position despite all their spending. The questionable M&A strategy of AT&T gave them a seat at the table for the streaming wars and made them a more modern, diversified company, but it came with such significant expenses that to this day – it's not yet clear whether those acquisitions were the right decisions (or if they were all necessary)."
+  },
+  {
+    "id": 48,
+    "question": "What is the FCC agency and what is its role as a regulatory agency?",
+    "answer": "The Federal Communications Commission (“FCC”) regulates all interstate and international radio, television, wire, satellite, and cable communications in the US. The agency consists of a five-member panel appointed by the President of the US and confirmed by the Senate. The FCC aims to protect consumers from unfair increases in prices or be forced to accept lower quality services and prevent companies from becoming monopolies to where others cannot join the market from the barriers being too high."
+  },
+  {
+    "id": 49,
+    "question": "What is net neutrality?",
+    "answer": "Net neutrality is the idea that internet service providers (ISPs) should treat all online data equally, without preference towards certain users or restricting access content or discrimination towards others – hence, the name “neutral.” If net neutrality were not to exist, ISPs could place restrictions on the kinds of access to content on the Internet (i.e., hinder downloads, uploads, application usage). Also, the ISPs could intentionally slow down or speed up the internet based on where the access is based (or the owner)."
+  },
+  {
+    "id": 50,
+    "question": "How did TikTok become such a popular app in an industry that's considered as being near a monopoly in terms of competition?",
+    "answer": "Owned by ByteDance, TikTok is a video-sharing social networking application that allows its users to make and share short ~15-second clips. At first glance, the platform doesn't come across as noteworthy, given how similar it sounds to the features of Snapchat, Instagram Stories, and Facebook Stories. But the reason TikTok achieved such rapid adoption was because of its focus on user-generated content. More specifically, just about any person could go “viral” and garner millions of views on this app. Compare this to a platform such as YouTube, where the front page is filled with content created by well-known people (often sponsored partners). A similar application, Vine, was one of the first short-form video sharing applications to gain mainstream adoption and was acquired by Twitter. However, Vine was eventually shut down, which many attribute to its biased algorithm in which endorsed content was disproportionally promoted on the app (making the content repetitive as the same branded creators would be shown and often recycled in the feed). Given how TikTok's main appeal appears to be the aspect of users discovering new content by unknown people, it seems unlikely TikTok will make the same mistake as Vine, especially given how the company has stated its mission is to enable everyone to be a creator and share their creative expression through their videos. While this question won’t appear in an interview, it's useful to understand the niche of the leading technology companies within an industry. Likewise: How has Snapchat performed well to this date despite many believing Instagram Stories (practically a copy-cat of Snapchat's features) would kill the app’s usage?"
+  },
+  {
+    "id": 51,
+    "question": "What major licensing deal did Spotify complete in 2020?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. In May 2020, Spotify shocked the podcasting market after announcing that Joe Rogan, the host of the Joe Rogan Experience, had agreed to an exclusive $100 million licensing deal. The Joe Rogan Experience is widely considered as being one of the most popular podcasts in the US, with each episode receiving millions of views. Spotify CEO Daniel Ek has stated that he had realized that podcasts and audiobooks would be the future of Spotify, rather than music alone. These acquisitions and partnerships accelerate the path for Spotify to become the leading audio platform. The gradual change in strategy could be seen in the acquisition of podcast networks Gimlet Media, Anchor, and The Ringer, but the acquisition of JRE was by far the highest-profile strategic move by Spotify to establish itself in the podcast market."
+  },
+  {
+    "id": 52,
+    "question": "Tell me about an ongoing trend in the news industry.",
+    "answer": "Nowadays, many writers, including reporters and journalists, are increasingly starting their independent online newsletters. These writers are creating mini-news platforms through an online email newsletter. With distrust of the media at an all-time high, a growing number of writers and readers have been gravitating towards newsletter platforms such as Substack. By doing so, creators have full autonomy over not only the pricing but their content. Also, rather than generating revenue through advertisements, these writers are paid through subscription plans that many of their readers pay each month. This trend of newsletter platforms is the decentralization of the news, which has increasingly become governed and censored by publishers. Other examples include the continued digitalization of news to more mobile, news aggregation services (e.g., Reddit, Apple News), Twitter as a news platform, and daily/weekly curation newsletters."
+  },
+  {
+    "id": 53,
+    "question": "What are the advantages/disadvantages of being a vertical vs. horizontal software company?",
+    "answer": "Horizontal Software Advantages: Horizontal software companies provide complete, all-encompassing solutions for their customers, that can be used across a broad range of industries (e.g., Office 365, Salesforce CRM, QuickBooks). Simply put, these products each have larger TAMs and therefore have greater potential for total revenue. A company with a small fraction of a large market could generate more revenue than a market leader in a small market. By capturing a fraction of a large market, a company can make enough revenue to find its niche and refine its business strategy (even if it fails to become a market leader). Part of the reason these companies have more time to adjust their strategy is that the markets are large and take time to saturate. Thus, horizontal software companies can pivot and narrow down their target customer over time based on which end markets are most profitable. Disadvantages: The downside being SaaS tends to consist of \"winner takes all\" markets and only a few companies will end up dominating a market as they become the standard products used across most industries. As a result, competition in horizontal software markets tends to be more cut-throat, while involving larger, well-funded companies (often publicly-traded). As a result, sales & marketing spend is noticeably higher for horizontal software companies, given the extensive number of potential customers and the competitive nature of customer acquisitions (i.e., numbers game and a race to reach customers). Vertical Software Advantages: Vertical software companies target specific niche segments. If a vertical software company comes in with a product that adds meaningful value, it can quickly establish itself as the industry leader. Once market leadership is established, the company can then create a tailored suite of solutions based on their understanding of their end market's specific challenges and needs. This further enables them to create a durable moat and even have the potential to change the industry as a whole. Hence, these companies experience lower churn, face less threat from larger enterprises, and do not have to spend as much on sales and marketing. Disadvantages: The key drawback to vertical software is the amount of risk being undertaken as many of these markets are neglected for a reason (e.g., technical hurdles, specialization requirements, research & development costs). In the view of many, the potential revenue and market potential doesn't justify the expenditures. The development of a viable product has the potential to take longer and incur more expenses before reaching the market. So by entering this market, the company is making a high-risk bet that it can gain traction in this focused segment. Another drawback is, even if the company becomes a market leader, growth opportunities will eventually slow down and the company will be forced to pursue expansion opportunities in adjacent markets to expand its geographic reach and total addressable market (TAM), making the gap between S&M spending narrow at scale."
+  },
+  {
+    "id": 54,
+    "question": "Tell me about the trend of verticalization in the SaaS industry.",
+    "answer": "In the early days of SaaS, vertical software companies received less interest and lower valuations from investors when compared to horizontal software companies. The implicit assumption being that their limited scalability would make multi-billion dollar exits unattainable. Today, nearly every industry runs on software or is affected by it indirectly, which can be attributed to vertical solution providers (\"VSPs\"). By creating specialized products tailored to serve the needs of new or underserved markets, many of these VSPs have proven to redefine their target industries and obtain market leadership. Since many of these segments served were slow to adopt technology and neglected by many horizontal software companies due to the level of customization necessary and technical requirements, there was an abundance of opportunities to bring value-add solutions specifically put together for their unique needs and challenges. The common pattern seen was one product being integrated into an underserved niche segment and then over time, companies would develop a platform of tools tailored for their customer base. Given their timing advantage and the lack of competition in the market, this enabled their developers to focus on product development and further improve upon their competitive advantage. The number of vertical software providers has increased substantially, along with premiums in their valuations. Through offering specific, tailored solutions designed to address the unique demands and challenges faced by niche areas, VSPs had the advantage of increased value-add opportunities from customization, a loyal customer base with less churn, and more pricing power."
+  },
+  {
+    "id": 55,
+    "question": "Which valuation multiples are used most commonly in SaaS?",
+    "answer": "For public SaaS companies, EV/Revenue remains the primary valuation metric. But as the industry matures, the market is rewarding companies with healthy EBITDA margins more, and EV/EBITDA has increased in usage for industries where the market leaders have become clear as seen by their market share. When looking at unprofitable companies, EV/Revenue and EV/ARR are two of the most commonly used multiples, along with user-based multiples such as EV/DAU, EV/MAU, and EV/Monthly Subscription Users. Given the prevalence of acqui-hiring in SaaS, two multiples looked at in those acquisition-type situations are EV/Total Funding Raised and EV/Total Employee Count."
+  },
+  {
+    "id": 56,
+    "question": "What is product-market fit?",
+    "answer": "The concept of product-market fit (PMF) is one of the key factors that determine whether an early-stage startup start-up can succeed or not. From Marc Andreessen's blog, he described it as \"Product/market fit means being in a good market with a product that can satisfy that market.\" So product-market fit is the validation of the product in the market, as confirmed from consistent consumption by existing users, organic new customer growth, and increased word-of-mouth promotion. PMF is more of a qualitative trait as determining the degree to how a product satisfies a market's demand and the extent of how much a product resonates with a particular market is difficult to measure, let alone quantify. Often, PMF is described as one of those attributes that can be recognized from customer engagement and feedback, as well as exponential growth as the product begins to “sell itself\" and marketing takes off on its own."
+  },
+  {
+    "id": 57,
+    "question": "What does the LTV: CAC ratio represent and why is it an important metric to track?",
+    "answer": "The first and arguably most important metric for evaluating software businesses is the ratio of customer lifetime value (LTV) to customer acquisition cost (CAC). LTV is the total value a single customer will generate for a business over its lifetime, while CAC is the total cost incurred to acquire that customer. LTV/CAC Ratio = Customer Lifetime Value / Customer Acquisition Cost. The ratio shows the value of a customer relative to the cost of acquiring that customer and asks whether the company derives enough customer value to justify its acquisition spending."
+  },
+  {
+    "id": 58,
+    "question": "How do you calculate the customer lifetime value (LTV) and customer acquisition cost (CAC)?",
+    "answer": "First, calculate Customer Lifetime = 1 / Monthly Customer Churn Rate. Customer lifetime is the implied duration that a customer remains with a company. Next, calculate Average Revenue Per Account (ARPA) = Monthly Recurring Revenue / Total Number of Accounts. Then calculate Lifetime Value = (ARPU × Gross Margin %) / MRR Churn Rate %. Finally, calculate CAC = Total Sales and Marketing Expenses / Total Number of New Customers Added. The two results can then be combined as LTV/CAC = LTV / CAC. The periods used in the calculations must be consistent."
+  },
+  {
+    "id": 59,
+    "question": "What is the ideal LTV/CAC ratio that software companies target?",
+    "answer": "An LTV/CAC of >3.0x is considered sustainable and the typical target for most software companies seeking continual growth. An LTV/CAC of <1.0x is an unsustainable rate and implies the company is having difficulty monetizing its newly acquired customers. An LTV/CAC of >5.0x+ for an early-stage company means the management may need to spend more on new customer acquisitions."
+  },
+  {
+    "id": 60,
+    "question": "Conceptually, what does customer lifetime value (LTV) represent?",
+    "answer": "Simply put, customer lifetime value (LTV) measures the total amount of revenue a company receives from a single customer on average. LTV is a measure of how valuable the average customer is to a company during the entire lifespan over their relationship, which is critical to track because it helps predict the future revenue that can be expected from each customer. This figure is then compared to the CAC to gauge its cost-efficiency."
+  },
+  {
+    "id": 61,
+    "question": "How do you calculate customer churn?",
+    "answer": "Customer churn represents the rate that customers canceled their products/services agreement over a specific time horizon. The churn rate (also known as the attrition rate) measures the customers lost in a period as a percentage of the number of total customers at the beginning of the period. Churn Rate % = Total Churned Customers / Total Customers at Beginning of Period."
+  },
+  {
+    "id": 62,
+    "question": "How would you calculate revenue churn?",
+    "answer": "The two most common revenue churn rates calculated are: MRR Churn: This represents the lost MRR from the churned customer as a percentage of MRR. MRR Churn % = Churned MRR / MRR in the Previous Month. Net MRR Churn: This represents the lost MRR but accounts for the MRR expansion from existing customers. If expansion MRR offsets (and outpaces) the lost MRR, the net MRR churn will turn negative. Net MRR Churn % = (Churned MRR - Expansion MRR) / MRR in the Previous Month."
+  },
+  {
+    "id": 63,
+    "question": "What are bookings and are they recognized as revenue under GAAP?",
+    "answer": "Bookings represent the value of a contract a customer has contractually committed to spend, usually agreed to on an annual or multi-year basis. Although not recognized as revenue under GAAP yet, it's a key indicator of the company's prospects and is used for forecasting purposes as it indicates the direction the business is heading in terms of growth and momentum."
+  },
+  {
+    "id": 64,
+    "question": "For software companies, why are bookings a better proxy than revenue to measure growth?",
+    "answer": "Bookings are a more useful proxy to measure a SaaS company's growth because it's a forward-looking indicator that doesn't understate the true value of customer contracts the way accrual-based revenue does. For this reason, bookings are more useful when evaluating a company's sales & marketing performance and one of the main metrics used to portray projected performance when raising venture funding."
+  },
+  {
+    "id": 65,
+    "question": "Why would it be a mistake to use bookings and deferred revenue interchangeably?",
+    "answer": "Many mistakenly use the terms bookings and deferred revenue interchangeably. Bookings represent the contractual commitment of customers to use their products or services. The difference with deferred revenue is the customer has neither received nor paid for the products or services. For deferred revenue, the revenue is similarly unearned, but payment was received upfront."
+  },
+  {
+    "id": 66,
+    "question": "In SaaS, what are billings and how does it differ from bookings?",
+    "answer": "Billings are the invoices due for payment from a customer. For example, if a company secured an annual contract of $12,000 with billings agreed to be on a quarterly basis, the total billings for the first month would be $3,000 while the remaining bookings would be $9,000."
+  },
+  {
+    "id": 67,
+    "question": "An early-stage startup has a very low churn rate. Why might this be misleading?",
+    "answer": "Many newer, growth-stage companies will have very low customer churn rates, but this can be misleading. The reason being an \"early adopter\" is the least likely customer type to churn, as most are passionate about testing out the latest technologies and innovations. Thus, the low churn rate would not be an accurate proxy for their churn rates later on because initial adopters are closer to \"product testers\" than real customers."
+  },
+  {
+    "id": 68,
+    "question": "In the SaaS industry, what is a reasonable customer churn rate?",
+    "answer": "Within the software industry, a churn rate of ~5% annually is the norm. However, this rate must be compared to its closest competitors to understand the end-users and understand the expected churn."
+  },
+  {
+    "id": 69,
+    "question": "Why is product revenue preferred over service-based revenue in the software industry?",
+    "answer": "When most of a company's revenue comes from product revenue rather than service revenue, it leads to higher gross margins and better scalability. In comparison, services-based revenue is less-recurring, has much lower margins, and is less scalable."
+  },
+  {
+    "id": 70,
+    "question": "What are monthly recurring revenue and annual recurring revenue used to measure?",
+    "answer": "Monthly recurring revenue (\"MRR\") is a measure of the recurring, predictable revenue generated on a monthly basis by subscription SaaS companies. MRR should include monthly recurring revenue from subscription fees, upgrades, up-selling, and cross-selling, as well as revenue lost from downgrades, discounts, and churn. MRR is equal to the monthly recurring revenue at the end of each month and is computed by taking the MRR from the previous month and adding net new MRR. In contrast, annual recurring revenue (\"ARR\") is just MRR annualized and calculated as ARR = MRR × 12."
+  },
+  {
+    "id": 71,
+    "question": "What does annual recurring revenue (ARR) mean in the SaaS context?",
+    "answer": "For the SaaS industry, annual recurring revenue (ARR) is a measure of a software business's recurring revenue components on an annualized basis. The proper calculation of ARR will exclude non-recurring, one-time fees such as professional service, consulting fees, installation, and set-up fees. ARR is a key measure that reflects the amount of total revenue that's recurring in nature."
+  },
+  {
+    "id": 72,
+    "question": "What are the flaws of the annual recurring revenue (ARR) metrics?",
+    "answer": "ARR is used to estimate revenue for the upcoming year, based on the most recent MRR. Implicit in its assumptions is that there'll be no customer churn, upselling, or downgrades. And that the latest month is the best indicator of its future performance."
+  },
+  {
+    "id": 73,
+    "question": "How do you calculate net new MRR for a given period?",
+    "answer": "Net new MRR is computed by taking the new MRR from new customers, adding new expansion MRR from existing customers, and deducting MRR churn from lost customers. Net New MRR = New MRR + Expansion MRR - Churned MRR."
+  },
+  {
+    "id": 74,
+    "question": "What are the different types of expansion MRR?",
+    "answer": "Upselling: Convincing existing customers to spend more on an upgraded version of the products/services they're already using with additional features, add-ons, or capabilities. Cross-Selling: Offering customers complimentary products or services that enhance the product the customer is already using. Add-Ons: Providing opportunities to unlock more features or widgets currently not part of a customer’s plan, so additional features must be unlocked."
+  },
+  {
+    "id": 75,
+    "question": "Why is the net dollar retention an important metric to measure alongside the ARR?",
+    "answer": "ARR cannot be looked at alone, as a SaaS company can grow ARR 100%+ each year yet have poor net dollar retention (<75%). Net dollar retention is a core KPI to look at when assessing an early-stage SaaS company's health, as poor NDR will eventually catch up and slow down the ARR if the underlying issues are not fixed. Net dollar retention is expressed as a percentage of the revenue from customers retained compared to the beginning period after accounting for upsells, upgrades/downgrades, and customer churn. NDR = ((Starting MRR + Expansion MRR - Downgrade MRR - Churned MRR) / Starting MRR) × 100. NDR > 100%: Indication of an increase in recurring revenue from existing customers – the top-performing SaaS companies can exceed this figure by a large margin, but most will target ~100% or slightly above. NDR < 100%: Contraction in recurring revenue due to downgrades in user consumption and churn."
+  },
+  {
+    "id": 76,
+    "question": "How are bookings accounted for when calculating MRR?",
+    "answer": "Bookings represent the value of a long-term contract that has been committed to by a customer. To account for bookings when calculating MRR, the amount must be amortized across the length of the contract (i.e. monthly)."
+  },
+  {
+    "id": 77,
+    "question": "What are some ways that software companies can grow their recurring revenue?",
+    "answer": "New Customers Acquisitions: Increase sales & marketing spend, enter new channels/markets Higher Average Selling Price (ASPs): Requires pricing power over their customer base More Cross-Selling: Easier to sell complementary products/services to existing customers Increase Upsell Rate: Benefits from the additional revenue derived from existing customers"
+  },
+  {
+    "id": 78,
+    "question": "What is CMRR, and how does it compare to MRR?",
+    "answer": "Committed Monthly Recurring Revenue (CMRR) is calculated with MRR as the base metric, and then it accounts for new committed signed contracts, expansion opportunities, customer downgrades, and expected churn. CMRR = MRR + New Bookings + Upsell Bookings - Downgrade Bookings - Churn. Unlike MRR, CMRR is a forward-looking metric with more discretion on what to include and the amount. CMRR is, therefore, more speculative as it tries to forecast changes in recurring revenue, but is arguably a better approximation of how a company might perform in the future."
+  },
+  {
+    "id": 79,
+    "question": "In the SaaS industry, how would you measure sales efficiency?",
+    "answer": "Sales efficiency metrics compare new recurring revenue generated during a period with sales and marketing spending. Gross Sales Efficiency = Gross New ARR in the Current Quarter / Total Sales and Marketing Expense in the Prior Quarter. Net New ARR = Net ARR + Expansion ARR - Churned ARR. Net Sales Efficiency = Net ARR in the Current Quarter / Sales and Marketing Spend in the Prior Quarter."
+  },
+  {
+    "id": 80,
+    "question": "For SaaS companies, what is the \"magic number\" and why is it used?",
+    "answer": "The net sales efficiency metric is limited because not all public companies disclose the necessary figures. Scale Venture Partners developed the Magic Number to support comparison. It replaces Net New ARR with the annualized difference between the two most recent quarterly GAAP revenue figures. Magic Number = ((GAAP Revenue in the Current Quarter - GAAP Revenue in the Previous Quarter) × 4) / Sales and Marketing Spend in the Previous Quarter. A Magic Number below 0.75 is considered inefficient, between 0.75 and 1 is efficient, and above 1 is very efficient."
+  },
+  {
+    "id": 81,
+    "question": "What is the CAC Payback Period?",
+    "answer": "The CAC payback period measures how many months it takes for a company to recuperate its customer acquisition costs. The shorter the CAC payback period is, the sooner the company can break-even and become more profitable. In terms of the industry benchmark, the general aim is less than 12 months. The top, best-in-class SaaS companies average ~6-12 months, but most average ~18 months. CAC Payback = Customer Acquisition Cost / (Average MRR per Customer × Gross Margin %)."
+  },
+  {
+    "id": 82,
+    "question": "How do you calculate ARPA?",
+    "answer": "The average revenue per account (ARPA) is a measure of the revenue generated per active account, typically on a per month basis. This metric is often used interchangeably by the average revenue per user (ARPU). An ARPA that's growing is a positive sign that more value is being derived from each account as the business scales. Average Revenue Per Account (ARPA) = MRR / Total Number of Accounts. Alternatively, ARR can be used instead of MRR to convert ARPA to a yearly metric."
+  },
+  {
+    "id": 83,
+    "question": "What is the difference between total contract value (TCV) and annual contract value (ACV)?",
+    "answer": "Total Contract Value: TCV is the total value of the contract and is independent of the time frame (i.e., the period can be a month, six months, twelve months, etc.). Annual Contract Value: ACV measures the contract's value over twelve months – and is thus the better metric to use when making comparisons across the industry since it's annualized."
+  },
+  {
+    "id": 84,
+    "question": "How can a software company decrease its churn?",
+    "answer": "Focused Market Segmentation: Segment the customer base and direct selling efforts toward lower-churn customers. Use trial and error to understand where demand is strongest and narrow the target market. Improved Customer Interface: Maintain contact with customers, provide additional value, and collect and act on feedback. Upfront Payments: Promote annual plans and longer-term commitments, which make customers less likely to churn. Variable Pricing Model: Offer more payment options based on seats, licenses, or features. Some users may downgrade, but the added optionality can reduce lost customers."
+  },
+  {
+    "id": 85,
+    "question": "If a SaaS company has net negative churn, what does this mean?",
+    "answer": "Net negative churn occurs when a SaaS company's expansion revenue from existing customers exceeds the revenue lost from existing customers, from cancelations and downgrades. A key distinction of this metric is revenue from new customers is not factored in. Therefore, net negative churn means recurring revenue from existing customers by itself can offset higher-than-normal churn. While customer attrition rates want to be minimized, being capable of weathering a sharp decline in new customer acquisitions confirms the value being provided to existing customers."
+  },
+  {
+    "id": 86,
+    "question": "What is the importance of TAM in SaaS investing and how is it estimated?",
+    "answer": "To estimate the total achievable revenue and quantify the market size and opportunity, the total addressable market (TAM) is estimated. Market size is a critical factor for SaaS companies and an area where investors spend significant time evaluating. The most insightful part of market sizing analysis is arguably segmenting the market, which involves identifying which areas are growing or contracting, customer categorization, and spending trends/behavioral patterns (i.e., cohort analysis). Bottom-Up Approach: While there are various ways to size a market, the most common method is the bottom-up TAM approach, which involves identifying the target customer profile, the approximate number of potential customers that meet the profile criteria, the growth in the target customers, and the assumed penetration of the segment. At its core, bottoms-up revenue forecasts are based on quantity sold multiplied by the product or service price (key data points collected from past selling efforts). Listed below are a few examples of the most basic bottom-up revenue forecast drivers: B2C SaaS: Revenue = Total Number of Users×ARPU B2B SaaS: Revenue = Total Number of Customers×ACV Volume Based Build: Revenue = GMV or TPV×Take Rate % Top-Down TAM Approach: In contrast, a top-down approach uses broader assumptions and estimates the TAM based on a market share percentage-based assumption on the total market size. To support their market sizing assumption, industry research and reports would be used. Then, the top-down revenue forecast would involve the TAM being multiplied by the implied market share %. However, this is a “quick and dirty” method to forecast revenue, rather than being precise by any means."
+  },
+  {
+    "id": 87,
+    "question": "What is the SaaS Quick Ratio?",
+    "answer": "Mamoon Hamid popularized his variant of the Quick Ratio, which compares MRR growth (from New MRR and Expansion MRR) to MRR loss (from churned MRR and contraction MRR) in the same timeframe. The formula for calculating SaaS Quick Ratio is shown below: SaaS Quick Ratio = (New MRR + Expansion MRR) / (Churned MRR + Contraction MRR). For interpreting the output, a ratio less than 1 means MRR is being outpaced by the rate of churn, a ratio between 1 and 4 means MRR is above churn but still losing lots of growth potential, and then the optimal target Hamid mentions is 4. There are four factors in the formula: New MRR: MRR increase from new subscriptions following new customer acquisitions and bookings. Expansion MRR: MRR increase from upselling and cross-selling opportunities. Churned MRR: MRR lost from the churn, in which customers have canceled their subscription. Contraction MRR: MRR lost from downgrades in subscription plans."
+  },
+  {
+    "id": 88,
+    "question": "What is cohort analysis and its primary use case for SaaS companies?",
+    "answer": "Cohort analysis is a behavioral analytical tool used by companies to understand their customers, which helps them take actionable steps towards improving customer retention and customer lifetime value. A cohort is defined as a subset (or group) of customers who share a certain characteristic. Some of the most common types of cohorts used are: Time-Based Cohorts: Customers are grouped based on the date of their purchase. Segment-Based Cohorts: Customers are broken down by purchase (e.g., a specific product, plan, tier). Size-Based Cohorts: Customers are split based upon size (e.g., small businesses, large enterprises). Once the cohorts have been defined, it becomes easier to analyze user behavior by each customer type and spot trends in the compiled data. Based on the patterns identified, the company then tests the hypothesis to determine its validity and effectiveness. One of the key insights that can be derived from cohort analysis is understanding why certain customers churn, and then what measures can be taken to minimize churn."
+  },
+  {
+    "id": 89,
+    "question": "In SaaS, what is the purpose of A/B testing?",
+    "answer": "Typically associated with the hypothesis testing stage of cohort analysis, A/B testing involves software being used to track user behavior and gather insights after implementing a change. In most cases, the experiment will compare two or more variants (i.e., product modifications) and compare the outcomes. This enables the company to change the user experience gradually and make the optimal decision following user testing."
+  },
+  {
+    "id": 90,
+    "question": "What is the difference between gross margin and contribution margin?",
+    "answer": "Gross Margin: Measure of how expensive it's to develop a product, consisting of both fixed and variable product direct costs. Gross Margin ($) = Revenue - Cost of Goods Sold. Contribution Margin: Calculated on a per unit basis, contribution margin measures profit per unit without considering fixed costs. The contribution margin enables you to list out the different product lines of a business to identify which ones are the most profitable on a per-unit basis. Contribution Margin ($) = Unit Revenue - Unit Variable Costs."
+  },
+  {
+    "id": 91,
+    "question": "What is the \"Rule of 40\" in the SaaS industry?",
+    "answer": "In recent years, a popularized measure of growth is the \"Rule of 40,\" which states that 40% of a company's growth rate added to their profit margin should exceed 40%. The rule suggests a company with low (or negative) profits can still be valued at a high multiple as long as its growth rate counterbalances the cash burn. Most often, MRR or ARR is used for the growth rate, while the EBITDA margin in the same period is used for the profit margin. Opinions differ on what stage this rule becomes applicable and its usefulness as a metric, but it's a simple measure to make sure the trade-off between growth and spend is balanced (and prevent the \"growth at all costs\" mindset)."
+  },
+  {
+    "id": 92,
+    "question": "Walk me through a bank’s income statement.",
+    "answer": "A bank’s income statement starts with interest income, net of interest expense. This is called net interest income and represents the difference between how much a bank earns on loans and how much a bank has to pay out in interest to get customer deposits that finance those loans. The next major line in a bank’s income statement is an expense called “Provision for Credit Losses,” representing an accrual for expected losses due to bad loans. Net interest income minus the credit loss provision represents a bank’s core operating profitability. Below this line (often called “Net Interest Income After Provisions for Losses”) are non-interest related income and expenses − Banks recognize income from other activities, such as fees, commissions, service charges, and trading gains. The most significant non-interest expense is salary and employee benefits. Other non-interest expenses include occupancy and equipment expense, technology expense, amortization, marketing, and insurance expense. Lastly, there's the tax expense line item, and then you get to net income."
+  },
+  {
+    "id": 93,
+    "question": "Walk me through a bank’s balance sheet.",
+    "answer": "Assets: The largest asset for a bank is the bank’s loan portfolio. Loans represent the bulk of a bank’s assets and are typically comprised of residential and commercial real estate, as well as other consumer and commercial loans. The next largest assets will be investment securities and cash. Liabilities: Deposits represent the bulk of a commercial bank’s source of funds. Interest-bearing deposits contribute to a bank’s interest expense, while non-interest-bearing deposits don't. The rest of a bank’s liabilities are typically short-and long-term borrowings. Equity: Like any non-bank company, equity will consist of common stock and treasury stock, preferred stock, retained earnings, and other comprehensive income."
+  },
+  {
+    "id": 94,
+    "question": "How are the financials of a bank different from a traditional company?",
+    "answer": "For a non-bank, traditional company, revenues, cost of goods sold, and SG&A typically represent the main elements of operating income, while non-operating items like interest expense and income, other gains and losses, and taxes are presented below operating income. Separating revenues vs. non-operating items like interest income and expense is not feasible for a bank since its core revenue comes from generating interest income while its primary operating expense is interest expense. A bank’s income statement is driven by the size and returns of its assets (loans) and the cost of capital of its liabilities (deposits) in a far more direct way than traditional companies."
+  },
+  {
+    "id": 95,
+    "question": "What is the impact of an inverted yield curve on a bank’s profits?",
+    "answer": "Banks lend long term (mortgages, car loans, business loans) and fund this by borrowing short term (like deposits and interbank loans). As a result, the larger the difference (spread) between the yields on long-term bonds and yields on short-term bonds, the more profitable a bank will be, and vice versa. Thus, in the case of an inverted yield curve, bank profits would be expected to contract as long-term yields decline relative to short-term yields. Needless to say, different banks will have different levels of exposure to this duration risk based on their particular investment and loan portfolio mix. But as a general rule, bank profitability declines as the yield curve flattens or inverts."
+  },
+  {
+    "id": 96,
+    "question": "How do you value a commercial bank?",
+    "answer": "There are significant differences between the valuation of a non-bank and a bank. The most common valuation models employed to value a bank include: Levered Discounted Cash Flow Analysis Dividend Discount Model (DDM) Residual Income Model (RI) Comps with Equity Value Multiples (e.g., P/B, P/E) All these valuation approaches are levered approaches that value the equity directly. That’s because disentangling operating value from nonoperating value for banks is impossible, seeing that the core operations are fundamentally tied to generating debt-related interest income, net of interest expense. For this reason, multiples used for comps analysis must be equity multiples like P/B and P/E, as opposed to the EV/EBITDA, EV/Revenues, and EV/EBIT multiples (which you would use for non-banks)."
+  },
+  {
+    "id": 97,
+    "question": "Walk me through valuing a bank using a levered DCF.",
+    "answer": "You can’t value a bank using a traditional unlevered DCF because it's impossible to disentangle operating cash flows from financing cash flows, a key requirement in the unlevered DCF. However, you can value a bank using a levered DCF: First, levered free cash flows are forecasted explicitly for 5-10 years. Beyond the final explicit forecast period, the terminal value is calculated using either the growth in perpetuity approach or exit multiple method. Then, both the explicit levered free cash flows and terminal value (TV) are discounted back to the present at the bank’s cost of equity since this is a levered DCF. Finally, the sum of the present value (PV) of levered CFs represents the bank's equity value."
+  },
+  {
+    "id": 98,
+    "question": "Walk me through a bank valuation using the dividend discount model (DDM).",
+    "answer": "Because banks typically have large dividend payouts, a dividend discount model is a common valuation approach. At a high level, the DDM process usually involves arriving at an equity value by forecasting future dividends and discounting at the cost of equity. The 3-stage DDM is common for bank DDM models and breaks up the forecast period into three distinct stages: Development Stage (3-5 years): Forecast dividends explicitly and discount to PV using the cost of equity as the discount rate. Maturity Stage: (3-5 years): Rather than making explicit dividend forecasts, derive dividends based on the assumption that ROE and cost of equity converge. The logic here is that a mature company cannot sustain ROE significantly greater than its cost of equity forever. Terminal Stage: The final stage represents the PV of all future dividends once the company has reached maturity, assuming a perpetual dividend growth rate or terminal price/book multiple."
+  },
+  {
+    "id": 99,
+    "question": "Walk me through a bank valuation using the residual income model. Why is it arguably better than the DCF or DDM?",
+    "answer": "The residual income valuation approach works around a significant shortcoming of the DDM – namely, its sensitivity to terminal value. The residual income valuation calculates a company’s equity value as the sum of two components: Book Value of Equity + Present Value of Residual Income. The present value of the residual income is estimated by looking at the extra equity value above the company's book value. For example, if a bank with a 10% cost of equity and $1 billion book value of equity is expected to generate $150 million in net income next year, the residual income for that year will be $50 million ($150 million – [$1 billion x 10%]). Conceptually, this represents excess returns above the cost of capital, and all excess returns are added to the book value of equity to arrive at the fair value of equity. By the terminal value period, the assumption is that excess returns go away, which leads to a terminal value of 0. This avoids the terminal value issue in the DDM and DCF approaches, which commingle value creation and value preservation."
+  },
+  {
+    "id": 100,
+    "question": "What multiples are appropriate for valuing a bank?",
+    "answer": "Price Per Share/Book Value Per Share (P/B) Price Per Share/Earnings Per Share (P/E) Price Per Share/Tangible Book Value Per Share (P/TBV)"
+  },
+  {
+    "id": 101,
+    "question": "Why is the unlevered DCF approach inappropriate for banks?",
+    "answer": "The unlevered DCF approach would not be feasible for banks because it attempts to calculate cash flows on an unlevered basis (i.e., before the effects of debt and leverage). That would not be a plausible option, as it's unreasonable because most of a bank’s revenue and cost of goods sold comes in the form of interest income and interest expense, respectively. While it's useful to separate operating earnings from interest income and expense in a non-bank, it's a pointless exercise for banks."
+  },
+  {
+    "id": 102,
+    "question": "How would you forecast the revenue of a boutique investment bank?",
+    "answer": "Since this is a boutique investment bank, its primary revenue sources will be from fees from mergers & acquisitions advisory and/or helping companies raise debt or equity financing. One approach to forecast revenue would be to use revenue per employee as the main driver. Investment banking is a relationship-driven business, thus the amount of deal flow is a function of their senior bankers' ability to bring in and close deals. The other assumptions needed would be the average revenue per employee and growth in employee count. As a sanity check, the implied annual deal count can be backed out of using the forecasted revenue and an assumption for the average deal size and the average fee structure (i.e., % transaction fee). This could be done to ensure the deal count is reasonably in-line with the past deal flow. Other considerations would be the industry or product group focus, as these influence the potential deal count, growth rates, and cyclicality in revenue. Understanding a bank's trajectory, how it ranks compared to its competitors, the area it specializes in, and the quality of its employees is required to create an accurate forecast. This is why when large investment banks acquire boutiques, the acquirer is paying for the senior bankers' client relationships, their industry reputation/track record, and expected deal flow to be generated by the new additions to the team. Hence, earn-outs are often structured to prevent senior partners from leaving and to align incentives."
+  },
+  {
+    "id": 103,
+    "question": "How does a passively managed fund generate revenue?",
+    "answer": "The amount of revenue generated by an asset management firm is a function of its total AUM. The management fee, which is charged as a percentage of AUM, is intended to cover the fees to oversee the portfolio and cover all operational expenses. The percentage would increase the more active the asset manager is in the investment selection process and the amount of specialization required. Often called the management expense ratio (\"MER\"), this metric represents the fee charged to manage the capital invested in a mutual fund. MER is the total of a fund’s management fee, operating expenses, and taxes for a specific year, divided by the fund's total AUM. Thus, MER is expressed as a percentage of the average dollar amount of a fund investment."
+  },
+  {
+    "id": 104,
+    "question": "How would you value an actively managed alternative investment management firm?",
+    "answer": "Alternative asset management firms such as hedge funds and private equity firms generate two types of cash flows: management fees and performance fees. From investing in riskier alternative asset classes, these types of funds can charge higher management fees traditionally around ~2% with an incentive fee in which ~20% of returns past a pre-specified threshold go directly to the GPs of the firm. Each has different risk profiles and thus merit a sum of the parts approach. Management Fees: The first type of cash flow, and the easier one to model, is related to management fees. Most charge management fees of 1-2% on total capital raised. The most common valuation approach is to apply a market multiple to the current or next year's forecast for management fees. Performance Fees: The second cash flow comes from less predictable performance fees (often called \"carried interest\"), which tend to be around 15-20% of the returns. Since these fees are realized upon exiting investments, they tend to be lumpy and difficult to forecast. The typical approach here is to apply a multiple on these cash flows, but a much lower multiple than the multiple applied to management fees."
+  },
+  {
+    "id": 105,
+    "question": "What types of multiples are used to value asset management firms?",
+    "answer": "The most common multiples used to value asset management firms are the standard P/E and EV/EBITDA multiples. EV/AUM is occasionally used as well, however, this metric would only be useful if peer group is closely related to one another. For example, EV/AUM cannot be used to compare a passive asset manager and an actively managed equity mutual fund since the expected returns and fees as a percentage of AUM vary."
+  },
+  {
+    "id": 106,
+    "question": "What is securities lending?",
+    "answer": "Securities lending is when a lender provides stock, bonds, derivatives, or other financial instruments to a borrower. And in return, the borrower will transfer collateral to the lender and pay a borrowing fee. The collateralized transaction is a temporary transfer, meaning the borrower is contractually obliged to return the securities if requested or on the agreed-upon date."
+  },
+  {
+    "id": 107,
+    "question": "What are the three main types of securities lending models?",
+    "answer": "Direct Lenders: Some investors have the scale to build their securities lending operation – this would include large asset managers such as Vanguard and Blackrock. Custodian: Bundled option of custody, fund administration, and securities lending – custodians manage large pools of assets for several investors (i.e., pool collateral investment). 3 rd Party Lending: Either linked to a prime brokerage or specializes in securities lending, these separate custodians can operate a third option for assets not held in their custodian operation."
+  },
+  {
+    "id": 108,
+    "question": "What are the two fee models in securities lending?",
+    "answer": "Discretionary Lending: This is the more traditional lending model, in which the lending agent (or principal) will negotiate each loan in the portfolio with the borrower. All lending is conducted on a “best-efforts” basis. Here, loans are negotiated based on fluctuating daily demand levels in the marketplace; therefore, the lender receives the market rate with a fee paid to the agent who managed the lending. Principal Exclusive: Under this lending structure, the lender (or their representative) negotiates an exclusive arrangement with a principal counterparty. The borrower pays a flat fee for exclusive access to a portfolio (or portion). The steady lending fees are agreed upon at the expense of more upside potential. However, these financial arrangements are negotiated and could include profit-sharing past a threshold."
+  },
+  {
+    "id": 109,
+    "question": "What is FinTech?",
+    "answer": "Financial technology (\"FinTech\") encompasses the modernized technology-enabled delivery of financial services. By leveraging technology, various types of services can be delivered faster and more efficiently than before. Everything from mobile banking on smartphones, investing in stocks from a mobile application, and being able to transfer money to a peer online are all part of FinTech."
+  },
+  {
+    "id": 110,
+    "question": "What multiples would you use to value a FinTech company?",
+    "answer": "In FinTech, the most commonly used multiples appear to be EV/Revenue, EV/EBITDA, and P/E. For sectors with higher-growth, their LTM multiples will often not be meaningful and will thus be accompanied by one-year and two-year forward multiples. Besides the leading companies in the industry, EV/Revenue is used the most often as many FinTech companies are unprofitable or barely profitable. Industry Specific Multiples Digital Banking and Payments: EV/Total Payment Volume (TPV), EV/Total # of Peer-to-Peer Transfers, EV/Total # of Premium Users Transfer Services and Marketplaces: EV/Gross Transaction Volume (GTV), EV/Total Origination Volume, EV/Average Revenue Per Transaction Stock Brokerages: EV/Daily Average Revenue Trades (DARTS), EV/Total # of Premium Subscriptions"
+  },
+  {
+    "id": 111,
+    "question": "How do most FinTech start-ups generate revenue?",
+    "answer": "The business model most commonly seen in FinTech start-ups is a brokerage-type structure, in which the amount a company makes is fee-based (i.e., a small percentage of each transaction). This categorization would include start-ups in verticals such as digital banking, payments, online money transfer services, stock brokerages, and lending marketplace. For example, a P2P online money transfer service platform may charge a 2-4% fee for international transfers of a particular size. Other business models can include service fees such as Robo-advisors in which a flat subscription fee is paid each month or interest payments in the case of direct lenders that lend off their balance sheet."
+  },
+  {
+    "id": 112,
+    "question": "Tell me about the trend of challenger banks.",
+    "answer": "Challenger banks are branchless, digital banks – over the past few years, these startups have acquired millions of banking customers, with many of them attaining unicorn status in terms of VC funding. The name “challenger” is due to competing against the traditional incumbent banks that many consumers criticize for slow processing speeds, hidden fees, and lack of transparency. The leading challenger banks include Chime, N26, Current, Revolut, and Varo."
+  },
+  {
+    "id": 113,
+    "question": "From the consumer perspective, what is the benefit of a challenger bank over a traditional bank?",
+    "answer": "The primary appeal of challenger banks is their online presence and mobile app development that resonates with digitally native consumers. Their rapid adoption could also be due to the easy setup process of an account (can often take only a few minutes), transparent fee structure and no hidden fees, lower rates for premium services and features, and an overall better online experience. Many challenger banks such as Chime have an immediate crediting of paychecks, forgoing the typical two to three-day float period that traditional banks have."
+  },
+  {
+    "id": 114,
+    "question": "Are challenger banks actually “banks” in the traditional sense?",
+    "answer": "Many challenger banks don't start with a banking license; instead, they rely on a partner bank to operate. Later, as more customers sign up for their banking services, the challenger bank will either continue to depend on their established partnerships with other banks or apply for their banking license."
+  },
+  {
+    "id": 115,
+    "question": "What is the difference between a neo bank and a challenger bank?",
+    "answer": "The terms neo bank and challenger bank are often used interchangeably and categorized together. However, the key distinction is that neo banks are completely digital and have no physical presence (i.e., no brick-and-mortar) – instead, they serve consumers through their mobile apps and online web platforms. Neo banks don't possess a full banking license and instead rely on a partner bank to operate (e.g., N26 and Visa), but challenger banks have a full banking license to operate with a minor physical presence."
+  },
+  {
+    "id": 116,
+    "question": "Given their current business model, do challenger banks have a pathway to becoming profitable someday?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. Challenger banks bring attention to their transparent, reduced fees, and most offer free basic accounts. But over the past few years, challenger banks have increasingly rolled out more premium account options that offer their top customers premium services. For instance, N26 offers a basic account that offers a few free ATM withdrawals and foreign currency payments, and alternatively a “Black” option with travel, smartphone, and insurance services. Similarly, the business model of Revolut offers a free basic account and two subscription-type premium plans – and the company claimed to break even in terms of profitability in early 2017. While many of these startups are most likely burning cash, these startups have a single-minded focus on growth, and this freemium business model (with the option for premium services) is the best strategy to continue acquiring more customers while simultaneously raising more funding from investors."
+  },
+  {
+    "id": 117,
+    "question": "Why might consumer FinTech start-ups appear to be struggling to monetize their user base?",
+    "answer": "The majority of FinTech start-ups struggle to generate revenue because their focus is neither on revenue growth nor profitability, but user base growth. How these FinTech companies plan to monetize their users and become a sustainable business remains unknown. Many start-ups have begun to launch premium, pay-to-use services, but leading FinTech start-ups such as Monzo and Revolut have revealed deepening losses, employee layoffs/pay cuts, and complaints from customers about lower-quality service. One explanation for their struggles is that the primary appeal of these FinTech apps for many consumers is that these applications offer greater control, visibility, and convenience – all while being free. For financial services applications such as N26, Revolut, M1, Brex, and Chime, the reason many of these users (heavily skewed towards the younger demographic) signed up was because of the free pricing, the sign-up process can take less than an hour, and the interface was simple and easy to use. To use challenger banks as an example, many expected to become profitable through the interchange income it receives when customers use their debit cards, but this type of business model has proven to be difficult. In addition, many of these customers don't actually use these neo/challenger banks as their primary banking service, but rather as a side application."
+  },
+  {
+    "id": 118,
+    "question": "Tell me about the current state of the banking services start-up scene.",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. Consumer digital banking services, one of the most well-funded areas in FinTech, has quickly become overcrowded and concerns regarding how users will be monetized are now more apparent. The need to generate more revenue (and profits) has begun to show as increasingly more banking start-ups are restricting their free options, charging for usage past a certain level, and aggressively pushing for premium plans sign-ups. Certain challenger banks have even started charging overdraft fees, fees for replacement cards, and higher withdrawal fees, which contradicts the original consumer-friendly marketing pitch. The reason being many traditional banks have adapted well to the changing environment. To make matters worse, Big Tech and large corporations have gradually been moving into the space as well. Google appears to have doubled-down on its FinTech ambition when it revealed Plex, a mobile-first savings and checking bank account integrated into Google Pay. Similar to many challenger banks, Plex has no monthly fees, overdraft charges, or minimum balance requirements, and Google has partnered with 11 banks to launch this service. 2021 will likely be a \"make or break\" year for many FinTech start-ups and shake out many well-funded players as seen by the bankruptcy of Monedo. As user growth becomes more difficult and the pressure to produce more revenue and profitability increases, it's likely we'll see increased mergers between FinTech start-ups, partnerships to integrate various services, or exits to larger companies."
+  },
+  {
+    "id": 119,
+    "question": "How have traditional financial institutions responded to the new trends of digital banking?",
+    "answer": "The rise of challenger and neo banks exposed the inherent issues within the traditional banking system, which initially appeared to be in the process of being disrupted. However, many traditional, legacy banks rolled-out improved digital applications that slowed down much of the momentum surrounding consumer banking apps. This was also aided by interest rate cuts in early 2020, which led many consumers to return to their original banking provider. Given the outside threat from new digital banking entrants and the pandemic, the entire banking industry had to respond by improving its digital infrastructure and platforms. Under great pressure to adapt under a limited time horizon, and these banks did just that. Nearly all the large banks have made initiatives to build out their mobile interface better, improve their communication (e.g., immediate digital customer service, chatbots), and increase transparency."
+  },
+  {
+    "id": 120,
+    "question": "Tell me about the controversy surrounding Robinhood and payment for order flow.",
+    "answer": "Robinhood was charged in December 2020 by the SEC for misleading statements that failed to disclose the payments received from high-frequency trading firms for routing customer orders to them. In short, Robinhood failed to fulfill its obligation to its customers to execute orders at the best, available terms. Previously, investors were under the belief that Robinhood's primary revenue sources were coming from their Gold service memberships, interest collected from customers' cash accounts, and by lending securities. Robinhood didn't disclose that most of their revenue actually came from offloading transactions to brokers and dealers (i.e., selling customer order flow to trading firms) and receiving compensation for doing so. Simply put, market makers such as Citadel Securities can pay e-brokers like Robinhood for the right to execute customer trades, and then Robinhood is paid a fee for the shares that are routed. While frowned upon for the lack of transparency, payment for order flow is not illegal per se and nearly all brokerages do it. But the larger issue was how much this type of revenue contributed towards Robinhood's total revenue, in which more than half was from payment for order flow. If one of the leading FinTech unicorns on the verge of an IPO is struggling to generate revenue from their internal products, it brings into question whether other FinTech start-ups can."
+  },
+  {
+    "id": 121,
+    "question": "Why did N26 exit the UK market in early 2020?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. N26 announced it was shutting down its operations in the UK earlier in 2020 due to Brexit. Many Fintech startups in Europe take advantage of a process called “passporting,” which lets them apply for a banking license to operate in a European Union member state and then expand to all other EU states. But following Brexit, regulations surrounding passporting will change – which led to N26’s decision to exit the UK banking market because it owns a European banking license through the central bank of Germany and thus could not operate in the UK with its European license."
+  },
+  {
+    "id": 122,
+    "question": "What does open banking mean?",
+    "answer": "The ongoing trend of open banking is the leading factor in the innovation of the traditional banking system. Open banking refers to the allowance of 3 rd party access to consumer banking and financial account data specific to the customer. Given how integration is one of the key themes in FinTech, you could easily understand why the approval of a customer to give data access to these 3 rd party providers has opened up so many opportunities for startups to enhance the consumer banking experience."
+  },
+  {
+    "id": 123,
+    "question": "What role do APIs play in open banking?",
+    "answer": "APIs serve as a key component and a necessity for Banking-as-a-Service (BaaS) to be a possibility. BaaS is defined as the end-to-end process that connects banking institutions with 3 rd party startups. The connection is enabled directly through APIs as they help develop layers of offerings over the traditional base banking core product while safeguarding the valuable financial information of the customers."
+  },
+  {
+    "id": 124,
+    "question": "Does open banking harm traditional financial institutions?",
+    "answer": "It would be the contrary. The trend of integrating 3 rd party offerings with traditional banking systems has been in the works for a long time due to regulatory hurdles delaying the process. But now that open banking has taken off, the refusal of a traditional bank would cause their customers to move to other providers that are more modern. These 3 rd party integrations are complementary to banking services and give them more opportunities for growth and additional revenue. The inability to have integrations available would cause a bank to fall behind its competitors – thus, there's an incentive to race to have as many integrations as possible."
+  },
+  {
+    "id": 125,
+    "question": "What is the state of the payments industry landscape today, and how has it been changing?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. The payment industry dynamics have been shifting as more businesses and consumers move from cash to digital payments. It seems inevitable that contact-less, digital payments will become the norm for online and in-person purchases (i.e., NFC mobile payments). In recent years, many tech companies have come into the payments industry such as Apple Pay, Samsung Pay, Amazon Pay, and Google Pay. Considering how security requirements are in higher demand such as biometric authentication, sensor technology, and smart chip technology, it appears the payments market will be one of the most competitive areas of FinTech in the years ahead led by existing industry leaders such as Square and PayPal and the new entrants mentioned above."
+  },
+  {
+    "id": 126,
+    "question": "What impact do you predict COVID-19 to have on the usage of QR codes?",
+    "answer": "While QR codes have been around for decades, the trend of no-touch payments has been positively affected by COVID-19. The recent increase in usage by consumers has shown how reliable QR codes are for no-touch, digital payments. Previously, QR code payments had not yet taken off notably in the US, but COVID looks to be a tailwind for the industry and could lead to further widespread adoption. Many merchants are now accepting QR code payments (often not accepting cash payments), and more mobile applications such as UberEATS have introduced “contactless ordering” and encourage the usage of QR code payments to minimize the risk for both the customers and delivery person."
+  },
+  {
+    "id": 127,
+    "question": "What does peer-to-peer (P2P) lending involve?",
+    "answer": "Often referred to as “social lending,” P2P lending is alternative debt financing without an official financial institution serving as an intermediary. P2P lending enables consumers to get loans directly from one another, most often through mobile phones. In most cases, the lending is facilitated by a P2P platform, where an automated system will match lenders with borrowers. As most of these platforms have lower overhead costs and operations are run online, their costs will be significantly lower. However, the highest volume count of P2P transactions occurs via transfer apps (e.g., Venmo, Cash App, Apple Pay) that enable one to send money conveniently through mobile after connecting their bank account to the application."
+  },
+  {
+    "id": 128,
+    "question": "Can you tell me about some of the lending models that have emerged over the past few years?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. Peer to Peer (P2P) Lending: P2P lending platforms match borrowers directly to investors, both parties are typically individuals or small businesses. The site determines the rates and lending terms of the specific transaction given the risk, which is obtained using big data or other technology programs. But regardless, these platforms aim to meet the needs of borrowers that require liquid funds with those willing to deploy their funds as a lender. Point of Sale Transaction-Based Lending: In POS lending, the consumer is offered customized financing options by the merchant when making a purchase either in-person or online (i.e., installment payments, rather than one-time purchase). FinTech Partner Bank Lending: FinTech data aggregator start-ups, marketplaces, credit reports/B2B financing, and other start-ups that focus on a particular niche such as SMBs or consumers can partner with a traditional bank for financing and banking products to be provided based on the transaction data collected on the risk profile of the borrower enhance credit analysis. Supply-Chain Finance Solutions: Specialized non-bank Fintech platforms with supply chain management platforms now offer working capital and supply chain solutions to underserved SMBs (e.g., dynamic discounting and reverse factoring solutions). FinTech Enabled Marketplaces: Online marketplace lending connects borrowers with investors willing to offer loans based on their application, which was processed internally to accurately assess the borrowers' creditworthiness with advanced underwriting using ML and other consumer data. Compared to P2P, marketplaces are larger-scale and involve institutional investors who are prepared to pay sizable fees for the convenience of the transaction along with the creditworthiness check (very popular in the real estate industry). The aggregator model focuses on providing the end consumer different lending options available in the market based on the exact need of the consumer (tenure, amount, prepayment mode, etc.)."
+  },
+  {
+    "id": 129,
+    "question": "What is point-of-sale lending?",
+    "answer": "Point-of-sale lending, also known as \"buy now, pay later\" (BNPL), enables consumers to make purchases based on scheduled installment plans at the time of purchase for a minimal flat fee. POS lending has already seen substantial adoption in the US, as seen by the increased payment optionality for making purchases today. A newly developing trend is businesses are increasingly transitioning to cloud-based POS, which should lead to faster checkout times (an area of inefficiency for POS currently). By enabling regular installment payments, typically on a monthly basis, consumers benefit from greater flexibility in payment structures, which has resonated among millennials in particular. At present day, the leading POS lenders include Affirm (co-founded by Max Levchin), Klarna, and Afterpay."
+  },
+  {
+    "id": 130,
+    "question": "Why have lending companies such as Square relied less on the FICO score in recent years when assessing a borrower?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. One advantage that digital lenders such as Square have over traditional banks is the amount of consumer data owned. Many FinTech companies, including Square and Stripe, care less about the FICO score, the traditional way of assessing the credit-worthiness of a borrower. Instead, these technology-based lenders examine the payment history from their platforms using advanced algorithms to spot trends such as overall payment volume, percentage of recurring customers, and payment frequency to determine the borrower's credit health. The reliance on technology rather than lengthy applications, background checks, and eligibility requirement forms enables them to issue loans faster and become self-reliant in their lending decisions."
+  },
+  {
+    "id": 131,
+    "question": "What are real-time payment (RTP) systems?",
+    "answer": "In 2017, The Clearing House (TCH) introduced a new payment structure in the US, marking a major shift in the existing payment system. The new system permitted real-time payment (RTP) clearing instead of the traditional Automated Clearing House (ACH) that took between one to two days. The widespread adoption of the RTP system, thanks to mobile usage and technological advancements, have contributed to an environment in which many consumers, merchants, and financial institutions are enabled to send and transfer payments with faster settlement period, setting a new payment standard worldwide."
+  },
+  {
+    "id": 132,
+    "question": "What role does Stripe play in the payments industry?",
+    "answer": "Founded in 2010, Stripe has become one of the most influential FinTech companies in the US and globally. The San Francisco-based startup was formed to build the “economic infrastructure for the Internet,” and today, it serves millions of companies of all sizes, including startups, e-commerce stores, and Fortune 500 companies, including tech-giant Amazon. Using Stripe’s software and APIs, commercial customers can process online payments and transfers. In addition, Stripe’s platform handles the technical implementation, fraud prevention, and banking infrastructure required for secure payments."
+  },
+  {
+    "id": 133,
+    "question": "What did Square accomplish in 2020 that was an important milestone for the FinTech industry?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. Earlier in 2020, Square received approval from the Federal Deposit Insurance Corporation (FDIC) to operate as a bank through a conditional Industrial Loan Company (ILC) charter. Upon approval of its application, Square announced in a press release that it plans to open a bank in Utah called Square Financial Services, which is expected to launch later in 2021. Square is expected to offer small business loans to merchants using their technology to process the payments, as well as issue deposit products. For nearly three years, Square had been pursuing an industrial loan company charter, which was opposed by many banking lobbyists and regulators. The last time the FDIC approved a de novo ILC application was more than a decade ago."
+  },
+  {
+    "id": 134,
+    "question": "What led to the downfall of Lending Club, a former FinTech unicorn?",
+    "answer": "Lending Club was founded on the idea of bringing individual borrowers and lenders together (i.e., P2P lending platform), and when it went public in 2014, it was valued at more than $9 billion. Lending Club envisioned individuals could lend to one another, and they could be the facilitating platform. However, the Company experienced a loan scandal involving the CEO and realized that their algorithm to assess consumer credit risk was not working as intended. Since then, their valuation has dropped to below $350 million. Lending Club was once considered a leader in FinTech and pioneer in P2P lending, but it recently acquired Radius Bank and announced its P2P lending platform would shut down. Lending Club became a bank through this acquisition and shifted its focus to institutional investors, as it learned how difficult it could be to assess individual borrowers' credit risk. The belief that individuals would be more responsible for repaying their debt if the lender was another individual rather than an institutional bank turned out to be a false presumption."
+  },
+  {
+    "id": 135,
+    "question": "What is a payday loan, and how does the process work?",
+    "answer": "A payday loan is a very controversial, short-term loan that will rarely last more than a couple of weeks. These loans are usually provided by lenders operating from storefronts, but the payment industry’s shift online has affected this small lending niche. Payday loans are meant for an emergency, short-term need, and the application can often be completed within a matter of minutes. Once a payday loan is approved, the funds will be deposited into the verified bank account. But the payday loan lender would require the borrower to write a post-dated check in payment of both the principal loan amount and the high amount of interest charged. The post-dated check ensures the lender will be paid back on the agreed-upon scheduled date. These borrowers will accept the post-dated check arrangement in a troubled situation, since their credit history was not rejected and/or even reviewed by the payday lenders."
+  },
+  {
+    "id": 136,
+    "question": "What is InsurTech?",
+    "answer": "InsurTech refers to advancements in technology to make the traditional, outdated insurance business model more efficient. For example, chatbots and smartphone apps are increasingly being used to streamline the industry's back-end process. The insurance industry is known for its slow adoption and for being inefficient. Because of this trend, insurance companies no longer need to rely on hiring employees dedicated to customer service as in the past. Other use cases of InsurTech include risk modeling to predict future losses, demand modeling to estimate premiums, fraud detection through recognizing patterns of abnormal behavior, processing claims using automation, and using machine learning to speed up the underwriting process. The result is digital premium payments and digitizing claims processing (leading to higher margins). A few companies at the forefront of the InsurTech industry include Oscar Health, Root Insurance, Bright Health, Clover Health, Lemonade, and PolicyGenius."
+  },
+  {
+    "id": 137,
+    "question": "What is crowdfunding and what are some of its benefits?",
+    "answer": "Crowdfunding is a type of fundraising in which a relatively small amount of funds are raised from many individual investors from the public, typically through online platforms. This financing method allows individual and institutional investors to invest in private, unlisted entities in exchange for ownership in the entity – which is often a new business venture of a smaller scale. Crowdfunding takes advantage of the reach and easy accessibility of the vast networks of potential investors through the internet and can be beneficial for society as it encourages entrepreneurship from the expansion of the pool of investors from whom funds could be raised."
+  },
+  {
+    "id": 138,
+    "question": "What does card-not-present fraud mean?",
+    "answer": "Card-not-present fraud is a scam in which the customer doesn't physically hand the card to a merchant during a fraudulent transaction. These frauds occur during transactions conducted over the internet or the phone – and are becoming more common as scamming tactics become more sophisticated, and more payments are made electronically."
+  },
+  {
+    "id": 139,
+    "question": "What are Robo-Advisors?",
+    "answer": "Robo-advisors provide automated portfolio management and balancing based on the individual consumer’s money management goals. Betterment was one of the first Robo-advisors to become mainstream and remains among the leading Robo-advisors. As opposed to having a financial advisor manage their portfolio and asset allocation on their behalf, these users depend on online platforms based upon proprietary algorithms. The need for human interaction and supervision (and labor costs from the perspective of the firm/bank) is reduced. Hence, financial institutions are investing heavily in AI-powered Robo-advisors and customer service chatbots. While software-driven programs have caused frustration for many banking clients in the past, gradually, these bots are becoming “smarter” and more accepted as informants for help. From the customer's perspective, Robo-advisors come with fewer fees than financial advisors and have a low minimum required initial investment, enabling everyday investors to test out the latest technology at an inexpensive price. An important distinction is that Robo-advisors automate passive indexing strategies (e.g., ETFs, mutual funds) and are intended for long-term investing, which comes with far less risk. Since Robo-advisors invest in ETFs and related investments, they represent low-cost, personalized portfolio management while automating the process of portfolio rebalancing in real-time and tax loss harvesting (selling at a loss to offset a capital gains tax, and then replacing with a similar asset to maintain the target portfolio risk/return allocation)."
+  },
+  {
+    "id": 140,
+    "question": "What does the “underbanked” refer to?",
+    "answer": "The “underbanked” refers to the people worldwide who don't have access to banking services or live in areas with no retail branches of banks or formal financial services nearby. The ability of FinTech to enable these people that lack the proper access to a bank account is considered one of the most important purposes of FinTech – specifically, to location-independent challenger banks."
+  },
+  {
+    "id": 141,
+    "question": "What are cryptocurrencies?",
+    "answer": "A cryptocurrency refers to a digital store of value that uses cryptography for security under a decentralized system. This means that no central regulatory body can manage an individual's digital wallets. Instead, cryptocurrencies rely on blockchain ledger technology and smart contracts."
+  },
+  {
+    "id": 142,
+    "question": "How would you value Bitcoin?",
+    "answer": "Like all currencies, Bitcoin has no intrinsic value and cannot be valued like a traditional cash-flow generating asset. Instead, the pricing of bitcoin depends on perceptions on the probability that it'll ultimately become a full-fledged currency and stable medium of exchange. Warren Buffett said on national TV that “cryptocurrencies have no value and they don't produce anything.” Chamath Palihapitiya, of Social Capital, disagreed that Bitcoin has no value because its purpose is to serve as a hedge to the traditional existing financial structure and, for this reason, has value because it's not correlated to the rest of the market. Instead of viewing it as a cash-flow generating asset with intrinsic value, Chamath’s counter-argument was that Bitcoin is a non-productive asset class worth what others in the market agree to pay for it, similar to how gold is priced. However, he believes Bitcoin has the potential to replace gold as the safe haven commodity of investors. A misconception is a belief that Bitcoin makes up a major percentage of an investor’s overall portfolio and is expected to outperform market returns. But Chamath recommends all investors to have at least 1% of their assets in Bitcoin. While many early investors became wealthy from their Bitcoin holdings and its record surge in price made it go mainstream in 2017 during the “crypto-mania,” its actual purpose, in theory, is to serve as a hedge."
+  },
+  {
+    "id": 143,
+    "question": "What is an ICO?",
+    "answer": "An ICO, which stands for an initial coin offering, is equivalent to an IPO for cryptocurrency projects. But the key difference is, an investor gets equity ownership in the company undergoing an IPO in return for their capital, whereas in an ICO, the investor receives digital tokens in exchange for their investment. The process is unregulated and prone to exit scams, which has led to regulatory scrutiny and a negative perception of the cryptocurrency industry by the general public."
+  },
+  {
+    "id": 144,
+    "question": "What is the function of blockchain technology?",
+    "answer": "Blockchain technology is a secure, digital ledger that shows every single record of transactions. Each block contains data detailing each transaction, such as date, time, and dollar amount – and is theoretically designed to be impossible to alter. Each proceeding block is structured through links called a chain, and they're often used in cryptocurrencies – most notably, Bitcoin."
+  },
+  {
+    "id": 145,
+    "question": "What does the trend toward “DeFi” signify?",
+    "answer": "Decentralized finance (DeFi) is an umbrella term for the shift towards financial applications by utilizing cryptocurrency and blockchain technology. The adoption of DeFi would suggest the disruption of traditional financial intermediaries and the removal of a centralized authority, which leads to more control over transactions by users since the middle-man is cut out. An example of DeFi would be lending platforms that rely on smart contracts rather than banks to oversee the lending."
+  },
+  {
+    "id": 146,
+    "question": "What impact did Robinhood’s zero-commission pricing have on the brokerage industry?",
+    "answer": "After Robinhood launched with zero-fee trading, major brokerages were forced to change their pricing structure to avoid losing users, and a wave of fee-eliminating announcements soon followed. Established players, Charles Schwab, TD Ameritrade, and E-Trade, were forced to adjust their business models by eliminating (or reducing) commissions on certain types of securities. The industry disruption by Robinhood is often credited for prompting the merger between Charles Schwab and TD Ameritrade."
+  },
+  {
+    "id": 147,
+    "question": "What is the purpose of a FinTech sandbox?",
+    "answer": "A FinTech sandbox enables a company to test their newly developed technologies within an environment that mimics the actual real-life use case. However, there are safeguards in place to ensure there are no consequences to failure. The sandbox is essentially a testing ground to experiment and try out their new offering before becoming licensed and bringing the product to market when there are higher stakes and serious repercussions for failures (i.e., pilot testing)."
+  },
+  {
+    "id": 148,
+    "question": "What does Anti-Money Laundering (AML) refer to?",
+    "answer": "Anti-Money Laundering (\"AML\") is a set of regulations that prevent criminals from disguising illegally obtained funds as legitimate income. Over the past decade, financial institutions and governments have been pursuing ways to prevent money laundering, and AML laws require financial institutions to monitor their clients and report any suspicious activity related to money laundering."
+  },
+  {
+    "id": 149,
+    "question": "What is RegTech?",
+    "answer": "RegTech is regarding the management of regulatory processes within the financial industry using software and related technology. The most common use cases of RegTech include regulatory monitoring, reporting, and compliance checks. The recent advancements in RegTech help financial services companies comply with regulations while enabling regulatory bodies to monitor and strictly enforce their rules."
+  },
+  {
+    "id": 150,
+    "question": "What does “KYC” refer to in FinTech?",
+    "answer": "KYC is an abbreviation for “Know Your Customer.\" The term refers to the process in which a business will verify the identity of the client and is most commonly used by financial institutions (and often a legal requirement closely tied to AML purposes). The premise of KYC is to prevent identity fraud and to authenticate users via thorough identification and background checks to diligence the person."
+  },
+  {
+    "id": 151,
+    "question": "Provide a broad overview of how the healthcare industry is segmented.",
+    "answer": "Life Sciences Biotech Large Pharma Specialty Pharma Generics Healthcare Services Other Services: Contract Research Organizations, Pharmacy Benefit Managers (PBMs), Pharmacies, Distributors, HCIT Payers: Managed Care Organizations (Health Insurers), Centers for Medicare & Medicaid Services (CMS) Providers: Hospitals, Urgent Care, Inpatient Rehab Facilities, Ambulatory Surgery Centers, Long-Term Care Hospitals, Outpatient Rehab, Skilled Nursing Facilities, Home Health & Hospice Med-Tech Medical Devices Medical Equipment"
+  },
+  {
+    "id": 152,
+    "question": "What are some ongoing industry trends in the healthcare sector?",
+    "answer": "Industry Consolidation via M&A and Alliances Payers acquiring or developing their own Pharmacy Benefit Managers (PBMs) – examples include the Cigna and Express Scripts merger and CVS’s Caremark acquisition of Aetna Retail pharmacies aligning with distributors Pharmacies acquiring or creating alliances with payers Integrated Delivery Networks (IDNs) Systems of healthcare providers and health plans within a geographic area – creating an alignment between the different sub-sectors IDNs be thought of as a shift towards an ecosystem where various healthcare services are provided by different providers but under a single brand Value-Based Care vs. Fee-for-Service Recent concerns that care has been compensated based on quantity rather than quality The movement towards outcome-based payments for medical services is changing how healthcare providers are being reimbursed Consumer-Centric Healthcare E.g., Urgent Care Centers, Increased Access to Personal Health Data, Telemedicine"
+  },
+  {
+    "id": 153,
+    "question": "What are the main differences between biotech and other types of pharma companies?",
+    "answer": "Broadly put, biotech companies use living organisms to create their drugs, whereas the other life sciences categories develop their drugs using chemical compounds. Biotech companies are typically very high growth and based around one product/therapeutic area. Other sub-sectors in the life sciences industry, such as large pharma, are far more diversified with more product lines across several therapeutic areas (e.g., Pfizer, Merck)."
+  },
+  {
+    "id": 154,
+    "question": "What do inpatient and outpatient refer to when discussing providers?",
+    "answer": "Inpatient and outpatient are two common ways to segment the services that healthcare providers offer. Inpatient Care: Treatment where the patient stays overnight at a hospital or a comparable facility. Outpatient Care: Refers to facilities where patients receive treatment but don't stay overnight."
+  },
+  {
+    "id": 155,
+    "question": "Tell me the difference between acute and post-acute care.",
+    "answer": "Acute Care: Acute care refers to receiving treatment at a hospital and is associated with shorter-term, often severe injuries and medical emergencies – e.g., urgent care, intensive care units (ICUs), and emergency room services. Post-Acute Care: Medical treatment received at non-hospital healthcare facilities is classified as post-acute care and can range from short-term rehabilitation to longer-term restorative care. These are all services beneficiaries receive after treatment at an acute care hospital – e.g., physical therapists, skilled nursing, rehabilitation facilities, and psychiatric care. An illustrative sample care continuum would flow from the Primary Care Physician (PCP)  Hospital (Acute)  Rehab Facility, Skilled Nursing Facility (Post-Acute)  Physical Therapy (Post-Acute)."
+  },
+  {
+    "id": 156,
+    "question": "What are the two channels for pharmaceutical drug distribution?",
+    "answer": "Retail Pharmacy Channel In the retail channel, the product flows from the branded pharma or generics company to a distributor that's typically aligned with a particular retail pharmacy and then onto the retail pharmacy before finally reaching the customer. On the funds side, customers’ co-pay just passes through the retail pharmacy onto the PBM. The amount the customer essentially pays and their premium goes from the payer to the PBM based on the negotiated drug prices for the drugs on the formulary (i.e., list of covered drugs). For funds flowing out of the PBM, the PBM will pay the retail pharmacies based on those negotiated prices, and the retail pharmacies will pay the pharma and generic companies based again on the negotiated prices. There is much negotiation involved throughout the chain and opportunities for PBMs or retail pharmacies to earn a spread by negotiating different prices with different parties. The result being industry consolidations with payers and PBMs merging and retail pharmacies and payers merging to reduce opportunities for “excess” profit from the spread and lead to better margins. Mail Order Channel In the mail-order channel, the products go directly from the generic or branded pharma company to a typically PBM operated mail order facility and then onto the customer. The funds, the customer’s co-pay, go directly to the PBM, and then the payers pay the PBM based on those negotiated drug prices. Then it's the PBMs who will pay the pharma and generic companies for the cost of that product based on the negotiated drug prices."
+  },
+  {
+    "id": 157,
+    "question": "What is the biggest cost driver for pharma companies?",
+    "answer": "Research & Development (R&D): For pharma companies, clinical trials related to R&D are by far the highest cost. These trials typically take five to seven years going through the various stages of clinical trials (i.e., FDA approval for a product, regulatory hurdles, application acceptances). Production Costs: R&D is followed by the costs of producing pharmaceutical products, which refer to active pharmaceutical ingredients (API) manufacturing. Sales & Marketing (S&M): The third cost is sales & marketing, usually directed at physicians and patients – however, this trails the previous two by a large margin."
+  },
+  {
+    "id": 158,
+    "question": "What roles do pharmacy benefit managers (PBMs) play in the industry?",
+    "answer": "Pharmacy benefit managers (PBMs) directly negotiate drug prices with retail pharmacies and influence the prices of the products – as their job essentially is to manage the pharmaceutical spend for insurers and to keep drug costs as low as possible. PBMs get paid on the spread between what payers pay them for drugs and what they payout to the retail pharmacies and pharma companies, which further incentivizes them to lower the drug prices. Once a doctor has prescribed a particular drug, the script is handed to a retail pharmacy, and the PBMs dictate which drug to dispense (i.e., a brand or generic). PBMs reduce costs by negotiating drug prices with drug manufacturers and retail pharmacies and driving generic utilization and mail order penetration."
+  },
+  {
+    "id": 159,
+    "question": "Explain the purpose of rebates in the context of pharmaceutical pricing.",
+    "answer": "Rebates are essentially discounts offered to PBMs by pharma companies to incentivize them to include them in their list of covered drugs (called a formulary). Therefore, PBMs maintain on behalf of the payers a schedule of which drugs are covered for their customers and at what prices. Particularly when there's high competition for a drug product, a pharma company might give bigger rebates to the PBMs to ensure they remain on the list of the covered drugs – at the expense of reduced product revenue."
+  },
+  {
+    "id": 160,
+    "question": "What type of services do contract research organizations (CROs) provide?",
+    "answer": "CROs operate clinical trials on behalf of pharma and biotech companies in an outsourced, contractor-type relationship. CROs are hired to manage and lead the medical company’s clinical trials and to perform other specialized tasks to help bring a particular drug/medical device to the market and obtain regulatory approval quicker. Client organizations contract with CROs to use their expertise, which is required to carry out these high-stake trials safely and in a cost-efficient manner – since CROs are an alternative to having to hire permanent, dedicated staff members with the required skill set."
+  },
+  {
+    "id": 161,
+    "question": "What is the difference between a branded and generic pharma company?",
+    "answer": "A generics company (e.g., Teva) develops and sells generic drugs, which are allowed for sale once the patents on the original branded drugs have expired. Given the commoditized nature of these no-brand name drugs, the generics business model and competition amongst one another is based on winning fixed volume contracts for mass production. Research & development costs are lower for generics companies since there are fewer clinical trials involved. However, sales & marketing costs targeted at retail pharmacies are higher since competition is based on securing those contracts with retail pharmacies. In contrast, branded pharma companies (e.g., Novartis) have patent exclusivity which enables them to compete on product innovation and reputation of quality, rather than pricing-based competition."
+  },
+  {
+    "id": 162,
+    "question": "What are the two pathways for a generics drug being approved?",
+    "answer": "There are two pathways for approving a generics drug: Paragraph lll: First, there's the Paragraph lll filing, often called the standard channel. This is when the generics companies wait out until a patent expires and then markets it at the same time as other generics. Paragraph IV: The other channel is called a Paragraph IV filing – when a generics company challenges a patent before it expires. If this is approved by the FDA, the generic company can gain 180 days of exclusivity before other generics can come in. This is a pathway that most generics companies use if they think they have grounds to challenge a patent."
+  },
+  {
+    "id": 163,
+    "question": "Let’s say you're valuing a pharmaceutical company selling drugs approved for therapeutic usage. What would the basic drivers of revenue be?",
+    "answer": "For the typical pharmaceutical company, the most basic drivers of revenue growth would be the current number of patients using their drugs, the average price of the drug, and the average dosage of the medication recommended by the physician/medical professional."
+  },
+  {
+    "id": 164,
+    "question": "What assumption would you look at to value a clinical-stage biotechnology company?",
+    "answer": "A biotech company typically consists of a portfolio of different experimental drug candidates. Because each experimental drug candidate is unique and specific, we must value them separately. We must determine the annual free cash flow of each experimental drug candidate, then use discounting principles to determine the net present value of each unique product. Biotech companies are very cash-dependent, so the company’s current cash balance is also crucial when determining the full equity value of a biotech company. Model Assumptions Number of Products in Pipeline/Development Stage: In the first assumption, the number of products under development and the current development phase for each must be identified. Then, it must be determined whether the company has a discovery platform of pre-clinical models and research. Peak Opportunity: Determining the potential peak revenue opportunity within a therapeutic area is often the most important assumption. Sales will grow modestly after the company has achieved peak revenue until patent expiry or loss of exclusivity. Loss of exclusivity means that a brand name drug will lose its exclusive rights to sell in a certain geography. Indication: The indication refers to the use of that drug for treating a particular disease/condition. More specifically, an indication is a specific, identifiable condition that the FDA has cleared a therapeutic drug to treat and can be thought of as a subcategory to a broader therapeutic area. Estimated Time for Completion: The estimated time for completion refers to how long it'll take for the biotechnology company to complete all necessary clinical trials. Launch Date: Once you have determined the estimated time for completion, you can estimate a launch date for the drug. Once the product has officially launched, you can apply an uptake curve that grows each year until the estimated peak revenue is achieved."
+  },
+  {
+    "id": 165,
+    "question": "What does the “probability of success” rate refer to in receiving FDA approval?",
+    "answer": "Depending on the targeted therapeutic area, certain drug candidates have a higher probability of success than others. But overall, research has shown that it's very difficult to achieve “approval” status from the FDA. When modeling a revenue forecast build for clinical-stage biotechnology companies, the probability of success rate (called the “POS”) must be multiplied to each product line, excluding research & development. The risk-adjusted revenue would then be calculated as the unadjusted revenue multiplied by the cumulative POS rate."
+  },
+  {
+    "id": 166,
+    "question": "Provide an overview of the path to becoming an approved therapy by the FDA.",
+    "answer": "FDA Approval Phases Pre-Clinical Discovery: Non-human testing to determine what a safe dosage for humans would be or if it even is safe to proceed with human testing (i.e., animal testing) Phase 0: An exploratory study usually involving fewer than 15 test subjects and dosage on the lower end due to safety concerns Phase 1: Human tests to determine if the treatment is safe while testing for the highest dose in humans without serious side effects (typically involves 20 to 80 test subjects) Phase 2: Continued human tests to determine if the treatment works and testing specific dosing to observe response and efficacy (can involve a few dozen to 300+ test subjects) Phase 3: Further human tests to determine if the treatment is better and testing the therapy against currently available therapies and treatments (ranges from several hundred to 3,000 test subjects) New Drug Application (NDA): Formal application submission asking for approval by the FDA – once an NDA is received, the FDA has ~60 days to decide whether to proceed with the process of review. Phase 4: Involves a thorough drug review by the FDA on all submitted data (e.g., studies conducted, labeling plan, and manufacturing facilities inspections) before making a formal decision on the application"
+  },
+  {
+    "id": 167,
+    "question": "How would you build a revenue model for a recently launched generic drug company?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. Revenue Model Process To begin, the two main revenue drivers would be recent product launches and the current pipeline. For a generics drug, pricing and annual sales data on the branded drug before the patent expired will be looked to have a benchmark to reference. The branded annual sales can help estimate the total market size for the drug, and this proxy can project how the generic drug will perform (i.e., demand sizing). In most cases, the revenue build will be a top-down model. The total market volume with the average quantity of capsules in each bottle and the estimated price for the bottle will be gathered. Then, the market growth will be projected based on historical growth rates, but this will usually be on the lower end, and most models will assume minimal annual growth YoY in line with population growth. In the next step, the estimated generic market volume as a percentage of the total market will be calculated for each. Initially, the branded drug will retain some market share, but then gradually, this hold on the market will fade as PBMs drive the conversions to generics. Keep in mind, this is the capture rate by all generic companies, rather than just the company being valued. The assumption should be on the higher end (~85%) and then gradually increase each year once the patent has expired. Next, the key variable, the competition, must be accounted for in the forecast. The question that needs to be answered is: \"How many generics companies will there be in the market?\" This will determine the estimated revenue for the target company and its specific market share. Thus, there should be a line item for the total number of generic companies that will compete with the company being valued. As more competitors enter each year, the revenue should decline from lower quantity and price declines. But once a certain number of competitors have entered the space, it no longer becomes profitable, and the number of new entrants will stagnate close to zero. A reasonable assumption is that when a new competitor enters the market, the price will drop by ~10%. A simplifying assumption is that the market share will be evenly split between all competitors, but this will be driven by the contracts with the retail pharmacies. So generic companies with a history of being well-supplied and reliable can secure favorable contracts and grab more market share. Lastly, now that we have the sale volume (% of total market share) of the company being valued and estimated drug price from sites such as GoodRx or the negotiated price with the pharmacies if publicly available, we can multiply the two to arrive at the revenue for the product."
+  },
+  {
+    "id": 168,
+    "question": "On average, how does the pricing of generics compare to branded drugs?",
+    "answer": "Typically, the prices on generic drugs will be ~15-20% of the branded price."
+  },
+  {
+    "id": 169,
+    "question": "How would projecting revenue from drugs in the pipeline differ from recently launched generics?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. For pipeline products, it may be appropriate to apply a risk-weight to project revenue. The risk-weight will be based on the percentage likelihood that the product will make it through the development and receive FDA bioequivalence approval. This is intended to account for the risk the product may face manufacturing issues or run into quality control difficulties, especially if the particular drug is complex (e.g., extended-release, injected)."
+  },
+  {
+    "id": 170,
+    "question": "How would you build a revenue model for a hospital?",
+    "answer": "Model Assumptions Number of Operating Hospitals & Freestanding Outpatient Surgery Centers: The first key metrics would include the number of operating hospitals and the number of freestanding outpatient surgery centers. Then, a growth rate would need to be attached, which will depend on historical growth and M&A plans announced by management since nearly all growth in terms of location count is driven through acquisitions (rather than organic growth). The reimbursements for services are mostly out of a hospital's control, so growth through acquisition is the most reliable growth strategy. Utilization Data: Next, the utilization data of each hospital must be calculated. This includes the number of licensed beds (and the weighted average of licensed beds), average admissions (i.e., the inpatient volume), equivalent admissions, the average length of stay, and the average daily census. Average Occupancy Rates: Then, the average occupancy rate will be calculated using the weighted average number of beds and the average daily census. Reimbursement Rates: The reimbursement rates will differ by the payor, and thus the sources of revenue will often be separated by each type (e.g., Medicare, Managed Medicare, Medicaid, Managed Medicaid, Managed Care/Other Insurers). Existing Hospitals Revenue Projections To start, calculate the average number of beds per hospital. Then, add a row for the implied outpatient volume, which is calculated as the equivalent admissions (a proxy for outpatient and inpatient volume) less the admissions (outpatient volume). Based on this metric, we can derive the average daily volume from admissions, beginning with the inpatient admissions, which will then be multiplied by the average length of the stay. This gets us to the inpatient volume adjusted for length of stay, and then we'll add the outpatient volume to arrive at the total annual volume. Since we are calculating the approximate average daily volume, we would then divide the total annual volume by 365 for the units to line up. Then, we'll project the number of hospitals owned for > 1 year and the beds per hospital from historical periods. That gets us to the total number of beds owned by existing hospitals, which will then be multiplied by the occupancy rate and then add a line for the annual improvement. Doing so gets us to the average daily census, which we'll then multiply by 365 to get to the total annual volume. Using the outpatient volume as a total % of the total annual volume, we can calculate the implied outpatient volume. We'll now calculate the inpatient volume adjusted for the length of stay by subtracting the outpatient volume from the total annual volume. To arrive at the inpatient admissions, we'll divide the inpatient volume by the average length of stay to get to the inpatient volume. To get to the equivalent admissions, we can add the inpatient volume to the outpatient volume. Now, we can apply the revenue per equivalent admission assumption metric to it. We'll assume a growth rate for this metric and then multiply the ending figure by the equivalent admissions to arrive at the total revenue generated by hospitals owned > 1 year. Hospital Acquisitions To forecast the revenue from acquired hospitals, the first assumption will be the new hospitals acquired multiplied by the beds per hospital to arrive at the total beds from acquired hospitals. You'll then go through the same calculations as we did for the hospitals owned for over one year. In the first couple of years post-acquisition, there should be a lower occupancy rate to be conservative since these are new hospitals that have not built up brand recognition yet. Again, the average daily census will be multiplied by 365 to arrive at the total annual volume. We'll then make an assumption for the outpatient volume as a percentage of the total annual volume and calculate the outpatient volume. That allows us to calculate the inpatient volume adjusted for length of stay, which is the total annual volume less the outpatient volume. Then, inpatient admissions will be calculated by dividing the inpatient volume adjusted for length of stay by the average length of stay. Ultimately, this allows us to calculate equivalent admissions, which, as a reminder, is the sum of the inpatient admissions and outpatient volume. Lastly, the same metrics will be applied as the existing hospitals. The equivalent admissions will be multiplied by revenue per equivalent admission to calculate the revenue from new hospitals for the year. But since hospitals are not acquired precisely at the beginning of the year, we'll apply a mid-year adjustment by multiplying this figure by 0.5. Overall, the total revenue will be the sum of the revenue from the existing hospitals and acquired hospitals."
+  },
+  {
+    "id": 171,
+    "question": "How do you calculate the equivalent admissions of a hospital?",
+    "answer": "Equivalent admissions are a proxy for combined outpatient and inpatient volume. Equivalent Admissions = Admissions × (Total Inpatient and Outpatient Revenue / Inpatient Revenue)."
+  },
+  {
+    "id": 172,
+    "question": "What does the average occupancy rate represent, and how is it calculated?",
+    "answer": "The average occupancy rate is a key measurement of the profitability of a hospital that shows how well a hospital is utilizing its capacity. While the target rate will depend on the hospital and be specific to the location/services provided, an occupancy rate of ~75% is cited as the most profitable percentage whereas, for high-end hospitals in urban densely populated areas, a ~85% occupancy rate is considered “peak profitability.” Average Occupancy Rate = Average Daily Census / Weighted Average Number of Beds."
+  },
+  {
+    "id": 173,
+    "question": "What are the differences between Medicare vs. Managed Medicare and Medicaid vs. Managed Medicaid?",
+    "answer": "Medicare vs. Managed Medicare Medicare: Medicare refers to healthcare coverage managed directly by the federal government. Managed Medicare: Also known as Medicare Advantage, this plan is managed by a Managed Care Organization such as Humana or Aetna, which contracts with the federal government to offer healthcare coverage to Medicare-eligible individuals. Medicare Advantage plans have different cost and benefits structures and may include coverage for additional services not covered by Original Medicare, such as prescription drug coverage (known as Medicare Part D). Medicaid vs. Managed Medicaid Medicaid: Often called Original Medicaid, this healthcare coverage is offered directly by the government. Medicaid is run at a state level, so the offerings vary by state. Managed Medicaid: Refers to plans provided by Managed Care Organizations (MCOs). The distinction is that many states have increasingly chosen to contract out their Medicaid program to MCOs because they have realized that the MCOs are more cost-effective and provide better services."
+  },
+  {
+    "id": 174,
+    "question": "What are managed care organizations (MCOs)?",
+    "answer": "Managed care organizations (MCOs) are medical service providers who offer managed care health plans. MCOs refer to non-government payers in the US. MCOs make their money from the premiums and administrative fees from their customers (e.g., employers, individuals who purchase their health coverage plans)."
+  },
+  {
+    "id": 175,
+    "question": "What impact did Medicaid expansion have on hospital reimbursements?",
+    "answer": "The expansion of Medicaid eligibility to those with lower incomes was of the key focus points of the Affordable Care Act (ACA). Medicaid reimbursement rates have historically been the lowest of all the various payer types. So the Medicaid expansion that happened through the Affordable Care Act (ACA) had a positive impact on hospitals since more patients now had health insurance rather than being uninsured. The caveat being more oversight over hospital practices, outcome-based payments, and penalties for non-compliance."
+  },
+  {
+    "id": 176,
+    "question": "How do you calculate the medical loss ratio (MLR) and why is it tracked?",
+    "answer": "The MLR ratio is used to measure the percentage of premiums an insurance company spends on claims and expenses that directly improve healthcare quality. Under the Affordable Care Act (ACA), this provision's intended purpose was to ensure a minimum percentage of the health insurance premiums were used to pay claims and encourage providing value to enrollees while limiting insurance companies’ marketing and administrative expenses. Medical Loss Ratio (MLR) = Medical Costs / Premium Revenue. For example, a medical loss ratio of 80% indicates that the insurer is using the remaining 20% of each premium dollar to pay overhead expenses."
+  },
+  {
+    "id": 177,
+    "question": "What are some of the main health plans used today?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it. Preferred Provider Organization (PPO) Health Maintenance Organization (HMO) Point-of-Service (POS) Indemnity Plans (Fee-for-Service) Health Savings Account (HSA)"
+  },
+  {
+    "id": 178,
+    "question": "What are preferred provider organizations (PPOs)?",
+    "answer": "Preferred provider organization (PPOs) refers to contractual arrangements in which healthcare professionals and facilities provide services to their subscribed clients at discounted rates. The PPO is structured as a subscription-based membership in which healthcare professionals have agreed with an insurer (or a 3 rd party) to provide medical care services at reduced rates. PPOs are by far the most common form of managed care in the US. Under PPOs, payers will steer patient volume towards certain providers in exchange for contracted reimbursement rates."
+  },
+  {
+    "id": 179,
+    "question": "What are health maintenance organizations (HMOs)?",
+    "answer": "As a healthcare plan alternative to PPOs, an HMO is a network that provides health insurance coverage for a monthly or annual fee. The coverage is limited to the network of doctors and other healthcare providers that are under contract to the HMO, and participants are required to first receive medical treatment from a primary care physician (PCP). HMO contracts have the benefit of lower premiums relative to traditional health insurance plans because the health providers have the advantage of having patients directed towards them; however, the downside is the restrictions related to coverage access."
+  },
+  {
+    "id": 180,
+    "question": "What are point-of-service plans (POS)?",
+    "answer": "A point-of-service plan (POS) can be viewed as a hybrid managed healthcare care plan between HMO and PPO. Similar to an HMO, plan holders are designated an in-network physician as their primary care provider. However, the patient may go outside of the provider network for healthcare services like under a PPO plan. The benefits provided will depend on whether the policyholder uses in-network or out-of-network healthcare providers. Relative to HMO and PPO, POS represents a small fraction of the total health insurance market."
+  },
+  {
+    "id": 181,
+    "question": "What do indemnity healthcare plans involve?",
+    "answer": "Often called “fee-for-service” plans, indemnity plans enable patients to direct their own healthcare decisions and enjoy greater flexibility. The benefits are greater flexibility in being able to visit any doctor or specialist at a hospital. The insurance company that provided the healthcare plan will then pay a set portion of the total incurred charges from the visit. However, the patient must pay an annual deductible and out-of-pocket payment for services before submitting a reimbursement claim. Once the requirements are met, the insurance provider pays a percentage of the total costs based on the usual, customary and reasonable (UCR) charges of comparable providers."
+  },
+  {
+    "id": 182,
+    "question": "What do usual, customary and reasonable (UCR) fees refer to?",
+    "answer": "The usual, customary and reasonable (UCR) fees are the fees paid out-of-pocket by insurance policyholders for healthcare services. The UCR is the amount paid for a medical service based on what nearby providers typically charge for the same (or similar) service and often varies depending on the geographic area in which the service was provided."
+  },
+  {
+    "id": 183,
+    "question": "Could you explain what issue an integrated delivery network (IDN) is attempting to fix?",
+    "answer": "An integrated delivery network (IDN) is a network of healthcare facilities owned collectively under a single parent holding company. It connects healthcare specialists that provide a continuum of services. IDNs address misaligned incentives, poor coordination, fragmentation, and inefficiencies that raise medical costs. In an ideal system, providers coordinate and align economic incentives to use resources efficiently, improve clinical outcomes, and deliver better care. IDNs combine organizational assets and specialties to provide comprehensive, efficient healthcare services."
+  },
+  {
+    "id": 184,
+    "question": "What does interoperability mean in healthcare?",
+    "answer": "In the healthcare setting, interoperability is the ability of different IT systems and software applications to communicate and exchange data. The implication being data on a particular patient may seamlessly be shared across different clinics, labs, hospitals, and pharmacies. This enables the more efficient delivery of healthcare services for individuals, enhances the overall patient experience, lowers medical costs, and reduces errors."
+  }
+]
