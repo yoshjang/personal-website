@@ -93,20 +93,20 @@ export function Community() {
               "Helped with school-district relationships and fundraising",
             ]}
           >
-            <div className="mt-5 flex flex-wrap gap-3">
+            <div className="mt-5 flex min-w-0 flex-wrap gap-3">
               <Figure
                 photo={photos.toledoGroup}
                 caption="STEM camp participants with their certificates."
                 sizes="(min-width: 640px) 24rem, 100vw"
-                className="max-w-full"
-                frameClassName="aspect-[4/3] h-52 max-w-full sm:h-60 lg:h-64"
+                className="w-full min-w-0 sm:w-auto sm:max-w-full"
+                frameClassName="aspect-[4/3] w-full sm:h-60 sm:w-auto sm:max-w-full lg:h-64"
               />
               <Figure
                 photo={photos.toledoBasketball}
                 caption="Basketball workshop, December 2023."
                 sizes="(min-width: 640px) 20rem, 100vw"
-                className="max-w-full"
-                frameClassName="aspect-[8/7] h-52 max-w-full sm:h-60 lg:h-64"
+                className="w-full min-w-0 sm:w-auto sm:max-w-full"
+                frameClassName="aspect-[8/7] w-full sm:h-60 sm:w-auto sm:max-w-full lg:h-64"
               />
             </div>
           </DetailCard>
