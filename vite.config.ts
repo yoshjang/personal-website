@@ -12,7 +12,7 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
     // Fully static output for both the personal story and daily markets brief.
-    pages: [{ path: "/" }, { path: "/markets" }],
+    pages: [{ path: "/" }, { path: "/markets" }, { path: "/technicals" }],
     prerender: { enabled: true, autoStaticPathsDiscovery: false, crawlLinks: false },
   },
 });

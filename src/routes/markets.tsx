@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
 import {
   ArrowDownRight,
@@ -10,7 +10,8 @@ import {
   Newspaper,
   RefreshCw,
 } from "lucide-react";
-import { Backdrop, Spotlight } from "@/components/atlas/Chrome";
+import { Backdrop, Spotlight, TopNav } from "@/components/atlas/Chrome";
+import { SECTIONS } from "@/components/atlas/content";
 import snapshot from "@/data/market-data.json";
 
 const SITE_URL = "https://joshuawang.app/markets";
@@ -93,7 +94,7 @@ function Markets() {
       </a>
       <Backdrop />
       <Spotlight />
-      <MarketHeader />
+      <TopNav sections={SECTIONS} currentPage="markets" />
 
       <main className="mx-auto max-w-6xl px-5 pb-20 pt-28 sm:px-8 sm:pt-32">
         <section id="market-snapshot" aria-labelledby="markets-title">
@@ -202,50 +203,6 @@ function Markets() {
         </section>
       </main>
     </div>
-  );
-}
-
-function MarketHeader() {
-  return (
-    <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5">
-      <nav
-        aria-label="Primary"
-        className="glass-strong mx-auto flex max-w-6xl items-center justify-between gap-3 rounded-full p-1.5 pl-2 sm:pl-3"
-      >
-        <Link to="/" className="group flex items-center gap-2.5 rounded-full py-1 pr-2">
-          <span className="grid h-8 w-8 place-items-center rounded-full bg-gradient-to-br from-primary to-accent font-display text-[0.7rem] font-bold text-primary-foreground">
-            JW
-          </span>
-          <span className="hidden font-display text-[0.95rem] font-semibold sm:inline">
-            Joshua Wang
-          </span>
-        </Link>
-        <div
-          className="flex items-center rounded-full bg-background/50 p-1"
-          aria-label="Site views"
-        >
-          <Link
-            to="/"
-            className="min-h-9 rounded-full px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
-          >
-            About
-          </Link>
-          <Link
-            to="/markets"
-            aria-current="page"
-            className="min-h-9 rounded-full bg-primary/25 px-4 py-2 text-sm font-semibold text-foreground shadow-[0_0_18px_-8px] shadow-accent"
-          >
-            Markets
-          </Link>
-          <Link
-            to="/technicals"
-            className="min-h-9 rounded-full px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
-          >
-            Technicals
-          </Link>
-        </div>
-      </nav>
-    </header>
   );
 }
 

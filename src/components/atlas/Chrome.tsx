@@ -1,8 +1,15 @@
 import { useEffect, useRef } from "react";
-import { BookOpenCheck, ChartNoAxesCombined, Linkedin, Mail } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 import { cn } from "@/lib/utils";
-import { LINKS, type SectionDef } from "./content";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+} from "@/components/ui/navigation-menu";
+import { type SectionDef } from "./content";
 import { useActiveSection, useFinePointer, useReducedMotion } from "./motion";
 
 /* ---------- Skip link ---------- */
@@ -120,33 +127,30 @@ export function Spotlight() {
 
 /* ---------- Top navigation ---------- */
 
-export function TopNav({ sections }: { sections: SectionDef[] }) {
+type TopNavProps = {
+  sections: SectionDef[];
+  currentPage?: "about" | "markets" | "technicals";
+};
+
+export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
   const ids = sections.map((s) => s.id);
   const active = useActiveSection(ids);
-  const scroller = useRef<HTMLUListElement>(null);
+  const aboutActive = currentPage === "about";
+  const sectionPrefix = aboutActive ? "" : "/";
 
-  // Keep the active link visible inside the horizontally scrolling strip.
-  useEffect(() => {
-    const list = scroller.current;
-    if (!list) return;
-    if (list.scrollWidth <= list.clientWidth) return;
-    const link = list.querySelector<HTMLElement>(`[data-id="${active}"]`);
-    if (!link) return;
-    const target = link.offsetLeft - list.clientWidth / 2 + link.offsetWidth / 2;
-    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    list.scrollTo({ left: target, behavior: reduced ? "auto" : "smooth" });
-  }, [active]);
+  const topLevelClass =
+    "inline-flex min-h-10 shrink-0 items-center justify-center rounded-full px-3 text-[0.78rem] font-bold tracking-tight transition-all hover:bg-secondary hover:text-foreground sm:min-h-11 sm:px-5 sm:text-[0.95rem]";
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5">
       <nav
-        aria-label="Sections"
-        className="glass-strong mx-auto flex max-w-6xl items-center gap-2 rounded-full py-1.5 pl-2 pr-2 sm:gap-3 sm:pl-3"
+        aria-label="Primary navigation"
+        className="glass-strong mx-auto flex max-w-6xl items-center justify-between gap-2 rounded-2xl border border-accent/20 p-1.5 shadow-[0_16px_50px_-24px_rgba(63,189,255,0.65)] sm:rounded-full sm:pl-3"
       >
         <a
-          href="#top"
+          href={aboutActive ? "#top" : "/"}
           aria-label="Joshua Wang, back to top"
-          className="group flex shrink-0 items-center gap-2.5 rounded-full py-1 pr-2"
+          className="group flex shrink-0 items-center gap-2.5 rounded-full py-1 sm:pr-2"
         >
           <span
             aria-hidden="true"
@@ -154,78 +158,89 @@ export function TopNav({ sections }: { sections: SectionDef[] }) {
           >
             JW
           </span>
-          <span className="hidden font-display text-[0.95rem] font-semibold tracking-tight text-foreground md:inline">
+          <span className="hidden font-display text-[0.95rem] font-semibold tracking-tight text-foreground lg:inline">
             Joshua Wang
           </span>
         </a>
 
-        <ul
-          ref={scroller}
-          className="scrollbar-none flex min-w-0 flex-1 items-center gap-0.5 overflow-x-auto py-0.5"
-        >
-          {sections.map((s) => {
-            const isActive = active === s.id;
-            return (
-              <li key={s.id} className="shrink-0">
-                <a
-                  href={`#${s.id}`}
-                  data-id={s.id}
-                  aria-current={isActive ? "true" : undefined}
+        <div className="flex min-w-0 items-center gap-0.5 rounded-full bg-background/70 p-1 ring-1 ring-border/80 sm:gap-1">
+          <NavigationMenu className="flex-none">
+            <NavigationMenuList className="space-x-0">
+              <NavigationMenuItem>
+                <NavigationMenuTrigger
+                  aria-current={aboutActive ? "page" : undefined}
                   className={cn(
-                    "relative flex min-h-9 items-center gap-2 rounded-full px-3 text-[0.8125rem] font-medium transition-colors",
-                    isActive
-                      ? "bg-primary/20 text-foreground"
-                      : "text-muted-foreground hover:bg-secondary/70 hover:text-foreground",
+                    topLevelClass,
+                    "h-auto bg-transparent",
+                    aboutActive
+                      ? "bg-primary/30 text-foreground shadow-[0_0_22px_-10px] shadow-accent"
+                      : "text-muted-foreground",
                   )}
                 >
-                  <span
-                    aria-hidden="true"
-                    className={cn(
-                      "h-1.5 w-1.5 rounded-full transition-[background-color,box-shadow]",
-                      isActive ? "bg-lime shadow-[0_0_10px] shadow-lime/80" : "bg-border",
-                    )}
-                  />
-                  {s.label}
-                </a>
-              </li>
-            );
-          })}
-        </ul>
+                  About
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <div className="w-[min(22rem,calc(100vw-1.5rem))] p-2.5">
+                    <div className="px-2 pb-2 pt-1">
+                      <p className="font-display text-sm font-semibold text-foreground">
+                        About Joshua
+                      </p>
+                      <p className="mt-0.5 text-xs text-muted-foreground">Jump to a section</p>
+                    </div>
+                    <div className="grid grid-cols-2 gap-1">
+                      {sections.map((section) => {
+                        const isActive = aboutActive && active === section.id;
+                        return (
+                          <NavigationMenuLink key={section.id} asChild>
+                            <a
+                              href={`${sectionPrefix}#${section.id}`}
+                              aria-current={isActive ? "location" : undefined}
+                              className={cn(
+                                "group flex min-h-12 items-center gap-2 rounded-xl px-3 py-2 text-sm font-semibold transition-colors hover:bg-secondary hover:text-foreground focus:bg-secondary focus:outline-none",
+                                isActive
+                                  ? "bg-primary/20 text-foreground"
+                                  : "text-muted-foreground",
+                              )}
+                            >
+                              <span className="font-mono text-[0.65rem] text-accent">
+                                {section.index}
+                              </span>
+                              <span>{section.label}</span>
+                            </a>
+                          </NavigationMenuLink>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
 
-        <div className="flex shrink-0 items-center gap-1">
           <Link
             to="/markets"
-            aria-label="Open the daily markets brief"
-            className="flex min-h-9 items-center gap-2 rounded-full bg-primary/15 px-3 text-[0.8125rem] font-semibold text-primary-bright transition-colors hover:bg-primary/25 hover:text-foreground"
+            aria-current={currentPage === "markets" ? "page" : undefined}
+            className={cn(
+              topLevelClass,
+              currentPage === "markets"
+                ? "bg-primary/30 text-foreground shadow-[0_0_22px_-10px] shadow-accent"
+                : "text-muted-foreground",
+            )}
           >
-            <ChartNoAxesCombined aria-hidden="true" className="h-4 w-4" />
-            <span className="hidden sm:inline">Markets</span>
+            Markets
           </Link>
           <Link
             to="/technicals"
-            aria-label="Open investment banking technicals practice"
-            className="flex min-h-9 items-center gap-2 rounded-full bg-primary/15 px-3 text-[0.8125rem] font-semibold text-primary-bright transition-colors hover:bg-primary/25 hover:text-foreground"
+            aria-current={currentPage === "technicals" ? "page" : undefined}
+            className={cn(
+              topLevelClass,
+              currentPage === "technicals"
+                ? "bg-primary/30 text-foreground shadow-[0_0_22px_-10px] shadow-accent"
+                : "text-muted-foreground",
+            )}
           >
-            <BookOpenCheck aria-hidden="true" className="h-4 w-4" />
-            <span className="hidden lg:inline">Technicals</span>
+            IB Technicals
           </Link>
-          <a
-            href={LINKS.mailto}
-            aria-label={`Email ${LINKS.email}`}
-            title={LINKS.email}
-            className="grid h-9 w-9 place-items-center rounded-full text-muted-foreground transition-colors hover:bg-secondary/70 hover:text-accent"
-          >
-            <Mail aria-hidden="true" className="h-4 w-4" />
-          </a>
-          <a
-            href={LINKS.linkedin}
-            target="_blank"
-            rel="noreferrer noopener"
-            aria-label="LinkedIn profile (opens in a new tab)"
-            className="grid h-9 w-9 place-items-center rounded-full text-muted-foreground transition-colors hover:bg-secondary/70 hover:text-accent"
-          >
-            <Linkedin aria-hidden="true" className="h-4 w-4" />
-          </a>
         </div>
       </nav>
     </header>

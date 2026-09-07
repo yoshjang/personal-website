@@ -1,7 +1,8 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { ArrowLeft, ArrowRight, Check, Eye, Layers3, List, Search, Shuffle } from "lucide-react";
-import { Backdrop, Spotlight } from "@/components/atlas/Chrome";
+import { Backdrop, Spotlight, TopNav } from "@/components/atlas/Chrome";
+import { SECTIONS } from "@/components/atlas/content";
 import {
   Accordion,
   AccordionContent,
@@ -77,7 +78,7 @@ function Technicals() {
       </a>
       <Backdrop />
       <Spotlight />
-      <TechnicalsHeader />
+      <TopNav sections={SECTIONS} currentPage="technicals" />
 
       <main className="mx-auto max-w-6xl px-5 pb-20 pt-28 sm:px-8 sm:pt-32">
         <section id="study-bank" aria-labelledby="technicals-title">
@@ -428,49 +429,5 @@ function AnswerText({ answer }: { answer: string }) {
     <p className="max-w-none whitespace-pre-line text-base leading-7 text-foreground/90">
       {answer}
     </p>
-  );
-}
-
-function TechnicalsHeader() {
-  return (
-    <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5">
-      <nav
-        aria-label="Primary"
-        className="glass-strong mx-auto flex max-w-6xl items-center justify-between gap-3 rounded-full p-1.5 pl-2 sm:pl-3"
-      >
-        <Link to="/" className="group flex items-center gap-2.5 rounded-full py-1 pr-2">
-          <span className="grid h-8 w-8 place-items-center rounded-full bg-gradient-to-br from-primary to-accent font-display text-[0.7rem] font-bold text-primary-foreground">
-            JW
-          </span>
-          <span className="hidden font-display text-[0.95rem] font-semibold sm:inline">
-            Joshua Wang
-          </span>
-        </Link>
-        <div
-          className="scrollbar-none flex items-center overflow-x-auto rounded-full bg-background/50 p-1"
-          aria-label="Site views"
-        >
-          <Link
-            to="/"
-            className="min-h-9 shrink-0 rounded-full px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground sm:px-4"
-          >
-            About
-          </Link>
-          <Link
-            to="/markets"
-            className="min-h-9 shrink-0 rounded-full px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground sm:px-4"
-          >
-            Markets
-          </Link>
-          <Link
-            to="/technicals"
-            aria-current="page"
-            className="min-h-9 shrink-0 rounded-full bg-primary/25 px-3 py-2 text-sm font-semibold text-foreground shadow-[0_0_18px_-8px] shadow-accent sm:px-4"
-          >
-            Technicals
-          </Link>
-        </div>
-      </nav>
-    </header>
   );
 }
