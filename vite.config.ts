@@ -13,7 +13,7 @@ export default defineConfig({
     server: { entry: "server" },
     // Fully static output: the single storytelling page is rendered at build time.
     pages: [{ path: "/" }],
-    prerender: { enabled: true, autoStaticPathsDiscovery: false },
+    prerender: { enabled: true, autoStaticPathsDiscovery: false, crawlLinks: false },
   },
 
 });
