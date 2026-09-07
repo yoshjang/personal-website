@@ -1,4 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect width="64" height="64" rx="14" fill="#1b1a17"/>
-  <text x="32" y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="1" fill="#e8e2d6">JW</text>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0b1020"/>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#g)" stroke-width="1.5" stroke-dasharray="3 5" opacity="0.7"/>
+  <circle cx="56" cy="32" r="2.4" fill="#c4f542"/>
+  <text x="32" y="41" text-anchor="middle" font-family="'Bricolage Grotesque', 'Instrument Sans', 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="24" letter-spacing="-1" fill="#f3f6fb">JW</text>
 </svg>
