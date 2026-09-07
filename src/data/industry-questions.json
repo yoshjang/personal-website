@@ -918,5 +918,985 @@
     "id": 184,
     "question": "What does interoperability mean in healthcare?",
     "answer": "In the healthcare setting, interoperability is the ability of different IT systems and software applications to communicate and exchange data. The implication being data on a particular patient may seamlessly be shared across different clinics, labs, hospitals, and pharmacies. This enables the more efficient delivery of healthcare services for individuals, enhances the overall patient experience, lowers medical costs, and reduces errors."
+  },
+  {
+    "id": 185,
+    "question": "What is a physician-hospital organization (PHO)?",
+    "answer": "A physician-hospital organization (PHO) refers to ventures organized and owned under hospitals and\nphysicians at medical practices that engage in paid contracting under managed care plan contracts and provide\nservices in coordination with one another under a formal partnership. While integrations will vary by contract,\nthere may be limitations in the cooperation between healthcare providers as the economic incentives are not\ncompletely aligned between hospitals and physicians, leading to disagreements."
+  },
+  {
+    "id": 186,
+    "question": "What are physician organizations (POs)?",
+    "answer": "The physician organization (POs) model is the traditional system in which physical organizations and hospitals\nco-exist with no contractual integration. This type of model has faced recent pressure from patients (and\nregulatory bodies) and may not be sustainable in the long-term due to managed care and the trend of IDS. As\nmore healthcare reform initiatives call for providers to integrate service delivery and align their economic\nincentives, a shift towards PHO models is expected."
+  },
+  {
+    "id": 187,
+    "question": "What is a medical service organization (MSO)?",
+    "answer": "A medical service organization (MSO) provides management, administrative, and operational tasks on behalf of\nmedical practices. While not licensed to practice medicine, MSOs encourage integration between hospitals and\nphysicians by performing time-consuming responsibilities on their behalf. Some areas in which MSOs assist are\nfinancial/billing management, human resources (HR) management, recruiting, and regulatory compliance."
+  },
+  {
+    "id": 188,
+    "question": "What is an independent practice association (IPA)?",
+    "answer": "An IPA, short for Independent Practice Association, is an organization of independent physicians licensed to\npractice. The purpose is to build a contracting relationship with HMOs and payers that provide discounts to\npatients under fee-for-service arrangements.\nThis type of integration is beneficial as it creates a funnel for patients to go from the IPA to the physician’s\noffice, which helps the physician generate more revenue while the IPA can process claims under the conditions\noutlined in the contract agreement."
+  },
+  {
+    "id": 189,
+    "question": "What does a partially integrated medical group (PIMG) mean?",
+    "answer": "A partially integrated medical group (PIMG) is a step in the right direction towards IDS, but it's not a complete\nintegration. In a PIMG, there's a medical group practice resulting from the mergers of multiple practices into a\nsingle legal entity. However, separate practices still retain independence in their operations.\nWhile there's usually centralized governance, there are many non-integrated elements such as the total income\nallocation by each center and the retention of the individual identity of each facility."
+  },
+  {
+    "id": 190,
+    "question": "What does a fully integrated medical group (FIMG) include?",
+    "answer": "A fully integrated medical group (FIMG) is one of the end goals of IDS. In a FIMG, the physical practice is listed\nas a single, legal entity and is managed under single, centralized governance similar to a PIMG. However, the\npractices under a FIMG operate under a common name, and there's complete integration in the organizational\nstructure and management of workflow.\nFor example, the administrative operations, clinical systems, and income distribution are unified and\ncompleted under a single allocation system."
+  },
+  {
+    "id": 191,
+    "question": "Explain the 3 party business model in how providers are paid in the healthcare industry.",
+    "answer": "Hospitals and healthcare facilities get paid through a co-pay that the patient gives them at the time of care and\nthrough the fees from the payers. Once the medical care has been provided, a claim will be submitted to the\npayers describing what services were performed and what reimbursement is appropriate based on services\ncodes. Payers, to keep their costs down, will then send them to an internal payment integrity unit or an\nexternal 3rd party HCIT company to check for errors or services incorrectly billed. These adjusted claims are\nthen sent back to the payer, and that's what the payers will choose to reimburse hospitals and other providers.\nPayers reimburse providers based on contracted rates for the services rendered (e.g., with participation in a\nPPO, hospitals typically have a one to three-year contract stating reimbursement terms; for physicians, it's\nbased on a set fee-schedule, often based on the Medicare rates)."
+  },
+  {
+    "id": 192,
+    "question": "Why is payment integrity such a point-of-conflict in the healthcare industry?",
+    "answer": "Payment integrity is ensuring claims were paid in the right amount. Payment integrity providers analyze\ndisputes and adjust claims on behalf of managed care companies, Medicare, and others. Payment integrity\ncompanies earn a percentage of the errors they identify.\nFor example, if they believe a patient was incorrectly admitted as an inpatient when being treated as an\noutpatient would’ve been appropriate - then the payment integrity provider would file a formal dispute that\nthe patient didn't need to stay overnight.\nToday, most payment integrity programs include some level of automation. However, a significant amount of\nmanual work is still required to verify each payment and identify potential misclassifications or fraud. The\nincreased complexity in treatments and innovations in tests/services has made it even more difficult for payers\nto distinguish between what qualifies as medically necessary tests/services and those that don't meet the\nqualifications. The rise in the sheer volume of claims filed each year has made catching these mismatches and\nanomalies overwhelmingly challenging. Given the mounting amount of data, it would be very difficult to\nrecognize patterns and fix them on time, but recent advancements in artificial intelligence (AI) have been\npromising as a potential solution for this inefficient payment integrity system."
+  },
+  {
+    "id": 193,
+    "question": "What is telemedicine and how does the process work?",
+    "answer": "Telemedicine (or telehealth) refers to the treatment of patients provided remotely using modern HIPAA\ncompliant video-conferencing tools. This type of remote treatment has gone mainstream in the past year as it\nenables patients to communicate with a healthcare professional virtually rather than physically visiting the\nmedical office or hospital.\nThrough real-time videoconferencing, a patient can discuss their symptoms and medical issues with a qualified\nhealthcare provider to receive a diagnosis and determine whether an actual visit is required. In effect, this\nreduces the healthcare bills of the patients as unnecessary visits are reduced, and it allows medical\nprofessionals to provide treatment conveniently.\nDuring the COVID-19 pandemic, telemedicine was brought into the spotlight, with Teledoc being one of the\nmain beneficiaries leading the movement. One reason telemedicine saw such staggering growth was because\nmany non-COVID patients feared that going to a hospital or medical facility would make them catch the virus.\nFunding towards privately held telemedicine startups substantially increased in 2020 as virtual medical\ntreatment became more normalized and accepted.\nTelemedicine has shown to provide a multitude of benefits for patients such as improved clinical outcomes,\nincreased patient engagement (from more frequency of communication), expanded patient access, reduced\ncosts and improved efficiency (which leads to lower billings to patients), and enhanced care coordination as\nthis integration can often have a ripple effect on other parts of healthcare operations."
+  },
+  {
+    "id": 194,
+    "question": "What are some limitations of telemedicine?",
+    "answer": "Telemedicine applies only to non-urgent situations, not actual emergencies. Any serious medical condition that\nrequires immediate hands-on treatment or x-rays to assess the severity of the situation cannot be treated over\ntelemedicine. Instead, telemedicine is intended for non-emergency matters and follow-up consultations after\nan in-person meeting. Telemedicine is also expected to free up more time for patients that require urgent\ntreatment and give medical professions more time to rest, especially when the health of the medical providers\nthemselves is a widespread concern due to insufficient sleep and constant stress."
+  },
+  {
+    "id": 195,
+    "question": "What is utilization management in the healthcare context?",
+    "answer": "Utilization management in healthcare describes the periodic review of the hospital and healthcare facility\nutilization to manage costs better. In addition, the quality of care provided is assessed to understand which\nareas to adjust to provide better patient experiences while remaining financially efficient (i.e., understand\ndemand curves better, recognize which areas to focus on, identify inefficiencies).\nIn the coming years, the trend of telemedicine and increased automated workflow is expected to have a very\npositive impact on the costs of hospital and related facilities."
+  },
+  {
+    "id": 196,
+    "question": "What is the difference between onsite and near-site healthcare, and what benefits do they provide to employees and employers?",
+    "answer": "The health and well-being of employees have been a topic at the forefront of many regulatory conversations in\nrecent days. Through onsite or near-site healthcare, employers can address increasingly rising employee\nhealthcare costs and chronic conditions of employees, which both contribute towards time away from work for\nthe employee and wasted non-productive time.\nWith an onsite clinic or a near-site clinic, employees can reduce the time spent away from work to receive\npreventive diagnoses or treatments. In addition, health benefit options can serve as an incentive for employees\nto join a certain company.\nOther than the distance, the biggest difference between a near-site clinic and an onsite clinic is the required\ncosts. Onsite clinics require significant investments to set-up, which is why it's usually only done by large\ncorporations with considerable resources. Near-site clinics are managed by outside 3rd party organizations,\nwhich reduce the monetary investment substantially. Thus, smaller businesses opt for near-site clinics because\nthey cannot afford to host an on-site clinic.\nContrary to common belief, these near-site clinics are arguably more convenient to employees since there are\nmultiple location offerings. Since there are various locations to choose from, it's easier for employees to receive\ncare regularly, whereas with onsite clinics, the employee would have to come near the workplace."
+  },
+  {
+    "id": 197,
+    "question": "Talk to me about the rising trend of D2C startups in the pharmaceutical industry.",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nThere has been a noticeable shift towards a healthcare system model where patients can conveniently go\nonline, consult with a physician around a range of clinical and therapeutic topics, and receive a prescription for\nthat specific condition. Well-capitalized startups within the digital health space include TruePill, PillPack\n(acquired by Amazon Pharmacy), Capsule, NowRx, Surescripts, and ZappRx (acquired by Allscripts).\nThe pharmacy retail market is undergoing significant disruption from startups like Amazon’s PillPack, Capsule,\nNowRx, Hims & Hers, Ro, and Blink Health, which offer patients low-cost, fast-delivery prescription medication\nservices. Thanks in part due to the de-stigmatization of certain healthcare areas (e.g., birth control, erectile\ndysfunction, hair loss, acne) and demand for increased privacy by consumers, the D2C model has taken off as\none of the fastest-growing segments in healthcare."
+  },
+  {
+    "id": 198,
+    "question": "Tell me about a healthcare startup you're closely following.",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nFounded in 2016, Truepill is a B2B telehealth startup that provides pharmacy API and fulfillment services of\nmedications and is often referred to as the “AWS for pharmacies.” Truepill works directly with D2C pharmacy\nbrands (most notably Nurx, Hims, Lemonaid), digital health companies, and other healthcare organizations to\nenable them to improve upon and scale their platforms.\nTruepill’s team of licensed medical professionals can diagnose, provide consultations, and prescribe\nmedications across various clinical areas via telemedicine and in-person clinics. In addition, Truepill operates\npharmacies that can ship cash or insurance-billed medications directly to the doorsteps of the patient.\nEssentially, Truepill acts as the licensed pharmacist dispensing and shipping the medication prescribed\nthrough D2C startups. For D2C healthcare startups, Truepill handles all the logistics, shipping, and pharmacy\nfulfillment on their behalf, thus enabling them to benefit from Truepill’s economies of scale and growing\ninternational footprint.\nTruepill’s API provides full transparency to its user base by providing data such as overall fulfillment volume,\nthe number of orders going out on time, the delivery status of the order on a real-time basis, and reports on\nissues that caused delays.\nCompetition amongst D2C pharmacy brands has become crowded as more niche startups enter the market -\nhowever, Truepill provides non-partisan services (comparable to Stripe's role in FinTech) by functioning as a\nbackground infrastructure layer. Truepill’s business model of being only B2B has previously never existed\nbefore, and co-founder Sid Viswanathan has stated that Truepill seeks to become “the pharmacy behind the\nscenes that's powering the entire ecosystem.” Thus, Truepill works alongside and negotiates agreements\nprimarily with drug makers and PBMs, as opposed to competing with the industry intermediaries that sit\nbetween insurers and drug makers.\nTelemedicine and on-demand virtual deliveries will have a significant role in the modern pharmacy, and\nTruepill looks to capitalize on this trend by leading the development of the digital pharmacy infrastructure."
+  },
+  {
+    "id": 199,
+    "question": "From a financial perspective, how were hospitals and healthcare facilities affected by the COVID-19 pandemic?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nSince the beginning of this year, healthcare workers have been at the forefront in the fight against the\ncoronavirus outbreak, and the revenue and profitability in the healthcare industry have deteriorated due to the\ndeferral of most surgical procedures for non-life-threatening conditions and the decrease in the number of\naccidents and non-coronavirus illnesses. Considering its high fixed cost nature, hospitals today are currently in\nan urgent, cost-cutting mode for expenses unrelated to COVID-19, as seen by employee layoffs and reductions\nin working hours for workers not relevant to COVID-19.\nWhile the healthcare industry is notorious for being slow to adopt new technologies, a considerable portion of\nthe forecasted total industry growth of IT spend is expected to stem from the vertical healthcare institutions\nsuch as hospitals and smaller-scale clinics that have been disproportionally affected throughout the\ncoronavirus outbreak. The reason is that these medical facilities were using outdated technologies and have no\nchoice but to adjust to the prevailing conditions. So while digital infrastructure, certain healthcare services\n(related to diagnosis, testing, and disease control), and telemedicine platforms experienced positive growth,\nmany hospital holding companies and healthcare facilities have been seeing substantial margin contraction."
+  },
+  {
+    "id": 200,
+    "question": "Could you name some ongoing trends in the consumer goods industry?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nOngoing Convergence between Traditional Brick-and-Mortar Stores and e-commerce\nRapid Product Development & Consumer Testing\nTargeted Marketing using Data Analytics (e.g., personalized ads on social media)\nDirect-to-Consumer (DTC) Business Models\nSubscription-Based Payment Plans (i.e., the customer pays in fixed intervals)\nIncreased Demand for Transparency on Labels (e.g., location, manufacturing method, health, and\nenvironmental sustainability)\nSame-Day/One-Day Click-and-Deliver and Click-and-Collect Feature in e-commerce\nPartnerships between DTC Brands with Brick-and-Mortar Stores"
+  },
+  {
+    "id": 201,
+    "question": "Which types of valuation multiples are often used for consumer and retail companies?",
+    "answer": "The valuation multiples used in consumer and retail companies are standard for the most part. Given the\nmature state of the industry, multiples such as P/E and EV/EBITDA are frequently used.\nSpecific to retail, one of the most popular multiples is EV/EBITDAR, with the \"R\" being rental and lease-related\ncosts. This is done to better standardize the multiple since there are companies that rent their stores whereas\nothers own them. Without the rent expense being added back, companies paying rent would be valued lower\nthan those that own their stores.\nA few industry specific valuation multiples based on operating metrics include EV/Total # of Stores, EV/Sales\nper Square Foot, EV/Sales Per Store, and EV/Same-Store Sales.\nFor e-commerce sellers or marketplace businesses, an important valuation multiple would be EV/Gross\nMerchandise Volume (GMV)."
+  },
+  {
+    "id": 202,
+    "question": "What unit economics drive revenue in the consumer goods industry?",
+    "answer": "For the consumer & retail sector, most companies that fall under this industry classification have revenue\ndrivers, split broadly into volume and price.\nVolume Drivers: The volume drivers section could include the number of stores, the average number of\ndaily customers visiting the store, the average number of products in each order, and the average number\nof customer transactions per day.\nPrice Drivers: On the other side, the price per product sold will be a function of the product quality, brand\nreputation, and how it stands relative to its competitors. There are often significant constraints, and most\nretailers have very little pricing power (i.e., have to set near market rate).\nExcluding premium retailers, most companies in the consumer sector will have a growth strategy oriented\naround achieving volume growth - this can be achieved by a better sales/marketing strategy, store count\nincrease, and geographic expansion."
+  },
+  {
+    "id": 203,
+    "question": "What is the most significant cost driver for consumer product companies?",
+    "answer": "Unique to the consumer products industry, a significant percentage of their total cost structure is spent on\nadvertising and marketing campaigns. Advertising is a key channel to communicate with their customers, while\nmarketing campaigns help end-users positively view brands.\nA successful advertising and marketing strategy leads to an increase in sales and pricing power in this industry.\nFor product sales, building an “emotional connection” with the end customers is necessary for brand loyalty\n(e.g., Patagonia's initiatives for environmental and social responsibility)."
+  },
+  {
+    "id": 204,
+    "question": "What are the two main retail channels to sell products to customers?",
+    "answer": "1. Brick-and-Mortar Stores: Brick-and-mortar means a company’s store has a physical presence at a\nspecific location, building, or retail outlet that customers can visit in-person.\n2. E-commerce: e-commerce involves transactions via digital means (i.e., online businesses, mobile).\nNowadays, the two channels have converged, as seen by Walmart’s online shopping platform's development to\ncompete with Amazon and other e-commerce stores."
+  },
+  {
+    "id": 205,
+    "question": "If you were a seller, would you prefer to sell your products on a marketplace or personal e-commerce store?",
+    "answer": "Both online marketplace platforms and e-commerce stores are related to digital commerce.\nMarketplace: In the simplest terms, a marketplace is a platform where various products come from\nmultiple e-commerce sellers. Some of the most well-known examples of marketplaces would be Amazon,\neBay, and AliExpress. The main benefit of making purchases in a marketplace is the platform's pre-existing\nreliability (i.e., intermediary and security infrastructure), website traffic, and buyers enjoy comparing\nsimilar product offerings side-by-side. There is less information asymmetry in what the price of\ncomparable products is. The more diverse the marketplace is, the more convenient it's for customers to\npurchase items in different areas. For sellers, the effort to bring traffic and viewers to their products is\nminimal, which means fewer marketing expenditures are required. The downside of marketplaces is the\ncommission fees on each transaction, which typically range between 5% and 15%.\nIndividual e-commerce Store: For an individual e-commerce store, there are more responsibilities and\nwork required to get the store running. To bring traffic to a new website requires spending on marketing\nand SEO, and even then, there's no guarantee the efforts will pay off. But while the process can be more\ntime-consuming, the seller can customize the website to their liking and create a virtual shopping\nexperience. In addition, no commission has to be paid to a 3rd party, but only a minor website hosting fee is\npaid. There are benefits to both, but certain brands with existing followers will avoid marketplaces so that\ntheir customers will have a differentiated online shopping experience in which the company's brand is the\nonly focus. From the sellers' perspective, the saturation of brands in marketplaces, especially from lower-tier brands, makes the platform appear less “premium” to users and damages the online shopping\nexperience (e.g., “sponsored” products shown next to a seller's products)."
+  },
+  {
+    "id": 206,
+    "question": "For a marketplace company, which KPIs would you pay the closest attention to?",
+    "answer": "Gross Merchandise Volume: GMV is the total amount of sales made through all the transactions for\nmerchandise on a platform over a specific time frame.\nAverage Order Value: AOV is the average amount spent per transaction and is calculated by dividing total\nrevenue by the total number of transactions.\nTake Rate: The take rate is the percentage of GMV collected by the marketplace (typically ranges between\n10% to 30% for established marketplaces) and is how marketplaces produce revenue."
+  },
+  {
+    "id": 207,
+    "question": "Explain how the “Amazon Effect” has impacted the entire retail industry.",
+    "answer": "The so-called “Amazon Effect” is the ongoing disruption of the retail market (and other online platforms/e-commerce stores), resulting from their sector dominance. Amazon single-handedly changed the competitive\nlandscape of all retail and raised the bar for what customers expect during their online shopping experience.\nShipping Speed: Amazon Prime’s 1-2-day shipping raised the standards of the speed at which a product\nwould have to be delivered to customers, which cuts into the margins of other online businesses.\nFree Returns: Online sellers have less leverage in return handling because of Amazon. In most cases, the\nseller will offer free returns to cover all shipping charges related to the return (along with free delivery)."
+  },
+  {
+    "id": 208,
+    "question": "Why have many e-commerce platforms opened brick-and-mortar locations?",
+    "answer": "While many people neglected the traditional brick-and-mortar business model, companies have started to re-think the amount of value provided by customized in-person shopping experiences - fueled by the trend of\n“click-and-collect.\" Products sold online will have higher margins and be more convenient, but it's often\ndifficult to create an emotional connection with customers when sales are just online. Thus, many e-commerce\nplatforms have opened brick-and-mortar locations recently.\nAnother reason is the convenience factor, as integrating an online sale with in-person pickups is the fastest\nmethod for product delivery. A recent example of this could be seen in the curbside pickup trends in 2020.\nConsumers want products fast and often prefer to go pick them up in-person immediately.\nLastly, the ability to return products purchased online at a nearby location can help a company save on\nshipping costs. Alternatively, many partnerships have developed between companies and even educational\ninstitutions. For example, Amazon returns can be accepted at a retail store such as Kohl’s and at universities\nwith a department dedicated to the shipping and handling of product returns."
+  },
+  {
+    "id": 209,
+    "question": "Many DTC companies have recently established partnerships with brick-and-mortar store chains and began opening up physical stores. What is the reasoning behind this trend?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nMany DTC brands have realized how a traditional brick-and-mortar store could complement its products, and\nit's expected to become a key part of their strategy increasingly. The multi-channel strategy to sell products on\nseveral platforms to maximize exposure to diverse consumer types. For example, Quip, the direct-to-consumer\ntoothbrush brand, has partnered with Target to diversify its distribution channels and have a presence in brick-and-mortar stores.\nMany customers prefer DTC, especially when there's fast shipping. But certain customers prefer purchasing a\nproduct after seeing it in person, regardless of the option for free returns - commonly known as “buy online,\npick up in-store” (BOPIS), which is not a new idea but a trend that appears to have returned. Besides\npartnerships with existing stores, many DTC brands such as Casper, Warby Parker, and Everlane opened\nphysical locations over the past few years and have continued to grow their physical footprint."
+  },
+  {
+    "id": 210,
+    "question": "What are some benefits that brick-and-mortar stores have over e-commerce?",
+    "answer": "Physical Shopping Experience: Many customers enjoy the shopping experience, which helps develop an\nemotional connection to a particular brand if done properly. Many struggling retailers such as Macy’s have\nintroduced strategies to offer a more \"physical\" customer experience through in-store VR, online\nintegrations (e.g., mobile check-out), and nearby modern food vendors. Given Macy's key demographic, a\nfamily-friendly shopping environment in their improved stores with better lighting/stylistic changes is\nexpected to impact performance positively.\nFewer Product Returns: Another reason is related to the percentage of product returns. Since customers\nsee the product in-person, ~30% of products purchased online end up being returned, compared to ~9%\nfor brick-and-mortar stores. And if a customer returns a product, it has become standard practice for\nshipping to be covered entirely by the seller."
+  },
+  {
+    "id": 211,
+    "question": "Are multichannel and omnichannel marketing synonymous?",
+    "answer": "Both multichannel and omnichannel marketing strategies are mediums through which sellers communicate\nand pitch their products to prospective buyers. Examples of marketing channels would be TV advertisements,\nsocial media, billboards, and a brand’s website, whereas sales channels can be email campaigns, cold calling,\nlive chats, and referral networks.\nMultichannel Approach: The multichannel approach is when a company uses multiple channels to spread\ntheir message about their brand and attempt to reach new customers. Each channel is separate, has its\nindividual marketing message, and is not interlinked with the other channels.\nOmnichannel Approach: The omnichannel approach integrates different channels to create a more\nseamless online experience for customers (i.e., viewing the experience through the customer's eyes). The\ncontextual engagement and marketing message will usually be the same (or similar) across all channels.\nHowever, omnichannel will have more of a focus on the customer experience."
+  },
+  {
+    "id": 212,
+    "question": "Tell me about the significance of PayPal’s acquisition of Honey.",
+    "answer": "Near the end of 2019, PayPal acquired Honey, a browser extension for consumers to find coupons and\ndiscounts while purchasing items online. Not only was this acquisition PayPal’s largest acquisition to date, but\nit was the first of its kind in that a web browser extension could be acquired at such a high valuation. PayPal\nexplained its rationale for the purchase by pointing to the possibilities of integrating Honey’s browser\nextension and Smart Shopping Assistant mobile application with its PayPal/Venmo check-out services to create\na more seamless, simplified shopping experience for consumers. For instance, consumers could make a single\npurchase from multiple different websites, all at the lowest prices possible.\nNow, PayPal’s Venmo a significant leg-up on its competition with Apple Pay and Square’s Cash App, especially\nconsidering Honey’s popularity with consumers. At the time of the acquisition announcement, Honey had more\nthan 17M monthly active users. Considering Venmo’s traction with consumers, acquiring Honey would further\nestablish PayPal's footprint in the consumer market and provide a complementary portfolio of offerings to\ndrive engagement. Hence, CEO Dan Schulman’s statement that the acquisition of “Honey is amongst the most\ntransformative acquisitions in PayPal’s history.”"
+  },
+  {
+    "id": 213,
+    "question": "Could you define what consumer-packaged-goods (CPG) and retail are?",
+    "answer": "Consumer Packaged Goods: CPG refers to products that consumers frequently use and replenish\nroutinely, typically in a short usage cycle (i.e., fast-moving consumer goods). A few common examples of\nCPG products would be toilet paper, paper towels, shampoo, conditioner, soda, and soap. As one would\nexpect, the CPG sector is very competitive, as many companies compete for limited shelf space, and often\nproducts are highly commoditized. The success of a particular commoditized product depends on\ncustomer loyalty and familiarity with the brand. You'll often see “copycat brand” products (e.g., store brand\nsoda placed next to Coca-Cola products at a slight discount).\nRetail: In contrast, retail focuses on the sale process of products to individual consumers. While CPG refers\nto a particular category of products, retail refers to selling the products. Often compiled each month and\nfollowed closely by investors as an indicator of the economy’s health, retail sales data reports track\nconsumer demand for durable and non-durable goods by calculating the purchases over a specified period."
+  },
+  {
+    "id": 214,
+    "question": "What is social commerce, and how is it different from social media marketing?",
+    "answer": "The trend of social commerce refers to social networking websites such as Facebook, Instagram, Twitter, and\nSnapchat becoming sales channels for companies selling a product or service. A distinction from social media\nmarketing is that a company doesn't use the social media platform only for promotional purposes. Instead of\ndirecting the customer to visit their company site to make the purchase, customers can make a product\npurchase within whichever social media site they were browsing. For example, Facebook recently rolled out\nFacebook Shops and Instagram Shopping, enabling businesses to set up an online store easily. There'll be an\nincentive for businesses to purchase ads on Facebook and Instagram's platform due to their user count,\ntargeted ads (more consumer data), the prevalence of influencers, and modern features (e.g., live shopping,\nproduct launch videos, product tags). In addition, the shopping experience is seamless as Messenger, Instagram\nDirect, and WhatsApp allow sellers to answer questions and offer support through the chat."
+  },
+  {
+    "id": 215,
+    "question": "How are chatbots being used in the retail industry?",
+    "answer": "Nowadays, most companies will have chatbots installed on their websites to assist customers. Chatbots are pre-programmed AI applications intended to simulate customer service interactions in lieu of the immediate need\nof a human representative.\nThe clear advantage here is that chatbots enable immediate responses to common questions and can help a\ncompany reduce costs over time once the program is developed. The caveat is that a human will usually be on\nstandby, as the chatbot cannot answer all questions, and its capabilities will take time to develop and become\nless reliant on human aid. Many customers prefer speaking with an actual human due to the frustrating\nexperiences that chatbots often provide, especially in the earlier days when they were first being rolled out."
+  },
+  {
+    "id": 216,
+    "question": "What is the difference between a discretionary product and a non-discretionary product?",
+    "answer": "Non-Discretionary Products: Often called consumer-staples, non-discretionary products are necessary\nfor consumption every day by their users regardless of income levels or consumer type. Examples would\ninclude bottled water, soap, toothpaste, shampoo, and razors. Regardless of the economic conditions,\nconsumers require these products, which makes them less cyclical. An example of a company that sells\nmany non-discretionary products would be Unilever, which sells products related to nutrition, hygiene,\npersonal care, and more.\nDiscretionary Products: Discretionary products with higher price points are non-essential and are in\ngreater demand when the economy is doing well. Examples would include purchases of new vehicles, TVs,\nand smartphones upgrades.\nDistinction: During recessionary periods, CPGs continue to sell relatively well, while most non-discretionary product spending will be put on hold by everyday consumers."
+  },
+  {
+    "id": 217,
+    "question": "What are some common characteristics of CPGs?",
+    "answer": "Low Average Selling Prices (ASPs)\nEssential, Necessary to Users\nRapid Consumption and Disposal by Consumers\nFrequent Repurchases (Often Weekly/Monthly)\nLow Customization Required"
+  },
+  {
+    "id": 218,
+    "question": "What is the difference between CPG and durable goods?",
+    "answer": "CPG: CPG products are used frequently and replenished quickly by consumers (i.e., short product\nreplacement cycle).\nDurable Goods: Durable goods are purchased and replaced far less often than CPG and are usually\nsignificantly more expensive. Examples would include TVs, washing/drying machines, furniture, and\nrefrigerators that provide benefits for long durations.\nDistinction: Besides the differences in product life cycle and pricing, a key difference is consumers' time\nwhen contemplating the purchase. For instance, a consumer can take weeks to decide which laptop to\npurchase, while CPG goods can often be decided within minutes."
+  },
+  {
+    "id": 219,
+    "question": "What does it mean when a product has become commoditized?",
+    "answer": "A product has become commoditized when the product offerings have little differentiation from one another,\nand the competition is now done on pricing alone. The competitive dynamics of the industry become a “race to\nthe bottom” to see who can sell at the lowest price."
+  },
+  {
+    "id": 220,
+    "question": "Name a few KPIs that many retail chains report in their financial statements.",
+    "answer": "Sales Per Square Foot: Using the sales per square foot metric, an investor could determine how well a company uses its floor space relative to its competitors. This KPI assesses the efficiency of a company at using the floor space in its stores.\nSales Per Square Foot = Net Sales / Sales Space by Square Foot\n\nSales Per Employee: The sales per employee metric is used to determine whether a particular sales strategy is working and whether the right staffing decisions were made. Individual stores often track this to examine their employee list in more detail and see which are struggling to make sales.\nSales Per Employee = Total Sales / Total Employee Count\n\nConversion Rate: The conversion rate is the proportion of customer store visits to the number of customers who made an actual purchase during their visit. The higher the conversion rate, the better, as it means that customers are not just walking in and leaving without making a purchase.\nConversion Rate = Number of Transactions / Total Number of Visitors\n\nSame-Store Sales: With the same-store sales metric, investors can compare individual stores' performance benchmarked against the same period in the previous year. By comparing an individual store over a specified time frame, a company can determine whether the store is performing above or below expectations relative to its comparable stores, and then try to figure out why that is the case.\nSame-Store Sales = (Current Period Sales / Prior Period Sales - 1) x 100\n\nAverage Transaction Value (ATV): Average transaction value is a metric that shows the average dollar amount customers are spending on each order and can show a company's effectiveness in strategic product placement, promotions, discounts, and other sales strategies to increase the number of items purchased.\nAverage Transaction Value = Total Revenue / Total Number of Transactions"
+  },
+  {
+    "id": 221,
+    "question": "Tell me what the trend of voice commerce is and its use cases in retail.",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nAn example of AI rapidly gaining traction, voice commerce uses voice recognition technology to find and order\nproducts online without dependence on hardware. For example, rather than having to search on your\nlaptop/computer for the item, read articles and posts about which products are recommended, and then\nmaking the purchase - instead, a consumer can use voice commands to hear a list of products, specify their\nneeds and listen to the differences, and then tell the voice-powered device (or assistant) to make the purchase."
+  },
+  {
+    "id": 222,
+    "question": "What is the gig economy?",
+    "answer": "The gig economy is enabled by online marketplace platforms that facilitate short-term engagements of\nindependent contractors to deliver services (“gigs”). These workers work flexible hours and based on their\nschedule, rather than being employed full time. Known as the “sharing economy,” this type of P2P facilitation of\nservices is broad and encompasses freelance consulting services, ride-hailing drivers on Uber/Lyft, food\ndelivery services through Grubhub/DoorDash, and temporary home rentals on Airbnb."
+  },
+  {
+    "id": 223,
+    "question": "Tell me about an ongoing trend in e-commerce that you're following.",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nThe pet foods and supplies industries were already experiencing high growth, given the increased\nhumanization of pets worldwide by pet owners. Fueled by millennials, this trend has driven up demand for\npremium pet products and new product developments related to pet nutrition with greater transparency in the\ningredients and overall quality. In the last few years, the pet products segment has been one of the fastest-growing consumer spending segments and has one of the highest order volume categories on online\nmarketplace platforms.\nSince COVID-19, demand for pet food delivery has been surging, as seen by the growth of pet e-commerce\ncompanies such as Chewy. Direct-to-consumer models in the pet products industry were already trending, but\nthe pandemic accelerated this trend, which can likely be attributed to the increased amount of time pet owners\nspend at home with their pets. But other than consumers being forced to stay home, many shoppers realized\nhow convenient it's to have subscription-based orders come in for their pets with minimal work on their end."
+  },
+  {
+    "id": 224,
+    "question": "Could you give me an example of how augmented reality is changing the consumer experience in the retail industry?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nLaunched in 2010, Warby Parker has always been known as an innovative eyewear company from its founding\ndays. Initially, Warby Parker disrupted the optical industry through its Home Try-On Program, where the\ncompany would ship sample frames to customers to try on at home. But now, it has transitioned to leveraging\nthe camera capabilities of smartphones (the iPhone X and above, to be specific) to enable the Virtual Try-On\nfeature where customers can see their appearance with a virtual frame through augmented reality. Based on an\nAI-generated map of the customer’s face and the collected details on specific facial features, the app can\nrecommend which types of frames would best suit the customer and make an automated list of\nrecommendations for the customer to virtually “try on.\"\nWarby Parker’s virtual glasses show how augmented reality can be implemented and enhance the reality of\nonline shopping, and many more startup products in different product categories with similar features have\nbeen developed, such as in furniture and clothing shipping. In addition, existing incumbents have rolled out\nand developed similar features for their mobile applications and websites."
+  },
+  {
+    "id": 225,
+    "question": "While retail is known for being one of the most cyclical industries, can you name one resilient product segment?",
+    "answer": "One specific product segment in retail that's resilient to recessions is the cosmetics and beauty products\nsegment. The phrase “insecurities sell” describes consumer spending patterns very accurately for the beauty\nproducts industry, as even higher prices don't appear to have much of an impact on spending volume.\nThis is because purchases based on \"intangible benefits\" such as beauty products, the price comes secondary.\nIntangible consumer benefits are more prevalent in items that matter more to customers (the benefits) - which\nis further enhanced by how the products are applied directly applied on the skin. Even during recessions,\nstudies on past consumer spending behaviors have shown that beauty regimes are among the last to be cut.\nThis explains why the cosmetics market has proven to be less discretionary than one may assume - as demand\nrises during economic expansions and remains steady during contractions. While everyday customers are often\nfickle and price-sensitive, that behavior doesn't show in this particular segment."
+  },
+  {
+    "id": 226,
+    "question": "Why are luxury goods often not negatively affected during recessions?",
+    "answer": "While luxury goods are often considered to be significantly cyclical, the industry is actually not as cyclical as\none might expect. The reason being the income level of customers that can afford luxury goods. Many of these\nhigh-income customers, even in a recession, don't change their spending habits. There might be less demand\nfrom customers that can no longer afford the luxury goods, but those that can still afford these luxuries will\ncontinue to make purchases."
+  },
+  {
+    "id": 227,
+    "question": "How does pricing power in retail differ from other industries such as manufacturing?",
+    "answer": "Pricing power arises from emotion-driven intangibles that are often unquantifiable with typical metrics, unlike\nwhat is necessary to gain pricing power for commercial and industrial products. Therefore, many companies\nemphasize nurturing customer trust in their branding and emotional appeal to their customers. For products\nin a technical industry such as manufacturing, the highest-quality product will come out on top over time. But\nin retail, a well-marketed low-quality product with more brand appeal can outsell a higher quality product."
+  },
+  {
+    "id": 228,
+    "question": "What makes the beauty products industry not just resilient to recessions but recurring in terms revenue?",
+    "answer": "For most consumer goods, there's a limit to how much can be purchased and used. However, skincare and\ncosmetics products' usage is essentially limitless as many of these products are non-reusable (e.g., face masks,\nskin lotion) while requiring constant replenishment. Hence, skincare products are among the most profitable\ncategories of consumer goods with highly recurring purchases."
+  },
+  {
+    "id": 229,
+    "question": "Besides cyclicality, why do many private equity investors stay away from retail?",
+    "answer": "Compared to price-based growth and upselling/cross-selling, volume-based growth is the least valuable since\nit entails continually increasing sales and adapting to the always-changing consumer demands. But from a\ndifferent perspective, the ability to adapt, strong branding, and increased scale could be a sustainable\ncompetitive advantage given that the cost of producing each unit decreases and capex requirements decline,\nwhich have a net positive impact on gross margins. Regardless, most investments into retail are usually\nstructured as VC/growth capital, not traditional LBOs."
+  },
+  {
+    "id": 230,
+    "question": "Tell me about the trend of connected fitness.",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nLed by home-equipment cycling company, Peloton, the trend of connected gym experiences and virtual trainers\nhas been positively affected by COVID-19. Rather than going to the gym to train with friends or a trainer, this\ntype of equipment enables the ability to workout “on-the-go” enabled by new technologies and applications\nintegrated into the equipment. An example of a recent M&A deal involving this trend would be Lululemon’s\nacquisition of Mirror."
+  },
+  {
+    "id": 231,
+    "question": "What is the trend of athleisure wear?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nIn recent years, the trend of “athleisure” has taken off, especially for the younger demographic. Athleisure is a\nhybrid between professional workplace wear and casual and exercise outfits. Increasingly, athleisure has\nbecome a larger portion of consumers’ everyday wardrobe because it's more versatile and comfortable for\nusers, as the need for formal wear is gradually decreasing (especially in Silicon Valley). One of the leading\ncompanies in this segment is the athletic apparel retailer Lululemon Athletica."
+  },
+  {
+    "id": 232,
+    "question": "What does the phrase “fast fashion” mean?",
+    "answer": "“Fast fashion” is a strategy of placing clothing designs shown on the catwalk in retail stores as quickly as\npossible to meet consumers' demands. Trends change quickly based on changing consumer tastes and seasons,\nso modern retailers such as Zara recognized this and have led this movement of placing trendy items on their\nstore racks as early as possible to take advantage of these short-term spikes in demand. The quantity will often\nbe strategically limited, creating a rush of customers to purchase the items - thus, the rapid replenishment\nrequired of store stock and higher margins for retailers that have joined in on this strategy."
+  },
+  {
+    "id": 233,
+    "question": "What is the secondhand market?",
+    "answer": "While not a recent development by any means, the secondhand market is being forecasted as one of the fastest-growing retail segments over the next few years, as the circular economy trend continues to expand across\ndifferent industries. Helping this trend is the blurring of the line between new clothing purchases and\nsecondhand purchases, in which the stigma of purchasing worn re-sold clothing is diminishing.\nTwo of the main beneficiaries of this trend have been platforms Poshmark and thredUP, which are social\ncommerce marketplaces where everyday consumers can conveniently list their clothing and related products\nfor sale, with the end function being similar to a closet clean-out."
+  },
+  {
+    "id": 234,
+    "question": "Often retail-brand companies such as Supreme can sell clothing that will be resold for significantly more. Why does Supreme not just raise their prices?",
+    "answer": "Often, a product's resale value can be multiple times more expensive than the original price tag. The reason\ncompanies such as street-wear company Supreme (which has a business model based around the creation of\nscarcity and premium brand portrayal) don't raise their original prices is because increasing prices would\ndecrease the number of customers that could afford the product.\nSupreme’s customer base primarily consists of the younger demographic. Therefore, having too high of a price\npoint would make them “window shoppers” rather than customers lining up for days to purchase an item in\none of their stores. For example, an upper-middle-class high school student could afford to purchase Supreme’s\nproduct - and this ability to purchase the item (the only constraint being the supply) makes the product more\nmarketable and has a positive impact on the brand image.\nTherefore, absolute, upper-tier premium brands are relatively unknown to most consumers. But Supreme,\nwhich is considered a premium/luxury brand by most customers, is well-recognized by consumers of all\nincome levels. This is the marketing strategy and niche Supreme has carved out, which eventually led to a 50%\nequity sale to the Carlyle Group at a $1 billion valuation."
+  },
+  {
+    "id": 235,
+    "question": "What is scrambled merchandising?",
+    "answer": "Scrambled merchandising is a product assortment strategy used by retailers to serve as many customers as\npossible by offering a diverse product line. In effect, the retail store can portray itself as a “one-stop” shop. An\nexample of scrambled merchandising would be a pharmacy retail store (e.g., CVS) having a section dedicated to\nselling electronics such as headphones and speakers."
+  },
+  {
+    "id": 236,
+    "question": "In the retail context, what does “channel surfing” mean?",
+    "answer": "Channel surfing in retail, also known as “showrooming, is when customers try on products and get product\ninformation in-person at stores, but rather than making the purchase there, the customer will order the\nproduct online for a lower price and take advantage of online-only discounts, or pay less in taxes.”"
+  },
+  {
+    "id": 237,
+    "question": "What type of differentiated business model did Dollar Shave Club have?",
+    "answer": "Dollar Shave Club (DSC) was one of the first-movers in the trend of subscription-based B2C business models. In\nthe example of DSC, its value proposition almost immediately took away Gillette’s leading market share as\ncustomers enjoyed the inexpensive, convenient subscription plans, as well as the brand transparency that it\noffered. However, Gillette soon launched its subscription-based kits, and new competitors emerged, such as\nHarry’s in men’s grooming."
+  },
+  {
+    "id": 238,
+    "question": "Tell me about the trend of retailers using DOOH for their advertising.",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nDigital out-of-home (DOOH) is an advertising medium where their content is displayed on outdoor electronic\nscreens and displays on buildings, highways, subways, and bus stops. More retailers are allocating their\nadvertising spend towards DOOH due to the higher ad engagement and conversions based on customer survey\ndata. Similar to traditional out-of-home (OOH) advertising, the two are based on the same idea of placing\nadvertisements in highly populated, urban places for people such as those commuting to work could see. But\nthe key difference is the utilization of data to reach the right viewers strategically. DOOH can be viewed as data-driven OOH. Many of the trends that fall under AdTech, such as geo-fencing and personalization, are used in\nDOOH. For example, imagine a retailer such as Nordstrom having an advertisement on a billboard that\nautomatically adjusts the clothing being promoted based on the current weather condition."
+  },
+  {
+    "id": 239,
+    "question": "What is a private label brand?",
+    "answer": "A private label brand is when a third party company manufactures a product but then sold under a more\nestablished brand. These private-label brands can be seen in various industries but are most prevalent in food,\ncosmetics, and consumer merchandise. For example, Target has its “Open Story” brand launched in 2020 to sell\npremium luggage. Like most private brand labels, this line of luggage is sold at a discount and often mimic a\nmarket leader. Today, Target has over 45+ private label brands to choose from, which has boosted its revenue\ngrowth and margins (hence, its strong performance from 2019 to 2020)."
+  },
+  {
+    "id": 240,
+    "question": "Tell me about some trends related to the food industry.",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nFood Delivery/Takeout Platforms: These platforms allow for food to be ordered from restaurants and\nfood shops using a mobile application, which can then be delivered by a gig worker or be picked up by the\ncustomers (e.g., Uber Eats, Grubhub, DoorDash, Postmates).\nMeal Kit Services: Similarly, meal kit service companies deliver pre-prepared food; however, the\ndifference is the customers cook the food at their home at their convenience. These companies' business\nmodel is usually based on a subscription plan with enough meals to last several weeks (e.g., HelloFresh,\nBlue Apron Home Chef).\nPlant-Based Substitutes: Consumers are looking for plant-based alternatives to meat and dairy for the\nsupposed health benefits and environmental sustainability (e.g., Beyond Meat Impossible Foods, Amy’s\nKitchen).\nLifestyle-Based Menu Options: Many companies are becoming more aware of the popular diet trends\nbeing followed by consumers and attempt to offer menu items to cater to their specific needs (e.g., Paleo\nand Keto Bowls from Chipotle).\nGreater Transparency/Sustainability: More consumers are demanding products to be sold with\ntransparent labels, sustainable packaging, and ethical production."
+  },
+  {
+    "id": 241,
+    "question": "Tell me about some trends in the beverage industry.",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nCannabidiol (CBD Oil) Infused Beverages: CBD Oil was the clear winner in 2019 for its supposed health\nbenefits for anxiety, pain-alleviation, and insomnia. Products ranging from CBD infused drops and drinks\nwere flying off shelves while drug/food regulatory bodies were scrambling to classify and regulate CBD.\nHealth-Based Hybrid Beverages: More health-conscious consumers opt for beverages that support their\nlifestyle decisions and allow them to derive multiple benefits from one product. An example would be\ncoffee that comes pre-mixed with protein powder (e.g., Kitu Super Coffee, REBBL).\nHard Seltzer: Hard seltzer is a seltzer (carbonated water) spiked with alcohol. The sudden burst in\npopularity is due to the variety of flavors while being low calorie, which appealed to the younger\ndemographic (e.g., White Claw, Vizzy)."
+  },
+  {
+    "id": 242,
+    "question": "What are the most common reasons for a company to become distressed?",
+    "answer": "Liquidity Problems: The catalyst for most restructuring is from the debtor defaulting on its debt\nobligations, meaning that an interest payment or principal repayment was missed. The reason for this\ndiminished liquidity is most often due to an unexpected deterioration in financial performance.\nAccelerated Payments: Certain high yield or straight debt instruments come with accelerated payment\nprovisions, designed to compensate the investor for the entire principal, applicable premium, and interest\nprior to first call/maturity. The enforceability of so-called \"make-whole\" provisions has been a\ncontroversial topic, but the terms were specified in the indenture and meant to protect the lenders' yield.\nFailed LBO: Another reason for bankruptcies is failed leveraged buyouts (LBOs), which are associated\nwith a company being over-levered and financial underperformance, leading to the inability to support the\ndebt load. A recent example would be Toys “R” Us when it filed for Chapter 11 in 2017.\nMissed Suppliers and Vendors Payment: A non-debt related example would be the inability to pay\nsuppliers or vendors. Suppliers and vendors are typically more accommodating to help keep the company\nafloat, albeit they can discontinue working with the debtor if they feel it's a lost cause.\nCovenant Violation (and Forced Call): A breached covenant could also force a borrower to declare\nbankruptcy, as the creditors have an agreement stating that failure to comply with the debt covenants\nwould trigger a forced liquidation (e.g., cannot receive a downgrade from a credit rating agency).\nIndustry Disruption: Structural shifts in an industry can lead to traditional products/services becoming\nobsolete (e.g., the OTT trend led by Netflix causing Blockbuster's downfall and bankruptcy).\nBlack Swan Event: Unforeseeable events with significant macroeconomic impacts that could trigger mass\nbankruptcies. Examples include the subprime mortgage crisis and most recently, the COVID-19 pandemic\nthat led to the bankruptcies of companies such as J. Crew, Brooks Brothers, and Ruby Tuesday."
+  },
+  {
+    "id": 243,
+    "question": "What are a few typical signs that a debtor is planning to file for bankruptcy soon?",
+    "answer": "A debtor that's aware it'll eventually have to file soon will attempt to time the filing date to conserve cash and\ngive themselves as much flexibility as possible. Oftentimes, the filing will be done right before a large payment\nhas come due. Some common indications that a debtor intends to file soon are the revolving credit line will\nhave been drawn to maximum capacity, debt covenants have already been breached (or will be soon), and\npayments to suppliers or vendors have been delayed."
+  },
+  {
+    "id": 244,
+    "question": "Other than declaring bankruptcy, what alternatives does a company have to stay afloat?",
+    "answer": "Straight Refinancing: For the distressed company to replace the old debt issuance with a new issue would\nbe an ideal scenario, but unrealistic as it'll be difficult for a lender to refinance the debt. Another\nconsideration is, the additional debt may help them in the short-term, but then once again, they haven't\nsolved the problem. Instead, the company has just delayed it (or maybe even worsened it) unless they have\na turnaround plan bound to work.\nRaise Additional Equity: Another option would be to raise capital through share issuances, but very few\nequity investors would purchase the stock of a company nearing bankruptcy. In the case the company\ndeclares bankruptcy, equity holders would receive nothing until debt holders are paid in full (e.g., a recent\nexample was when car-rental company, Hertz, attempted to raise new equity after filing for bankruptcy,\nwhich was approved before being suspended shortly after; and now de-listed from the exchange).\nOut of Court Restructuring: The most practical option is to re-negotiate the debt terms with existing\ncreditors and work something out out-of-court. The new arrangement could involve temporarily delayed\npayment dates, extending the maturity of debt (and reducing the due coupon amounts), or switching to\nPIK interest. Sometimes, the creditors may agree to a “bondholder haircut” in which the debt principal and\ninterest are reduced so that the company can continue operating and avoid filing for bankruptcy."
+  },
+  {
+    "id": 245,
+    "question": "As a company nears becoming distressed, how might its accounts receivable, deferred revenue, and accounts payable balances change?",
+    "answer": "Deferred Revenue: For companies with business models based around long-term contracts or\nsubscriptions, deferred revenue tends to increase as the debtor tries to get some much-needed liquidity in\nreturn for delivery of a good or service on a later date (often with steep discounts).\nAccounts Payable: Days payable outstanding (DPO) will often extend significantly due to the company\nbeing incapable of paying the suppliers, even if the company wanted to make the payments.\nAccounts Receivable: The inability to collect A/R might be one of the reasons for the lack of liquidity.\nRegardless, since A/R is a part of the borrowing base, a company nearing distress may provide more\nservices on credit to increase its borrowing base. Customers that are aware of the situation may take\nadvantage of this by intentionally delaying payments in case the company goes bankrupt."
+  },
+  {
+    "id": 246,
+    "question": "What does operational restructuring involve?",
+    "answer": "Once becoming distressed, many companies see no chance in an achievable turnaround and are simply\nliquidated. But others often have a short period to get in front of this problem and try to solve the underlying\nissues. During operational restructuring, the company will try to improve its operations through cost-cutting,\nimproving working capital management, and headcount reduction. One of the main parts of operational\nrestructuring is asset restructuring, which is the sale of unproductive, non-core assets (or divisions) to re-focus\non the core business. If it's an option, the company's management team may retain restructuring advisors to\nhelp them navigate through these operational issues or hire 3rd party consultants."
+  },
+  {
+    "id": 247,
+    "question": "What is the difference between a voluntary and involuntary petition?",
+    "answer": "In most cases, bankruptcy begins when the debtor files a petition themselves (called a “voluntary petition”).\nBeing the filer provides certain advantages, such as selecting the jurisdiction. Thus, the debtor almost always\nends up filing preemptively. Although a rare occurrence, bankruptcies could be initiated if creditors file a “non-voluntary petition.” This is when the creditors themselves force the distressed company into Chapter 11\nbankruptcy, often done due to a technical default (e.g., broken covenants, violation of terms)."
+  },
+  {
+    "id": 248,
+    "question": "Contrast an out of court restructuring with an in-court restructuring.",
+    "answer": "Out of Court Restructuring\nAn out of court restructuring is the process in which a company negotiates with creditors, both lenders and trade claims, without a court overseeing the process. All creditors must agree to any modifications to contracts and agreements, and nothing can be imposed on creditors. Its primary benefit is that it can be completed more quickly and at a lower cost than a formal bankruptcy. The process can also remain private, which can mitigate the disruption caused by negative publicity. One risk of declaring formal bankruptcy, for example, is that vendors may require immediate cash on delivery and stop accepting delayed payments, creating more stress on the distressed company.\n\nBecause out of court restructurings require all creditors to agree to changes, reaching consensus becomes more difficult as more parties become involved, which creates holdout problems. Debtor-in-possession financing is also unavailable because lenders generally lack the protections that bankruptcy can provide.\n\nIn-Court Restructuring\nIn an in-court process, a judge oversees the bankruptcy and can impose changes to, or outright reject, contracts such as leases, pensions, and debt agreements. The process addresses several limitations of an out of court restructuring through the automatic stay, creditor classes whose members receive the same pro rata recovery, and a judge's power to reject or modify unfavorable contracts. The distressed company can also access debtor-in-possession financing, whose lenders receive priority or super-priority status.\n\nKey comparisons:\n- Cost: A successful out of court restructuring is generally less expensive. In-court legal fees can drain cash when liquidity is a major concern.\n- Timing: Out of court restructurings have historically been faster. In-court processes can take years, although pre-packs accelerate the timeline by agreeing on the plan before filing.\n- Privacy: An out of court process can remain private. In court, creditor claims, company assets, liabilities, and recoveries are publicly disclosed.\n- Creditor actions: Creditors can continue collection efforts and eviction proceedings out of court. In court, the automatic stay temporarily protects the debtor.\n- Holdouts: Out of court restructurings can suffer from the holdout problem. In court, recoveries agreed to in a plan apply to the entire class.\n- Financing: Out of court processes lack DIP financing. DIP financing becomes available in Chapter 11.\n- Contracts: Leases and contracts cannot be nullified out of court. In court, non-financial liabilities such as pensions, unfavorable leases, and contracts can be rejected."
+  },
+  {
+    "id": 249,
+    "question": "What is the purpose of the automatic stay provision?",
+    "answer": "The automatic stay provision in Chapter 11 temporarily prohibits creditors (e.g., lenders, collection agencies,\ngovernment entities) from attempting to collect owed claims through legal action. This injunction halts debt\ncollectors' ability to affect the company that has declared bankruptcy negatively. Importantly, the automatic\nstay provision is designed to enable the company to continue to operate.\nThe timing of the petition is important as it creates a distinct line between “pre-petition” vs. “post-petition,\"\nwhich prevents creditors from collecting pre-petition claims without approval of the court beforehand.\nLiabilities incurred pre-petition are subject to compromise, whereas post-petition liabilities receive admin\nstatus priority treatment over pre-petition liabilities."
+  },
+  {
+    "id": 250,
+    "question": "Which claim holders get priority in a bankruptcy?",
+    "answer": "1. Creditors with secured claims (i.e., claims secured by liens on a company’s assets) have priority in a\nbankruptcy and usually get the highest recoveries. However, if new debtor-in-possession (DIP) financing\nhas been approved by the Court and put in place, these claims will have a “super-priority” status, even\nhigher than regular secured claims.\n2. Below secured claims are administrative claims. These are usually legal, advisory, and other professional\nfees accruing as part of the bankruptcy process. For the bankruptcy process to function, these claims\nmust be given a higher priority over other unsecured claims.\n3. Below secured claims are the unsecured claims. Unsecured claims include all the bondholders and trade\nclaims. As a group, they're called the general unsecured claims (“GUCs”). GUCs are typically the trade\ncreditors and unsecured lenders.\n4. There are some unsecured claims to whom the court grants priority over the GUCs. These claims may\ninclude accrued employee salaries and taxes owed.\n5. Any value remaining after all these claims are satisfied belongs to equity holders. But often there won't be\nenough assets to make all other claims whole, so existing equity usually gets wiped out in a bankruptcy.\nTo recap, the waterfall structure is: “Super Priority” Claims  Secured Prepetition  Administrative Claims \nPriority Unsecured  General Unsecured Claims (GUCs)  Preferred & Common Equity"
+  },
+  {
+    "id": 251,
+    "question": "Following a bankruptcy filing, will the management team be replaced or remain on board?",
+    "answer": "In most cases, the same management team will stay in place post-petition. The exception would be if there was\nproven fraud or any type of misconduct that warrants replacement. Otherwise, the existing management\nshould manage day-to-day operations to turn things around as the management team is the one that likely\nmade the poor decisions that led to this current situation. Thus, they understand where they went wrong and\nwhy better than anyone else. But to provide further support (or as an \"insurance policy\"), often an outside\nconsultant that specializes in turnaround restructuring will be brought on."
+  },
+  {
+    "id": 252,
+    "question": "In Chapter 11, under which circumstances might a Court appoint a trustee to replace the existing CEO?",
+    "answer": "In some cases, a court-appointed trustee will displace the management team that placed the company in its\ncurrent state of financial distress. While this is a less than ideal situation, as more time is required to become\nfamiliarized with the company, the Chapter 11 trustee will become in charge of day-to-day operations if\ndeemed appropriate. This appointment of a trustee would be made under two justifications: 1) the\nmanagement team participated in fraudulent behavior, dishonesty to stakeholders, or criminal misconduct, or\n2) the Court has determined it's in the \"best interests\" of the company and all stakeholders for the current\nmanagement to be replaced. This is a less objective decision that would usually be based on signs of gross\nmismanagement (beyond the typical level) and mistrust from all stakeholders."
+  },
+  {
+    "id": 253,
+    "question": "Can a decline in a company's share price and valuation cause it to become distressed?",
+    "answer": "By itself, a decline in a company's share price and valuation cannot lead to the company becoming distressed.\nBut the decline reflects the market's anticipation of the company becoming distressed, which may be justified.\nIf the company can continue making its debt-related payments and not breach any covenants, it should\ncontinue to operate. A side impact of this negative market perception can be suppliers, vendors, and customers'\nreluctance to continue working with the company, and the increased difficulty of raising additional capital."
+  },
+  {
+    "id": 254,
+    "question": "From an advisory standpoint, what are the two sides to a restructuring deal?",
+    "answer": "A restructuring (Rx) banker can advise the creditor side or the debtor in a restructuring deal.\nCreditor Side: The creditor side refers to the loan or bondholders. Rx creditor mandates often involve\nworking alongside many holders of debts within a certain class that have banded together. The more\nparties involved on the creditor side, the longer coming to a formal agreement will take. On this side, the\nRx banker advises creditors/lenders, which often includes hedge funds or private equity firms.\nDebtor Side: The debtor is the distressed company. Rx debtor mandates involve dealing with solely one\nparty: the company at risk of bankruptcy unless changes aren’t made soon. From this advisory role, the Rx\nbanker gains a deep understanding of the business and works on the \"turnaround.\""
+  },
+  {
+    "id": 255,
+    "question": "Broadly, what are the two main types of bankruptcies?",
+    "answer": "There are two main types of bankruptcies: Chapter 7 and Chapter 11.\n1. Chapter 7: A Chapter 7 bankruptcy refers to the pure liquidation of a distressed company in which all\nassets are liquidated and then disbursed to stakeholders based upon the absolute priority rule. Following\nthe waterfall schedule, those with higher claims on company assets are made whole before any proceeds\ncan flow down to the claim holders lower in the capital structure.\n2. Chapter 11: During a Chapter 11 bankruptcy, a company’s reorganization is overseen by the court. This\nprocess involves putting together a Plan of Reorganization (POR) to identify the impaired classes. Only\nthose who have been classified as impaired have a say in the matter and vote on the terms. Once the POR\nis agreed upon, the troubled company will then re-emerge under a new capital structure."
+  },
+  {
+    "id": 256,
+    "question": "What is a pre-pack in a bankruptcy?",
+    "answer": "A pre-packaged bankruptcy is a type of restructuring procedure where a plan is agreed upon amongst all the\nrelevant parties before a company declares its insolvency. When Chapter 11 is filed, it's accompanied by a\ndisclosure statement, the proposed POR, and an agreement to support the legally binding plan.\nThe approval will be based on meeting the sufficient number of applicable votes (~85-90% participation rate\nrequired). The process has become more common in recent years and can sometimes take as little as 45 days."
+  },
+  {
+    "id": 257,
+    "question": "Contrast the pre-pack vs. the traditional Chapter 11.",
+    "answer": "In Chapter 11 bankruptcy, the company can either have a pre-pack or a traditional Chapter 11.\nPre-Pack: A pre-pack involves a pre-planned POR that has been agreed upon by the relevant, impaired\ncreditors before its official filing. The key stakeholders have already been working on the processes\ntogether and agreed upon a POR before entering bankruptcy - thus, as you would expect, this streamlines\nthe process considerably and enables the company to emerge quickly from Chapter 11 in a few months.\nTraditional Chapter 11: In the traditional Chapter 11, the process starts from scratch and can take years\nto complete. There can be contention between creditors, as the process can be hectic, and not each creditor\nis on the same page (often called a \"free-fall\"). The caveat to the often inefficient, long-lasting traditional\nChapter 11 is the pre-pack."
+  },
+  {
+    "id": 258,
+    "question": "What information is contained in a plan of reorganization (POR)?",
+    "answer": "Once a debtor files for bankruptcy, the priority is an emergence from bankruptcy via an agreed-upon plan of\nreorganization (POR) between the company and all relevant claim holders. A POR is a document detailing what\nwill happen to the debtor’s assets, liabilities, and equity upon exit from bankruptcy. Most notably, the expected\nrecoveries and the form of consideration for the claims are all identified in the plan of reorganization."
+  },
+  {
+    "id": 259,
+    "question": "What are the four tests representing the minimum standards of fairness for a POR to be approved?",
+    "answer": "1. Best Interests of Creditor Test: Recoveries under the POR must be proven to be greater than under\nChapter 7 liquidation.\n2. Good Faith Test: POR is required to have been prepared and proposed in “good faith.”\n3. Feasibility Test: Ensures the POR will not result in further restructuring or subsequent liquidation.\n4. Consent or Cram-Down: Even if an impaired class votes to reject the plan, the proponent may ask the\ncourt to adopt the plan despite the objection."
+  },
+  {
+    "id": 260,
+    "question": "What type of creditor might prefer a Chapter 7 liquidation over a Chapter 11?",
+    "answer": "A secured creditor that's reasonably assured of recovering 100% under both Chapter 7 and Chapter 11 might\nprefer a Chapter 7 due to the process being faster. Although recoveries tend to be higher under Chapter 11, this\nhas little relevance to the creditor since 100% recovery is expected from either option."
+  },
+  {
+    "id": 261,
+    "question": "What role does the US Trustee have in Chapter 11 bankruptcies?",
+    "answer": "In Chapter 11 bankruptcies, the US trustee will be appointed to monitor and provide oversight on how the\nprocess is progressing. The primary responsibility of the trustee is to ensure the debtor in possession is in\ncompliance with operating and reporting rules, as well as to supervise that all reports and documentation\nrequests are filed on time. Overall, the US trustee protects the integrity of the bankruptcy system by overseeing\nthe administration of the bankruptcy case and address any concerns regarding fairness from either the debtor\nor creditors' side."
+  },
+  {
+    "id": 262,
+    "question": "How does valuation play a role in bankruptcies?",
+    "answer": "Valuation often plays a contentious role in bankruptcies because it's subjective but carries very real\nimplications on the recoveries by the claim holders.\nExample Bankruptcy Scenario\nImagine a bankruptcy with $300 million in face value secured claims, $200 million in unsecured claims,\nand the POR submitted to the court by the company proposes to have the $300 million in debt of the\nsecured creditors reinstated. In contrast, all unsecured claims get their claims converted to equity.\nIf the court assumes a value for the company's assets to be $400 million (based on a combination of a DCF\nand a comps analysis), there are $500 million in total claims against a business with a value of only $400\nmillion. Here, the unsecured claims get 100% of the equity, and current equity owners will get wiped out.\nThat’s because the equity value of the restructured company is $100 million, and since it's less than the\n$200 million unsecured claim, it must all be given to the holders of the unsecured claims (under the\nabsolute priority rule, unsecured claims need to be made whole before equity gets anything).\nBut if the court instead assumed a value of $700 million for the company, the equity value of the\nrestructured company is now assumed to be $400 million ($700 million - $300 million). The $200 million\nunsecured claims are considered to get full recovery when given only 50% of the equity ($200\nmillion/$400 million), leaving the remaining 50% of equity to trickle down to the old equity.\nThis example shows just how important valuation can be in deciding who gets what in a bankruptcy.\nInevitably it leads to arguments about valuations, and the bankruptcy framework encourages negotiation\nand horse-trading between the various classes to come to an agreement."
+  },
+  {
+    "id": 263,
+    "question": "What is the relationship between a liquidation analysis and the \"best interests\" test?",
+    "answer": "One of the main reasons a liquidation analysis is completed is to compare it to the recoveries received in a\nproposed plan of reorganization (POR). In other words, for the POR to pass the \"best interests\" test, it must\nprovide greater recovery to creditors under its proposed Chapter 11 turnaround solution than a Chapter 7\nliquidation. So the liquidation analysis essentially sets the floor for the recovery amount of the creditors (i.e., if\nthe recoveries to the creditors are above this floor, the POR is in their best interests)."
+  },
+  {
+    "id": 264,
+    "question": "During Chapter 11 restructuring, what does the cash flow test require?",
+    "answer": "For a company to emerge from Chapter 11 restructuring, the cash flow test must be passed (i.e., the \"feasibility\ntest\"). The cash flow test represents the debtor's projected future financial solvency under the proposed POR.\nIn the forecast, it must be demonstrated the new capital structure post-emergence will be sustainable. Even if\nthe plan benefits all stakeholders, the Court may reject the plan if the company will eventually have to be\nliquidated or require further restructuring in the foreseeable future.\nThe test will consist of a projection model of a company's cash flows, a debt schedule under the new capital\nstructure and debt terms, and the ending balance of cash for each period. To receive approval, this test must\nshow the company will remain solvent not only in the base case but even if it underperforms."
+  },
+  {
+    "id": 265,
+    "question": "What is the absolute priority rule, and why is it important?",
+    "answer": "The absolute priority rule (\"APR\") is a legal principle in bankruptcy that states that nobody in a lower-priority\nclass gets repaid until the higher priority class gets paid in full. Classes are ranked based on priority and\nreceive recoveries in accordance with the APR, such that creditors in a claims class shall receive full recovery\nbefore any value trickles down to a lower claims class.\nBut in reality, the recoveries by each class deviates from the APR because unsecured creditors or equity get\nsome recovery despite higher priority creditors not receiving 100% recovery. This occurs because claims by\nthe lower classes can be made to hold up the process and litigation can be threatened, which further\ncomplicates the process. To prevent the potential hassle, lower classes are sometimes given partial recovery."
+  },
+  {
+    "id": 266,
+    "question": "In bankruptcies, which class usually holds the largest claim?",
+    "answer": "Typically, the class with the largest claim will be the general unsecured claims (GUCs), which include pre-petition trade creditors (not given priority claims), unsecured lenders, and all lenders the company owes\nmoney to on an unsecured basis (e.g., accounts payable due to suppliers). This class will often include riskier\ninvestors of unsecured bonds and unsecured notes."
+  },
+  {
+    "id": 267,
+    "question": "What does the priority unsecured class involve?",
+    "answer": "Priority unsecured receives priority over general unsecured claims. These include accrued employee salaries -\nthese get some preference in the bankruptcy process even though they're unsecured. Other groups receive\ncertain priorities in the bankruptcy code. For example, the government might give itself priority status if the\ncompany owes them taxes."
+  },
+  {
+    "id": 268,
+    "question": "How would you value a distressed company?",
+    "answer": "Companies under distress are often valued both as a going concern and as a liquidated business.\nGoing Concern Approach: The going concern valuation uses the DCF approach, usually with a higher-than-normal cost of capital assumption to reflect the added risks of investing in a company under distress.\nA comps analysis may also be used, but since non-distressed comparable companies are used, the\nmultiples derived from the analysis will probably be too high.\nLiquidation Analysis: Companies under distress can also be valued using liquidation analysis, which\nlooks at the value of the business as a collection of assets and estimates a liquidation value."
+  },
+  {
+    "id": 269,
+    "question": "What is the intent of liquidation analysis?",
+    "answer": "Liquidation analysis values a company based on the assumption it'll go out of business soon, and its assets will\nbe sold. The liquidation value will include only its tangible, physical assets such as its real estate, PP&E, and\ninventory, while its intangible assets are excluded. Because of the “fire-sale” nature of liquidations, the assets\nbeing sold are usually sold at a discount to their fair market value because of the necessity to collect cash\nwithin a short time period to return to lenders (and investors)."
+  },
+  {
+    "id": 270,
+    "question": "When using the traditional valuation methodologies, why might valuing a distressed and non-distressed business differ?",
+    "answer": "The key distinction is regarding the going concern assumption, as much of the total valuation will come mostly\nfrom earlier years in the forecast than the terminal value.\nTo calculate the terminal value (TV), the forecasted perpetuity growth assumption will be very low or may even\nbe a negative rate. A negative perpetual growth rate implies the company will eventually progress towards\nliquidation each year until dissolving. If using the exit multiple approach to calculate TV, the exit multiple\nassumption would be on the very bottom-tier of the comparable universe.\nWhile the standard valuation methodologies will be used, there'll be a heavy bias towards being conservative in\nthe financial projections to account for the distressed company's current risks. For example, the discount rates\nused in restructuring scenarios are higher (15% to 25%+), and relative valuation will use the lower range of\nthe multiples derived from the peer group to reflect the higher risk."
+  },
+  {
+    "id": 271,
+    "question": "What is distressed debt?",
+    "answer": "Distressed debt refers to bonds that are trading significantly below face value (below 80 cents on the dollar is a\nrough benchmark) or very high spreads over LIBOR in the case of loans (L + 1000 is a rough benchmark). The\ncauses of distress are usually due to an impending or a perceived need for financial restructuring, often due to\noperational challenges and high leverage. Often, distressed debt investors will buy the debt from the original\ndebt holders (institutional investors, traditional banks)."
+  },
+  {
+    "id": 272,
+    "question": "Would you rather own bank debt or bonds in a bankruptcy?",
+    "answer": "That depends. Assuming the bank debt is secured, and bonds are not, the secured bank debt will get higher\npriority when determining recoveries. Secured creditors often get full recoveries, while unsecured creditors get\nonly partial recovery. If neither claim is secured, in theory, they'll both be treated equally (pari passu).\nHowever, there are a lot of other factors that could alter the relative recoveries.\nFor example, if the bonds are subordinated to other debt through an inter-creditor agreement, the bonds in\nquestion would have lower recovery.\nIn addition, the maturity date of the debt can influence recoveries - for example, if a sizeable chunk of bank\ndebt principal is due prior to the bankruptcy petition date, bank debt recoveries might be higher should the\ncompany decide to make the payment.\nLastly, there's another dimension to question from the perspective of a potential investor in the bank debt vs.\nthe bonds, which is the price. For example, let’s say secured bank debt is trading at 95, while unsecured bonds\nare trading at 50.\nIf I believe the bonds will get 70 cents on the dollar as an investor, I would prefer to buy the bonds because I\nview them as underpriced."
+  },
+  {
+    "id": 273,
+    "question": "How does a distressed debt investor make money?",
+    "answer": "While there are various ways that distressed debt investors make money, at a high level, distressed debt\ninvestors generate returns by investing in bonds, loans, or even trade claims that are trading below their likely\nrecoveries. Distressed debt investors will often attempt to accumulate enough of these securities to gain\ninfluence in the negotiation with the company and affect the restructuring in a way that increases the chance of\nrecovery in the securities they hold.\nFor example, a bond trading at 50 cents on the dollar implicitly reflects a market expectation of a 50% recovery.\nA distressed debt investor might analyze the company’s capital structure and discover that:\nA credible argument can be made to the court that a seemingly more senior claim is not, in fact, senior due\nto where it sits in the corporate structure or questions related to its lien\nThe recovery to the bondholders would be less risky and come more swiftly if the company liquidated\n(Chapter 7) instead of attempting to restructure (Chapter 11) by taking on more obligations via a DIP\nfacility and continuing to pay exorbitant bankruptcy fees\nThe value of some assets has been undervalued\nHere, the distressed debt investor might decide to accumulate the distressed debt at 50 and get a seat at the\ntable to influence the judge and other creditors towards their view."
+  },
+  {
+    "id": 274,
+    "question": "What is a fulcrum security in a restructuring?",
+    "answer": "The fulcrum security is the most senior security that will most likely convert into equity ownership after restructuring. It represents the last part of the capital structure to receive only a partial recovery, meaning less than par value.\n\nSaid another way, the fulcrum security's placement is the point in the capital structure where the value breaks. The secured, senior creditors above it are likely to be paid in full or compensated sufficiently, while claims junior to it theoretically receive nothing.\n\nBecause the fulcrum security is the part of the capital structure most likely to be converted into equity, its holder has significant leverage to lead the company's restructuring plan. Distressed investors focus on identifying it both for its probability of receiving equity in the newly emerged company and as a strategy to gain control over the new entity."
+  },
+  {
+    "id": 275,
+    "question": "What does the phrase \"debt to control\" mean?",
+    "answer": "\"Debt to control\" is when an investor seeks to gain control over a company through bankruptcy or\nreorganization. Under this strategy, the investor will purchase the distressed company's senior debt and bonds\nat steeply discounted prices. Thereby, the investor will become a major shareholder if the company emerges\nfrom bankruptcy and debt obligations will be exchanged for newly issued equity as part of the agreement.\nCompared to the strategy of attempting to identify the fulcrum security and having leverage from being the\npriority shareholder post-emergence, this strategy is considered to be higher risk since influence over the\ncompany is obtained through becoming a major creditor of a company and then obtaining a controlling stake in\nthe new equity. Since more capital must be invested at a higher risk, the firms that specialize in this type of\ninvesting strategy tend to be of larger scale and institutional firms that invest across the entire capital structure\nand different asset classes (e.g., Apollo Global), as opposed to distressed hedge funds."
+  },
+  {
+    "id": 276,
+    "question": "What are “super-priority” claims?",
+    "answer": "“Super priority” refers to secured DIP claims that have priority over other administrative claims and usually\npre-petition secured claims. This is capital that was obtained once the distressed-situation of the company was\nrecognized. Thus, it has repayment priority over even senior debt lenders because its approval was contingent\non being beneficial to all the stakeholders, as determined by the Court."
+  },
+  {
+    "id": 277,
+    "question": "What does priming mean in restructuring financing?",
+    "answer": "Priming refers to a situation in which a lender high in the capital structure (e.g., secured loan) is superseded by\nanother lender. Thus, priming is when a new tranche is added to the existing capital structure - but the key\ndifference is, this tranche is higher than the others, including the senior secured lenders. In a restructuring, DIP\nfinancing gets a superior claim to all others out of Chapter 11."
+  },
+  {
+    "id": 278,
+    "question": "What is DIP financing and why is it considered as being safe for the lender?",
+    "answer": "Debtor-in-possession financing (\"DIP financing\") is a special type of financing only available to companies\nunder distress that have already filed a bankruptcy petition. DIP financing is placed at the very top of the\ncapital structure. Legally, this form of financing has super-priority administrative over all other existing\nstakeholders. In most cases, DIP financing comes from those who had previously provided loans to the\ncompany in the past. DIP financing is considered very safe for lenders due to being secured, having collateral\nbacking, and coming with very restrictive covenants."
+  },
+  {
+    "id": 279,
+    "question": "What conditions must be met for DIP financing to be approved?",
+    "answer": "The Court will only approve DIP financing if there's adequate collateral to protect pre-petition lenders. DIP\nfinancing that primes existing secured creditors must be deemed to make pre-petition secured creditors better\noff than in a liquidation. Once it has been proven not to impair the secured holders and is determined to bring\nenough positive benefits to the company, the DIP financing loan will help the distressed company with its\nbusiness operations and reorganization."
+  },
+  {
+    "id": 280,
+    "question": "Could you explain the purpose of the TWCF model in restructuring?",
+    "answer": "The thirteen-week cash flow model (\"TWCF\") is a required submission in a bankruptcy process to track the\nliquidity of a company vulnerable to bankruptcy. The TWCF is used in turnaround situations once a company\nenters or is on the verge of becoming financially distressed.\nThe model provides visibility into the company’s short-term liquidity to assess its options for short-term cash\nmanagement. While quarterly and annual models will be created for the troubled company, the priority is to\nensure the company can stay afloat in the short-term - hence, the TWCF's importance. Besides the\ntransparency to creditors and its usage as a tool by management to make critical decisions, the TWCF is used to\ndetermine the borrowing needs during the reorganization period. If the ending cash balance falls to a level too\nlow, a drawdown of the revolver or DIP financing will be necessary."
+  },
+  {
+    "id": 281,
+    "question": "How does the TWCF model differ from typical financial models?",
+    "answer": "Cash-Based Accounting: TWCF is a cash-basis analysis, meaning it uses cash flow accounting instead of\naccrual-based accounting. This direct method for cash flow accounting is more insightful for the\nrestructuring advisors, as the real cash balance matters and represents a more accurate portrayal of the\ncompany's liquidity. The company’s cash inflows/(outflows) are projected carefully in a weekly and\nmonthly cash flow budget to provide the highest transparency level for management and creditors.\nWeekly Rolling Forecast: Notably, TWCF models are based on rolling forecasts and updated continuously\nby Rx bankers weekly, enabling granular comparisons between the projected numbers vs. the actual\nnumbers. The variance can also be assessed to better understand the company's financial health and the\nborrowing needs (DIP) during the reorganization period."
+  },
+  {
+    "id": 282,
+    "question": "Walk me through the basic structure of a TWCF model.",
+    "answer": "1. Operating Cash Inflows: The operating cash receipts will first be counted, representing the company's\ncash collections from customers. Then, operating cash disbursements such as payroll, insurance, and\ninventory purchases will be deducted to arrive at operating cash inflows.\n2. Net Cash Inflows/(Outflows): Next, non-operating disbursements such as interest payments, principal\namortization, and professional fees are subtracted to calculate the period's net cash inflows/(outflows).\n3. Ending Cash Balance: In the final step, the ending cash balance will be calculated by subtracting the net\ncash inflows/(outflows) calculated in the previous step from the beginning cash balance."
+  },
+  {
+    "id": 283,
+    "question": "What is an “amend and extend” agreement?",
+    "answer": "An “amend and extend” is when the debtor has come to an agreement with the lending parties for the debt to\nremain in place, but with the maturity extended to a later date. In return for the extension, the cost to the\nborrower is usually an increased interest rate, an amendment fee, a different amortization schedule, or other\nnewly negotiated debt terms that favor the lender."
+  },
+  {
+    "id": 284,
+    "question": "How do you determine the value of a secured claim?",
+    "answer": "Collateralized claims are secured to the extent the pledged collateral covers the claim. If the value of the\ncollateral is less than the claim, this shortfall is treated as unsecured. Therefore, the amount of value a secured\nclaim has is limited to the minimum between the secured claim and the creditor’s collateral value. To the extent\na secured creditor has collateral worth less than its claim, this deficiency would be treated as general\nunsecured claims (GUCs)."
+  },
+  {
+    "id": 285,
+    "question": "The claim of a secured creditor was bifurcated into two claims. Could you explain when this might take place?",
+    "answer": "If the collateral value is greater than the claim, then the claim is fully secured. However, the secured creditor's\nclaim being bifurcated means there was inadequate collateral. The secured claim's value will be up until the\ncollateral value, while the other claim is unsecured and treated just like any of the other unsecured claims.\nDespite being secured by the debtor's collateral, secured pre-petition claims only have priority over admin and\nother unsecured claims to the extent of the collateral value. Therefore, if the collateral is less than the claim, the\nunder-collateralized portion will be treated as an unsecured deficiency claim."
+  },
+  {
+    "id": 286,
+    "question": "How does the fiduciary duty of management change during a bankruptcy?",
+    "answer": "During a bankruptcy, a shift in the management’s fiduciary responsibility occurs once a company appears\ninsolvent (or close to being so). Specifically, management’s fiduciary duties must change from equity holders to\ncreditors when the company enters the “zone of insolvency.”"
+  },
+  {
+    "id": 287,
+    "question": "What does a negative pledge provision restrict a borrower from doing?",
+    "answer": "In a negative pledge provision, the borrower agrees to not pledge certain specified assets as collateral. From\nthe perspective of the lender, prohibiting the borrower from granting a lien to an additional lender protects\nthem from the risk of the available collateral being reduced and prevents a new creditor with higher priority. In\neffect, negative pledges make it more difficult for the borrower to raise debt."
+  },
+  {
+    "id": 288,
+    "question": "What is the purpose of adequate protection?",
+    "answer": "Adequate protection limits what a firm can do with the collateral pledged and is put in place in an agreement\nfor secured creditors to be assured their interest in the collateral assets are protected (and not sold off or\ndamaged). The lack of adequate protection can be grounds for relief from the automatic stay, which means\ncreditors have the right to seize the debtor's assets or property based on the contractual terms. Thus, as long as\nsecured creditors are adequately protected, the debtor may use the cash collateral (as well as any other assets\nwith liens on them). The key benefit is that these adequate protection liens are granted “super-priority” status\n- above post-petition admin claims."
+  },
+  {
+    "id": 289,
+    "question": "What is the main difference between liquidation done under Chapter 7 and 11?",
+    "answer": "Liquidation can occur in both Chapter 7 and 11. The key distinction is that under Chapter 7, the management\nteam will be removed, and instead, a liquidating trustee will be appointed to oversee the bankruptcy process."
+  },
+  {
+    "id": 290,
+    "question": "What is a plan support agreement?",
+    "answer": "Plan support agreements obligate creditors that sign it to vote for a plan consistent with the terms outlined in\nthe agreement. These agreements reduce the overall costs and duration of bankruptcy proceedings while\ncreating less disruption to the business and its employees/customers."
+  },
+  {
+    "id": 291,
+    "question": "What is the difference between consent and a waiver?",
+    "answer": "Both refer to creditors giving their consent to the company breaching covenants. However, a waiver is\ntemporary (e.g., temporary breach due to an unforeseeable event), whereas consent is permanent."
+  },
+  {
+    "id": 292,
+    "question": "What are debentures?",
+    "answer": "Debentures (or unsecured bonds) are unsecured obligations with covenants that are much less restrictive than\nthose of bank loans. If the troubled company undergoes bankruptcy, there are no assets the holder of the\ndebentures can claim and are paid only once secured bondholders are compensated, assuming these lenders,\nwhich are low in the capital structure, even receive any form of compensation."
+  },
+  {
+    "id": 293,
+    "question": "What does a sale under Section 363 of the US Bankruptcy Code involve?",
+    "answer": "A Section 363 Sale is when a distressed company sells its assets and provides a potential opportunity for\nbuyers (often called “stalking horse bidders”) to purchase the assets at a bargain. A key feature of a 363 Sale is\nthe stalking horse offer bid is subject to higher bid offers within a specified period and would require the\nBankruptcy Court's approval beforehand. Perhaps the most significant risk to bypass in this process is an\nimproperly conducted Section 363 Sale that fails to receive approval from the court."
+  },
+  {
+    "id": 294,
+    "question": "Would a Section 363 Sale hurt creditors because of the loss of collateral?",
+    "answer": "The contrary would be true as the sale cannot be completed without the creditors' approval, the key\nstakeholders in the bankruptcy process whom the sale process should benefit above all else. Thus, a completed\nsale would imply that no objections were presented to the Court.\nFor example, if the debtor is attempting to sell an asset at a discount far below the fair value, the Court must\nlisten to the creditors’ objections before granting approval/rejection - but again, the creditors' interests carry\nmore weight than the debtor.\nIn addition, 363 sales enable secured creditors to place credit bids, which can help cancel a portion of the debt\namount owed by the debtor. If eligible, the secured creditor can opt to bid on the debt owed to them on which\nthe asset is collateral (i.e., acquire the asset solely using credits and with no cash outflow)."
+  },
+  {
+    "id": 295,
+    "question": "What is credit bidding?",
+    "answer": "Credit bidding is a feature of acquisition in Chapter 11 that allows secured lenders to use their claim as\nacquisition currency without actually having to put up new cash (only secured claims can credit bid). Notably,\ncredit bidding enables investors, who are often financial sponsors, to acquire secured debt from existing\ncreditors at a discount and credit bid the full claim to purchase the underlying collateral."
+  },
+  {
+    "id": 296,
+    "question": "What is the purpose of bondholder committees?",
+    "answer": "During an out-of-court bankruptcy, the various lending parties will often band together in a bondholder\ncommittee to negotiate with the borrowing company with more leverage.\nThese committees work alongside one another to increase the probability that the borrower will agree to their\nnegotiation terms in the out-of-court restructuring scenario. If needed, the committee may hire a 3rd party Rx\nadvisory shop to help them conduct their analysis and solidify their pitch."
+  },
+  {
+    "id": 297,
+    "question": "Why might certain distressed funds be hesitant to join a bondholder committee?",
+    "answer": "The downside to joining a bondholder committee is the disclosure requirements - this obligation to disclose\nsecurity positions is typically why certain distressed funds refuse to join a committee. Once the fund becomes a\npart of the committee, they must sign an agreement to disclose when they buy or sell securities."
+  },
+  {
+    "id": 298,
+    "question": "Why does the holdout problem occur in out-of-court restructurings?",
+    "answer": "A company cannot unilaterally provide individual creditors with partial recoveries out-of-court - creditors\nmust agree. This agreement becomes increasingly challenging to get a consensus when there are more parties\ninvolved. In these cases, especially when there are many bondholders, bondholders may calculate that if\nenough other creditors participate, they’ll be better off not participating and insist on a full recovery. In\ncontrast, for in-court restructuring, the recoveries agreed upon applies to the entire class."
+  },
+  {
+    "id": 299,
+    "question": "What are administrative claims?",
+    "answer": "Otherwise known as post-petition unsecured claims, administrative claims represent the necessary costs and\nexpenses of preserving business operations' continuance. Examples of administrative claims would include\nemployee wages/salaries, payments for goods and services received post-petition, and professional fees (taxes,\nlegal fees, turnaround consulting services)."
+  },
+  {
+    "id": 300,
+    "question": "Name some specific add-backs to EBITDA in the context of restructuring.",
+    "answer": "Professional Fees (Restructuring Advisory, Accounting, Legal Fees, Turnaround Consulting)\nEmployee Severance Costs\nLegal Settlement Expenses\nInventory or PP&E Write-Downs\nGoodwill Impairments\nUncollectible Accounts Receivable (“Bad AR”)\nGains/(Losses) on Sales of Assets and Facility Closures"
+  },
+  {
+    "id": 301,
+    "question": "What is a critical vendor motion?",
+    "answer": "A critical vendor motion is when vendors deemed “critical” receive their pre-petition claims to ensure their\nongoing affiliation with the debtor. The borrower cannot operate in any capacity without this vendor.\nTherefore, the Court has approved the filed motion that allows the company to pay this vendor.\nCourts will sometimes approve a company’s request to make payments to certain critical vendors during the\nbankruptcy before adopting the reorganization plan - reasoning that not paying will degrade the company's\nvalue in a way that hurts the higher priority claims even further."
+  },
+  {
+    "id": 302,
+    "question": "What is a fraudulent conveyance?",
+    "answer": "Fraudulent conveyance is when the debtor, when the company was considered to be already \"insolvent,\" made\na cash, property, or other asset transfer intending to defraud its creditors. The lienholder that claims a\nfraudulent transfer must prove the company was insolvent when making the sale and that the sale was made to\ndelay or avoid its due obligation to its creditors. If successful, the lienholder can claw back some proceeds."
+  },
+  {
+    "id": 303,
+    "question": "Give me an example of a spring forward provision.",
+    "answer": "An example of a spring forward provision would be a term loan with a longer maturity than a senior note lower\nin the capital structure. The term loan lending agreement could include a provision allowing the payment date\nto “spring forward” if a specific triggering event is met. This contingency could be based on the senior note\nbeing refinanced by a pre-specified date, the revolver being drawn too frequently or past a stipulated\npercentage, a credit downgrade from a rating agency, or if an upcoming debt swap offer was not accepted. The\ncause could also have been related to the traditional financial covenants, such as leverage ratio surpassed a\ncertain level. In most cases, the spring forward provision will pull the maturity of the debt ~90 days earlier\nthan when the other corresponding debt would come due."
+  },
+  {
+    "id": 304,
+    "question": "What are voidable preferences?",
+    "answer": "Voidable preferences occur when a monetary (or asset) transfer is processed less than ~90 days before the\nofficial bankruptcy filing. This often refers to disputes where senior creditors have accused the debtor of an\nunwarranted payment right before declaring bankruptcy to a creditor lower in the order of payment. If the\ncreditors making the accusation successfully prove the payment violated the waterfall schedule, the payment\nwould thus be voided and be legally required to be returned to the rightful creditors."
+  },
+  {
+    "id": 305,
+    "question": "What does a cramdown refer to in a restructuring scenario?",
+    "answer": "In the so-called cramdown provision, a plan of reorganization (POR) is confirmed and imposed on an impaired\nclass that had voted to reject the plan. Despite the objections, the Court has the authority to approve a\nproposed plan regardless if one or more classes of creditors assert that their claims would be impaired further\nif the plan is confirmed."
+  },
+  {
+    "id": 306,
+    "question": "What is an equitable subordination?",
+    "answer": "Although a rare occurrence, secured creditors should be aware of the very unfavorable scenario that the courts\ncould unilaterally equalize all claims under certain circumstances (called “equitable subordination”). The type\nof situation that would invoke such an uncommon decision and is typically associated with the misconduct of\nsecured creditors with proof of wrongdoing (i.e., “acting in bad faith”). For example, an insider could be acting\non the secured creditor’s behalf to influence the debt to the detriment of other creditors."
+  },
+  {
+    "id": 307,
+    "question": "How is a capitalization table used for restructuring purposes?",
+    "answer": "For restructuring, a capitalization table (“cap table”) will be put together and continuously updated by the Rx\nbanker to assess the debtor's liquidity. All the claims on the company will be listed, but with a focus on the debt\nsecurities that the company has issued. Next to each debt tranche, the maturity dates, coupon rate/pricing,\ncredit ratings, and market price (if publicly traded) will be listed, along with the key credit metrics calculated,\nsuch as the leverage and interest coverage ratios. By assessing the maturity dates of all the looming debt\nmaturities and the dates of the interest payments coming up, the Rx bankers can gauge the urgency of the\nsituation regarding the company's liquidity and need for DIP financing."
+  },
+  {
+    "id": 308,
+    "question": "Do equity shareholders receive any form of compensation during Chapter 11s?",
+    "answer": "Theoretically, both preferred and common equity holders will get wiped out and receive nothing during\nChapter 11s. This is intuitive since equity is at the bottom of the capital structure; however, equity holders are\noccasionally given a “tip” (or called “tipping equity”) where they're given 1-2% of the newly reorganized\ncompany’s equity or a nominal payment."
+  },
+  {
+    "id": 309,
+    "question": "Do REITs pay taxes?",
+    "answer": "REITs are “pass-throughs,” meaning REIT profits are not taxed on the corporate level and instead get passed\nthrough to the shareholder who gets taxed at the individual level on the REITs' dividends.\nHowever, one requirement for qualifying for this tax-advantaged REIT status is that at least 90% of the REIT's\nprofits must be distributed as dividends, so a REIT can’t hoard profits like a C Corp and not issue any dividends.\nAlso, a REIT's dividends are “non-qualified,” meaning they're taxed at the ordinary income (higher) tax rate, not\nthe capital gains (lower) tax rate. In contrast, C-corporations have a corporate level tax, followed by another tax\non dividends, but C-Corp dividends are qualified, meaning they're taxed at a lower capital gains tax.\nREITs don't pay corporate-level taxes, but REITs pay property taxes on the properties they own. These taxes are\nincluded as part of direct real estate expenses on a REIT's income statement."
+  },
+  {
+    "id": 310,
+    "question": "Walk me through the income statement of a REIT.",
+    "answer": "Primary Line Items\nOn the income statement, rental income is the primary source of revenue. In addition, there may be\nancillary income, such as management fees, which are included in revenue.\nDirect real estate expenses include utilities, marketing/advertising expenses, payroll, maintenance, and\nproperty taxes.\nRevenues - Direct Expenses = REITs Net Operating Income, which represents a REIT's property-level\nprofitability.\nNext, we subtract corporate overhead, SG&A expenses, and depreciation expenses to get to GAAP operating\nprofit. Under US GAAP, REITs usually have significant depreciation expenses from their asset-intensive\nnature (there's no depreciation for REITs under IFRS).\nNext, we subtract interest expense, which is usually large for REITs because REITs borrow a lot to finance\ntheir operations.\nLastly, REITs are constantly buying and selling real estate, so there's usually significant income or loss from\ndiscontinued operations (along with gains or losses on sales) reported below net income."
+  },
+  {
+    "id": 311,
+    "question": "What is NOI and why is it an important metric?",
+    "answer": "Net operating income (NOI) equals a REIT's rental income less property-level real estate expenses such as\nutilities, marketing & advertising, payroll, maintenance, and property taxes. It's a measure of profit before\ndepreciation, corporate-level SG&A, and interest expense.\nNet Operating Income (NOI) = Rental Income - Operating Expenses\nThe NOI is an important metric because isolates property-level profitability, enabling comparisons across\ndifferent properties or portfolios of companies without the noise of corporate-level expenses or leverage.\nWhile not the same, it's the closest thing REIT financials have to gross profit. NOI is the numerator used in the\ncalculation of a REIT or real estate property’s cap rate."
+  },
+  {
+    "id": 312,
+    "question": "Define funds from operations (FFO) and why is it important?",
+    "answer": "Funds from operations (FFO) refers to a figure commonly used by real estate investment trusts (REITs) to\nmeasure operating performance. Assuming US GAAP, the FFO formula is shown below:\nFFO = Net Income + D&A -Gain on Sale + Non Controlling Interest -Cash to Non Controlling Interests\nFFO is similar to cash from operations because it excludes things like working capital changes. Another way to\nthink of FFO is to think of it as basically levered EBITDA, with the difference between FFO and EBITDA is that\nEBITDA attempts to capture profitability from operations. In contrast, FFO is levered and captures the effect of\nnon-common equity claims against the business, such as debt, preferred shares, and non-controlling interests."
+  },
+  {
+    "id": 313,
+    "question": "For REITs valuing properties, how do regulations differ between GAAP and IFRS?",
+    "answer": "Under IFRS, REITs must value properties as “Investment Properties,” meaning no depreciation is recognized,\nand instead, the properties are regularly marked to market (which is recognized as a gain on the income\nstatement. Therefore, the bridge from IFRS net income to FFO doesn't require a deprecation add-back since\nthere was no depreciation expense on the income statement, and the revaluation gain needs to be subtracted\nfrom IFRS net income to get to FFO."
+  },
+  {
+    "id": 314,
+    "question": "What is the difference between FFO and AFFO?",
+    "answer": "Adjusted FFO, or Cash Available for Distribution (CAD), takes FFO and subtracts capital expenditures from FFO\nto get closer to free cash flow (though still missing the working capital adjustments).\nAdjusted Funds from Operations (AFFO) = FFO + Non Recurring Expenses - Capex"
+  },
+  {
+    "id": 315,
+    "question": "Walk me through a NAV valuation.",
+    "answer": "The most common real estate valuation is a valuation driven by the net asset value (NAV) model.\nNAV Valuation Process\n1. Value NOI-Generating Assets: This step involves identifying the NOI generating assets from the real\nestate portfolio and then dividing it by a cap rate assumption that represents that cap rate for the\ncumulative portfolio. The cap rate assumption is the most important part of the valuation. If distinct NOIs\nand cap rates are available by property, region, or property type, a more detailed valuation be done.\n2. Value Other Income Streams: If ancillary income and management fees are not included in the NOI,\nthese should be valued separately, which is also done by taking the income from those activities and\ndividing it by a cap rate assumption, which may or may not be the same as the cap rate used to value the\nNOI-generating real estate. In addition, any JV income should be valued separately using the same\napproach and added to the NAV.\n3. Reduce NAV by Required Future Expenditures: Next, NAV must be adjusted down by the present value\nof future expected capital expenditures and corporate overhead required to sustain the properties that\nare not included in the NOI. This is also typically done by dividing the expenditures by a cap rate\nassumption.\n4. Add “Non-Operating” REIT Assets: Any assets not already included in the NAV build up like cash and\nconstruction in progress should be added to the NAV buildup. These can be valued at book value or by\napplying a premium to book value (in the case of construction in progress).\n5. Subtract Debt & Other Non-Equity Claims: Subtract debt and other debt-like claims not yet valued -\noften the book value is used under the thinking that book values for these liabilities don't deviate too far\nfrom market values, but if there's reason to believe deviations exist, market values should be used.\n6. NAV-Derived Equity Value: The end result represents the REIT's NAV-derived equity value. This can be\ncompared against its market cap or divided by shares outstanding to compare against its share price."
+  },
+  {
+    "id": 316,
+    "question": "Why might the NAV be preferable to a DCF for REITs?",
+    "answer": "The NAV approach is so well suited for real estate because, unlike other industries, REIT balance sheets carry\nreal estate assets for which there are often comparable assets with observable market values. The NAV\napproach recalculates a REIT's balance sheet to reflect fair market values of assets using cap rate assumptions.\nThis is simply not feasible for most industries, so a discounted cash flow analysis is often employed instead."
+  },
+  {
+    "id": 317,
+    "question": "What is a cap rate, and why is it important?",
+    "answer": "Capitalization rates (“cap rates”) are the most common real estate multiple, which compares a measure of\nunlevered profitability against a property’s value.\nNet Operating Income (NOI)\nCap Rate =\nProperty Value\nFor example, if a $2 million property is generating annual NOI of $100,000, it has a cap rate of $100,000/$2\nmillion = 5.0%. It is a little different from traditional valuation multiples in that the numerator and\ndenominator are reversed so that a high cap rate implies a low valuation (and vice versa).\nAll else being equal, a property with a higher cap rate relative to comparable properties suggests it's\nundervalued or has some combination of higher risk, lower expected future returns, or growth."
+  },
+  {
+    "id": 318,
+    "question": "What are the most common methods for valuing REITs?",
+    "answer": "REITs Valuation Methods\nNet Asset Value (“NAV”): Applies to US REITs, where book values are not marked up to their FMV\nPrice to Book (P/B): Applies to IFRS REITs because the book values reflect market value due to IFRS\nrevaluation rules\nRelative Valuation of REITs: Refers to comps analysis\nIntrinsic Value of REITs: Used less often but can supplement the more common approaches\nREIT Valuation Multiples\n“FFO” Multiple: FFO = Equity Value/Funds from Operations\n“AFFO” Multiple: AFFO = Equity Value/Adjusted Funds from Operations\nIntrinsic REIT Valuation Methods\nDividend Discount Model (DDM): Unlike other types of businesses, the DDM is suitable for REITs\nbecause at least 90% of a REIT's profits must be distributed to shareholders. The DDM discounts all future\nexpected dividends using the cost of equity.\nDiscounted Cash Flow Analysis (DCF): The traditional DCF valuation can be done for REITs as with other\nindustries, but in practice, it's used far less often than the NAV approach."
+  },
+  {
+    "id": 319,
+    "question": "Why is the self-storage industry known to be such a resilient performer?",
+    "answer": "The self-storage industry has been one of the most reliable, non-cyclical asset classes in real-estate. During the\n2008 recession, self-storage REITs were the only real estate asset class that produced positive returns, when\nothers such as hospitality fell 50%+. The increased urbanization has led to the recent spike in demand over the\npast few years in the US. Millennials are opting not to purchase homes - as shown by the decrease in new home\nsales. While self-storage was traditionally viewed as a place to store unneeded items that consumers were\nreluctant to dispose of, these facilities have become extensions of homes (i.e., extra closet space/garage)."
+  },
+  {
+    "id": 320,
+    "question": "What are the three methods for valuing real estate assets?",
+    "answer": "1. Cap Rates: Property Value = Property NOI/Market Cap Rate\n2. Comparables: Similar transactions inform price per unit or per square foot valuations (and current\nmarket cap rates)\n3. Replacement Cost Method: An investor would never purchase a property for more than it could be built."
+  },
+  {
+    "id": 321,
+    "question": "Compare the cap rates and risk profiles for each of the main property types.",
+    "answer": "1. Hotels: Hotels trade at the highest cap rates because cash flow is driven by nightly stays (extremely\nshort-term) and more operationally intensive activities like restaurants and conferences.\n2. Retail: The creditworthiness of retail tenants is increasingly in question due to trends in e-commerce.\n3. Office: Office sector is closely correlated to the broader economy but has longer-term leases.\n4. Industrial: Industrial sector benefits from e-commerce trends and longer-term leases.\n5. Multifamily: Multifamily is thought of as the safest asset class because no matter how the economy is\nperforming, people will need a place to live."
+  },
+  {
+    "id": 322,
+    "question": "Walk me through a basic cash flow pro forma for a real estate asset.",
+    "answer": "1. The top line is revenue, which will be primarily rental income but might include other revenue lines and\nalmost always deduct vacancy and leasing incentives such as rent abatements and concessions.\n2. Next, you subtract all operating expenses to get to NOI.\n3. After NOI, you subtract any capital expenditures and account for the purchase and sale of a property -\nthis will get you to unlevered cash flow.\n4. Finally, to get from unlevered cash flow to levered cash flow, you subtract financing costs."
+  },
+  {
+    "id": 323,
+    "question": "Describe the four main real estate investment strategies.",
+    "answer": "1. Core Investments: Core is the least risky and therefore targets the lowest returns. Core investments are\ntypically newer properties in great locations with high occupancy and very creditworthy tenants.\n2. Core-Plus Investments: Core-plus is similar to core but slightly riskier and may feature minor leasing\nupside or require small amounts of capital improvements. Core-plus is what most people think of when\nthey hear “real estate investing.”\n3. Value-Add Investments: Value-add investments are riskier deals, and risk can come from various places\n- substantial lease-up, an older property needing meaningful capital improvements, a tertiary location, or\npoor credit tenants.\n4. Opportunistic Investments: Opportunistic is the riskiest area and therefore targets the highest returns.\nOpportunistic investments include new development or re-development."
+  },
+  {
+    "id": 324,
+    "question": "If I paid $100 million for a building and it has 75% leverage, how much does it need to sell for to double my equity?",
+    "answer": "$125 million. With 75% leverage, you would invest $25 million of equity and borrow $75 million of debt. If you\ndoubled your equity, you would get $50 million ($25 million x 2) of cash flow to equity and still need to pay\ndown $75 million of debt. $50 million of equity + $75 million of debt = $125 million sale price."
+  },
+  {
+    "id": 325,
+    "question": "If you had two identical buildings in the same condition and right next to each other, what factors would you look at to determine which property is more valuable?",
+    "answer": "Since the physical attributes, building quality, and location are the same, I would focus on the cash flows.\nFirst, I would want to understand the amount of cash flow. You can determine this by looking into what\naverage rents are in the buildings and how occupied the buildings are. Despite the same location and\nquality, each building's management and leasing could vary, leading to differences in rents and occupancy.\nSecond, I would want to understand the riskiness of the cash flows. To assess this, I would look at the rent\nroll to understand tenants' creditworthiness and the term of leases.\nLastly, the value of the properties would be looked at. The formula for value being NOI/cap rate. NOI will\nbe informed by the cash flows amount, whereas the cap rate will be informed by the cash flows' riskiness.\nThe property with higher cash flow and less risk will be valued higher."
+  },
+  {
+    "id": 326,
+    "question": "Assume you purchased a property for $1 million at a 7.5% cap rate, had 0% NOI growth throughout the holding period, and exited at the same cap rate after three years. What is your IRR?",
+    "answer": "First, we know that the NOI/Cap Rate = Value. If a property’s NOI and cap rate don't change, then the value\nremains the same. Because there's 0% NOI growth and after three years, we are selling the property for the\nsame 7.5% cap rate we purchased it for, we'll sell the property for $1 million, resulting in no terminal value\nprofit. Since there's no terminal value profit, the only profit comes from interim NOI, which is $1 million x\n7.5%, which remains constant each year. IRR is our annual return, so IRR equals our cap rate of 7.5%."
+  },
+  {
+    "id": 327,
+    "question": "If you purchase a property for $1 million at a 5.0% cap rate with 60% leverage and a 5.0% fixed cost of debt, what is the cash-on-cash yield?",
+    "answer": "1. First, we know that Cash-on-Cash Yield = Levered Cash Flow/Equity Invested, and Levered Cash Flow =\nNOI - the Cost of Debt.\n2. If 60% of leverage was used, this implies $600k of debt and $400k of equity invested. A $1 million\npurchase price at a 5.0% cap rate implies $50k of annual NOI. $600k of debt at a 5.0% fixed cost implies a\n$30k annual cost of debt. $50k annual NOI - $30k annual cost of debt = $20k of levered cash flow.\n3. Lastly, $20k levered cash flow/$400k equity invested = 5.0% cash-on-cash yield."
+  },
+  {
+    "id": 328,
+    "question": "Do you have any questions for me? (REPE Context)",
+    "answer": "Roles & Responsibilities Questions\nIs there a strict delineation between the acquisitions and asset management team?\nHow much exposure do junior acquisition professionals get to the legal process of executing a deal?\nHow much traveling is there for junior team members?\nFirm Strategy Questions\nDoes the firm focus on a single risk profile (core, core-plus, value-add, opportunistic) or multiple\nstrategies?\nDoes the firm only do equity investing or both debt and equity?\nDoes the firm do any development or only acquisitions?"
+  },
+  {
+    "id": 329,
+    "question": "Walk me through a back-of-the-envelope multifamily real estate acquisition model.",
+    "answer": "This type of test is usually part of a separate section of the interview. You will have approximately ten minutes and be provided pen and paper, or Excel, to complete a basic modeling test."
+  },
+  {
+    "id": 330,
+    "question": "Why have industrial manufactures shifted their focus towards the aftermarket?",
+    "answer": "Over the past decade, there has been a clear shift in industrial manufacturers becoming more service-oriented\nand offering more aftermarket services, an all-encompassing term that includes maintenance services, spare\nparts delivery, and other value-added services. The overall cyclicality within the manufacturing industry in\nterms of customer demand and market maturity has led to manufacturers attempting to mitigate the risk of\ncyclical fluctuations by decreasing the proportion of revenue from new equipment sales.\nFor industrial manufacturers, achieving organic growth through new product development and sales can be a\ncostly, capital-intensive process. Comparatively, revenue from aftermarket service is a more predictable,\nrecurring stream of revenue. In the latest recession, those with a greater proportion of revenue coming from\nservices fared far better compared to those that are 90%+ dependent on new manufacturing sales. While\ncertain manufacturers have built-out their services division in-house, most industry players have chosen the\npath of vertical integration through increased M&A activity.\nThis trend has been escalated from COVID-19, as demand for new industrial equipment has declined as their\nend markets reduced capital spending to preserve cash (especially in the aerospace industry)."
+  },
+  {
+    "id": 331,
+    "question": "What is the trend of servitization in manufacturing?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nSimply put, servitization refers to building additional revenue streams for manufacturers from providing more\nservice offerings, rather than depending on a third party. Some of the most common services include replacing\nspare parts, product repairs, maintenance, overhauls, performance monitoring, and customer service.\nIn the past, the focus was solely on equipment manufacturing. Sales and distribution would be handed off to 3rd\nparty equipment vendors and customers would rely on specialists for product support. Nowadays,\nmanufacturers are selling \"systems,\" focusing on the outcome of their products and providing the services\nthemselves to ensure customer satisfaction. This trend is in-line with the shift towards placing greater\nemphasis on after-sales service operations to improve customer retention and increase margins."
+  },
+  {
+    "id": 332,
+    "question": "Why is there such a high level of M&A activity in the industrial manufacturing space?",
+    "answer": "Historically, industrial manufacturing has been one of the most active areas for M&A because of constant innovation in product development. This can be attributed to the industry's highly specialized nature, with hundreds of niches that provide differentiated capabilities. The more specialized niches an industry contains, the greater its potential M&A activity.\n\nFor those reasons, existing incumbents acquire companies with proven technologies and an existing customer list rather than incur high R&D expenses to build them in-house. Financial sponsors are active in this industry and attempt to acquire niche players, grow through add-ons, and then exit to large strategic buyers such as Honeywell, Siemens, ABB, ASSA ABLOY, and Johnson Controls. For many industrial conglomerates, recent revenue growth has become almost entirely inorganic. Many sponsors acquire companies believing that buyers will be available when they exit the investment."
+  },
+  {
+    "id": 333,
+    "question": "Which valuation multiples are most often used to value companies in industrials?",
+    "answer": "The most common multiple used valuation multiple for industrials is EV/EBITDA, especially for industrial tech.\nEV/(EBITDA - Capex) is often used for manufacturing companies, while EV/EBITDAR can be used for the\ntransportation and logistics segments if equipment such as the trucks are rentals.\nA few more valuation multiples specific to transportation and logistics would be EV/Total Freight Tonnage,\nVolume, EV/Miles Driven, and EV/Average Revenue per Mile or Weight Unit."
+  },
+  {
+    "id": 334,
+    "question": "Let’s say you're looking at an industrials company. What business and industry characteristics would you first consider?",
+    "answer": "End Markets: First, the customers served and their diversification will determine how cyclical the\nindustrials company's revenue is. The relationship between the company and their customers, and how\nessential their products are will determine how recurring the revenue is.\nSupply Chain: Next, I would consider how efficient the company’s processes are by looking at how many\nsuppliers it depends on and how well integrated it appears. Other than the manufacturing process, the\ndistribution network would need to be examined to see how much reach the company has and\nopportunities for expansion by selling in more channels.\nProduct Value/Upgrade Cycles: Then, the product or service being offered should be looked at when\ndetermining how valuable the offering is and how often upgrades (or any type of recurring service such as\nmaintenance) would be required.\nCompetitive Landscape: Lastly, the strength of the industry's barriers to entry and how the company’s\nproducts fare compared to its competitors should be examined. These two factors will directly affect the\nstability in the revenue generated and the pricing power of the company over its end markets."
+  },
+  {
+    "id": 335,
+    "question": "An industrials company has shown COVID-related impaired revenue. What metric would you look at to assess the damage and predict the pace of recovery?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nThe metric the interviewer is looking for is the build-up of backlog (or the lack of it). Ideally, the company’s\nbacklog should have significantly increased despite the decrease in revenue. This is because many customers\nhave delayed their projects into the future, either due to their own decision or regulations that prevent the\ncompletion of the project.\nThe backlog represents customer contracts that have been secured but have not yet been earned. Throughout\nmuch of Q1 and Q2 2020, the leading industrial conglomerates saw a healthy backlog and was a key talking\npoint their management team would focus on during the earnings calls. The reason being management could\npoint towards this pent-up backlog as evidence to back up their statement that a swift recovery would be\nunderway going-forward. The absence of backlog or lagging growth compared to its competitors would be\nviewed negatively as a sign that the company couldn't secure commitments from new customers throughout\nthe lock-down period and/or existing customers have canceled their projects by choice or gone bankrupt."
+  },
+  {
+    "id": 336,
+    "question": "Walk me through the stages from Industry 1.0 to Industry 4.0.",
+    "answer": "Industry 1.0: Referred to as the “Industrial Revolution,” this was when manufacturing moved from human\nlabor to reliance on machines. The machines were fueled by water, steam, and coal power, and the\nproduction process became easier and faster.\nIndustry 2.0: Often called the “Technological Revolution,” this is when electrical technology entered and\nallowed greater production volume and more sophistication in the machines used.\nIndustry 3.0: Known as the “Digital Revolution” and began with the early days of computers, which were\nmassive despite the minimal computing power provided. However, this period planted the seeds for the\nelectronics and IT infrastructure for the future stage of reliance on computer technology.\nIndustry 4.0: This is where our society is currently at and is often described as the “Automation\nRevolution.” Industry 4.0 is most notably characterized by the new capabilities of automation in which\nmachines can decide and govern themselves using key innovations such as IoT, cloud computing, and big\ndata. Other examples of developments include smart factories, sensor technology, and voice/facial\nrecognition, to name a few."
+  },
+  {
+    "id": 337,
+    "question": "How did Industry 4.0 help bridge the gap between OEMs and their customers?",
+    "answer": "Before the technological advancements and hyper-connectivity from Industry 4.0, the original equipment\nmanufacturer (“OEM”) would produce replacement parts in which service contractors would then perform the\nplanned maintenance and reactive repairs on their behalf. The result is limited visibility into the existing install\nbase and less customer connectivity/engagement.\nIndustrial IoT has allowed OEMs to control uptime and monitor performance throughout the asset and service\nlife-cycle relationship. Also, guaranteed service level agreements (SLAs) are directly put into place and enable\nbetter customer relationships."
+  },
+  {
+    "id": 338,
+    "question": "What are some concerns surrounding Industry 4.0 that exist to this day?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nM2M Mistrust (IoT): Despite all the progress made in all fronts of IoT, machine-to-machine\ncommunication has its limitations in terms of reliability and has not been fully developed to have the level\nof performance and stability envisioned by many (i.e.,100% trust).\nSecurity of Data: The vast amount of data collection and the level of access these machines are given\ncreate concerns for IT security - especially for facilities without the most updated security infrastructures.\nCostly Mistakes: In manufacturing, slight mishaps or minor mistakes could be very costly and be\ndamaging to the production process. Therefore, processes are rolled out gradually at lower volumes."
+  },
+  {
+    "id": 339,
+    "question": "What is Industry 5.0, and what will it do for manufacturing once this next phase arrives?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nThe term Industry 5.0 could be best described as humans working alongside robots and smart machines.\nCompared to Industry 4.0, it's more about enabling humans to work efficiently with robots and machines\ncollaboratively by leveraging new advancements in existing technologies such as IoT and big data.\nIndustry 5.0 is necessary because consumers demand customization in their products, and a requirement of\nthis is the creative input from a human - this has been the driving force behind this movement of human\ncontributions returning to manufacturing. In Industry 5.0, IoT, AI, and ML will all continue to play a significant\nrole when handling repetitive tasks. However, humans would have increased responsibility for being the\ndecision-maker for perception-driven design and customization."
+  },
+  {
+    "id": 340,
+    "question": "What are co-bots, and what makes them unique?",
+    "answer": "Shorthand for “collaborative robots,” co-bots are intended to operate alongside humans. The distinction is that\nthese co-robots and humans can safely complete tasks right next to one another in proximity, rather than a\nrobot performing tasks and the human monitoring its performance from a safe distance."
+  },
+  {
+    "id": 341,
+    "question": "What is the difference between customer support agreements and outcome contracts?",
+    "answer": "Customer Support Agreements: A customer support agreement is an arrangement signed between the\ncustomer and service provider to outline the work, the terms and conditions surrounding its completion,\nand the specific costs for each type of service provided.\nOutcome Contracts: As its name suggests, outcome-based contracts are result-oriented and focus on their\nequipment quality. The contract terms and the pricing are tied to the achievement of specific, measurable\nperformance metrics and requirements that must be met (i.e., KPI-based contracts)."
+  },
+  {
+    "id": 342,
+    "question": "What is the difference between process manufacturing and discrete manufacturing?",
+    "answer": "Process Manufacturing: Process manufacturing is a production method that uses a formulaic, blending\napproach to producing goods (i.e., follows recipes using the ingredients and raw materials) and the type of\nmanufacturing seen in the food, beverage, chemical, and pharmaceutical industries.\nDiscrete Manufacturing: Discrete manufacturing is characterized by the production of lower volumes\nfrom the higher level of complexity involved. The end products are composed of identical components that\ncould be individually counted and identified numerically (e.g., nuts, bolts, screws)."
+  },
+  {
+    "id": 343,
+    "question": "Tell me about the differences between predictive, prescriptive, and condition-based maintenance.",
+    "answer": "Predictive Maintenance: Utilization of vibration, temperature, or pressure-based detection software to\npredict and correct asset degradation using data before the event of machine failure.\nPrescriptive Maintenance: Applies an additional layer of ML/AI to predictive maintenance to further\nimprove upon the prediction accuracy and to prescribe more immediate corrective actions. Rather than\npredicting a potential failure alone, it comes up with specialized recommendations based on the\ncorresponding outcomes to enhance overall efficiency.\nCondition-Based Maintenance: The timing of maintenance services is decided by predetermined\nconditions, or a certain threshold level is met. While this may sound similar to predictive maintenance, it's\nmore about setting a contingency “rule,” and to an extent, the performance deterioration may have already\nbegun (e.g., smoke signal, less stability in temperature control, slowed cool downtime)."
+  },
+  {
+    "id": 344,
+    "question": "What are some basic unit economics for a truck transportation company you would look at to forecast revenue?",
+    "answer": "To build a revenue model for a trucking transportation company, some key historical metrics necessary first\nrequired would be the average number of shipment orders (i.e., transportation hauls) in a year, the average\nlength of each haul in miles, and the total annual shipping revenues. Then you can back into the average\nrevenue per mile driven. Then, to further build out the model with greater specificity, one could look at the\nnumber of clients it works with consistently, the current pipeline of shipment orders, and the number of new\nclient contracts it could win in the years ahead. Alternatively, you could forecast the revenue on a per-driver,\nper-truck, or per-project basis."
+  },
+  {
+    "id": 345,
+    "question": "What are some of the cost drivers you would look at for a truck transportation company?",
+    "answer": "The trucking industry, similar to many sub-sectors in industrials, are known for their high-cost structure.\nThe most important metrics to forecast would be the costs related to the truck drivers, which includes the\ntotal number of drivers employed by the company and the compensation of the drivers (usually on a per-mile basis or hourly basis, rather than a set-base salary).\nCapex needs should then be considered, and the total number of existing trucks, the average age of the\nfleet of trucks, the average life-cycle of each truck, and the average annual repair costs.\nLastly, other factors such as the sales & marketing spend (S&M), insurance costs, and rent expenses should\nbe looked at, but these costs will not be impactful compared to the previous two."
+  },
+  {
+    "id": 346,
+    "question": "Would you consider distribution and transportation service providers to be a low-margin business?",
+    "answer": "Historically, distribution and transportation services are known for being in the bottom-tier of margins.\nHowever, software developments such as route optimization leverage geographic information systems (GIS) to\nensure the most efficient service routing should improve each transport and enable the provider to increase\nprices for their improved capabilities.\nOther developments, such as asset location tracking, enable the real-time monitoring of parts and components\nthrough bar code/QR code scanning to improve data accuracy and more information for the client. Asset\nlocation tracking is useful for the logistics industry as it ensures the accurate identification of the inventory's\nlocation to satisfy compliance requirements if relevant (e.g., pharmaceutical drugs).\nMany of these developments mentioned above serve as opportunities to improve their service offerings and\ndifferentiate themselves from competitors and improve margins."
+  },
+  {
+    "id": 347,
+    "question": "Why does the airline industry have such low margins?",
+    "answer": "Despite providing an essential transportation service, airlines have historically suffered from razor-thin\nmargins due to their high-fixed cost structure. The cost of purchasing new fleets is very expensive, and the\nconstant need for fleet maintenance, repairs, and geographic footprint all cut into the margins significantly.\nEach airline has high variable costs (e.g., certified pilots, flight crews, key personnel, airport customer service\nagents, security services) to worsen the margins that have already been hampered by the highly capital-intensive nature of the industry.\nAirline companies are also constrained in their ability to cut costs because of how high-stakes each expenditure\nis. For example, the decision to not repair a damaged plane, spend less on airline security, or reduce the\nnumber of flights could have significant reputational repercussions and wipe out a large portion of current and\nfuture bookings. There are very few costs/expenses that could be considered being “unnecessary.”\nAnother consideration is the competitive nature of the airline industry with various rival incumbents within\nthe market that compete on pricing, availability of flights, and geographic reach. Therefore, airline businesses\nmust ensure that they get their pricing strategy correct to appeal to customers, which effectively reduces their\npricing power and reduces their ability to improve upon their margins."
+  },
+  {
+    "id": 348,
+    "question": "What is the difference between fully autonomous vehicles and self-driving cars?",
+    "answer": "The terms are often used interchangeably, but a fully autonomous car would be completely self-aware and\ncapable of making its own choices with no human supervision required (Level 5). A self-driving car can drive\nitself, but a human passenger is required to be ready to take control of the wheel (Level 3)."
+  },
+  {
+    "id": 349,
+    "question": "Why has the rollout of Waymo and self-driving been done at such a slow pace?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nWaymo has long been considered a leading player in the self-driving technology space. Despite their head start,\nthe project has been beset by delays and revisions to commercialization predictions. Given the regulatory\nchallenges they face, safety has become their highest priority as their autonomous vehicles are deployed. One\nfatal accident could cause this venture to grind to a halt and cause reputational damage from society and\nmistrust in the technology being used."
+  },
+  {
+    "id": 350,
+    "question": "What does energy management software (EMS) refer to, and what role does it play in increasing the number of so-called \"smart buildings\"?",
+    "answer": "Energy management software (EMS) refers to applications that track and measure energy usage, identify\nleakages/waste, and is the core technology that enables smart buildings. For example, EMS can enable the\nbuilding owner to optimize and adjust the HVAC system, lighting controls, and energy usage based on\nsimulation modeling and demand analysis. EMS allows the building owner to conserve energy, reduce their\nutility bills, and comply with sustainability regulations that depend on the city/state."
+  },
+  {
+    "id": 351,
+    "question": "What does industrial access control involve, and what value does it provide to end-users?",
+    "answer": "Industrial access control systems manage people's entry into or out of specific areas within facilities while\nrestricting unauthorized entry for security purposes. The mounting security concerns regarding industrial\napplications have created the necessity for adopting access control technologies to protect their most valuable\nassets. The solutions provided include a range of electronic access control devices, electronic or mechanical\nlocks, and integrated surveillance systems to oversee the passage of people and assets through buildings and\nfacilities. These assets protected can be tangible, in addition to intangible assets held by companies (often in\nthe technology vertical). Thus, industrial access control involves expensive equipment and safety hazards, but\nit also protects internal documents, data, and other intangibles belonging to industrial companies."
+  },
+  {
+    "id": 352,
+    "question": "What is the difference between positive displacement pumps and centrifugal pumps?",
+    "answer": "Positive Displacement Pumps: Positive displacement pumps move fluids by trapping a confined volume\nof the liquid and forcing this trapped amount into the discharge port's suction. The most common methods\nseen are rotary, reciprocating, or diaphragm pumps. The fluid movement is generated by two (or three)\nspindles that move in opposing directions and thus displace the liquid. A key distinction is that the flow\nrate will remain constant, even with a change in pressure.\nCentrifugal Pumps: Centrifugal pumps are used to transport fluids using the rotational energy generated\nby a spinning motor/engine. Once the fluid nears the impeller of the pump, the movement is accelerated.\nAs the fluid nears this critical point, the pressure and velocity at which the fluid is pushed past the impeller\nincreases. To summarize, centrifugal pumps pass on velocity onto the liquid to result in outlet pressure.\nDistinction: The primary distinction is how centrifugal pumps transmit velocity to the liquid, resulting in\nincreased pressure for the outflow. In contrast, positive displacement pumps trap the liquid and transfer it\nfrom a suction-like discharge port. For centrifugal pumps, the pressure is first created and then flow\nresults, but with positive displacement pumps, flow is first created, and then pressure is created."
+  },
+  {
+    "id": 353,
+    "question": "What are the two most common types of positive displacement pumps?",
+    "answer": "1. Reciprocating Pumps: Based on the expansion, contraction, or reciprocating of a chamber to impact a\npump's pressure to draw fluids and guide them through the discharge outlet.\nDiaphragm Pump: functions similar to the human diaphragm, in which, as the diaphragm expands, the\nfluid is drawn into the pump and then discharged when it expands.\nPiston Pump: consists of a reciprocating mechanism in which the first stroke of the pump causes suction\nof the fluid and the chamber of the cylinder expands, and then as the pump force reverses, the outlet\nopens, allowing the fluid out from the high-pressure built up.\nPlunger Pumps: has an appearance similar to piston pumps, but the high-pressure seal is stationary, and a\nsmooth cylindrical plunger slides through the seal (i.e., more suited for higher pressures). In a plunger\npump, the high-pressure seal is stationary, and thus the plunger slides through the seal, allowing the pump\nto be used at higher pressures.\n2. Rotary Pumps: Utilize rotating chambers that trap fluid and then transport it from the intake side to the\npump's discharge side.\nScrew Pumps: Uses two screws that pressurize fluids and move them in a system based on rotation\nagainst the other - the screws take in the fluid then push it out from the other side from the pressure\nPeristaltic Pumps: Traps fluid in a flexible hose, and then the hose is pressurized (“pinched”) between the\nrollers and the inside wall of the housing - the rollers will revolve around a central axis, pushing out the\nfluid through the tubes and out the discharge outlet (i.e., like squeezing toothpaste)\nVane Pumps: Sliding vanes press up against the wall of the cavity when the rotor spins, creating a sealed\nchamber in which the fluid will be flown out\nProgressive Cavity Pumps: Transfer fluids through specifically shaped cavities once the rotor spins bi-directional (i.e., cork-screw motion) and is best suited when the liquid's viscosity is high\nGear Pumps: Rigid rotating gears inside a chamber push the fluid out towards as the gears spin\n(“revolutions”), and the trapped fluid will be carried by the rotation and tight meshing of the gears -\nmaking these pumps well suited for high viscosity fluids\nLobe Pumps: Functions similar to gear pumps, but the rotors are specifically designed to come close to\ntouching to drive each other’s movement and for items to flow through without being crushed (hence, its\nusage for food processing)"
+  },
+  {
+    "id": 354,
+    "question": "List a few manufacturing KPIs you would look at to measure the efficiency of a factory.",
+    "answer": "Throughput: The throughput KPI measures the production capabilities of a machine, line, or plant (i.e.,\nhow much can be produced over a specified period, usually an hour or day).\nTotal Number of Units Produced\nThroughput =\nTime\nOn-Time Delivery (OTD): The OTD measures the percentage of orders delivered on-time - often more\nrelated to logistics performance.\nWork Orders Delivered on Original Schedule\nOn Time Delivery (OTD) =\nOriginal Schedule Work Orders Due\nCapacity Utilization: Capacity utilization measures the proportion of potential output that's being used.\nThe target is for the machine/factory to run close to 100% capacity as possible.\nActual Utilization\nCapacity Utilization =\nTotal Production Capacity\nFirst Pass Yield (FPY): The FPY KPI metric calculates the percentage of products manufactured properly\nto specification the first time through the process (i.e., these don't require any rework or become scrap).\nQuality Units\nFirst Pass Yield Rate (FPY) =\nTotal Units Produced\nMachine Downtime Rate: The machine downtime rate is a basic KPI that provides a high-level view of\nhow operations function in terms of both scheduled downtime and unscheduled downtime - a target will\nbe set by the factory based on the scheduled downtime.\nDowntime Hours\nMachine Downtime Rate =\n(Downtime Hours + Operational Hours)"
+  },
+  {
+    "id": 355,
+    "question": "What are some ongoing trends in the plastics industry?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nShift towards ESG: The foremost trend in the plastics industry has been the increased focus on\nEnvironmental, Social, and Corporate Governance (ESG). OEMs and suppliers, whether by their own choice\nor due to regulations, have been assuming more sustainability responsibilities to leave a lesser impact on\nthe environment by committing to zero-waste initiatives and the use of recycled materials.\nBiodegradable Plastics: One trend has been the increased usage of biodegradable plastics such as\nBioresins, made from plant-based materials and thus naturally more compostable.\nPro-degradant Concentrates: Another development gaining traction is conventional thermoplastics\nbecoming more biodegradable. For example, straws are known for being very durable, which is beneficial\nfor suppliers and consumers, but not for the environment. By having more pro-degradant concentrates\nadded to them, these thermoplastics are becoming more eco-friendly."
+  },
+  {
+    "id": 356,
+    "question": "What is reinforced plastic, and why are they increasingly being used?",
+    "answer": "Reinforced plastics serve as an alternative to traditional metal. Historically, the automotive industry was the\nleading end market; however, reinforced plastics are now gaining traction with medical, defense, and\nconstruction applications due to being lightweight yet durable with design versatility.\nMost notably, carbon, glass, metal, and graphite-reinforced based plastics have been embraced as substitutes."
+  },
+  {
+    "id": 357,
+    "question": "What impact will the trend of electric vehicles (EVs) have on the polymer market?",
+    "answer": "Source note: This answer reflects the market, company, or regulatory context when the PDF was written. Refresh time-sensitive details before using it.\n\nThe imminent shift towards electric vehicles, led by Tesla, is expected to impact global polymer demand\npositively. Automakers prefer polymers over traditional metals to develop lighter, more energy-efficient electric\nvehicles. These lightweight materials not only make the vehicle conserve more energy, but they enhance the\ndesign and are manufacturable (i.e., easily molded and more versatile) for engineers. Using plastics in the\nautomotive industry has been around for decades, but with different requirements and newer developments\n(e.g., smaller, more compact) in plastics, the role polymers play will become more significant as the industry\nfinds more ways to use them.\nFor instance, advanced polymers such as polyphthalamide (PPA) and polyamide (PA) are expected to be the\nmaterials of choice as they can better endure the higher temperatures associated with the internal systems in\nEVs and support their new technologies (e.g., sensors, monitors)."
+  },
+  {
+    "id": 358,
+    "question": "What is additive manufacturing, and what benefits does it provide?",
+    "answer": "Additive manufacturing (AM), also known as 3D printing, is a technological advancement in industrial\nproduction that enables the efficient creation of lighter yet durable parts and systems through layering. AM\nuses computer-aided-design (CAD) and 3D object scanners to create a customizable, precise product quickly\nwithout a deterioration in quality despite the reduced cycle time.\nHowever, the term “rapid prototyping” has become closely aligned with AM, as that’s been its primary use case\nso far. While the turnaround times are short (~1-2 weeks), only low-volume production runs can be performed\nat once. Despite the promise shown, most of the work done has been for designing and prototyping relatively\nsmall plastic parts or components."
+  },
+  {
+    "id": 359,
+    "question": "What are the differences between injection molding and urethane casting?",
+    "answer": "Injection Molding: In injection molding, the molded product is created by injecting molten plastic\nmaterials into a mold and then cooling and sliding them. The cavity comes together with the core to form a\nvoid into which the melted plastic is injected to form the plastic part (i.e., to fill the “cavities”).\nUrethane Casting: During urethane casting, the cavity in the silicone mold forms the cavity by pouring the\nliquid (the “cured silicone”) around a master pattern (the design model for the end parts to be made).\nInjection modeling is better suited for higher temperatures and thousands of part production cycles per\nday (therefore used for mass production at lower costs).\nDistinction: A silicone mold is not durable enough to last for high volume production but can be produced\nmore quickly than injection molding - thus, it's more commonly used for prototype manufacturing. In\nterms of part quality, both methods can produce robust parts that have better durability and impact\nresistance than those produced by additive manufacturing. The deciding factor comes down to the volume\nbeing produced and the stage at which the product development is."
+  },
+  {
+    "id": 360,
+    "question": "How does a maritime/shipping company generate revenue?",
+    "answer": "A maritime/shipping company either owns or operates vessels that service the global commodity\n(crude/refined oil, coal, iron ore) and trade markets. A shipping company earns daily rental rate voyages\nsecured with a counterparty such as oil majors, commodity mining companies, and finished goods suppliers.\nThe agreements can be for extended voyages (time charters and bareboat) or short voyages (spot charters):\n1. Time Charter: A time charter contract defines a fixed daily rate over a defined period, usually one to\nthree years. This provides a predictable and defined revenue stream for the shipping company for a\nspecified period. In time charters, the charterer (e.g., the counterparty like an oil major) usually pays\nvoyage expenses (such as port and fuel costs for the vessel).\n2. Bareboat Charter: A bareboat charter is a long-term time charter, typically lasting longer than five years.\nAs the name implies, the charterer gets a bareboat in bareboat charters and covers virtually all expenses\ntied to operating the ship, including the vessel fuel, bunkers, port dues, and vessel operating expenses\n(e.g., day-to-day operations, maintenance, crewing, and insurance). The vessel owner receives daily\ncharter hire payments and is responsible only for the vessel's capital costs.\n3. Short Voyages (Spot Charter): While the time and bareboat charters provide the shipping company\nwith a long-term fixed payment, spot charters are based on a fixed daily rate (usually based on the weight\nof cargo) for a specific journey from a loading port to a discharge port. Spot charters are usually much\nshorter than time charters, lasting 90-120 days, as the term is specifically tied to a small defined number\nof voyages. In contrast to long-term or bareboat charters, spot charters are a relatively more volatile\nsource of revenue since the daily rental rate is agreed upon based on the marketplace's current dynamics\nand could change. In addition, unlike longer time or bareboat charter, the shipping company usually\ncovers voyager expenses such as port and fuel costs, which drive the daily rate higher. From the\ncharterer’s perspective, spot charters are full-service short-term rentals, while a time charter is typically\na one to three-year lease where the charterer has some responsibility to cover expenses. The bareboat\ncharter is a long-term lease where the charterer is almost like an owner, covering all expenses and getting\na no-frills empty boat."
+  },
+  {
+    "id": 361,
+    "question": "How do the financials of a maritime/shipping company different from a traditional company?",
+    "answer": "A maritime company’s financials are similar to those in other industries, but there are a few differences.\nFirst, depreciation and amortization are typically separately identified on the income statement, whereas\nin other industries, these line items are usually baked within operating expenses like COGS, SG&A, or R&D\nexpense. Here, it's relatively easy to derive a top-down EBITDA, but you would need to remove the effect of\nnon-recurring charges, if applicable.\nSecond, taxes are minimal to non-existent because companies are typically domiciled in “tax havens”\nwhere they're exempt from federal taxes. However, if there are specific jurisdictional taxes related to\ntransportation income that the company has to pay, they'll show up on the income statement. For example,\nvarious jurisdictions (like the US) change a tonnage tax on the amount of cargo freighted within their\nterritories."
+  },
+  {
+    "id": 362,
+    "question": "Walk me through a shipping company’s income statement.",
+    "answer": "A shipping company’s income statement is typically broken down by revenue and operating and non-operating\nexpenses. Revenues are typically generated from various activities (i.e., time charter revenue, spot charter\nrevenue, or pooled charter revenue) and adjusted for ownership percentages.\nThe operating expenses of a shipping company typically consist of:\nVoyage Expenses: Port and fuel costs and transport taxes in certain applicable jurisdictions.\nVessel Operating Expenses: Crew costs, provisions, deck and engine stores, lubricating oil, insurance,\nmaintenance, and repairs incurred.\nG&A: Salaries, legal costs, and stock-based compensation.\nD&A: Related to newly acquired vessels and other fixed assets.\nOther Expenses: FX gains or losses and goodwill impairment are captured here as well.\nThen, non-operating expenses will consist of net interest expense and other expenses."
+  },
+  {
+    "id": 363,
+    "question": "Walk me through a shipping company’s balance sheet.",
+    "answer": "Assets: For a shipping company, the vessels and vessels under construction comprise the largest assets on\nthe balance sheet, along with cash and cash equivalents.\nLiabilities: Current and long-term debt represents the largest liabilities. A key characteristic to be aware\nof is that shipping companies carry little to no working capital.\nEquity: Consists of common stock and treasury stock, preferred stock, retained earnings, and other\ncomprehensive income."
+  },
+  {
+    "id": 364,
+    "question": "How do you value a shipping company?",
+    "answer": "The most common valuation models employed to value a shipping company include:\nNet Asset Value (NAV)\nEnterprise Value Multiples (e.g., EV/EBITDA, EV/EBIT)\nEquity Value Multiples (e.g., Price to Cash Flow, Price/NAV)"
+  },
+  {
+    "id": 365,
+    "question": "Walk me through a NAV valuation for a shipping company.",
+    "answer": "The most common maritime valuation is the net asset value (NAV) model, which involves:\n1. Value EBITDA-Generating Assets: This part refers to valuing the vessels. The market values of vessels\nare readily available in industry trade journals based on selling/purchasing activity in the vessel\nmarketplace. To value vessels, start by computing the actual steel value based on market benchmarks,\nwhich will represent the bulk of the valuation. Then, analysts typically conduct a discounted cash flow\nanalysis on a company’s future time-charter profile by calculating the difference between the daily rate\nfixed on each vessel and the forward curve of expected time charter rates, as published in industry trade\njournals. The typical WACC used is 10%, but the PV of the embedded contract value is added to the steel\nvalue to obtain a “charter adjusted” value per vessel. This represents the “enterprise value” based solely\non vessel value.\n2. Subtract Debt & Other Non-Equity Claims Not Yet Valued: When subtracting debt and debt-like claims,\nthe book value is often used under the thinking that book values for these liabilities don't deviate too far\nfrom the market values. But if there's reason to believe deviations exist, market values should be used.\n3. Add Non-Operating Assets: Any non-operating assets not already included in the NAV build up like cash\nand construction in progress should be added to the NAV buildup. These can be valued at book value or\nthe projected market value in the case of construction in progress.\n4. Ending Valuation: The resulting value represents the NAV-derived equity value of the shipping company.\nThis can be compared against the company’s market cap or divided by shares outstanding to compare\nagainst the shipping company’s current share price to calculate Price/NAV. A company trading at a\npremium to NAV is a positive for stock price performance."
+  },
+  {
+    "id": 366,
+    "question": "Why might the NAV be preferable to a DCF for shipping companies?",
+    "answer": "The NAV approach is suited for shipping companies because, unlike other industries, shipping company\nbalance sheets carry real assets for which there are often comparable assets with observable market values.\nThe NAV approach is essentially recalculating a shipping company’s balance sheet to reflect fair market values\nof assets. This is simply not a feasible option for most industries, which is why a discounted cash flow analysis\nis often employed for them instead."
+  },
+  {
+    "id": 367,
+    "question": "What are some factors that may affect the valuation of a shipping company?",
+    "answer": "Valuation is influenced by Daily Revenue, Charter Rates, and Vessel Asset Values.\nThese are influenced by two factors:\n1. The supply and demand of the underlying commodities being shipped\n2. The supply and demand of actual vessels\nSupply and demand dynamics of the underlying commodity and/or products being transported:\nCrude oil and refined oil product markets\nLiquified natural gas (LNG) markets\nDry bulk commodities such as coal, iron ore, and grain\nGlobal freight transport through containerships\nSupply and demand dynamics of existing vessels “on the water” and vessels currently being built (i.e., “on\nthe global order book”)\nShips typically take 18 months to construct, and there typically is a frenzy of oversupply in the marketplace\nwhen underlying commodity demand is strong, which produces a supply lag, and makes timing (i.e., when the\nvessel owner bought, constructed, and finally deployed the vessel on voyages) a crucial element in this space.\nIn the years leading up to the financial crisis, there was a major uptick in ship orders that increased the order\nbacklog, and once those ships were ready to be deployed, the financial crisis hit, and ships were left idling “on-the-water” and were also for lack of a better term, financially underwater."
+  },
+  {
+    "id": 368,
+    "question": "What are the three major subsectors that make up O&G? Tell me a bit about each.",
+    "answer": "1. Upstream: Upstream consists of Exploration and Production (E&P) companies and Oil-Field Service\n(OFS) companies. OFS companies run drilling rigs and prepare seismic and geological/geophysical data\nto support E&Ps, which actually end up producing the oil and gas for sale.\n2. Midstream: Midstream companies are primarily involved in the transportation (pipelines, rail, etc.) and\nstorage of hydrocarbons (crude and refined product terminals, gas, and NGL storage facilities). Processing\ngas into natural gas liquids is also considered midstream, unlike the refining of crude.\n3. Downstream: Downstream refers to refining crude into motor gasoline (“mogas”), distillates, and others."
+  },
+  {
+    "id": 369,
+    "question": "How do you value each of the subsectors of O&G?",
+    "answer": "OFS and refining are typically valued similarly to the standard company: EV/EBITDA, P/E.\nMidstream might be valued on an EV/EBITDA basis, but it's complicated because many midstream\ncompanies are organized as Master Limited Partnership (MLPs) and pay Incentive Distribution Rights\n(IDRs) to the General Partner. The “GP burden” should be included as part of Net Debt in the numerator of\nEV/EBITDA. Otherwise, midstream companies are valued using a dividend discount model (or distribution\ndiscount model for MLPs).\nWhile E&Ps can be looked at on an EV/EBITDA or EV/EBITDAX basis, the predominant way of valuing\nE&Ps is via a Net Asset Value Model. Essentially, it's a long-term DCF (30+ years into the future) where the\nE&P’s reserves are depleted to zero, and cash flows are calculated over that long-term time frame. You\nwould then include any balance sheet adjustments (net debt, non-operating assets, asset retirement\nobligations, hedge assets/liabilities, and G&A costs)."
+  },
+  {
+    "id": 370,
+    "question": "Name a few O&G industry specific multiples beyond the typical multiples.",
+    "answer": "EV/EBITDAX: EBITDAX consists of an adjustment to EBITDA by adding back exploration expenses for\nsuccessful efforts companies.\nEV/DACF: DACF is an abbreviation for debt-adjusted cash flow, calculated as cash from operations plus\nafter-tax interest expense (could be before or after working capital changes).\nEV/Daily Production: This calculation results in a dollar figure and the denominator is based on either\nBOE or CFE production (aka EV/flowing barrel).\nEV/Reserves: In the US, this is usually calculated off of Proved Reserves, so it would technically be EV/1P.\nCanadian IFRS allows proved + probable reserves in filings, so the calculation would be EV/2P.\nAcreage Value: On many transactions, the most valuable asset may be undeveloped acreage. Say a\nPermian Basin operator acquires an operator nearby: it'll be worth some amount for its current\nproduction (flowing production), but a lot of the purchase price is the undeveloped acreage (for the\nPermian, you may see prices for $30,000/acre up to over $60,000/acre, but note that each region has\ndifferent metrics)."
+  },
+  {
+    "id": 371,
+    "question": "Describe the difference between full cost accounting and successful efforts accounting for E&Ps, and then the impact on the income statements and balance sheets of identical companies.",
+    "answer": "There are a few major differences between the two:\nSuccessful efforts accounting expenses geological/geophysical (G&G) costs as they're incurred and\nexpensing exploratory dry holes immediately.\nDevelopment dry holes are still capitalized under successful efforts.\nFull cost companies capitalize G&G costs, as well as capitalize exploratory dry holes.\nAssuming the companies are identical, successful efforts will show lower initial profits since they're expensing\nboth G&G and exploratory dry holes immediately. However, in later years, full cost companies should show\nlower profits since both exploratory dry holes and G&G costs are capitalized (making DD&A higher, as well as a\ngreater likelihood of an impairment/write-down)."
+  },
+  {
+    "id": 372,
+    "question": "Describe the characteristics that make O&G different from more traditional industries, such as consumer staples.",
+    "answer": "Commodity Pricing: O&G companies are “price-takers” and have little control in pricing (indirect control\nbased on hedging policy and where to sell production).\nDepleting Assets: Oil/Gas fields suffer from a natural decline element, so companies must continuously\ndrill to offset this decline.\nAsset Intensive: In an M&A environment, there should be little to no Goodwill recognized as\nUpstream/Midstream/Downstream assets are all easily identifiable.\nCyclical: O&G goes through severe boom and bust moments, so it's difficult to predict.\nSFAS 69: An unique aspect for E&Ps is that they're required to value their E&P operations per SFAS 69."
+  },
+  {
+    "id": 373,
+    "question": "For oil & gas companies, what is the SMOG disclosure requirement?",
+    "answer": "SFAS 69 requires the public disclosure of a standardized measure of discounted future cash flows from proved\noil and gas reserves quantities - this is often referred to as the standardized measure of oil and gas, or SMOG.\nThe SMOG has several limitations because it uses historical pricing and historical costs (which cannot be\nescalated), excludes hedging and G&A, and companies are required to use a 10% discount rate. Companies can\nonly value Proved Reserves and don't include any non-E&P assets like midstream or refining assets."
+  },
+  {
+    "id": 374,
+    "question": "Describe the different categories of reserves.",
+    "answer": "Proved Reserves (1P): 90% chance that the indicated reserve is there or larger\nProbable Reserves (1P+Probable Reserves=2P): 50% chance the probable reserves are there or larger\nPossible Reserves (2P+Possible Reserves=3P): 10% chance the possible reserves are there or larger"
+  },
+  {
+    "id": 375,
+    "question": "For reserves, how do 10-Ks under GAAP differ from IFRS filings?",
+    "answer": "Official GAAP filings (10-Ks) only allow Proved reserves to be shown (non-official reports like Investor\nRelations may show 3P reserves); IFRS allows companies to show 2P reserves."
+  },
+  {
+    "id": 376,
+    "question": "What are some differences between the financial statements for an E&P company vs. a regular company?",
+    "answer": "Realized and/or unrealized gains on hedges\nInstead of D&A, E&P companies show DD&A (depletion, depreciation & amortization)\nAsset retirement obligations are common (essentially environment remediation when it comes time to\nplug and abandon a well or wells)\nExploration expense: shown for successful efforts since these companies expense exploratory dry holes\nand G&G costs"
+  },
+  {
+    "id": 377,
+    "question": "What are some metrics that would be looked at in an O&G M&A model?",
+    "answer": "Aside from accretion/dilution to EPS (for the most part, only applicable to large companies), the focus\nwould be accretion or dilution to NAV.\nDebt-adjusted per share growth refers to production growth that excludes capital structure (i.e., neutral to\nhow the company is financed). Typically, debt would be converted to shares assuming a quarter-end share\nprice for this calculation. This metric allows comparison between companies that use debt vs. equity to\nfinance operations.\nReserves to Production ratio (R/P) is calculated as the reserves at the end of the year divided by the\nproduction during that year. Quick metric to determine how many years of proved reserves are left.\nProduction replacement ratios: Ideally, a company can replace its production. Defined as new reserves\ndivided by production. New reserves may or may not include acquisitions of reserves. It's better for a\ncompany to find its own reserves vs. acquiring reserves.\nF&D stands for finding and development costs, and its calculation is similar to Production Replacement\nratios (except it's in dollars rather than percentages). The numerator is based on a company's total costs\n(whether capitalized or expensed) divided by new reserves. It can also be calculated by excluding\nacquisitions in the numerator and excluding reserves from purchases in the numerator."
+  },
+  {
+    "id": 378,
+    "question": "Would an E&P company be a good candidate for an LBO? Why or why not?",
+    "answer": "No, due to the lack of control over prices and unpredictable cash flows, an E&P company would not be an ideal\ncandidate for an LBO."
+  },
+  {
+    "id": 379,
+    "question": "What are IDCs, and what type of companies can use them?",
+    "answer": "IDCs stand for intangible drilling costs, which can be immediately expensed for tax purposes for non-integrated\ncompanies (lack of refining, for simplicity)."
+  },
+  {
+    "id": 380,
+    "question": "What is the energy equivalency between a barrel of oil and natural gas in cubic feet?",
+    "answer": "One barrel of oil has the energy equivalence of approximately 6,000 cubic feet of gas (6 mcf). Using that\nrelationship, you could convert back and forth between a barrel of oil equivalent (BOE) and an mcfd (thousand\ncubic feet equivalent)."
   }
 ]
