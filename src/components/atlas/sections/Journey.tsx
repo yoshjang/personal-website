@@ -152,7 +152,7 @@ export function Journey() {
         />
 
         {STOPS.map((s) => (
-          <Reveal as="li" key={s.title} delay={40} className="relative grid gap-4 pb-12 pl-12 last:pb-0 md:grid-cols-[6.5rem_minmax(0,1fr)] md:pl-0">
+          <Reveal as="li" key={s.title} delay={40} className="relative grid grid-cols-[minmax(0,1fr)] gap-4 pb-12 pl-12 last:pb-0 md:grid-cols-[6.5rem_minmax(0,1fr)] md:pl-0">
             {/* marker */}
             <div className="md:pt-5">
               <span className="mono-label hidden text-foreground md:block">{s.marker}</span>
