@@ -592,7 +592,7 @@ function NowGallery() {
       />
       <Figure
         photo={photos.nowBasketball}
-        caption="Cameron Indoor Stadium court."
+        caption="On a Duke basketball court."
         sizes="(min-width: 640px) 22rem, 100vw"
         frameClassName="aspect-[3/4]"
       />
