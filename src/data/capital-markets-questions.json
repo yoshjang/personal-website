@@ -1,0 +1,642 @@
+[
+  {
+    "id": 1,
+    "question": "What is the difference between a bond and a leveraged loan?",
+    "answer": "While some features of leveraged loans and bonds can overlap, the key difference is that a loan is a private transaction between a borrower and a lender. The lender is a single bank or a small syndicate of banks or institutional investors. The interest cost is often LIBOR plus a spread, and the loan is often secured by collateral with strict covenants, while the repayment of principal can happen over time or as a bullet payment at the end. Given the collateral, earlier principal repayments, and covenants, loans are less risky and carry lower interest rates than bonds. Corporate bonds, in contrast, must be registered with the SEC and are public transactions. Bonds are issued to institutional investors and traded freely on the secondary bond market, leading to a broader investor base. Bonds are usually priced at a fixed rate with semi-annual payments, have longer terms than loans, and have a balloon payment at maturity. Since bonds come with less restrictive covenants and are usually unsecured, they're riskier for investors and therefore command higher interest rates than loans. Putting it all together, below is a table outlining the typical features of debt used in leveraged finance: The source comparison table lists these typical features. Leveraged loans include revolvers, Term Loan A, Term Loan B/C/D, and senior secured debt; bonds include senior unsecured and subordinated debt. Loans are commonly provided by banks and institutional investors, generally carry floating coupons, can amortize or mature as bullet payments, are usually secured by first- or second-lien collateral, and usually have three- to seven-year terms. Bonds are commonly held by institutional investors, generally carry fixed coupons with semiannual payments, usually mature as bullet payments, are typically unsecured, and usually have five- to ten-year terms. The table also shows bankruptcy priority and interest cost increasing as debt becomes more junior. Loans usually have no call protection, while bonds generally do. Revolvers may have maintenance covenants; other loans and bonds more commonly have incurrence covenants or covenant-lite terms."
+  },
+  {
+    "id": 2,
+    "question": "What is the difference between investment-grade and speculative-grade debt?",
+    "answer": "Investment-Grade Debt: Investment-grade debt (often called high-grade debt) has a credit rating above BBB/Baa. This category of debt is issued by companies with a strong credit profile. Investment-grade debt is considered safe, given the low risk of default. Speculative-Grade Debt: Speculative-grade debt has a credit rating below BB/Ba. These types of debt are issued by more leveraged companies with a riskier credit profile. Given this increased risk of default and bankruptcy, the interest rates on these riskier debts will be significantly higher to compensate investors for taking on the additional risk."
+  },
+  {
+    "id": 3,
+    "question": "What does it mean when a debt tranche is denoted as 1st lien or 2nd lien?",
+    "answer": "Lien is defined as the seniority and the priority of payment to a debt holder relative to the other tranches. A lien is a legal claim against the assets of a borrowing company (i.e., used as collateral) and the right to seize those assets first in forced liquidation/bankruptcy scenarios. 1st Lien Debt: The highest seniority, 1st lien, is fully secured by the company’s assets and has the first claim to collateral in a liquidation/bankruptcy scenario (e.g., revolver, term loans). 2nd Lien Debt: Right below 1st lien loans sits 2nd lien where compensation is provided only if there's collateral value remaining once 1st lien lenders are repaid in full. These debt types are riskier and more expensive for borrowers (e.g., high-yield bonds, mezzanine financing)."
+  },
+  {
+    "id": 4,
+    "question": "Tell me about the different classifications of term loans.",
+    "answer": "Term Loan “A”: TLAs refer to secured loans syndicated to banks and are typically packaged alongside a revolving credit facility. TLAs have shorter terms (~5 years), carry higher amortization levels than other term loans, and are amortized evenly over their tenor (i.e., “straight-lined”). Term Loan “B,” “C,” or “D”: An institutional term loan (B/C/D) is a loan facility syndicated to institutional, non-bank investors such as hedge funds, CLOs, mutual funds, and insurance companies. These term loans differ from TLAs in having longer terms while requiring no principal amortization before maturity – instead, they involve nominal amortization with a bullet payment due at maturity. TL B/C/Ds are more prevalent in LBOs than TLAs, as B/C/Ds have less strict covenants, longer terms, and require less principal amortization each year. The “B,” “C,” or “D” designation is more indicative of the investor base than the priority rank."
+  },
+  {
+    "id": 5,
+    "question": "What is the difference between a secured and unsecured loan?",
+    "answer": "Secured Loans: If a debt instrument is secured, that means the debt is backed by collateral. The assets of the borrower were pledged as collateral to get favorable financing terms. If the company were to go bankrupt, the lenders have a legal claim on the pledged collateral. Leveraged loans are secured by collateral and are the safest security class for a lender. Most term loans and revolvers in the leveraged loan market are syndicated to institutional investors such as hedge funds, CLOs, and mutual funds. Unsecured Loans: For unsecured loans, pension funds, mutual funds, insurance companies, hedge funds, and some banks are typically willing to invest in this relatively riskier type of debt for the higher yield."
+  },
+  {
+    "id": 6,
+    "question": "How are leveraged loans usually priced?",
+    "answer": "Leveraged loans are usually priced off LIBOR plus a spread. In addition, loans often include a LIBOR floor, so an example would be a pricing of “LIBOR + 3%” (300 basis points) with a LIBOR floor of 2%, so the interest rate can never dip below 5%."
+  },
+  {
+    "id": 7,
+    "question": "What does LIBOR stand for?",
+    "answer": "LIBOR stands for “London Interbank Offered Rate,” representing the global standard benchmark used to set lending rates. LIBOR is the rate at which banks lend amongst each other. For lenders of debt instruments with floating rates, the debt pricing will be based on LIBOR, the standard interest rate. However, LIBOR is expected to fade away in use as UK regulators have voiced a desire for LIBOR to be phased out by the end of 2021."
+  },
+  {
+    "id": 8,
+    "question": "What is SOFR, the expected replacement of LIBOR?",
+    "answer": "Source note: This answer reflects the PDF's historical context and should be checked against current benchmark conventions before use. Coming up on the horizon and expected to replace LIBOR eventually, the Secured Overnight Funding Rate (SOFR) is a measure of the borrowing costs of cash collateralized by Treasury securities. Said another way, the SOFR is a Repo-based funding rate of the observed transactions overnight."
+  },
+  {
+    "id": 9,
+    "question": "In terms of debt terminology, what does the coupon rate mean?",
+    "answer": "The coupon rate simply refers to the annual interest rate (“pricing”) paid on a debt obligation. The interest expense is based on the outstanding principal amount and is modeled as a percentage of the beginning and ending balance of the relevant debt tranche. In terms of payment dates, senior bank debt pays interest each quarter, whereas most bonds pay interest on a semi-annual basis."
+  },
+  {
+    "id": 10,
+    "question": "How does the coupon on a bond differ from the yield?",
+    "answer": "The coupon represents the annual interest rate paid based on the notional principal of the bond, while the yield is the annual return on the bond, including the coupon payment adjusted for the premium or discount of the purchase price when held to maturity. One difference is coupons are fixed for the bond's term, whereas yields move with the markets."
+  },
+  {
+    "id": 11,
+    "question": "What does it mean when a bond is trading at a discount, par, or premium?",
+    "answer": "Discount: Price < 100, yield > coupon. Par: Price = 100, yield = coupon. Premium: Price > 100, yield < coupon."
+  },
+  {
+    "id": 12,
+    "question": "What is the difference between a fixed and floating interest rate?",
+    "answer": "Fixed Interest Rate: A fixed interest rate means the interest expense to be paid is the same regardless of changes to the lending environment. A fixed interest rate is more common for riskier types of debt, such as high-yield bonds and mezzanine financing. Floating Interest Rate: A floating interest rate is tied to LIBOR plus a specified spread (i.e., LIBOR + 2- 4%). This pricing type is seen more often for senior debt tranches (e.g., term loans, revolvers)."
+  },
+  {
+    "id": 13,
+    "question": "When would an investor prefer fixed rates over floating rates (and vice versa)?",
+    "answer": "If interest rates are expected to fall in the near-term future, investors would prefer fixed rates. However, if interest rates are expected to increase, investors would prefer floating rates."
+  },
+  {
+    "id": 14,
+    "question": "What are some different debt amortization schedules?",
+    "answer": "The debt amortization schedule refers to the amount of principal the borrower must repay annually. Compliance with this payment schedule is mandatory and not optional for the borrower. Types of Debt Amortization Schedules: Bullet Maturity: The entire loan payment is due at the end of the loan’s lifespan. Straight-Line Amortization: Principal payments must be repaid in equal installments until maturity. Minimum Amortization: Entails lesser amounts of annual payments (e.g., ~5-10% per year) – therefore, the entire principal will not have been paid off at maturity."
+  },
+  {
+    "id": 15,
+    "question": "What is a callable bond and how does it benefit the issuer or borrower?",
+    "answer": "A callable bond can be redeemed by the issuer prior to its maturity, with the decision being at the issuer's discretion. A callable bond enables the issuing company to pay off the debt earlier if they have more free cash flow remaining in the period and can refinance at lower interest rates. From the investor's perspective, a callable bond gives more optionality to the issuer, so the debt holders are compensated with higher interest rates (compared to non-callable bonds)."
+  },
+  {
+    "id": 16,
+    "question": "When would the prepayment optionality of certain debt tranches be unattractive to lenders?",
+    "answer": "Some debt instruments include provisions that enable the borrower to repay some principal ahead of the payment schedule without the incurrence of any financial penalties. However, other lenders may include a call protection feature that prohibits borrowers from prepayment until a pre-specified duration has passed. The reason being that certain lenders prefer to disallow prepayment as it implies the receipt of more interest payments in the future. For instance, if the borrower pays more principal off early, the annual interest payments (inflows to the lender) in the future are reduced since interest is based on the beginning and ending balance of the debt outstanding."
+  },
+  {
+    "id": 17,
+    "question": "A bond has a call protection clause of NC/2. What does this mean?",
+    "answer": "Many HYBs will have call protection clauses that last two or three years (denoted as NC/2 and NC/3, respectively). Some are often NC/L, which means the bond is not callable for the term's entire duration. Once a bond becomes callable, the borrower may repay some (or all) of the debt balance and pay less interest. The caveat is that the prepayment penalties could offset those savings on interest – thus, HYB’s classification as an expensive financing source. Therefore, NC/2 means the bond has call protection for two years. Once this two-year period has passed, the borrower can repay the debt along with the prepayment penalty fee."
+  },
+  {
+    "id": 18,
+    "question": "What is a revolving credit facility and what purpose does it serve to the borrower?",
+    "answer": "The revolver refers to a company's revolving line of credit drawn down when the free cash flow being generated is insufficient. The revolver acts as a 'corporate credit card' for urgent situations. The borrower typically draws from the revolver to meet its short-term working capital requirements after an unexpected temporary shortage in liquidity. Ideally, the lender doesn't want the revolver fully drawn frequently, as it signals a deterioration in cash flows. The revolver provides the borrower with the optionality to draw down, repay, and reborrow on an as-needed basis."
+  },
+  {
+    "id": 19,
+    "question": "What is the undrawn commitment fee associated with revolvers?",
+    "answer": "A revolver typically comes with a small < 1% fee, which is an annual fee paid out to the lender. The borrower is charged an annual fee on the unused amounts, called the undrawn commitment fee."
+  },
+  {
+    "id": 20,
+    "question": "What is the difference between an asset-based loan and a cash flow revolver?",
+    "answer": "The maximum amount that can be drawn from an ABL revolver is based on the company’s liquid assets. Thus, the amount is tied to borrowing-base lending formulas to limit borrowing to a certain percentage of the collateral – most often inventory and accounts receivable (e.g., 80% of A/R + 65% of Inventory). The maximum amount that can be borrowed for cash flow revolvers is tied to the borrower's historical and projected cash flow generation. Therefore, covenants are more restrictive due to the uncertainty around future cash flows. Unlike physical assets such as inventory, a company's future cash flows cannot be pledged as collateral or seized in bankruptcy, hence its less favorable terms."
+  },
+  {
+    "id": 21,
+    "question": "Why do revolvers normally not have a leverage test?",
+    "answer": "In most cases, revolvers will only have an interest coverage ratio test (e.g., > 2.0x EBITDA/Cash Interest) and have the simplest covenant structure relative to other tranches of debt. This is because the revolver has the highest priority in the capital structure and has a priority claim to the borrower's assets. Therefore, the lender that provided the revolving credit line is unconcerned if the borrower raises additional debt, since this means the company has more cash available (on which the revolver has the first claim). In the scenario that the borrower undergoes bankruptcy, the revolver will almost certainly be made whole."
+  },
+  {
+    "id": 22,
+    "question": "What is unitranche debt and its benefits?",
+    "answer": "Unitranche debt financing is a blended hybrid of senior debt and subordinated debt. The distinct characteristics of unitranche debt are that it's just one tranche of debt instead of two (as the name suggests), and the debt is priced at a blended interest rate. Traditionally, there would be 1st and 2nd lien debt, and the borrower would have to get financing from two (or more) different lenders, which could make securing financing packages a time-consuming process. But in recent years, non-bank institutional lenders began to provide the entire package and customize it based on negotiations. The main advantage to borrowers over traditional credit facilities is that it enables borrowers to have “one-stop-shop” financing (i.e., the convenience factor). The borrowers would have only one set of loan documents, one set of covenants, and a much simpler and faster process to close."
+  },
+  {
+    "id": 23,
+    "question": "What is the difference between a bond’s coupon rate and the bond’s current yield?",
+    "answer": "The coupon rate (“nominal yield”) represents a bond’s annual coupon divided by its face (par) value. The current yield on a bond equals the bond’s coupon payment divided by the bond’s price. For example, a bond trading at 90 with a $100 face value and a $6 coupon has a 6% coupon rate and a current yield of 6.7% ($6/90). While the coupon rate is always the same, the current yield fluctuates based on the market price of a bond."
+  },
+  {
+    "id": 24,
+    "question": "What is the difference between current yield and yield to maturity?",
+    "answer": "The current yield on a bond equals the bond’s coupon payment divided by the bond’s price. The current yield is a way to discuss coupon rates when the bond price deviates from par. For example, a bond trading at 90 with a $100 face value and a $6 coupon has a 6% coupon rate and a current yield of 6.7% ($6/90). Unlike YTM, the current yield is not the true yield of a bond as it doesn't capture any yield associated with principal recovery, nor does it assume the reinvestment of coupon payments. The YTM is the internal rate of return of a bond. YTM considers coupon payments, principal recovery, assumes reinvestment at the same rate (an iterative process), and time to maturity."
+  },
+  {
+    "id": 25,
+    "question": "Could you define fixed income and name a few examples?",
+    "answer": "Fixed-income securities provide their investors with a stream of fixed periodic interest payments and then the return of principal at the end of its term. The fixed amount of interest is paid in the form of coupon payments, usually semi-annually. While all bonds technically fall under fixed income, fixed income usually refers to low- return, low-risk bonds (as opposed to mezzanine financing and HYBs). Examples include treasury notes, treasury bonds, treasury bills, municipal bonds, money markets, and certificates of deposits (CDs)."
+  },
+  {
+    "id": 26,
+    "question": "What does the money market refer to and what is the typical maturity range?",
+    "answer": "The money market refers to the purchase and sale of large quantities of short-term bonds and other debt instruments overnight. The maximum maturity of these short-term bonds is 397 days (~13 months), and the investors are usually risk-averse with limited risk appetite."
+  },
+  {
+    "id": 27,
+    "question": "What are the two main classifications of money market accounts?",
+    "answer": "Government Money Market Funds: T-Bills, Discos (Agency Discount Notes, Reverse Repo) Prime Money Market Funds: Short-Term Bonds, Commercial Paper, Certificates of Deposits"
+  },
+  {
+    "id": 28,
+    "question": "What is a municipal bond and what is the one distinct benefit it has for investors?",
+    "answer": "A municipal bond is a debt instrument issued by a state, municipality, or county to finance its capital expenditures needs, including construction needs, road developments, parks, highways, and other public projects. “Munis” could be viewed as loans that investors make to local governments – and for doing so, these bonds are exempt from federal taxes and most state/local taxes."
+  },
+  {
+    "id": 29,
+    "question": "What is the difference between coupon bonds and discount bonds?",
+    "answer": "Unlike coupon bonds, zero-coupon bonds (discount bonds) make no payments between issuance and maturity and are priced at a discount to their face value."
+  },
+  {
+    "id": 30,
+    "question": "What is the difference between Macaulay duration and modified duration?",
+    "answer": "Macaulay duration is the weighted average timing of the present value of all the cash flows, typically denoted in years. The modified duration, on the other hand, indicates the percentage change in a fixed income instrument's price given a 1% interest rate change – by making a slight adjustment to Macaulay’s duration to reflect the price movement given a change in yield. Asset managers and fixed income investors typically focus on modified duration, as it shows price sensitivity to interest rates. For example, a 10-year bond with a modified duration of 8 would lose 8% in price (say from par or $100 to $92) if the yield increased from 1% to 2%."
+  },
+  {
+    "id": 31,
+    "question": "What is the relationship between duration and the coupon?",
+    "answer": "The duration of any coupon-bearing bond will be less than its years to maturity, as there are coupon payments between now and maturity. Lower Coupon : Longer Duration: The lower the coupon, the longer the duration is and closer the duration is to maturity. The impact of each coupon payment to shorten the payment is reduced. Higher Coupon : Shorter Duration: The higher the coupon, the shorter the duration. Each coupon payment has a higher cash flow, which shortens the duration."
+  },
+  {
+    "id": 32,
+    "question": "What is convexity used to measure?",
+    "answer": "Convexity is a measure of the relationship between the price of a bond and its yield. Often, convexity is used to track the overall exposure risk on a portfolio of bond holdings. In general, a bond with higher convexity would have a higher price, and its addition to a portfolio should increase the systematic risk of the entire portfolio of bonds. Therefore, a high convexity portfolio would be more sensitive to interest rate fluctuations."
+  },
+  {
+    "id": 33,
+    "question": "What are the three types of covenants found in lending agreements?",
+    "answer": "Affirmative Covenants: These covenants require that the obligor (borrower) of the debt to perform certain specific tasks. Examples of affirmative covenants are meeting financial reporting requirements, paying taxes, being insured, maintaining licenses/permits, and legal compliance. Negative Covenants: These covenants restrict the obligor of the debt to refrain from certain specific tasks such as issuing dividends, raising debt, acquiring another company, or pledging assets as collateral. Financial Covenants: For financial covenants, there are two types: 1) maintenance and 2) incurrence covenants. Maintenance covenants are usually included in credit agreements (bank loans), while incurrence covenants are included in indentures (bonds)."
+  },
+  {
+    "id": 34,
+    "question": "What is the purpose of covenants in debt financing?",
+    "answer": "Covenants are contractual agreements between lenders and borrowers meant to protect the interests of the lending parties. Failure to comply with these covenants or breaching a covenant can cause the borrower to be placed into default, allowing lenders to seize the borrower’s assets. Debt-holders desire assurance of the full receipt of their due payments with a high level of certainty and restricting the borrower into making only risk-averse decisions and maintaining healthy credit statistics decreases the risk of not being paid back."
+  },
+  {
+    "id": 35,
+    "question": "What are maintenance covenants and provide some examples?",
+    "answer": "The objective of maintenance covenants is to ensure the borrower maintains sufficient profitability and cash flows to service debt payments. Compliance with maintenance covenants is tested each quarter. Examples of Maintenance Covenants Total Debt/EBITDA must remain below 5.0x Debt/Equity must never exceed 2.5x Interest Coverage Ratio cannot fall below 3.0x These parameters will change depending on the prevailing market conditions and be industry specific."
+  },
+  {
+    "id": 36,
+    "question": "What are incurrence covenants and give some examples?",
+    "answer": "The purpose of incurrence covenants is to prevent the borrower from taking specific actions that could put the lender’s payback at risk. Compliance with incurrence covenants is tested when taking a specific action (e.g., new debt issuance, dividends, acquisition). Examples of Incurrence Covenants Restricted from making acquisitions or divesting one of its business segments (or major assets) Prevented from raising additional debt, especially if it has higher seniority than the covenant holder Cannot distribute dividends to equity shareholders without the approval of the lenders"
+  },
+  {
+    "id": 37,
+    "question": "What is one key difference between maintenance and incurrence covenants?",
+    "answer": "Maintenance covenants differ from incurrence covenants in that they're subject to periodic tests, typically completed at the end of each quarter. The borrower must routinely prove its compliance with its maintenance covenants to avoid default. Incurrence covenants are tested only once a certain action or event “triggers” it."
+  },
+  {
+    "id": 38,
+    "question": "Leveraged loans have become increasingly “covenant-lite,” what does this entail?",
+    "answer": "Secured 1st lien loans have shifted towards becoming “covenant-lite” in recent times, meaning they're packaged with less restrictive incurrence covenants than traditional maintenance covenants. Compliance tests of covenant-lite loans are thus only required if the borrower takes a certain action (e.g., raises more debt, dividend issuance), rather than being tested periodically as they traditionally were. This trend is due to large banks needing to make their financing packages more attractive to borrowers to compete with newer types of institutional lenders that offer more flexibility (e.g., private credit funds, increased usage of unitranche debt)."
+  },
+  {
+    "id": 39,
+    "question": "What are subordinated notes?",
+    "answer": "Subordinated notes are characterized by longer tenors and higher-interest rates that compensate investors for undertaking more risk. This layer of debt enables the borrower to increase leverage beyond what risk-averse institutional banks will provide. While subordinate notes have a higher cost of capital relative to bank debt and don't allow prepayments, these notes come with less restrictive covenants."
+  },
+  {
+    "id": 40,
+    "question": "What are the characteristics of mezzanine financing?",
+    "answer": "Mezzanine financing refers to the layer of financing that lies in between traditional debt and common equity. This category is the lowest form of debt in the capital structure and includes preferred stock, convertible debt, bonds coupled with warrants. All mezzanine debt is unsecured and will be of smaller magnitude relative to the other parts of the capital structure. The debt terms involved in mezzanine financing are highly negotiated, flexible, and tailored to meet the specific needs of both parties. The interest rates are the highest compared to other less risky tranches and debt, with the option for interest to be paid-in-cash or payment-in-kind (PIK). Also, the conversion feature that some of these securities carry provides the holder with the optionality to partake in the upside potential of the equity (and create dilution for common shareholders)."
+  },
+  {
+    "id": 41,
+    "question": "What are bridge loans?",
+    "answer": "Bridge loans provide interim financing should the required debt commitments not be available by the closing of the deal (i.e., the borrower could not secure a firm commitment letter from lenders). Investment banks that can do so will provide this type of bridge loan commitment to prevent a transaction from stalling and give assurance that sufficient funding will be available to close the deal."
+  },
+  {
+    "id": 42,
+    "question": "What is staple financing and which type of lender provides it?",
+    "answer": "Staple financing is when the sell-side investment bank can provide some initial debt, but rather than holding onto the debt, they usually sell it to debt-oriented hedge funds or institutional investors. Staple financing is an option available when the sell-side advisor is a large, more institutionalized investment bank that has a balance sheet such as J.P. Morgan, Goldman Sachs, and Morgan Stanley. For clarification, the phrase “has a balance sheet” means the investment bank is diversified in terms of its sources of revenue and has a lending division, as opposed to purely offering M&A advisory services. This is an advantage that bulge bracket banks have over elite boutiques such as Evercore and Qatalyst Partners, where most of their revenue comes from M&A advisory – but this creates the potential for a conflict of interest since the firm serves both sides of the transaction (the seller and the buyer)."
+  },
+  {
+    "id": 43,
+    "question": "What is a firm commitment letter?",
+    "answer": "Once a financial sponsor or a strategic buyer has met with the target's management team and has proceeded with submitting an LOI, the next step is to get a firm commitment letter from its lender(s). This is done to gain credibility as a buyer, as the most credible bids are the ones with financing commitments prepared with the initial debt terms outlined."
+  },
+  {
+    "id": 44,
+    "question": "How does a highly confident letter differ from a firm commitment lender?",
+    "answer": "From both the buyer and seller perspective, committed financing is preferred as the lending bank is practically guaranteed to fund it upon closing. Alternatively, highly confident letters mean the lender believes it can raise the amount of capital required, but they'll not commit to it (and not backstop it with their balance sheet)."
+  },
+  {
+    "id": 45,
+    "question": "Other than covenants, what provisions can be included to protect lender interests?",
+    "answer": "Besides the traditional covenants found in lender agreements, there'll often be conditions listed that enable the lender to renege on its initial commitment without facing monetary consequences. These provisions are included in the case an unexpected event occurs. The lender doesn't want to be committed to lending in a situation when everything appears to be headed downhill and the risk of default has significantly increased. In these commitment letters, you would usually see a provision within the agreement to lend as long as certain conditions are met. In nearly all cases, the letter includes phrasing along the lines of how there cannot be a “significantly material adverse effect” that places repayment into question."
+  },
+  {
+    "id": 46,
+    "question": "What is commercial paper and which types of companies issue them?",
+    "answer": "Commercial paper is issued by large corporations with high credit ratings as short-term borrowing to finance their working capital needs. The typical commercial paper term is ~270 days, and the debt is issued at a discount (i.e., zero-coupon bond) as an unsecured promissory note. The minor concern associated with commercial paper is that they're unsecured, meaning they're not backed by any collateral. Therefore, only large corporations issue this type of debt as they have strong credit ratings."
+  },
+  {
+    "id": 47,
+    "question": "Besides market risk, name some other risks that bond investors face?",
+    "answer": "Default Risk: Default risk means the borrower's creditworthiness has decreased from deteriorating financial performance, and most often, it coincides with a downgrade from a credit agency. The higher the credit rating, the lower the probability of default. Liquidity Risk: Next, liquidity risk refers to when the ability of the bond to be exchanged has unexpectedly decreased. This means that the number of potential buyers in the market has diminished (e.g., changing lending conditions, unexpected company-specific circumstances). Event Risk: Finally, event risk pertains to specific events such as M&A or legal investigations that could change the risk of holding a particular bond. For example, if the SEC announces they have started an investigation into a company for fraud, this would have an immediate negative effect on all stakeholders."
+  },
+  {
+    "id": 48,
+    "question": "Tell me about the debt lender and equity investor “story disconnect.”",
+    "answer": "This disconnect between debt lenders and equity investors is due to lenders being 'backward-looking' and focused on how the company has performed historically. Particular attention is paid to signs of cyclicality in the borrower's performance and how it was affected by the latest recession. This is because debt lenders are more concerned with the downside case. After all, even if the company performs well, lenders don't participate in the upside alongside equity investors, whereas equity owners theoretically have unlimited upside. Thus, the continued generation of the borrower's cash flows to satisfy debt obligations is of the utmost importance to debt investors."
+  },
+  {
+    "id": 49,
+    "question": "When a company is raising capital, why is the lender's case usually less optimistic than the projections shown to raise interest from equity investors?",
+    "answer": "A distinction when dealing with lenders is that there's little incentive to show aggressive assumptions. Thus, lender case forecasts are lower than the base case for the debt covenants to be set off a lower base. While they must show that the company can meet the debt obligations to be approved for financing, there's no rational reason for a sponsor to stretch its assumptions beyond this. Debt covenants are usually based on this metric of EBITDA – thus, the EBITDA provided to lenders is the starting point. A higher EBITDA as the starting point means a higher EBITDA level is required to abide by the covenants. Then, future covenants will be based on quarterly projections of this initial EBITDA. Therefore, the borrower should desire a sufficient “cushion” to operate where, even if its EBITDA were to drop in an economic downturn, the covenant would still not be breached."
+  },
+  {
+    "id": 50,
+    "question": "What does refinancing risk involve?",
+    "answer": "Refinancing risk is the concern that a borrower cannot refinance its debt obligations at the same (or similar) rate as before. For example, the credit rating of the company may have been demoted, and lenders are no longer willing to refinance at the same rates."
+  },
+  {
+    "id": 51,
+    "question": "From the perspective of an investor, what is the interest rate risk in reference to?",
+    "answer": "Interest rate risk becomes a consideration for bonds with longer maturities. For instance, the market rates constantly change, and the lending environment could turn more favorable (interest rates could decrease). If an investor is locked into a long-term bond, they'll face more interest rate risk due to the longer maturities. Therefore, the investor would demand a higher yield to compensate for the additional risk taken on by agreeing to a long-term arrangement."
+  },
+  {
+    "id": 52,
+    "question": "What is prepayment risk?",
+    "answer": "Prepayment risk (often called reinvestment risk) is the risk that a lender takes on when allowing the borrower to pre-maturely paydown a particular debt. For example, if a borrower has pre-paid their loan and the lender has received the initial principal back – the lender must search for a new borrower. However, there's the risk that the credit market has become less favorable to lenders, and the lender may not achieve the same yield as before. For this reason, many lenders will not allow the optionality for prepayment, or if they do, they'll attach prepayment penalties as compensation for taking on the risk of having to reinvest at the current market rates (which could be significantly lower)."
+  },
+  {
+    "id": 53,
+    "question": "In mezzanine financing, what is an “equity kicker”?",
+    "answer": "An equity kicker is often issued as a “deal sweetener” for new debt issuances. Through the inclusion of an equity kicker, mezzanine investors can often increase returns by an extra 100-200 basis points. In return, the cost of financing can be brought down to allow the borrowing company to secure better terms. \"Equity Kicker\" Types Warrants: Warrants function similar to employee stock options such that the mezzanine investors have the option to exercise their options and turn them into common stock if profitable. This usually amounts to 1-2% of the total equity of the borrower. Co-invest: Mezzanine investors may seek the right to co-invest equity alongside the controlling shareholder, such as the financial sponsor in the case of funding an LBO. Conversion Feature: If the debt or preferred stock is structured as convertible, the investor has the option to 1) participate in the common equity's upside or 2) continue to receive interest or dividends."
+  },
+  {
+    "id": 54,
+    "question": "If a startup is “bootstrapping,” what does this mean?",
+    "answer": "If a startup is currently in the “bootstrapping” stage, operations are currently being funded entirely by the cash flows generated by the business and through the out-of-the-pocket funds from the entrepreneur. This term is often closely aligned with the concept of a startup remaining “lean” and holding off on raising outside, “unnecessary” capital to first maximize the utilization of their resources (e.g., human capital, intellectual property, product, and market strategy ideas/plans). The startup is likely attempting to minimize expenses while building its cash flow to reduce the need to raise outside capital. Alternatively, it may not have the option to raise capital even if it wanted to due to insufficient proof-of-concept. Once the startup has become more established and made more progress, it can raise capital with more negotiating leverage (rather than being at the mercy of early investors)."
+  },
+  {
+    "id": 55,
+    "question": "For an early-stage company, what are a few options for liquidity events?",
+    "answer": "A liquidity event is an opportunity for the founder of a private company and its early investors to sell some or all of their equity ownership. Given the illiquid nature of the investment and the high-risk nature of early-stage companies, it's reasonable to see a liquidity event. Often, this will begin with a minor partial liquidity event to take some profits (i.e., partial “cash-out”), with the provider of the capital being a venture capital firm. Later examples of liquidity events as the startup grows will be raising financing from venture firms and being acquired by a strategic."
+  },
+  {
+    "id": 56,
+    "question": "Who are angel investors?",
+    "answer": "An angel investor is most often a wealthy, accredited individual investing in seed and early-stage companies. Once a startup has exhausted its funding from friends and family members, the angel investor is often the first outside investor to provide capital. The company may often not even have a working product, and therefore, the angel investor is taking on a substantial risk of losing their initial investment. For this reason, the check size of an angel investor is rarely more than $1 million per startup investment."
+  },
+  {
+    "id": 57,
+    "question": "Walk me through the various funding rounds in venture capital.",
+    "answer": "Venture Funding Rounds Seed Round: The seed round will involve friends and family of the entrepreneurs and individual angel investors. Seed-stage VC firms can sometimes be involved, but this is typically only when the founder has previously had a successful exit in the past. Series A: The Series A round would include early-stage investors and typically represents the first time institutional investment firms will provide financing. During this stage, the startup's focus will be on optimizing its product offerings and business model and developing a better understanding of its users. Series B/C: These rounds represent the expansion stage and still involve mostly early-stage venture firms. The startup has gained initial traction and shown enough progress so the focus is now on scaling, which involves hiring more employees (especially in sales & marketing, business development). Series D: The Series D round (and onward) represents late-stage investments where the new investors providing capital will usually be growth equity shops that invest under the belief the company has a real chance at undergoing an IPO in the near term."
+  },
+  {
+    "id": 58,
+    "question": "From the perspective of an entrepreneur, what are the pros and cons of raising outside capital?",
+    "answer": "For entrepreneurs, the primary reason for raising outside capital is often first to ensure the business has sufficient funds even to operate. This will particularly be the case for startups that require high R&D for continued product development and to scale further. Using the newly raised capital, the entrepreneur has various options to improve their operations, including: Hire more talented employees and increase overall employee count (more job functions) Move the business to a better location (i.e., be closer to target customers, VCs, a state with lower taxes) Invest more in sales & marketing, advertising, and other operational roles Implement new growth strategies that otherwise could not be done without this funding Most venture capitalists are rarely simple providers of capital. These investors are often former entrepreneurs who had their own successful exits and can develop a strong mentor-mentee relationship with the entrepreneur. Under the guidance of the new advisors, the entrepreneur can better navigate the difficulties all startups inevitably face as they attempt to achieve growth and scale. In addition, an investor’s willingness to not only risk the loss of their capital but to spend their time and resources to provide guidance to the management team proves the validity of the entrepreneur’s business idea (i.e., this product and business plan could be viable). The major downside of raising outside capital is that the entrepreneur must give up more ownership of their business as more capital is raised. However, this is often a necessary decision if the entrepreneur wants to grow the business and eventually IPO (or have a similarly successful exit)."
+  },
+  {
+    "id": 59,
+    "question": "What does the proof-of-concept stage involve?",
+    "answer": "When a company is at the proof-of-concept stage, there's no working product on-hand. Instead, there's just a proposed idea for a certain product, technology, or service. Thus, it's difficult to raise much capital; however, the amount of funding required is usually very minimal since it's only meant to build a prototype and see if this idea is feasible in terms of product-market fit. At this stage, the investors providing this type of seed investment are usually friends, family, or angel investors."
+  },
+  {
+    "id": 60,
+    "question": "Explain to me what the commercialization stage is.",
+    "answer": "The commercialization stage is when the value proposition of a startup and the possibility of a product-market fit has been validated, meaning institutional investors have been sold on this idea and contributed more capital. The focus shifts almost entirely to revenue growth, as profitability is not the priority, since the company has more than enough capital raised and investors will contribute more if needed. The commercialization stage usually refers to Series C to D (and beyond), and there'll be several large, institutional venture firms and growth equity firms involved in guiding this high-growth company to help refine the product or service offering, as well as the business model."
+  },
+  {
+    "id": 61,
+    "question": "Explain the power law of returns in venture capital investing and its implications?",
+    "answer": "Peter Thiel famously said, 'The biggest secret in VC is that the best investment in a successful fund outperforms the entire rest of the fund combined.' The return distribution that Thiel was referring to is known as the power law of returns. Venture capital investments are made under the expectation that most will inevitably fail. However, a single investment by itself can enable the firm to meet its return hurdle. The implication is the considerable emphasis on market size when looking for prospective companies, given the risk/return profile. If the revenue opportunity present in the market is not large enough, the fund could not meet its return threshold even if the startup turned out to be a success. This illustrates why VCs target large industries worth at least approximately $500 million to achieve their target of approximately $100 million in revenue based on their market penetration assumptions with a reasonable margin of safety."
+  },
+  {
+    "id": 62,
+    "question": "What role does a lead investor have in a round of financing?",
+    "answer": "The lead investor in a company is a venture capital firm or individual investor that organizes a round of funding for a particular company. The lead investor is usually one of the first institutional investors in the company and will contribute the largest amount of capital (i.e., “lead the round”). The lead investor will often use their network to help the startup raise more funding from various investment firms and make introductions as needed. Therefore, the more credibility the lead investor has within the investment community, the higher the likelihood that other VC firms will trust their judgment and be more willing to participate in the upcoming financing rounds."
+  },
+  {
+    "id": 63,
+    "question": "Give me an example of the drag-along provision in use?",
+    "answer": "The drag-along provision protects the interests of the majority shareholders (usually the early, lead investors) by enabling them to force major decisions such as exiting the investment. This provision will prevent minority shareholders from holding back a particular decision or taking a specific action, just because a few shareholders with small stakes are opposed to it and refusing to do so. For example, suppose the stakeholders with majority ownership desire to sell the company to a strategic, but a few minority investors refuse to follow along (i.e., drag-along the process). In that case, this provision allows the majority owners to override their refusal and proceed onward with the sale."
+  },
+  {
+    "id": 64,
+    "question": "What are the typical characteristics of preferred stock?",
+    "answer": "Preferred stock can be best described as a hybrid between debt and equity – and sits right in between the two in the capital structure. Preferred stock has a higher claim on assets than common stock and receives dividends, which can be paid out as cash or “PIK.” Unlike common equity, the preferred stock class doesn't have voting rights but has seniority in the capital structure, but still has a lower claim than any debt holders. Sometimes preferred stock can be convertible into common equity, creating additional dilution."
+  },
+  {
+    "id": 65,
+    "question": "What are the two main types of preferred equity investments?",
+    "answer": "Participating Preferred: The investor receives the preferred proceeds (i.e., dividends) amount + has a claim to common equity afterward (i.e., “double-dip” in the exit proceeds). Convertible Preferred: Also referred to as non-participating preferred, the investor receives either 1) the preferred proceeds or 2) common equity conversion amount – whichever is of greater value."
+  },
+  {
+    "id": 66,
+    "question": "What is a liquidation preference?",
+    "answer": "The liquidation preference of an investment represents the amount the owner must be paid at exit (after secured debt, trade creditors, and other company obligations). The liquidation preference determines the relative distribution between the preferred shareholders and the common shareholders. Often, the liquidation preference is expressed as a multiple of the initial investment (e.g., 1.0x, 1.5x). Liquidation Preference = Investment Amount × Liquidation Preference Multiple."
+  },
+  {
+    "id": 67,
+    "question": "A preferred shareholder has a 2.0x liquidation preference. What does this mean?",
+    "answer": "A liquidation preference is a clause in a contract that gives a certain class of shareholders the right to be paid ahead of other shareholders in the event of a liquidation. This feature is commonly seen in venture capital investments. Given the high failure rate in venture capital, certain preferred investors desire assurance to get their invested capital back before any proceeds are distributed to common stockholders. If an investor owns preferred stock with a 2.0x liquidation preference – this is the multiple on the amount invested for a specific funding round. Thus, if the investor had put in $1 million with a 2.0x liquidation preference, the investor is guaranteed $2 million back before common shareholders receive any proceeds."
+  },
+  {
+    "id": 68,
+    "question": "What does it mean if the liquidation preference is a capped participation preference?",
+    "answer": "A capped participation preference (often called “capped participating preferred”) indicates that the preferred shareholders can share in the liquidation proceeds on a pro rata basis until total proceeds reach a certain multiple of the original investment, plus any accrued dividends. This is similar to participating preferred equity, but the proceeds are capped once a certain multiple has been reached."
+  },
+  {
+    "id": 69,
+    "question": "What is the difference between the pre-money and post-money valuation?",
+    "answer": "Pre-Money Valuation: The pre-money valuation refers to the company's value prior to the first (or the next) financing round. Post-Money Valuation: The post-money valuation accounts for the new investment amount after the financing round. It can be calculated as simply the new financing amount added to pre-money valuation, or the formula below can be used: Post-Money Valuation = New Financing Amount / % of Equity."
+  },
+  {
+    "id": 70,
+    "question": "Tell me about the difference between an up round vs. a down round.",
+    "answer": "Prior to a new financing round, the pre-money valuation will first be determined. The difference captured between the starting valuation and then the ending valuation after the new round of financing determines whether the financing was an “up round” or a “down round.” Up Round: An up round refers to financing in which the valuation of the company raising additional capital increases when compared to its prior valuation. Down Round: A down round refers to when the valuation of a company has decreased after a financing round when compared to the previous financing round."
+  },
+  {
+    "id": 71,
+    "question": "Can you give me an example of when dilution would be beneficial for a founder?",
+    "answer": "As long as the startup’s valuation has increased sufficiently (i.e., “up round”), dilution to the founder’s ownership can be beneficial. For example, let’s say that a founder owns 100% of a startup that's worth $5 million. In its seed-stage round, the valuation was $20 million, and a group of angel investors collectively want to own 20% of the company in total. The founder’s stake will be reduced from 100% to 80%, while the value owned by the founder has increased from $5 million to $16 million post-financing despite the dilution."
+  },
+  {
+    "id": 72,
+    "question": "Can a startup recover from a down round?",
+    "answer": "For certain, despite the dilution and potential internal conflict created from the unsuccessful new round of financing – the capital raised could have eliminated the risk of bankruptcy and given it enough money to turn the business around. This down round may have been the lifeline the startup needed to stay afloat and still have a chance at achieving its goals. While a down round is not a positive sign, it's not necessarily a sign that the end is near (although it may be more challenging to raise capital in the future unless clear improvements in performance are made)."
+  },
+  {
+    "id": 73,
+    "question": "What are anti-dilution protection clauses?",
+    "answer": "The purpose of anti-dilution protection clauses protects shareholders (usually the early investors) following a down round. In effect, their conversion ratio remains the same to shield their investment from potentially losing value due to the additional dilution created post-financing."
+  },
+  {
+    "id": 74,
+    "question": "What is the term sheet in venture capital?",
+    "answer": "Term sheets establish the specific agreements of investment between an early-stage company and a venture firm. The term sheet is a non-binding agreement that forms the basis of more enduring and legally binding documents, such as the Stock Purchase Agreement (SPA) and Voting Agreement. The term sheet is usually less than ~10 pages and is prepared by the investor. Although short-lived, the term sheet’s purpose is to list out the initial specifics of an investment, such as the valuation, dollar amount raised, class of shares, investor rights, and investor protection clauses. The term sheet would then flow into the capitalization table, which is essentially a numerical representation of the investor ownership specified in the term sheet."
+  },
+  {
+    "id": 75,
+    "question": "What is the pay-to-play provision and what purpose does it serve?",
+    "answer": "A pay-to-play provision incentivizes investors to participate in future rounds of financing. Simply put, these provisions will require existing preferred investors to invest on a pro rata basis in subsequent financing rounds. If not, the investors will lose some (or all) of their preferential rights, which most often include liquidation preferences and anti-dilution protection. In most cases, the preferred shareholder will accept being automatically converted to common stock with a down round."
+  },
+  {
+    "id": 76,
+    "question": "What is a right of first refusal (ROFR) and is it an interchangeable term with a co-sale agreement?",
+    "answer": "While a ROFR and co-sale agreement are both provisions intended to protect the interests of a certain group of stakeholders, the two terms are not synonymous. Right of First Refusal: The ROFR provision gives the company and/or the investor the option to purchase shares being sold by any shareholder before any other 3rd party. Co-sale Agreement: The co-sale agreement provides a group of shareholders the right to sell their shares when another group does so (and under the same conditions)."
+  },
+  {
+    "id": 77,
+    "question": "What are redemption rights?",
+    "answer": "A redemption right is a feature of preferred equity that enables the preferred investor to force the company to repurchase its shares after a specified period. It protects them from a situation when the company’s prospects turn bleak. However, this is a rare occurrence to see exercised, as most of the time, the company would not have sufficient funds to make the purchase even if legally required to so."
+  },
+  {
+    "id": 78,
+    "question": "What is a full ratchet provision, and how does it differ from a weighted average provision?",
+    "answer": "Full Ratchet Provision: A full ratchet is an anti-dilution provision that protects early investors and their preferred ownership stakes in the case of a down-round, the investor with the full ratchet's conversion price will be re-priced to the lowest price at which any new preferred stock is issued. In effect, the investor's ownership stake is maintained at the expense of substantial dilution to the management team, employees, and all other investors. Weighted Average: A similar anti-dilution provision used far more often is the weighted average method, which uses a weighted average calculation that adjusts the conversion ratio to account for any past share issuance and the prices they were raised. In effect, the conversion rate is lower than that of a full-ratchet strategy, making the dilutive impact far less severe."
+  },
+  {
+    "id": 79,
+    "question": "What is the difference between broad-based and narrow-based weighted average anti-dilution provisions?",
+    "answer": "Both broad-based and narrow-based weighted average anti-dilution protections will include common and preferred shares. However, broad-based will also include options, warrants, and shares reserved for purposes such as option pools for incentives. Since more dilutive impact from shares is included in the broad-based formula, the magnitude of the anti-dilution adjustment is thereby lower."
+  },
+  {
+    "id": 80,
+    "question": "What is a capitalization table and what purpose does it serve to early-stage companies and their shareholders?",
+    "answer": "A capitalization table (“cap table”) for any early-stage company tracks the equity ownership of a company in terms of number and type of shares (as well as series) along with any special terms such as liquidation preferences or protection clauses. For this reason, a cap table must be kept up-to-date to calculate the dilutive impact from each funding round, employee stock options, and issuances of new securities or convertible debt. Thus, all stakeholders can accurately calculate their share of the proceeds in a potential exit (i.e., liquidation event such as a sale to a strategic or IPO)."
+  },
+  {
+    "id": 81,
+    "question": "What is an option pool?",
+    "answer": "An option pool is a reservation of a certain percentage of shares (usually between 5% and 20%) set aside for future issuance to key employees, investors, or advisors of a company. The option pool is often used to attract talented employees by a cash-strapped startup that cannot afford to pay out high salaries due to insufficient cash and provide an incentive to perform well for the options to vest. Another case an option pool is used is when a private equity firm performing an LBO allots a portion of equity as an incentive tool for the management team to reach their targets (called a “management option pool”)."
+  },
+  {
+    "id": 82,
+    "question": "What is an employee stock ownership plan (ESOP) pool?",
+    "answer": "When a startup has an employee stock ownership plan (ESOP), it allocates a certain percentage of shares to early employees and later hires. The key distinction of this specific type of options pool is that it's not intended for the founding team, first employees, or current employees. Instead, an ESOP aligns incentives for future employees and is used to hire the top talent once the business scales. By the time a startup is nearing its Series A, the ESOP pool size typically ranges around ~10% of the fully diluted equity."
+  },
+  {
+    "id": 83,
+    "question": "What is growth equity and how does it differ from earlier-stage venture capital investments?",
+    "answer": "Growth equity involves taking minority equity stakes into high-growth companies that have moved beyond the initial startup stages. The investments made by growth equity firms are often called growth capital because they help the company advance into the next development stage. Since the growth equity firm doesn't have a majority stake, the investor has less influence on the portfolio company’s strategy and operations. However, the objective is more related to riding the ongoing, positive momentum and taking part in the IPO ideally."
+  },
+  {
+    "id": 84,
+    "question": "How does the typical growth equity investment differ from traditional buyouts?",
+    "answer": "Traditional buyout funds take majority stakes in stable growth, mature companies (usually ~90-100% equity ownership), whereas growth equity investors take minority stakes in high-growth companies attempting to disrupt a particular industry. For growth-oriented investors, differentiation is a key factor that's often the leading rationale for investing. To these investors, what makes a product worth investing in is the value it derives from its proprietary technology that's difficult to replicate or protected by patents. The end goal in growth equity investing is almost always an IPO."
+  },
+  {
+    "id": 85,
+    "question": "When growth equity investors pursue industries to invest in, how does it differ from industries targeted by traditional buyout firms?",
+    "answer": "Growth equity is centered on disruption in “winner-takes-all” industries; whereas traditional private equity is more about defensibility in revenue and free cash flows. In the industries that traditional buyouts take place, there's enough room for there to be multiple “winners.\" In addition, traditional buyouts typically rely heavily on the use of leverage in their investments, in contrast to growth equity firms, which may not use any debt, and usually are more focused on the pure growth of the equity in their investments."
+  },
+  {
+    "id": 86,
+    "question": "What is an initial public offering (IPO)?",
+    "answer": "An initial public offering (IPO) is the process of a privately held company offering its equity to the public in a new stock issuance. For a company to undergo an IPO, specific requirements must be met that are set by the Securities and Exchange Commission (SEC). An IPO presents a company with an opportunity to get further capital by offering shares through the primary market channel. Traditionally, the company will hire several investment banks (often called the “underwriters”) to advise on the transaction as the company “goes public.” The investment bank will market the company (i.e., the “roadshows”), secure demand from institutional investors, and set the IPO price and listing date."
+  },
+  {
+    "id": 87,
+    "question": "From the perspective of management, what are some downsides of going public?",
+    "answer": "While the benefits of becoming publicly traded from a monetary perspective are clear, there are several disadvantages to management once their company has gone public: The foremost concern for management teams is that they could lose control over their company, especially if shareholders are not pleased with its financial performance and believe they should be replaced. The disclosure requirements will open up the company to scrutiny by investors and their closest competitors can access their financials as their operations and playbook are an open-book for viewing. Going public puts more pressure on the management team to meet near-term performance metrics, as public market investors can be more short-term focused and expect companies to meet their quarterly or annual earnings guidance."
+  },
+  {
+    "id": 88,
+    "question": "What are the key differences between common and preferred stock?",
+    "answer": "Common Stock: Common stock is often referred to as basic shares and represents ownership in a particular company. Usually, common shares come with voting rights, and the amount of voting power a common shareholder has is directly related to the number of shares owned. Preferred Stock: Preferred stock is a hybrid between bonds and common stock, which can be appealing to more risk-averse investors. Preferred stockholders are usually paid preferred dividends consistently, hence its comparison to bonds. But if dividends cannot be paid out to any equity investors, preferred shareholders have a higher claim on the distributions than equity shareholders – so no dividends can legally be paid to common shareholders without first paying the preferred shareholders. On the downside, preferred shareholders have no (or limited) voting rights in the company's corporate governance and are still below all debt holders in the capital structure. In the event of liquidation, the preferred shareholders will have a higher claim on the liquidated assets relative to common shareholders, assuming there's remaining collateral after the debt holders have received their share."
+  },
+  {
+    "id": 89,
+    "question": "What are preemptive rights?",
+    "answer": "Preemptive rights allow existing shareholders to purchase a new issuance before it's offered to other potential buyers. This provision protects early shareholders from dilution when the company issues new shares."
+  },
+  {
+    "id": 90,
+    "question": "How can founders maintain control over their company post-IPO?",
+    "answer": "Once a company has gone public, it's inevitable for ownership to become diluted for all stakeholders. For many founders, this is the primary concern when considering selling shares to the open public. Three methods for management to help protect their control over their company are: Create Different Share Classes (Dual-Class Share Structure): This would mean there are distinct classes of common stock with different voting rights or voting power. The most common practice is the issuance of Class A and Class B shares. When a company goes public, the founders and early investors can be given shares with extra voting rights (often called “super-voting shares”). Maintain Majority Control: While it's near impossible for the founders to maintain majority control, close relationships with their early investors and investors with large stakes in the company would be very beneficial to have on their side and a way for them to maintain majority control in the company to an extent. Having the backing of the largest shareholders is reassuring from the perspective of management. Control the Internal Board of Directors (BOD): While regulations are increasingly forcing companies to include more independent board members, the more BOD members that have a close relationship with the founders – the more beneficial it is for management. Ideally, the entire board respects and believes the current management team is the right team to lead the company. The absence of this type of dynamic could lead to management being voted out if performance suffers. Therefore, it's in management's best interest to have as many inside directors as possible (rather than outside directors)."
+  },
+  {
+    "id": 91,
+    "question": "What are no-vote common shares and which headline IPO brought it into discussion?",
+    "answer": "The mainstream IPO that included no-vote common shares was the IPO of Snap Inc. in 2017. While common shares with differing voting rights are frequently seen during IPOs, the no-vote common shares were a rarity. In Snap's IPO, most shareholders were not given voting rights, which was controversial, as investors would be completely hostage to management decisions under the proposed corporate governance. Even Snap’s S-1 filing wrote that “to our knowledge, no other company has completed an initial public offering of non-voting stock on a US stock exchange” and acknowledged this decision could lead to a lower share price and fewer investors. In Snap’s IPO, there were three classes of stock: Class A, Class B, and Class C. Class A would be the shares traded on the NYSE with no voting rights, Class B would be for early investors and executives of the company and come with one vote each, and Class C would be held only by Snap’s two co-founders, CEO Evan Spiegel and CTO Bobby Murphy. The Class C shares would come with ten votes apiece, and the two holders would have a combined 88.5% of Snap’s total voting power post-IPO."
+  },
+  {
+    "id": 92,
+    "question": "During an IPO, what is the role of the underwriter?",
+    "answer": "The underwriter, most often an investment bank, will serve as an intermediary between the company issuing securities and the investing public. The underwriter will be tasked with handling the new issuance of stock and to ensure the public, primarily institutional investors (e.g., mutual funds, pension funds, hedge funds), commit to purchasing the issuance before actually becoming available for purchase in the open market. Some key obligations that the underwriter will have are to handle the roadshow strategy, generate interest from potential investors, and price the IPO optimally to maximize the value received."
+  },
+  {
+    "id": 93,
+    "question": "What is the purpose of a syndicate of underwriters?",
+    "answer": "A group of investment banks, called a syndicate, will purchase the new issuance of securities for a negotiated price and then promote the securities to their network of investors in a process called a roadshow. Doing so spreads the risk across several underwriters instead of placing all the pressure on one underwriter, which maximizes the chance of the entire issuance being sold to the public (but mainly to institutional investors)."
+  },
+  {
+    "id": 94,
+    "question": "What events take place during management roadshows?",
+    "answer": "A roadshow is when the management of a company raising capital will travel around to give presentations to institutional investors such as large asset management firms, hedge funds, and pension funds. The reason for doing the roadshows is to generate interest from investors for an upcoming issuance of equity or debt."
+  },
+  {
+    "id": 95,
+    "question": "What is the difference between the primary and secondary markets?",
+    "answer": "Primary Market: The primary market is when securities are first issued via an IPO – i.e., this is the first time shares are offered to the public. Secondary Market: The secondary market is when the securities are traded amongst investors, which include institutional firms (e.g., asset managers, hedge funds), as well as individual investors."
+  },
+  {
+    "id": 96,
+    "question": "What is a red herring, and when is it filed with SEC?",
+    "answer": "More formally called the preliminary prospectus, the red herring provides prospective investors with information regarding an upcoming IPO. Included in the prospectus are details related to the company’s products, growth plans, intended uses of the raised funds, potential risk factors, and more background details on the company (e.g., detailed financial statements, management team biographies). The filing must be filed with the SEC, not just accompany the bankers on the roadshow and be used to raise investor interest, but to describe the issuance of equity and the proposed details of the IPO offering."
+  },
+  {
+    "id": 97,
+    "question": "What is the S-1 filing, and how does it differ from the red herring?",
+    "answer": "The SEC Form S-1 is a required filing with the SEC for all US companies seeking to become publicly listed and registered on an exchange (i.e., planned IPO). Found in the S-1 is information on the planned usage of the raised capital proceeds, the current business model, full detailed historical financials, commentary on the competition landscape, a prospectus of the planned security issuance, the method for setting the offering share price, and commentary on existing securities and dilution. Compared to the red herring, the S-1 is lengthier and more formalized regarding the IPO's information and set strategy. The red herring is a preliminary prospectus that comes before the S-1 and is circulated during the “quiet period” before the registration has become official with the SEC. Often, the SEC may request additional material to be included or changes to the red herring. The final prospectus, the official S-1, would then be filed before the company can proceed with the distribution of shares."
+  },
+  {
+    "id": 98,
+    "question": "Why is there a lockup period associated with IPOs?",
+    "answer": "The 180-day lockup period associated with IPOs prevents insiders from selling their shares immediately once the company has undergone an IPO. The sudden increase in selling volume could cause the share price to drop significantly, as many early investors might want to liquidate their positions as soon as possible."
+  },
+  {
+    "id": 99,
+    "question": "What is the difference between a seasoned equity offering (SEO) and a rights offering?",
+    "answer": "Seasoned Equity Offering: A SEO is when a company that's already public (i.e., underwent an IPO) issues additional shares. This is often referred to as a “follow-on offering.\" Rights Offering: A rights offering gives existing shareholders the exclusive right to purchase new shares at a pre-specified price below the current share price on a pro rata basis."
+  },
+  {
+    "id": 100,
+    "question": "During an IPO, what does a firm commitment mean?",
+    "answer": "A firm commitment refers to when an investment bank, the underwriter of an IPO, agrees to assume all the risks associated with failing to sell all the shares being listed by purchasing all the securities being issued directly from the company. Under this method, the underwriter would bear all the risk because it purchases the entire issuance of new securities (hence, syndicates are far more common)."
+  },
+  {
+    "id": 101,
+    "question": "What do “best efforts” underwriting agreements involve?",
+    "answer": "An underwriting arrangement based on “best efforts” refers to the equity underwriters' commitment to making their best effort to sell as much as possible of the securities issuance. However, there's no guarantee that all the securities will be sold, so there are no negative implications for them failing to achieve the set capital raising target (other than potential reputational damage)."
+  },
+  {
+    "id": 102,
+    "question": "Could you explain the Dutch auction pricing method in an IPO?",
+    "answer": "In an IPO that uses the so-called Dutch auction pricing strategy, the share price is lowered until all the shares would be sold. Then, all the shares are sold at that price, which is the highest price where all the shares would be sold. Rather than setting the price based on valuation alone, the price is based on the bids placed by the interested buyers that will submit how much they would pay and the number of shares they can buy at their proposed price. In effect, bringing in a game theory element to this type of auction pricing strategy."
+  },
+  {
+    "id": 103,
+    "question": "What is a direct listing and how does it differ from the traditional IPO?",
+    "answer": "An alternative to the traditional IPO is a direct listing, which involves the company selling shares directly to the public market without the advising of an investment bank. Companies that decide to proceed with this route can avoid the lock-up period associated with IPOs, minimize the dilutive impact, and save a significant amount of money by not having to pay fees to investment banks. This option is riskier, however, since the process is relatively new, and there's no assurance that the shares will be priced correctly or enough shares will be sold. Direct listings come with fewer transaction costs (paid to investment banks) and the ability to avoid the lockup period but are not viewed as a “replacement” for an IPO because they're not ideal for a company that wants to raise capital. However, the SEC recently announced a rule change that companies undergoing a direct listing can now raise capital, making direct listing a more compelling alternative to IPOs. One of the first companies to do a direct listing was Spotify in 2018, as well as Slack in 2019. Two of the most prominent IPOs in 2020, Palantir Technologies and Asana Inc, both opted to go public under the non-traditional direct listing."
+  },
+  {
+    "id": 104,
+    "question": "In the past couple of years, IPOs have increasingly been scrutinized for leaving “money on the table.\" Could you explain what this criticism is regarding?",
+    "answer": "Following an IPO, the shares often surge and the market capitalization of the company can jump in excess of $50-$80 million on the 1st day of trading. This has led to criticism, including from prominent VC Bill Gurley, one of the leading critics of the underpricing of IPOs by investment banks for “leaving money on the table.” In defense of investment banks, this underpricing can be attributed to how their priority is to sell all the shares being listed, which often requires pricing it lower than some would pay. However, many investment banks are still accused of having conflicts of interest to serve both the company going public and institutional investors. For example, imagine an unrealistic scenario where shares were priced to “perfection” and the share price didn't budge once listed, meaning no share appreciation for the investors. Therefore, this discounted feature of IPO pricing could be seen as a way to establish long-term relationships with investors because if they achieve a high return from an IPO, they'll be more likely to invest in the next IPO managed by the same investment bank."
+  },
+  {
+    "id": 105,
+    "question": "A syndicate in an IPO has exercised the greenshoe option. What does this mean?",
+    "answer": "The greenshoe option (or “over-allotment”) is a clause outlined in the underwriting agreement of an IPO that allows the underwriting syndicate to purchase up to an additional 15% of the shares at the offering price. The option can be exercised, and more shares can be sold if demand from the public exceeded expectations, and the shares are trading above the offering price, which allows the issuing company to raise more capital. Alternatively, the underwriters are granted this right to buy more shares from investors to stabilize the price and decrease the supply if the share price dropped."
+  },
+  {
+    "id": 106,
+    "question": "What is a special purpose acquisition company (SPAC)?",
+    "answer": "A special purpose acquisition company (SPAC), often referred to as a “blank check company,” is a shell company formed strictly to raise capital through an initial public offering to acquire an existing company or merge multiple companies. Prior to having a specific target, the SPAC raises funds through an IPO of the SPAC’s equity securities, with the sponsor retaining ~20% of the post-IPO SPAC. The invested capital is moved into an escrow until the target to be acquired is determined, or else the capital will be returned to investors. While SPACs have been around for a while, 2020 has been a record year for this type of investment vehicle. From the company's perspective, SPACs have quickly become a popular method to go public in a simple, time-efficient manner (usually ~4-6 months). Arguably, it's even more convenient than a reverse merger with added benefits such as involving significantly less work than the traditional IPO. Most of the strenuous work involved in an IPO, such as making investors interested and raising capital, has already been done by the SPAC sponsor. The capital has already been raised, so all that remains is for the company to agree to a valuation. Here, the valuations paid technically have more accuracy (or at least are more straight-forward) since a SPAC deal is more like an M&A negotiation with buyers rather than an underwriter telling you what the market might pay. Thus, SPAC acquisitions come with a certainty of pricing aspect and less risk of “leaving money on the table” because there's no risk of failing to issue all the shares (hence no need for a discount). SPACs provide many advantages for companies looking to go public compared to a traditional IPO or direct listing, such as simplicity, faster timeframe, better valuation, and well incentivized long-term partners. As a side benefit, most SPAC sponsors are reputable individuals and asset management firms; otherwise, they would not have been able to secure the capital in the first place."
+  },
+  {
+    "id": 107,
+    "question": "What is a private placement?",
+    "answer": "A private placement is when a company raising capital issues shares to only a select few institutional investors. In contrast to a public issuance, the securities are not made available for sale to the open market and are not required to be registered with the SEC. A private placement is a more direct approach to selling to a group of accredited investors, consisting of institutional firms, mutual funds, and pension funds. Both public and privately held companies can partake in private placements."
+  },
+  {
+    "id": 108,
+    "question": "What are the characteristics of a shelf offering?",
+    "answer": "Filed with the SEC, a shelf offering provision (S-3 registration) enables a company to make an issuance in a three-year period, rather than selling it all in one sale. This can be beneficial as the market conditions could turn more favorable, and it gives the company raising capital more flexibility with the timing of the sales. Hence, many shares will be “on the shelf” until the company sells them."
+  },
+  {
+    "id": 109,
+    "question": "What does a private investment in public equity (PIPE) mean?",
+    "answer": "Private investment in public equity (PIPE) refers to the private placement of securities in a public company by accredited investors such as hedge funds, private equity funds, and mutual funds. The purchase will be made at a discounted price, usually as an unregistered convertible or preferred security. PIPEs have become an alternative way for companies to raise capital and this financing structure became more prevalent due to the relative cheapness and efficiency vs. a traditional secondary offering. There are also fewer regulatory requirements, as there's no need for expensive roadshows."
+  },
+  {
+    "id": 110,
+    "question": "What did the S&P 500/Dow/NASDAQ close at last night?",
+    "answer": "Source note: The figures, dates, and sample response below are historical examples from the PDF. Refresh them before using this answer. The market would likely be open at the time of the interview, and the interviewer doesn't expect you to have the exact latest numbers. Therefore, saying: “The S&P 500 closed around 3,570 yesterday and opened lower this morning after reports of new coronavirus infections surged” would be sufficient. Instead, it's more important to discuss the recent trends and developments driving equity valuations over the past few months and years rather than memorizing the precise figure at which a certain index closed. If you're preparing for an interview during an important economic period or event (e.g., COVID-19, recent Fed meeting, financial crisis, healthcare reform, tax reform), be aware of what’s going on and be prepared for questions on your thoughts on those types of current events."
+  },
+  {
+    "id": 111,
+    "question": "What is the current 10-year risk-free rate?",
+    "answer": "Source note: The figures, dates, and sample response below are historical examples from the PDF. Refresh them before using this answer. Similar to the previous question, you just need to answer with an approximation of the current risk-free rate. A response along the lines of “The yield on the 10-year treasury bonds has been around ~0.8% as of late” will do. Just make sure you're within the ballpark. If you want to open up a more in-depth discussion about the risk-free rate and interest rates, you could mention the direction it has been trending. For example, you could mention that throughout the fall, the risk-free rate has been trending upward since the summer from the increased political risks surrounding the 2020 elections, the rising cases of coronavirus cases as more businesses re-open, and more questions surrounding the timeline of the vaccine development."
+  },
+  {
+    "id": 112,
+    "question": "What’s your near-term and long-term outlook on the equity markets?",
+    "answer": "Source note: The figures, dates, and sample response below are historical examples from the PDF. Refresh them before using this answer. Start by answering where the current level of the market is and the prevalent trends in the market. For instance, has the market been rising with strong earnings? Then talk about the key catalysts that could move the market and the specific development you would be looking out for. In addition, try to find out what the bank’s research analysts predict for the market’s Year-End Target. You can find research estimates on Bloomberg or ask an analyst you have networked with to share the latest estimates with you. Many brokerage firms also provide institutional research to retail clients using their online brokerage account, so opening up a Chase or a Merrill account can allow you access to J.P. Morgan and BofA research. Later on in your careers, when you discuss the markets with clients, you'll start with your house view (research), and then you can add your personal views on why you would disagree. Sample Response “First off, I know your bank’s Year-End target for the S&P500 is 4,000. I am personally slightly more bearish with the view that the S&P 500 will trade range bound and close the year at the same point we are now. Overall, the S&P 500 is trading at a P/E ratio of 36, which is quite high on a historical context. Most of the positive news on the COVID recovery has already been priced in, and I feel a shift in sentiment or flows can send stocks lower. We are approaching quarter-end, and with stocks outperforming bonds this quarter, I would expect some investors to sell stocks and buy bonds for rebalancing. Although I am slightly more bearish, I don't think there's a risk for a broad market crash. The Fed has shown strong support for the market. We are seeing the Fed ease up on some support in the market. The S&P 500 is already higher than where we were pre-COVID, and my view is that the Fed will continue to remove support for the market if we move higher, limiting the upside gains in the market and causing us to trade on a range-bound basis.”"
+  },
+  {
+    "id": 113,
+    "question": "What do you think the Fed is going to do at the next FOMC Meeting?",
+    "answer": "Source note: The figures, dates, and sample response below are historical examples from the PDF. Refresh them before using this answer. Although the question asked has no right or wrong answer, there are a few unasked questions that will showcase your understanding of the markets: When is the next FOMC meeting? What is the current Fed Funds Target Rate? What was the Fed’s action at the last FOMC meeting? What is the Futures Market implying for the FOMC meeting? To answer this question effectively, you need to list the key facts to the unanswered questions and then express your view. If the market is not expecting a move in the Fed Funds rate, be prepared to discuss the Fed’s balance sheet and changes in its Asset Purchase Programs. Sample Response “The next FOMC meeting will be on November 5th. The current Fed Funds Target rate is between 0 and 25 basis points. The Fed has held this rate steady since the emergency meeting in March when the Coronavirus crisis began. The market is not expecting any change to the Fed Funds Target Rate, and I'm not either. I'll be watching the Fed closely to see if they're planning to change the language or guidance of their asset purchase program. With the stock markets near all-time highs, I would expect the Fed to remove some asset purchases modestly they have promised but gradually as to not spook the markets.”"
+  },
+  {
+    "id": 114,
+    "question": "What is the key difference between the NYSE and the NASDAQ?",
+    "answer": "In the US, the two primary stock exchanges are the NYSE and the NASDAQ. Before filing for an IPO, companies must decide which stock exchange to list their shares. NYSE: The NYSE (New York Stock Exchange) is the older stock exchange with roots back to 1817 and physically on Wall Street. Originally, the NYSE was setup with pit trading on an actual trading floor, but today, most trades are electronic, although some market makers still exist. NASDAQ: Launched in 1971, the NASDAQ is newer and a completely electronic exchange with offices in Times Square and data centers in New Jersey. Compared to the NYSE, the NASDAQ is more tech-heavy due to its flexible listing requirements that appeal to former startups that at one point didn't qualify for the NYSE. However, the NYSE has relaxed its listing requirements in recent years, removing the clear divide as there used to be."
+  },
+  {
+    "id": 115,
+    "question": "What is the treasury yield curve, and what does its shape tell you?",
+    "answer": "The yield curve is just a plot of the relation between the yield and the term of otherwise similar bonds. The treasury yield curve plots treasury bond yields across their terms and is the most widely used yield curve as it sets a “risk-free” benchmark for other bonds (corporate, municipal, etc.). A treasury yield curve is normally upward sloping because, all else being equal, an investor would prefer a one year, 3% bond than being locked into a 30-year, 3% bond. However, investors’expectations about future interest rates affect the slope as well. When investors expect the Fed to raise short-term interest rates in the future, investors will decrease demand for short-term treasuries to avoid getting locked into a low but soon-to-be higher short-term rate. This decrease in the relative demand for short-term treasuries will raise short-term yields and flatten the yield curve."
+  },
+  {
+    "id": 116,
+    "question": "What does an inverted yield curve tell you?",
+    "answer": "An inverted yield curve means that yields on longer maturities are lower than shorter maturities of otherwise comparable bonds, like treasuries. Normally, yield curves are upward sloping as issuers must pay a premium to entice investors to keep their capital locked up for a longer-term. When the yield curve inverts, it's usually a harbinger of an economic slowdown and recession. In fact, the last seven recessions were preceded by an inversion of the yield curve, and it's considered a strong leading indicator by economists and investors alike. The inversion happens as investors anticipate market interest rates to decline down the road (presumably because they expect a slowdown and expect monetary policymakers to eventually lower rates to stimulate the soon-to-be slowing economy). Thus, investors prefer the safety of long-term maturities at the current higher rates over investing in shorter maturities and having to reinvest at the lower expected future rates."
+  },
+  {
+    "id": 117,
+    "question": "In terms of yield curve jargon, what does an upward sloping yield curve, inverted yield curve, steeping yield curve, and flattening yield curve imply?",
+    "answer": "Upward Sloping: Long-Term Government Bond Yields > Short-Term Government Bonds Yields Inverted: Long-Term Government Bond Yields < Short-Term Government Bonds Yields Steepening: The interest rate differential between Short-Term and Long-Term bonds is increasing Flattening: The interest rate differential between Short-Term and Long-Term bonds is decreasing"
+  },
+  {
+    "id": 118,
+    "question": "During a period of record unemployment and economic turmoil in 2020, the markets recovered faster and performed better than expected. What led to this disconnect between the equity market and the economy?",
+    "answer": "While there are many potential reasons the markets are trading at the levels they're trading at today (or counter-arguments on whether they should be), one reason valuations have recovered rather quickly is because of the role that the risk-free rate has when valuing equities. Since the market bottomed in March 2020, the US 10-year treasury notes have been around 0.6% to 0.8% – mostly on the lower end of this range, especially between July and August 2020. Many institutional investors had two choices to either invest in: Default-free government bonds yielding practically nothing (< 1% return) Invest in the stock of large, multinational companies with a high likelihood of making it through this period, if not benefit from the lock-downs The strong performance of the so-called “FAANG” stocks (Facebook, Amazon, Apple, Netflix, and Google) made it clear which decision many investors chose. These leading tech-giants have disproportionately outperformed the broader market as they led its recovery. Given their weighting in the S&P 500 Index, it becomes clear why the market surpassed record all-time highs later in 2020. Most investors will either directly or implicitly make an investment decision based on the opportunity cost elsewhere. In the direct case, many investors will use discount rates that use the current ten-year government yield as the risk-free rate while performing a DCF (which leads to higher valuations). Others will implicitly see how bond prices have increased as more investors have sought safer assets, which means lower yields because of the inverse relationship. So investors who seek high returns (or even at least have the potential to receive a moderate return) have nowhere else to park their capital other than the equity market."
+  },
+  {
+    "id": 119,
+    "question": "How does the current market compare to the peak of the Dot-com bubble in 2000?",
+    "answer": "Source note: This answer compares the dot-com bubble with market conditions at the time the PDF was written. The Dot-com bubble (often called the internet or tech bubble) reached its highest point around March 2000. At that period, the Chairman of the Federal Reserve, Alan Greenspan, announced his intention to raise interest rates aggressively. The US 10- year treasury notes were yielding ~6% on average. Therefore, when concerns about equities being overvalued were increasingly spreading – investors could sell their shares and receive a ~6% risk-free return. Contrast this to today, where the Fed Chairman, Jerome Powell, has clarified interest rates will remain near zero through 2022. In the current market, there's no “safe-haven” investment with a decent yield. The term “zero-default risk” loses its meaning to equity investors when interest rates are close to zero (i.e., fair to state, it becomes almost worthless to investors seeking decent returns). The Fed has made it clear that interest rates will remain at this low rate until they're 100% confident that the economy has recovered from the coronavirus's negative effects. Despite providing projections that GDP will bounce back in 2021 and confidence in the recovery, there was no public signal that a rise in interest rates was even in consideration."
+  },
+  {
+    "id": 120,
+    "question": "What is the definition of VIX and why is it used?",
+    "answer": "VIX is an index of the implied volatility of the one-month S&P 500 options at different strikes. VIX is a measure of overall market sentiment and is often referred to as the “fear gauge.” A low VIX is associated with a strong market with limited volatility. A high VIX is a sign of fear and an uncertain market. The VIX measures S&P 500 options' implied volatility, including how costly options are to hedge your portfolio."
+  },
+  {
+    "id": 121,
+    "question": "Where is the price of oil at?",
+    "answer": "Be careful not to quote the futures prices, as both Bloomberg and Yahoo Finance will show futures prices as well as the price of the spot index. For Oil indices, be specific if you're quoting WTI or Brent, as there's more than one benchmark."
+  },
+  {
+    "id": 122,
+    "question": "What tools does the US government have to combat inflation or hyperinflation?",
+    "answer": "The Federal Open Market Committee (FOMC) targets an inflation rate of ~2% over the long-term. To keep inflation around this target range, the US government has monetary and fiscal policies it can use to maintain a stable, long-term inflation rate. Monetary Policies: Monetary policies involve actions taken by the US central bank to control the money supply and demand to maintain sustainable economic growth. These policies can be classified as either expansionary or contractionary. Expansionary policies increase the liquidity of the money supply, whereas contractionary policy decreases the liquidity of the money supply. Examples of these policies would include strategically adjusting interest rates, changing reserve requirements, direct lending to banks, and open market operations. Fiscal Policies: Fiscal policies are related to changing tax policies and government spending to increase or decrease the purchasing power of the economy. In effect, this gives the Fed the ability to regulate the economy and influence economic conditions. For example, the corporate tax cut in 2017 from 35% to 21% under the Tax Cuts and Jobs Act (TCJA) was enacted to fuel economic growth and incentivized corporations to return their foreign operations to create more jobs in America."
+  },
+  {
+    "id": 123,
+    "question": "What is quantitative easing (QE)?",
+    "answer": "Quantitative easing (QE) is a form of monetary policy where the central bank will directly make purchases of longer-term securities from the open market to increase the money supply and total liquidity. In effect, QE will decrease interest rates, which will directly encourage more lending and make money flow more into equities since fixed-income instruments will have low yields. This type of monetary policy is controversial, as it's essentially meant to flood the economy with money to spur economic activity. QE became a controversial topic of discussion when the Federal Reserve announced in March 2020 that it would purchase $700 billion worth of government debt, bonds, and mortgage-backed securities over the coming year. This unprecedented decision would not only significantly increase the Fed’s balance sheet risk and increase its already-mounting debt, but has created widespread concerns about this seemingly endless “printing” of money. The broader implications this could have for future generations remains an unknown. Often, to help spark economic growth, the Fed will turn to cut interest rates, but interest rates were already close to zero – hence, the Fed turned to QE."
+  },
+  {
+    "id": 124,
+    "question": "What does it mean when the Fed is engaging in open market operations?",
+    "answer": "Open market operations are when the central bank purchases or sells short-term government securities (e.g., treasuries) in the open market to influence the money supply and impact short-term interest rates. If the money supply circulating in the system is increased, it becomes easier for businesses and consumers to get loans at low-interest rates, which has a positive impact on economic activity. Alternatively, the selling of securities from the central bank’s balance sheet will remove money from the system. This reduction makes loans more difficult to be approved for (i.e., more demand from borrowers, less supply of money) and, as a result, makes interest rates on these loans increase."
+  },
+  {
+    "id": 125,
+    "question": "What is the relationship between bond prices and interest rates?",
+    "answer": "There is an inverse relationship between bond price and interest rates. If market interest rates go up (due to a Fed interest rate hike or other market conditions), this has the impact of making the interest being offered by currently outstanding debt seem less attractive given the availability of comparable investments with now higher interest rates, all else being equal. The price of outstanding bonds would thus drop in this scenario."
+  },
+  {
+    "id": 126,
+    "question": "If the Fed wants to lower rates, what can it do?",
+    "answer": "If the Fed wants to lower rates, it can directly purchase treasuries in the open market, and then T-bill yields would directly decline. The buyers, which consist of other foreign governments, individuals, institutional investors, and large banks, will store this cash and raise the supply. Alternatively, the Fed can lower rates through repurchase agreements (RPs). This would lower banks’demand for reserves and thus the Fed funds rate, which is the basis on which commercial banks lend."
+  },
+  {
+    "id": 127,
+    "question": "If the Fed wants to increase rates, what can it do?",
+    "answer": "Conversely, if the Fed wants to raise rates, it can sell treasury bills in the open market. The Fed lends cash overnight to a select group of banks (“primary dealers”) while taking treasuries as collateral at the repo rate. These primary dealers will then disseminate this cash throughout the financial system; thus, the fed funds rate increases. If the Fed wants higher rates, it can also do a reverse repo (“RRP”), in which the Fed borrows money from primary dealers. This would tighten the credit markets, and the fed funds rate would increase."
+  },
+  {
+    "id": 128,
+    "question": "Besides direct purchases or sales, what is another policy tool the Fed can use to manipulate interest rates?",
+    "answer": "Source note: This answer uses terminology from the PDF and should be checked against current Federal Reserve terminology before use. Another policy tool available to the Fed is to adjust the provided interest on bank reserves. The lowering of this rate (called interest on excess reserves, or \"IOER\") would encourage lending (and vice versa). The IOER is the interest rate the Federal Reserve pays on excess reserves. This rate is typically within the fed funds’target range. For example, if the fed funds target range is 1.5% to 1.75%, the IOER would be ~1.6%."
+  }
+]

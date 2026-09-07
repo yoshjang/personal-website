@@ -13,6 +13,7 @@ import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import accountingQuestions from "@/data/accounting-questions.json";
+import capitalMarketsQuestions from "@/data/capital-markets-questions.json";
 import lboQuestions from "@/data/lbo-questions.json";
 import maQuestions from "@/data/ma-questions.json";
 import valuationQuestions from "@/data/valuation-questions.json";
@@ -24,13 +25,14 @@ const TOPICS = ["Accounting", "Valuation", "M&A", "LBO", "Capital Markets", "Ind
 type StudyMode = "cards" | "browse";
 type Question = { id: number; question: string; answer: string };
 type Topic = (typeof TOPICS)[number];
-type AvailableTopic = "Accounting" | "Valuation" | "M&A" | "LBO";
+type AvailableTopic = "Accounting" | "Valuation" | "M&A" | "LBO" | "Capital Markets";
 
 const QUESTION_BANKS: Record<AvailableTopic, Question[]> = {
   Accounting: accountingQuestions as Question[],
   Valuation: valuationQuestions as Question[],
   "M&A": maQuestions as Question[],
   LBO: lboQuestions as Question[],
+  "Capital Markets": capitalMarketsQuestions as Question[],
 };
 
 function isAvailableTopic(topic: Topic): topic is AvailableTopic {
@@ -87,8 +89,8 @@ function Technicals() {
                 Technicals, <span className="text-gradient">one answer at a time.</span>
               </h1>
               <p className="body-copy mt-5">
-                Practice complete accounting, valuation, M&A, and LBO banks in focused flashcards,
-                or search and browse every answer.
+                Practice complete accounting, valuation, M&A, LBO, and capital markets banks in
+                focused flashcards, or search and browse every answer.
               </p>
             </div>
             <div className="glass min-w-56 rounded-2xl p-4">
@@ -109,7 +111,8 @@ function Technicals() {
                 value === "Accounting" ||
                 value === "Valuation" ||
                 value === "M&A" ||
-                value === "LBO"
+                value === "LBO" ||
+                value === "Capital Markets"
               ) {
                 setTopic(value);
               }
