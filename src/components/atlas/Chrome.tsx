@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
-import { Linkedin, Mail } from "lucide-react";
+import { ChartNoAxesCombined, Linkedin, Mail } from "lucide-react";
+import { Link } from "@tanstack/react-router";
 import { cn } from "@/lib/utils";
 import { LINKS, type SectionDef } from "./content";
 import { useActiveSection, useFinePointer, useReducedMotion } from "./motion";
@@ -192,6 +193,14 @@ export function TopNav({ sections }: { sections: SectionDef[] }) {
         </ul>
 
         <div className="flex shrink-0 items-center gap-1">
+          <Link
+            to="/markets"
+            aria-label="Open the daily markets brief"
+            className="flex min-h-9 items-center gap-2 rounded-full bg-primary/15 px-3 text-[0.8125rem] font-semibold text-primary-bright transition-colors hover:bg-primary/25 hover:text-foreground"
+          >
+            <ChartNoAxesCombined aria-hidden="true" className="h-4 w-4" />
+            <span className="hidden sm:inline">Markets</span>
+          </Link>
           <a
             href={LINKS.mailto}
             aria-label={`Email ${LINKS.email}`}

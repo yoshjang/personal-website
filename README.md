@@ -1,11 +1,12 @@
 # joshuawang.app
 
-Personal storytelling website for Joshua Wang. Single page, five narrative
-chapters, fully static output suitable for GitHub Pages.
+Personal storytelling website for Joshua Wang with a separate daily markets
+brief. Both views are fully static and suitable for GitHub Pages.
 
 - TanStack Start (prerendered to static files)
 - React, TypeScript, Tailwind CSS
 - Photos in `public/photos`, research poster in `public/documents`
+- Daily FRED market snapshot and source-linked GDELT headlines
 
 ## Development
 
@@ -14,7 +15,7 @@ Requires [Bun](https://bun.sh).
 ```sh
 bun install
 bun run dev     # local dev server
-bun run build   # production build, static output in dist/client
+bun run build   # refresh market data and build static output in .output/public
 ```
 
 ## Deployment to GitHub Pages
@@ -24,7 +25,8 @@ bun run build   # production build, static output in dist/client
 2. In the GitHub repository, open Settings, Pages, and under "Build and
    deployment" set Source to **GitHub Actions**. The workflow in
    `.github/workflows/deploy-pages.yml` installs with the committed lockfile,
-   runs `bun run build`, and uploads `dist/client`.
+   runs `bun run build`, and uploads `.output/public`. It also runs nightly to
+   refresh the latest available market observations.
 3. Push to `main` (or run the workflow manually) and wait for the
    "Deploy to GitHub Pages" run to finish.
 4. In Settings, Pages, Custom domain, enter `joshuawang.app` and save. The
