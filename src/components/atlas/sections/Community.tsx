@@ -18,7 +18,7 @@ export function Community() {
         <h3 className="mono-label">At Duke</h3>
       </Reveal>
       <div className="mt-5 grid gap-4 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)]">
-        <div className="grid gap-4">
+        <div className="grid grid-cols-[minmax(0,1fr)] gap-4">
           <Reveal delay={0}>
             <DetailCard
               icon={Users}
@@ -77,7 +77,7 @@ export function Community() {
       <Reveal className="mt-14">
         <h3 className="mono-label">In Toledo</h3>
       </Reveal>
-      <div className="mt-5 grid gap-4">
+      <div className="mt-5 grid grid-cols-[minmax(0,1fr)] gap-4">
         <Reveal>
           <DetailCard
             icon={Sprout}
