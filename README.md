@@ -1,29 +1,45 @@
-# Welcome to your Lovable project
+# joshwang.app
 
-This project was built with [Lovable](https://lovable.dev).
+Personal storytelling website for Joshua Wang. Single page, five narrative
+chapters, fully static output suitable for GitHub Pages.
 
-## Build with Lovable
-
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- TanStack Start (prerendered to static files)
+- React, TypeScript, Tailwind CSS
+- Photos in `public/photos`, research poster in `public/documents`
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Requires [Bun](https://bun.sh).
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+bun install
+bun run dev     # local dev server
+bun run build   # production build, static output in .output/public
 ```
 
-## Built with
+## Deployment to GitHub Pages
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+1. In Lovable, open the project and connect it to GitHub (top right, GitHub).
+   Every change made in Lovable is then committed to that repository.
+2. In the GitHub repository, open Settings, Pages, and under "Build and
+   deployment" set Source to **GitHub Actions**. The workflow in
+   `.github/workflows/deploy-pages.yml` installs with the committed lockfile,
+   runs `bun run build`, and uploads `.output/public`.
+3. Push to `main` (or run the workflow manually) and wait for the
+   "Deploy to GitHub Pages" run to finish.
+4. In Settings, Pages, Custom domain, enter `joshwang.app` and save. The
+   repository already contains `public/CNAME` with that value, so the build
+   keeps the domain configured. Leave "Enforce HTTPS" enabled once the
+   certificate is issued.
+
+## DNS at Name.com
+
+Configure DNS only after the repository exists and GitHub Pages has shown you
+the target hostname for the site. GitHub's Pages settings page and its
+"Managing a custom domain" documentation list the exact A, AAAA, or CNAME
+values to use for an apex domain such as `joshwang.app`. Copy those values from
+GitHub, then in Name.com open Manage DNS Records for `joshwang.app` and add
+them. Do not guess the records ahead of time.
+
+After DNS propagates, GitHub Pages will validate the domain and issue the
+certificate, and the site will be live at https://joshwang.app/.
