@@ -174,16 +174,16 @@ export function Journey() {
               details={s.details}
             >
               {s.photos ? (
-                /* Justified row: every frame shares one height, width follows the aspect ratio. */
-                <div className="mt-5 flex flex-wrap gap-3">
+                /* Stacked full width on phones. From sm up, a justified row: every frame shares one height and width follows the aspect ratio. */
+                <div className="mt-5 flex min-w-0 flex-wrap gap-3">
                   {s.photos.map((p) => (
                     <Figure
                       key={p.photo.src}
                       photo={p.photo}
                       caption={p.caption}
                       sizes="(min-width: 640px) 22rem, 100vw"
-                      className="max-w-full"
-                      frameClassName={cn("h-52 max-w-full sm:h-60 lg:h-64", p.frame)}
+                      className="w-full min-w-0 sm:w-auto sm:max-w-full"
+                      frameClassName={cn("w-full sm:h-60 sm:w-auto sm:max-w-full lg:h-64", p.frame)}
                     />
                   ))}
                 </div>
