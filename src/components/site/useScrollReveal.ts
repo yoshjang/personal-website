@@ -26,7 +26,13 @@ export function useScrollReveal<T extends HTMLElement>() {
     return () => observer.disconnect();
   }, []);
 
-  return { ref, className: shown ? "reveal is-revealed" : "reveal" };
+  return {
+    ref,
+    className: [
+      "transition-all duration-700 ease-out motion-reduce:transition-none",
+      shown ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4",
+    ].join(" "),
+  };
 }
 
 /** Tracks which section id is currently in view. */
