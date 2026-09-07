@@ -13,6 +13,7 @@ import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import accountingQuestions from "@/data/accounting-questions.json";
+import maQuestions from "@/data/ma-questions.json";
 import valuationQuestions from "@/data/valuation-questions.json";
 
 const SITE_URL = "https://joshuawang.app/technicals";
@@ -22,11 +23,12 @@ const TOPICS = ["Accounting", "Valuation", "M&A", "LBO", "Capital Markets", "Ind
 type StudyMode = "cards" | "browse";
 type Question = { id: number; question: string; answer: string };
 type Topic = (typeof TOPICS)[number];
-type AvailableTopic = "Accounting" | "Valuation";
+type AvailableTopic = "Accounting" | "Valuation" | "M&A";
 
 const QUESTION_BANKS: Record<AvailableTopic, Question[]> = {
   Accounting: accountingQuestions as Question[],
   Valuation: valuationQuestions as Question[],
+  "M&A": maQuestions as Question[],
 };
 
 function isAvailableTopic(topic: Topic): topic is AvailableTopic {
@@ -83,8 +85,8 @@ function Technicals() {
                 Technicals, <span className="text-gradient">one answer at a time.</span>
               </h1>
               <p className="body-copy mt-5">
-                Practice complete accounting and valuation banks in focused flashcards, or search
-                and browse every answer.
+                Practice complete accounting, valuation, and M&A banks in focused flashcards, or
+                search and browse every answer.
               </p>
             </div>
             <div className="glass min-w-56 rounded-2xl p-4">
@@ -101,7 +103,9 @@ function Technicals() {
           <Tabs
             value={topic}
             onValueChange={(value) => {
-              if (value === "Accounting" || value === "Valuation") setTopic(value);
+              if (value === "Accounting" || value === "Valuation" || value === "M&A") {
+                setTopic(value);
+              }
             }}
             className="mt-8"
           >
