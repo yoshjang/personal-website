@@ -553,8 +553,8 @@ function ToledoGallery() {
       <Figure
         photo={photos.toledoGroup}
         caption="STEM camp participants with their certificates."
-        sizes="(min-width: 1024px) 18rem, (min-width: 640px) 22rem, 100vw"
-        frameClassName="aspect-[4/3]"
+        sizes="(min-width: 1024px) 36rem, (min-width: 640px) 22rem, 100vw"
+        frameClassName="aspect-[16/9]"
         className="lg:col-span-2"
       />
       <Figure
