@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { ArrowLeft, ArrowRight, Check, Eye, Layers3, List, Search, Shuffle } from "lucide-react";
 import { Backdrop, Spotlight } from "@/components/atlas/Chrome";
 import {
@@ -13,6 +13,7 @@ import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import accountingQuestions from "@/data/accounting-questions.json";
+import valuationQuestions from "@/data/valuation-questions.json";
 
 const SITE_URL = "https://joshuawang.app/technicals";
 
@@ -20,8 +21,17 @@ const TOPICS = ["Accounting", "Valuation", "M&A", "LBO", "Capital Markets", "Ind
 
 type StudyMode = "cards" | "browse";
 type Question = { id: number; question: string; answer: string };
+type Topic = (typeof TOPICS)[number];
+type AvailableTopic = "Accounting" | "Valuation";
 
-const questions = accountingQuestions as Question[];
+const QUESTION_BANKS: Record<AvailableTopic, Question[]> = {
+  Accounting: accountingQuestions as Question[],
+  Valuation: valuationQuestions as Question[],
+};
+
+function isAvailableTopic(topic: Topic): topic is AvailableTopic {
+  return topic in QUESTION_BANKS;
+}
 
 export const Route = createFileRoute("/technicals")({
   component: Technicals,
@@ -46,6 +56,87 @@ export const Route = createFileRoute("/technicals")({
 });
 
 function Technicals() {
+  const [topic, setTopic] = useState<AvailableTopic>("Accounting");
+  const questions = QUESTION_BANKS[topic];
+
+  return (
+    <div className="relative min-h-screen">
+      <a
+        href="#study-bank"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-lime focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-lime-foreground"
+      >
+        Skip to question bank
+      </a>
+      <Backdrop />
+      <Spotlight />
+      <TechnicalsHeader />
+
+      <main className="mx-auto max-w-6xl px-5 pb-20 pt-28 sm:px-8 sm:pt-32">
+        <section id="study-bank" aria-labelledby="technicals-title">
+          <div className="flex flex-col gap-6 border-b border-border/70 pb-8 lg:flex-row lg:items-end lg:justify-between">
+            <div>
+              <p className="mono-label text-accent">Investment banking interview prep</p>
+              <h1
+                id="technicals-title"
+                className="display mt-4 max-w-4xl text-5xl sm:text-6xl lg:text-7xl"
+              >
+                Technicals, <span className="text-gradient">one answer at a time.</span>
+              </h1>
+              <p className="body-copy mt-5">
+                Practice complete accounting and valuation banks in focused flashcards, or search
+                and browse every answer.
+              </p>
+            </div>
+            <div className="glass min-w-56 rounded-2xl p-4">
+              <p className="mono-label">{topic} bank</p>
+              <p className="mt-2 font-display text-3xl font-bold tabular-nums">
+                {questions.length}
+              </p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                complete question and answer pairs
+              </p>
+            </div>
+          </div>
+
+          <Tabs
+            value={topic}
+            onValueChange={(value) => {
+              if (value === "Accounting" || value === "Valuation") setTopic(value);
+            }}
+            className="mt-8"
+          >
+            <TabsList className="scrollbar-none h-auto w-full justify-start gap-1 overflow-x-auto rounded-2xl border border-border bg-surface/80 p-1.5">
+              {TOPICS.map((topicName) => {
+                const available = isAvailableTopic(topicName);
+                return (
+                  <TabsTrigger
+                    key={topicName}
+                    value={topicName}
+                    disabled={!available}
+                    className="min-h-11 shrink-0 rounded-xl px-4 data-[state=active]:bg-primary/25 data-[state=active]:text-foreground"
+                  >
+                    {topicName}
+                    {!available ? (
+                      <span className="ml-2 text-[0.65rem] uppercase tracking-wider">Soon</span>
+                    ) : null}
+                  </TabsTrigger>
+                );
+              })}
+            </TabsList>
+
+            {(Object.keys(QUESTION_BANKS) as AvailableTopic[]).map((topicName) => (
+              <TabsContent key={topicName} value={topicName} className="mt-6">
+                <StudyBank topic={topicName} questions={QUESTION_BANKS[topicName]} />
+              </TabsContent>
+            ))}
+          </Tabs>
+        </section>
+      </main>
+    </div>
+  );
+}
+
+function StudyBank({ topic, questions }: { topic: AvailableTopic; questions: Question[] }) {
   const [mode, setMode] = useState<StudyMode>("cards");
   const [order, setOrder] = useState(() => questions.map((_, index) => index));
   const [position, setPosition] = useState(0);
@@ -62,14 +153,17 @@ function Technicals() {
         item.question.toLowerCase().includes(normalized) ||
         item.answer.toLowerCase().includes(normalized),
     );
-  }, [query]);
+  }, [query, questions]);
 
-  const move = (direction: -1 | 1) => {
-    setPosition((currentPosition) =>
-      Math.min(questions.length - 1, Math.max(0, currentPosition + direction)),
-    );
-    setRevealed(false);
-  };
+  const move = useCallback(
+    (direction: -1 | 1) => {
+      setPosition((currentPosition) =>
+        Math.min(questions.length - 1, Math.max(0, currentPosition + direction)),
+      );
+      setRevealed(false);
+    },
+    [questions.length],
+  );
 
   const shuffle = () => {
     const next = questions.map((_, index) => index);
@@ -96,125 +190,61 @@ function Technicals() {
     };
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [mode]);
+  }, [mode, move]);
 
   return (
-    <div className="relative min-h-screen">
-      <a
-        href="#study-bank"
-        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-lime focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-lime-foreground"
-      >
-        Skip to question bank
-      </a>
-      <Backdrop />
-      <Spotlight />
-      <TechnicalsHeader />
+    <>
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <div className="inline-flex rounded-full border border-border bg-background/55 p-1">
+          <button
+            type="button"
+            onClick={() => setMode("cards")}
+            aria-pressed={mode === "cards"}
+            className={`inline-flex min-h-10 items-center gap-2 rounded-full px-4 text-sm font-semibold transition-colors ${mode === "cards" ? "bg-primary/25 text-foreground" : "text-muted-foreground hover:text-foreground"}`}
+          >
+            <Layers3 aria-hidden="true" className="h-4 w-4" />
+            Flashcards
+          </button>
+          <button
+            type="button"
+            onClick={() => setMode("browse")}
+            aria-pressed={mode === "browse"}
+            className={`inline-flex min-h-10 items-center gap-2 rounded-full px-4 text-sm font-semibold transition-colors ${mode === "browse" ? "bg-primary/25 text-foreground" : "text-muted-foreground hover:text-foreground"}`}
+          >
+            <List aria-hidden="true" className="h-4 w-4" />
+            Browse all
+          </button>
+        </div>
+        {mode === "cards" ? (
+          <Button variant="outline" onClick={shuffle} className="min-h-11 rounded-full px-4">
+            <Shuffle aria-hidden="true" className="h-4 w-4" />
+            Shuffle deck
+          </Button>
+        ) : null}
+      </div>
 
-      <main className="mx-auto max-w-6xl px-5 pb-20 pt-28 sm:px-8 sm:pt-32">
-        <section id="study-bank" aria-labelledby="technicals-title">
-          <div className="flex flex-col gap-6 border-b border-border/70 pb-8 lg:flex-row lg:items-end lg:justify-between">
-            <div>
-              <p className="mono-label text-accent">Investment banking interview prep</p>
-              <h1
-                id="technicals-title"
-                className="display mt-4 max-w-4xl text-5xl sm:text-6xl lg:text-7xl"
-              >
-                Technicals, <span className="text-gradient">one answer at a time.</span>
-              </h1>
-              <p className="body-copy mt-5">
-                Practice the full accounting bank in focused flashcards, or search and browse every
-                answer.
-              </p>
-            </div>
-            <div className="glass min-w-56 rounded-2xl p-4">
-              <p className="mono-label">Accounting bank</p>
-              <p className="mt-2 font-display text-3xl font-bold tabular-nums">
-                {questions.length}
-              </p>
-              <p className="mt-1 text-sm text-muted-foreground">
-                complete question and answer pairs
-              </p>
-            </div>
-          </div>
-
-          <Tabs defaultValue="Accounting" className="mt-8">
-            <TabsList className="scrollbar-none h-auto w-full justify-start gap-1 overflow-x-auto rounded-2xl border border-border bg-surface/80 p-1.5">
-              {TOPICS.map((topic) => {
-                const active = topic === "Accounting";
-                return (
-                  <TabsTrigger
-                    key={topic}
-                    value={topic}
-                    disabled={!active}
-                    className="min-h-11 shrink-0 rounded-xl px-4 data-[state=active]:bg-primary/25 data-[state=active]:text-foreground"
-                  >
-                    {topic}
-                    {!active ? (
-                      <span className="ml-2 text-[0.65rem] uppercase tracking-wider">Soon</span>
-                    ) : null}
-                  </TabsTrigger>
-                );
-              })}
-            </TabsList>
-
-            <TabsContent value="Accounting" className="mt-6">
-              <div className="flex flex-wrap items-center justify-between gap-3">
-                <div className="inline-flex rounded-full border border-border bg-background/55 p-1">
-                  <button
-                    type="button"
-                    onClick={() => setMode("cards")}
-                    aria-pressed={mode === "cards"}
-                    className={`inline-flex min-h-10 items-center gap-2 rounded-full px-4 text-sm font-semibold transition-colors ${mode === "cards" ? "bg-primary/25 text-foreground" : "text-muted-foreground hover:text-foreground"}`}
-                  >
-                    <Layers3 aria-hidden="true" className="h-4 w-4" />
-                    Flashcards
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setMode("browse")}
-                    aria-pressed={mode === "browse"}
-                    className={`inline-flex min-h-10 items-center gap-2 rounded-full px-4 text-sm font-semibold transition-colors ${mode === "browse" ? "bg-primary/25 text-foreground" : "text-muted-foreground hover:text-foreground"}`}
-                  >
-                    <List aria-hidden="true" className="h-4 w-4" />
-                    Browse all
-                  </button>
-                </div>
-                {mode === "cards" ? (
-                  <Button
-                    variant="outline"
-                    onClick={shuffle}
-                    className="min-h-11 rounded-full px-4"
-                  >
-                    <Shuffle aria-hidden="true" className="h-4 w-4" />
-                    Shuffle deck
-                  </Button>
-                ) : null}
-              </div>
-
-              {mode === "cards" ? (
-                <Flashcard
-                  question={current}
-                  position={position}
-                  revealed={revealed}
-                  progress={progress}
-                  onReveal={() => setRevealed((value) => !value)}
-                  onPrevious={() => move(-1)}
-                  onNext={() => move(1)}
-                />
-              ) : (
-                <BrowseBank query={query} onQueryChange={setQuery} matches={matches} />
-              )}
-            </TabsContent>
-          </Tabs>
-        </section>
-      </main>
-    </div>
+      {mode === "cards" ? (
+        <Flashcard
+          question={current}
+          position={position}
+          total={questions.length}
+          revealed={revealed}
+          progress={progress}
+          onReveal={() => setRevealed((value) => !value)}
+          onPrevious={() => move(-1)}
+          onNext={() => move(1)}
+        />
+      ) : (
+        <BrowseBank topic={topic} query={query} onQueryChange={setQuery} matches={matches} />
+      )}
+    </>
   );
 }
 
 function Flashcard({
   question,
   position,
+  total,
   revealed,
   progress,
   onReveal,
@@ -223,6 +253,7 @@ function Flashcard({
 }: {
   question: Question;
   position: number;
+  total: number;
   revealed: boolean;
   progress: number;
   onReveal: () => void;
@@ -232,12 +263,9 @@ function Flashcard({
   return (
     <div className="mt-6">
       <div className="flex items-center gap-4">
-        <Progress
-          value={progress}
-          aria-label={`${position + 1} of ${questions.length} questions`}
-        />
+        <Progress value={progress} aria-label={`${position + 1} of ${total} questions`} />
         <p className="shrink-0 font-mono text-sm tabular-nums text-muted-foreground">
-          {position + 1} / {questions.length}
+          {position + 1} / {total}
         </p>
       </div>
 
@@ -301,7 +329,7 @@ function Flashcard({
         </Button>
         <Button
           onClick={onNext}
-          disabled={position === questions.length - 1}
+          disabled={position === total - 1}
           className="min-h-12 rounded-full"
         >
           Next
@@ -313,10 +341,12 @@ function Flashcard({
 }
 
 function BrowseBank({
+  topic,
   query,
   onQueryChange,
   matches,
 }: {
+  topic: AvailableTopic;
   query: string;
   onQueryChange: (value: string) => void;
   matches: Question[];
@@ -367,7 +397,9 @@ function BrowseBank({
       ) : (
         <div className="glass mt-5 rounded-2xl p-8 text-center">
           <p className="font-semibold">No matching questions</p>
-          <p className="mt-2 text-sm text-muted-foreground">Try a broader accounting term.</p>
+          <p className="mt-2 text-sm text-muted-foreground">
+            Try a broader {topic.toLowerCase()} term.
+          </p>
         </div>
       )}
     </div>
