@@ -93,6 +93,7 @@ export function Research() {
   return (
     <Section
       id="research"
+      className="prototype-research"
       index="03"
       kicker="Research and sustainability"
       title={
@@ -106,7 +107,7 @@ export function Research() {
       glowY="20%"
     >
       {/* sequence */}
-      <ol className="relative grid gap-4 lg:grid-cols-5 lg:gap-3">
+      <ol className="prototype-lab-sequence relative grid gap-4 lg:grid-cols-5 lg:gap-3">
         <span
           aria-hidden="true"
           className="pointer-events-none absolute left-0 right-0 top-[2.15rem] hidden h-px bg-gradient-to-r from-lime/70 via-accent/70 to-primary-bright/70 lg:block"
@@ -178,7 +179,7 @@ export function Research() {
       </Reveal>
 
       {/* photos */}
-      <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="prototype-collage mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Reveal>
           <Figure
             photo={photos.researchLab}
@@ -220,7 +221,7 @@ export function Research() {
       </div>
 
       {/* poster artifact */}
-      <Reveal className="mt-8">
+      <Reveal className="prototype-poster mt-8">
         <div className="glass grid gap-6 rounded-2xl p-5 sm:grid-cols-[minmax(0,18rem)_minmax(0,1fr)] sm:items-center sm:p-6">
           <a
             href={LINKS.poster}

@@ -165,6 +165,7 @@ export function Beyond() {
   return (
     <Section
       id="beyond"
+      className="prototype-interests"
       index="06"
       kicker="Beyond the work"
       title={
@@ -226,7 +227,7 @@ export function Beyond() {
 
         <ul
           aria-label="Interests and hobbies"
-          className="grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4"
+          className="prototype-word-field grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4"
         >
           {INTERESTS.map((it, i) => {
             const Icon = it.icon;

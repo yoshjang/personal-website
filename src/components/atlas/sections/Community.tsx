@@ -6,6 +6,7 @@ export function Community() {
   return (
     <Section
       id="community"
+      className="prototype-community"
       index="04"
       kicker="Leadership and community"
       title="Student organizations at Duke, and the work that started in Toledo."

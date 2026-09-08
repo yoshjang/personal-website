@@ -1,6 +1,5 @@
 import { ArrowDown, Database, HeartHandshake, Linkedin, Mail, Sun, TrendingUp } from "lucide-react";
 import { LINKS } from "../content";
-import { OrbitalPortrait } from "../Orbital";
 import { photos } from "../photos";
 import { LinkButton, Reveal, type IconType } from "../ui";
 
@@ -114,11 +113,21 @@ export function Opening() {
           </div>
 
           {/* orbital portrait */}
-          <div className="order-2">
-            <OrbitalPortrait
-              photo={photos.heroPortrait}
-              className="max-w-[20rem] sm:max-w-[26rem] lg:max-w-[30rem]"
+          <div className="prototype-portrait-stage order-2">
+            <div className="prototype-portrait-aura" aria-hidden="true" />
+            <img
+              className="prototype-portrait"
+              src={photos.heroPortrait.src}
+              alt={photos.heroPortrait.alt}
+              width={photos.heroPortrait.width}
+              height={photos.heroPortrait.height}
+              loading="eager"
+              decoding="sync"
+              fetchPriority="high"
             />
+            <span className="prototype-orbit-word prototype-orbit-one">Data</span>
+            <span className="prototype-orbit-word prototype-orbit-two">Energy</span>
+            <span className="prototype-orbit-word prototype-orbit-three">Finance + Community</span>
           </div>
         </div>
 

@@ -8,7 +8,7 @@ export function Contact() {
     <section
       id="contact"
       aria-labelledby="contact-title"
-      className="relative border-t border-border/40 py-20 sm:py-28"
+      className="prototype-contact relative border-t border-border/40 py-20 sm:py-28"
     >
       <div
         aria-hidden="true"
