@@ -48,12 +48,12 @@ export function Opening() {
     <section
       id="top"
       aria-labelledby="hero-title"
-      className="relative overflow-hidden pb-14 pt-24 sm:pb-20 sm:pt-32"
+      className="editorial-hero relative overflow-hidden pb-14 pt-24 sm:pb-20 sm:pt-32"
     >
       <div className="relative mx-auto max-w-6xl px-5 sm:px-8">
         <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:gap-8">
           {/* copy */}
-          <div className="relative z-10 order-2 lg:order-1">
+          <div className="relative z-10 order-1">
             <p className="mono-label flex flex-wrap items-center gap-x-3 gap-y-1">
               <span>Toledo, Ohio</span>
               <span
@@ -65,9 +65,9 @@ export function Opening() {
 
             <h1
               id="hero-title"
-              className="display mt-5 text-[3.4rem] text-foreground sm:text-7xl lg:text-[5.5rem]"
+              className="editorial-hero-name display mt-5 text-[3.4rem] text-foreground sm:text-7xl lg:text-[5.5rem]"
             >
-              Joshua <span className="text-gradient">Wang</span>
+              <span>Joshua</span> <span className="text-gradient">Wang</span>
             </h1>
 
             <p className="body-copy mt-6 text-lg sm:text-xl">
@@ -75,7 +75,7 @@ export function Opening() {
               Science concentration and a Financial Economics minor, expected May 2029.
             </p>
 
-            <div className="mt-6 max-w-xl rounded-2xl border border-accent/25 bg-accent/[0.07] px-5 py-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
+            <div className="editorial-why mt-6 max-w-xl rounded-2xl border border-accent/25 bg-accent/[0.07] px-5 py-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
               <p className="mono-label text-accent">Why this site exists</p>
               <p className="mt-2 text-[0.95rem] leading-relaxed text-foreground/90">
                 I built this website as a practical tool for investment banking recruiting. It gives
@@ -114,7 +114,7 @@ export function Opening() {
           </div>
 
           {/* orbital portrait */}
-          <div className="order-1 lg:order-2">
+          <div className="order-2">
             <OrbitalPortrait
               photo={photos.heroPortrait}
               className="max-w-[20rem] sm:max-w-[26rem] lg:max-w-[30rem]"
@@ -124,7 +124,7 @@ export function Opening() {
 
         {/* theme legend */}
         <Reveal className="mt-14 sm:mt-20">
-          <ol aria-label="Four themes" className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <ol aria-label="Four themes" className="editorial-themes grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {THEMES.map((t, i) => {
               const Icon = t.icon;
               return (
