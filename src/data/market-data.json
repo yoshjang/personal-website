@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T16:33:23.815Z",
-  "provider": "Federal Reserve Bank of St. Louis (FRED)",
+  "generatedAt": "2026-09-07T21:11:59.303Z",
+  "provider": "U.S. Treasury and FRED (S&P Dow Jones Indices and EIA)",
   "status": "ok",
   "markets": [
     {
@@ -9,6 +9,8 @@
       "shortLabel": "Dow",
       "unit": "Index",
       "sourceUrl": "https://fred.stlouisfed.org/series/DJIA",
+      "checkedAt": "2026-09-07T21:11:39.767Z",
+      "status": "ok",
       "latest": {
         "date": "2026-09-04",
         "value": 53414.25
@@ -149,6 +151,8 @@
       "shortLabel": "S&P 500",
       "unit": "Index",
       "sourceUrl": "https://fred.stlouisfed.org/series/SP500",
+      "checkedAt": "2026-09-07T21:11:39.814Z",
+      "status": "ok",
       "latest": {
         "date": "2026-09-04",
         "value": 7718.6
@@ -288,23 +292,21 @@
       "label": "U.S. 10-Year Treasury",
       "shortLabel": "U.S. 10Y",
       "unit": "Percent",
-      "sourceUrl": "https://fred.stlouisfed.org/series/DGS10",
+      "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
+      "checkedAt": "2026-09-07T21:11:59.242Z",
+      "status": "ok",
       "latest": {
+        "date": "2026-09-04",
+        "value": 4.78
+      },
+      "previous": {
         "date": "2026-09-03",
         "value": 4.77
       },
-      "previous": {
-        "date": "2026-09-02",
-        "value": 4.79
-      },
-      "change": -0.020000000000000462,
-      "percentChange": -0.41753653444677374,
-      "basisPointChange": -2.000000000000046,
+      "change": 0.010000000000000675,
+      "percentChange": 0.2096436058700351,
+      "basisPointChange": 1.0000000000000675,
       "history": [
-        {
-          "date": "2026-07-24",
-          "value": 4.69
-        },
         {
           "date": "2026-07-27",
           "value": 4.65
@@ -420,6 +422,10 @@
         {
           "date": "2026-09-03",
           "value": 4.77
+        },
+        {
+          "date": "2026-09-04",
+          "value": 4.78
         }
       ]
     },
@@ -429,6 +435,8 @@
       "shortLabel": "WTI Spot",
       "unit": "Dollars per barrel",
       "sourceUrl": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "checkedAt": "2026-09-07T21:11:59.303Z",
+      "status": "ok",
       "latest": {
         "date": "2026-09-01",
         "value": 91.48

@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite dev",
     "generate:markets": "bun scripts/generate-market-data.ts",
-    "prebuild": "bun run generate:markets",
+    "generate:headlines": "bun scripts/generate-headlines.ts",
+    "prebuild": "bun run generate:markets && bun run generate:headlines",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
@@ -54,6 +55,7 @@
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.6.0",
+    "fast-xml-parser": "^5.11.1",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.575.0",
     "react": "^19.2.0",

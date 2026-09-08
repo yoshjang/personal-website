@@ -6,13 +6,24 @@ import {
   Building2,
   ExternalLink,
   Gauge,
-  LoaderCircle,
   Newspaper,
-  RefreshCw,
+  ChevronLeft,
+  ChevronRight,
+  Pause,
+  Play,
 } from "lucide-react";
 import { Backdrop, Spotlight, TopNav } from "@/components/atlas/Chrome";
 import { SECTIONS } from "@/components/atlas/content";
 import snapshot from "@/data/market-data.json";
+import newsSnapshot from "@/data/headlines.json";
+import {
+  industries,
+  metricContext,
+  relatedArticles,
+  cleanArticles,
+  type NewsSnapshot,
+  type NewsGroup,
+} from "@/lib/market-news";
 
 const SITE_URL = "https://joshuawang.app/markets";
 
@@ -23,6 +34,7 @@ type Market = {
   shortLabel: string;
   unit: string;
   sourceUrl: string;
+  status?: string;
   latest: Observation;
   previous: Observation;
   change: number;
@@ -31,33 +43,17 @@ type Market = {
   history: Observation[];
 };
 
-type Article = {
-  url: string;
-  url_mobile?: string;
-  title: string;
-  seendate?: string;
-  domain?: string;
-  language?: string;
-  sourcecountry?: string;
-};
-
-type HeadlineState =
-  | { status: "loading"; articles: Article[]; error?: undefined }
-  | { status: "ready"; articles: Article[]; error?: undefined }
-  | { status: "error"; articles: Article[]; error: string };
+const news = newsSnapshot as NewsSnapshot;
+const allArticles = cleanArticles(
+  Object.values(news.groups).flatMap((group) => group.articles),
+  Date.parse(news.generatedAt) || Date.now(),
+);
 
 const marketData = snapshot as {
   generatedAt: string;
   provider: string;
   status: string;
   markets: Market[];
-};
-
-const headlineQueries = {
-  deals:
-    '(merger OR acquisition OR takeover OR IPO OR "capital raise" OR divestiture OR "strategic alternatives") sourcelang:english',
-  macro:
-    '("Federal Reserve" OR inflation OR payrolls OR GDP OR "Treasury yields" OR tariffs OR "energy prices") sourcelang:english',
 };
 
 export const Route = createFileRoute("/markets")({
@@ -82,8 +78,6 @@ export const Route = createFileRoute("/markets")({
 });
 
 function Markets() {
-  const [refreshKey, setRefreshKey] = useState(0);
-
   return (
     <div className="relative min-h-screen">
       <a
@@ -108,8 +102,8 @@ function Markets() {
                 The close, <span className="text-gradient">in context.</span>
               </h1>
               <p className="body-copy mt-5">
-                Major U.S. indicators with their latest available source dates, followed by a live
-                scan of deal and macro coverage.
+                Major U.S. indicators with their latest available source dates, with dated news,
+                possible drivers and a rotating view of major industries.
               </p>
             </div>
             <SnapshotStamp />
@@ -133,7 +127,8 @@ function Markets() {
 
           <div className="mt-5 flex flex-wrap items-center justify-between gap-3 text-sm text-muted-foreground">
             <p>
-              Values are the latest non-missing observations available from FRED and may be delayed.
+              Each card shows its observation date. Sources publish on different schedules; daily
+              observations can still arrive with a delay.
             </p>
             <a
               href="https://fred.stlouisfed.org/"
@@ -154,38 +149,30 @@ function Markets() {
                 Headlines
               </h2>
             </div>
-            <button
-              type="button"
-              onClick={() => setRefreshKey((key) => key + 1)}
-              className="inline-flex min-h-11 items-center justify-center gap-2 self-start rounded-full border border-border bg-secondary/60 px-4 text-sm font-semibold transition-colors hover:border-accent/50 hover:text-accent"
-              aria-label="Refresh deal and macro headlines"
-            >
-              <RefreshCw aria-hidden="true" className="h-4 w-4" />
-              Refresh headlines
-            </button>
           </div>
 
           <div className="mt-8 grid gap-6 lg:grid-cols-2">
             <HeadlinePanel
-              key={`deals-${refreshKey}`}
               title="Deal activity"
               kicker="Transactions and capital"
               icon={<Building2 aria-hidden="true" className="h-5 w-5" />}
-              query={headlineQueries.deals}
+              group={news.groups["deals"]}
             />
             <HeadlinePanel
-              key={`macro-${refreshKey}`}
               title="Macro"
               kicker="Policy and economic data"
               icon={<Gauge aria-hidden="true" className="h-5 w-5" />}
-              query={headlineQueries.macro}
+              group={news.groups["macro"]}
             />
           </div>
           <p className="mt-5 text-sm leading-6 text-muted-foreground">
-            Headlines are automatically selected from public coverage indexed by GDELT. Results may
-            include duplicate themes or uneven sourcing. Links open the original publishers.
+            Headlines come from publisher RSS feeds and Federal Reserve releases, refreshed during
+            each daily build. Dates are publication times in Eastern Time. Cached results keep their
+            original dates. Topic matching is automatic and may miss relevant coverage.
           </p>
         </section>
+
+        <IndustryRotation />
 
         <section className="glass mt-20 rounded-2xl p-6 sm:p-8" aria-label="Data notes">
           <h2 className="display-medium text-2xl">Data notes</h2>
@@ -222,6 +209,11 @@ function SnapshotStamp() {
           : "Unavailable"}
       </p>
       <p className="mt-1 text-xs text-muted-foreground">Rebuilt daily after U.S. market hours</p>
+      {marketData.status !== "ok" && (
+        <p className="mt-2 text-xs text-amber-300">
+          Some sources could not refresh. Check individual observation dates.
+        </p>
+      )}
     </div>
   );
 }
@@ -229,7 +221,8 @@ function SnapshotStamp() {
 function MarketCard({ market }: { market: Market }) {
   const up = market.change >= 0;
   const tone = up ? "text-lime" : "text-red-300";
-  const digits = market.id === "DGS10" ? 2 : 2;
+  const digits = 2;
+  const related = relatedArticles(allArticles, market.id, market.latest.date);
   const changeLabel =
     market.id === "DGS10"
       ? `${signed(market.change, 2)} pts · ${signed(market.basisPointChange ?? 0, 1)} bp`
@@ -257,10 +250,37 @@ function MarketCard({ market }: { market: Market }) {
       </p>
       <p className={`mt-2 font-mono text-sm tabular-nums ${tone}`}>{changeLabel}</p>
       <Sparkline history={market.history} up={up} />
+      <div className="mb-5 border-t border-border/60 pt-4 text-sm leading-6 text-muted-foreground">
+        <p className="mono-label mb-2 text-accent">Possible influences</p>
+        <p>
+          {related.length ? (
+            <>
+              Coverage near this observation:{" "}
+              <a
+                className="text-accent underline underline-offset-4"
+                href={related[0]!.url}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                {related[0]!.title}
+              </a>{" "}
+              ({formatPublished(related[0]!.publishedAt)}).{" "}
+            </>
+          ) : (
+            <>I cannot confirm a specific news driver for this observation. </>
+          )}
+          {metricContext[market.id]?.text}
+        </p>
+        <p className="mt-2 text-xs">Interpretation, not a confirmed explanation of the move.</p>
+      </div>
       <div className="mt-auto flex items-end justify-between gap-3 border-t border-border/70 pt-4 text-xs text-muted-foreground">
         <div>
           <p>{market.unit}</p>
+          {market.status === "cached" && (
+            <p className="mt-1 text-amber-300">Saved observation; refresh unavailable</p>
+          )}
           <p className="mt-1">Observed {formatDate(market.latest.date)}</p>
+          <p className="mt-1">Change since {formatDate(market.previous.date)}</p>
         </div>
         <a
           href={market.sourceUrl}
@@ -317,54 +337,13 @@ function HeadlinePanel({
   title,
   kicker,
   icon,
-  query,
+  group,
 }: {
   title: string;
   kicker: string;
   icon: React.ReactNode;
-  query: string;
+  group: NewsGroup | undefined;
 }) {
-  const [state, setState] = useState<HeadlineState>({ status: "loading", articles: [] });
-
-  useEffect(() => {
-    const controller = new AbortController();
-    const timer = window.setTimeout(() => controller.abort(), 10_000);
-    const params = new URLSearchParams({
-      query,
-      mode: "artlist",
-      format: "json",
-      maxrecords: "30",
-      sort: "datedesc",
-      timespan: "3d",
-    });
-
-    fetch(`https://api.gdeltproject.org/api/v2/doc/doc?${params}`, { signal: controller.signal })
-      .then(async (response) => {
-        if (!response.ok) throw new Error(`Headline service returned ${response.status}`);
-        const payload = (await response.json()) as { articles?: Article[] };
-        const articles = dedupeArticles(payload.articles ?? []).slice(0, 6);
-        setState({ status: "ready", articles });
-      })
-      .catch((error: unknown) => {
-        if (controller.signal.aborted) {
-          setState({ status: "error", articles: [], error: "The headline request timed out." });
-        } else {
-          setState({
-            status: "error",
-            articles: [],
-            error: "Headlines are temporarily unavailable.",
-          });
-        }
-        console.warn(error);
-      })
-      .finally(() => window.clearTimeout(timer));
-
-    return () => {
-      controller.abort();
-      window.clearTimeout(timer);
-    };
-  }, [query]);
-
   return (
     <article className="glass rounded-2xl p-5 sm:p-6">
       <div className="flex items-center gap-3 border-b border-border/70 pb-5">
@@ -376,31 +355,15 @@ function HeadlinePanel({
           <h3 className="mt-1 text-xl font-semibold">{title}</h3>
         </div>
       </div>
-
-      {state.status === "loading" ? (
-        <div
-          className="flex min-h-56 items-center justify-center gap-3 text-muted-foreground"
-          role="status"
-        >
-          <LoaderCircle aria-hidden="true" className="h-5 w-5 animate-spin" />
-          Loading source-linked headlines
-        </div>
-      ) : state.status === "error" ? (
-        <div className="flex min-h-56 flex-col items-center justify-center text-center">
-          <Newspaper aria-hidden="true" className="h-7 w-7 text-muted-foreground" />
-          <p className="mt-3 font-semibold">{state.error}</p>
-          <p className="mt-1 max-w-sm text-sm text-muted-foreground">
-            The market snapshot above remains available.
-          </p>
-        </div>
-      ) : state.articles.length === 0 ? (
-        <div className="flex min-h-56 items-center justify-center text-center text-muted-foreground">
-          No relevant headlines were returned for the last three days.
-        </div>
-      ) : (
+      <p className="mt-3 text-xs text-muted-foreground">
+        {group?.updatedAt
+          ? `${group.status === "cached" ? "Saved coverage" : "Checked"}: ${formatPublished(group.updatedAt)}`
+          : "No recent verified coverage available"}
+      </p>
+      {group?.articles.length ? (
         <ol className="divide-y divide-border/60">
-          {state.articles.map((article) => (
-            <li key={normalizeUrl(article.url)}>
+          {group.articles.slice(0, 5).map((article) => (
+            <li key={article.url}>
               <a
                 href={article.url}
                 target="_blank"
@@ -408,78 +371,145 @@ function HeadlinePanel({
                 className="group block py-4"
               >
                 <span className="flex items-start justify-between gap-4">
-                  <span className="font-medium leading-snug text-foreground transition-colors group-hover:text-accent">
+                  <span className="font-medium leading-snug group-hover:text-accent">
                     {article.title}
                   </span>
-                  <ExternalLink
-                    aria-hidden="true"
-                    className="mt-1 h-3.5 w-3.5 shrink-0 text-muted-foreground"
-                  />
+                  <ExternalLink aria-hidden="true" className="mt-1 h-3.5 w-3.5 shrink-0" />
                 </span>
-                <span className="mt-2 flex flex-wrap gap-x-3 gap-y-1 font-mono text-xs text-muted-foreground">
-                  <span>{article.domain || domainOf(article.url)}</span>
-                  {article.seendate ? <span>{formatSeenDate(article.seendate)}</span> : null}
+                <span className="mt-2 block font-mono text-xs text-muted-foreground">
+                  {article.source} · {formatPublished(article.publishedAt)}
                 </span>
               </a>
             </li>
           ))}
         </ol>
+      ) : (
+        <p className="py-10 text-sm text-muted-foreground">
+          No matching headlines were available in the last 14 days. New coverage appears after a
+          successful daily refresh.
+        </p>
       )}
     </article>
   );
 }
 
-function dedupeArticles(articles: Article[]) {
-  const seenUrls = new Set<string>();
-  const seenTitles = new Set<string>();
-  return articles.filter((article) => {
-    if (!article?.url || !article?.title) return false;
-    const url = normalizeUrl(article.url);
-    const title = article.title
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, " ")
-      .trim();
-    if (seenUrls.has(url) || seenTitles.has(title)) return false;
-    seenUrls.add(url);
-    seenTitles.add(title);
-    return true;
-  });
+function IndustryRotation() {
+  const [index, setIndex] = useState(0);
+  const [playing, setPlaying] = useState(false);
+  const [interacting, setInteracting] = useState(false);
+  useEffect(() => {
+    const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
+    setPlaying(!preference.matches);
+    const change = () => setPlaying(!preference.matches);
+    preference.addEventListener("change", change);
+    return () => preference.removeEventListener("change", change);
+  }, []);
+  useEffect(() => {
+    if (!playing || interacting) return;
+    const timer = window.setInterval(() => {
+      if (!document.hidden) setIndex((value) => (value + 1) % industries.length);
+    }, 12000);
+    return () => window.clearInterval(timer);
+  }, [playing, interacting]);
+  const industry = industries[index]!;
+  const select = (next: number) => {
+    setIndex((next + industries.length) % industries.length);
+    setPlaying(false);
+  };
+  const control =
+    "inline-flex min-h-11 min-w-11 items-center justify-center gap-2 rounded-full border border-border px-4 text-sm hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent";
+  return (
+    <section
+      className="mt-20"
+      aria-labelledby="industry-title"
+      aria-roledescription="carousel"
+      onMouseEnter={() => setInteracting(true)}
+      onMouseLeave={() => setInteracting(false)}
+      onFocusCapture={() => setInteracting(true)}
+      onBlurCapture={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) setInteracting(false);
+      }}
+    >
+      <p className="mono-label text-accent">Across the economy</p>
+      <div className="mt-3 flex flex-wrap items-end justify-between gap-4">
+        <h2 id="industry-title" className="display-medium text-4xl sm:text-5xl">
+          Industry watch
+        </h2>
+        <div className="flex gap-2">
+          <button
+            type="button"
+            className={control}
+            aria-label="Previous industry"
+            onClick={() => select(index - 1)}
+          >
+            <ChevronLeft className="h-4 w-4" />
+          </button>
+          <button type="button" className={control} onClick={() => setPlaying((value) => !value)}>
+            {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
+            {playing ? "Pause rotation" : "Start rotation"}
+          </button>
+          <button
+            type="button"
+            className={control}
+            aria-label="Next industry"
+            onClick={() => select(index + 1)}
+          >
+            <ChevronRight className="h-4 w-4" />
+          </button>
+        </div>
+      </div>
+      <div className="my-6 flex flex-wrap gap-2" aria-label="Choose industry">
+        {industries.map((item, i) => (
+          <button
+            type="button"
+            key={item.id}
+            aria-pressed={index === i}
+            onClick={() => select(i)}
+            className={`min-h-11 rounded-full border px-4 py-2 text-sm ${index === i ? "border-accent bg-primary/15 text-accent" : "border-border text-muted-foreground hover:text-foreground"}`}
+          >
+            {item.name}
+          </button>
+        ))}
+      </div>
+      <div
+        className="grid gap-6 lg:grid-cols-[1fr_1.5fr]"
+        aria-live={playing ? "off" : "polite"}
+        aria-atomic="true"
+      >
+        <div className="glass rounded-2xl p-6 sm:p-8">
+          <p className="mono-label text-accent">
+            {index + 1} / {industries.length} · What to watch
+          </p>
+          <h3 className="display-medium mt-5 text-3xl">{industry.name}</h3>
+          <p className="mt-5 leading-7 text-muted-foreground">{industry.context}</p>
+          <p className="mt-5 text-xs text-muted-foreground">
+            General analytical context. These are potential channels, not claims about today's
+            performance.
+          </p>
+        </div>
+        <HeadlinePanel
+          title={`${industry.name} headlines`}
+          kicker="Recent coverage"
+          icon={<Newspaper className="h-5 w-5" aria-hidden="true" />}
+          group={news.groups[industry.id]}
+        />
+      </div>
+    </section>
+  );
 }
 
-function normalizeUrl(value: string) {
-  try {
-    const url = new URL(value);
-    url.hash = "";
-    for (const key of [...url.searchParams.keys()]) {
-      if (key.startsWith("utm_")) url.searchParams.delete(key);
-    }
-    return url.toString();
-  } catch {
-    return value;
-  }
-}
-
-function domainOf(value: string) {
-  try {
-    return new URL(value).hostname.replace(/^www\./, "");
-  } catch {
-    return "Source";
-  }
-}
-
-function formatSeenDate(value: string) {
-  const match = value.match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})/);
-  if (!match) return value;
-  const [, year, month, day, hour, minute] = match;
-  const date = new Date(`${year}-${month}-${day}T${hour}:${minute}:00Z`);
+function formatPublished(value: string) {
+  const date = new Date(value);
   return Number.isNaN(date.getTime())
-    ? value
+    ? "Date unavailable"
     : date.toLocaleString("en-US", {
         month: "short",
         day: "numeric",
+        year: "numeric",
         hour: "numeric",
         minute: "2-digit",
-      });
+        timeZone: "America/New_York",
+      }) + " ET";
 }
 
 function formatValue(market: Market) {
