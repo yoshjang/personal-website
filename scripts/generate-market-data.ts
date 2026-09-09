@@ -8,6 +8,9 @@ type SeriesConfig = {
   shortLabel: string;
   unit: string;
   sourceUrl: string;
+  marketWatchKey: string;
+  marketWatchTicker: string;
+  marketWatchInstrument: "Index" | "Bond" | "Future";
 };
 
 type Observation = { date: string; value: number };
@@ -18,21 +21,30 @@ const series: SeriesConfig[] = [
     label: "Dow Jones Industrial Average",
     shortLabel: "Dow",
     unit: "Index",
-    sourceUrl: "https://fred.stlouisfed.org/series/DJIA",
+    sourceUrl: "https://www.marketwatch.com/investing/index/djia",
+    marketWatchKey: "INDEX/US/DOW JONES GLOBAL/DJIA",
+    marketWatchTicker: "DJIA",
+    marketWatchInstrument: "Index",
   },
   {
     id: "SP500",
     label: "S&P 500",
     shortLabel: "S&P 500",
     unit: "Index",
-    sourceUrl: "https://fred.stlouisfed.org/series/SP500",
+    sourceUrl: "https://www.marketwatch.com/investing/index/spx",
+    marketWatchKey: "INDEX/US/S&P US/SPX",
+    marketWatchTicker: "SPX",
+    marketWatchInstrument: "Index",
   },
   {
     id: "DGS10",
     label: "U.S. 10-Year Treasury",
     shortLabel: "U.S. 10Y",
     unit: "Percent",
-    sourceUrl: "https://fred.stlouisfed.org/series/DGS10",
+    sourceUrl: "https://www.marketwatch.com/investing/bond/tmubmusd10y",
+    marketWatchKey: "Bond/BX/XTUP/TMUBMUSD10Y",
+    marketWatchTicker: "TMUBMUSD10Y",
+    marketWatchInstrument: "Bond",
   },
   {
     id: "CL1",
@@ -40,6 +52,9 @@ const series: SeriesConfig[] = [
     shortLabel: "WTI Futures",
     unit: "Dollars per barrel",
     sourceUrl: "https://www.marketwatch.com/investing/future/cl.1",
+    marketWatchKey: "FUTURE/US/XNYM/CL.1",
+    marketWatchTicker: "CL.1",
+    marketWatchInstrument: "Future",
   },
 ];
 
@@ -87,33 +102,44 @@ export function parseTreasury(xml: string): Observation[] {
     .sort((a, b) => a.date.localeCompare(b.date));
 }
 
-export function parseMarketWatchHistory(payload: unknown): Observation[] {
+export function parseMarketWatchHistory(
+  payload: unknown,
+  expected: Pick<SeriesConfig, "marketWatchTicker" | "marketWatchInstrument">,
+): Observation[] {
   const response = payload as {
     TimeInfo?: { Ticks?: unknown[] };
     Series?: Array<{
       SeriesId?: string;
+      Ticker?: string;
       InstrumentType?: string;
-      CommonName?: string;
       DataPoints?: unknown[];
+      FormatHints?: { DecimalPlaces?: unknown };
     }>;
   };
   const ticks = response.TimeInfo?.Ticks;
   const market = response.Series?.find((item) => item.SeriesId === "s1");
+  const decimalPlaces = market?.FormatHints?.DecimalPlaces;
   if (
     !Array.isArray(ticks) ||
     !market ||
-    market.InstrumentType !== "Future" ||
-    !market.CommonName?.includes("Crude Oil WTI") ||
-    !Array.isArray(market.DataPoints)
+    market.Ticker !== expected.marketWatchTicker ||
+    market.InstrumentType !== expected.marketWatchInstrument ||
+    !Array.isArray(market.DataPoints) ||
+    market.DataPoints.length !== ticks.length ||
+    !Number.isInteger(decimalPlaces) ||
+    Number(decimalPlaces) < 0 ||
+    Number(decimalPlaces) > 6
   )
-    throw new Error("Unexpected MarketWatch WTI response");
+    throw new Error(`Unexpected MarketWatch ${expected.marketWatchTicker} response`);
 
   return ticks
     .flatMap((tick, index) => {
       const point = market.DataPoints?.[index];
       const timestamp = typeof tick === "number" ? tick : Number.NaN;
       const raw = Array.isArray(point) && point.length ? point[0] : null;
-      const value = typeof raw === "number" ? raw : Number.NaN;
+      const factor = 10 ** Number(decimalPlaces);
+      const value =
+        typeof raw === "number" ? Math.round((raw + Number.EPSILON) * factor) / factor : Number.NaN;
       const date = Number.isFinite(timestamp) ? new Date(timestamp).toISOString().slice(0, 10) : "";
       return validDate(date) &&
         date <= new Date().toISOString().slice(0, 10) &&
@@ -124,7 +150,7 @@ export function parseMarketWatchHistory(payload: unknown): Observation[] {
     .sort((a, b) => a.date.localeCompare(b.date));
 }
 
-async function marketWatchWtiSeries() {
+async function marketWatchSeries(config: SeriesConfig) {
   const end = Date.now();
   const request = {
     Step: "P1D",
@@ -146,7 +172,7 @@ async function marketWatchWtiSeries() {
     ResetTodaysAfterHoursPercentChange: false,
     Series: [
       {
-        Key: "FUTURE/US/XNYM/CL.1",
+        Key: config.marketWatchKey,
         Dialect: "Charting",
         Kind: "Ticker",
         SeriesId: "s1",
@@ -163,12 +189,14 @@ async function marketWatchWtiSeries() {
       Accept: "application/json",
       "Dylan2010.entitlementtoken": marketWatchToken,
       Origin: "https://www.marketwatch.com",
-      Referer: "https://www.marketwatch.com/investing/future/cl.1/charts",
+      Referer: config.sourceUrl,
     },
   });
-  if (!response.ok) throw new Error(`MarketWatch WTI HTTP ${response.status}`);
-  const observations = parseMarketWatchHistory(await response.json());
-  if (observations.length < 2) throw new Error("Insufficient MarketWatch WTI observations");
+  if (!response.ok)
+    throw new Error(`MarketWatch ${config.marketWatchTicker} HTTP ${response.status}`);
+  const observations = parseMarketWatchHistory(await response.json(), config);
+  if (observations.length < 2)
+    throw new Error(`Insufficient MarketWatch ${config.marketWatchTicker} observations`);
   return observations;
 }
 
@@ -190,68 +218,66 @@ async function treasurySeries() {
 
 async function fetchSeries(config: SeriesConfig) {
   console.log(`Fetching ${config.id}...`);
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 25_000);
+  let observations: Observation[] = [];
+  let sourceUrl = config.sourceUrl;
+  let label = config.label;
+  let shortLabel = config.shortLabel;
+  let status = "ok";
   try {
-    let observations: Observation[] = [];
-    let sourceUrl = config.sourceUrl;
-    let label = config.label;
-    let shortLabel = config.shortLabel;
-    let status = "ok";
+    observations = await marketWatchSeries(config);
+  } catch (error) {
+    status = "fallback";
+    console.warn(
+      `MarketWatch ${config.marketWatchTicker} unavailable, trying public fallback: ${String(error)}`,
+    );
     if (config.id === "DGS10") {
       try {
         observations = await treasurySeries();
         sourceUrl =
           "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve";
-      } catch (error) {
-        console.warn(`Treasury unavailable, trying FRED: ${String(error)}`);
+      } catch (treasuryError) {
+        console.warn(`Treasury unavailable, trying FRED: ${String(treasuryError)}`);
       }
     }
     if (config.id === "CL1") {
-      try {
-        observations = await marketWatchWtiSeries();
-      } catch (error) {
-        label = "WTI Spot (fallback)";
-        shortLabel = "WTI Spot";
-        sourceUrl = "https://fred.stlouisfed.org/series/DCOILWTICO";
-        status = "fallback";
-        console.warn(`MarketWatch WTI unavailable, trying FRED spot: ${String(error)}`);
-      }
+      label = "WTI Spot (fallback)";
+      shortLabel = "WTI Spot";
+      sourceUrl = "https://fred.stlouisfed.org/series/DCOILWTICO";
+    } else if (config.id !== "DGS10" || !observations.length) {
+      sourceUrl = `https://fred.stlouisfed.org/series/${config.id}`;
     }
-    if (!observations.length) {
-      const fredId = config.id === "CL1" ? "DCOILWTICO" : config.id;
-      const response = await fetch(`https://fred.stlouisfed.org/graph/fredgraph.csv?id=${fredId}`, {
-        signal: controller.signal,
-      });
-      if (!response.ok) throw new Error(`${fredId}: HTTP ${response.status}`);
-      observations = parseCsv(await response.text());
-    }
-    if (observations.length < 2) throw new Error(`${config.id}: fewer than two observations`);
-
-    const history = observations.slice(-30);
-    const latest = history.at(-1)!;
-    const previous = history.at(-2)!;
-    const change = latest.value - previous.value;
-    const percentChange = previous.value === 0 ? null : (change / previous.value) * 100;
-
-    console.log(`Fetched ${config.id}: ${latest.date}.`);
-    return {
-      ...config,
-      label,
-      shortLabel,
-      sourceUrl,
-      checkedAt: new Date().toISOString(),
-      status,
-      latest,
-      previous,
-      change,
-      percentChange,
-      basisPointChange: config.id === "DGS10" ? change * 100 : null,
-      history,
-    };
-  } finally {
-    clearTimeout(timeout);
   }
+  if (!observations.length) {
+    const fredId = config.id === "CL1" ? "DCOILWTICO" : config.id;
+    const response = await fetch(`https://fred.stlouisfed.org/graph/fredgraph.csv?id=${fredId}`, {
+      signal: AbortSignal.timeout(60000),
+    });
+    if (!response.ok) throw new Error(`${fredId}: HTTP ${response.status}`);
+    observations = parseCsv(await response.text());
+  }
+  if (observations.length < 2) throw new Error(`${config.id}: fewer than two observations`);
+
+  const history = observations.slice(-30);
+  const latest = history.at(-1)!;
+  const previous = history.at(-2)!;
+  const change = latest.value - previous.value;
+  const percentChange = previous.value === 0 ? null : (change / previous.value) * 100;
+
+  console.log(`Fetched ${config.id}: ${latest.date}.`);
+  return {
+    ...config,
+    label,
+    shortLabel,
+    sourceUrl,
+    checkedAt: new Date().toISOString(),
+    status,
+    latest,
+    previous,
+    change,
+    percentChange,
+    basisPointChange: config.id === "DGS10" ? change * 100 : null,
+    history,
+  };
 }
 
 async function main() {
@@ -273,7 +299,7 @@ async function main() {
   } catch {
     /* Keep checked-in fallback. */
   }
-  // Fetch sequentially because the public FRED graph endpoint may throttle
+  // Fetch sequentially because public market-data endpoints may throttle
   // concurrent downloads from the same deployment runner.
   const markets = [];
   for (const config of series) {
@@ -302,7 +328,7 @@ async function main() {
   }
   const snapshot = {
     generatedAt: new Date().toISOString(),
-    provider: "U.S. Treasury, FRED and MarketWatch",
+    provider: "MarketWatch, with U.S. Treasury and FRED fallbacks",
     status:
       markets.length === series.length && markets.every((market) => market.status === "ok")
         ? "ok"

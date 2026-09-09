@@ -21,17 +21,21 @@ test("Treasury parser reads the ten-year field and rejects missing values", () =
 });
 test("MarketWatch parser keeps dated WTI futures settlements and rejects missing values", () => {
   expect(
-    parseMarketWatchHistory({
-      TimeInfo: { Ticks: [1767312000000, 1767398400000, 1767657600000] },
-      Series: [
-        {
-          SeriesId: "s1",
-          InstrumentType: "Future",
-          CommonName: "Crude Oil WTI (NYM $/bbl) Front Month",
-          DataPoints: [[57.32], [null], [58.16]],
-        },
-      ],
-    }),
+    parseMarketWatchHistory(
+      {
+        TimeInfo: { Ticks: [1767312000000, 1767398400000, 1767657600000] },
+        Series: [
+          {
+            SeriesId: "s1",
+            Ticker: "CL.1",
+            InstrumentType: "Future",
+            DataPoints: [[57.321], [null], [58.16]],
+            FormatHints: { DecimalPlaces: 2 },
+          },
+        ],
+      },
+      { marketWatchTicker: "CL.1", marketWatchInstrument: "Future" },
+    ),
   ).toEqual([
     { date: "2026-01-02", value: 57.32 },
     { date: "2026-01-06", value: 58.16 },

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T05:26:00.551Z",
-  "provider": "U.S. Treasury, FRED and MarketWatch",
+  "generatedAt": "2026-09-09T05:37:51.598Z",
+  "provider": "MarketWatch, with U.S. Treasury and FRED fallbacks",
   "status": "ok",
   "markets": [
     {
@@ -8,8 +8,11 @@
       "label": "Dow Jones Industrial Average",
       "shortLabel": "Dow",
       "unit": "Index",
-      "sourceUrl": "https://fred.stlouisfed.org/series/DJIA",
-      "checkedAt": "2026-09-09T05:25:42.168Z",
+      "sourceUrl": "https://www.marketwatch.com/investing/index/djia",
+      "marketWatchKey": "INDEX/US/DOW JONES GLOBAL/DJIA",
+      "marketWatchTicker": "DJIA",
+      "marketWatchInstrument": "Index",
+      "checkedAt": "2026-09-09T05:37:51.437Z",
       "status": "ok",
       "latest": {
         "date": "2026-09-08",
@@ -150,8 +153,11 @@
       "label": "S&P 500",
       "shortLabel": "S&P 500",
       "unit": "Index",
-      "sourceUrl": "https://fred.stlouisfed.org/series/SP500",
-      "checkedAt": "2026-09-09T05:25:42.209Z",
+      "sourceUrl": "https://www.marketwatch.com/investing/index/spx",
+      "marketWatchKey": "INDEX/US/S&P US/SPX",
+      "marketWatchTicker": "SPX",
+      "marketWatchInstrument": "Index",
+      "checkedAt": "2026-09-09T05:37:51.483Z",
       "status": "ok",
       "latest": {
         "date": "2026-09-08",
@@ -292,80 +298,83 @@
       "label": "U.S. 10-Year Treasury",
       "shortLabel": "U.S. 10Y",
       "unit": "Percent",
-      "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "checkedAt": "2026-09-09T05:26:00.435Z",
+      "sourceUrl": "https://www.marketwatch.com/investing/bond/tmubmusd10y",
+      "marketWatchKey": "Bond/BX/XTUP/TMUBMUSD10Y",
+      "marketWatchTicker": "TMUBMUSD10Y",
+      "marketWatchInstrument": "Bond",
+      "checkedAt": "2026-09-09T05:37:51.528Z",
       "status": "ok",
       "latest": {
         "date": "2026-09-08",
-        "value": 4.8
+        "value": 4.794
       },
       "previous": {
         "date": "2026-09-04",
-        "value": 4.78
+        "value": 4.789
       },
-      "change": 0.019999999999999574,
-      "percentChange": 0.41841004184099523,
-      "basisPointChange": 1.9999999999999574,
+      "change": 0.004999999999999893,
+      "percentChange": 0.10440593025683638,
+      "basisPointChange": 0.49999999999998934,
       "history": [
         {
           "date": "2026-07-28",
-          "value": 4.61
+          "value": 4.611
         },
         {
           "date": "2026-07-29",
-          "value": 4.67
+          "value": 4.684
         },
         {
           "date": "2026-07-30",
-          "value": 4.68
+          "value": 4.677
         },
         {
           "date": "2026-07-31",
-          "value": 4.75
+          "value": 4.74
         },
         {
           "date": "2026-08-03",
-          "value": 4.7
+          "value": 4.679
         },
         {
           "date": "2026-08-04",
-          "value": 4.63
+          "value": 4.619
         },
         {
           "date": "2026-08-05",
-          "value": 4.63
+          "value": 4.617
         },
         {
           "date": "2026-08-06",
-          "value": 4.69
+          "value": 4.681
         },
         {
           "date": "2026-08-07",
-          "value": 4.65
+          "value": 4.651
         },
         {
           "date": "2026-08-10",
-          "value": 4.72
+          "value": 4.713
         },
         {
           "date": "2026-08-11",
-          "value": 4.7
+          "value": 4.696
         },
         {
           "date": "2026-08-12",
-          "value": 4.68
+          "value": 4.701
         },
         {
           "date": "2026-08-13",
-          "value": 4.63
+          "value": 4.647
         },
         {
           "date": "2026-08-14",
-          "value": 4.68
+          "value": 4.697
         },
         {
           "date": "2026-08-17",
-          "value": 4.72
+          "value": 4.726
         },
         {
           "date": "2026-08-18",
@@ -377,55 +386,55 @@
         },
         {
           "date": "2026-08-20",
-          "value": 4.69
+          "value": 4.706
         },
         {
           "date": "2026-08-21",
-          "value": 4.74
+          "value": 4.736
         },
         {
           "date": "2026-08-24",
-          "value": 4.7
+          "value": 4.701
         },
         {
           "date": "2026-08-25",
-          "value": 4.64
+          "value": 4.634
         },
         {
           "date": "2026-08-26",
-          "value": 4.66
+          "value": 4.653
         },
         {
           "date": "2026-08-27",
-          "value": 4.67
+          "value": 4.674
         },
         {
           "date": "2026-08-28",
-          "value": 4.73
+          "value": 4.717
         },
         {
           "date": "2026-08-31",
-          "value": 4.75
+          "value": 4.756
         },
         {
           "date": "2026-09-01",
-          "value": 4.79
+          "value": 4.797
         },
         {
           "date": "2026-09-02",
-          "value": 4.79
+          "value": 4.784
         },
         {
           "date": "2026-09-03",
-          "value": 4.77
+          "value": 4.773
         },
         {
           "date": "2026-09-04",
-          "value": 4.78
+          "value": 4.789
         },
         {
           "date": "2026-09-08",
-          "value": 4.8
+          "value": 4.794
         }
       ]
     },
@@ -435,7 +444,10 @@
       "shortLabel": "WTI Futures",
       "unit": "Dollars per barrel",
       "sourceUrl": "https://www.marketwatch.com/investing/future/cl.1",
-      "checkedAt": "2026-09-09T05:26:00.551Z",
+      "marketWatchKey": "FUTURE/US/XNYM/CL.1",
+      "marketWatchTicker": "CL.1",
+      "marketWatchInstrument": "Future",
+      "checkedAt": "2026-09-09T05:37:51.598Z",
       "status": "ok",
       "latest": {
         "date": "2026-09-08",

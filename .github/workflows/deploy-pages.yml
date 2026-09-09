@@ -4,9 +4,9 @@ on:
   push:
     branches: [main]
   schedule:
-    # Check every 30 minutes after the U.S. market close so newly published
-    # daily FRED observations reach the site as soon as practical.
-    - cron: "17,47 16-23 * * *"
+    # Check hourly after the U.S. market close so newly published
+    # daily market observations reach the site as soon as practical.
+    - cron: "17 16-23 * * *"
       timezone: "America/New_York"
   workflow_dispatch:
 

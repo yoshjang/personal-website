@@ -167,8 +167,8 @@ function Markets() {
           </div>
           <p className="mt-5 text-sm leading-6 text-muted-foreground">
             Headlines come from publisher RSS feeds and Federal Reserve releases, refreshed during
-            each daily build. Dates are publication times in Eastern Time. Cached results keep their
-            original dates. Topic matching is automatic and may miss relevant coverage.
+            each scheduled build. Dates are publication times in Eastern Time. Cached results keep
+            their original dates. Topic matching is automatic and may miss relevant coverage.
           </p>
         </section>
 
@@ -178,9 +178,9 @@ function Markets() {
           <h2 className="display-medium text-2xl">Data notes</h2>
           <div className="mt-4 grid gap-4 text-sm leading-6 text-muted-foreground md:grid-cols-2">
             <p>
-              Dow and S&amp;P 500 figures are daily index closes. The U.S. 10-year figure is the
-              constant-maturity market yield, not a traded closing price. WTI is the front-month
-              NYMEX futures settlement reported by MarketWatch, not the Cushing spot price.
+              MarketWatch supplies all four primary series. Dow and S&amp;P 500 figures are daily
+              index closes. The U.S. 10-year figure is the quoted Treasury yield, not a bond price.
+              WTI is the front-month NYMEX futures settlement, not the Cushing spot price.
             </p>
             <p>
               This page is informational only and is not investment advice. Index data may be
@@ -208,9 +208,7 @@ function SnapshotStamp() {
             }) + " ET"
           : "Unavailable"}
       </p>
-      <p className="mt-1 text-xs text-muted-foreground">
-        Checked every 30 minutes after U.S. market close
-      </p>
+      <p className="mt-1 text-xs text-muted-foreground">Checked hourly after U.S. market close</p>
       {marketData.status !== "ok" && (
         <p className="mt-2 text-xs text-amber-300">
           Some sources could not refresh. Check individual observation dates.
