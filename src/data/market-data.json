@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T16:33:23.815Z",
+  "generatedAt": "2026-09-09T05:11:56.782Z",
   "provider": "Federal Reserve Bank of St. Louis (FRED)",
   "status": "ok",
   "markets": [
@@ -10,21 +10,17 @@
       "unit": "Index",
       "sourceUrl": "https://fred.stlouisfed.org/series/DJIA",
       "latest": {
+        "date": "2026-09-08",
+        "value": 52786.07
+      },
+      "previous": {
         "date": "2026-09-04",
         "value": 53414.25
       },
-      "previous": {
-        "date": "2026-09-03",
-        "value": 53686.11
-      },
-      "change": -271.8600000000006,
-      "percentChange": -0.5063879651552339,
+      "change": -628.1800000000003,
+      "percentChange": -1.1760532067753462,
       "basisPointChange": null,
       "history": [
-        {
-          "date": "2026-07-27",
-          "value": 52210.08
-        },
         {
           "date": "2026-07-28",
           "value": 52747.32
@@ -140,6 +136,10 @@
         {
           "date": "2026-09-04",
           "value": 53414.25
+        },
+        {
+          "date": "2026-09-08",
+          "value": 52786.07
         }
       ]
     },
@@ -150,21 +150,17 @@
       "unit": "Index",
       "sourceUrl": "https://fred.stlouisfed.org/series/SP500",
       "latest": {
+        "date": "2026-09-08",
+        "value": 7673.52
+      },
+      "previous": {
         "date": "2026-09-04",
         "value": 7718.6
       },
-      "previous": {
-        "date": "2026-09-03",
-        "value": 7747.71
-      },
-      "change": -29.109999999999673,
-      "percentChange": -0.3757239235851583,
+      "change": -45.07999999999993,
+      "percentChange": -0.5840437385017999,
       "basisPointChange": null,
       "history": [
-        {
-          "date": "2026-07-27",
-          "value": 7413.18
-        },
         {
           "date": "2026-07-28",
           "value": 7428.78
@@ -280,6 +276,10 @@
         {
           "date": "2026-09-04",
           "value": 7718.6
+        },
+        {
+          "date": "2026-09-08",
+          "value": 7673.52
         }
       ]
     },
@@ -290,21 +290,17 @@
       "unit": "Percent",
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10",
       "latest": {
+        "date": "2026-09-04",
+        "value": 4.78
+      },
+      "previous": {
         "date": "2026-09-03",
         "value": 4.77
       },
-      "previous": {
-        "date": "2026-09-02",
-        "value": 4.79
-      },
-      "change": -0.020000000000000462,
-      "percentChange": -0.41753653444677374,
-      "basisPointChange": -2.000000000000046,
+      "change": 0.010000000000000675,
+      "percentChange": 0.2096436058700351,
+      "basisPointChange": 1.0000000000000675,
       "history": [
-        {
-          "date": "2026-07-24",
-          "value": 4.69
-        },
         {
           "date": "2026-07-27",
           "value": 4.65
@@ -420,6 +416,10 @@
         {
           "date": "2026-09-03",
           "value": 4.77
+        },
+        {
+          "date": "2026-09-04",
+          "value": 4.78
         }
       ]
     },

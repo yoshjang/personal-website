@@ -55,7 +55,11 @@ function parseCsv(csv: string): Observation[] {
     .slice(1)
     .map((line) => {
       const [date, raw] = line.split(",");
-      return { date: date?.trim() ?? "", value: Number(raw) };
+      const normalized = raw?.trim() ?? "";
+      return {
+        date: date?.trim() ?? "",
+        value: normalized === "" ? Number.NaN : Number(normalized),
+      };
     })
     .filter(({ date, value }) => validDate(date) && Number.isFinite(value));
 }

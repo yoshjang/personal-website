@@ -221,7 +221,9 @@ function SnapshotStamp() {
             }) + " ET"
           : "Unavailable"}
       </p>
-      <p className="mt-1 text-xs text-muted-foreground">Rebuilt daily after U.S. market hours</p>
+      <p className="mt-1 text-xs text-muted-foreground">
+        Checked every 30 minutes after U.S. market close
+      </p>
     </div>
   );
 }
@@ -229,10 +231,10 @@ function SnapshotStamp() {
 function MarketCard({ market }: { market: Market }) {
   const up = market.change >= 0;
   const tone = up ? "text-lime" : "text-red-300";
-  const digits = market.id === "DGS10" ? 2 : 2;
+  const digits = market.id === "DGS10" ? 3 : 2;
   const changeLabel =
     market.id === "DGS10"
-      ? `${signed(market.change, 2)} pts · ${signed(market.basisPointChange ?? 0, 1)} bp`
+      ? `${signed(market.change, digits)} pts · ${signed(market.basisPointChange ?? 0, 1)} bp`
       : `${signed(market.change, digits)} · ${signed(market.percentChange ?? 0, 2)}%`;
 
   return (
@@ -483,7 +485,7 @@ function formatSeenDate(value: string) {
 }
 
 function formatValue(market: Market) {
-  if (market.id === "DGS10") return `${market.latest.value.toFixed(2)}%`;
+  if (market.id === "DGS10") return `${market.latest.value.toFixed(3)}%`;
   if (market.id === "DCOILWTICO") return `$${market.latest.value.toFixed(2)}`;
   return market.latest.value.toLocaleString("en-US", {
     minimumFractionDigits: 2,
