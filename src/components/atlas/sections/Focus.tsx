@@ -74,6 +74,7 @@ export function Focus() {
   return (
     <Section
       id="focus"
+      className="prototype-manifesto"
       index="01"
       kicker="Through-line"
       title={
@@ -89,7 +90,7 @@ export function Focus() {
       <Reveal>
         <ol
           aria-label="How the themes connect"
-          className="relative grid gap-4 md:grid-cols-4"
+          className="prototype-thread relative grid gap-4 md:grid-cols-4"
         >
           <span
             aria-hidden="true"
@@ -98,7 +99,7 @@ export function Focus() {
           {STOPS.map((s, i) => {
             const Icon = s.icon;
             return (
-              <li key={s.id} className="relative">
+              <li key={s.id} className="prototype-thread-step relative">
                 <div className="glass hover-lift relative h-full rounded-2xl p-5">
                   <div className="flex items-center gap-3">
                     <span className="relative grid h-7 w-7 place-items-center rounded-full border border-accent/50 bg-background">
@@ -119,11 +120,11 @@ export function Focus() {
       </Reveal>
 
       {/* current focus */}
-      <div className="mt-14">
+      <div className="prototype-now mt-14">
         <Reveal>
           <h3 className="mono-label">Current focus</h3>
         </Reveal>
-        <div className="mt-5 grid gap-4 lg:grid-cols-3">
+        <div className="prototype-focus-panel mt-5 grid gap-4 lg:grid-cols-3">
           {NOW.map((n, i) => (
             <Reveal key={n.label} delay={i * 80}>
               <TiltCard className="h-full rounded-2xl">

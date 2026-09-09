@@ -39,6 +39,7 @@ export function Finance() {
   return (
     <Section
       id="finance"
+      className="prototype-experience"
       index="05"
       kicker="Finance experience"
       title={
@@ -50,11 +51,11 @@ export function Finance() {
       glowX="50%"
       glowY="0%"
     >
-      <div className="grid gap-5 lg:grid-cols-2">
+      <div className="prototype-roles grid gap-5 lg:grid-cols-2">
         {ROLES.map((r, i) => (
           <Reveal key={r.org} delay={i * 90} className="h-full">
             <TiltCard className="h-full rounded-2xl" max={3}>
-              <article className="glass lumen flex h-full flex-col rounded-2xl p-6 sm:p-7">
+              <article className="prototype-role glass lumen flex h-full flex-col rounded-2xl p-6 sm:p-7">
                 <div className="flex items-start gap-4">
                   <IconBadge icon={r.icon} tone={r.tone} className="h-12 w-12 rounded-2xl" />
                   <div className="min-w-0">

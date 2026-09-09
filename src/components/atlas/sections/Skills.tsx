@@ -51,6 +51,7 @@ export function Skills() {
   return (
     <Section
       id="skills"
+      className="prototype-skills"
       index="07"
       kicker="Skills and languages"
       title="The toolkit, stated plainly."

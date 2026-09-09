@@ -59,7 +59,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="relative min-h-screen">
+    <div className="editorial-site relative min-h-screen">
       <SkipLink />
       <Backdrop />
       <Spotlight />
@@ -69,6 +69,7 @@ function Index() {
 
       <main>
         <Opening />
+        <KineticStrip />
         <Focus />
         <Journey />
         <Research />
@@ -80,6 +81,27 @@ function Index() {
       </main>
 
       <Footer />
+    </div>
+  );
+}
+
+function KineticStrip() {
+  const words = ["Statistical science", "Clean energy", "M&A", "Community leadership"];
+
+  return (
+    <div className="editorial-ticker" aria-label="Joshua's four connected themes">
+      <div className="editorial-ticker-track">
+        {[0, 1].map((copy) => (
+          <div key={copy} aria-hidden={copy === 1} className="editorial-ticker-set">
+            {words.map((word) => (
+              <span key={word}>
+                {word}
+                <i aria-hidden="true" />
+              </span>
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

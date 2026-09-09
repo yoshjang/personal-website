@@ -137,6 +137,7 @@ export function Journey() {
   return (
     <Section
       id="journey"
+      className="prototype-journey"
       index="02"
       kicker="Selected journey"
       title="Toledo to Durham, in six stops."

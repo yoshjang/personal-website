@@ -6,7 +6,8 @@ brief. Both views are fully static and suitable for GitHub Pages.
 - TanStack Start (prerendered to static files)
 - React, TypeScript, Tailwind CSS
 - Photos in `public/photos`, research poster in `public/documents`
-- Daily FRED market snapshot and source-linked GDELT headlines
+- Daily Treasury/FRED snapshot and saved publisher RSS headlines
+- Rotating industry coverage and clearly labeled possible market influences
 
 ## Development
 
@@ -16,7 +17,13 @@ Requires [Bun](https://bun.sh).
 bun install
 bun run dev     # local dev server
 bun run build   # refresh market data and build static output in .output/public
+bun test scripts/market-data.test.ts
 ```
+
+See [market source review](docs/market-sources.md) for provider decisions,
+publication lags and fallback behavior. Headlines are prerendered, so visitors do
+not need a live third-party feed request. Industry rotation pauses on interaction
+and respects reduced-motion preferences.
 
 ## Deployment to GitHub Pages
 
