@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T05:14:08.113Z",
-  "provider": "U.S. Treasury and FRED (S&P Dow Jones Indices and EIA)",
+  "generatedAt": "2026-09-09T05:26:00.551Z",
+  "provider": "U.S. Treasury, FRED and MarketWatch",
   "status": "ok",
   "markets": [
     {
@@ -9,7 +9,7 @@
       "shortLabel": "Dow",
       "unit": "Index",
       "sourceUrl": "https://fred.stlouisfed.org/series/DJIA",
-      "checkedAt": "2026-09-09T05:13:50.694Z",
+      "checkedAt": "2026-09-09T05:25:42.168Z",
       "status": "ok",
       "latest": {
         "date": "2026-09-08",
@@ -151,7 +151,7 @@
       "shortLabel": "S&P 500",
       "unit": "Index",
       "sourceUrl": "https://fred.stlouisfed.org/series/SP500",
-      "checkedAt": "2026-09-09T05:13:50.738Z",
+      "checkedAt": "2026-09-09T05:25:42.209Z",
       "status": "ok",
       "latest": {
         "date": "2026-09-08",
@@ -293,7 +293,7 @@
       "shortLabel": "U.S. 10Y",
       "unit": "Percent",
       "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "checkedAt": "2026-09-09T05:14:08.047Z",
+      "checkedAt": "2026-09-09T05:26:00.435Z",
       "status": "ok",
       "latest": {
         "date": "2026-09-08",
@@ -430,144 +430,144 @@
       ]
     },
     {
-      "id": "DCOILWTICO",
-      "label": "WTI Spot",
-      "shortLabel": "WTI Spot",
+      "id": "CL1",
+      "label": "WTI Front-Month Futures",
+      "shortLabel": "WTI Futures",
       "unit": "Dollars per barrel",
-      "sourceUrl": "https://fred.stlouisfed.org/series/DCOILWTICO",
-      "checkedAt": "2026-09-09T05:14:08.113Z",
+      "sourceUrl": "https://www.marketwatch.com/investing/future/cl.1",
+      "checkedAt": "2026-09-09T05:26:00.551Z",
       "status": "ok",
       "latest": {
-        "date": "2026-09-01",
-        "value": 91.48
+        "date": "2026-09-08",
+        "value": 93.03
       },
       "previous": {
-        "date": "2026-08-31",
-        "value": 87.03
+        "date": "2026-09-04",
+        "value": 91.48
       },
-      "change": 4.450000000000003,
-      "percentChange": 5.113179363437898,
+      "change": 1.5499999999999972,
+      "percentChange": 1.6943594228246581,
       "basisPointChange": null,
       "history": [
         {
-          "date": "2026-07-22",
-          "value": 87.66
-        },
-        {
-          "date": "2026-07-23",
-          "value": 93.08
-        },
-        {
-          "date": "2026-07-24",
-          "value": 91.74
-        },
-        {
-          "date": "2026-07-27",
-          "value": 84.25
-        },
-        {
           "date": "2026-07-28",
-          "value": 80.91
+          "value": 79.26
         },
         {
           "date": "2026-07-29",
-          "value": 86.08
+          "value": 84.46
         },
         {
           "date": "2026-07-30",
-          "value": 85.15
+          "value": 83.59
         },
         {
           "date": "2026-07-31",
-          "value": 86.16
+          "value": 84.67
         },
         {
           "date": "2026-08-03",
-          "value": 81.96
+          "value": 80.34
         },
         {
           "date": "2026-08-04",
-          "value": 77.33
+          "value": 75.77
         },
         {
           "date": "2026-08-05",
-          "value": 76.78
+          "value": 75.22
         },
         {
           "date": "2026-08-06",
-          "value": 78.88
+          "value": 77.29
         },
         {
           "date": "2026-08-07",
-          "value": 79.77
+          "value": 78.18
         },
         {
           "date": "2026-08-10",
-          "value": 83.76
+          "value": 82.13
         },
         {
           "date": "2026-08-11",
-          "value": 84.77
+          "value": 83.2
         },
         {
           "date": "2026-08-12",
-          "value": 84.97
+          "value": 83.27
         },
         {
           "date": "2026-08-13",
-          "value": 82.77
+          "value": 81.25
         },
         {
           "date": "2026-08-14",
-          "value": 83.99
+          "value": 82.4
         },
         {
           "date": "2026-08-17",
-          "value": 86.04
+          "value": 84.5
         },
         {
           "date": "2026-08-18",
-          "value": 86.48
+          "value": 84.94
         },
         {
           "date": "2026-08-19",
-          "value": 87.28
+          "value": 85.83
         },
         {
           "date": "2026-08-20",
-          "value": 89.75
+          "value": 87.83
         },
         {
           "date": "2026-08-21",
-          "value": 87.21
+          "value": 87.06
         },
         {
           "date": "2026-08-24",
-          "value": 86.34
+          "value": 85.01
         },
         {
           "date": "2026-08-25",
-          "value": 83.9
+          "value": 82.36
         },
         {
           "date": "2026-08-26",
-          "value": 83.46
+          "value": 82.23
         },
         {
           "date": "2026-08-27",
-          "value": 84.81
+          "value": 83.53
         },
         {
           "date": "2026-08-28",
-          "value": 84.57
+          "value": 83.4
         },
         {
           "date": "2026-08-31",
-          "value": 87.03
+          "value": 85.76
         },
         {
           "date": "2026-09-01",
+          "value": 90.22
+        },
+        {
+          "date": "2026-09-02",
+          "value": 91.01
+        },
+        {
+          "date": "2026-09-03",
+          "value": 91.3
+        },
+        {
+          "date": "2026-09-04",
           "value": 91.48
+        },
+        {
+          "date": "2026-09-08",
+          "value": 93.03
         }
       ]
     }

@@ -97,9 +97,9 @@ export const metricContext: Record<string, { pattern: RegExp; text: string }> = 
     pattern: /\b(treasury|yield|inflation|fed|payroll|jobs|bond)\b/i,
     text: "Inflation and employment releases, Fed expectations and Treasury supply can influence the 10-year yield.",
   },
-  DCOILWTICO: {
+  CL1: {
     pattern: /\b(oil|crude|opec|energy|inventory|inventories|petroleum)\b/i,
-    text: "Supply disruptions, inventory changes and demand expectations can influence WTI spot prices.",
+    text: "Supply disruptions, inventory changes and demand expectations can influence front-month WTI futures.",
   },
 };
 

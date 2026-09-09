@@ -1,5 +1,5 @@
 import { test, expect } from "bun:test";
-import { parseCsv, parseTreasury } from "./generate-market-data";
+import { parseCsv, parseMarketWatchHistory, parseTreasury } from "./generate-market-data";
 import { cleanArticles, relatedArticles } from "../src/lib/market-news";
 
 test("missing CSV values never become zero prices; observations are chronological", () => {
@@ -18,6 +18,24 @@ test("Treasury parser reads the ten-year field and rejects missing values", () =
       '<feed xmlns:d="d" xmlns:m="m"><entry><content><m:properties><d:NEW_DATE>2026-01-02T00:00:00</d:NEW_DATE><d:BC_10YEAR>4.2</d:BC_10YEAR></m:properties></content></entry><entry><content><m:properties><d:NEW_DATE>2026-01-03T00:00:00</d:NEW_DATE><d:BC_10YEAR /></m:properties></content></entry></feed>',
     ),
   ).toEqual([{ date: "2026-01-02", value: 4.2 }]);
+});
+test("MarketWatch parser keeps dated WTI futures settlements and rejects missing values", () => {
+  expect(
+    parseMarketWatchHistory({
+      TimeInfo: { Ticks: [1767312000000, 1767398400000, 1767657600000] },
+      Series: [
+        {
+          SeriesId: "s1",
+          InstrumentType: "Future",
+          CommonName: "Crude Oil WTI (NYM $/bbl) Front Month",
+          DataPoints: [[57.32], [null], [58.16]],
+        },
+      ],
+    }),
+  ).toEqual([
+    { date: "2026-01-02", value: 57.32 },
+    { date: "2026-01-06", value: 58.16 },
+  ]);
 });
 const article = {
   title: "Treasury yields decline",
@@ -38,5 +56,5 @@ test("headline cleanup rejects unsafe links, duplicates, future dates and stale 
 test("context never attributes a later headline to an earlier market observation", () => {
   expect(relatedArticles([article], "DGS10", "2026-01-01")).toHaveLength(0);
   expect(relatedArticles([article], "DGS10", "2026-01-02")).toHaveLength(1);
-  expect(relatedArticles([article], "DCOILWTICO", "2026-01-02")).toHaveLength(0);
+  expect(relatedArticles([article], "CL1", "2026-01-02")).toHaveLength(0);
 });

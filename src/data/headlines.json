@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-09T05:14:08.514Z",
+  "generatedAt": "2026-09-09T05:26:00.837Z",
   "groups": {
     "macro": {
-      "updatedAt": "2026-09-09T05:14:08.514Z",
+      "updatedAt": "2026-09-09T05:26:00.837Z",
       "status": "ok",
       "articles": [
         {
@@ -56,7 +56,7 @@
       ]
     },
     "deals": {
-      "updatedAt": "2026-09-09T05:14:08.514Z",
+      "updatedAt": "2026-09-09T05:26:00.837Z",
       "status": "ok",
       "articles": [
         {
@@ -110,7 +110,7 @@
       ]
     },
     "technology": {
-      "updatedAt": "2026-09-09T05:14:08.514Z",
+      "updatedAt": "2026-09-09T05:26:00.837Z",
       "status": "ok",
       "articles": [
         {
@@ -164,7 +164,7 @@
       ]
     },
     "financials": {
-      "updatedAt": "2026-09-09T05:14:08.514Z",
+      "updatedAt": "2026-09-09T05:26:00.837Z",
       "status": "ok",
       "articles": [
         {
@@ -218,7 +218,7 @@
       ]
     },
     "healthcare": {
-      "updatedAt": "2026-09-09T05:14:08.514Z",
+      "updatedAt": "2026-09-09T05:26:00.837Z",
       "status": "ok",
       "articles": [
         {
@@ -272,7 +272,7 @@
       ]
     },
     "energy": {
-      "updatedAt": "2026-09-09T05:14:08.514Z",
+      "updatedAt": "2026-09-09T05:26:00.837Z",
       "status": "ok",
       "articles": [
         {
@@ -326,7 +326,7 @@
       ]
     },
     "industrials": {
-      "updatedAt": "2026-09-09T05:14:08.514Z",
+      "updatedAt": "2026-09-09T05:26:00.837Z",
       "status": "ok",
       "articles": [
         {
@@ -380,7 +380,7 @@
       ]
     },
     "discretionary": {
-      "updatedAt": "2026-09-09T05:14:08.514Z",
+      "updatedAt": "2026-09-09T05:26:00.837Z",
       "status": "ok",
       "articles": [
         {
@@ -434,7 +434,7 @@
       ]
     },
     "staples": {
-      "updatedAt": "2026-09-09T05:14:08.514Z",
+      "updatedAt": "2026-09-09T05:26:00.837Z",
       "status": "ok",
       "articles": [
         {
@@ -458,7 +458,7 @@
       ]
     },
     "communication": {
-      "updatedAt": "2026-09-09T05:14:08.514Z",
+      "updatedAt": "2026-09-09T05:26:00.837Z",
       "status": "ok",
       "articles": [
         {
@@ -505,7 +505,7 @@
       "articles": []
     },
     "real-estate": {
-      "updatedAt": "2026-09-09T05:14:08.514Z",
+      "updatedAt": "2026-09-09T05:26:00.837Z",
       "status": "ok",
       "articles": [
         {

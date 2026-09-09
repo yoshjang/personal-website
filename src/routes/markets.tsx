@@ -179,8 +179,8 @@ function Markets() {
           <div className="mt-4 grid gap-4 text-sm leading-6 text-muted-foreground md:grid-cols-2">
             <p>
               Dow and S&amp;P 500 figures are daily index closes. The U.S. 10-year figure is the
-              constant-maturity market yield, not a traded closing price. WTI is the Cushing spot
-              price, not a futures settlement.
+              constant-maturity market yield, not a traded closing price. WTI is the front-month
+              NYMEX futures settlement reported by MarketWatch, not the Cushing spot price.
             </p>
             <p>
               This page is informational only and is not investment advice. Index data may be
@@ -516,7 +516,7 @@ function formatPublished(value: string) {
 
 function formatValue(market: Market) {
   if (market.id === "DGS10") return `${market.latest.value.toFixed(3)}%`;
-  if (market.id === "DCOILWTICO") return `$${market.latest.value.toFixed(2)}`;
+  if (market.id === "CL1") return `$${market.latest.value.toFixed(2)}`;
   return market.latest.value.toLocaleString("en-US", {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
