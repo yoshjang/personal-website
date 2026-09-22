@@ -1,12 +1,5 @@
 import type { ReactNode } from "react";
-import {
-  Crown,
-  GraduationCap,
-  Handshake,
-  MapPin,
-  Piano,
-  Timer,
-} from "lucide-react";
+import { Crown, GraduationCap, Handshake, MapPin, Piano, Timer } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { photos, type Photo } from "../photos";
 import { DetailCard, Figure, Reveal, Section, type IconType } from "../ui";
@@ -30,15 +23,18 @@ const STOPS: Stop[] = [
     tone: "cyan",
     title: "Piano and mathematics",
     meta: "Early years, Toledo, Ohio",
-    summary:
-      "Piano and mathematics competitions before high school.",
+    summary: "Piano and mathematics competitions before high school.",
     details: [
       "First place, Gene Marcus Piano Competition at Purdue University",
       "First place, Ohio Mathematics Contest",
       "Multiple MathCounts state qualifications",
     ],
     photos: [
-      { photo: photos.earlyLifeAward, caption: "An early competition award.", frame: "aspect-[3/4]" },
+      {
+        photo: photos.earlyLifeAward,
+        caption: "An early competition award.",
+        frame: "aspect-[3/4]",
+      },
     ],
   },
   {
@@ -87,8 +83,7 @@ const STOPS: Stop[] = [
     tone: "cyan",
     title: "Alumni Council",
     meta: "Sole student from his grade selected",
-    summary:
-      "The student voice on the school's alumni council.",
+    summary: "The student voice on the school's alumni council.",
     details: [
       "Hosted alumni and student events",
       "Represented students in bimonthly meetings",
@@ -101,8 +96,7 @@ const STOPS: Stop[] = [
     tone: "blue",
     title: "Varsity track captain",
     meta: "Sprinter",
-    summary:
-      "Captain of the varsity track team. Also played basketball and soccer.",
+    summary: "Captain of the varsity track team. Also played basketball and soccer.",
     details: [
       "District and regional finalist appearances",
       "State qualifications",
@@ -133,12 +127,12 @@ const STOPS: Stop[] = [
   },
 ];
 
-export function Journey() {
+export function Journey({ index = "03" }: { index?: string }) {
   return (
     <Section
       id="journey"
       className="prototype-journey"
-      index="02"
+      index={index}
       kicker="Selected journey"
       title="Toledo to Durham, in six stops."
       lede="Competitions, class leadership, and a track captaincy at Maumee Valley Country Day School, then Duke. Open any stop for the record behind it."
@@ -153,7 +147,12 @@ export function Journey() {
         />
 
         {STOPS.map((s) => (
-          <Reveal as="li" key={s.title} delay={40} className="relative grid grid-cols-[minmax(0,1fr)] gap-4 pb-12 pl-12 last:pb-0 md:grid-cols-[6.5rem_minmax(0,1fr)] md:pl-0">
+          <Reveal
+            as="li"
+            key={s.title}
+            delay={40}
+            className="relative grid grid-cols-[minmax(0,1fr)] gap-4 pb-12 pl-12 last:pb-0 md:grid-cols-[6.5rem_minmax(0,1fr)] md:pl-0"
+          >
             {/* marker */}
             <div className="md:pt-5">
               <span className="mono-label hidden text-foreground md:block">{s.marker}</span>

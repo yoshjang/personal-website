@@ -1,14 +1,5 @@
 import type { ReactNode } from "react";
-import {
-  ArrowRight,
-  Atom,
-  Battery,
-  Dna,
-  FileText,
-  Sun,
-  TrendingUp,
-  Zap,
-} from "lucide-react";
+import { ArrowRight, Atom, Battery, Dna, FileText, Sun, TrendingUp, Zap } from "lucide-react";
 import { LINKS } from "../content";
 import { photos } from "../photos";
 import { Bullets, Chip, Figure, IconBadge, Reveal, Section, TiltCard, type IconType } from "../ui";
@@ -51,11 +42,12 @@ const LABS: Lab[] = [
     group: "Bioinformatics program",
     year: "2023",
     focus: "RNA-seq analysis",
-    summary: "Processed RNA-seq data in R, produced figures and an abstract, and coauthored a paper.",
+    summary:
+      "Processed RNA-seq data in R, produced figures and an abstract, and coauthored a paper.",
     points: [
       <>
-        Coauthor, &ldquo;Shared and Unique Transcriptional Changes in the
-        Orbitofrontal Cortex in Psychiatric Disorders and Suicide&rdquo;
+        Coauthor, &ldquo;Shared and Unique Transcriptional Changes in the Orbitofrontal Cortex in
+        Psychiatric Disorders and Suicide&rdquo;
       </>,
     ],
     tags: ["R", "RNA-seq", "Coauthor"],
@@ -89,17 +81,17 @@ const LABS: Lab[] = [
   },
 ];
 
-export function Research() {
+export function Research({ index = "04" }: { index?: string }) {
   return (
     <Section
       id="research"
       className="prototype-research"
-      index="03"
+      index={index}
       kicker="Research and sustainability"
       title={
         <>
-          Lab to <span className="text-gradient">capital</span>: five research
-          settings, one question.
+          Lab to <span className="text-gradient">capital</span>: five research settings, one
+          question.
         </>
       }
       lede="Solar cells, batteries, nanofabrication, and one bioinformatics project. Read left to right: the technical work comes first, and the financing question comes out of it."
@@ -162,9 +154,8 @@ export function Research() {
             <div>
               <p className="mono-label text-lime">Where it leads</p>
               <p className="mt-2 max-w-2xl text-[0.98rem] leading-relaxed text-foreground">
-                Working on solar cells and batteries raised a question about how
-                these technologies get financed and scaled. That question is the
-                thread into the finance work below.
+                Working on solar cells and batteries raised a question about how these technologies
+                get financed and scaled. That question is the thread into the finance work below.
               </p>
             </div>
           </div>
@@ -242,9 +233,8 @@ export function Research() {
               <h3 className="display-medium text-lg text-foreground">Research poster</h3>
             </div>
             <p className="mt-4 max-w-prose text-[0.95rem] leading-relaxed text-muted-foreground">
-              The SSTP redox-flow battery findings were presented and defended to
-              university chemistry faculty and industry mentors. The poster is
-              available as a PDF.
+              The SSTP redox-flow battery findings were presented and defended to university
+              chemistry faculty and industry mentors. The poster is available as a PDF.
             </p>
             <a
               href={LINKS.poster}

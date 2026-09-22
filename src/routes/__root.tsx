@@ -10,6 +10,7 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
+import { trackPageview } from "../lib/analytics";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
@@ -114,6 +115,12 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+        {/* Privacy-friendly analytics (GoatCounter): no cookies, no personal data. */}
+        <script
+          async
+          data-goatcounter="https://joshuawang.goatcounter.com/count"
+          src="https://gc.zgo.at/count.js"
+        />
       </head>
       <body>
         {children}
@@ -125,6 +132,19 @@ function RootShell({ children }: { children: ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+  const router = useRouter();
+
+  // GoatCounter counts the initial pageview itself; count SPA navigations here.
+  useEffect(() => {
+    let initial = true;
+    return router.subscribe("onResolved", () => {
+      if (initial) {
+        initial = false;
+        return;
+      }
+      trackPageview(window.location.pathname);
+    });
+  }, [router]);
 
   return (
     <QueryClientProvider client={queryClient}>

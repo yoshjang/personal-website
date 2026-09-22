@@ -9,13 +9,22 @@ const ROLES = [
     role: "M&A Analyst",
     when: "Summer 2026",
     summary:
-      "Buy-side advisory for two clients: The Fremont Company, a specialty food manufacturer, and Seneca Label & Packaging, a commercial label-printing company.",
+      "Buy-side advisory for two lower-middle-market clients, about $5M enterprise value each: a specialty food manufacturer and a commercial label-printing company. Names withheld for confidentiality.",
     points: [
       "Sourced about 30 acquisition targets that received serious review",
       "Built an Airtable and Claude sourcing workflow that the firm adopted",
-      "Prepared a General Press tax-return summary used in live diligence",
+      "Prepared a tax-return summary for a regional commercial printing company, used in live diligence",
     ],
-    tools: ["Airtable", "Claude", "Capital IQ", "PitchBook", "Grata", "Orbis", "ZoomInfo", "LSEG Refinitiv"],
+    tools: [
+      "Airtable",
+      "Claude",
+      "Capital IQ",
+      "PitchBook",
+      "Grata",
+      "Orbis",
+      "ZoomInfo",
+      "LSEG Refinitiv",
+    ],
   },
   {
     icon: LineChart,
@@ -35,12 +44,12 @@ const ROLES = [
   },
 ];
 
-export function Finance() {
+export function Finance({ index = "06" }: { index?: string }) {
   return (
     <Section
       id="finance"
       className="prototype-experience"
-      index="05"
+      index={index}
       kicker="Finance experience"
       title={
         <>
@@ -51,6 +60,10 @@ export function Finance() {
       glowX="50%"
       glowY="0%"
     >
+      <p className="mb-5 max-w-2xl text-[0.85rem] leading-relaxed text-muted-foreground">
+        Client and target names are anonymized here out of confidentiality; the work itself is
+        described exactly as it happened.
+      </p>
       <div className="prototype-roles grid gap-5 lg:grid-cols-2">
         {ROLES.map((r, i) => (
           <Reveal key={r.org} delay={i * 90} className="h-full">
@@ -68,7 +81,9 @@ export function Finance() {
                   </div>
                 </div>
 
-                <p className="mt-5 text-[0.98rem] leading-relaxed text-foreground/90">{r.summary}</p>
+                <p className="mt-5 text-[0.98rem] leading-relaxed text-foreground/90">
+                  {r.summary}
+                </p>
 
                 <Bullets className="mt-5" items={r.points} />
 

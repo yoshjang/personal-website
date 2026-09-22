@@ -53,10 +53,7 @@ const NOW = [
     icon: Briefcase,
     label: "Working, Summer 2026",
     tone: "blue" as const,
-    items: [
-      "M&A Analyst, Wood Creek Advisors",
-      "Venture Capital Analyst, CoreNetwork Fund",
-    ],
+    items: ["M&A Analyst, Wood Creek Advisors", "Venture Capital Analyst, CoreNetwork Fund"],
   },
   {
     icon: Users,
@@ -70,17 +67,16 @@ const NOW = [
   },
 ];
 
-export function Focus() {
+export function Focus({ index = "01" }: { index?: string }) {
   return (
     <Section
       id="focus"
       className="prototype-manifesto"
-      index="01"
+      index={index}
       kicker="Through-line"
       title={
         <>
-          Energy research raised a question about{" "}
-          <span className="text-gradient">capital</span>.
+          Energy research raised a question about <span className="text-gradient">capital</span>.
         </>
       }
       lede="Joshua started in labs: solar cells, batteries, cleanrooms. That technical work led to curiosity about how strategy and capital help companies and technologies scale. Community leadership, in Toledo and at Duke, shaped the desire to use analytical work responsibly."
@@ -111,7 +107,9 @@ export function Focus() {
                     <Icon aria-hidden="true" className="h-5 w-5 text-accent" />
                     <h3 className="display-medium text-xl text-foreground">{s.label}</h3>
                   </div>
-                  <p className="mt-3 text-[0.9rem] leading-relaxed text-muted-foreground">{s.text}</p>
+                  <p className="mt-3 text-[0.9rem] leading-relaxed text-muted-foreground">
+                    {s.text}
+                  </p>
                 </div>
               </li>
             );

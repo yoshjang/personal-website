@@ -47,12 +47,12 @@ const GROUPS: Group[] = [
   },
 ];
 
-export function Skills() {
+export function Skills({ index = "08" }: { index?: string }) {
   return (
     <Section
       id="skills"
       className="prototype-skills"
-      index="07"
+      index={index}
       kicker="Skills and languages"
       title="The toolkit, stated plainly."
       lede="Tools he has used in real work, practices he has repeated, and the two languages he can hold a conversation in."
@@ -93,8 +93,8 @@ export function Skills() {
               </div>
             </div>
             <p className="max-w-md text-[0.9rem] leading-relaxed text-muted-foreground">
-              The one formal credential listed here. Everything else on this page
-              is described as experience.
+              The one formal credential listed here. Everything else on this page is described as
+              experience.
             </p>
           </div>
         </Reveal>

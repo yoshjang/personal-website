@@ -219,10 +219,7 @@ export function Bullets({ items, className }: { items: ReactNode[]; className?: 
     <ul className={cn("space-y-2.5", className)}>
       {items.map((item, i) => (
         <li key={i} className="flex gap-3 text-[0.95rem] leading-relaxed text-muted-foreground">
-          <span
-            aria-hidden="true"
-            className="mt-[0.7rem] h-px w-3 shrink-0 bg-accent/70"
-          />
+          <span aria-hidden="true" className="mt-[0.7rem] h-px w-3 shrink-0 bg-accent/70" />
           <span className="min-w-0">{item}</span>
         </li>
       ))}
@@ -237,6 +234,7 @@ export function LinkButton({
   icon: Icon,
   external = false,
   className,
+  onClick,
 }: {
   href: string;
   children: ReactNode;
@@ -244,6 +242,7 @@ export function LinkButton({
   icon?: IconType | undefined;
   external?: boolean | undefined;
   className?: string | undefined;
+  onClick?: (() => void) | undefined;
 }) {
   const base =
     "group inline-flex min-h-11 items-center gap-2 rounded-full px-5 text-[0.95rem] font-semibold transition-[background-color,border-color,color,transform,box-shadow] duration-200 active:scale-[0.98]";
@@ -256,6 +255,7 @@ export function LinkButton({
   return (
     <a
       href={href}
+      onClick={onClick}
       className={cn(base, styles[variant], className)}
       {...(external ? { target: "_blank", rel: "noreferrer noopener" } : {})}
     >
@@ -318,7 +318,9 @@ export function DetailCard({
               {role && meta ? (
                 <span aria-hidden="true" className="h-1 w-1 rounded-full bg-border" />
               ) : null}
-              {meta ? <span className="mono-label normal-case tracking-[0.08em]">{meta}</span> : null}
+              {meta ? (
+                <span className="mono-label normal-case tracking-[0.08em]">{meta}</span>
+              ) : null}
             </p>
           ) : null}
         </div>

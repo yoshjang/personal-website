@@ -120,6 +120,11 @@ export const Route = createFileRoute("/technicals")({
           "Practice and track accounting, valuation, DCF, M&A, LBO, markets, industry, and behavioral questions.",
       },
       { property: "og:url", content: SITE_URL },
+      { property: "og:image", content: "https://joshuawang.app/og-image.jpg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: "https://joshuawang.app/og-image.jpg" },
     ],
     links: [{ rel: "canonical", href: SITE_URL }],
   }),
@@ -827,4 +832,4 @@ function AnswerText({ answer }: { answer: string }) {
       {answer}
     </p>
   );
-        }
+}

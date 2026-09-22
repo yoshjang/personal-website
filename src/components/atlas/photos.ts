@@ -11,12 +11,12 @@ export type Photo = {
   alt: string;
 };
 
-const p = (
-  file: string,
-  width: number,
-  height: number,
-  alt: string,
-): Photo => ({ src: `/photos/${file}`, width, height, alt });
+const p = (file: string, width: number, height: number, alt: string): Photo => ({
+  src: `/photos/${file}`,
+  width,
+  height,
+  alt,
+});
 
 export const photos = {
   heroPortrait: p(

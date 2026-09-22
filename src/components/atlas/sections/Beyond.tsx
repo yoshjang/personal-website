@@ -66,17 +66,17 @@ function Constellation() {
           const to = STARS[b];
           if (!from || !to) return null;
           return (
-          <line
-            key={`${a}-${b}`}
-            x1={from.x}
-            y1={from.y}
-            x2={to.x}
-            y2={to.y}
-            stroke="var(--color-accent)"
-            strokeWidth="1"
-            vectorEffect="non-scaling-stroke"
-            opacity="0.28"
-          />
+            <line
+              key={`${a}-${b}`}
+              x1={from.x}
+              y1={from.y}
+              x2={to.x}
+              y2={to.y}
+              stroke="var(--color-accent)"
+              strokeWidth="1"
+              vectorEffect="non-scaling-stroke"
+              opacity="0.28"
+            />
           );
         })}
         {DUST.map(([x, y], i) => (
@@ -98,19 +98,20 @@ function Constellation() {
           <li
             key={s.name}
             className="group absolute flex flex-col items-center gap-2"
-            style={{ left: `${s.x}%`, top: `${Math.round((s.y / H) * 1000) / 10}%`, transform: "translate(-50%, -6px)" }}
+            style={{
+              left: `${s.x}%`,
+              top: `${Math.round((s.y / H) * 1000) / 10}%`,
+              transform: "translate(-50%, -6px)",
+            }}
           >
-            <span
-              aria-hidden="true"
-              className="relative grid h-3 w-3 place-items-center"
-            >
-              <span
-                className="absolute inset-0 rounded-full bg-accent/40 blur-[3px] transition-transform duration-300 group-hover:scale-[2.2] motion-reduce:transition-none"
-              />
+            <span aria-hidden="true" className="relative grid h-3 w-3 place-items-center">
+              <span className="absolute inset-0 rounded-full bg-accent/40 blur-[3px] transition-transform duration-300 group-hover:scale-[2.2] motion-reduce:transition-none" />
               <span
                 className={cn(
                   "relative h-2 w-2 rounded-full transition-transform duration-300 group-hover:scale-125 motion-reduce:transition-none",
-                  i % 3 === 0 ? "bg-lime shadow-[0_0_10px] shadow-lime/80" : "bg-accent shadow-[0_0_10px] shadow-accent/80",
+                  i % 3 === 0
+                    ? "bg-lime shadow-[0_0_10px] shadow-lime/80"
+                    : "bg-accent shadow-[0_0_10px] shadow-accent/80",
                 )}
                 style={{ animationDelay: `${i * 0.3}s` }}
               />
@@ -161,17 +162,16 @@ const toneBg = {
   lime: "bg-lime/12",
 } as const;
 
-export function Beyond() {
+export function Beyond({ index = "07" }: { index?: string }) {
   return (
     <Section
       id="beyond"
       className="prototype-interests"
-      index="06"
+      index={index}
       kicker="Beyond the work"
       title={
         <>
-          Concerts, Cowboys, <span className="text-gradient">Greek myths</span>, and
-          chest training.
+          Concerts, Cowboys, <span className="text-gradient">Greek myths</span>, and chest training.
         </>
       }
       lede="What Joshua does off the clock. Ten artists seen live, two intramural sports, and a reading list that runs from history to dystopia."

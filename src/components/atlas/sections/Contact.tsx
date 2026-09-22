@@ -1,9 +1,10 @@
 import type { CSSProperties } from "react";
-import { ArrowUp, Linkedin, Mail } from "lucide-react";
-import { LINKS, SECTIONS } from "../content";
+import { ArrowUp, FileDown, Linkedin, Mail } from "lucide-react";
+import { trackEvent } from "@/lib/analytics";
+import { LINKS, SECTIONS, type SectionDef } from "../content";
 import { LinkButton, Reveal } from "../ui";
 
-export function Contact() {
+export function Contact({ index = "09" }: { index?: string }) {
   return (
     <section
       id="contact"
@@ -30,7 +31,7 @@ export function Contact() {
             <div className="relative grid gap-8 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:items-end">
               <div>
                 <p className="mono-label flex items-center gap-3">
-                  <span className="text-accent">08</span>
+                  <span className="text-accent">{index}</span>
                   <span aria-hidden="true" className="h-px w-8 bg-border" />
                   <span>Contact</span>
                 </p>
@@ -38,8 +39,7 @@ export function Contact() {
                   id="contact-title"
                   className="display mt-5 text-4xl text-foreground sm:text-5xl lg:text-6xl"
                 >
-                  Reach Joshua by email or on{" "}
-                  <span className="text-gradient">LinkedIn</span>.
+                  Reach Joshua by email or on <span className="text-gradient">LinkedIn</span>.
                 </h2>
                 <p className="body-copy mt-6">
                   Duke University, Durham, North Carolina. Home is Toledo, Ohio.
@@ -47,8 +47,23 @@ export function Contact() {
               </div>
 
               <div className="flex flex-col gap-3 sm:flex-row lg:flex-col lg:items-stretch">
-                <LinkButton href={LINKS.mailto} icon={Mail} className="justify-center">
+                <LinkButton
+                  href={LINKS.mailto}
+                  icon={Mail}
+                  className="justify-center"
+                  onClick={() => trackEvent("contact-email")}
+                >
                   {LINKS.email}
+                </LinkButton>
+                <LinkButton
+                  href={LINKS.resume}
+                  icon={FileDown}
+                  variant="lime"
+                  external
+                  className="justify-center"
+                  onClick={() => trackEvent("resume-download")}
+                >
+                  Download resume (PDF)
                 </LinkButton>
                 <LinkButton
                   href={LINKS.linkedin}
@@ -56,6 +71,7 @@ export function Contact() {
                   variant="ghost"
                   external
                   className="justify-center"
+                  onClick={() => trackEvent("contact-linkedin")}
                 >
                   linkedin.com/in/-joshua-wang-
                 </LinkButton>
@@ -68,7 +84,7 @@ export function Contact() {
   );
 }
 
-export function Footer() {
+export function Footer({ sections = SECTIONS }: { sections?: SectionDef[] }) {
   return (
     <footer className="border-t border-border/40 pb-10 pt-10">
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-5 sm:px-8 md:flex-row md:items-start md:justify-between">
@@ -80,20 +96,26 @@ export function Footer() {
           <p className="mt-4 text-[0.85rem] text-muted-foreground">
             &copy; {new Date().getFullYear()} Joshua Wang
           </p>
+          <p className="mt-2 max-w-xs text-[0.75rem] leading-relaxed text-muted-foreground/80">
+            Privacy-friendly analytics by GoatCounter: page views and link clicks only. No cookies,
+            no personal data.
+          </p>
         </div>
 
         <nav aria-label="Footer sections" className="md:max-w-md">
           <ul className="flex flex-wrap gap-x-4 gap-y-2">
-            {SECTIONS.filter((s) => s.id !== "top").map((s) => (
-              <li key={s.id}>
-                <a
-                  href={`#${s.id}`}
-                  className="text-[0.85rem] text-muted-foreground transition-colors hover:text-accent"
-                >
-                  {s.label}
-                </a>
-              </li>
-            ))}
+            {sections
+              .filter((s) => s.id !== "top")
+              .map((s) => (
+                <li key={s.id}>
+                  <a
+                    href={`#${s.id}`}
+                    className="text-[0.85rem] text-muted-foreground transition-colors hover:text-accent"
+                  >
+                    {s.label}
+                  </a>
+                </li>
+              ))}
           </ul>
         </nav>
 

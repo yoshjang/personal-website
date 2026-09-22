@@ -2,12 +2,12 @@ import { BookOpen, Church, HeartHandshake, Landmark, Sprout, Users } from "lucid
 import { photos } from "../photos";
 import { DetailCard, Figure, Reveal, Section } from "../ui";
 
-export function Community() {
+export function Community({ index = "05" }: { index?: string }) {
   return (
     <Section
       id="community"
       className="prototype-community"
-      index="04"
+      index={index}
       kicker="Leadership and community"
       title="Student organizations at Duke, and the work that started in Toledo."
       lede="Operations and membership work in three student organizations at Duke, a nonprofit STEM program at home, and years of service at church."

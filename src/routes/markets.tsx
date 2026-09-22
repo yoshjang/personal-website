@@ -13,6 +13,7 @@ import {
   Play,
 } from "lucide-react";
 import { Backdrop, Spotlight, TopNav } from "@/components/atlas/Chrome";
+import { MarketNotes } from "@/components/markets/MarketNotes";
 import { SECTIONS } from "@/components/atlas/content";
 import snapshot from "@/data/market-data.json";
 import newsSnapshot from "@/data/headlines.json";
@@ -72,6 +73,11 @@ export const Route = createFileRoute("/markets")({
         content: "Daily market closes and source-linked deal and macro headlines.",
       },
       { property: "og:url", content: SITE_URL },
+      { property: "og:image", content: "https://joshuawang.app/og-image.jpg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: "https://joshuawang.app/og-image.jpg" },
     ],
     links: [{ rel: "canonical", href: SITE_URL }],
   }),
@@ -141,6 +147,8 @@ function Markets() {
           </div>
         </section>
 
+        <MarketNotes />
+
         <section aria-labelledby="headlines-title" className="mt-20">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
@@ -208,7 +216,10 @@ function SnapshotStamp() {
             }) + " ET"
           : "Unavailable"}
       </p>
-      <p className="mt-1 text-xs text-muted-foreground">Checked hourly after U.S. market close</p>
+      <p className="mt-1 text-xs text-muted-foreground">
+        Refreshes run hourly after the U.S. market close; the time above is when this snapshot was
+        actually built.
+      </p>
       {marketData.status !== "ok" && (
         <p className="mt-2 text-xs text-amber-300">
           Some sources could not refresh. Check individual observation dates.
@@ -267,7 +278,7 @@ function MarketCard({ market }: { market: Market }) {
               ({formatPublished(related[0]!.publishedAt)}).{" "}
             </>
           ) : (
-            <>I cannot confirm a specific news driver for this observation. </>
+            <>No confirmed news driver for this observation. </>
           )}
           {metricContext[market.id]?.text}
         </p>
