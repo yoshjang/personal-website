@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type CSSProperties, type ReactNode } from "react";
 import { ArrowUpRight, Plus, Search, Trash2 } from "lucide-react";
+import { CountUp } from "@/components/atlas/ui";
 import { Backdrop, Spotlight, TopNav } from "@/components/atlas/Chrome";
 import { SECTIONS } from "@/components/atlas/content";
 import { Button } from "@/components/ui/button";
@@ -182,7 +183,7 @@ function Deals() {
       <TopNav sections={SECTIONS} currentPage="deals" />
       <main className="mx-auto max-w-6xl px-5 pb-20 pt-28 sm:px-8 sm:pt-32">
         <section aria-labelledby="deals-title">
-          <div className="flex flex-col gap-6 border-b border-border/70 pb-8 lg:flex-row lg:items-end lg:justify-between">
+          <div className="intro-item flex flex-col gap-6 border-b border-border/70 pb-8 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <p className="mono-label text-accent">Energy transition deal tracker</p>
               <h1
@@ -202,10 +203,25 @@ function Deals() {
             </Button>
           </div>
 
-          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            <StatCard label="Disclosed volume" value={formatVolume(stats.volume)} sub={`across ${stats.priced} priced deals`} />
-            <StatCard label="Deals tracked" value={String(stats.count)} sub={`${mine.length} added by me`} />
-            <StatCard label="Sectors" value={String(stats.sectors)} sub={sectors.slice(1).join(", ")} />
+          <div className="editorial-ticker mt-6" aria-hidden="true">
+            <div className="editorial-ticker-track">
+              {[0, 1].map((copy) => (
+                <div key={copy} className="editorial-ticker-set">
+                  {sectors.slice(1).map((name) => (
+                    <span key={name}>
+                      {name}
+                      <i aria-hidden="true" />
+                    </span>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="intro-item mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4" style={{ "--d": "160ms" } as CSSProperties}>
+            <StatCard label="Disclosed volume" value={<CountUp value={stats.volume} format={formatVolume} />} sub={`across ${stats.priced} priced deals`} />
+            <StatCard label="Deals tracked" value={<CountUp value={stats.count} />} sub={`${mine.length} added by me`} />
+            <StatCard label="Sectors" value={<CountUp value={stats.sectors} />} sub={sectors.slice(1).join(", ")} />
             <StatCard label="Latest entry" value={stats.latest ? formatDate(stats.latest) : "-"} sub="by announced date" />
           </div>
 
@@ -279,7 +295,7 @@ function Deals() {
   );
 }
 
-function StatCard({ label, value, sub }: { label: string; value: string; sub: string }) {
+function StatCard({ label, value, sub }: { label: string; value: ReactNode; sub: string }) {
   return (
     <div className="glass rounded-2xl p-4">
       <p className="mono-label">{label}</p>
@@ -293,7 +309,7 @@ function StatCard({ label, value, sub }: { label: string; value: string; sub: st
 
 function DealCard({ deal, onRemove }: { deal: Deal; onRemove: (id: string) => void }) {
   return (
-    <article className="glass lumen flex flex-col rounded-2xl p-5">
+    <article className="glass lumen hover-lift flex flex-col rounded-2xl p-5">
       <div className="flex items-start justify-between gap-3">
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-accent">
