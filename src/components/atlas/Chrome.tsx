@@ -139,7 +139,7 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
   const sectionPrefix = aboutActive ? "" : "/";
 
   const topLevelClass =
-    "inline-flex min-h-10 shrink-0 items-center justify-center rounded-full px-3 text-[0.78rem] font-bold tracking-tight transition-all hover:bg-secondary hover:text-foreground sm:min-h-11 sm:px-5 sm:text-[0.95rem]";
+    "inline-flex min-h-10 shrink-0 items-center justify-center rounded-full px-2 text-[0.72rem] font-bold tracking-tight transition-all hover:bg-secondary hover:text-foreground sm:min-h-11 sm:px-5 sm:text-[0.95rem]";
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5">
@@ -163,7 +163,7 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
           </span>
         </a>
 
-        <div className="flex min-w-0 items-center gap-0.5 rounded-full bg-background/70 p-1 ring-1 ring-border/80 sm:gap-1">
+        <div className="no-scrollbar flex min-w-0 items-center gap-0.5 overflow-x-auto rounded-full bg-background/70 p-1 ring-1 ring-border/80 sm:gap-1">
           <NavigationMenu className="flex-none">
             <NavigationMenuList className="space-x-0">
               <NavigationMenuItem>
@@ -239,7 +239,8 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
                 : "text-muted-foreground",
             )}
           >
-            IB Technicals
+            <span className="sm:hidden">Technicals</span>
+            <span className="hidden sm:inline">IB Technicals</span>
           </Link>
           <Link
             to="/deals"
