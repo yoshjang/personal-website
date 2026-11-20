@@ -9,10 +9,11 @@ import {
   Sun,
   TrendingUp,
 } from "lucide-react";
+import { useEffect, useRef, type CSSProperties } from "react";
 import { trackEvent } from "@/lib/analytics";
 import { LINKS } from "../content";
 import { photos } from "../photos";
-import { LinkButton, Reveal, type IconType } from "../ui";
+import { CountUp, LinkButton, Magnetic, Reveal, Star, type IconType } from "../ui";
 import type { ViewMode } from "@/lib/view-mode";
 
 type Theme = {
@@ -54,17 +55,20 @@ const THEMES: Theme[] = [
   },
 ];
 
-const PROOF_POINTS = [
+const PROOF_POINTS: { value: number; format: (v: number) => string; label: string }[] = [
   {
-    value: "2",
+    value: 2,
+    format: (v) => String(Math.round(v)),
     label: "live buy-side processes supported to LOI, ~$5M enterprise value each",
   },
   {
-    value: "22,000",
+    value: 22000,
+    format: (v) => Math.round(v).toLocaleString("en-US"),
     label: "companies screened with a personal 10-point scoring system",
   },
   {
-    value: "40+",
+    value: 40,
+    format: (v) => `${Math.round(v)}+`,
     label: "limited partners received quarterly investor reports he wrote",
   },
 ];
@@ -97,11 +101,15 @@ export function Opening({
       aria-labelledby="hero-title"
       className="editorial-hero relative overflow-hidden pb-14 pt-24 sm:pb-20 sm:pt-32"
     >
+      <HeroLines />
       <div className="relative mx-auto max-w-6xl px-5 sm:px-8">
         <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:gap-8">
           {/* copy */}
           <div className="relative z-10 order-1">
-            <p className="mono-label flex flex-wrap items-center gap-x-3 gap-y-1">
+            <p
+              className="mono-label intro-item flex flex-wrap items-center gap-x-3 gap-y-1"
+              style={{ "--d": "60ms" } as CSSProperties}
+            >
               <span>Toledo, Ohio</span>
               <span
                 aria-hidden="true"
@@ -114,23 +122,39 @@ export function Opening({
               id="hero-title"
               className="editorial-hero-name display mt-5 text-[3.4rem] text-foreground sm:text-7xl lg:text-[5.5rem]"
             >
-              <span>Joshua</span> <span className="text-gradient">Wang</span>
+              <span className="mask-line">
+                <span className="mask-inner" style={{ "--d": "140ms" } as CSSProperties}>
+                  Joshua
+                </span>
+              </span>{" "}
+              <span className="mask-line">
+                <span
+                  className="mask-inner text-gradient"
+                  style={{ "--d": "300ms" } as CSSProperties}
+                >
+                  Wang
+                  <Star className="ml-4 inline-block h-[0.32em] w-[0.32em] align-baseline text-primary" />
+                </span>
+              </span>
             </h1>
 
-            <p className="body-copy mt-6 text-lg sm:text-xl">
+            <p
+              className="body-copy intro-item mt-6 text-lg sm:text-xl"
+              style={{ "--d": "460ms" } as CSSProperties}
+            >
               Duke University student from Toledo, Ohio. B.S. in Statistical Science with a Data
               Science concentration and a Financial Economics minor, expected May 2029. M&A and
               venture capital analyst, Summer 2026. Investment banking recruiting for 2028.
             </p>
 
             {/* proof points */}
-            <Reveal className="mt-7">
+            <div className="intro-item mt-7" style={{ "--d": "580ms" } as CSSProperties}>
               <dl className="grid gap-3 sm:grid-cols-3">
                 {PROOF_POINTS.map((p) => (
-                  <div key={p.value} className="glass rounded-2xl px-4 py-3.5">
+                  <div key={p.label} className="glass rounded-2xl px-4 py-3.5">
                     <dt className="sr-only">Proof point</dt>
                     <dd className="font-display text-2xl font-bold tracking-tight text-lime">
-                      {p.value}
+                      <CountUp value={p.value} format={p.format} />
                     </dd>
                     <dd className="mt-1 text-[0.8rem] leading-snug text-muted-foreground">
                       {p.label}
@@ -138,10 +162,10 @@ export function Opening({
                   </div>
                 ))}
               </dl>
-            </Reveal>
+            </div>
 
             {/* selected experience */}
-            <Reveal delay={80} className="mt-4">
+            <div className="intro-item mt-4" style={{ "--d": "700ms" } as CSSProperties}>
               <div className="glass rounded-2xl p-5">
                 <div className="flex items-center justify-between gap-3">
                   <p className="mono-label flex items-center gap-2 text-accent">
@@ -150,7 +174,7 @@ export function Opening({
                   </p>
                   <a
                     href="#casework"
-                    className="text-[0.8rem] font-semibold text-accent underline decoration-accent/40 underline-offset-4 transition-colors hover:text-foreground"
+                    className="link-sweep text-[0.8rem] font-semibold text-accent transition-colors hover:text-foreground"
                   >
                     Case studies
                   </a>
@@ -172,38 +196,47 @@ export function Opening({
                   ))}
                 </ul>
               </div>
-            </Reveal>
+            </div>
 
-            <div className="mt-7 flex flex-wrap items-center gap-3">
-              <LinkButton
-                href={LINKS.mailto}
-                icon={Mail}
-                onClick={() => trackEvent("contact-email")}
-              >
-                Email Joshua
-              </LinkButton>
-              <LinkButton
-                href={LINKS.resume}
-                icon={FileDown}
-                variant="lime"
-                external
-                onClick={() => trackEvent("resume-download")}
-              >
-                Download resume
-              </LinkButton>
-              <LinkButton
-                href={LINKS.linkedin}
-                icon={Linkedin}
-                variant="ghost"
-                external
-                onClick={() => trackEvent("contact-linkedin")}
-              >
-                LinkedIn
-              </LinkButton>
+            <div
+              className="intro-item mt-7 flex flex-wrap items-center gap-3"
+              style={{ "--d": "820ms" } as CSSProperties}
+            >
+              <Magnetic>
+                <LinkButton
+                  href={LINKS.mailto}
+                  icon={Mail}
+                  onClick={() => trackEvent("contact-email")}
+                >
+                  Email Joshua
+                </LinkButton>
+              </Magnetic>
+              <Magnetic>
+                <LinkButton
+                  href={LINKS.resume}
+                  icon={FileDown}
+                  variant="lime"
+                  external
+                  onClick={() => trackEvent("resume-download")}
+                >
+                  Download resume
+                </LinkButton>
+              </Magnetic>
+              <Magnetic>
+                <LinkButton
+                  href={LINKS.linkedin}
+                  icon={Linkedin}
+                  variant="ghost"
+                  external
+                  onClick={() => trackEvent("contact-linkedin")}
+                >
+                  LinkedIn
+                </LinkButton>
+              </Magnetic>
             </div>
 
             {/* view switch */}
-            <div className="mt-7">
+            <div className="intro-item mt-7" style={{ "--d": "940ms" } as CSSProperties}>
               <ViewSwitch view={view} onViewChange={onViewChange} />
               <p className="mt-2.5 max-w-md text-[0.82rem] leading-relaxed text-muted-foreground">
                 {view === "recruiter"
@@ -214,7 +247,8 @@ export function Opening({
 
             <a
               href={view === "recruiter" ? "#casework" : "#focus"}
-              className="group mt-8 inline-flex min-h-11 items-center gap-3 rounded-full text-[0.85rem] text-muted-foreground transition-colors hover:text-foreground"
+              className="group intro-item mt-8 inline-flex min-h-11 items-center gap-3 rounded-full text-[0.85rem] text-muted-foreground transition-colors hover:text-foreground"
+              style={{ "--d": "1040ms" } as CSSProperties}
             >
               <span className="grid h-9 w-9 place-items-center rounded-full border border-border/80 bg-surface/60 transition-colors group-hover:border-accent/60">
                 <ArrowDown aria-hidden="true" className="h-4 w-4 animate-cue text-accent" />
@@ -228,7 +262,10 @@ export function Opening({
           </div>
 
           {/* orbital portrait */}
-          <div className="prototype-portrait-stage order-2">
+          <div
+            className="prototype-portrait-stage intro-item relative z-10 order-2"
+            style={{ "--d": "520ms" } as CSSProperties}
+          >
             <div className="prototype-portrait-aura" aria-hidden="true" />
             <img
               className="prototype-portrait"
@@ -316,4 +353,105 @@ export function ViewSwitch({
       ))}
     </div>
   );
+}
+
+/**
+ * Animated warped-line field behind the hero, in the spirit of the
+ * reference sites' kinetic backgrounds. Pure canvas, no dependencies.
+ * Static single frame for reduced-motion users; pauses when tab hidden.
+ */
+function HeroLines() {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const mouse = { x: -9999, y: -9999 };
+    let width = 0;
+    let height = 0;
+    let raf = 0;
+    let stroke = "";
+
+    const resize = () => {
+      const rect = canvas.getBoundingClientRect();
+      width = rect.width;
+      height = rect.height;
+      canvas.width = Math.max(1, Math.round(width * dpr));
+      canvas.height = Math.max(1, Math.round(height * dpr));
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      stroke = getComputedStyle(canvas).color;
+    };
+
+    const draw = (t: number) => {
+      ctx.clearRect(0, 0, width, height);
+      ctx.strokeStyle = stroke;
+      ctx.lineWidth = 1;
+      const count = Math.max(18, Math.floor(width / 26));
+      const step = 16;
+      for (let i = 0; i <= count; i++) {
+        const x0 = (i / count) * width;
+        ctx.beginPath();
+        for (let y = -step; y <= height + step; y += step) {
+          const warp =
+            Math.sin(y * 0.006 + t * 0.00045 + i * 0.38) * 24 +
+            Math.sin(y * 0.012 - t * 0.00062 + i * 0.9) * 11 +
+            Math.sin((x0 + y) * 0.0021 + t * 0.00023) * 16;
+          let x = x0 + warp;
+          const dx = x - mouse.x;
+          const dy = y - mouse.y;
+          const d2 = dx * dx + dy * dy;
+          if (d2 < 25600) {
+            const f = (1 - d2 / 25600) * 30;
+            x += (dx / Math.sqrt(d2 + 0.01)) * f;
+          }
+          if (y === -step) ctx.moveTo(x, y);
+          else ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+      }
+    };
+
+    const loop = (t: number) => {
+      draw(t);
+      raf = requestAnimationFrame(loop);
+    };
+
+    const onPointer = (e: globalThis.PointerEvent) => {
+      const rect = canvas.getBoundingClientRect();
+      mouse.x = e.clientX - rect.left;
+      mouse.y = e.clientY - rect.top;
+    };
+
+    const onVisibility = () => {
+      cancelAnimationFrame(raf);
+      if (!document.hidden && !reduced) raf = requestAnimationFrame(loop);
+    };
+
+    resize();
+    draw(0);
+    if (!reduced) {
+      raf = requestAnimationFrame(loop);
+      window.addEventListener("pointermove", onPointer, { passive: true });
+      document.addEventListener("visibilitychange", onVisibility);
+    }
+    const observer = new ResizeObserver(() => {
+      resize();
+      if (reduced) draw(0);
+    });
+    observer.observe(canvas);
+
+    return () => {
+      cancelAnimationFrame(raf);
+      observer.disconnect();
+      window.removeEventListener("pointermove", onPointer);
+      document.removeEventListener("visibilitychange", onVisibility);
+    };
+  }, []);
+
+  return <canvas ref={canvasRef} aria-hidden="true" className="hero-lines" />;
 }
