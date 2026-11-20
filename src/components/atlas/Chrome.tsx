@@ -70,7 +70,7 @@ export function ScrollProgress() {
     <div aria-hidden="true" className="pointer-events-none fixed inset-x-0 top-0 z-[55] h-[3px]">
       <div
         ref={bar}
-        className="h-full w-full origin-left bg-gradient-to-r from-primary via-accent to-lime shadow-[0_0_14px] shadow-accent/60"
+        className="h-full w-full origin-left bg-primary"
         style={{ transform: "scaleX(0)" }}
       />
     </div>
@@ -129,7 +129,7 @@ export function Spotlight() {
 
 type TopNavProps = {
   sections: SectionDef[];
-  currentPage?: "about" | "markets" | "technicals";
+  currentPage?: "about" | "markets" | "technicals" | "deals";
 };
 
 export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
@@ -154,7 +154,7 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
         >
           <span
             aria-hidden="true"
-            className="grid h-8 w-8 place-items-center rounded-full bg-gradient-to-br from-primary to-accent font-display text-[0.7rem] font-bold tracking-tight text-primary-foreground shadow-[0_0_20px_-4px] shadow-accent/70"
+            className="grid h-8 w-8 place-items-center rounded-full border border-foreground bg-primary font-display text-[0.7rem] font-bold tracking-tight text-primary-foreground"
           >
             JW
           </span>
@@ -173,7 +173,7 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
                     topLevelClass,
                     "h-auto bg-transparent",
                     aboutActive
-                      ? "bg-primary/30 text-foreground shadow-[0_0_22px_-10px] shadow-accent"
+                      ? "bg-primary/20 text-foreground"
                       : "text-muted-foreground",
                   )}
                 >
@@ -223,7 +223,7 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
             className={cn(
               topLevelClass,
               currentPage === "markets"
-                ? "bg-primary/30 text-foreground shadow-[0_0_22px_-10px] shadow-accent"
+                ? "bg-primary/20 text-foreground"
                 : "text-muted-foreground",
             )}
           >
@@ -235,11 +235,23 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
             className={cn(
               topLevelClass,
               currentPage === "technicals"
-                ? "bg-primary/30 text-foreground shadow-[0_0_22px_-10px] shadow-accent"
+                ? "bg-primary/20 text-foreground"
                 : "text-muted-foreground",
             )}
           >
             IB Technicals
+          </Link>
+          <Link
+            to="/deals"
+            aria-current={currentPage === "deals" ? "page" : undefined}
+            className={cn(
+              topLevelClass,
+              currentPage === "deals"
+                ? "bg-primary/20 text-foreground"
+                : "text-muted-foreground",
+            )}
+          >
+            Deals
           </Link>
         </div>
       </nav>
