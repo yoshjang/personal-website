@@ -10,12 +10,18 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as DealsRouteImport } from './routes/deals'
 import { Route as MarketsRouteImport } from './routes/markets'
 import { Route as TechnicalsRouteImport } from './routes/technicals'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DealsRoute = DealsRouteImport.update({
+  id: '/deals',
+  path: '/deals',
   getParentRoute: () => rootRouteImport,
 } as any)
 const MarketsRoute = MarketsRouteImport.update({
@@ -31,30 +37,34 @@ const TechnicalsRoute = TechnicalsRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/deals': typeof DealsRoute
   '/markets': typeof MarketsRoute
   '/technicals': typeof TechnicalsRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/deals': typeof DealsRoute
   '/markets': typeof MarketsRoute
   '/technicals': typeof TechnicalsRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/deals': typeof DealsRoute
   '/markets': typeof MarketsRoute
   '/technicals': typeof TechnicalsRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/markets' | '/technicals'
+  fullPaths: '/' | '/deals' | '/markets' | '/technicals'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/markets' | '/technicals'
-  id: '__root__' | '/' | '/markets' | '/technicals'
+  to: '/' | '/deals' | '/markets' | '/technicals'
+  id: '__root__' | '/' | '/deals' | '/markets' | '/technicals'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  DealsRoute: typeof DealsRoute
   MarketsRoute: typeof MarketsRoute
   TechnicalsRoute: typeof TechnicalsRoute
 }
@@ -66,6 +76,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/deals': {
+      id: '/deals'
+      path: '/deals'
+      fullPath: '/deals'
+      preLoaderRoute: typeof DealsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/markets': {
@@ -87,6 +104,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  DealsRoute: DealsRoute,
   MarketsRoute: MarketsRoute,
   TechnicalsRoute: TechnicalsRoute,
 }
@@ -102,4 +120,4 @@ declare module '@tanstack/react-start' {
     router: Awaited<ReturnType<typeof getRouter>>
     config: Awaited<ReturnType<typeof startInstance.getOptions>>
   }
-}
+  }
