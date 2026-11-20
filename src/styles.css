@@ -519,7 +519,7 @@
 
 .editorial-ticker {
   overflow: hidden;
-  border-block: 1px solid var(--editorial-rule);
+  border-block: 1px solid var(--editorial-rule, var(--color-border));
 }
 
 .editorial-ticker-track {
@@ -1216,4 +1216,157 @@
 }
 .no-scrollbar::-webkit-scrollbar {
   display: none;
+}
+
+/* ---------- Motion upgrade (wodniack/logartis inspired) ---------- */
+
+@keyframes mask-rise {
+  from {
+    transform: translateY(112%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes star-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes quiz-enter {
+  from {
+    opacity: 0;
+    transform: translateX(26px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Masked word/line reveals: the inner span rises out of an overflow mask. */
+.mask-line {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  padding-bottom: 0.09em;
+  margin-bottom: -0.09em;
+}
+
+.mask-inner {
+  display: inline-block;
+  transform: translateY(112%);
+  animation: mask-rise 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: var(--d, 0ms);
+  will-change: transform;
+}
+
+/* Choreographed load-in for above-the-fold blocks. */
+.intro-item {
+  opacity: 0;
+  animation: fade-rise 0.85s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: var(--d, 0ms);
+}
+
+/* Slow-spinning star accent. */
+.spin-star {
+  animation: star-spin 14s linear infinite;
+  transform-origin: center;
+}
+
+/* Underline sweep for text links. */
+.link-sweep {
+  position: relative;
+  text-decoration: none;
+}
+
+.link-sweep::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1.5px;
+  width: 100%;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.link-sweep:hover::after,
+.link-sweep:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Quiz question transitions. */
+.quiz-enter {
+  animation: quiz-enter 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Magnetic hover wrapper (transform set from JS on fine pointers). */
+.magnetic {
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+
+/* Animated warped-line field behind the hero. */
+.hero-lines {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  color: var(--color-primary);
+  opacity: 0.32;
+  mask-image: linear-gradient(to bottom, black 55%, transparent 96%);
+  -webkit-mask-image: linear-gradient(to bottom, black 55%, transparent 96%);
+}
+
+/* Stronger reveal variant: bigger travel with a slight tilt. */
+.reveal[data-variant="rise"][data-state="hidden"] {
+  transform: translateY(46px) rotate(1.4deg) scale(0.985);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mask-inner {
+    transform: none;
+    animation: none;
+  }
+
+  .intro-item {
+    opacity: 1;
+    animation: none;
+  }
+
+  .spin-star {
+    animation: none;
+  }
+
+  .quiz-enter {
+    animation: none;
+  }
+
+  .link-sweep::after {
+    transition: none;
+  }
+
+  .reveal[data-variant="rise"][data-state="hidden"] {
+    opacity: 1;
+    transform: none;
+  }
 }
