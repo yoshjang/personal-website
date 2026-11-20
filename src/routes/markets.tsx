@@ -98,7 +98,7 @@ function Markets() {
 
       <main className="mx-auto max-w-6xl px-5 pb-20 pt-28 sm:px-8 sm:pt-32">
         <section id="market-snapshot" aria-labelledby="markets-title">
-          <div className="flex flex-col gap-6 border-b border-border/70 pb-9 lg:flex-row lg:items-end lg:justify-between">
+          <div className="intro-item flex flex-col gap-6 border-b border-border/70 pb-9 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <p className="mono-label text-accent">Daily markets brief</p>
               <h1
