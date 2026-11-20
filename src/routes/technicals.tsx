@@ -16,6 +16,7 @@ import {
   Upload,
 } from "lucide-react";
 import { Backdrop, Spotlight, TopNav } from "@/components/atlas/Chrome";
+import { CountUp } from "@/components/atlas/ui";
 import { SECTIONS } from "@/components/atlas/content";
 import {
   Accordion,
@@ -202,7 +203,7 @@ function Technicals() {
       <TopNav sections={SECTIONS} currentPage="technicals" />
       <main className="mx-auto max-w-6xl px-5 pb-20 pt-28 sm:px-8 sm:pt-32">
         <section id="study-bank" aria-labelledby="technicals-title">
-          <div className="flex flex-col gap-6 border-b border-border/70 pb-8 lg:flex-row lg:items-end lg:justify-between">
+          <div className="intro-item flex flex-col gap-6 border-b border-border/70 pb-8 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <p className="mono-label text-accent">Investment banking interview prep</p>
               <h1
@@ -219,7 +220,7 @@ function Technicals() {
             <div className="glass min-w-56 rounded-2xl p-4">
               <p className="mono-label">{topic} deck</p>
               <p className="mt-2 font-display text-3xl font-bold tabular-nums">
-                {questions.length}
+                <CountUp value={questions.length} duration={700} />
               </p>
               <p className="mt-1 text-sm text-muted-foreground">questions including your cards</p>
             </div>
@@ -535,7 +536,10 @@ function Flashcard({
             {status ? (status === "mastered" ? "Mastered" : "Review again") : "Unseen"}
           </span>
         </div>
-        <h2 className="display-medium mt-8 max-w-4xl text-3xl leading-tight sm:text-4xl">
+        <h2
+          key={question.studyKey}
+          className="quiz-enter display-medium mt-8 max-w-4xl text-3xl leading-tight sm:text-4xl"
+        >
           {question.question}
         </h2>
         <div className="mt-8 border-t border-border/70 pt-7" aria-live="polite">
@@ -1009,7 +1013,10 @@ function QuizCard({
             Self-graded quiz
           </span>
         </div>
-        <h2 className="display-medium mt-8 max-w-4xl text-3xl leading-tight sm:text-4xl">
+        <h2
+          key={question.studyKey}
+          className="quiz-enter display-medium mt-8 max-w-4xl text-3xl leading-tight sm:text-4xl"
+        >
           {question.question}
         </h2>
         <label className="mt-8 block text-sm font-semibold">
@@ -1037,7 +1044,7 @@ function QuizCard({
             </p>
           </div>
         ) : (
-          <div className="mt-6 border-t border-border/70 pt-6" aria-live="polite">
+          <div className="quiz-enter mt-6 border-t border-border/70 pt-6" aria-live="polite">
             <p className="mono-label text-accent">Model answer</p>
             <div className="mt-3">
               <AnswerText answer={question.answer} />
