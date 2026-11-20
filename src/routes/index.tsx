@@ -113,7 +113,7 @@ function Index() {
 
       <Footer sections={visible} />
 
-      <div className="fixed bottom-5 right-5 z-40 print:hidden">
+      <div className="mt-8 flex justify-center px-4 sm:fixed sm:bottom-5 sm:right-5 sm:z-40 sm:mt-0 sm:block sm:px-0 print:hidden">
         <ViewSwitch view={view} onViewChange={chooseView} />
       </div>
     </div>
