@@ -110,7 +110,7 @@ export function Footer({ sections = SECTIONS }: { sections?: SectionDef[] }) {
                 <li key={s.id}>
                   <a
                     href={`#${s.id}`}
-                    className="text-[0.85rem] text-muted-foreground transition-colors hover:text-accent"
+                    className="link-sweep text-[0.85rem] text-muted-foreground transition-colors hover:text-accent"
                   >
                     {s.label}
                   </a>
