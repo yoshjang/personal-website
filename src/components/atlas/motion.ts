@@ -114,3 +114,49 @@ export function useActiveSection(ids: string[]) {
 
   return active;
 }
+
+/**
+ * Counts from 0 to `target` once the attached element scrolls into view.
+ * Reduced-motion users and no-IntersectionObserver environments get the
+ * final value immediately. Re-runs when `target` changes.
+ */
+export function useCountUp<T extends HTMLElement>(target: number, duration = 1300) {
+  const ref = useRef<T | null>(null);
+  const [value, setValue] = useState(0);
+
+  useEffect(() => {
+    const node = ref.current;
+    if (!node) return;
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduced || typeof IntersectionObserver === "undefined") {
+      setValue(target);
+      return;
+    }
+    let raf = 0;
+    let started = false;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting || started) continue;
+          started = true;
+          observer.disconnect();
+          const t0 = performance.now();
+          const tick = (t: number) => {
+            const p = Math.min(1, (t - t0) / duration);
+            setValue(target * (1 - Math.pow(1 - p, 3)));
+            if (p < 1) raf = requestAnimationFrame(tick);
+          };
+          raf = requestAnimationFrame(tick);
+        }
+      },
+      { threshold: 0.4 },
+    );
+    observer.observe(node);
+    return () => {
+      observer.disconnect();
+      cancelAnimationFrame(raf);
+    };
+  }, [target, duration]);
+
+  return { ref, value };
+}

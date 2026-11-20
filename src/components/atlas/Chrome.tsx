@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import {useEffect, useRef, type CSSProperties} from "react";
 import { Link } from "@tanstack/react-router";
 import { cn } from "@/lib/utils";
 import {
@@ -142,7 +142,10 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
     "inline-flex min-h-10 shrink-0 items-center justify-center rounded-full px-2 text-[0.72rem] font-bold tracking-tight transition-all hover:bg-secondary hover:text-foreground sm:min-h-11 sm:px-5 sm:text-[0.95rem]";
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5">
+    <header
+      className="intro-item fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5"
+      style={{ "--d": "40ms" } as CSSProperties}
+    >
       <nav
         aria-label="Primary navigation"
         className="editorial-main-nav glass-strong mx-auto flex max-w-6xl items-center justify-between gap-2 rounded-2xl border border-accent/20 p-1.5 shadow-[0_16px_50px_-24px_rgba(63,189,255,0.65)] sm:rounded-full sm:pl-3"

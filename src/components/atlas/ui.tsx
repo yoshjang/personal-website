@@ -9,7 +9,7 @@ import {
 } from "react";
 import { ArrowUpRight, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { useFinePointer, useReducedMotion, useReveal } from "./motion";
+import { useCountUp, useFinePointer, useReducedMotion, useReveal } from "./motion";
 import type { Photo } from "./photos";
 
 /** Any icon component that accepts a className, including Lucide icons. */
@@ -25,17 +25,20 @@ export function Reveal({
   className,
   delay = 0,
   as: Tag = "div",
+  variant = "fade",
 }: {
   children: ReactNode;
   className?: string | undefined;
   delay?: number | undefined;
   as?: "div" | "li" | "article" | "figure" | "header" | undefined;
+  variant?: "fade" | "rise" | undefined;
 }) {
   const { ref, state } = useReveal<HTMLDivElement>();
   return (
     <Tag
       ref={ref as never}
       data-state={state}
+      data-variant={variant}
       style={{ "--reveal-delay": `${delay}ms` } as CSSProperties}
       className={cn("reveal", className)}
     >
@@ -79,7 +82,7 @@ export function Section({
         style={{ "--glow-x": glowX ?? "85%", "--glow-y": glowY ?? "0%" } as CSSProperties}
       />
       <div className="relative mx-auto max-w-6xl px-5 sm:px-8">
-        <Reveal as="header">
+        <Reveal as="header" variant="rise">
           <div className="mono-label flex items-center gap-3">
             <span className="text-accent">{index}</span>
             <span aria-hidden="true" className="h-px w-8 bg-border" />
@@ -419,5 +422,85 @@ export function Figure({
         </figcaption>
       ) : null}
     </figure>
+  );
+}
+
+/* ---------- Spinning star accent ---------- */
+
+export function Star({ className }: { className?: string | undefined }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+      className={cn("spin-star", className)}
+    >
+      <path d="M12 0c1.4 7 4 9.6 12 12-8 2.4-10.6 5-12 12-1.4-7-4-9.6-12-12 8-2.4 10.6-5 12-12Z" />
+    </svg>
+  );
+}
+
+/* ---------- Magnetic hover ---------- */
+
+export function Magnetic({
+  children,
+  className,
+  strength = 0.28,
+}: {
+  children: ReactNode;
+  className?: string | undefined;
+  strength?: number | undefined;
+}) {
+  const fine = useFinePointer();
+  const reduced = useReducedMotion();
+  const enabled = fine && !reduced;
+  const ref = useRef<HTMLDivElement>(null);
+
+  const onMove = (e: PointerEvent<HTMLDivElement>) => {
+    const el = ref.current;
+    if (!enabled || !el) return;
+    const r = el.getBoundingClientRect();
+    const dx = e.clientX - (r.left + r.width / 2);
+    const dy = e.clientY - (r.top + r.height / 2);
+    el.style.transform = `translate(${(dx * strength).toFixed(1)}px, ${(dy * strength).toFixed(1)}px)`;
+  };
+
+  const onLeave = () => {
+    const el = ref.current;
+    if (el) el.style.transform = "";
+  };
+
+  if (!enabled) return <div className={className}>{children}</div>;
+  return (
+    <div
+      ref={ref}
+      onPointerMove={onMove}
+      onPointerLeave={onLeave}
+      className={cn("magnetic", className)}
+    >
+      {children}
+    </div>
+  );
+}
+
+/* ---------- Count-up number ---------- */
+
+export function CountUp({
+  value,
+  format,
+  duration,
+  className,
+}: {
+  value: number;
+  format?: ((v: number) => string) | undefined;
+  duration?: number | undefined;
+  className?: string | undefined;
+}) {
+  const { ref, value: current } = useCountUp<HTMLSpanElement>(value, duration);
+  const render = format ?? ((v: number) => String(Math.round(v)));
+  return (
+    <span ref={ref} className={className}>
+      {render(current)}
+    </span>
   );
 }
