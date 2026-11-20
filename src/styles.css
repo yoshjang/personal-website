@@ -1209,3 +1209,11 @@
   .prototype-portrait-stage::after,
   .prototype-portrait-aura { animation: none; }
 }
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
