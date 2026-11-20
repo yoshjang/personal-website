@@ -6,6 +6,7 @@ import {
   Check,
   Download,
   Eye,
+  GraduationCap,
   Layers3,
   List,
   Plus,
@@ -32,6 +33,7 @@ import industryQuestions from "@/data/industry-questions.json";
 import lboQuestions from "@/data/lbo-questions.json";
 import maQuestions from "@/data/ma-questions.json";
 import valuationQuestions from "@/data/valuation-questions.json";
+import behavioralQuestions from "@/data/behavioral-questions.json";
 
 const SITE_URL = "https://joshuawang.app/technicals";
 const STORAGE_KEY = "joshua-ib-technicals-v1";
@@ -46,7 +48,7 @@ const TOPICS = [
   "Behavioral",
 ] as const;
 type Topic = (typeof TOPICS)[number];
-type StudyMode = "cards" | "browse" | "personalize";
+type StudyMode = "cards" | "quiz" | "browse" | "personalize";
 type StudyFilter = "all" | "unseen" | "review" | "mastered";
 type Status = "review" | "mastered";
 type Question = {
@@ -103,6 +105,35 @@ function isPersonalQuestion(value: unknown): value is PersonalQuestion {
   );
 }
 
+type QuizGrade = "missed" | "partial" | "nailed";
+type TopicAttempts = Record<QuizGrade, number>;
+type QuizState = { attempts: Partial<Record<Topic, TopicAttempts>> };
+const QUIZ_KEY = "joshua-ib-quiz-v1";
+const QUIZ_EMPTY: QuizState = { attempts: {} };
+
+function isTopicAttempts(value: unknown): value is TopicAttempts {
+  if (!value || typeof value !== "object") return false;
+  const a = value as Partial<TopicAttempts>;
+  return ["nailed", "partial", "missed"].every(
+    (k) => typeof a[k as QuizGrade] === "number" && (a[k as QuizGrade] as number) >= 0,
+  );
+}
+function readQuiz(): QuizState {
+  if (typeof window === "undefined") return QUIZ_EMPTY;
+  try {
+    const value: unknown = JSON.parse(localStorage.getItem(QUIZ_KEY) || "null");
+    if (!value || typeof value !== "object") return QUIZ_EMPTY;
+    const attempts = (value as Partial<QuizState>).attempts;
+    if (!attempts || typeof attempts !== "object") return QUIZ_EMPTY;
+    const clean: Partial<Record<Topic, TopicAttempts>> = {};
+    for (const [topic, a] of Object.entries(attempts))
+      if (TOPICS.includes(topic as Topic) && isTopicAttempts(a)) clean[topic as Topic] = a;
+    return { attempts: clean };
+  } catch {
+    return QUIZ_EMPTY;
+  }
+}
+
 export const Route = createFileRoute("/technicals")({
   component: Technicals,
   head: () => ({
@@ -137,6 +168,11 @@ function Technicals() {
   useEffect(() => {
     if (typeof window !== "undefined") localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
   }, [saved]);
+  const [quiz, setQuiz] = useState<QuizState>(QUIZ_EMPTY);
+  useEffect(() => setQuiz(readQuiz()), []);
+  useEffect(() => {
+    if (typeof window !== "undefined") localStorage.setItem(QUIZ_KEY, JSON.stringify(quiz));
+  }, [quiz]);
 
   const questions = useMemo(() => {
     let base: Question[];
@@ -145,7 +181,7 @@ function Technicals() {
         DCF_TERMS.test(`${q.question} ${q.answer}`),
       );
     else if (topic === "Markets") base = capitalMarketsQuestions as Question[];
-    else if (topic === "Behavioral") base = [];
+    else if (topic === "Behavioral") base = behavioralQuestions as Question[];
     else base = BASE_BANKS[topic];
     return [
       ...base.map((q) => ({ ...q, topic })),
@@ -193,6 +229,7 @@ function Technicals() {
             and study progress stay in this browser. Export a backup before clearing browser data or
             switching devices.
           </div>
+          <WeakTopics quiz={quiz} setQuiz={setQuiz} />
           <Tabs
             value={topic}
             onValueChange={(v) => {
@@ -218,6 +255,7 @@ function Technicals() {
                   questions={name === topic ? questions : []}
                   saved={saved}
                   setSaved={setSaved}
+                  setQuiz={setQuiz}
                 />
               </TabsContent>
             ))}
@@ -233,11 +271,13 @@ function StudyBank({
   questions,
   saved,
   setSaved,
+  setQuiz,
 }: {
   topic: Topic;
   questions: Question[];
   saved: SavedState;
   setSaved: React.Dispatch<React.SetStateAction<SavedState>>;
+  setQuiz: React.Dispatch<React.SetStateAction<QuizState>>;
 }) {
   const [mode, setMode] = useState<StudyMode>("cards");
   const [filter, setFilter] = useState<StudyFilter>("all");
@@ -357,6 +397,7 @@ function StudyBank({
             {(
               [
                 { value: "cards", label: "Flashcards", Icon: Layers3 },
+                { value: "quiz", label: "Quiz", Icon: GraduationCap },
                 { value: "browse", label: "Browse all", Icon: List },
                 { value: "personalize", label: "My questions", Icon: Plus },
               ] as const
@@ -396,7 +437,31 @@ function StudyBank({
           )}
         </div>
       </div>
-      {mode === "cards" ? (
+      {mode === "quiz" ? (
+        current ? (
+          <QuizCard
+            question={current}
+            position={position}
+            total={ordered.length}
+            onGrade={(grade) => {
+              setQuiz((s) => {
+                const cur = s.attempts[topic] ?? { nailed: 0, partial: 0, missed: 0 };
+                return {
+                  attempts: {
+                    ...s.attempts,
+                    [topic]: { ...cur, [grade]: cur[grade] + 1 },
+                  },
+                };
+              });
+              if (position < ordered.length - 1) move(1);
+            }}
+            onPrevious={() => move(-1)}
+            onNext={() => move(1)}
+          />
+        ) : (
+          <EmptyDeck filter={filter} onShowAll={() => setFilter("all")} />
+        )
+      ) : mode === "cards" ? (
         current ? (
           <Flashcard
             question={current}
@@ -833,3 +898,195 @@ function AnswerText({ answer }: { answer: string }) {
     </p>
   );
 }
+
+function WeakTopics({
+  quiz,
+  setQuiz,
+}: {
+  quiz: QuizState;
+  setQuiz: React.Dispatch<React.SetStateAction<QuizState>>;
+}) {
+  const rows = TOPICS.map((t) => {
+    const a = quiz.attempts[t];
+    if (!a) return null;
+    const total = a.nailed + a.partial + a.missed;
+    if (!total) return null;
+    const score = (a.nailed + a.partial * 0.5) / total;
+    return { topic: t, total, score };
+  }).filter(Boolean) as { topic: Topic; total: number; score: number }[];
+  const weakest = [...rows].sort((a, b) => a.score - b.score).slice(0, 3);
+  const totalAttempts = rows.reduce((n, r) => n + r.total, 0);
+
+  return (
+    <div className="mt-6 rounded-2xl border border-border/70 bg-background/35 p-4 sm:p-5">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <p className="mono-label text-accent">Weak-topic tracker</p>
+        {rows.length > 0 && (
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={() => setQuiz(QUIZ_EMPTY)}
+            className="rounded-full"
+          >
+            Reset quiz history
+          </Button>
+        )}
+      </div>
+      {rows.length ? (
+        <>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {[...rows]
+              .sort((a, b) => a.score - b.score)
+              .map((r) => (
+                <span
+                  key={r.topic}
+                  className={`rounded-full border px-3 py-1.5 text-sm font-semibold ${
+                    weakest.some((w) => w.topic === r.topic)
+                      ? "border-accent bg-primary/20"
+                      : "border-border text-muted-foreground"
+                  }`}
+                >
+                  {r.topic} {Math.round(r.score * 100)}%
+                  <span className="ml-1 text-xs font-normal opacity-70">({r.total})</span>
+                </span>
+              ))}
+          </div>
+          <p className="mt-3 text-sm text-muted-foreground">
+            {totalAttempts} self-graded answers. Highlighted topics are your weakest - drill them
+            from the review queue. You grade every answer yourself; nothing is scored
+            automatically.
+          </p>
+        </>
+      ) : (
+        <p className="mt-3 text-sm text-muted-foreground">
+          No quiz history yet. Switch a deck to Quiz mode, type your answer, compare it with the
+          model answer, and grade yourself - this tracker then shows which topics need work.
+        </p>
+      )}
+    </div>
+  );
+}
+
+function QuizCard({
+  question,
+  position,
+  total,
+  onGrade,
+  onPrevious,
+  onNext,
+}: {
+  question: Question & { studyKey: string };
+  position: number;
+  total: number;
+  onGrade: (grade: QuizGrade) => void;
+  onPrevious: () => void;
+  onNext: () => void;
+}) {
+  const [answer, setAnswer] = useState("");
+  const [compared, setCompared] = useState(false);
+  useEffect(() => {
+    setAnswer("");
+    setCompared(false);
+  }, [question.studyKey]);
+
+  return (
+    <div className="mt-6">
+      <div className="flex items-center gap-4">
+        <Progress
+          value={((position + 1) / total) * 100}
+          aria-label={`${position + 1} of ${total}`}
+        />
+        <p className="shrink-0 font-mono text-sm text-muted-foreground">
+          {position + 1} / {total}
+        </p>
+      </div>
+      <article className="glass lumen mt-5 flex min-h-[28rem] flex-col rounded-3xl p-6 sm:p-9">
+        <div className="flex items-center justify-between gap-4">
+          <p className="mono-label text-accent">
+            {question.personal ? "Personal card" : `Question ${String(question.id).padStart(3, "0")}`}
+          </p>
+          <span className="rounded-full bg-secondary/70 px-3 py-1 text-xs text-muted-foreground">
+            Self-graded quiz
+          </span>
+        </div>
+        <h2 className="display-medium mt-8 max-w-4xl text-3xl leading-tight sm:text-4xl">
+          {question.question}
+        </h2>
+        <label className="mt-8 block text-sm font-semibold">
+          Your answer
+          <textarea
+            value={answer}
+            onChange={(e) => setAnswer(e.target.value)}
+            readOnly={compared}
+            placeholder="Type your answer the way you would say it in an interview..."
+            className="mt-2 min-h-32 w-full rounded-2xl border border-border bg-background/45 p-4 text-base font-normal leading-7"
+          />
+        </label>
+        {!compared ? (
+          <div className="mt-5">
+            <Button
+              onClick={() => setCompared(true)}
+              disabled={!answer.trim()}
+              className="min-h-12 rounded-full"
+            >
+              <Eye className="h-4 w-4" />
+              Compare with the model answer
+            </Button>
+            <p className="mt-2 text-sm text-muted-foreground">
+              Write something first - grading yourself against an unseen answer trains recall.
+            </p>
+          </div>
+        ) : (
+          <div className="mt-6 border-t border-border/70 pt-6" aria-live="polite">
+            <p className="mono-label text-accent">Model answer</p>
+            <div className="mt-3">
+              <AnswerText answer={question.answer} />
+            </div>
+            <p className="mt-6 text-sm font-semibold">
+              How did you do? Be honest - this feeds your weak-topic tracker.
+            </p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-3">
+              <Button
+                variant="outline"
+                onClick={() => onGrade("missed")}
+                className="min-h-12 rounded-full"
+              >
+                Missed it
+              </Button>
+              <Button
+                variant="outline"
+                onClick={() => onGrade("partial")}
+                className="min-h-12 rounded-full"
+              >
+                Partially right
+              </Button>
+              <Button onClick={() => onGrade("nailed")} className="min-h-12 rounded-full">
+                <Check className="h-4 w-4" />
+                Nailed it
+              </Button>
+            </div>
+          </div>
+        )}
+      </article>
+      <div className="mt-5 grid grid-cols-2 gap-3">
+        <Button
+          variant="outline"
+          onClick={onPrevious}
+          disabled={position === 0}
+          className="min-h-12 rounded-full"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Previous
+        </Button>
+        <Button
+          onClick={onNext}
+          disabled={position === total - 1}
+          className="min-h-12 rounded-full"
+        >
+          Skip
+          <ArrowRight className="h-4 w-4" />
+        </Button>
+      </div>
+    </div>
+  );
+                                                         }
