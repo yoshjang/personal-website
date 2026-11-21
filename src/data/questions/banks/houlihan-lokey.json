@@ -1,0 +1,549 @@
+{
+  "bank": "Houlihan Lokey",
+  "tier": "Middle Market",
+  "questions": [
+    {
+      "id": "houlihan-lokey-001",
+      "topic": "Behavioral",
+      "question": "Didn't officially ask why HL at all, so wove it in throughout the discussion.",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-002",
+      "topic": "Behavioral",
+      "question": "Who were your previous interviewers?",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-003",
+      "topic": "Behavioral",
+      "question": "Tell me about yourself, why RX, why HL",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-004",
+      "topic": "Behavioral",
+      "question": "Why Chicago?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-005",
+      "topic": "Behavioral",
+      "question": "Asked about your internship experiences",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-006",
+      "topic": "Behavioral",
+      "question": "Asked about sections on your resume",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-007",
+      "topic": "Behavioral",
+      "question": "Tell me about your experience working in a team environment (restricted to what you covered in your introduction)",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-008",
+      "topic": "Behavioral",
+      "question": "Specific questions on the additional section, relating them to your background",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-009",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you were in a challenging team environment",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-010",
+      "topic": "Behavioral",
+      "question": "Walk me through changes on day one of raising $X in debt",
+      "answer": "",
+      "group": "Capital Markets Group",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-011",
+      "topic": "Behavioral",
+      "question": "What interests you about debt?",
+      "answer": "",
+      "group": "Capital Markets Group",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-012",
+      "topic": "Behavioral",
+      "question": "Non-finance related involvements?",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-013",
+      "topic": "Behavioral",
+      "question": "What is your preferred communication style?",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-014",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you had to learn something quickly",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-015",
+      "topic": "Behavioral",
+      "question": "What skill is important for bankers, and how are you at it?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-016",
+      "topic": "Behavioral",
+      "question": "If you could travel anywhere with an unlimited budget, where would you go?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-017",
+      "topic": "Behavioral",
+      "question": "Left X minutes for questions related more to HL",
+      "answer": "",
+      "group": "Capital Markets Group, HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-018",
+      "topic": "Behavioral",
+      "question": "Left lots of time for questions in each — prepare good questions about markets, how they discovered HL, etc.",
+      "answer": "",
+      "group": "Capital Markets Group",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-019",
+      "topic": "Behavioral",
+      "question": "What is the process of a pitch? (Expect many questions on this)",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-020",
+      "topic": "Accounting",
+      "question": "If $250mm of inventory is purchased using debt (5% bank debt, 5% PIK, 20% amortized), with a 40% tax rate, then sold at $500mm next year, walk me through the statements for next year.",
+      "answer": "IS:\nRevenue up 500\nCF:\nNI up 135\nBS:\nCash up 347.5\nCOGS up 250\nPIK interest up 12.5\nBank interest up 12.5\nOperating Income up 225\nTax up 90\nNet income up 135\nAdd PIK interest 12.5\nAdd inventory change 250\nDebt amortization down 50\nNet Cash Flow 347.5\nInventory down 250\nDebt down 37.5\nRetained Earnings up 135",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-021",
+      "topic": "Accounting",
+      "question": "What are adjustments you make from EBITDA to Adj EBITDA?",
+      "answer": "For a distressed company:\n• COGS: Lack of discounts & deteriorating relationships with suppliers\n• Non-recurring professional fees: Consulting, litigation, advisory fees\n• Public costs: Filing with the SEC",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-022",
+      "topic": "Accounting",
+      "question": "Now assume the debt has an interest rate of X% and amortizes at X%",
+      "answer": "",
+      "group": "Capital Markets Group",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-023",
+      "topic": "Accounting",
+      "question": "If deferred revenue increases by $X, what happens to cash flow?",
+      "answer": "",
+      "group": "Capital Markets Group",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-024",
+      "topic": "Accounting",
+      "question": "Issues $X at X% interest (X% PIK, X% cash), purchases PP&E, X-year depreciation, X% tax. Walk through the statements at year X and year X.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-025",
+      "topic": "Accounting",
+      "question": "What is the impact of cash interest on the cash flow statement?",
+      "answer": "Impacts the CFO activites section, directly influencing a company’s liquidity and its capacity to manage debt",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-026",
+      "topic": "Valuation",
+      "question": "Is Equity Value negative? What is it doing here? (Part 2)",
+      "answer": "If a company’s EV is exceeded by its total debt obligations, then the company is insolvent, and the equity (market) value of the company should be 0 to reflect this.",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-027",
+      "topic": "Valuation",
+      "question": "Two companies in the same industry: why would one trade at a higher EBITDA multiple than the other?",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-028",
+      "topic": "Valuation",
+      "question": "If EBITDA doesn't change but the company is valued higher, why?",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-029",
+      "topic": "Valuation",
+      "question": "How do you value a pre-revenue company?",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-030",
+      "topic": "Valuation",
+      "question": "How do you value a consumer company?",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-031",
+      "topic": "DCF",
+      "question": "Difference between CFO and UFCF?",
+      "answer": "Differences include one-time items, CAPEX, and tax-adjusted interest expense",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-032",
+      "topic": "DCF",
+      "question": "Walk me through EBITDA to UFCF.",
+      "answer": "Subtract out D&A then multiply by (1-TR) to determine NOPAT. Then, add back D&A, subtract CAPEX and change in NWC to arrive at UFCF",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-033",
+      "topic": "DCF",
+      "question": "What does free cash flow actually mean? What goes into it?",
+      "answer": "",
+      "group": "Capital Markets Group",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-034",
+      "topic": "M&A",
+      "question": "What valuation methods are used on the buy side and what valuation methods are used on the sell side?",
+      "answer": "",
+      "group": "Capital Markets Group",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-035",
+      "topic": "M&A",
+      "question": "Explain a CIM (expect many questions on this)",
+      "answer": "",
+      "group": "HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-036",
+      "topic": "M&A",
+      "question": "What is a stalking horse bid? Why would someone want to do that?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-037",
+      "topic": "LBO",
+      "question": "Paper LBO: EBITDA of 200M and a 5x multiple and 50% leverage. If cashflows breakeven with debt what is the IRR if EBITDA and multiples don't change after 5 years?",
+      "answer": "15% (assuming the question means we used all cashflows to pay off debt) → Double investment in 5 years",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-038",
+      "topic": "Markets",
+      "question": "What are current trends in RX?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-039",
+      "topic": "Markets",
+      "question": "Deal walkthrough and follow-ups",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-040",
+      "topic": "Markets",
+      "question": "50M EBITDA, Trading at 6 times, 200M in Bank Debt, 200M in High Yield Debt, what will the debt be trading at? (Part 1)",
+      "answer": "The Enterprise Value of this company is 300M. Therefore, Bank Debt will be trading at par (higher seniority than HY Debt) and their High Yield Debt will be trading at 50 cents on the dollar",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-041",
+      "topic": "Markets",
+      "question": "You have an ABL revolver worth $90mm secured against $100mm in A/R with 85% recoverable value. If $35mm is already drawn on the revolver, $10mm due to vendors, and $50mm in cash, what is the company’s liquidity?",
+      "answer": "Cash represents $50mm in liquidity as a base. $10mm is due to vendors, so total liquidity before the revolver is used is $40mm. The revolver is secured up to $85mm, with $35mm already drawn: $85mm - $35mm = $50mm left to be drawn. $50mm + $40mm = $90mm total liquidity.",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-042",
+      "topic": "Markets",
+      "question": "If a company has an EBITDA of 50M and a multiple of 5x with 180M in senior secured and 120M in unsecured, what is the unsecured debt trading at?",
+      "answer": "Enterprise Value = 50*5\nSenior trading at par = 250 – 180 = 70\n70/120 = 58.3 cents on the dollar",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-043",
+      "topic": "Markets",
+      "question": "Explain PIK",
+      "answer": "",
+      "group": "Capital Markets Group",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-044",
+      "topic": "Markets",
+      "question": "What are the differences between a good credit investment and a good equity investment? (Stability/downside protection vs. growth)",
+      "answer": "",
+      "group": "Capital Markets Group",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-045",
+      "topic": "Markets",
+      "question": "Sell X at X% margin on credit with X% tax — walk through the statements.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-046",
+      "topic": "Markets",
+      "question": "You have $1bn in unsecured debt trading at 30 cents on the dollar. If the company issues a debt swap for $600mm trading at 60 cents on the dollar, what is the gain or loss on this trade?",
+      "answer": "The current debt held is worth 0.30 * $1bn = $300mm. The new debt is worth 0.60 * $600mm = $360mm. Therefore, there is a gain of $360mm - $300mm = $60mm on the trade.",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-047",
+      "topic": "Markets",
+      "question": "If a bond is trading at 80 cents on the dollar with an 8% coupon and 2 years to maturity, what is the YTM?",
+      "answer": "Coupon Yield: $0.08/$0.80 = 1%\nPrincipal Yield: $1.00/$0.80 – 1 = 0.25/2 = 0.125 → 12.5% annually\nTotal Yield: 13.5%",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-048",
+      "topic": "Markets",
+      "question": "What could the company do to restructure its debts?",
+      "answer": "• Exchange offer\n• Refinance\n• Proactively, file for chapter 11",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-049",
+      "topic": "Markets",
+      "question": "If a company had a X% chance of going bankrupt and a X% chance of doubling in value, would you rather be a debt or an equity investor?",
+      "answer": "",
+      "group": "Capital Markets Group",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-050",
+      "topic": "Markets",
+      "question": "What are some things a distressed company can do?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-051",
+      "topic": "Markets",
+      "question": "We do a lot of distressed M & A. Why might a strategic want to buy a distressed company?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-052",
+      "topic": "Markets",
+      "question": "Xm NI, Xm D&A, $X cash, X% tax rate. Xm revolver, X% drawn at X% rate. Xm 1L at X%, Xm unsecured at X%. Find the leverage ratio, interest coverage ratio, and net leverage ratio.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-053",
+      "topic": "Corporate Finance",
+      "question": "What can a distressed company do with its excess cash?",
+      "answer": "Repurchase shares, invest in capital, pay down debt, and issue dividends",
+      "group": "Restructuring",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    }
+  ]
+}

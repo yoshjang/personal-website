@@ -1,0 +1,61 @@
+{
+  "topic": "Brain Teasers",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A 5x5x5 cube is dropped in paint. How many cubes are touched?",
+      "answer": "Method 1: Count the cubes on the outside. 25 on top and bottom, 15 on each of 2 sides, 9 on each of 2 other sides. Total 98. Method 2: Subtract 3x3x3 cube volume from 5x5x5 cube volume. 125 – 27 = 98.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "There are 8 marbles, all identical. One is heavier than the rest but you can’t tell from looking. You only have a scale – how do you figure out which is the heavier ball in the most efficient way?",
+      "answer": "Weigh 3 on one side and 3 on the other.\n1) If both sides balance, then weigh the other 2. Find the heavier one.\n2) If one side is heavier, take 2 of the 3 balls and weigh them. If they balance, the one not being weighed is the heaviest. Otherwise, determine the heaviest one by which one weighs the scale down most of the two.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "5. What about 1:15?",
+      "answer": "At 1:15, the minute hand is at a 90-degree angle. The hour hand is one-fourth of the way between 1:00 and 2:00. Therefore, the distance between the two is 90 degrees – 37.5 degrees = 52.5 degrees.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "There is a 1-mile racetrack. You spend 2 minutes for the first mile. How fast do you have to run in the second mile for you to average 60 miles/hr at the end of 2 miles?",
+      "answer": "This isn’t possible. You would have to travel 1 mile per minute, but since it has already been 2 minutes, you would have to travel the second mile instantly, which is impossible.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "You have 2 fair coins. Landing on heads gives you $1, tails gives you $0. What’s the expected return after you flip each once?",
+      "answer": "First coin: $1(1/2) + $0(1/2) = $0.50. Second coin: $1(1/2) + $0(1/2) = $0.50. Expected return = $0.50 + $0.50 = $1.00",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "You have 25 horses and a race-track that races 5 horses. If you can only compare speed by racing the horses, how do you find the 3 fastest horses in the group?",
+      "answer": "Conduct 5 races and find the top from each heat.\nRace the top 5 and the find the fastest horse.\nTake 2nd and 3rd from finals heat, and 2nd and 3rd from heat of the fastest horse, and 2nd from the heat of the second fastest heat. Determine the second and third fastest.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "There is a rickety bridge that an MD, VP, Associate and Analyst must cross to get to a meeting. If you need a flashlight to cross and only two can cross, the times to cross are 10 mins, 5 mins, 2 mins, and 1 min respectively, can the group make it across in 17 mins?",
+      "answer": "Analyst + Associate Cross --> 2 mins\nAnalyst Goes Back --> 3 mins\nVP + MD Cross --> 13 mins\nAssociate Goes Back --> 15 mins\nAnalyst + Associate Cross --> 17 mins\n*Initial time for crossing is the one with the highest time needed* *Always send back the lowest time one to bring flashlight back*",
+      "source": [
+        "scale_techs"
+      ]
+    }
+  ]
+}

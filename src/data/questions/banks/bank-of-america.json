@@ -1,0 +1,742 @@
+{
+  "bank": "Bank of America",
+  "tier": "Bulge Bracket",
+  "questions": [
+    {
+      "id": "bank-of-america-001",
+      "topic": "Behavioral",
+      "question": "What do investment banks do, and what does an analyst do?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-002",
+      "topic": "Behavioral",
+      "question": "Product vs. coverage: what were you interested in?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-003",
+      "topic": "Behavioral",
+      "question": "Asked about a deal and how it related to the groups you were interested in",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-004",
+      "topic": "Behavioral",
+      "question": "Why New York?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-005",
+      "topic": "Behavioral",
+      "question": "IB internship questions and follow-ups",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-006",
+      "topic": "Behavioral",
+      "question": "What did you do at your internship?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-007",
+      "topic": "Behavioral",
+      "question": "Tell me about the live deal at your internship",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-008",
+      "topic": "Behavioral",
+      "question": "Tell me about your role in the investment banking club",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-009",
+      "topic": "Behavioral",
+      "question": "What did you learn and do in each internship?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-010",
+      "topic": "Behavioral",
+      "question": "Tell me about yourself and why did you choose your college?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-011",
+      "topic": "Behavioral",
+      "question": "Why double major?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-012",
+      "topic": "Behavioral",
+      "question": "What did you learn at your previous internship?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-013",
+      "topic": "Behavioral",
+      "question": "Tell me about yourself and why we should pick you (you have X minutes)",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-014",
+      "topic": "Behavioral",
+      "question": "Walk me through what's important on your resume",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-015",
+      "topic": "Behavioral",
+      "question": "What things or experiences are important to note when deciding whether to extend an offer?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-016",
+      "topic": "Behavioral",
+      "question": "What would your previous co-workers and bosses say about you (good and bad)?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-017",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you failed in a team environment.",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-018",
+      "topic": "Behavioral",
+      "question": "What would you do if given two conflicting deadlines — one assigned by a short-tempered person and one by a lackadaisical person? How would you navigate those relationships?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-019",
+      "topic": "Behavioral",
+      "question": "What type of leader are you?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-020",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you worked on a team while facing a deadline",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-021",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you worked on a team when you were facing an ethical dilemma and still had to meet product demand",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-022",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you were in a high pressure situation",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-023",
+      "topic": "Behavioral",
+      "question": "We talked about community — how would you fit in?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-024",
+      "topic": "Behavioral",
+      "question": "What would you do if you're given an impossible task?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-025",
+      "topic": "Behavioral",
+      "question": "Tell me about a time that demonstrates your communication skills",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-026",
+      "topic": "Behavioral",
+      "question": "What do you like to do for fun?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-027",
+      "topic": "Behavioral",
+      "question": "Is there anything else you want me to know?",
+      "answer": "What it tests: Whether you use the last thirty seconds well. Most candidates waste them.\nA strong answer contains: One thing, prepared in advance, that did not come up naturally: a piece of evidence for your candidacy, a correction to something you fumbled earlier, or genuine interest with a reason attached. Thirty seconds, then stop.\nRed flags: No, I think we covered everything. It is a free shot and you declined it. Also using it to repeat something you already said.",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12",
+        "The 500"
+      ]
+    },
+    {
+      "id": "bank-of-america-028",
+      "topic": "Behavioral",
+      "question": "Debt paid back plus interest",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-029",
+      "topic": "Behavioral",
+      "question": "What levers are they pulling to offset this?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-030",
+      "topic": "Behavioral",
+      "question": "All one question: what do banks do, what are the traits of a successful analyst, and why would you be successful?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-031",
+      "topic": "Behavioral",
+      "question": "What’s your biggest success?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-032",
+      "topic": "Behavioral",
+      "question": "Tell me about your path to banking",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-033",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you were working with others and were absolutely frustrated — how did you handle that?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-034",
+      "topic": "Accounting",
+      "question": "You are given a company's financial statements. If you could ask management X question, what would it be?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-035",
+      "topic": "Accounting",
+      "question": "Depreciation question",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-036",
+      "topic": "Accounting",
+      "question": "Multi-step accounting: X purchase of inventory paid for by raising X debt at X% interest, no principal, with bullet payment at the end",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-037",
+      "topic": "Accounting",
+      "question": "Walk me through the statements at purchase",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-038",
+      "topic": "Accounting",
+      "question": "Go out one year with straight-line depreciation over X years",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-039",
+      "topic": "Accounting",
+      "question": "Go out three years and inventory burns in a fire",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-040",
+      "topic": "Accounting",
+      "question": "Accounting depreciation: you buy a car for $X that depreciates straight-line over X years — update the statements at EOY X and EOY X",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-041",
+      "topic": "Accounting",
+      "question": "Changes in cash flow statements (assets vs. liabilities and whether they increase/decrease)",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-042",
+      "topic": "Accounting",
+      "question": "If 10% fixed asset write up, how would that impact BS?",
+      "answer": "Fixed Assets now worth $1100; creates a Deferred Tax Liability since depreciation expense increases\nAssets: F.A. up by $100 so net change to assets is up by $800 Liabilities & Shareholder’s Equity: DTL up by $25 (assuming a 25% tax rate) Therefore, both sides balance being up by $800",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "bank-of-america-043",
+      "topic": "Accounting",
+      "question": "What EBITDA would be high GAAP or IFRS",
+      "answer": "IFRS EBITDA since leases are capitalized which means that leases are considered depreciation expense as opposed to an operating expense which is added back to EBITDA",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "bank-of-america-044",
+      "topic": "Accounting",
+      "question": "5 How to go from GAAP to IFRS",
+      "answer": "",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "bank-of-america-045",
+      "topic": "Accounting",
+      "question": "What would you prefer, $100 in inventory or $100 in AR considering strong operating margins and short cash cycle?",
+      "answer": "I would prefer $100 in AR since a short cash cycle allows for quick cash conversion and there are no carrying costs with AR as opposed to inventory which incur storage costs.",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "bank-of-america-046",
+      "topic": "Valuation",
+      "question": "Why do we subtract cash? (Debt − cash = net debt)",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-047",
+      "topic": "Valuation",
+      "question": "What goes into EV?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-048",
+      "topic": "Valuation",
+      "question": "What is the EV formula, and why is cash subtracted out?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-049",
+      "topic": "Valuation",
+      "question": "A company has a Net Debt / EBITDA of 10x and sells off a positive-EBITDA generating business for 5x EV / EBITDA. What happens to the Net Debt / EBITDA ratio?",
+      "answer": "The whole company prior to the divestiture has an EV / EBITDA of >10x. While the payback of debt with cash will reduce net debt, the divesture’s sale at a lower valuation means more EBITDA was given up relative to the sale value than the average of the entire firm. As a result, EBITDA declines by more than net debt, and the ratio increases.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "bank-of-america-050",
+      "topic": "Valuation",
+      "question": "X companies have similar EV/EBITDA — why?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-051",
+      "topic": "Valuation",
+      "question": "X companies have the same everything but different EV/EBITDA — why?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-052",
+      "topic": "Valuation",
+      "question": "Why does growth potential change EV/EBITDA?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-053",
+      "topic": "Valuation",
+      "question": "What multiples were used in that deal?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-054",
+      "topic": "Valuation",
+      "question": "Why would you use EV/Revenue, or P/E?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-055",
+      "topic": "DCF",
+      "question": "When might a DCF not be useful?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-056",
+      "topic": "DCF",
+      "question": "Why is WACC shaped like a U?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-057",
+      "topic": "DCF",
+      "question": "What assumptions drive a DCF?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-058",
+      "topic": "DCF",
+      "question": "What's the terminal value? What are the biggest variables in terminal value?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-059",
+      "topic": "DCF",
+      "question": "What are you discounting in a DCF?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-060",
+      "topic": "M&A",
+      "question": "Why would a company do M&A?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-061",
+      "topic": "M&A",
+      "question": "Revenue vs. cost synergies — which would you choose?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-062",
+      "topic": "M&A",
+      "question": "Why do precedent transactions yield the highest valuation, and why is there a premium?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-063",
+      "topic": "M&A",
+      "question": "Which of the two companies above with different EV/EBITDA multiples would acquire the other?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-064",
+      "topic": "M&A",
+      "question": "Company A has XM EBITDA and is leveraged at X Debt/EBITDA. They can be levered up to X Debt/EBITDA. If they are purchasing at X EV/EBITDA using only debt, what's the largest EBITDA business they can acquire?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-065",
+      "topic": "M&A",
+      "question": "You acquire a business for $1000 cash that has $1000 F.A, $800 L; impact on BS",
+      "answer": "The Book Value of the company is $200 ($1000 F.A. - $800 L) which leads to Goodwill of $800 since we paid $1000 for the company\nAssets: Cash goes down by $1000, F.A. up by $1000, Goodwill up by $800 so net change to assets is up by $800 Liabilities & Shareholder’s Equity: Liabilities up by $800 Therefore, both sides balance being up by $800",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "bank-of-america-066",
+      "topic": "M&A",
+      "question": "Why are you building a CIM on the buy-side?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-067",
+      "topic": "M&A",
+      "question": "What is in a CIM?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-068",
+      "topic": "LBO",
+      "question": "What are the steps in an LBO?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-069",
+      "topic": "LBO",
+      "question": "What is affecting PE firms right now? (High rates)",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-070",
+      "topic": "LBO",
+      "question": "You have an LBO with X% equity and X% debt. You hold for X years with no debt repayment, cash flow, or interest expense. If EV grew by X%, what is your return on equity and MOIC?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-071",
+      "topic": "Markets",
+      "question": "Have you been following any deals in those groups?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-072",
+      "topic": "Corporate Finance",
+      "question": "What would you look at when screening companies?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-073",
+      "topic": "Corporate Finance",
+      "question": "Lump sum payment vs. monthly payments — which would you prefer?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bank-of-america-074",
+      "topic": "Brain Teasers",
+      "question": "Brain teaser: you stand on the edge of a circular pond with a circular lily pad in the middle. It doubles in size every day; on day X it covers the pond completely. On what day does it cover exactly half?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

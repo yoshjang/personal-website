@@ -1,0 +1,86 @@
+{
+  "bank": "BMO",
+  "tier": "Middle Market",
+  "questions": [
+    {
+      "id": "bmo-001",
+      "topic": "Behavioral",
+      "question": "Talk about three groups at BMO you’d potentially be interested in and why",
+      "answer": "",
+      "group": "BMO IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bmo-002",
+      "topic": "Behavioral",
+      "question": "Talk about your experiences - [x firm] coming up this summer, how you got the role, what you’ll be doing",
+      "answer": "",
+      "group": "BMO IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bmo-003",
+      "topic": "Valuation",
+      "question": "List out the four valuation methods and briefly explain what each of them are",
+      "answer": "",
+      "group": "BMO IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bmo-004",
+      "topic": "DCF",
+      "question": "What’s the discount rate that we use in a DCF?",
+      "answer": "",
+      "group": "BMO IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bmo-005",
+      "topic": "M&A",
+      "question": "What’s the optimal WACC? Does interest being tax deductible mean you should use X% debt when making an acquisition?",
+      "answer": "",
+      "group": "BMO IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bmo-006",
+      "topic": "LBO",
+      "question": "If you were to do an LBO, what are X-X key things you're looking for that make a business a good LBO candidate?",
+      "answer": "",
+      "group": "BMO IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bmo-007",
+      "topic": "Markets",
+      "question": "How do you personally keep up with markets or global news? What publications do you read?",
+      "answer": "",
+      "group": "BMO IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "bmo-008",
+      "topic": "Corporate Finance",
+      "question": "If you're interested in buying a business, what are the key diligence categories you'd look into before determining the right value and whether it’s a good business to buy?",
+      "answer": "",
+      "group": "BMO IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

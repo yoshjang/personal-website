@@ -1,0 +1,98 @@
+{
+  "bank": "Goldman Sachs",
+  "tier": "Bulge Bracket",
+  "questions": [
+    {
+      "id": "goldman-sachs-001",
+      "topic": "Accounting",
+      "question": "There are 2 companies with the same profiles and 0% gross margin, one with 15% and one with 20% growth – what metric would you use to differentiate between them?",
+      "answer": "Use a revenue growth multiple: (EV/Revenue)/Revenue Growth\n*2. You have an apartment (2-bedrooms) given to you for 2Mil, how would you assess its fair value? (Part 1) Use comparable 2-bedroom apartments within the same area with similar features to determine a fair value",
+      "group": "TMT",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "goldman-sachs-002",
+      "topic": "Accounting",
+      "question": "Would you rather have higher lease expenses or depreciation expenses?",
+      "answer": "I would prefer higher depreciation expenses as it is a non-cash expense and will result in tax benefits",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "goldman-sachs-003",
+      "topic": "Accounting",
+      "question": "What are the different types of capex?",
+      "answer": "Maintenance CAPEX and Growth CAPEX",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "goldman-sachs-004",
+      "topic": "Valuation",
+      "question": "Does increased depreciation increase or decrease your valuation?",
+      "answer": "Increased depreciation will lower pre-tax income and hence, lower the amount of taxes a company will pay and raise FCF. Therefore, increased depreciation will increase our valuation *9. Would you rather have higher lease expenses or depreciation expenses? I would prefer higher depreciation expenses as it is a non-cash expense and will result in tax benefits *10. What are the different types of capex? Maintenance CAPEX and Growth CAPEX",
+      "group": "TMT",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "goldman-sachs-005",
+      "topic": "Valuation",
+      "question": "What if all your comps are only 1-bedroom apartments, what metric would you use? (Part 2)",
+      "answer": "",
+      "group": "TMT",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "goldman-sachs-006",
+      "topic": "DCF",
+      "question": "Value an apple tree producing $100 in revenue a year - now value it if it was 100,200,300,400…",
+      "answer": "Look on page 42\n*7. You use debt to purchase the apple tree, cost of debt is 10%, 40% tax rate - how much you paying? Use the after-tax interest rate as the discount rate to value the apple tree",
+      "group": "TMT",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "goldman-sachs-007",
+      "topic": "DCF",
+      "question": "You use debt to purchase the apple tree, cost of debt is 10%, 40% tax rate - how much you paying?",
+      "answer": "Use the after-tax interest rate as the discount rate to value the apple tree",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "goldman-sachs-008",
+      "topic": "Markets",
+      "question": "Interest rates go up, what happens to the dollar?",
+      "answer": "As interest rates go up, demand for US debt securities from global bond investors will rise. Therefore, the dollar will strengthen as people seek to purchase USD.",
+      "group": "TMT",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "goldman-sachs-009",
+      "topic": "Corporate Finance",
+      "question": "$1000 now or 10 payments of $100?",
+      "answer": "$1000 right now. Due to the TMV, receiving cash flows earlier is better as I can reinvest it.",
+      "group": "TMT",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    }
+  ]
+}

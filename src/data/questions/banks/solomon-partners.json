@@ -1,0 +1,56 @@
+{
+  "bank": "Solomon Partners",
+  "tier": "Middle Market",
+  "questions": [
+    {
+      "id": "solomon-partners-001",
+      "topic": "Behavioral",
+      "question": "What were your involvements and roles in college clubs?",
+      "answer": "",
+      "group": "Solomon IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "solomon-partners-002",
+      "topic": "Behavioral",
+      "question": "What are your proudest accomplishments?",
+      "answer": "",
+      "group": "Solomon IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "solomon-partners-003",
+      "topic": "Accounting",
+      "question": "$X of inventory purchased, walk through 3 statements",
+      "answer": "",
+      "group": "Solomon IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "solomon-partners-004",
+      "topic": "Accounting",
+      "question": "$X of deferred revenue created, walk through 3 statements",
+      "answer": "",
+      "group": "Solomon IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "solomon-partners-005",
+      "topic": "DCF",
+      "question": "How does the DCF differ for a recurring stable revenue toll road business vs. a software business?",
+      "answer": "",
+      "group": "Solomon IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

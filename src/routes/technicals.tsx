@@ -28,15 +28,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import accountingQuestions from "@/data/accounting-questions.json";
-import capitalMarketsQuestions from "@/data/capital-markets-questions.json";
-import industryQuestions from "@/data/industry-questions.json";
-import lboQuestions from "@/data/lbo-questions.json";
-import maQuestions from "@/data/ma-questions.json";
-import valuationQuestions from "@/data/valuation-questions.json";
-import behavioralQuestions from "@/data/behavioral-questions.json";
-
 const SITE_URL = "https://joshuawang.app/technicals";
+const REPO_EDIT_URL = "https://github.com/yoshjang/personal-website/edit/main/src/data/questions";
 const STORAGE_KEY = "joshua-ib-technicals-v1";
 const TOPICS = [
   "Accounting",
@@ -46,9 +39,13 @@ const TOPICS = [
   "LBO",
   "Markets",
   "Industry",
+  "Corporate Finance",
+  "Brain Teasers",
+  "Excel",
   "Behavioral",
 ] as const;
 type Topic = (typeof TOPICS)[number];
+type View = "general" | "banks";
 type StudyMode = "cards" | "quiz" | "browse" | "personalize";
 type StudyFilter = "all" | "unseen" | "review" | "mastered";
 type Status = "review" | "mastered";
@@ -58,19 +55,62 @@ type Question = {
   answer: string;
   topic?: Topic;
   personal?: boolean;
+  askedAt?: string[];
+  group?: string;
+  source?: string[];
 };
-type PersonalQuestion = Required<Pick<Question, "id" | "question" | "answer" | "topic">>;
+type PersonalQuestion = {
+  id: number | string;
+  question: string;
+  answer: string;
+  topic: Topic;
+};
 type SavedState = { statuses: Record<string, Status>; personal: PersonalQuestion[] };
 
-const BASE_BANKS: Record<Exclude<Topic, "DCF" | "Markets" | "Behavioral">, Question[]> = {
-  Accounting: accountingQuestions as Question[],
-  Valuation: valuationQuestions as Question[],
-  "M&A": maQuestions as Question[],
-  LBO: lboQuestions as Question[],
-  Industry: industryQuestions as Question[],
-};
-const DCF_TERMS =
-  /\b(dcf|discounted cash flow|terminal value|wacc|unlevered free cash flow|free cash flow)\b/i;
+// Question data lives in src/data/questions as plain JSON so it can be edited on GitHub.
+// general/<topic>.json holds { topic, questions }, banks/<bank>.json holds
+// { bank, tier, questions } where every question also names its topic.
+type GeneralFile = { topic: string; questions: Question[] };
+type BankFile = { bank: string; tier: string; questions: (Question & { topic: string })[] };
+type BankDeck = { name: string; tier: string; file: string; questions: Question[] };
+const TIER_ORDER = ["Bulge Bracket", "Elite Boutique", "Middle Market", "Private Equity"];
+const isTopic = (value: unknown): value is Topic => TOPICS.includes(value as Topic);
+const fileName = (path: string) => path.split("/").pop() ?? path;
+
+const generalFiles = import.meta.glob<GeneralFile>("../data/questions/general/*.json", {
+  eager: true,
+  import: "default",
+});
+const bankFiles = import.meta.glob<BankFile>("../data/questions/banks/*.json", {
+  eager: true,
+  import: "default",
+});
+
+const GENERAL: Record<Topic, Question[]> = Object.fromEntries(
+  TOPICS.map((t) => [t, [] as Question[]]),
+) as Record<Topic, Question[]>;
+const GENERAL_FILE: Partial<Record<Topic, string>> = {};
+for (const [path, data] of Object.entries(generalFiles)) {
+  if (!isTopic(data.topic)) continue;
+  GENERAL[data.topic].push(...data.questions.map((q) => ({ ...q, topic: data.topic as Topic })));
+  GENERAL_FILE[data.topic] = `general/${fileName(path)}`;
+}
+const BANKS: BankDeck[] = Object.entries(bankFiles)
+  .map(([path, data]) => ({
+    name: data.bank,
+    tier: data.tier,
+    file: `banks/${fileName(path)}`,
+    questions: data.questions.map((q) => ({
+      ...q,
+      topic: isTopic(q.topic) ? q.topic : ("Behavioral" as Topic),
+    })),
+  }))
+  .sort((a, b) => {
+    const ta = TIER_ORDER.indexOf(a.tier);
+    const tb = TIER_ORDER.indexOf(b.tier);
+    return (ta === -1 ? 99 : ta) - (tb === -1 ? 99 : tb) || a.name.localeCompare(b.name);
+  });
+const BANK_TOTAL = BANKS.reduce((n, b) => n + b.questions.length, 0);
 const EMPTY: SavedState = { statuses: {}, personal: [] };
 const keyFor = (topic: Topic, id: Question["id"], personal = false) =>
   `${personal ? "personal" : "bank"}:${topic}:${id}`;
@@ -175,20 +215,18 @@ function Technicals() {
     if (typeof window !== "undefined") localStorage.setItem(QUIZ_KEY, JSON.stringify(quiz));
   }, [quiz]);
 
-  const questions = useMemo(() => {
-    let base: Question[];
-    if (topic === "DCF")
-      base = (valuationQuestions as Question[]).filter((q) =>
-        DCF_TERMS.test(`${q.question} ${q.answer}`),
-      );
-    else if (topic === "Markets") base = capitalMarketsQuestions as Question[];
-    else if (topic === "Behavioral") base = behavioralQuestions as Question[];
-    else base = BASE_BANKS[topic];
-    return [
-      ...base.map((q) => ({ ...q, topic })),
+  const [view, setView] = useState<View>("general");
+  const [bankName, setBankName] = useState<string>(BANKS[0]?.name ?? "");
+  const bank = BANKS.find((b) => b.name === bankName) ?? BANKS[0];
+
+  const questions = useMemo(
+    () => [
+      ...GENERAL[topic],
       ...saved.personal.filter((q) => q.topic === topic).map((q) => ({ ...q, personal: true })),
-    ];
-  }, [topic, saved.personal]);
+    ],
+    [topic, saved.personal],
+  );
+  const deckSize = view === "general" ? questions.length : (bank?.questions.length ?? 0);
 
   return (
     <div className="relative min-h-screen">
@@ -218,12 +256,42 @@ function Technicals() {
               </p>
             </div>
             <div className="glass min-w-56 rounded-2xl p-4">
-              <p className="mono-label">{topic} deck</p>
-              <p className="mt-2 font-display text-3xl font-bold tabular-nums">
-                <CountUp value={questions.length} duration={700} />
+              <p className="mono-label">
+                {view === "general" ? `${topic} deck` : `${bank?.name} deck`}
               </p>
-              <p className="mt-1 text-sm text-muted-foreground">questions including your cards</p>
+              <p className="mt-2 font-display text-3xl font-bold tabular-nums">
+                <CountUp value={deckSize} duration={700} />
+              </p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                {view === "general" ? "questions including your cards" : `${bank?.tier} questions`}
+              </p>
             </div>
+          </div>
+          <div
+            className="mt-6 inline-flex rounded-full border border-border bg-surface/80 p-1"
+            role="group"
+            aria-label="Question bank view"
+          >
+            {(
+              [
+                {
+                  value: "general",
+                  label: "General questions",
+                  count: TOPICS.reduce((n, t) => n + GENERAL[t].length, 0),
+                },
+                { value: "banks", label: "Asked by bank", count: BANK_TOTAL },
+              ] as const
+            ).map(({ value, label, count }) => (
+              <button
+                key={value}
+                type="button"
+                onClick={() => setView(value)}
+                aria-pressed={view === value}
+                className={`min-h-11 rounded-full px-4 text-sm font-semibold ${view === value ? "bg-primary/25" : "text-muted-foreground"}`}
+              >
+                {label} <span className="text-xs opacity-70">({count})</span>
+              </button>
+            ))}
           </div>
           <div className="mt-6 rounded-2xl border border-border/70 bg-background/35 p-4 text-sm text-muted-foreground">
             <strong className="text-foreground">Private by default.</strong> Your custom questions
@@ -231,36 +299,75 @@ function Technicals() {
             switching devices.
           </div>
           <WeakTopics quiz={quiz} setQuiz={setQuiz} />
-          <Tabs
-            value={topic}
-            onValueChange={(v) => {
-              if (TOPICS.includes(v as Topic)) setTopic(v as Topic);
-            }}
-            className="mt-6"
-          >
-            <TabsList className="scrollbar-none h-auto w-full justify-start gap-1 overflow-x-auto rounded-2xl border border-border bg-surface/80 p-1.5">
+          {view === "general" ? (
+            <Tabs
+              value={topic}
+              onValueChange={(v) => {
+                if (isTopic(v)) setTopic(v);
+              }}
+              className="mt-6"
+            >
+              <TabsList className="scrollbar-none h-auto w-full justify-start gap-1 overflow-x-auto rounded-2xl border border-border bg-surface/80 p-1.5">
+                {TOPICS.map((name) => (
+                  <TabsTrigger
+                    key={name}
+                    value={name}
+                    className="min-h-11 shrink-0 rounded-xl px-4 data-[state=active]:bg-primary/25"
+                  >
+                    {name}
+                  </TabsTrigger>
+                ))}
+              </TabsList>
               {TOPICS.map((name) => (
-                <TabsTrigger
-                  key={name}
-                  value={name}
-                  className="min-h-11 shrink-0 rounded-xl px-4 data-[state=active]:bg-primary/25"
-                >
-                  {name}
-                </TabsTrigger>
+                <TabsContent key={name} value={name} className="mt-6">
+                  <StudyBank
+                    deckId={`topic:${name}`}
+                    topic={name}
+                    questions={name === topic ? questions : []}
+                    editFile={GENERAL_FILE[name]}
+                    saved={saved}
+                    setSaved={setSaved}
+                    setQuiz={setQuiz}
+                  />
+                </TabsContent>
               ))}
-            </TabsList>
-            {TOPICS.map((name) => (
-              <TabsContent key={name} value={name} className="mt-6">
-                <StudyBank
-                  topic={name}
-                  questions={name === topic ? questions : []}
-                  saved={saved}
-                  setSaved={setSaved}
-                  setQuiz={setQuiz}
-                />
-              </TabsContent>
-            ))}
-          </Tabs>
+            </Tabs>
+          ) : bank ? (
+            <Tabs value={bank.name} onValueChange={setBankName} className="mt-6">
+              <TabsList className="scrollbar-none h-auto w-full justify-start gap-1 overflow-x-auto rounded-2xl border border-border bg-surface/80 p-1.5">
+                {BANKS.map((b, i) => (
+                  <span key={b.name} className="flex shrink-0 items-center gap-1">
+                    {(i === 0 || BANKS[i - 1]?.tier !== b.tier) && (
+                      <span className="mono-label shrink-0 px-2 text-[0.65rem] text-muted-foreground">
+                        {b.tier}
+                      </span>
+                    )}
+                    <TabsTrigger
+                      value={b.name}
+                      className="min-h-11 shrink-0 rounded-xl px-4 data-[state=active]:bg-primary/25"
+                    >
+                      {b.name}
+                      <span className="ml-1 text-xs opacity-60">{b.questions.length}</span>
+                    </TabsTrigger>
+                  </span>
+                ))}
+              </TabsList>
+              {BANKS.map((b) => (
+                <TabsContent key={b.name} value={b.name} className="mt-6">
+                  <StudyBank
+                    deckId={`bank:${b.name}`}
+                    topic="Behavioral"
+                    questions={b.name === bank.name ? b.questions : []}
+                    editFile={b.file}
+                    showTopic
+                    saved={saved}
+                    setSaved={setSaved}
+                    setQuiz={setQuiz}
+                  />
+                </TabsContent>
+              ))}
+            </Tabs>
+          ) : null}
         </section>
       </main>
     </div>
@@ -268,14 +375,20 @@ function Technicals() {
 }
 
 function StudyBank({
+  deckId,
   topic,
   questions,
+  editFile,
+  showTopic = false,
   saved,
   setSaved,
   setQuiz,
 }: {
+  deckId: string;
   topic: Topic;
   questions: Question[];
+  editFile?: string | undefined;
+  showTopic?: boolean;
   saved: SavedState;
   setSaved: React.Dispatch<React.SetStateAction<SavedState>>;
   setQuiz: React.Dispatch<React.SetStateAction<QuizState>>;
@@ -287,7 +400,7 @@ function StudyBank({
   const [revealed, setRevealed] = useState(false);
   const [query, setQuery] = useState("");
   const identified = useMemo(
-    () => questions.map((q) => ({ ...q, studyKey: keyFor(topic, q.id, q.personal) })),
+    () => questions.map((q) => ({ ...q, studyKey: keyFor(q.topic ?? topic, q.id, q.personal) })),
     [questions, topic],
   );
   const filtered = useMemo(
@@ -402,17 +515,19 @@ function StudyBank({
                 { value: "browse", label: "Browse all", Icon: List },
                 { value: "personalize", label: "My questions", Icon: Plus },
               ] as const
-            ).map(({ value, label, Icon }) => (
-              <button
-                key={value}
-                type="button"
-                onClick={() => setMode(value)}
-                className={`inline-flex min-h-10 items-center gap-2 rounded-full px-3 text-sm font-semibold ${mode === value ? "bg-primary/25" : "text-muted-foreground"}`}
-              >
-                <Icon className="h-4 w-4" />
-                {label}
-              </button>
-            ))}
+            )
+              .filter(({ value }) => !(showTopic && value === "personalize"))
+              .map(({ value, label, Icon }) => (
+                <button
+                  key={value}
+                  type="button"
+                  onClick={() => setMode(value)}
+                  className={`inline-flex min-h-10 items-center gap-2 rounded-full px-3 text-sm font-semibold ${mode === value ? "bg-primary/25" : "text-muted-foreground"}`}
+                >
+                  <Icon className="h-4 w-4" />
+                  {label}
+                </button>
+              ))}
           </div>
           {mode === "cards" && (
             <div className="flex gap-2">
@@ -426,7 +541,9 @@ function StudyBank({
                   setSaved((s) => ({
                     ...s,
                     statuses: Object.fromEntries(
-                      Object.entries(s.statuses).filter(([k]) => !k.includes(`:${topic}:`)),
+                      Object.entries(s.statuses).filter(
+                        ([k]) => !identified.some((q) => q.studyKey === k),
+                      ),
                     ),
                   }))
                 }
@@ -442,15 +559,17 @@ function StudyBank({
         current ? (
           <QuizCard
             question={current}
+            showTopic={showTopic}
             position={position}
             total={ordered.length}
             onGrade={(grade) => {
+              const graded = current.topic ?? topic;
               setQuiz((s) => {
-                const cur = s.attempts[topic] ?? { nailed: 0, partial: 0, missed: 0 };
+                const cur = s.attempts[graded] ?? { nailed: 0, partial: 0, missed: 0 };
                 return {
                   attempts: {
                     ...s.attempts,
-                    [topic]: { ...cur, [grade]: cur[grade] + 1 },
+                    [graded]: { ...cur, [grade]: cur[grade] + 1 },
                   },
                 };
               });
@@ -466,6 +585,7 @@ function StudyBank({
         current ? (
           <Flashcard
             question={current}
+            showTopic={showTopic}
             position={position}
             total={ordered.length}
             revealed={revealed}
@@ -480,7 +600,8 @@ function StudyBank({
         )
       ) : mode === "browse" ? (
         <BrowseBank
-          topic={topic}
+          deckId={deckId}
+          showTopic={showTopic}
           query={query}
           onQueryChange={setQuery}
           matches={matches}
@@ -489,12 +610,26 @@ function StudyBank({
       ) : (
         <PersonalQuestions topic={topic} saved={saved} setSaved={setSaved} />
       )}
+      {editFile && (
+        <p className="mt-6 text-sm text-muted-foreground">
+          Spot a mistake or want to add a question?{" "}
+          <a
+            href={`${REPO_EDIT_URL}/${editFile}`}
+            target="_blank"
+            rel="noreferrer"
+            className="font-semibold text-accent underline-offset-4 hover:underline"
+          >
+            Edit this deck on GitHub
+          </a>
+        </p>
+      )}
     </>
   );
 }
 
 function Flashcard({
   question,
+  showTopic,
   position,
   total,
   revealed,
@@ -505,6 +640,7 @@ function Flashcard({
   onRate,
 }: {
   question: Question & { studyKey: string };
+  showTopic: boolean;
   position: number;
   total: number;
   revealed: boolean;
@@ -530,7 +666,9 @@ function Flashcard({
           <p className="mono-label text-accent">
             {question.personal
               ? "Personal card"
-              : `Question ${String(question.id).padStart(3, "0")}`}
+              : typeof question.id === "number"
+                ? `Question ${String(question.id).padStart(3, "0")}`
+                : `Question ${question.id}`}
           </p>
           <span className="rounded-full bg-secondary/70 px-3 py-1 text-xs text-muted-foreground">
             {status ? (status === "mastered" ? "Mastered" : "Review again") : "Unseen"}
@@ -538,10 +676,12 @@ function Flashcard({
         </div>
         <h2
           key={question.studyKey}
-          className="quiz-enter display-medium mt-8 max-w-4xl text-3xl leading-tight sm:text-4xl"
+          className="quiz-enter display-medium mt-8 max-w-4xl whitespace-pre-line text-3xl leading-tight sm:text-4xl"
         >
-          {question.question}
+          {splitOptions(question.question).stem}
         </h2>
+        <OptionList question={question.question} />
+        <QuestionMeta question={question} showTopic={showTopic} />
         <div className="mt-8 border-t border-border/70 pt-7" aria-live="polite">
           {revealed ? (
             <AnswerText answer={question.answer} />
@@ -617,13 +757,15 @@ function EmptyDeck({ filter, onShowAll }: { filter: StudyFilter; onShowAll: () =
 }
 
 function BrowseBank({
-  topic,
+  deckId,
+  showTopic,
   query,
   onQueryChange,
   matches,
   statuses,
 }: {
-  topic: Topic;
+  deckId: string;
+  showTopic: boolean;
   query: string;
   onQueryChange: (v: string) => void;
   matches: (Question & { studyKey: string })[];
@@ -632,13 +774,13 @@ function BrowseBank({
   return (
     <div className="mt-6">
       <div className="glass rounded-2xl p-4 sm:p-5">
-        <label htmlFor={`search-${topic}`} className="mono-label text-accent">
+        <label htmlFor={`search-${deckId}`} className="mono-label text-accent">
           Search this deck
         </label>
         <div className="relative mt-3">
           <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <Input
-            id={`search-${topic}`}
+            id={`search-${deckId}`}
             type="search"
             value={query}
             onChange={(e) => onQueryChange(e.target.value)}
@@ -654,13 +796,14 @@ function BrowseBank({
             <AccordionItem key={item.studyKey} value={item.studyKey}>
               <AccordionTrigger className="gap-4 py-5 text-base hover:no-underline">
                 <span className="flex w-full items-start justify-between gap-3 text-left">
-                  <span>{item.question}</span>
+                  <span className="whitespace-pre-line">{item.question}</span>
                   <span className="shrink-0 text-xs text-muted-foreground">
                     {statuses[item.studyKey] || "unseen"}
                   </span>
                 </span>
               </AccordionTrigger>
               <AccordionContent className="pb-6">
+                <QuestionMeta question={item} showTopic={showTopic} compact />
                 <AnswerText answer={item.answer} />
               </AccordionContent>
             </AccordionItem>
@@ -896,10 +1039,74 @@ function PersonalQuestions({
   );
 }
 function AnswerText({ answer }: { answer: string }) {
+  if (!answer.trim())
+    return (
+      <p className="text-base leading-7 text-muted-foreground">
+        No model answer yet. Use the "Edit this deck on GitHub" link below to add one.
+      </p>
+    );
   return (
     <p className="max-w-none whitespace-pre-line text-base leading-7 text-foreground/90">
       {answer}
     </p>
+  );
+}
+
+// Multiple-choice questions store their options after the stem as "\nA: ...\nB: ...".
+function splitOptions(text: string) {
+  const at = text.search(/\nA: /);
+  if (at === -1) return { stem: text, options: [] as string[] };
+  return {
+    stem: text.slice(0, at),
+    options: text
+      .slice(at + 1)
+      .split("\n")
+      .filter((line) => line.trim()),
+  };
+}
+
+function OptionList({ question }: { question: string }) {
+  const { options } = splitOptions(question);
+  if (!options.length) return null;
+  return (
+    <ul className="mt-5 space-y-2 text-base leading-7 text-foreground/90">
+      {options.map((option) => (
+        <li key={option} className="rounded-xl border border-border/70 bg-background/30 px-4 py-2">
+          {option}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function QuestionMeta({
+  question,
+  showTopic,
+  compact = false,
+}: {
+  question: Question;
+  showTopic: boolean;
+  compact?: boolean;
+}) {
+  const tags = [
+    showTopic && question.topic ? question.topic : null,
+    question.group ? question.group : null,
+  ].filter(Boolean) as string[];
+  const asked = question.askedAt ?? [];
+  if (!tags.length && !asked.length) return null;
+  return (
+    <div className={`flex flex-wrap items-center gap-2 text-xs ${compact ? "mb-4" : "mt-5"}`}>
+      {tags.map((t) => (
+        <span key={t} className="rounded-full bg-secondary/70 px-3 py-1 text-muted-foreground">
+          {t}
+        </span>
+      ))}
+      {asked.length > 0 && (
+        <span className="text-muted-foreground">
+          Asked at <span className="text-foreground/90">{asked.join(", ")}</span>
+        </span>
+      )}
+    </div>
   );
 }
 
@@ -957,8 +1164,7 @@ function WeakTopics({
           </div>
           <p className="mt-3 text-sm text-muted-foreground">
             {totalAttempts} self-graded answers. Highlighted topics are your weakest - drill them
-            from the review queue. You grade every answer yourself; nothing is scored
-            automatically.
+            from the review queue. You grade every answer yourself; nothing is scored automatically.
           </p>
         </>
       ) : (
@@ -973,6 +1179,7 @@ function WeakTopics({
 
 function QuizCard({
   question,
+  showTopic,
   position,
   total,
   onGrade,
@@ -980,6 +1187,7 @@ function QuizCard({
   onNext,
 }: {
   question: Question & { studyKey: string };
+  showTopic: boolean;
   position: number;
   total: number;
   onGrade: (grade: QuizGrade) => void;
@@ -1007,7 +1215,11 @@ function QuizCard({
       <article className="glass lumen mt-5 flex min-h-[28rem] flex-col rounded-3xl p-6 sm:p-9">
         <div className="flex items-center justify-between gap-4">
           <p className="mono-label text-accent">
-            {question.personal ? "Personal card" : `Question ${String(question.id).padStart(3, "0")}`}
+            {question.personal
+              ? "Personal card"
+              : typeof question.id === "number"
+                ? `Question ${String(question.id).padStart(3, "0")}`
+                : `Question ${question.id}`}
           </p>
           <span className="rounded-full bg-secondary/70 px-3 py-1 text-xs text-muted-foreground">
             Self-graded quiz
@@ -1015,10 +1227,12 @@ function QuizCard({
         </div>
         <h2
           key={question.studyKey}
-          className="quiz-enter display-medium mt-8 max-w-4xl text-3xl leading-tight sm:text-4xl"
+          className="quiz-enter display-medium mt-8 max-w-4xl whitespace-pre-line text-3xl leading-tight sm:text-4xl"
         >
-          {question.question}
+          {splitOptions(question.question).stem}
         </h2>
+        <OptionList question={question.question} />
+        <QuestionMeta question={question} showTopic={showTopic} />
         <label className="mt-8 block text-sm font-semibold">
           Your answer
           <textarea
@@ -1096,4 +1310,4 @@ function QuizCard({
       </div>
     </div>
   );
-                                                         }
+}

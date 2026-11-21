@@ -1,0 +1,1159 @@
+{
+  "topic": "Behavioral",
+  "questions": [
+    {
+      "id": "b-001",
+      "question": "Tell me about yourself.",
+      "answer": "Structure: present, past, why you're here.\n1. Present: Duke statistics major with history and financial economics minors.\n2. Past: the through-line you already tell publicly - solar and battery research, then M&A and venture analyst work.\n3. Why here: connect that arc to this firm's group in one sentence.\nKeep it under 90 seconds and end on why banking, not on a list of activities.",
+      "askedAt": [
+        "Evercore",
+        "Greenhill",
+        "Houlihan Lokey",
+        "J.P. Morgan",
+        "Morgan Stanley",
+        "RBC"
+      ]
+    },
+    {
+      "id": "b-002",
+      "question": "Why investment banking?",
+      "answer": "Hit three beats: the work, the pace, the proof.\n- The work: you like transactions and valuation, not just markets talk.\n- The pace: you want responsibility early and a steep learning curve.\n- The proof: point to something you already do that banks on this interest - your deal tracking, technicals practice, or market journal.\nAvoid: prestige, money, or 'I like finance' with no evidence.",
+      "askedAt": [
+        "Allen & Co",
+        "Bank of America",
+        "Houlihan Lokey",
+        "Morgan Stanley",
+        "RBC"
+      ]
+    },
+    {
+      "id": "b-003",
+      "question": "Why this firm?",
+      "answer": "Generic frame - fill in per firm before each interview.\n1. One specific deal, group, or senior banker you can name.\n2. One cultural or structural fact (platform, sector focus, analyst program).\n3. One personal connection: a coffee chat, info session, or alum conversation.\nIf you can't name all three, you haven't prepped this firm yet.",
+      "askedAt": [
+        "Morgan Stanley"
+      ]
+    },
+    {
+      "id": "b-004",
+      "question": "Why energy / energy transition?",
+      "answer": "This is your differentiator - build it from what's already public on your site.\n- Research roots: solar and battery work before finance.\n- Analyst angle: how the capital stack (tax equity, project debt, green loans) decides which projects get built.\n- Current proof: you track deals and write market notes regularly.\nTie it to the firm's energy or infrastructure franchise."
+    },
+    {
+      "id": "b-005",
+      "question": "Tell me about a time you led a team.",
+      "answer": "STAR: Situation, Task, Action, Result.\nPick one story and rehearse it tight. Your public materials point to community leadership and club roles - choose the one with a real conflict or decision in it, not the one with the biggest title.\nSpend 60% of the answer on Action: what YOU decided, not what the team did."
+    },
+    {
+      "id": "b-006",
+      "question": "Tell me about a time you failed or made a mistake.",
+      "answer": "Real failure, owned, with a changed behavior.\n1. Name the mistake plainly - no humble-brag ('I work too hard').\n2. Show what it cost.\n3. Show the system you built so it doesn't recur.\nBankers are listening for self-awareness and whether you blame others.",
+      "askedAt": [
+        "Evercore",
+        "Houlihan Lokey",
+        "Lazard",
+        "RBC"
+      ]
+    },
+    {
+      "id": "b-007",
+      "question": "Tell me about a conflict on a team and how you handled it.",
+      "answer": "Choose a genuine disagreement about direction, not a personality clash.\n- Frame both sides fairly.\n- Show you escalated with data or a proposal, not emotion.\n- End with the outcome and the relationship intact.\nIf the story ends with the other person simply being wrong, pick a different story."
+    },
+    {
+      "id": "b-008",
+      "question": "What is your greatest strength?",
+      "answer": "One strength, one story, one line on how it shows up in banking.\nPick something provable from your record - e.g. building a repeatable process from messy data, or sustained follow-through on a long project.\nSkip adjectives without evidence."
+    },
+    {
+      "id": "b-009",
+      "question": "What is your greatest weakness?",
+      "answer": "Real but managed.\n1. Name a genuine weakness (not a disguised strength).\n2. Give a concrete example of when it bit you.\n3. Show the specific countermeasure you use now.\nAvoid: perfectionism, 'I care too much'.",
+      "askedAt": [
+        "Citi"
+      ]
+    },
+    {
+      "id": "b-010",
+      "question": "Tell me about a time you analyzed something complex.",
+      "answer": "Use an analytical story with a decision at the end.\nGood public-thread options: screening a large set of companies down to a short list, or a research project with real data.\nStructure: the problem, your method, what you cut and why, the recommendation.\nInterviewers want judgment under uncertainty, not tool names."
+    },
+    {
+      "id": "b-011",
+      "question": "Where do you see yourself in five years?",
+      "answer": "Stay close to the seat you're interviewing for.\n- Near term: become a dependable analyst the staffer calls first.\n- Medium term: deeper sector or product expertise (energy transition fits your story).\nKeep ambition, drop any hint that banking is a stepping stone you'll name out loud.",
+      "askedAt": [
+        "Bank of America",
+        "Evercore"
+      ]
+    },
+    {
+      "id": "b-012",
+      "question": "Tell me about a recent deal or market move you followed.",
+      "answer": "Have one deal and one market theme ready at all times.\n- Deal: parties, size, structure (e.g. green loan vs tax equity vs M&A), and why it matters.\n- Theme: rates, spreads, or an energy-sector development, with your view.\nYour own tracker and market journal are the prep - reread your latest entries the morning of the interview."
+    },
+    {
+      "id": "b-013",
+      "question": "Tell me about a time you worked under a tight deadline.",
+      "answer": "Show triage, not heroics.\n1. The constraint (time, stakes).\n2. How you sequenced and cut scope.\n3. What you delivered and what you flagged as unfinished.\nBankers want to know you communicate early when a timeline slips."
+    },
+    {
+      "id": "b-014",
+      "question": "What do you do outside of school and work?",
+      "answer": "Be a person, briefly.\nPick two genuine interests and one specific detail each. Community and music are on your public site; sports and reading work too.\nThis answer is a likability check - relax, be specific, stop talking after 30 seconds."
+    },
+    {
+      "id": "b-015",
+      "question": "Why not private equity or a hedge fund straight out of school?",
+      "answer": "What it tests: Whether you understand the actual career ladder, and whether banking is a genuine choice or a consolation prize.\nA strong answer contains: Recognition that banking is the training ground where you learn to build and defend a model on live deals, that buy-side roles recruit out of banking for that reason, and a straight answer on whether the buy side is your eventual aim.\nRed flags: Pretending you have never considered PE. Interviewers know the path and disbelieve you. Equally bad: making banking sound like a two-year layover.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-016",
+      "question": "Why banking rather than consulting?",
+      "answer": "What it tests: Whether you can articulate a real difference between two roles that recruit the same students, rather than reciting a preference.\nA strong answer contains: The distinction between recommending and executing: consultants hand over a deck and leave, bankers carry a transaction to signing and live with the outcome. Bonus if you can say why proximity to the capital decision matters to you.\nRed flags: Running down consulting. It reads as insecurity and half your interviewers have friends at McKinsey. Also avoid claiming banking is more analytical, which is not obviously true.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-017",
+      "question": "Why not go into corporate finance or corporate development at a company you like?",
+      "answer": "What it tests: Whether you have thought about deal volume and reps, or just picked the most prestigious option. thelocker.ai/lockers/interview\nA strong answer contains: Volume of exposure: an analyst sees dozens of situations across sectors in two years, where a corp dev team may run one or two deals a year. Say that you want the reps first and would consider going in-house later with better judgment.\nRed flags: Suggesting corporate roles are for people who cannot get banking. Interviewers move in-house too, and it signals you value the badge over the work.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-018",
+      "question": "What do you think an analyst actually does day to day?",
+      "answer": "What it tests: Whether you know what you are signing up for. Candidates who romanticise the job quit inside eighteen months, which is expensive for the firm.\nA strong answer contains: An honest split: comps and model maintenance, pitch and CIM production, formatting and version control, diligence tracking, and a small share of genuinely analytical work. Say that the low-glamour work is how you earn the interesting work.\nRed flags: Describing the job as advising CEOs or making investment decisions. That is an MD's job and a decade away.",
+      "group": "HL CorpFin, IB",
+      "source": [
+        "IB Questions v12",
+        "The 500"
+      ],
+      "askedAt": [
+        "Houlihan Lokey",
+        "Lazard"
+      ]
+    },
+    {
+      "id": "b-019",
+      "question": "What part of this job do you think you will like least?",
+      "answer": "What it tests: Self-awareness and honesty. A candidate who claims to love everything is either naive or managing you.\nA strong answer contains: One real, specific dislike with a reason, followed by why you accept it. Version control and last-minute formatting turns are safe and true. Unpredictability of hours is also fair.\nRed flags: Saying nothing comes to mind. Also avoid naming something disqualifying: attention to detail, taking direction, or working with difficult people.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-020",
+      "question": "When did you first get interested in finance?",
+      "answer": "What it tests: Whether there is an actual origin story or whether the interest dates from recruiting season.\nA strong answer contains: A dated, specific trigger: a family business sale, an internship where you watched a transaction, a stock you researched and got wrong, a course that clicked. Detail is what makes it credible.\nRed flags: Claiming a lifelong passion since childhood. It is almost never true and it is unfalsifiable, which makes it sound rehearsed.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-021",
+      "question": "What have you done outside of class or work to learn about banking?",
+      "answer": "What it tests: Initiative. Interest that costs you nothing is not evidence of interest.\nA strong answer contains: Things you did unprompted and can be questioned on: a model you built from a public filing, a 10-K you read cover to cover, a specific newsletter or podcast you follow weekly, a society you ran, coffee chats you actually took notes from. thelocker.ai/lockers/interview\nRed flags: Naming a resource without being able to discuss anything from it. If you say you read a filing, expect to be asked what surprised you in it.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-022",
+      "question": "Why now, rather than working somewhere else first and lateralling in?",
+      "answer": "What it tests: Whether you understand that analyst recruiting is age-and class-bound, and whether you have a plan or drifted here.\nA strong answer contains: The structural answer: the analyst pipeline recruits on a fixed cycle and lateral entry is far harder, so the training is easiest to access now. Pair it with a reason you are ready now rather than in two years.\nRed flags: Implying you are applying because the timing was convenient, or that you would rather be elsewhere but this window was open.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-023",
+      "question": "Where do you want to be in five years?",
+      "answer": "What it tests: Retention risk, and whether you can hold two truths at once: ambition beyond the analyst seat, and commitment to the seat.\nA strong answer contains: Commitment to the analyst and associate years, a clear reason you want to get good at this specific craft, and an honest direction of travel afterwards. Naming an interest in a sector reads better than naming a fund.\nRed flags: Both extremes. Promising to spend your career at the firm is not believable; naming the PE fund you intend to leave for in two years is worse.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-024",
+      "question": "The hours are brutal. Are you actually prepared for that?",
+      "answer": "What it tests: Whether you have tested yourself against sustained pressure, or are guessing.\nA strong answer contains: Evidence rather than assertion: a period where you worked comparable hours and what it cost you, plus the specific habits that got you through. Acknowledge that a bad week in banking is worse than a bad week anywhere you have been.\nRed flags: Claiming you thrive on no sleep, or that hours do not bother you. Both read as bravado to someone who has done it for years. thelocker.ai/lockers/interview",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-025",
+      "question": "If you do not get an offer this cycle, what will you do?",
+      "answer": "What it tests: Composure and whether the interest survives rejection. Also a quiet test of whether you have thought past the fantasy.\nA strong answer contains: A real plan B that keeps you close to the work: a smaller bank or boutique, a valuation or restructuring group, an in-house finance role, and a stated intention to try again.\nRed flags: Saying you have no plan B because this is the only thing you want. It reads as fragile, not committed.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-026",
+      "question": "Why should we hire you over a candidate with more finance experience?",
+      "answer": "What it tests: Whether you can make a case for yourself without either apologizing or overclaiming.\nA strong answer contains: One or two things you genuinely bring that are hard to teach, tied to evidence, plus a straight acknowledgement of the gap and what you are doing to close it. Technical skills are teachable; judgment, reliability and curiosity are not.\nRed flags: Pretending the gap does not exist. Also avoid generic self-praise, hard worker, quick learner, team player, with nothing behind it.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-027",
+      "question": "Convince me you will not leave for private equity after two years.",
+      "answer": "What it tests: How you handle a question with no safe answer. The interviewer knows most analysts leave; they are testing candour under pressure.\nA strong answer contains: Honesty with a boundary: you are not going to promise something you cannot know, what you can commit to is doing the two years properly, and here is what would make you want to stay. Naming what you want to learn first is stronger than any promise.\nRed flags: A flat promise to stay forever. Nobody believes it, and it suggests you will tell people what they want to hear rather than the truth.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-028",
+      "question": "Why [group]?",
+      "answer": "",
+      "group": "Citi IB, EVR M&A, PWP IB",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Citi",
+        "Evercore",
+        "Perella Weinberg"
+      ]
+    },
+    {
+      "id": "b-029",
+      "question": "Why RX",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Evercore",
+        "Houlihan Lokey",
+        "PJT Partners"
+      ]
+    },
+    {
+      "id": "b-030",
+      "question": "What other processes are you involved in?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Evercore",
+        "Houlihan Lokey"
+      ]
+    },
+    {
+      "id": "b-031",
+      "question": "Tell me about yourself, why IB, why Rothschild",
+      "answer": "",
+      "group": "Cain Brothers, Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Cain Brothers",
+        "Rothschild"
+      ]
+    },
+    {
+      "id": "b-032",
+      "question": "What groups are you interested in and why?",
+      "answer": "",
+      "group": "BofA IBD, HL CorpFin, IB",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Bank of America",
+        "Houlihan Lokey",
+        "RBC"
+      ]
+    },
+    {
+      "id": "b-033",
+      "question": "Why this group specifically?",
+      "answer": "What it tests: Whether you chose the coverage or simply accepted whichever interview you were offered.\nA strong answer contains: A reason rooted in the sector's economics rather than its glamour: the questions the sector forces you to answer, a subsector you follow, why its valuation problem interests you. Name what you would want to work on in year one.\nRed flags: Tech is growing. Healthcare is interesting. Also naming the sector's largest company as your entire evidence of interest.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-034",
+      "question": "What do you know about our recent deals?",
+      "answer": "What it tests: Real research versus a skimmed press release. The follow-up question is where prepared answers come apart.\nA strong answer contains: One or two transactions you can discuss in depth: parties, rough size, strategic rationale, structure if it was unusual. Plus one thing you would question about it.\nRed flags: Naming a deal the group had no role in. Getting the side wrong, sell-side versus buy-side. Listing three deals with a sentence each instead of one with substance.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-035",
+      "question": "Who have you spoken to here, and what did you take from it?",
+      "answer": "What it tests: Whether networking was genuine or a box-tick. Interviewers frequently check with the people you name.\nA strong answer contains: People you actually spoke to, one specific thing each said that changed your view, and evidence you followed up. If someone told you something unflattering about the job, saying so is a mark of credibility.\nRed flags: Naming senior people you have never met, or naming three analysts and repeating the same generic line from each. Never name someone who would not remember you.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-036",
+      "question": "What other banks are you interviewing with?",
+      "answer": "What it tests: Honesty and composure. They will find out anyway, so how you handle the question matters more than the answer.\nA strong answer contains: A truthful answer with a coherent logic to the list: same sector, same size of platform, same city. The pattern should show considered preference rather than a scattergun.\nRed flags: Claiming you are only interviewing here; nobody believes it. Also a list with no logic to it, which suggests you would take anything.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-037",
+      "question": "If you had our offer and one from a direct competitor, how would you choose?",
+      "answer": "What it tests: Your actual decision criteria, and whether you can be complimentary without lying. thelocker.ai/lockers/interview\nA strong answer contains: Two or three criteria you can defend: deal exposure at analyst level, how the group staffs juniors, the people you met, sector fit. Then an honest statement of which matters most and what would tip it.\nRed flags: I would definitely choose you, with no reasoning behind it. Also naming compensation or exit opportunities as the deciding factor, even if it is true.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-038",
+      "question": "Bulge bracket, elite boutique, middle market - why the one you are sitting in?",
+      "answer": "What it tests: Whether you understand how the industry is structured, or simply applied everywhere.\nA strong answer contains: A real trade-off stated plainly: balance sheet and product breadth against deal-per-analyst exposure and advisory purity. Then say which side of that trade you want, and why.\nRed flags: Not knowing where the firm sits. Describing an elite boutique as a bulge bracket, or the reverse, ends the conversation.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-039",
+      "question": "Why this office?",
+      "answer": "What it tests: Retention risk. Analysts who wanted a different city leave, and relocating a junior is expensive.\nA strong answer contains: A concrete tie to the location: where you are from, where you studied, family, a stated intention to build a life there. Plus the professional reason the office matters for this sector.\nRed flags: Treating the city as incidental, or saying you would go anywhere. Meant as flexibility, it reads as flight risk.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-040",
+      "question": "What do you think our biggest weakness is as a franchise?",
+      "answer": "What it tests: Courage, and whether your research was real. Most candidates cannot answer because they only read the marketing.\nA strong answer contains: A defensible observation stated respectfully: a product or region where the firm is subscale, a franchise under pressure, a notable departure. Plus why you are joining anyway. The willingness to say it is most of the marks.\nRed flags: Refusing to answer, or a non-answer like you are too successful. Equally bad: an aggressive critique with no evidence behind it.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-041",
+      "question": "What would you learn in this group that you could not learn elsewhere?",
+      "answer": "What it tests: Whether your interest is in this seat or in any seat that says investment banking on it.\nA strong answer contains: Something structurally specific to the group: a product it dominates, a repeat client relationship, a deal type it sees more than anyone. Tie it to a skill you want to build.\nRed flags: Training programs and mentorship, which every bank claims. If your answer survives a find-and-replace of the firm's name, it is the wrong answer.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-042",
+      "question": "Tell me about a leadership experience.",
+      "answer": "",
+      "group": "BofA IBD, PWP IB",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Bank of America",
+        "Perella Weinberg"
+      ]
+    },
+    {
+      "id": "b-043",
+      "question": "Expand on your internship, clubs, and the additional section of your resume",
+      "answer": "",
+      "group": "Capital Markets Group, Citi IB, IB",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Citi",
+        "Houlihan Lokey",
+        "Jefferies"
+      ]
+    },
+    {
+      "id": "b-044",
+      "question": "Questions about the pitch on your resume",
+      "answer": "",
+      "group": "IB, MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Jefferies",
+        "Moelis"
+      ]
+    },
+    {
+      "id": "b-045",
+      "question": "What is your favorite class inside and outside of finance?",
+      "answer": "",
+      "group": "Citi IB, Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Citi",
+        "Rothschild"
+      ]
+    },
+    {
+      "id": "b-046",
+      "question": "Why did you choose your major?",
+      "answer": "What it tests: Coherence, and if the major is non-finance, whether you can connect it without sounding defensive.\nA strong answer contains: A real reason you picked it, one thing it taught you that transfers, and if it is not finance, what you did separately to build the foundation. Non-traditional majors are an asset if you frame them.\nRed flags: Apologizing for the major, or claiming it was a strategic step toward banking when it plainly was not.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-047",
+      "question": "Your GPA is below what we usually see. Talk me through it.",
+      "answer": "What it tests: How you handle a weakness you cannot hide. The recovery matters more than the number.\nA strong answer contains: Own it in one sentence with no excuse-making, give the honest cause if there is a legitimate one, then point to trajectory: a stronger final year, a hard quantitative course you did well in, performance in a demanding job.\nRed flags: Blaming professors, course difficulty or a heavy extracurricular load. Also over-explaining: two sentences of context, then move to the evidence.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-048",
+      "question": "Pick one experience and walk me through what you actually did.",
+      "answer": "What it tests: Whether your resume bullets survive contact with a follow-up. This is where most offers are lost.\nA strong answer contains: The problem you were handed, the specific decisions you made, what you personally produced, and the outcome with a number attached. Use I, and be able to go one level deeper on any claim.\nRed flags: We throughout. Vague verbs: supported, assisted, was involved in. Any number whose derivation you cannot explain.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-049",
+      "question": "There is a gap here. What were you doing?",
+      "answer": "What it tests: Whether you are straightforward about the things that look bad on paper.\nA strong answer contains: A direct account of what happened and what you did with the time, undressed. Interviewers care far less about the gap than about whether you are evasive regarding it.\nRed flags: Disguising the gap with vague dates, or a rehearsed spin that does not answer the question. If it was a hard period, a plain sentence is enough.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-050",
+      "question": "Why did you leave that role?",
+      "answer": "What it tests: Whether you will speak badly about people. They are assessing what you would say about them in two years.\nA strong answer contains: A forward-looking reason, stated without criticizing the employer: what you wanted to learn next, what the role could not offer. If you were let go, say so plainly and say what you took from it.\nRed flags: Criticizing a former manager or team, however deserved. It is the fastest way to fail a fit interview.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-051",
+      "question": "What is your biggest accomplishment?",
+      "answer": "What it tests: Your judgment about what counts. The choice reveals more than the story does.\nA strong answer contains: Something where your individual contribution was decisive and measurable, ideally where the outcome was genuinely in doubt. Difficulty beats prestige. A hard thing done well outranks a famous logo.\nRed flags: Naming a credential rather than an achievement. Getting into your university is not something you can discuss for two minutes.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-052",
+      "question": "What is on your resume that you are least proud of?",
+      "answer": "What it tests: Honesty when there is no upside in it, and whether you can be self-critical without self-harm. thelocker.ai/lockers/interview\nA strong answer contains: A real one. Think things like: a project that went nowhere, a role you took for the wrong reason, a result below what you were capable of. Then what actually changed. Project went nowhere → you scope smaller now and check there is demand before building. Took it for the wrong reason → you ask what you would learn before you say yes. Result below your capability → you flag early when you are behind rather than hoping to catch up. Keep it short.\nRed flags: A humble-brag dressed as a weakness. Also naming something that undercuts your candidacy outright; pick something real but survivable.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-053",
+      "question": "What is not on your resume that I should know?",
+      "answer": "What it tests: Whether you can present yourself beyond the page, and what you choose to volunteer when given free ground.\nA strong answer contains: One thing genuinely relevant and genuinely absent: a side project, a responsibility at home, something you built or ran that did not fit the format. It should say something about how you work.\nRed flags: Nothing, it is all on there. You are being handed free ground and declining it. Also hobbies with no bearing on anything.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-054",
+      "question": "Which of your experiences is most relevant to this job, and why?",
+      "answer": "What it tests: Whether you can connect your own history to the work, rather than leaving the interviewer to do it for you.\nA strong answer contains: One experience, named, with a specific parallel to analyst work: building something under time pressure, chasing down a discrepancy, producing for someone senior with exacting standards.\nRed flags: Naming everything as relevant. Also asserting that a non-finance experience is analogous to banking without doing the work of drawing the parallel.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-055",
+      "question": "If I called your last manager, what would they say about you?",
+      "answer": "What it tests: Self-awareness, and whether your self-assessment would survive verification.\nA strong answer contains: A specific phrase you have actually heard in feedback, one strength and one development area, and what you did about the development area. Think things like: asking the same person again three months later, or being able to name the thing you now do differently. Quoting real feedback beats guessing.\nRed flags: Only positives. Also anything you would not want repeated if the call actually happened, assume it might.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-056",
+      "question": "What is your biggest failure?",
+      "answer": "",
+      "group": "BofA IBD",
+      "source": [
+        "Evercore Q Bank",
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Bank of America",
+        "Evercore"
+      ]
+    },
+    {
+      "id": "b-057",
+      "question": "How would your friends, coaches, teammates describe you in X words",
+      "answer": "",
+      "group": "Citi IB, EVR M&A, PWP IB",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Citi",
+        "Evercore",
+        "Perella Weinberg"
+      ]
+    },
+    {
+      "id": "b-058",
+      "question": "Tell me about a mistake that cost someone else time or money.",
+      "answer": "What it tests: A harder version of the failure question. This one is about consequences landing on other people, and whether you told anyone.\nA strong answer contains: What you got wrong, how it was caught, how fast you escalated it, what it cost, and the control you put in place so it could not recur. Escalating quickly is the answer they are listening for. thelocker.ai/lockers/interview\nRed flags: A mistake nobody noticed, which dodges the question. Any suggestion you sat on it, or fixed it quietly and told no one.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-059",
+      "question": "What is the toughest piece of feedback you have received, and what did you do with it?",
+      "answer": "What it tests: Coachability. In this job you will be corrected daily, often bluntly and often in writing.\nA strong answer contains: The actual words if you remember them, your first reaction honestly stated even if it was defensive, and the specific change you made. Naming who gave it and when makes it credible.\nRed flags: Feedback that was really praise in disguise. Also framing the feedback as unfair or as a misunderstanding, which answers a different question than the one asked.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-060",
+      "question": "What are you actively working on improving right now?",
+      "answer": "What it tests: Whether development is a live process or something you only discuss in interviews.\nA strong answer contains: Something current and specific, the method you are using, and how you will know it has worked. Present tense throughout, and a different item from your weakness answer.\nRed flags: Repeating your weakness answer word for word. Also naming a technical skill you could have learned over a weekend, which suggests you have not looked hard at yourself.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-061",
+      "question": "Tell me about a time you were out of your depth.",
+      "answer": "What it tests: Whether you know when to stop spinning your wheels and ask. Analysts often stay silent to save face, which holds up the workflow. Asking up front, taking notes and not asking twice is almost always better.\nA strong answer contains: The moment you realized you were a little in over your head and what you did first. Be sure to note when you reached out for help and the seniority of that individual. Then discuss what you learned and how you approached a similar situation the next time. A time limit on struggling before asking is a strong detail.\nRed flags: Claiming you have never been out of your depth. Also grinding alone for days out of pride, which costs a team far more than the original gap.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-062",
+      "question": "Tell me about a time you were wrong and had to change your position.",
+      "answer": "What it tests: Whether you can lose an argument on evidence. Arguing a point you are wrong about is a stated red flag for interviewers.\nA strong answer contains: A position you held, the evidence that shifted it, and the fact that you said so out loud to the people involved. Changing your mind quietly does not count. thelocker.ai/lockers/interview\nRed flags: An example where you were only slightly wrong. Also framing the change as a compromise when you were simply mistaken.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-063",
+      "question": "What would someone who does not enjoy working with you say?",
+      "answer": "What it tests: Self-awareness from outside your own head, and nerve. Most candidates deflect this one.\nA strong answer contains: A real quirk that could be annoying. Think things like: moving too fast, over-checking other people's work, going quiet when concentrating. Most of the answer should be what you do to manage it in a professional setting. Moving too fast → pause, slow is smooth and smooth is fast. Over-checking\nRed flags: Insisting everyone enjoys working with you. Also converting it into a strength: they would say I hold people to high standards.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-064",
+      "question": "What is your leadership style?",
+      "answer": "",
+      "group": "Citi IB, PWP IB",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Citi",
+        "Perella Weinberg"
+      ]
+    },
+    {
+      "id": "b-065",
+      "question": "Tell me about a time you worked on a team under real pressure.",
+      "answer": "What it tests: Whether you have been in a genuine crunch, and what you personally contributed to getting through it.\nA strong answer contains: The deadline and what was at stake, how the work was divided, the part you owned, and what you did when something slipped. Close with an outcome carrying a number or a date.\nRed flags: We pulled together and got it done, with no visible individual contribution. Also a group project with no real stakes attached.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-066",
+      "question": "Tell me about a time you disagreed with someone more senior than you.",
+      "answer": "What it tests: Whether you will flag a problem upward, and whether you know how to do it without becoming a nuisance. thelocker.ai/lockers/interview\nA strong answer contains: What you thought was wrong and why it mattered, that you raised it privately with your reasoning ready, and what happened. If you were overruled, say you committed to the decision anyway.\nRed flags: Never having disagreed, which reads as passive. Also having raised it publicly, in front of a client or the wider team.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-067",
+      "question": "Tell me about a teammate who was not pulling their weight.",
+      "answer": "What it tests: How you handle a peer problem with no authority to fix it, and whether you protect the deliverable while you do.\nA strong answer contains: What you observed, that you spoke to them first, and what you did to protect the deliverable anyway. Then, only if it continued, whether you escalated. Think things like: re-splitting the work so their piece matches what they can deliver, setting a checkpoint well before the deadline, or taking the piece back yourself to protect the timeline. Show that you separated the person from the output.\nRed flags: Going straight to a supervisor. Also covering for them indefinitely and saying nothing, which lets a deliverable fail quietly.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-068",
+      "question": "Tell me about a time you had to work closely with someone you did not like.",
+      "answer": "What it tests: Professional distance. You do not get to choose your staffing.\nA strong answer contains: A neutral account of the friction with no character assassination, then what you actually changed about how you worked together, and the result. Think things like: moving from conversations to written updates so there is a record, splitting ownership so you are not in each other's way, or setting one standing check-in instead of constant back-and-forth.\nRed flags: Any detail that sounds like a grievance. Interviewers hear this answer as a preview of how you will describe your colleagues here.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-069",
+      "question": "Tell me about a time you received work from someone else that was wrong.",
+      "answer": "What it tests: Whether you check other people's work, and how you raise an error without creating an enemy.\nA strong answer contains: How you spotted it, that you verified before raising it, how you told them privately and specifically, and what happened downstream. The verification step is what separates a good answer here.\nRed flags: Announcing the error in front of others, or fixing it silently and never telling them. Both do more damage than the original error.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-070",
+      "question": "Tell me about a time you had to deliver bad news.",
+      "answer": "What it tests: Whether you deliver it early and plainly, or delay in the hope the problem resolves itself. thelocker.ai/lockers/interview\nA strong answer contains: What went wrong, how quickly you told the person who needed to know, that you led with the fact rather than the excuse, and what you brought alongside it: options, a revised timeline, a fix.\nRed flags: Waiting until you were asked. Softening the news so far that the recipient did not grasp the severity.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-071",
+      "question": "Tell me about a time you helped someone else succeed.",
+      "answer": "What it tests: Whether you notice other people, and whether you are generous when nobody is scoring it.\nA strong answer contains: A specific person and what they were struggling with, the concrete thing you did, and the outcome for them rather than for you. Understating your own role reads well here.\nRed flags: A story that is really about your own achievement with a colleague standing nearby. Also generic mentoring with no named outcome.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-072",
+      "question": "Tell me about a time a decision went against your recommendation. What did you do next?",
+      "answer": "What it tests: Disagree and commit. Whether you can execute a decision you argued against.\nA strong answer contains: Your recommendation and the reasoning behind it, the decision that was taken, and the specific work you then did to make that decision succeed. Say honestly whether you turned out to be right, either way.\nRed flags: Any hint that you slowed the work down, said told you so, or distanced yourself from the outcome.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-073",
+      "question": "What role do you usually end up playing on a team?",
+      "answer": "What it tests: Self-knowledge, and whether the role you claim is the one an analyst seat actually needs.\nA strong answer contains: An honest answer with evidence, plus awareness of the limits. If you tend to lead, say how you operate when you are the most junior person in the room. That second half is the point of the question.\nRed flags: Claiming to be the leader in every setting, which is improbable and the wrong signal for a first-year role. Also claiming to adapt to whatever is needed, which says nothing at all.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-074",
+      "question": "Tell me about a time you led without formal authority.",
+      "answer": "What it tests: The more useful version of the question, because that is the analyst's actual position for two years.\nA strong answer contains: How you got people to follow with nothing to compel them: doing the unglamorous work first, being the person who had the answer, or building agreement one conversation at a time. Name who you had to win over.\nRed flags: A story where you actually did have authority. Also claiming people simply agreed with you, which skips the part being tested.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-075",
+      "question": "Tell me about something you built or started from nothing.",
+      "answer": "What it tests: Whether you generate work or wait to receive it.\nA strong answer contains: What did not exist before you, the first concrete step you took, the point where it nearly died, and what it looked like when you left it. Scale matters less than whether it survived you.\nRed flags: Joining something that already existed and calling it founding. Also an idea you had but never shipped.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-076",
+      "question": "Tell me about a problem you fixed that nobody asked you to fix.",
+      "answer": "What it tests: Initiative, and judgment about which problems are actually yours to touch.\nA strong answer contains: How you noticed it, why you judged it worth doing, whether you flagged it before acting, and what changed. The flagging step matters here. Unilateral fixes to someone else's work create their own problems.\nRed flags: Fixing something outside your remit without telling anyone. Also a problem so trivial that fixing it cost you nothing.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-077",
+      "question": "Tell me about a time you changed someone's mind.",
+      "answer": "What it tests: Whether you persuade with evidence or with volume.\nA strong answer contains: Their position and why they held it, then the specific thing that moved them and what they did differently. Think things like: a number they had not seen, restating their concern back so they knew you understood it, or showing what the current path would cost rather than what yours would gain. Show you understood their view before you took it apart.\nRed flags: Wearing someone down. Also a story where they were plainly wrong and simply needed correcting, which is not persuasion. thelocker.ai/lockers/interview",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-078",
+      "question": "Tell me about a time you had to motivate someone who had checked out.",
+      "answer": "What it tests: Whether you can move someone you have no leverage over, and whether you bothered to find out why they disengaged.\nA strong answer contains: Evidence you asked before you pushed, then the specific thing you changed and the outcome. Think things like: giving them the part of the work they were actually good at, cutting the scope so they could finish something, or finding out they were buried elsewhere and moving the deadline. Sometimes the honest answer is that it did not work and you carried the load, say so if that is what happened.\nRed flags: Assuming laziness without checking. Also going to a supervisor as the opening move rather than the last resort.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-079",
+      "question": "Tell me about a decision you made without enough information.",
+      "answer": "What it tests: Whether you can act under uncertainty, and whether you know the difference between a call you should make and one you should escalate.\nA strong answer contains: What you knew, what could not be known in the time available, the assumption you made explicit, and how you built in a way to correct course. Naming the assumption out loud is the mark of a good answer.\nRed flags: Guessing and getting lucky. Also freezing until somebody told you what to do.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-080",
+      "question": "Tell me about a time you delegated something important.",
+      "answer": "What it tests: Whether you can let go, and whether you check without hovering.\nA strong answer contains: Why you chose that person, what you told them about the standard and the deadline, the checkpoint you set, and what happened. If it went wrong, say what you owned.\nRed flags: Handing work over and disappearing. Also taking it back at the first sign of trouble, which teaches them nothing and costs you the time anyway.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-081",
+      "question": "Tell me about a time you had more to do than time to do it.",
+      "answer": "What it tests: Whether you have actually been overloaded, and what you cut. This is the daily condition of the job.\nA strong answer contains: The competing demands with their real deadlines, the explicit trade-off you made, who you told, and what you let slip on purpose. Naming what you dropped is the answer.\nRed flags: I just worked harder and got it all done. Either untrue, or you had slack. Also a story with no decision in it.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-082",
+      "question": "How do you decide what to do first when everything is urgent?",
+      "answer": "What it tests: Whether you have a method or improvise every time. The previous question wants the story; this one wants the framework.\nA strong answer contains: A rule you can state in one sentence and have actually used: who is waiting on it, what breaks if it is late, what unblocks someone else. Plus the step where you check your ordering with whoever is senior rather than guessing.\nRed flags: A generic urgent-important matrix recited from memory. Also any method that never involves asking.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-083",
+      "question": "Tell me about a time you missed a deadline.",
+      "answer": "What it tests: Whether you warn people early. A missed deadline you flagged is a problem; one you did not flag is a crisis.\nA strong answer contains: Why it slipped, the moment you knew you would miss it, how soon after that you told someone, and what you offered instead. The interval between knowing and telling is what is being measured.\nRed flags: A miss caused entirely by other people. Also telling anyone only once the deadline had already passed.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-084",
+      "question": "Tell me about the most stressed you have been at work.",
+      "answer": "What it tests: Whether you have a real ceiling and know where it is. Everyone has one, and candidates who deny it worry interviewers more.\nA strong answer contains: The situation, the honest effect it had on you, then what you did to keep working and what you changed afterwards. Think things like: cutting the list to what actually had to ship that night, telling the staffer early what would slip, or working from a written checklist instead of holding it all in your head.\nRed flags: Claiming you do not experience stress. Also a story where the stress had no cause and no resolution.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-085",
+      "question": "Tell me about a time the direction changed late.",
+      "answer": "What it tests: How you handle rework, which is most of what a junior does when a senior changes the ask at eleven at night.\nA strong answer contains: What changed and why, whether you asked a clarifying question before restarting, what you salvaged from the earlier version, and how you delivered. No complaint about the person who changed it.\nRed flags: Any resentment showing through. Also restarting from scratch without checking what still applied.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-086",
+      "question": "You are handed work with no context and no instructions. What do you do?",
+      "answer": "What it tests: Whether you ask or guess. Guessing wastes a day; asking badly wastes goodwill.\nA strong answer contains: One pass to work out what you can infer yourself, then a short specific set of questions asked once rather than trickled out. Say what you would confirm before starting: output format, audience, deadline.\nRed flags: Starting immediately and producing the wrong thing. Also going back four separate times with one question each.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-087",
+      "question": "Tell me about a time you pushed back on a request.",
+      "answer": "What it tests: Whether you can say no upward, which juniors find hardest and seniors actually want.\nA strong answer contains: The request and why it was a problem, whether that was capacity, sequencing or a factual issue. Then how you raised it with an alternative attached, and the outcome. Push back with an option, never with a refusal.\nRed flags: Never having pushed back, which means either no judgment or no spine. Also refusing without offering a path.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-088",
+      "question": "How do you keep quality up when you are exhausted?",
+      "answer": "What it tests: Whether you have a system for the hour when your judgment is worst, because that is when most errors enter a model.\nA strong answer contains: A concrete mechanism: a checklist for the last pass, printing before sending, a rule about not sending anything after a certain hour without a second look. Evidence you have caught something with it.\nRed flags: Willpower as the entire answer. Also claiming your work does not degrade when you are tired, which no MD believes.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-089",
+      "question": "Two people senior to you give you conflicting instructions. What do you do?",
+      "answer": "What it tests: Judgment about hierarchy and communication: an almost daily situation on a staffed deal team.\nA strong answer contains: Establish the actual conflict first, then go back to one of them with it stated plainly and a proposal attached. Usually that is the more junior of the two, or whoever staffed you. Never resolve it silently by picking one.\nRed flags: Choosing whichever instruction you preferred and saying nothing. Also making the two of them fight it out in front of you.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-090",
+      "question": "Tell me about a time you were asked to do something you were not comfortable with.",
+      "answer": "What it tests: Whether you have a line, and whether you can hold it without making a scene. Discomfort is not the same as wrongdoing and they want to see you can tell them apart.\nA strong answer contains: What you were asked, why it troubled you, that you asked a clarifying question before assuming bad intent, and how it resolved. Often the honest answer is that it turned out to be fine once explained, say so if that is what happened.\nRed flags: Treating an ordinary request as a moral crisis. Also going along with something you believed was wrong without ever raising it.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-091",
+      "question": "You find a mistake in a deck that has already gone to the client. What do you do?",
+      "answer": "What it tests: Whether you escalate immediately when the cost of silence is highest. Interviewers use this one to decide whether they can put you on a live deal.\nA strong answer contains: Verify it is a real error, work out the impact, then tell the person above you immediately with the size of the problem and a proposed correction. Speed of disclosure over everything, even if it was your error and even if it is the middle of the night.\nRed flags: Any version involving waiting, hoping nobody notices, or quietly fixing the file and saying nothing. Also jumping over your immediate senior straight to the MD.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-092",
+      "question": "You are asked to change an assumption so the numbers look better. How do you handle it?",
+      "answer": "What it tests: Whether you can tell a legitimate sensitivity from a misrepresentation, and whether you would push back on someone senior.\nA strong answer contains: Ask what the basis for the new assumption is. If there is a defensible one, run it and label it as a case. If there is not, say plainly you are not comfortable presenting it as the base case and offer it as a sensitivity instead. Escalate if pressed.\nRed flags: Refusing outright without understanding the request. Running an aggressive case is normal and legitimate. Equally bad: changing it silently because you were told to.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-093",
+      "question": "Tell me about a time you had to choose between two bad options.",
+      "answer": "What it tests: Judgment when there is no clean answer, which describes most real decisions.\nA strong answer contains: Both options and what each would cost, the criterion you used to choose between them, that you made the call rather than deferring it, and what happened. Say who you consulted first. thelocker.ai/lockers/interview\nRed flags: A story where one option was obviously correct. Also finding a clever third way, which dodges the question being asked.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-094",
+      "question": "Tell me about a time you saw someone cut a corner.",
+      "answer": "What it tests: What you do about other people's behavior, and whether you understand proportionality.\nA strong answer contains: What you saw, how you judged the severity, that you spoke to them first if it was minor, and that you escalated if it was not. Show you calibrated the response to the seriousness rather than applying one blanket rule.\nRed flags: Reporting a trivial shortcut, which marks you as difficult to work alongside. Also seeing something serious and doing nothing at all.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-095",
+      "question": "Tell me about a time you were trusted with something confidential.",
+      "answer": "What it tests: Whether you understand that discretion here is a condition of employment, not a personal virtue.\nA strong answer contains: The nature of the trust without breaching it now. A good answer is deliberately vague on specifics. Think things like: not discussing it outside the people who needed to know, keeping it off shared channels, or declining when someone fished for detail. Then say that you still will not say more. Demonstrating the discipline inside the answer is the point.\nRed flags: Telling the interviewer the confidential thing. It happens, and it ends the interview in every practical sense.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-096",
+      "question": "What would you refuse to do, even if you were told to?",
+      "answer": "What it tests: Whether you have thought about your own limits before being tested on them at two in the morning.\nA strong answer contains: One or two concrete lines, and why. Misstating a number to a client, signing off on something you had not checked, staying silent about a material error. Specific beats principled.\nRed flags: I would do anything asked of me, which is not a virtue. Also a list so broad that you sound unemployable.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-097",
+      "question": "What is the hardest class you have taken?",
+      "answer": "",
+      "group": "Allen & Co IB, Citi IB, MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Allen & Co",
+        "Citi",
+        "Moelis"
+      ]
+    },
+    {
+      "id": "b-098",
+      "question": "What do you like to do in your free time?",
+      "answer": "",
+      "group": "Citi IB, HL CorpFin",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Citi",
+        "Houlihan Lokey"
+      ]
+    },
+    {
+      "id": "b-099",
+      "question": "Why you? We interview so many candidates",
+      "answer": "",
+      "group": "BofA IBD, Cain Brothers, EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Bank of America",
+        "Cain Brothers",
+        "Evercore"
+      ]
+    },
+    {
+      "id": "b-100",
+      "question": "What has been going on with interest rates?",
+      "answer": "",
+      "group": "IB, NY PFG",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Evercore",
+        "RBC"
+      ]
+    },
+    {
+      "id": "b-101",
+      "question": "Tell me about a transaction you’ve been following:",
+      "answer": "a. Buyer / Seller? Transaction Value? Method of Consideration? EBITDA and P/E multiples?\nb. Rationale for buyer? Alignment of transaction to broader industry trends?",
+      "group": "IB, Real Estate IBD",
+      "source": [
+        "Evercore Q Bank",
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Evercore",
+        "Morgan Stanley",
+        "RBC"
+      ]
+    },
+    {
+      "id": "b-102",
+      "question": "5. What is the relationship between revenue and operating profit for each company?",
+      "answer": "For the airline company, operating profit fluctuates more significantly with the top-line as the reduced variable costs create greater profit in times of high revenue while the high fixed costs reduce operating profit in downturns. The trucking company’s operating profit varies less significantly as the more significant variable costs change in-line with the top-line.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "b-103",
+      "question": "How much would you pay for an asset that pays you $100 a year, guaranteed?",
+      "answer": "Since payments are guaranteed, we can use the risk-free rate as the discount rate (assume its 2%). So… $100/0.02 = $5000",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "b-104",
+      "question": "Explain something complicated to me in a field I know nothing about.",
+      "answer": "What it tests: Whether you can structure on your feet and read your audience. It is the closest proxy an interview has for putting you in front of a client.\nA strong answer contains: One sentence on what it is and why it matters, then the mechanism, then an analogy, in that order. Check in once to see whether you are pitched right. Stop when you are done rather than filling the silence. thelocker.ai/lockers/interview\nRed flags: Opening with jargon and defining it afterwards. Also running four minutes without checking whether the person is still with you.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-105",
+      "question": "Tell me about a time you presented to a senior audience.",
+      "answer": "What it tests: Composure in front of people who can interrupt you, and whether you prepared for the questions rather than just the script.\nA strong answer contains: Who they were, how you structured it for their attention span, the hardest question you got and how you handled it, and the outcome. Admitting you did not know one answer and followed up afterwards reads well.\nRed flags: A story about the slides rather than the audience. Also claiming it went perfectly. Senior audiences always interrupt.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-106",
+      "question": "You need to tell an MD something important by email. How do you write it?",
+      "answer": "What it tests: Whether you can write for someone reading on a phone between meetings.\nA strong answer contains: The answer or the ask in the first line, then the two or three things behind it, then detail below. A subject line that states what is needed. Short paragraphs. If there is a decision, give the options and your recommendation.\nRed flags: Chronology first and conclusion last. Also burying the ask in the final paragraph, which is how deadlines get missed.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-107",
+      "question": "A client or a senior person asks you something you do not know. What do you say?",
+      "answer": "What it tests: Whether you bluff. Bluffing to a client is a career event and interviewers screen hard for it.\nA strong answer contains: Say you do not know, say when you will come back with it, and come back with it. If you have a partial answer, mark clearly which part is fact and which is your estimate.\nRed flags: Anything involving a plausible guess. Also promising to find out with no timeframe attached, which is how things get dropped.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-108",
+      "question": "Tell me about a time you were misunderstood.",
+      "answer": "What it tests: Whether you take responsibility for being understood, rather than blaming the listener.\nA strong answer contains: What you said, how it landed, the point at which you realized, and what you changed. Think things like: leading with the conclusion instead of the build-up, putting it in writing so there was something to point at, or asking them to say back what they were going to do. The lesson should be about how you communicated, not about their comprehension.\nRed flags: A story where the other person simply was not listening. It tells the interviewer you will blame your audience. thelocker.ai/lockers/interview",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-109",
+      "question": "Tell me about a time you had to condense something long into something short.",
+      "answer": "What it tests: Whether you can decide what matters, which is most of what a junior does when a senior asks for the one-pager.\nA strong answer contains: The source material and its length, who the reader was, the specific things you cut and why, and how the recipient used it. Naming what you left out is more impressive than naming what you kept.\nRed flags: A summary that was really an abridgement with nothing removed. Also cutting purely for length without thinking about the reader's decision.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-110",
+      "question": "How would you explain what this bank does to someone with no finance background?",
+      "answer": "What it tests: Whether you actually understand the business, as opposed to being able to recite its divisions.\nA strong answer contains: A plain-language version of the core function: helping companies raise money and buy or sell things, and being paid for the advice and the execution. Then one concrete example. No acronyms.\nRed flags: Listing product groups. Also any explanation that requires the listener to already know what an equity capital market is.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-111",
+      "question": "What are you reading, watching or following right now?",
+      "answer": "What it tests: Curiosity, and whether your interests survive a follow-up question.\nA strong answer contains: Something you are actually consuming and can discuss for two minutes, including one specific thing you took from it. A novel or a video game is fine; the point is that it is true.\nRed flags: Naming a canonical finance book you have not finished. Expect to be asked what you made of chapter four.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-112",
+      "question": "Who do you admire in this industry, and why?",
+      "answer": "What it tests: What you value, and whether you have looked closely enough at the industry to hold a view on individuals.\nA strong answer contains: A specific person and a specific reason tied to how they work rather than what they earned. A less famous choice is often stronger, and admiring someone's judgment beats admiring their returns.\nRed flags: Naming whoever wrote the most famous book. Also admiring someone for their wealth, which tells the interviewer exactly what motivates you.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-113",
+      "question": "If finance did not exist, what would you be doing?",
+      "answer": "What it tests: Whether your interest has an underlying shape, or whether banking is simply the only door you tried.\nA strong answer contains: An honest answer that reveals what sits underneath the choice: solving problems with numbers, being close to decisions, building things. Then connect it back in one line without forcing it.\nRed flags: Saying you cannot imagine doing anything else. Also naming something so distant that it undercuts everything you have said about motivation.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-114",
+      "question": "Sell me something on this desk.",
+      "answer": "What it tests: How you improvise, and whether you ask before you pitch. It is not really about the object.\nA strong answer contains: Ask a question or two about what the person needs, then pitch to that, then close with an ask. The candidates who fail are the ones who start listing features immediately.\nRed flags: Launching into features with no questions. Also refusing to play, or treating the exercise as beneath you.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-115",
+      "question": "What is a view you hold that most people around you disagree with?",
+      "answer": "What it tests: Whether you think independently, and whether you can disagree without being obnoxious.\nA strong answer contains: A real view with the reasoning behind it, ideally about the industry or the market, held with appropriate confidence. Show that you know the counterargument.\nRed flags: A safe non-answer. Also anything political or personal, which puts the interviewer in an awkward position and shows poor judgment about setting.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-116",
+      "question": "Why should we not hire you?",
+      "answer": "What it tests: Nerve and self-knowledge. It is the weakness question with the safety rails removed. thelocker.ai/lockers/interview\nA strong answer contains: A real reason someone could reasonably decline you: less finance coursework than the field, no prior banking internship, a gap you are still closing. State it once, then why you would still bet on yourself.\nRed flags: Turning it into a strength. Also naming something genuinely disqualifying; the question invites honesty, not self-destruction.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-117",
+      "question": "What is the primary accounting principle for determining whether to capitalize or expense a purchase?\nA: The purchase is expensed if its cost is below an internal materiality threshold, such as $5,000.\nB: The purchase is capitalized if it provides economic benefit for more than one fiscal year; otherwise, it is expensed.\nC: Tangible assets like buildings are capitalized, while intangible assets like software are always expensed immediately.\nD: Expenditures that directly support revenue generation are capitalized, while general operating costs are expensed.",
+      "answer": "Correct: B: The purchase is capitalized if it provides economic benefit for more than one fiscal year; otherwise, it is expensed. A purchase is capitalized if the asset has a useful life exceeding one year; it's then recorded on the Balance Sheet and depreciated (tangible assets) or amortized (intangible assets) over its useful life. If the asset's life is less than a year, it is expensed directly on the Income Statement.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-118",
+      "question": "Your analyst gives you a model with Q2 results just filed. What's the standard formula for calculating LTM revenue?\nA: Sum four quarters by taking Q1 and Q2 of this year together with Q1 and Q2 of last year.\nB: Take the previous full fiscal year's revenue and add the year-over-year growth from the most recent quarter.\nC: Annualize the current year-to-date results by taking the revenue for the first two quarters and multiplying by two.\nD: Take the prior full fiscal year's revenue, add the new Q1+Q2 revenue, and subtract the prior year's Q1+Q2 revenue.",
+      "answer": "Correct: D: Take the prior full fiscal year's revenue, add the new Q1+Q2 revenue, and subtract the prior year's Q1+Q2 revenue. LTM, or TTM, calendarizes to the most recent twelve months when a company has only filed part of its current year. The formula is most recent fiscal year plus the new partial period minus the corresponding prior-year partial period. With Q2 just filed that means last full year + (Q1+Q2 this year) - (Q1+Q2 last year), which is what D describes and which is exactly equivalent to summing Q3 and Q4 of last year with Q1 and Q2 of this year. A picks four quarters but the wrong four: taking the first half of both years double-counts H1 and drops H2 entirely, so it does not span twelve consecutive months. B bolts a single quarter's growth rate onto a full year, which is neither a twelve-month figure nor a consistent one. C annualizes a half-year, which assumes away both seasonality and growth.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-119",
+      "question": "You mentioned [something specific] earlier. Can you tell me more about how that played out?",
+      "answer": "Why it lands: Nothing else in this section beats it. It is proof you were listening, and no prepared question can fake that. It also lets the interviewer talk about something they have already shown an interest in.\nWhen to use it: Always, and first if you can. Write down one thing they say in the first ten minutes and come back to it. If you take only one idea from this section, take this one.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-120",
+      "question": "What does a first-year on this team actually spend most of their time on?",
+      "answer": "Why it lands: Concrete, answerable, and signals that you want the reality rather than the pitch. The answer also tells you whether the group's juniors do modeling or production.\nWhen to use it: With an analyst or associate. Largely wasted on an MD, who has not done that work in fifteen years and will give you a generality.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-121",
+      "question": "What separates the analysts who do well here from the ones who struggle?",
+      "answer": "Why it lands: It asks for a judgment rather than a fact, so the interviewer has to think, and the answer is genuinely useful to you either way.\nWhen to use it: With a VP or a senior associate, someone who has staffed juniors and reviewed their work. Ask a first-year and you will get a guess.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-122",
+      "question": "What is the most interesting thing the group has worked on in the last year that you can talk about?",
+      "answer": "Why it lands: The clause at the end does the work. Acknowledging that some of it is confidential shows you already understand how the job operates, which few candidates signal.\nWhen to use it: Any level, and strong with an MD, who will usually take the invitation and enjoy it.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-123",
+      "question": "How did you end up in this group?",
+      "answer": "Why it lands: People like being asked about themselves, and it is the fastest way to turn an interview into a conversation.\nWhen to use it: Early in the Q&A, and especially useful if the interview has felt stiff or transactional so far.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-124",
+      "question": "What surprised you most in your first year here?",
+      "answer": "Why it lands: It invites something honest rather than something rehearsed. You usually learn more about the job from this answer than from anything on the website.\nWhen to use it: Analysts and associates, ideally one to three years in. Someone further along will have forgotten.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-125",
+      "question": "What would you change about the group if you could?",
+      "answer": "Why it lands: It shows you are evaluating them as well, and the answer tells you a great deal about the culture, including whether they feel safe answering it.\nWhen to use it: Only once some rapport exists, and better with a junior than a senior.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-126",
+      "question": "How is work assigned here - is there a staffer, or do you get pulled onto things directly?",
+      "answer": "Why it lands: A real difference between groups that will materially affect your life, and asking it shows you know the difference exists.\nWhen to use it: Any level. Particularly worth asking if you are comparing offers, because the answer is rarely on any website.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-127",
+      "question": "How has the group's mix of work shifted over the last couple of years?",
+      "answer": "Why it lands: It invites a genuine market view and lets a senior person talk about something they actually find interesting.\nWhen to use it: MD or senior VP. Too broad for a first-year analyst, who will only know their own deals.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-128",
+      "question": "Who did you learn the most from early on, and what did they do differently?",
+      "answer": "Why it lands: It is a question about mentorship without using the word mentorship, which every firm claims and none can prove.\nWhen to use it: Any level. A good recovery if an earlier answer about culture or training came out generic.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-129",
+      "question": "What is the hardest part of the job that people outside banking do not understand?",
+      "answer": "Why it lands: It signals you are not naive about the hours without asking about the hours, and it usually produces a candid answer.\nWhen to use it: Mid-conversation, any level. Skip it if hours have already come up, or it will read as circling the same worry.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-130",
+      "question": "If I got the offer, what would you want me to have done before day one?",
+      "answer": "Why it lands: It presumes forward motion without presumption, and the answer is directly actionable whether or not you get the offer.\nWhen to use it: Near the end, and best when the conversation has gone well. It lands badly if the interview has been flat.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-131",
+      "question": "What is something about this group that is not obvious from the outside?",
+      "answer": "Why it lands: Open enough that the answer is always specific to them, and impossible for them to give you a canned response to.\nWhen to use it: Any level, any point. The best fallback if your prepared questions have already been answered during the interview.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-132",
+      "question": "How much exposure does a junior get to clients here?",
+      "answer": "Why it lands: A genuine point of difference between platforms, and it shows you are thinking about your own development rather than prestige.\nWhen to use it: Any level. Especially relevant at a boutique or middle-market firm, where the answer is often the selling point.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": "b-133",
+      "question": "Is there anything about my background that gives you pause?",
+      "answer": "Why it lands: The bravest question in the set. It gives you one chance to address a concern before you leave the room instead of learning about it in a rejection.\nWhen to use it: The very end, and only if you can take the answer without deflating. High risk and high reward. Do not ask it if you are already rattled.",
+      "source": [
+        "The 500"
+      ]
+    }
+  ]
+}

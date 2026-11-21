@@ -1,0 +1,166 @@
+{
+  "bank": "Cain Brothers",
+  "tier": "Middle Market",
+  "questions": [
+    {
+      "id": "cain-brothers-001",
+      "topic": "Behavioral",
+      "question": "What experience do you have that shows you would be good at the technical aspects of the job?",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-002",
+      "topic": "Behavioral",
+      "question": "Growth rate",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-003",
+      "topic": "Behavioral",
+      "question": "Period assumption",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-004",
+      "topic": "Behavioral",
+      "question": "What is the issue with the period assumption? (Assumes all revenue is collected at once at the end of the year.)",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-005",
+      "topic": "Behavioral",
+      "question": "What is the usual number of years for the stage-one assumption, and why?",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-006",
+      "topic": "Behavioral",
+      "question": "What are you better at / what do you prefer — the technical or personal side?",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-007",
+      "topic": "Accounting",
+      "question": "Walk through a $X increase and decrease in depreciation at a X% tax rate.",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-008",
+      "topic": "Accounting",
+      "question": "Walk me through projecting a year-long income statement model.",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-009",
+      "topic": "Accounting",
+      "question": "What is an example of deferred revenue within [industry]?",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-010",
+      "topic": "Accounting",
+      "question": "Is it on the income statement or the balance sheet?",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-011",
+      "topic": "Accounting",
+      "question": "Cash flows",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-012",
+      "topic": "DCF",
+      "question": "Main drivers of a DCF",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-013",
+      "topic": "DCF",
+      "question": "What is the terminal value equation?",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-014",
+      "topic": "LBO",
+      "question": "Choose DCF or LBO",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-015",
+      "topic": "Markets",
+      "question": "Why [industry] / why Cain?",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "cain-brothers-016",
+      "topic": "Markets",
+      "question": "Is there a sector in [industry] that interests you?",
+      "answer": "",
+      "group": "Cain Brothers",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

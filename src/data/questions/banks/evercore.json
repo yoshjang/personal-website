@@ -1,0 +1,2115 @@
+{
+  "bank": "Evercore",
+  "tier": "Elite Boutique",
+  "questions": [
+    {
+      "id": "evercore-001",
+      "topic": "Behavioral",
+      "question": "Walk me through a recent deal you found interesting and why.",
+      "answer": "What it tests: Whether you follow the market or only revised for the interview. This is where prepared answers come apart under a second question.\nA strong answer contains: One deal you can defend in depth: the strategic logic, roughly what was paid and how it was financed, and one thing you would question about it. Pick a deal in the group's sector if you can.\nRed flags: Naming a famous megadeal with no view on it. Also risky: choosing a deal the group actually worked on and getting the facts wrong.",
+      "group": "NY PCM",
+      "source": [
+        "IB Questions v12",
+        "The 500"
+      ]
+    },
+    {
+      "id": "evercore-002",
+      "topic": "Behavioral",
+      "question": "What steps would you take during internship to figure out what group you want to be in?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-003",
+      "topic": "Behavioral",
+      "question": "What does [group] do and how does it work across other groups",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-004",
+      "topic": "Behavioral",
+      "question": "Why SDSA and what campaign are you following?",
+      "answer": "",
+      "group": "SDSA",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-005",
+      "topic": "Behavioral",
+      "question": "Why boutique SDSA (Evercore specifically) vs Bulge SDSA",
+      "answer": "",
+      "group": "SDSA",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-006",
+      "topic": "Behavioral",
+      "question": "Why PFG",
+      "answer": "",
+      "group": "NY PFG",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-007",
+      "topic": "Behavioral",
+      "question": "Why PCM at Evercore over Tech Banking",
+      "answer": "",
+      "group": "NY PCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-008",
+      "topic": "Behavioral",
+      "question": "Walk me through you resume / Why banking?",
+      "answer": "",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-009",
+      "topic": "Behavioral",
+      "question": "Tell me about something you're proud of.",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-010",
+      "topic": "Behavioral",
+      "question": "Tell me about yourself (followed up on experiences)",
+      "answer": "",
+      "group": "SDSA",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-011",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you struggled",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-012",
+      "topic": "Behavioral",
+      "question": "What has your past managers identified as areas of improvement for you?",
+      "answer": "",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-013",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you worked in a team and what your role was",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-014",
+      "topic": "Behavioral",
+      "question": "Why would you be a good fit for our team?",
+      "answer": "",
+      "group": "SDSA",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-015",
+      "topic": "Behavioral",
+      "question": "What is more important as an analyst: quality or speed?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-016",
+      "topic": "Behavioral",
+      "question": "How do mentally prepare for working in high pressure environments?",
+      "answer": "",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-017",
+      "topic": "Behavioral",
+      "question": "Valuing a tree that drops golden apples worth $100 every year and it is indestructible; how much is it worth?",
+      "answer": "The cash flows are guaranteed (no risk), therefore, an appropriate discount rate would be the T-Bill. Let’s say the T- Bill is yielding 2% so: $100/0.02 = $5000.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-018",
+      "topic": "Behavioral",
+      "question": "What pizza topping are you, and what is your go-to karaoke song?",
+      "answer": "",
+      "group": "SDSA",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-019",
+      "topic": "Behavioral",
+      "question": "Liquidity",
+      "answer": "",
+      "group": "NY PFG",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-020",
+      "topic": "Behavioral",
+      "question": "Technicals asked by the analyst — the analyst will guide you through, but the questions are very open-ended.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-021",
+      "topic": "Behavioral",
+      "question": "Straight technicals:",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-022",
+      "topic": "Behavioral",
+      "question": "Tell me about the last book you read",
+      "answer": "",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-023",
+      "topic": "Behavioral",
+      "question": "In what cases do you see customers paying upfront in cash but company’s not recording the cash as revenue?",
+      "answer": "a. Web-based subscription software\nb. Annual contracts for cell phones\nc. Subscriptions generally",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-024",
+      "topic": "Behavioral",
+      "question": "Company raises 100 worth of debt at 5% interest and 10% yearly principal payment to purchase 100 worth of short term securities with 10% interest. What happens at the end of Year 1 after the company has earned interest and paid pack some debt principal.",
+      "answer": "a. IS\ni. Interest income is 10\nii. Interest expense from debt is 5\niii. PTI increases by 5\niv. Taxes are 2\nv. NI is 3\nb. SCF\ni. Start at 3 from NI\nii. 10 in debt principal is paid back in CFI\niii. Net change in cash is -7\nc. BS\ni. Cash on Assets side is -7\nii. Assets side is down 7\niii. Debt is down 10\niv. RE are up 3 bc of NI\nv. L+SE becomes 7\nvi. Balance",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-025",
+      "topic": "Behavioral",
+      "question": "Now assume secured debt’s collateral only worth 100, how does that change answer? (Part 2)",
+      "answer": "No recovery for unsecured creditors",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "evercore-026",
+      "topic": "Behavioral",
+      "question": "Time for questions (went over by a few minutes in total).",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-027",
+      "topic": "Behavioral",
+      "question": "Each interview had X-X minutes for questions.",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-028",
+      "topic": "Accounting",
+      "question": "Deferred revenue increases by $10, how are the 3 statements affected? What if it goes down by $10 (no tax)?",
+      "answer": "If deferred revenue increases by $10, nothing happens on the income statement. On the cash flow statement, we’re up $10 on cash. On the balance sheet, Assets are up by $10 (cash) as well as liabilities (deferred revenue). Therefore, we are balanced.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-029",
+      "topic": "Accounting",
+      "question": "Why might a company have a NI that is close to EBITDA. Give me an example",
+      "answer": "A company with little to no leverage or physical assets. Example: Tech start-up.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-030",
+      "topic": "Accounting",
+      "question": "If I buy 100 of PPE (useful life of 10 years) and fund it with PIK Debt (10%), walk me through how it affects the statements?",
+      "answer": "Initial Change:\nIS:\nNo change\nCFS:\nCFI -100\nCFF +100\nOverall change in cash: 0\nBS\nPPE +100\nPIK Debt +100\nYear 1\nIS:\nPIK -10\nD&A -10\nNet Income -12\nCFS:\nNet Income -12\nPIK +10\nD&A +10\nOverall change in cash: +8\nCFF:\nCash +8\nPPE -10\nPIK Debt +10\nRetained Earnings -12",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-031",
+      "topic": "Accounting",
+      "question": "Depreciation of $50 with a 20% tax rate. Walk me through the 3 statements.",
+      "answer": "IS:\nD&A -50\nNet Income -40\nCFS:\nNet Income -40\nD&A +50\nOverall change in cash: +10\nBS:\nCash +10\nPPE -50\nNet Income -40",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-032",
+      "topic": "Accounting",
+      "question": "Sold $60 worth of inventory for $100. Walk me through the 3 statements.",
+      "answer": "IS:\nRevenue +100\nCOGS -60\nNet Income +24\nCFS:\nNet Income +24\nInventory +60\nOverall change in cash: +84\nBS:\nCash +84\nInventory -60\nRetained Earnings +24",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-033",
+      "topic": "Accounting",
+      "question": "Asset with a BV of XM sells for XM. Walk through the 3 financial statements with X% tax rate. Follow-up: why do you not add XM on the income statement? Follow-up: you get to -X after CFO — what does this -X represent?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-034",
+      "topic": "Accounting",
+      "question": "X PIK interest with X% interest rate. Walk through the 3 financial statements at time of issuance and end of Year X.",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-035",
+      "topic": "Accounting",
+      "question": "Questions on DIO, DSO, and DPO. | Follow-up: Questions about changes in cash. | Follow-up: Questions on the cash conversion cycle. | Follow-up: Is it better to have a negative or positive cash conversion cycle?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-036",
+      "topic": "Accounting",
+      "question": "What about EBITDA margin increases or working capital efficiencies?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-037",
+      "topic": "Accounting",
+      "question": "Buy a chemical plant for $X, X% cash and X% debt. Debt interest is half PIK, half cash; assume X% rate. Impact on the 3 financial statements in Year X and Year X.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-038",
+      "topic": "Accounting",
+      "question": "PortCo wants to issue X dividends and knows it's going to file soon — what would you advise?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-039",
+      "topic": "Accounting",
+      "question": "Xm revenue, X% EBITDA margins, Xm of SG&A, Xm of R&D, AP days goes from X to X — what is the effect on liquidity?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-040",
+      "topic": "Accounting",
+      "question": "Company with Xm adjusted EBITDA. Xmm TL, X% CapEx, X OpEx, X unrestricted cash. (X) Calculate cash burn. (X) What is the liquidity runway?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-041",
+      "topic": "Accounting",
+      "question": "What is the difference between a DTL and Income Tax Payable?",
+      "answer": "a. An income tax payable is a tax from normal ops\nb. A DTL is the diff between cash vs tax schedule on depreciation",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-042",
+      "topic": "Accounting",
+      "question": "If I switch from FIFO to LIFO, how does this affect the income statement if there is inflation?",
+      "answer": "a. Inflation will increase COGS\nb. If selling price increases by full amount then costs increase\nc. FIFO will report more GP, NI, PTI, taxes and inventory than FIFO\nd. COGS will decrease for FIFO\ne. COGS will Increase for LIFO",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-043",
+      "topic": "Accounting",
+      "question": "What happens to COGS in FIFO situations with inflation?",
+      "answer": "a. COGS goes down",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-044",
+      "topic": "Accounting",
+      "question": "Buying a company for 1 billion with 50% cash and 50% debt. You have 100 million asset write up and a tax rate of 40%. Seller has total assets of 200 million, liabilities of 150 million. How are the BS affected? /",
+      "answer": "a. Assets: -500 cash + 100 asset write-up + 200 seller assets = -200\nb. Liabilities: (100*40%) = 40 DTL + 150 seller’s liabilities + 500 debt = 690\nc. To balance, need 890 in GW",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-045",
+      "topic": "Accounting",
+      "question": "How would depreciation going up by 10 affect the 3 statements?",
+      "answer": "a. IS\ni. EBT would both down by 10\nii. With a 40% tax rate, a 4 dollar tax shield is create because it would be -10 * -.4\niii. The resulting net income would be -6\nb. SCF\ni. -6 would become the top of the SCF\nii. Add back depreciation of 10 to end up with 4\niii. 4 is the net change in cash\nc. BS\ni. PPE goes down by 10\nii. Net cash goes up by 4\niii. Net change in assets is -6\niv. B/C net income is -6 the Liabilities and Shareholder’s Equity side is also -6",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-046",
+      "topic": "Accounting",
+      "question": "What happens to the 3 statements which prepaid expenses decrease by 10?",
+      "answer": "a. IS\ni. EBT is down by 10 and NI is thus down by 6\nb. SCF\ni. Start off at -6 from NI\nii. B/c prepaid expenses is an asset, a decrease in prepaid expenses by 10 leads to an increase in cash flow by 10\niii. Add back 10 in prepaid expenses in the statement of cash flows\niv. Net change in cash becomes 4\nc. BS\ni. Net cash is up by 4\nii. Prepaid expenses are down by 10\niii. Net change in assets is -6\niv. B/c NI is -6 there’s balance",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-047",
+      "topic": "Accounting",
+      "question": "Company sells PPE for 120. On the BS, the PPE is worth 100. What happens to the 3 statements?",
+      "answer": "a. IS\ni. Record a gain of 20 on the sale of assets\nii. EBT increases by 20\niii. At 40% tax rate, 8 dollars in tax expense\niv. Net income is 12\nb. SCF\ni. Start at 12 from IS\nii. Subtract out the gain of 20 from the sale of the asset\niii. CFO is down by 8\niv. In CFI, record entire amount of sale proceeds of 120\nv. Net change in cash is 112\nc. BS\ni. Cash is up by 112\nii. PPE is down by 100 because you no longer have it\niii. Asset side is up by 12\niv. B/c NI is 12, the L+SE side is also 12 and therefore balances",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-048",
+      "topic": "Accounting",
+      "question": "What is the treatment of an owned debt writedown?",
+      "answer": "a. Subtract it from the SCF because non-cash",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-049",
+      "topic": "Accounting",
+      "question": "How would a 100 write down of owned debt affect the 3 statements?",
+      "answer": "a. IS\ni. PTI increases by 100 and NI is up by 60\nb. SCF\ni. NI is up by 60 for top of SCF\nii. Subtract 100 for debt write down bc it was non-cash\niii. Net change in cash is 40\nc. BS\ni. Cash is down by 40 therefore assets are down by 40\nii. Debt is down by 100 but stockholder’s equity increases by 60 for a net of 40",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-050",
+      "topic": "Accounting",
+      "question": "Company has NOLs of 100 in DTA line item on BS because it had been unprofitable. Company turns a profit and has PTI of 200 this year. Walk through the 3 financial statements assuming NOLs are used as a direct tax deduction on the financial statements",
+      "answer": "a. IS\ni. Company applies entire NOL balance to offset PTI\nii. PTI falls by 100 and NI falls by 60\nb. SCF\ni. NI is down by 60 due to IS\nii. Add back NOLs of 100 and call it Deferred Taxes\niii. Cash up by 40\nc. BS\ni. Cash is up by 40\nii. DTA s down by 100\niii. Asset side is down by 60\niv. SE is down by 60 due to NI therefore balanced",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-051",
+      "topic": "Accounting",
+      "question": "Walk through the balance sheet effects of the following scenario. Buyer has 10,000 in assets, 8000 in liabilities, and 2000 in Shareholder’s Equity. Seller has 1000 in assets, 800 in liabilities and 200 in shareholder’s equity. Buyer pays 500 for the seller using 100% cash.",
+      "answer": "a. Add liabilities to get a combined total of 8800\nb. Wipe out seller’s SE to get combined SE of 2000\nc. L+SE becomes 10,800\nd. Add assets of both companies to get 11000\ne. Subtract 500 cash used to purchase the seller\nf. Asset side becomes 10,500\ng. Create 300 in Goodwill as a plug on the asset side",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-052",
+      "topic": "Valuation",
+      "question": "You have 200 shares, 20 options, exercisable at $5 dollars, Share Price = $10, what’s the dilution to market value and shares and what are the totals?",
+      "answer": "Options are in the money. Initially, 20 additional shares are created but using the $100 in funds we repurchase 10 shares. Therefore, shares outstanding is 210.\nOriginal equity value: $2000\nNew equity value: $2100",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-053",
+      "topic": "Valuation",
+      "question": "XM EBITDA at X EV/EBITDA, XM cash, XM debt, XM shares outstanding — what is the share price?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-054",
+      "topic": "Valuation",
+      "question": "You have an EPS of $2, 100 shares outstanding, a P/E of 4x, $200 in debt, $75 in NCI, $50 in cash and $100 in inventory. What is the EV?",
+      "answer": "EPS * Shares Outstanding = NI --> $2 * 100 = $200.\nP/E * NI = Equity Value --> 4 * $200 = $800\nEV = Equity Value + Debt + NCI – Cash = $800 + $200 + $75 - $50 = $1025.",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-055",
+      "topic": "Valuation",
+      "question": "B. Question: what is the market-implied EV, and why can you argue it's wrong?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-056",
+      "topic": "Valuation",
+      "question": "Because they are impaired, you can assume equity is negligible, so it's just .X * X + .X * X = EV.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-057",
+      "topic": "Valuation",
+      "question": "Name 6 components of total enterprise value?",
+      "answer": "a. TEV = Equity Value + Debt + Preferred Stock + Capital Lease Obligations + Unfunded Pension Obligations – NOLs – Cash + Non- controlling interest",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-058",
+      "topic": "Valuation",
+      "question": "If a company has a P/E of 20x, an EV/EBITDA of 10x, Interest Expense of 20m, a 5% interest rate, depreciation of 20m and a market cap of 200m, what is the company’s tax rate?",
+      "answer": "a. Debt = 20 / .05 = 400\nb. TEV = 400 + 200 = 600\nc. EBITDA = 600 / 10 = 60\nd. EBT = 60 - 20 - 20 = 20\ne. P/E = 200 / x = 20; x = 10 therefore NI = 10\nf. EBT - NI = Taxes = 20 - 10 = 10\ng. Tax Rate = 10 / 20 = 50%",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-059",
+      "topic": "Valuation",
+      "question": "Let’s say you have ParentCo, with 2 subs-CoffeeCo and DonutCo. You own 100% of CoffeeCo, and it has an EBITDA of 100m. CoffeeCo is private. You own 80% of DonutCo and it has an EBITDA of 200m. It also trades at 5x EBITDA. ParentCo has a share price of $10, with 100m shares. It has 500m in debt and 200m in cash. What multiple has the market implicitly assigned to CoffeeCo?",
+      "answer": "a. ParentCo TEV = 10*100 + 500 – 200 = 1300\nb. DonutCo TEV = 200*5 = 1000\nc. CoffeeCo TEV = ParentCo TEV – DonutCo TEV = 1300 – 1000 = 300\nd. 300 / 100 = 3x",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-060",
+      "topic": "Valuation",
+      "question": "Find PEG from the following: Share price = 19.67 NI = 34.1 Expected EPS = .89 Expected EPS growth rate = 12%",
+      "answer": "a. PE ratio = stock price / expected EPS = 19.67/.89 PEG = 22.1x/12 = 1.84",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-061",
+      "topic": "Valuation",
+      "question": "What does the non-controlling interest line item on the liabilities side of a company’s B/S correspond to?",
+      "answer": "a. The portion of the company you don’t own if you own between 50 and 100% of the company\nb. If you own 70% of the company the non-controlling interest would be 30%",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-062",
+      "topic": "Valuation",
+      "question": "Company has 100 shares outstanding at a share price of 10 each. It has 10 options outstanding at an exercise price of 5 each. What is the diluted equity value?",
+      "answer": "a. Basic equity value is 1000 bc 100 shares * 10 = 1000\nb. The options outstanding are in the money bc the current share price is above the exercise price of 5\nc. When options are exercised these 10 options becomes 10 shares\nd. The number of shares becomes 110\ne. The option proceeds are the 10 options * 5 exercise price therefore 50\nf. Options proceeds / current share price equals repurchased shares therefore 50/10 =5\ng. Diluted shares outstanding = shares outstanding + potential shares – shares repurchased or 100+10-5 or 105\nh. Diluted equity value is 105 * 10 per share or 1050",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-063",
+      "topic": "Valuation",
+      "question": "Do you include tax rate when calculating Enterprise value? What about the debt rate?",
+      "answer": "",
+      "group": "M&A / RX",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-064",
+      "topic": "Valuation",
+      "question": "A company’s EV/EBITDA goes from 10x to 20x and EV/Sales goes from 2x to 4x. What is happening to the company and its EBITDA margins?",
+      "answer": "Relative to the company’s Enterprise Value, the company’s sales (revenue) has halved (2x to 4x). Its top-line has shrunk by 50%, as has EBITDA, so the company’s EBITDA margins have not changed, remaining at 20% (2x/10x --> 4x/20x).",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-065",
+      "topic": "Valuation",
+      "question": "If two companies are trading at 8X EBITDA, one 100% Equity, one 50% Debt and 50% Equity… which has a higher P/E?",
+      "answer": "The company financed by 100% equity will have a higher P/E because the Equity Value is double that of the company funded partially by debt, and the impact of interest will not likely impact the valuation as heavily.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-066",
+      "topic": "Valuation",
+      "question": "A company is trading at 10x EV/LTM EBITDA, do you expect it to go up or down in the EV/NTM EBITDA multiple?",
+      "answer": "This would depend on the state of the company and the industry it belongs to, but generally you expect the multiple to fall. Most companies anticipate (and deliver on) growth in EBITDA while the numerator (Enterprise Value) is the present-day value and does not vary in either of these ratios. As a result, you expect the EV/NTM EBITDA multiple to be lower than 10x.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-067",
+      "topic": "Valuation",
+      "question": "Which is often higher - EV/EBITDA or EV/EBIT?",
+      "answer": "EV/EBIT will be often higher as EBIT should be lower than EBITDA.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-068",
+      "topic": "Valuation",
+      "question": "Two companies in the same industry trade at 10x and 7x EV/EBITDA - what could the cause of the difference?",
+      "answer": "Investors expects the company with the higher multiple to have greater growth prospects; therefore, they are willing to pay more for every $1 in EBITDA generated.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-069",
+      "topic": "Valuation",
+      "question": "What's the difference between EV/EBITDA and P/E? Which do you prefer?",
+      "answer": "EV/EBITDA is a multiple that is independent of capital structure, taxes, and depreciation/amortization; therefore, it is better for comparing companies with different leverage levels or ones that operate in different industries. One isn’t necessarily better than the other, it depends on the situation. For example, a P/E multiple may be more useful when valuing financial institutions where interest income is a core part of their business.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-070",
+      "topic": "Valuation",
+      "question": "A company has an EV/Sales of 2x and an EV/EBITDA of 8x, what is the EBITDA Margin? If the EV/EBIT is 16x, what industry could this company be in?",
+      "answer": "The EBITDA margin is 25%. Simply, take the reciprocal of EV/EBITDA, then multiply it by EV/Sales. EV will cancel out and you will be left with EBITDA/Sales = 2/8 which is 25%.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-071",
+      "topic": "Valuation",
+      "question": "One precedent transaction was 10x and the other was 5x, why is this the case?",
+      "answer": "Could be many reasons including different market conditions, one may be private, one may have greater growth prospects, etc.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-072",
+      "topic": "Valuation",
+      "question": "$100 in debt is issued, how does it impact your P/E and EV/EBITDA ratios?",
+      "answer": "ASSUMING DEBT RAISED IS JUST CASH:\nP/E ratio doesn’t change as Equity Value remains unchanged and the Earnings are identical EV/EBITDA doesn’t change because the additional cash cancels out the increase in debt ASSUMING DEBT IS SPENT ON A VALUE-GENERATING CAPITAL PROJECT:\nP/E remains constant, but EV/EBITDA should increase as cash doesn’t change but Total Debt is increased",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-073",
+      "topic": "Valuation",
+      "question": "How does a dividend impact your P/E, EV/EBITDA, and P/B ratio?",
+      "answer": "P/E: Lower P/E\nEV/EBITDA: No effect\nP/B: Depends on my current P/B ratio. If it is 1, no change. Less than 1, lower. More than 1, higher.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-074",
+      "topic": "Valuation",
+      "question": "Net Income = 20, cash = 30, debt = 50, P/E = 11x, and EV/EBITDA = 8x. What’s the company’s EBITDA?",
+      "answer": "Need to determine EV → EV = Equity Value + Debt – Cash\nEquity Value = 11*20 = 220\nSo…EV = 220 + 50 – 30 = 240\nEBITDA = 240/8 = 30",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-075",
+      "topic": "Valuation",
+      "question": "You have two identical companies except one is public and one is private. Which one would trade at a higher valuation?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-076",
+      "topic": "Valuation",
+      "question": "What are 5 uncommon ways to value a company?",
+      "answer": "a. NAV\nb. Sum of Parts\nc. Future Share Price\nd. DDM\ne. Liquidation",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-077",
+      "topic": "Valuation",
+      "question": "End of year 2. Factories break down and value is written down to 0. Loan must be repaid now. How do the 3 statements change from the start of Year 2 to the end of Year 2?",
+      "answer": "a. IS\ni. At end of year 2, value of factories is 80 due to depreciation\nii. 10 dollars in depreciation expense\niii. 80 in write-downs\niv. 10 dollars in interest expense\nv. PTI is down 100\nvi. At 40% tax rate, tax shield is 40\nvii. NI is -60\nb. SCF\ni. Start at -60\nii. Write down is non-cash expense so add back 80\niii. Depreciation is non-cash expense so add back 10\niv. This leaves you with 30 in CFO\nv. For CFI there’s 100 in loan payback as cash outflow\nvi. Net change in cash is 70\nc. BS\ni. Cash is down by 70\nii. PPE has decreased by 90\niii. Assets side is down by 160\niv. Debt is down by 100\nv. NI is down by 60\nvi. L+SE side is down by 160 therefore balance",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-078",
+      "topic": "Valuation",
+      "question": "Why is debt less expensive than equity?",
+      "answer": "a. Interest on debt is tax deductible through the tax shield\nb. Debt is senior to equity in a firm's capital structure. In a liquidation or bankruptcy, the debt holders get paid first before the equity holders receive anything. To take on that additional risk, equity investor demand a superior return",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-079",
+      "topic": "Valuation",
+      "question": "Company A buys company B with 100% debt. Company B has a PE multiple of 10x and Company A has PE multiple of 15x. What interest rate is required on the debt to make the deal dilutive?",
+      "answer": "a. Company A Cost of Stock = 1/15 = 6.7%\nb. Company B Yield = 1/10 = 10%\nc. The after-tax cost of debt must be greater than 10% for the acquisition cost to exceed company b’s yield\nd. 10%/(1-.4) = 16.7%\ne. Would say approximately 17% interest rate on debt\nf. Bc debt amount is high, the deal would probably be accretive",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-080",
+      "topic": "Valuation",
+      "question": "Why do you fundamentally use P/E ratios as opposed to EV/EBITDA ratios?",
+      "answer": "If the capital structure is an integral part of the business, P/E would be a better ratio to use as apposed to EV/EBITDA. For example, financial institutions main source of income is interest which is important to include when valuing businesses within that industry",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-081",
+      "topic": "DCF",
+      "question": "You’re running a DCF on a biotech company and a consumer staples company both with the same WACC – which has a higher terminal value as a % of EV and why?",
+      "answer": "A biotech company is less mature and far less stable than a consumer staples company, and the high R&D expense likely reduces the amount of FCF it has throughout the holding period. Further, because these companies are valued for their growth potential, they trade at high multiples, so they would derive a greater portion of their EV from the TV than the consumer staples.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-082",
+      "topic": "DCF",
+      "question": "What two ways do you use to get to a terminal value? Expand on what figures you use on each",
+      "answer": "Gordon Growth Method or Multiples Method. For the Multiples Method, we use comparable companies to determine an appropriate EV/EBITDA multiple. From there, we simply multiply our Terminal Year EBITDA by the Multiple to arrive at a Terminal Value. For the Gordon Growth Method, we will use a conservative growth rate (most likely in line with GDP growth, inflation, etc.) and use the perpetuity formula to determine a Terminal Value.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-083",
+      "topic": "DCF",
+      "question": "What's the difference between DCF and DDM, walk me through both.",
+      "answer": "DCF is discounting UFCF or LFCF, while DDM’s valuation is based on future projected dividends. The models will mechanically work the same way.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-084",
+      "topic": "DCF",
+      "question": "Why do you use Cost of Equity in a DDM?",
+      "answer": "In a Dividend Discount Model, rather than using the concept of free cash flow to value a business’ value creation, future proceeds are projected through dividends issued (a measured of the company’s “excess cash”). However, dividends are only attributable to equity holders, and therefore should be discounted at the opportunity cost for equity investors – the Cost of Equity.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-085",
+      "topic": "DCF",
+      "question": "What are 3 things wrong with a DCF? (More are listed here)",
+      "answer": "1. A considerable majority of the company’s value is placed on the terminal value (which is heavily reliant on assumptions, difficult to estimate and extremely sensitive to projections) (e.g. biotech companies)\n2. Capital expenditure projections are typically presumed to be entirely maintenance-based and therefore do not represent accretion of company value through associated topline growth. It is therefore difficult to model specific growth opportunities in the future\n3. General uncertainty and assumption levels: the entire model is built entirely on assumptions based on prior performance (from discount rate to growth rate)\n4. Not applicable to business models that are balance-sheet centric (financial institutions, real estate / energy / mining)\n5. Not very effective for cyclical businesses or businesses that have negative free cash flow",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-086",
+      "topic": "DCF",
+      "question": "NWC is steady in a DCF. How does an increase of XM of AR in Year X of a DCF affect FCF and valuation?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-087",
+      "topic": "DCF",
+      "question": "Does Revenue, COGS, or Capex impact a DCF the most? Why?",
+      "answer": "a. Capex, then COGS, then Revenue, b/c distance from FCF",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-088",
+      "topic": "DCF",
+      "question": "What determines how much a line item will affect a DCF?",
+      "answer": "a. Distance from the FCF line",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-089",
+      "topic": "DCF",
+      "question": "What will have a bigger impact on valuation, a 1% change to revenue growth or a 1% change to the discount rate? Why?",
+      "answer": "a. 1% change to discount rate, because it is closer to the bottom line of the DCF-",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-090",
+      "topic": "DCF",
+      "question": "If you change from LIFO to FIFO and costs are rising, how would this impact your DCF?",
+      "answer": "a. It wouldn’t, LIFO to FIFO would increase inventory value, but COGS goes down",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-091",
+      "topic": "DCF",
+      "question": "What happens to the PV of cash flows when using midyear convention?",
+      "answer": "a. Midyear convention moves each cash flow up by a half period which increases the PV since each CF is received earlier",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-092",
+      "topic": "DCF",
+      "question": "Explain the basic concept of a DCF.",
+      "answer": "a. You value a company based on the PV of its FCFs far into the future\nb. Divide the future into a near future period of 5-10 years\nc. Calculate, project, discount and add those FCFs\nd. Approximate the far future period FCFs\ne. Discount far future period FCFs and discount to the present value\nf. Add everything together",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-093",
+      "topic": "DCF",
+      "question": "How do you unlever beta?",
+      "answer": "a. Unlevered beta = levered beta / (1 + (1-tax rate)*(total debt/equity))",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-094",
+      "topic": "DCF",
+      "question": "Why do you un-lever and re-lever beta when you calculate it based on comps?",
+      "answer": "a. Betas found online are already levered because company’s stock reflects debt take on\nb. Bc each company has different cap structure, need to unlever it to determine a company’s riskiness regardless of debt to equity mix\nc. You must relever the median unlevered beta to account for the cap structure and total risk of the company",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-095",
+      "topic": "DCF",
+      "question": "How would the risk free rate change during a crisis?",
+      "answer": "a. It would decrease because governments would drop interest rates to encourage spending",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-096",
+      "topic": "DCF",
+      "question": "How would beta change during a crisis?",
+      "answer": "a. Beta would increase due to increased volatility",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-097",
+      "topic": "DCF",
+      "question": "2 identical companies. One has debt and one does not. Which has the higher WACC?",
+      "answer": "a. The one without debt will have a higher WACC bc debt is less expensive than equity",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-098",
+      "topic": "DCF",
+      "question": "How does you calculate the preferred stock % value of the WACC equation",
+      "answer": "a. Go to 10Ks to find dividend paid out of preferred stock\nb. Figure out how much preferred stock outstanding makes up the total capital structure\nc. Divide the dividend by the price of the preferred stock to get the return",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-099",
+      "topic": "DCF",
+      "question": "Say you have two companies with same total enterprise value and trade at same multiples, but one is industrial, and one is pharmaceutical company, i.e. one has a much higher asset beta. Which one’s market cap would be higher?",
+      "answer": "",
+      "group": "M&A / RX",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-100",
+      "topic": "M&A",
+      "question": "Company A has EV of 100, market cap of 80, EBITDA of 10 and NI of 4. Company B has EV of 40, market cap of 40, EBITDA of 8 and NI of 2. Company A has 60 debt and 40 cash. Company A decided to acquire Company using 100% debt a 10% interest rate and 25% tax rate to acquire Company B. What are the combined multiples?",
+      "answer": "a. Add market caps to get combined market caps of 120\nb. Combined company has 40 additional debt therefore A has 60 Debt and 40 Cash. EV is 120+60+40-40 = 180\nc. Combined EBITDA is 18 and EV/EBITDA = 180/18=10x\nd. Interest expense on 40 debt at 10% interest is 4\ne. 4*(1-.25) = 3\nf. NI falls to 3\ng. Combined PE = 120/3 = 40",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-101",
+      "topic": "M&A",
+      "question": "You have a target with an EV of $100 million and a debt/total cap of 60%, a 50% premium on the share price is given - what is the equity value of the firm? Let's say the company had $4 million in net income and the acquirer has a P/E of 15x, if it's an all stock deal, is it accretive or dilutive?",
+      "answer": "The equity value of the firm would be $60M. The deal would be neutral as both their P/E multiples would be 15x when considering the 50% premium we are placing on the share price.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-102",
+      "topic": "M&A",
+      "question": "Follow up question to above - let's say the acquirer had net income of $10 million and shares outstanding of 10 million, is the acquisition accretive or dilutive to EPS?",
+      "answer": "Dilutive. Acquirer has a lower P/E than the target.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-103",
+      "topic": "M&A",
+      "question": "Company A’s equity value is $200, has an EBIT of $100, tax rate of 50%, and a net income of $50. Company B’s P/E ratio is 4.5x. A acquires B in an all-stock deal, accretive or dilutive? Explain this is laymen terms",
+      "answer": "Company A’s P/E: 200/50 = 4x → Dilutive\nB trades higher relative to its earnings compared to A. Because of this, when we are acquiring company B in all- stock deal, we are essentially buying their earnings at a more expensive rate than what our shares are offering. Therefore, the deal is dilutive.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-104",
+      "topic": "M&A",
+      "question": "Target: $X shares outstanding, $X/share, X P/E; acquirer: X shares outstanding, $X/share, X P/E. What percentage of the pro forma company does the target company own? (Had to ask if it was an all-stock transaction.)",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-105",
+      "topic": "M&A",
+      "question": "Company A has X shares at a price of X with X P/E, Company B has X shares at X with X P/E. In an all-stock deal with X% premium, what are the equity values? What is the ownership breakdown? What is pro forma EPS? How accretive/dilutive is it? What synergies are needed?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-106",
+      "topic": "M&A",
+      "question": "Company A has share price X, X shares outstanding, debt X, cash X, NI X; Company B has share price X, X shares outstanding, debt X, cash X, NI X. Transaction is financed with X% debt, X% cash, X% stock. Pretax cost of debt is X%, pretax cost of capital is X%, tax rate of X%. Is this transaction accretive or dilutive?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-107",
+      "topic": "M&A",
+      "question": "Merger math: Company A (X shares at $X, EBITDA X, X leverage, D&A X, tax rate X%) buys Company B (X EBITDA, X EV multiple, D&A X) with X debt and X stock. What is pro forma EPS? What revenue synergies are needed for breakeven, given Company B trades at X EV/Revenue?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-108",
+      "topic": "M&A",
+      "question": "Questions about your M&A internship.",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-109",
+      "topic": "M&A",
+      "question": "What would make a company susceptible to activism? (qualitative and quantitative)",
+      "answer": "",
+      "group": "SDSA",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-110",
+      "topic": "M&A",
+      "question": "Who is your favorite activist investor? What are their strategies? What deals did they do and how do they succeed?",
+      "answer": "",
+      "group": "SDSA",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-111",
+      "topic": "M&A",
+      "question": "How would you simplify explanations of complex topics? Simplify shareholder defense and strategic advisory.",
+      "answer": "",
+      "group": "SDSA",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-112",
+      "topic": "M&A",
+      "question": "IPO, M&A markets",
+      "answer": "",
+      "group": "NY PFG",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-113",
+      "topic": "M&A",
+      "question": "Company A has revenue of 100mm, Company B has revenue of 100mm. When company A acquires company B, revenues become 300m, with no revenue synergies. How is this possible?",
+      "answer": "a. 2 Minority Positions consolidate into a majority, meaning accounting treatment changes such that all of the third companies revenue is consolidated on the pro forma balance sheet\nb. Company A and B both own 40% of company C",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-114",
+      "topic": "M&A",
+      "question": "Company A acquires company B. Company A has a P/E of 10, Company B has a P/E of 15x. Is the deal accretive or dilutive for company A?",
+      "answer": "a. Dilutive in an all stock deal because buyer P/E < seller P/E\nb. If COD is 5% and tax rate is 40%, then what weighting of debt/equity financing would make the deal neither accretive nor dilutive?\ni. Yield of seller = 1/15 = 6.67% = .0667\nii. Set .05*(1-.4)X + .1*(1-X) = .0667\niii. X = .477 = cost of debt; 1-X = .523\nc. What about if it’s 50% debt, 25% equity and 25% cash. (5% COD, 40% tax rate, 2% cost of cash)\ni. .05*(1-.4)*.5 + .1*.25 + .02*(1-.4)*.25 = .043\nii. Because .043 < yield of the seller, accretive",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-115",
+      "topic": "M&A",
+      "question": "In an all-stock transaction, how do you know if the transaction is accretive or dilutive?",
+      "answer": "a. If the yield of the seller > cost of stock, then the transaction is accretive",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-116",
+      "topic": "M&A",
+      "question": "In an all-stock transaction, what happens if the yield of the seller > cost of equity?",
+      "answer": "a. The transaction is accretive",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-117",
+      "topic": "M&A",
+      "question": "Exchange ratio formula for 100% stock deal 2. Exchange ratio if buyer stock price is $50 and target offer price is $70. What is the exchange ratio?",
+      "answer": "a. Exchange ratio = (offer price/buyer price)*%stock\nb. Exchange ratio = $70/$50=1.4 buyer shares issued per target share",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-118",
+      "topic": "M&A",
+      "question": "Calc implied premium paid assuming unaffected share price of $50 and offer price is $67.50",
+      "answer": "a. (67.5/50)-1 = 35%",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-119",
+      "topic": "M&A",
+      "question": "Firm A acquired remaining 70% of outstanding shares of Firm B that it did not previously own for 600mm. Firm B has 120mm of debt and its EBITDA is 80. What is the transaction multiple of EBITDA?",
+      "answer": "a. 1) Gross up purchase to 100% to make use of Comparables that utilize 100% of firm's profits, therefore 600/.7=857.1mm 2) Add back debt to get EV =857.1mm+120=977.1 3) Divide by EBITDA to get multiple: 977.1/80=12.2",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-120",
+      "topic": "M&A",
+      "question": "Transaction with offer value =800; net debt =250; LTM EBITDA = 100 and pretax synergies =5. Calc EBITDA multiple adjusted for synergies",
+      "answer": "a. Transaction value = offer value + debt =800+250=1050\nb. Adjusted EBITDA for synergies = 100+5\nc. Adjusted EBITDA multiple = 1050/105=7.8x",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-121",
+      "topic": "M&A",
+      "question": "What would the impact be on M&A activity if the tax rate were to decrease to 20%?",
+      "answer": "a. Increased cash repatriation therefore more dry powder available for acquisitions\nb. Increased cost of debt therefore increased WACC therefore decreased company valuations",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-122",
+      "topic": "M&A",
+      "question": "How would the equity risk premium change during a crisis?",
+      "answer": "a. Equity risk premium would increase bc investors would demand higher returns before investing in stocks",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-123",
+      "topic": "M&A",
+      "question": "Why is cash preferred to acquire companies?",
+      "answer": "a. Cash is cheaper bc interest income generated is less than 5% and foregone interest on cash is almost always less than additional interest paid on debt\nb. Cash is less risk than debt bc no chance buyer would fail raise sufficient funds from investors\nc. Stock is most expensive way to finance transaction bc cost of equity is higher than cost of debt\nd. Buyer’s share price could change dramatically",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-124",
+      "topic": "M&A",
+      "question": "Buyer pays 100mm for the seller in all stock deal but market decides it’s worth 50mn. What happens?",
+      "answer": "a. Buyer’s share price goes down by the per-share dollar amount that corresponds to 50mm loss in value",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-125",
+      "topic": "M&A",
+      "question": "Company A has PE of 10x, this is higher than PE of Company B. The interest rate on debt is 5%. If company A acquires Company B and they both have 40% tax rates, should Company A use debt or stock for the most accretion?",
+      "answer": "a. Company A Cost of Debt 5%*(1-40%)=3%\nb. Company A Cost of Stock = 1/10 = 10%\nc. Company B Yield = higher than 10% since PE multiple is lower\nd. Deal will always be accretive bc debt and s tock both cost less than the company’s yield\ne. More accretion can be achieved using 100% stock bc cost of debt at 3% is much lower than the cost of stock",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-126",
+      "topic": "M&A",
+      "question": "Acquire 70% of another company with Cash. Company is worth 100, assets of 180, liabilities of 10, equity of 80.",
+      "answer": "a. Add seller assets and liabilities to your own but wipe out equity\nb. Equity is wiped out bc seller is no longer independent\nc. Asset side is up 180 and liabilities side is up 100\nd. Subtract 70 cash from asset side so assets are down to 110\ne. Bc equity of company was 80 and worth of the company is 100, create 20 good will\nf. Add 20 goodwill to asset side to make it go up to 130\ng. On liabilities side, create a non-controlling interest of 30 to present 30% of company not owned\nh. Both sides are up by 130",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-127",
+      "topic": "M&A",
+      "question": "If the equity of a company is less than its worth or value, what must you include in an acquisition?",
+      "answer": "a. The GW for the difference",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-128",
+      "topic": "M&A",
+      "question": "What sort of premium or discount would you put on the discount rate or discounting a company due to the fact that its private?",
+      "answer": "Additional discount to account for liquidity. Private assets are more illiquid than public ones.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-129",
+      "topic": "M&A",
+      "question": "Questions on deal mechanics",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-130",
+      "topic": "LBO",
+      "question": "How can you increase IRR in an LBO?",
+      "answer": "1. Decrease the purchase price, increase exit\n2. Increase leverage\n3. Improve operating metrics (revenue growth, EBITDA margin, LFCF margin, etc.)",
+      "group": "M&A / RX",
+      "source": [
+        "Evercore Q Bank",
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-131",
+      "topic": "LBO",
+      "question": "What are the 3 most important considerations in an LBO? How do you determine how much debt is used?",
+      "answer": "1. Purchase Price\n2. Selling Price\n3. Amount of leverage\nUse comparable companies to evaluate the appropriate amount of leverage to place on the company’s capital structure so that the company is still able to grow and service debt adequately over the investment horizon.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-132",
+      "topic": "LBO",
+      "question": "Explain how an LBO works to a X year old with a concrete example | Follow-up: What could you do with the excess rent payments? (Provide X reasons.)",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-133",
+      "topic": "LBO",
+      "question": "X instances debt investors are better off than equity investors in an LBO | Follow-up: Interest rates on the debt. | Follow-up: Purchase price and how much FCF they are generating; whether they are paying down debt or just paying interest. | Follow-up: Scenarios when this would happen, conceptually.",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-134",
+      "topic": "LBO",
+      "question": "Paper LBO: XM LTM EBITDA, X entry multiple, X leverage. X% EBITDA growth per year and X% LFCF margin from EBITDA. Find MOIC and IRR (X, slightly less than X%; said around X-X%).",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-135",
+      "topic": "LBO",
+      "question": "What does PFG do",
+      "answer": "",
+      "group": "NY PFG",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-136",
+      "topic": "LBO",
+      "question": "Fund returns",
+      "answer": "",
+      "group": "NY PFG",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-137",
+      "topic": "LBO",
+      "question": "How PFG fits into the structure/ecosystem",
+      "answer": "",
+      "group": "NY PFG",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-138",
+      "topic": "LBO",
+      "question": "How do GP-led secondaries work, walk through each step",
+      "answer": "",
+      "group": "NY PFG",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-139",
+      "topic": "LBO",
+      "question": "If you're an LP who wants to pull out of a fund without impacting the GPs, what vehicles can you use",
+      "answer": "",
+      "group": "NY PFG",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-140",
+      "topic": "LBO",
+      "question": "What are the value drivers for an LBO?",
+      "answer": "a. Leverage to boost returns\nb. Increased cash flows (to repay debt and pay interest)\nc. Sell Company in the future at a higher price",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-141",
+      "topic": "LBO",
+      "question": "IRR Question – Entry: EBITDA $200mm; Valuation @ 10x EV /EBITDA; Leverage @ 6x EV / EBITDA; Exit: EBITDA $300mm; Valuation @ 10x EV / EBITDA; Leverage @ 4x EBITDA; Is debt paid down? IRR? MoM?",
+      "answer": "a. Entry: TEV = 2000; Debt = 1200; MEV = 800\nb. Exit: TEV = 3000; Debt = 1200; MEV = 1800\nc. MOM = 1800 / 800 = 9 / 4 = 2.25\nd. IRR = (2.25)^(1/5)-1",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-142",
+      "topic": "LBO",
+      "question": "4 reasons a strategic can pay more for a target than a financial sponsor. How?",
+      "answer": "a. Synergies\nb. Lower cost of capital\nc. Longer investment horizon\nd. Lower return thresholds\ne. Control premium",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-143",
+      "topic": "LBO",
+      "question": "Calc implied starting sponsor equity given the following: Required IRR = 25%; Ending equity value = $306; Exit year = 5 /",
+      "answer": "a. =306/(1+0.25)^5=100.3",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-144",
+      "topic": "LBO",
+      "question": "How are deferred financing fees treated in an LBO analysis?",
+      "answer": "a. Add it on the asset side of the balance sheet",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-145",
+      "topic": "LBO",
+      "question": "Why do PE firms use leverage when buying a company",
+      "answer": "a. PE firms can earn higher returns on using less of their own money\nb. PE firms have more capital to purchase other companies through using debt and equity",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-146",
+      "topic": "LBO",
+      "question": "Which variables have the greatest impact on an LBO?",
+      "answer": "a. Purchase multiple\nb. Exit multiple\nc. Leverage / Debt used",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-147",
+      "topic": "LBO",
+      "question": "What does the IRR function translate to?",
+      "answer": "a. The discount rate at which the net present value from the investment equals 0",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-148",
+      "topic": "LBO",
+      "question": "Why does an LBO produce a lower valuation than a DCF?",
+      "answer": "a. With an LBO you do not get any value from the cash flows of a company between year 1 and the final year\nb. You only get the value in the final year",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-149",
+      "topic": "Markets",
+      "question": "Tell me about an Evercore deal. | Follow-up: Multiple follow-ups on the deal (very conceptual).",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-150",
+      "topic": "Markets",
+      "question": "What are some trends you are seeing in PE?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-151",
+      "topic": "Markets",
+      "question": "If you had to pick X industry groups that interest you most which would they be (looking for an idea of where you would specialize long term)",
+      "answer": "",
+      "group": "SDSA",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-152",
+      "topic": "Markets",
+      "question": "Current PE environment",
+      "answer": "",
+      "group": "NY PFG",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-153",
+      "topic": "Markets",
+      "question": "Tell me about a deal.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-154",
+      "topic": "Markets",
+      "question": "Tell me about yourself, why Evercore, what's a trend or deal you're following, why RX?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-155",
+      "topic": "Markets",
+      "question": "What is the upside for the investor? What is the downside?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-156",
+      "topic": "Markets",
+      "question": "What about the downside?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-157",
+      "topic": "Markets",
+      "question": "Would you rather have a really high coverage or leverage ratio?",
+      "answer": "High coverage ratio",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-158",
+      "topic": "Markets",
+      "question": "You own a magazine subscription company, you make $10 dollars per month, one client pays for the entire 12 months up front, then 6 months later you earn that revenue… what happens to 3 statements initially then 6 months later?",
+      "answer": "Initially:\nIS:\nNo change\nCFS:\nDeferred Revenue +120\nOverall change in cash: +120\nBS:\nCash +120\nDeferred Revenue +120\n6 Months Later:\nIS:\nRevenue +60\nAssume no COGS\nNet Income +36\nCFS:\nNet Income +36\nDeferred Revenue -60\nOverall change in cash: -24\nBS:\nCash -24\nDeferred Revenue -60\nRE +36",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-159",
+      "topic": "Markets",
+      "question": "If you have a company with 100 EBITDA, 4x Multiple, 300 Secured, 200 Unsecured, what are recoveries? (Part 1)",
+      "answer": "EV = 4*100 = 400\nSecured is trading at part and unsecured is trading at 50 cents on the dollar *30. Now assume secured debt’s collateral only worth 100, how does that change answer? (Part 2) No recovery for unsecured creditors",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-160",
+      "topic": "Markets",
+      "question": "If a company has 5x Leverage ratio and 5x interest coverage ratio, what is interest rate?",
+      "answer": "EBITDA/Int = 5x\nDebt/EBITDA = 5x\n1/25 = 4%",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-161",
+      "topic": "Markets",
+      "question": "If I buy a bond at 80, matures to 100 in two years with a coupon of 10%, what’s YTM?",
+      "answer": "YTM = [10 + (100-80)/2]/[(100+80)/2] = 22.22%",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-162",
+      "topic": "Markets",
+      "question": "Bought a truck in Year X for $X, half cash and half debt, X years useful life (no salvage value), X% coupon, X% tax rate. Walk me through the changes at the end of Year X.",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-163",
+      "topic": "Markets",
+      "question": "Company issues XM in PIK debt with a X% coupon. | Follow-up: Walk me through the 3 statements immediately after purchase | Follow-up: Walk me through the 3 statements after Year X",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-164",
+      "topic": "Markets",
+      "question": "If you invested in the TLB of that deal what would you consider as a credit investor",
+      "answer": "",
+      "group": "NY PCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-165",
+      "topic": "Markets",
+      "question": "What is the difference between a revolver, term loan B, and bonds?",
+      "answer": "",
+      "group": "NY PCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-166",
+      "topic": "Markets",
+      "question": "Purchase a factory with $X debt, X% interest rate, X% cash, X% PIK, with changes after Year X.",
+      "answer": "",
+      "group": "NY PCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-167",
+      "topic": "Markets",
+      "question": "$X increase in interest, X% cash, X% PIK, with changes after Year X.",
+      "answer": "",
+      "group": "NY PCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-168",
+      "topic": "Markets",
+      "question": "Calculate net leverage given: $X 1st lien, $X 2nd lien, $X cash, $X EBITDA (X).",
+      "answer": "",
+      "group": "NY PCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-169",
+      "topic": "Markets",
+      "question": "$X of bonds called at X. Walk through the 3 financial statements.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-170",
+      "topic": "Markets",
+      "question": "You have $X of senior secured debt trading at Xc on the dollar. Walk me through the 3 statements if the company was to repurchase half of this debt.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-171",
+      "topic": "Markets",
+      "question": "You have an RCF with X in commitments. You have X TL and X bonds, with total debt of X. You have X in unrestricted cash. Calculate liquidity.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-172",
+      "topic": "Markets",
+      "question": "X ABL secured by X AR and X inventory. The ABL borrowing base is only X% of AR and X% of inventory. The inventory is X% ineligible, and you have Xm drawn from the ABL and Xm in LOC. What is liquidity?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-173",
+      "topic": "Markets",
+      "question": "Simple bond math",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-174",
+      "topic": "Markets",
+      "question": "Multi-step accounting question: X bonds trading at X with X% PIK and X% cash interest. We decide to buy back half at the end of the year — show the effect on the 3 statements.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-175",
+      "topic": "Markets",
+      "question": "Pay this one back because it has the closest maturity and could have restrictive covenants; one because the interest is so high; and one because it's trading down the most.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-176",
+      "topic": "Markets",
+      "question": "Tell me about your credit internship and their mandate.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-177",
+      "topic": "Markets",
+      "question": "If you are a credit investor, what do you look for?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-178",
+      "topic": "Markets",
+      "question": "If leverage is 10x EBITDA and the cost of debt is 10%, what is the interest coverage ratio?",
+      "answer": "a. Interest Coverage Ratio = EBITDA / Interest Expense\nb. Assume EBITDA is 100\nc. Debt = 10*100 = 1000\nd. Interest Expense = 1000*.1=100\ne. EBITDA / Interest Expense = 100 / 100 = 1x",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-179",
+      "topic": "Markets",
+      "question": "In year 1, Apple buys 100 worth of new factories with debt. Start of year 2. Debt is high yield so no principal is paid off and interest rate is 10%. Factories depreciate at rate of 10% per year. What happens to the 3 statements?",
+      "answer": "a. IS\ni. Operating income decreases by 10 due to depreciation\nii. Operating income decreases by 10 due to interest expense\niii. PTI is reduced by 20 in aggregate\niv. With 40% tax rate, tax shield become 8\nv. NI becomes -12\nb. SCF\ni. This starts off at -12\nii. Depreciation is non-cash expense that is added back at 10\niii. Net change in cash is -2\nc. BS\ni. Cash goes down by 2 from net change in cash\nii. PPE is down by 10 due to depreciation\niii. Asset side is down by 12\niv. L+SE side is down by 12 bc NI feeds into RE\nv. Debt number is unchanged",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-180",
+      "topic": "Markets",
+      "question": "Company has 10000 shares outstanding and a current share price of 20. It has 100 options outstanding at an exercise price of 10. It has 50 RSUs outstanding. It has 100 convertible bonds outstanding at a conversion price of 10 and a par value of 100.",
+      "answer": "a. Options treatment\ni. Bc the 100 options outstanding are in the money, they all get converted into 100 shares\nii. The company receives option proceeds of 100*10 = 1000\niii. Share price is 20 therefore it can repurchase 1000/20 = 50 shares with options proceeds\niv. There are now 50 shares outstanding bc 100 new shares – 50 repurchases = 50\nb. RSU treatment – all 50 RSUs get added as if they’re common shares therefore there’s 100 shares outstanding again\nc. Convertible bond treatment\ni. Conversion price for convertible bonds is below company’s current share price so conversion is allowed\nii. Divide the par value by conversion price to see how many new shares per bond get created: 100/10 = 10 new shares per bond\niii. With 100 convertible bonds outstanding * 10 new shares per bond there are 1000 new shares\nd. In total there are 1100 new shares between the options, RSUs and convertible bonds\ne. Diluted share count is 10000+1100 = 11100 diluted shares outstanding\nf. Diluted equity value is 11,000*20 or 222,000",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-181",
+      "topic": "Markets",
+      "question": "If a company’s bond is trading at 110, would it be better to buy them back or issue more?",
+      "answer": "Buy them back. The bond is trading at a premium as market interest rates are lower than our coupon rate. Therefore, we are paying more interest than similar bonds.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "evercore-182",
+      "topic": "Markets",
+      "question": "If my company has EV of 200, secured debt of 100, two unsecured tranches of 100 and 200 that are pari, what are the recoveries?",
+      "answer": "",
+      "group": "M&A / RX",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-183",
+      "topic": "Markets",
+      "question": "EBIT of $Xmm, $Xmm 1L at X%, $Xmm 2L at X%, D&A $Xmm, CapEx $Xmm, cash taxes $Xmm — what is annual cash burn?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-184",
+      "topic": "Markets",
+      "question": "You have a Holdco with X unsecured debt. SubCo1 has EBITDA of X trading at X, with X secured debt and X unsecured debt. SubCo2 has Xm EBITDA at X and X unsecured debt. What are the recoveries?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-185",
+      "topic": "Markets",
+      "question": "EBITDA Xmm, Xmm 1L, Xmm 2L, trading at X and X respectively.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-186",
+      "topic": "Markets",
+      "question": "A. Goes into Chapter X and post-reorg it gives X debt and X% equity.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-187",
+      "topic": "Markets",
+      "question": "What makes an ideal LME candidate if you are an analyst looking at a cap table?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-188",
+      "topic": "Markets",
+      "question": "Then X different tranches trading at different prices with different coupons and priority — what are the pros and cons of paying them back? Then, what would affect equity value the most if you paid it back?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-189",
+      "topic": "Markets",
+      "question": "A question about a secured loan trading at X ($X) and unsecured trading at X ($X) — what is the implied enterprise value? The loan is going to get the X post-reorg debt that the company can handle, and all the equity.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-190",
+      "topic": "Markets",
+      "question": "What about the upside for an original lender?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-191",
+      "topic": "Markets",
+      "question": "What if there was a guarantee from X to X?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-192",
+      "topic": "Markets",
+      "question": "What if there was an upstream from X to HoldCo?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-193",
+      "topic": "Markets",
+      "question": "What situation would maximize recovery?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-194",
+      "topic": "Markets",
+      "question": "Xmm EBITDA. X 1L at X cents. X unsecured at X cents. Chapter X plan proposes Xm to the 1L and equity. What is the EV/EBITDA?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-195",
+      "topic": "Markets",
+      "question": "What will the 2L trade at?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-196",
+      "topic": "Markets",
+      "question": "What are ways for companies to preserve cash",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-197",
+      "topic": "Markets",
+      "question": "Company wants to exchange debt and is able to move it into an unrestricted subsidiary. What would this look like?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-198",
+      "topic": "Markets",
+      "question": "Why would a company with positive EBITDA over the past 10 years go bankrupt?",
+      "answer": "a. The company spends too much on CapEx which is not reflected in EBITDA\nb. The company has high interest expense and cannot afford its debt\nc. The company’s debt all matures on one date and can’t be refinanced therefore the company runs out of money\nd. The company has significant one-time charges from settlements for example",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-199",
+      "topic": "Markets",
+      "question": "How would you go about screening for potential restructuring opportunities?",
+      "answer": "",
+      "group": "M&A / RX",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-200",
+      "topic": "Corporate Finance",
+      "question": "When is a company over levered?",
+      "answer": "A company is over-levered when the burden of interest payments and mandatory debt repayments damages the company’s ability to grow effectively and pursue new growth opportunities (the original purpose of taking on additional leverage) through excessive use of cash. A company is insolvent when it can no longer meet those debt obligations.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-201",
+      "topic": "Corporate Finance",
+      "question": "Which one has the most positive impact on a DCF? $10 million increase in revenue, $10 million decrease in operating expenses, or $10 million decrease in CapEx? Which is second most positive?",
+      "answer": "The $10M decrease in CAPEX would have the most positive impact as it is not affected by tax. Second would be a $10M decrease in operating expenses as an increase in revenue will come with COGS.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-202",
+      "topic": "Corporate Finance",
+      "question": "In what cases would a $10 million increase in revenue have the same impact as $10 million decrease in operating expenses? What if it’s a furniture company?",
+      "answer": "If the company had no COGS.",
+      "group": "M&A / RX",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-203",
+      "topic": "Corporate Finance",
+      "question": "Revenue in Year X is $X, EBITDA is $X, Revenue expands by X% from Year X to Year X. What is the change in EBITDA margin? (need to ask about the percentage of fixed vs. variable costs + if the increase in revenue is being driven by volume or price) --> $X fixed, $X variable, driven by X% volume expansion",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-204",
+      "topic": "Corporate Finance",
+      "question": "What's a company you've been following in the news lately? | Follow-up: How would you value this company? | Follow-up: Explain how the company makes money. | Follow-up: Walk me through the different business segments of the company. | Follow-up: What is each business segment's EBITDA margin? Why do you think this is the case? | Follow-up: What's an appropriate beta for this business? | Follow-up: What is their growth strategy?",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-205",
+      "topic": "Corporate Finance",
+      "question": "Find the interest and debt expense.",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-206",
+      "topic": "Corporate Finance",
+      "question": "What are key considerations for choosing debt and equity in a transaction",
+      "answer": "",
+      "group": "NY PCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-207",
+      "topic": "Corporate Finance",
+      "question": "Given a fast-growing technology company and a utilities company, which would be impacted more from a X bps increase in cost of debt? (Answer: cash flows for the utilities company come more evenly throughout the year; tech company cash flows come in years X-X.)",
+      "answer": "",
+      "group": "NY PCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-208",
+      "topic": "Corporate Finance",
+      "question": "You have a fixed-rate bond trading at X% and a loan with SOFR + Xbps with a X% floor — what would you rather invest in?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-209",
+      "topic": "Corporate Finance",
+      "question": "Calculate the cost of cash?",
+      "answer": "a. Cost of cash = foregone interest on cash * (1 – Tax Rate)",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-210",
+      "topic": "Corporate Finance",
+      "question": "100bps=",
+      "answer": "a. 1%",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-211",
+      "topic": "Corporate Finance",
+      "question": "What is systemic risk?",
+      "answer": "a. Risk related to the overall market;",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-212",
+      "topic": "Corporate Finance",
+      "question": "Why do companies become less valuable as a result of a financial crisis?",
+      "answer": "a. The market discounted their future cash flows at higher rates",
+      "source": [
+        "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-213",
+      "topic": "Corporate Finance",
+      "question": "If I know the bonds will trade at 105 next year, and I can refinance right now for 25bps cheaper, should I refinance now or wait to buy back next year?",
+      "answer": "",
+      "group": "M&A / RX",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-214",
+      "topic": "Brain Teasers",
+      "question": "Brain teaser: if you have two coins that add up to X cents and one of them can't be a nickel, what are the two coins",
+      "answer": "",
+      "group": "EVR M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

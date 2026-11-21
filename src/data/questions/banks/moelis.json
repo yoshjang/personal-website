@@ -1,0 +1,456 @@
+{
+  "bank": "Moelis",
+  "tier": "Elite Boutique",
+  "questions": [
+    {
+      "id": "moelis-001",
+      "topic": "Behavioral",
+      "question": "What other processes are you in, and where does Moelis stand?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-002",
+      "topic": "Behavioral",
+      "question": "Walk me through your time at [Company] — what were you doing there and what did your workstreams look like?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-003",
+      "topic": "Behavioral",
+      "question": "What player would you be on The Dream Team?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-004",
+      "topic": "Behavioral",
+      "question": "Your associate gives you a task that you have no idea how to do, and you need to finish it tomorrow. Your associate is busy and can't help — what do you do?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-005",
+      "topic": "Behavioral",
+      "question": "Now assume the tech company is levered to X. How would that impact its sensitivity to interest rate changes?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-006",
+      "topic": "Behavioral",
+      "question": "Walk through a $X PPE purchase.",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-007",
+      "topic": "Behavioral",
+      "question": "Would you say you are smart or run through brick walls?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-008",
+      "topic": "Behavioral",
+      "question": "Would you run through the wall for this job?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-009",
+      "topic": "Behavioral",
+      "question": "What do you want to get most out of this job?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-010",
+      "topic": "Behavioral",
+      "question": "If you spent X% of your time doing something completely useless but X% was mildly useful, would you still do it?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-011",
+      "topic": "Behavioral",
+      "question": "What are you most afraid of about investment banking?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-012",
+      "topic": "Behavioral",
+      "question": "Why will you suck at this job?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-013",
+      "topic": "Behavioral",
+      "question": "What is the easiest class you've taken?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-014",
+      "topic": "Behavioral",
+      "question": "Tell me about something you're passionate about but don't have the resources to achieve?",
+      "answer": "",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "moelis-015",
+      "topic": "Accounting",
+      "question": "Pick an industry and explain some specific operational initiatives that could drive the EBITDA growth you just calculated.",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-016",
+      "topic": "Accounting",
+      "question": "In 20XX, AR = X, Inventory = X, AP = X | in 20XX, AR = X, Inventory = X, AP = X | Revenue = $X, COGS = $X | Find Cash Conversion Cycle (numerator is average between years of Inventory, AR, AP | DSO + DIO - DPO | answer is X)",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-017",
+      "topic": "Accounting",
+      "question": "Walk me through what working capital and tell me an instance when a healthy tech company has negative WC?",
+      "answer": "Explain working capital and then speak on having large deferred revenue",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "moelis-018",
+      "topic": "Accounting",
+      "question": "Match the following subsectors to revenue, EBITDA and earnings: Internet, Software, Semiconductors?",
+      "answer": "Internet - Revenue (many of them are consumer facing and are losing money to reach critical mass, right now have a miniscule gross profit like Uber, and an even smaller EBITDA because of marketing) Semiconductors - P/E (factors in D&A/capex, can still be EV/EBITDA if in the same location and don’t have too much debt+capex, like local fabless companies) Software - EV/EBITDA (method of elimination, push back, should be EV/FCF because cash is locked up in deferred revenue)",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "moelis-019",
+      "topic": "Valuation",
+      "question": "Two companies: a tech company (zero CF now, high CF in X years) and a coal plant (high CF now, zero CF in X years), both with $X market cap and all-equity financed. If the Fed raises rates by X% tomorrow, what happens to their values? Which moves more?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-020",
+      "topic": "Valuation",
+      "question": "X revenue, EBITDA margin X%, X D&A, tax rate X%, Debt/EBITDA X, shares outstanding X, cash X, interest rate X%, CapEx X, P/E X. What are net income, market cap, stock price, EPS, and EV?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-021",
+      "topic": "Valuation",
+      "question": "Calculate diluted equity value: 1.5B basic S/O, $10 share price, 80M options @ $2.50, 20M RSUs",
+      "answer": "$15.8B",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "moelis-022",
+      "topic": "Valuation",
+      "question": "Calculate share price: P/E = 20x, tax 25%, rev $2000, S/O 100, gross margin 50%, EV/EBITDA 7.5x, debt 1000, interest rate 10%, opex $500",
+      "answer": "$60",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "moelis-023",
+      "topic": "Valuation",
+      "question": "You buy an asset for $X at X EV/EBITDA with X% debt at a X% interest rate and X% equity (stock); it straight-line depreciates over X years and there is a X% tax rate... Walk through the statements in Year X and Year X.",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-024",
+      "topic": "Valuation",
+      "question": "Two companies are operationally the same... Company A has X EV/EBITDA, Company B has X EV/EBITDA — why?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-025",
+      "topic": "Valuation",
+      "question": "Walk me through how you find comps / precedents?",
+      "answer": "I would use a resource such as CapIQ, FactSet or Pitchbook. The first step would be selecting the industry classification, then filtering through financial criteria (such as revenue, EBITDA, etc.) and finally geography. For precedents I would add a date filter to view transactions during a specific time period.",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "moelis-026",
+      "topic": "DCF",
+      "question": "Which company would have the higher beta, and how would that affect the change in value when rates rise?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-027",
+      "topic": "DCF",
+      "question": "CAPM | If the U.S. were to go into recession tomorrow, how would the CAPM formula be affected? (Looking for change in RFR, ERP, and levered beta.)",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-028",
+      "topic": "DCF",
+      "question": "EBITDA XM, Debt/EBITDA X, D&A XM, interest rate X%, tax rate X%, CapEx XM, increasing working capital of XM. Walk me from EBITDA to UFCF.",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-029",
+      "topic": "DCF",
+      "question": "A DCF valuation gives you $250 at a 10% discount rate, 25% tax rate. If your EBIT in the fourth year was actually overstated by $40, what will your correct DCF valuation be?",
+      "answer": "~$230",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "moelis-030",
+      "topic": "M&A",
+      "question": "Given: risk-free rate = X%, market risk premium = X%, unlevered beta = X, debt-to-equity = X, tax rate = X%. What’s the cost of equity for the firm?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-031",
+      "topic": "M&A",
+      "question": "What goes into a sell-side pitch book for a bake off? (Financials & Valuation, Growth Catalysts, Team Bio, Industry Outlook, Firm Tombstones, Potential Acquirers, Creative Deal Ideas)",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-032",
+      "topic": "M&A",
+      "question": "Graph an M&A deal with exchange ratios on the x-axis and accretion/dilution percentage on the y-axis.",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-033",
+      "topic": "M&A",
+      "question": "Buyer's P/E = 16.66 with a tax rate of 25%. What interest rate in an all-debt deal gives you the same cost of acquisition as an all-stock deal?",
+      "answer": "8% pre-tax interest",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "moelis-034",
+      "topic": "M&A",
+      "question": "You have 100 pro-forma shares after an acquisition. You currently have 12 cents per share dilution. What pre-tax synergies do you need to break even?",
+      "answer": "$20 in pre-tax synergies",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "moelis-035",
+      "topic": "M&A",
+      "question": "Buyer has $50 share price, 1M S/O, $6M net income, 40% tax rate. Target has $11 share price, 500K S/O, $1.5M net income, 40% tax rate. Buyer purchases target with 50% debt and 50% equity at $15/share. Debt has interest rate of 6%. There are $500K in pre-tax synergies. What is the $ value and % value of accretion/dilution for this deal?",
+      "answer": "$1.13/share accretion (18.8%)",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "moelis-036",
+      "topic": "LBO",
+      "question": "You purchase a business with $X of EBITDA at a X multiple. You sell it in X years at the same multiple, using X leverage and paying down X% of the debt. How much does EBITDA need to grow to hit a X MOIC?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-037",
+      "topic": "LBO",
+      "question": "In an LBO would you rather have $X of EBITDA expansion or debt paydown (Depends but usually EBITDA expansion, especially if trading at a higher multiple)",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-038",
+      "topic": "Markets",
+      "question": "You’re in a meeting with senior bankers and a client. The client asks a technical question and the senior associate struggles to answer. You know the correct response but you’re the most junior person in the room. How would you handle it? Would you speak up, and if so, how would you avoid undermining the associate?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-039",
+      "topic": "Markets",
+      "question": "You’re staffed on a high-stakes deal. The client requests a complex analysis due the next morning, and your associate is unavailable. How would you approach the task and ensure it’s done accurately and on time?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-040",
+      "topic": "Markets",
+      "question": "LFCF Yield is X%, EBITDA is $X, D&A is $X, Interest Expense is $X, CapEx is $X, Positive Change in NWC $X, Taxes of $X, $X Debt, $X Cash... Find EV (answer for this is X, but to make harder, use X% TR | Hint... LFCF yield is how you find equity value | LFCF / equity value = X%)",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-041",
+      "topic": "Markets",
+      "question": "Company has X EBITDA, X multiple, X first-lien debt, X second-lien debt, X unsecured debt. What is each tranche trading at, and what is equity trading at?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-042",
+      "topic": "Markets",
+      "question": "RX Case Study (X-Xmin) | Provided thorough background on Chapter X bankruptcies and court proceedings, but question eventually boiled down to: Company has either X EV or X EV, X SS, X SU, X Sub, walk through debt waterfalls in each situation. Then, said the company takes on X in new debt to repay SS debt, walk back through the debt waterfalls. \nThen, asked for equity ownership split in the original two different EV situations, and then asked for equity split in the second situation where the company takes on X in new debt to repay SS debt.",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-043",
+      "topic": "Markets",
+      "question": "What is a Section 382?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-044",
+      "topic": "Corporate Finance",
+      "question": "Merger Math | Company A: SP $X, SO XM, NI $X acquires Company B: SP $X, SO XM, NI $X for X% stock and X% debt. Pretax CoD X%, TR X%, post-tax NI synergies of $X. Is this deal accretive or dilutive, and by how much?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-045",
+      "topic": "Brain Teasers",
+      "question": "How many hours do you think you will work in a week?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "moelis-046",
+      "topic": "Brain Teasers",
+      "question": "Would you rather be an Olympic gold wrestler or Olympic gold basketball player?",
+      "answer": "",
+      "group": "MOE M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

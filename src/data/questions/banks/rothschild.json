@@ -1,0 +1,256 @@
+{
+  "bank": "Rothschild",
+  "tier": "Elite Boutique",
+  "questions": [
+    {
+      "id": "rothschild-001",
+      "topic": "Behavioral",
+      "question": "Who did you speak with at Rothschild?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-002",
+      "topic": "Behavioral",
+      "question": "Tell me about your summer internship. What's something you want to improve on?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-003",
+      "topic": "Behavioral",
+      "question": "What's an interest not on your resume?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-004",
+      "topic": "Behavioral",
+      "question": "What project did you work on during your internship?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-005",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you received critical feedback",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-006",
+      "topic": "Behavioral",
+      "question": "How was the conversation with your analyst, and what steps did you take to improve?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-007",
+      "topic": "Behavioral",
+      "question": "What do you think makes a good team?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-008",
+      "topic": "Behavioral",
+      "question": "Let's say you're looking at a HC company with X products. X product recently outperformed and rev increased to XM. Rev from other products remained at XM. What are some risks associated with this situation?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-009",
+      "topic": "Behavioral",
+      "question": "How would you pitch IB to your classmates?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-010",
+      "topic": "Behavioral",
+      "question": "What's unique about Rothschild?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-011",
+      "topic": "Behavioral",
+      "question": "What's the most interesting project you worked on?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-012",
+      "topic": "Accounting",
+      "question": "Which has a greater impact: a X% increase in price/volume or a X% decrease in COGS?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-013",
+      "topic": "Valuation",
+      "question": "Given income statement line items, calculate net income and then find the share price.",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-014",
+      "topic": "Valuation",
+      "question": "What is the impact of raising equity on EV?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-015",
+      "topic": "Valuation",
+      "question": "Can you have negative EV? Give examples of industries or companies.",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-016",
+      "topic": "Valuation",
+      "question": "What is the formula for EV?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-017",
+      "topic": "Valuation",
+      "question": "How does an increase in AR impact valuation?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-018",
+      "topic": "Valuation",
+      "question": "Let's say the companies' peer companies are trading at X. What multiple would you price this company at?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-019",
+      "topic": "M&A",
+      "question": "Questions on goodwill and intangible assets",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-020",
+      "topic": "Markets",
+      "question": "What's a company you think is doing really well?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-021",
+      "topic": "Markets",
+      "question": "What's going on in the market?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-022",
+      "topic": "Markets",
+      "question": "Walk me through a deal you're following — know the EV/multiples, but focus on deal rationale.",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-023",
+      "topic": "Corporate Finance",
+      "question": "Why is ROE > ROD?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-024",
+      "topic": "Corporate Finance",
+      "question": "Why is COE > COD? What's another reason besides interest on debt?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rothschild-025",
+      "topic": "Corporate Finance",
+      "question": "How would you increase the growth rates of this company?",
+      "answer": "",
+      "group": "Roth M&A",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

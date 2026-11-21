@@ -1,0 +1,381 @@
+{
+  "topic": "Excel",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Excel function combines a range of text with a specified delimiter while optionally ignoring empty cells?\nA: ARRAYTOTEXT\nB: TEXTJOIN\nC: CONCATENATE\nD: CONCAT",
+      "answer": "Correct: B: TEXTJOIN\nTEXTJOIN is superior for this task as it can join text from multiple ranges, use a delimiter, and ignore empty cells, making it much more flexible than CONCATENATE, which is limited to combining individual strings and requires explicit delimiters.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You need to find the number of business days between two dates, accounting for a custom weekend schedule and a list of holidays. What's the function?\nA: WORKDAY.INTL, which finds a date a set number of custom workdays in the future or past.\nB: NETWORKDAYS.INTL, which counts the number of workdays between two dates using a custom weekend.\nC: NETWORKDAYS, which counts the number of workdays using a standard Saturday/Sunday weekend.\nD: DATEDIF, which calculates the total difference in days but doesn't account for weekends or holidays.",
+      "answer": "Correct: B: NETWORKDAYS.INTL, which counts the number of workdays between two dates using a custom weekend. NETWORKDAYS.INTL allows you to specify custom weekend parameters and include a list of holidays, which is crucial for accurate business day calculations in various international contexts encountered in investment banking.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "To convert a company's projected annual revenue into an average monthly figure for a model, what is the correct calculation?\nA: Multiply the annual projection by 12, which annualizes the figure instead of finding the average.\nB: Divide the annual revenue by 12 to find the average amount projected to be earned per month.\nC: Divide the annual revenue by 4 to incorrectly calculate the average quarterly run-rate.\nD: Multiply the annual revenue by a daily interest convention, which is an unrelated calculation.",
+      "answer": "Correct: B: Divide the annual revenue by 12 to find the average amount projected to be earned per month. To convert an annual figure to a monthly run rate, you divide the annual figure by 12, distributing the total evenly across the months.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You're building a model with 'Base,' 'Upside,' and 'Downside' cases. How do you make formulas automatically pull from the correct scenario based on a single input cell?\nA: Use Conditional Formatting on the input cell to highlight the active scenario for visual tracking.\nB: Use Data Validation to create the drop-down list of scenarios, which indirectly links to the formulas. thelocker.ai/lockers/experience\nC: Drive the formulas from the input cell with CHOOSE or INDEX, so a scenario number switches which column of assumptions is read.\nD: Use the Scenario Manager tool to store each case and manually switch between them to see the results.",
+      "answer": "Correct: C: Drive the formulas from the input cell with CHOOSE or INDEX, so a scenario number switches which column of assumptions is read. The switching has to live in the formulas, not in the input cell's formatting. You point every driver at a single scenario number, then use CHOOSE(scenario, base, upside, downside) or INDEX(assumption_row, scenario) to read the matching column, so changing that one cell repoints the whole model and every output stays live. Data Validation in B is a useful companion because it turns the input into a clean drop-down, but it only constrains what can be typed and selects nothing. Conditional Formatting in A is purely visual. Scenario Manager in D does store discrete cases, but you switch between them manually and the results do not remain linked, which is why bankers build the toggle with CHOOSE or INDEX. A Named Range is worth adding for readability, though it labels the input rather than driving the choice.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "You need to present a matrix showing how a company's equity value changes with different WACC and exit multiple assumptions. What is the best Excel tool for this?\nA: Goal Seek, which is used to solve for a single input variable required to achieve a specific output value.\nB: Solver, which is a more complex tool designed to find the optimal outcome given a set of constraints.\nC: A two-variable Data Table, which is specifically designed to display the results of one formula against two changing inputs.\nD: Scenario Manager, which allows for comparing a few discrete sets of inputs but does not build a full matrix.",
+      "answer": "Correct: C: A two-variable Data Table, which is specifically designed to display the results of one formula against two changing inputs. A Two-input Data Table is specifically designed to show how changing two input variables simultaneously affects a single formula's result, which is perfect for sensitivity analysis.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "In a dataset of company financials, which function should you use to find the highest revenue from a company in the 'Technology' sector?\nA: MAX, which would incorrectly return the highest revenue from the entire dataset, ignoring the sector criterion.\nB: LARGE(range,1), which is equivalent to the MAX function and does not allow for adding any criteria.\nC: MAXIFS, which is designed to return the maximum value from a range that meets one or more specified criteria.\nD: VLOOKUP, which can find a company's revenue but cannot by itself determine which company has the maximum.",
+      "answer": "Correct: C: MAXIFS, which is designed to return the maximum value from a range that meets one or more specified criteria. MAXIFS is specifically designed to return the maximum value from a range based on one or more criteria, making it ideal for conditional maximum value calculations.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the most direct way to sum the same cell (e.g., F3_CFO) across a contiguous range of worksheets?\nA: Manually add the cells in the formula bar, such as '=Sheet1!F3_CFO + Sheet2!F3_CFO + Sheet3!F3_CFO'.\nB: Use a 3-D SUM formula, such as '=SUM(Sheet1:Sheet3!F3_CFO)', which captures the entire range of sheets.\nC: Link each individual cell to a summary sheet, and then use a standard SUM function on that summary sheet.\nD: Use the INDIRECT function to build each sheet and cell reference, then wrap the formula in a SUM function.",
+      "answer": "Correct: B: Use a 3-D SUM formula, such as '=SUM(Sheet1:Sheet3!F3_CFO)', which captures the entire range of sheets. A 3-D SUM formula allows you to sum a cell or range across multiple worksheets by referencing the first and last sheet in the range, enclosed in sheet names and an exclamation mark (e.g., =SUM('Sheet1:SheetLast'!A1)), significantly simplifying multi-sheet consolidations.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "An analyst needs to pull just the last name from a list of \"First Last\" names. What is the most robust combination of functions for this task?\nA: Using LEFT and FIND to locate the first space and then extracting all characters from the beginning of the text string.\nB: Nesting the MID and SEARCH functions to start extracting text from the middle of the string after the first character.\nC: Relying on the TEXTAFTER function with a space delimiter, which is efficient but only works in the latest Excel versions.\nD: Combining RIGHT, LEN, and SEARCH to locate the space and extract every character that follows it.",
+      "answer": "Correct: D: Combining RIGHT, LEN, and SEARCH to locate the space and extract every character that follows it. With names in 'First Last' form there is a single space, so RIGHT(name, LEN(name) - SEARCH(\" \", name)) returns everything after it and adapts to any length of surname: SEARCH locates the space, LEN measures the whole string, and RIGHT takes the remainder. LEFT with FIND in A does the opposite and returns the first name. MID with SEARCH in B can be made to work but needs a length argument it does not supply. TEXTAFTER in C is genuinely the cleanest formula and is the right choice when everyone opening the model is on Microsoft 365, but it is unavailable in perpetual-license versions, which is why the RIGHT, LEN and SEARCH combination remains the portable answer. Note that none of these finds the last space in a multi-word name; that needs a SUBSTITUTE trick to mark the final delimiter.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "In Excel, which function is the primary tool for calculating a weighted average from two separate columns, like security price and shares outstanding?\nA: SUMPRODUCT, used to multiply and sum the two corresponding ranges.\nB: AVERAGEIF, which averages one range based on a text or numeric criterion.\nC: An ARRAYFORMULA, to perform multi-step calculations within a single cell.\nD: AVERAGE.WEIGHTED, which is a built-in function for this purpose in Excel.",
+      "answer": "Correct: A: SUMPRODUCT, used to multiply and sum the two corresponding ranges. SUMPRODUCT directly calculates the sum of the products of corresponding components in the given arrays, making it perfect for weighted averages (SUMPRODUCT(values, weights) / SUM(weights)).",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "An LBO model has cash flows that occur on specific, irregular dates. Which Excel function must be used to calculate the IRR?\nA: IRR, which assumes all cash flow periods are of equal length.\nB: XIRR, which is designed to handle cash flows with specific, non-periodic dates.\nC: NPV, which calculates the present value of cash flows but not the actual rate of return.\nD: RATE, which finds the interest rate per period for a standard loan or annuity.",
+      "answer": "Correct: B: XIRR, which is designed to handle cash flows with specific, non-periodic dates. XIRR is used when cash flows occur at irregular intervals, which is typical for LBO models where investments and dividends might not align with perfectly annual periods. IRR assumes regular periodic cash flows.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 11,
+      "question": "I need to count the number of deals in a spreadsheet that closed in Q2 of 2023. How could you accomplish this?\nA: Only COUNTIF is appropriate, as you should create a helper column for the quarter and use a single criterion.\nB: Only the COUNTIFS function can handle multiple criteria ranges, such as a start date and an end date for the quarter.\nC: Only a SUMPRODUCT formula is powerful enough to handle calculations based on date ranges without helper columns.\nD: Both COUNTIFS and SUMPRODUCT are effective for this, as both can handle multiple criteria like dates. thelocker.ai/lockers/experience",
+      "answer": "Correct: D: Both COUNTIFS and SUMPRODUCT are effective for this, as both can handle multiple criteria like dates. COUNTIFS can directly count based on date ranges (e.g., '>=' start of month and '<=' end of month). SUMPRODUCT with MONTH and YEAR functions provides an alternative way to perform this multi-criteria count, making both valid approaches.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 12,
+      "question": "You want an IF statement to check if an input cell (B12) has been left empty. What function should you nest inside the IF for the cleanest test?\nA: ISBLANK(B12), as it is specifically designed to return TRUE if a referenced cell is empty.\nB: B12<>\"\", which returns false for blank cells but can be unreliable if formulas return empty text.\nC: ISNULL(B12), a function from other languages like SQL that does not exist in Excel.\nD: ISNUMBER(B12), which returns FALSE for a blank cell, providing an indirect test if a number is expected.",
+      "answer": "Correct: A: ISBLANK(B12), as it is specifically designed to return TRUE if a referenced cell is empty. ISBLANK specifically checks if a cell is empty. It's the precise function needed to test for blank inputs and trigger a custom message or action.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 13,
+      "question": "You need to pull a tax rate from a tiered schedule based on an income figure. Which function is best for this range-based lookup?\nA: VLOOKUP with the [range_lookup] argument set to TRUE, but it requires the lookup column to be sorted.\nB: HLOOKUP with the [range_lookup] argument set to TRUE, but only for horizontally-oriented tables.\nC: A combination of INDEX and MATCH, which is very powerful but more complex to set up for range lookups.\nD: XLOOKUP, using the [match_mode] argument for an exact match or the next-smaller/larger item.",
+      "answer": "Correct: D: XLOOKUP, using the [match_mode] argument for an exact match or the next-smaller/larger item. XLOOKUP with its 'match_mode' argument (specifically -1 for exact match or next smaller item, or 1 for exact match or next larger item) directly addresses range lookups more robustly and flexibly than VLOOKUP's approximate match.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 14,
+      "question": "In a debt waterfall model, you must cap principal repayment at the lower of cash available for repayment or the outstanding loan balance. What's the most direct Excel formula?\nA: MAX(Cash Available, Beginning Debt Balance)\nB: MIN(Cash Available, Beginning Debt Balance)\nC: IF(Cash Available > Beginning Debt Balance, 0, Cash Available)\nD: AND(Cash Available > 0, Beginning Debt Balance > 0)",
+      "answer": "Correct: B: MIN(Cash Available, Beginning Debt Balance)\nMIN returns the smallest of its arguments, so MIN(cash available, beginning debt balance) caps the repayment at whichever constraint binds first: you cannot repay more cash than you have, and you cannot repay more than you owe. MAX in A does the opposite and would overpay. The IF in C returns zero whenever cash exceeds the balance, which switches the repayment off at exactly the moment the loan could be cleared. AND in D returns TRUE or FALSE rather than an amount. In a full waterfall you often nest a third term inside the same MIN, such as a mandatory amortization payment or a cash sweep percentage, but the two-argument form is the core of the cap.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You're building a DCF model where cash flows are projected to specific, irregular dates. Which Excel function is most appropriate for this task?\nA: NPV, which assumes periodic, end-of-period cash flows.\nB: XNPV, which discounts cash flows based on their specific dates.\nC: PV, which calculates the present value of a single future amount.\nD: IRR, which calculates the internal rate of return, not a present value.",
+      "answer": "Correct: B: XNPV, which discounts cash flows based on their specific dates. XNPV is specifically designed to calculate the Net Present Value for a series of cash flows that are not necessarily periodic, requiring both cash flows and their corresponding dates.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 16,
+      "question": "You have a large column of transaction data and need a single, dynamic formula to count the number of unique cities. What's the most efficient approach?\nA: Create a PivotTable, drag the 'City' column to the Rows area, and check the Grand Total Count.\nB: Use the legacy array formula '=SUMPRODUCT(1/COUNTIF(range,range))' which is resource-intensive.\nC: Manually sort the column, use the 'Remove Duplicates' tool, and then use COUNTA on the clean range.\nD: Combine the UNIQUE and COUNTA functions to create a single formula that recalculates automatically.",
+      "answer": "Correct: D: Combine the UNIQUE and COUNTA functions to create a single formula that recalculates automatically. UNIQUE returns the distinct values in the range and wrapping it in COUNTA counts them, so =COUNTA(UNIQUE(range)) is a single formula that recalculates as the data grows. Use COUNTA rather than COUNT here: city names are text, and COUNT tallies only numbers, so it would return zero. The legacy SUMPRODUCT(1/COUNTIF(range,range)) in B reaches the same answer but is slow over large ranges and errors on blanks. A PivotTable in A works and is a good way to eyeball the list, but it needs refreshing rather than recalculating. Remove Duplicates in C destroys the underlying data, which makes it the wrong tool inside a live model.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You need to pull a net revenue figure for February from a large data table without adding a helper column. Which function is best suited for a lookup on these two criteria?\nA: SUMIFS can aggregate data based on criteria, but it is not a true lookup function.\nB: INDEX/MATCH on a helper column that concatenates the metric and month into a single ID.\nC: XLOOKUP, passing the product of two boolean comparisons as its lookup_array so it matches on both criteria at once.\nD: FILTER can return the correct value, but it may spill results if multiple matches exist.",
+      "answer": "Correct: C: XLOOKUP, passing the product of two boolean comparisons as its lookup_array so it matches on both criteria at once. XLOOKUP has no separate multi-criteria argument, but you can build one. Multiplying two boolean comparisons produces an array of 1s and 0s, and looking up 1 in that array finds the row where both conditions hold: XLOOKUP(1, (metric_range=target_metric)*(month_range=target_month), return_range) returns the February net revenue in one formula with nothing added to the sheet. B is sound practice and is what many production models do, but it needs a concatenated helper column, which this question rules out. SUMIFS in A aggregates rather than looks up, so it returns a total that only coincides with the value when exactly one row matches. FILTER in D would find it but spills, which is awkward when a single cell has to feed the rest of the model.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which Excel functions are the standard for retrieving a value from a table using dynamic row and column numbers?\nA: VLOOKUP and HLOOKUP, used for locating data in a static row or column.\nB: OFFSET and MATCH, used for returning a reference from a specified starting point.\nC: INDEX and MATCH, used together to perform a flexible, two-dimensional lookup.\nD: The LOOKUP function, as it is designed for simple, single-vector lookups.",
+      "answer": "Correct: C: INDEX and MATCH, used together to perform a flexible, two-dimensional lookup. INDEX and MATCH (using MATCH for both row and column positions) provides a robust and flexible way to retrieve data from a table based on dynamic row and column lookups, without the limitations of VLOOKUP/HLOOKUP or the volatility of OFFSET.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 19,
+      "question": "The status bar in a colleague's model flashes 'Circular References.' What's the most direct tool in Excel to locate the cells causing the loop?\nA: The Watch Window, to monitor the values of the suspect cells.\nB: 'Trace Dependents,' to manually map the chain of calculations.\nC: The 'Circular References' command in the Error Checking menu.\nD: 'Goal Seek,' to analyze how the circular logic eventually resolves.",
+      "answer": "Correct: C: The 'Circular References' command in the Error Checking menu. Excel's dedicated 'Circular References' tool (found under Formulas > Error Checking dropdown) specifically identifies and lists all circular references in a workbook, allowing for targeted correction.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 20,
+      "question": "A model is sluggish, likely due to a 'volatile' function that recalculates with any sheet change, not just when its direct inputs change. Which of these is the most likely culprit?\nA: SUMIF, as it must re-evaluate criteria on any data change.\nB: VLOOKUP, as changes in the lookup table force recalculation.\nC: OFFSET, as it re-runs with virtually any change on the sheet.\nD: INDEX, as it must update when its underlying array is changed.",
+      "answer": "Correct: C: OFFSET, as it re-runs with virtually any change on the sheet. OFFSET is a volatile function. It recalculates whenever any cell on the worksheet changes, which can significantly impact calculation speed in large and complex financial models. Functions like SUM, VLOOKUP, and INDEX are non-volatile unless their precedents change.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 21,
+      "question": "What's the keyboard shortcut to perform an AutoSum in Excel?\nA: Alt + =, which automatically inserts a SUM formula.\nB: Shift + F3, which opens the 'Insert Function' dialog box.\nC: Ctrl + ` (grave accent), which toggles formula visibility.\nD: Ctrl + Shift + A, which inserts argument names into a formula.",
+      "answer": "Correct: A: Alt + =, which automatically inserts a SUM formula. Alt + = (AutoSum) is the most efficient shortcut to sum a contiguous range of cells. Excel intelligently tries to guess the range based on surrounding data.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 22,
+      "question": "In Excel, what is the primary keyboard shortcut to jump from the current cell to the last non-blank cell in a contiguous row or column?\nA: Shift + Arrow Key (e.g., Shift + Down Arrow)\nB: Ctrl + Arrow Key (e.g., Ctrl + Down Arrow)\nC: Ctrl + End (jumps to the last used cell on the worksheet)\nD: Alt + PageDown (moves the worksheet one screen to the right)",
+      "answer": "Correct: B: Ctrl + Arrow Key (e.g., Ctrl + Down Arrow)\nCtrl + Arrow Key allows you to jump to the last non-blank cell in that direction within a contiguous range, or to the next blank cell if no data is present.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 23,
+      "question": "While editing a formula, which function key cycles through absolute ($A$1), mixed ($A1), and relative (A1) cell references?\nA: F9\nB: F2\nC: F4\nD: F5",
+      "answer": "Correct: C: F4\nF4 cycles a reference through $A$1 (absolute), A$1 (mixed, row locked), $A1 (mixed, column locked) and back to A1 (relative), which is what makes a formula safe to copy across and down. The behavior is context dependent: F4 only cycles references while you are editing a formula with the cursor on or beside a reference. Press it outside formula editing and the same key repeats your last command or action instead, so the two uses never collide in practice.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 24,
+      "question": "What is the main keyboard shortcut to open the 'Format Cells' dialog box?\nA: Ctrl + 1\nB: Ctrl + 2\nC: Ctrl + T\nD: Ctrl + 5",
+      "answer": "Correct: A: Ctrl + 1\nCtrl + 1 directly opens the 'Format Cells' dialog box, which is frequently used for number formatting, alignment, fonts, borders, and protection.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 25,
+      "question": "What is the standard keyboard shortcut in Excel to insert a new row?\nA: Press Ctrl+Shift+'+' to open the insert dialog box, then select 'Entire Row'.\nB: Use the legacy access keys by pressing Alt, then I, then R in sequence.\nC: Select a cell and press Ctrl+'+', which inserts a new cell and shifts others down.\nD: Select the current row with Shift+Spacebar, then press Ctrl+'+' to add a new row above.",
+      "answer": "Correct: D: Select the current row with Shift+Spacebar, then press Ctrl+'+' to add a new row above. Shift + Spacebar selects the entire row, and then Ctrl + Plus sign (or Ctrl + Shift + Plus sign) inserts a new row above it. Directly using Ctrl + Plus sign inserts cells, not necessarily a full row/column. Option A gets there too, through the insert dialog, but it is the slower route and the question asks for the standard shortcut.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 26,
+      "question": "What is the traditional keyboard sequence to Paste Special as Values in Excel?\nA: Alt, E, S, T, Enter\nB: Ctrl + Shift + V\nC: Alt, E, S, F, Enter\nD: Alt, E, S, V, Enter",
+      "answer": "Correct: D: Alt, E, S, V, Enter\nAlt + E + S opens the 'Paste Special' dialog, and then 'V' selects 'Values', followed by Enter. This is a classic and highly used sequence in financial modeling.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 27,
+      "question": "What is the primary Excel shortcut for the 'Create from Selection' command to name ranges?\nA: Alt + M + C\nB: Ctrl + F3\nC: Ctrl + Shift + F3\nD: F5",
+      "answer": "Correct: C: Ctrl + Shift + F3\nCtrl + Shift + F3 brings up the 'Create Names from Selection' dialog box, allowing you to quickly define names based on row or column headings.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 28,
+      "question": "You have a column selected in Excel. What is the keyboard shortcut to select the entire column containing your active cell?\nA: Ctrl + Spacebar\nB: Shift + Spacebar\nC: Ctrl + Shift + Down Arrow thelocker.ai/lockers/experience\nD: Ctrl + A",
+      "answer": "Correct: A: Ctrl + Spacebar\nCtrl + Spacebar selects the entire column. Shift + Spacebar selects the entire row. These are essential for efficient range selection within formulas.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Which keyboard shortcut allows you to navigate between different worksheets in an active Excel workbook?\nA: Alt + Tab\nB: Ctrl + Page Up / Page Down\nC: Ctrl + Shift + Arrow Key\nD: Ctrl + Tab",
+      "answer": "Correct: B: Ctrl + Page Up / Page Down\nCtrl + Page Up moves to the previous worksheet, and Ctrl + Page Down moves to the next worksheet. This is fundamental for navigating multi-sheet models.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 30,
+      "question": "What is the primary Excel shortcut to open the 'Go To' dialog box?\nA: Shift + F5, to find the previous match from a search.\nB: Ctrl + F, to open the 'Find' dialog box.\nC: Ctrl + H, to open the 'Find and Replace' dialog box.\nD: F5 or Ctrl + G, to open the 'Go To' dialog box.",
+      "answer": "Correct: D: F5 or Ctrl + G, to open the 'Go To' dialog box.\nBoth F5 and Ctrl + G open the 'Go To' dialog box, which is invaluable for quickly jumping to specific cell references, named ranges, or special cells.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 31,
+      "question": "What is the primary Excel shortcut to toggle the display of formulas in a worksheet?\nA: F2, which allows you to edit the contents of the currently active cell.\nB: Alt + M + V, which traces the dependents of a selected formula cell.\nC: F9, which recalculates all formulas across all open workbooks.\nD: Ctrl + ` (grave accent), to switch between cell values and formulas.",
+      "answer": "Correct: D: Ctrl + ` (grave accent), to switch between cell values and formulas. Ctrl + ` (the grave accent key, usually above Tab) toggles between displaying formulas and displaying formula results. This is extremely useful for auditing models.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 32,
+      "question": "What is the primary Excel shortcut to insert the current date into a cell?\nA: Ctrl + ;\nB: Ctrl + Shift + ;\nC: F9\nD: Ctrl + D",
+      "answer": "Correct: A: Ctrl + ;\nCtrl + ; inserts the current date. Ctrl + Shift + ; inserts the current time. Knowing these can save a lot of manual data entry. thelocker.ai/lockers/knowledge",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 33,
+      "question": "You've selected a range of cells and typed an entry. How do you apply that entry to all selected cells at once?\nA: Shift + Enter\nB: Alt + Enter\nC: Ctrl + Enter\nD: Ctrl + D",
+      "answer": "Correct: C: Ctrl + Enter\nCtrl + Enter fills all currently selected cells with the data or formula you have just typed into the active cell. This is a significant time-saver for bulk data entry.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 34,
+      "question": "What is the standard ribbon path shortcut in Excel for the 'Remove Duplicates' command?\nA: Alt + H + E, the ribbon path for Home > Clear, which deletes data but doesn't identify duplicates.\nB: Ctrl + F, the shortcut for Find, which can locate but not automatically remove duplicates.\nC: Alt + A + S, the ribbon path for Data > Sort, a related but different data tool.\nD: Alt + A + M, the path for Data > Data Tools > Remove Duplicates.",
+      "answer": "Correct: D: Alt + A + M, the path for Data > Data Tools > Remove Duplicates. Alt + A (Data tab) then M (Remove Duplicates) is the fastest way to access this powerful data cleaning tool.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 35,
+      "question": "What is the direct keyboard shortcut to open the 'Find and Replace' dialog box on its Replace tab?\nA: Ctrl + Shift + F, which opens the 'Format Cells' dialog box.\nB: Ctrl + F, which opens the dialog box on the 'Find' tab.\nC: Alt + H + FD, the ribbon shortcut for the 'Find' menu.\nD: Ctrl + H, which opens the dialog box on the 'Replace' tab.",
+      "answer": "Correct: D: Ctrl + H, which opens the dialog box on the 'Replace' tab. Ctrl + H opens Find and Replace with the Replace tab already active, which is what you want for bulk substitutions such as swapping hard-coded figures for formula references. Ctrl + F in B opens the same dialog box but on the Find tab, so it costs an extra step to reach Replace, and that tab is the only thing separating the two. Alt + H + FD in C is the ribbon route to the Find & Select menu rather than a direct jump to Replace. Ctrl + Shift + F in A opens the Font tab of Format Cells and has nothing to do with Find and Replace.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 36,
+      "question": "What is the shortcut to select the current contiguous data range?\nA: Ctrl + A: Selects the current contiguous data region or the entire worksheet.\nB: Shift + Spacebar: Selects the entire row containing the active cell.\nC: Ctrl + Spacebar: Selects the entire column containing the active cell.\nD: Ctrl + Shift + Arrow Key: Extends selection to the last cell in that direction.",
+      "answer": "Correct: A: Ctrl + A: Selects the current contiguous data region or the entire worksheet. Ctrl + A selects the entire current data region. If pressed again, it selects the entire worksheet. This is often faster than dragging the mouse.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 37,
+      "question": "What is the keyboard shortcut in Excel to insert a new worksheet?\nA: Ctrl + N (which is used to create an entirely new, blank workbook)\nB: Shift + F11 (which is used to insert a new worksheet in the active workbook) thelocker.ai/lockers/experience\nC: Alt + F11 (which is used to open the Visual Basic for Applications (VBA) editor)\nD: Ctrl + T (which is used to create a formatted Table within the current worksheet)",
+      "answer": "Correct: B: Shift + F11 (which is used to insert a new worksheet in the active workbook) Shift + F11 is the direct shortcut to insert a new, blank worksheet into the current workbook. Ctrl + N opens a new workbook.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 38,
+      "question": "What Excel shortcut takes you to the last cell in the worksheet that contains data or formatting?\nA: Ctrl + Home\nB: End + Down Arrow\nC: Ctrl + End\nD: Shift + Ctrl + End",
+      "answer": "Correct: C: Ctrl + End\nCtrl + End moves the active cell to the last cell on the worksheet that contains data or formatting. Ctrl + Home goes to A1.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 39,
+      "question": "In Excel, what is the shortcut to select all contiguous cells with data in a column below your active cell?\nA: Ctrl + Down Arrow\nB: Ctrl + Spacebar\nC: Ctrl + Shift + Down Arrow\nD: Alt + Shift + Down Arrow",
+      "answer": "Correct: C: Ctrl + Shift + Down Arrow\nPlacing your cursor in the data you want to select and then using Ctrl + Shift + Down Arrow will select all contiguous data in that column downwards (excluding the header if in a table scenario). Ctrl + Spacebar selects the entire physical column.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 40,
+      "question": "What is the keyboard shortcut to cycle through open Excel workbooks?\nA: Alt + Tab\nB: Ctrl + Tab\nC: Ctrl + PageDown\nD: Alt + Spacebar",
+      "answer": "Correct: B: Ctrl + Tab\nCtrl + Tab cycles forward through all open workbooks. Ctrl + Shift + Tab cycles backward.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 41,
+      "question": "You need to hide a few rows in a model to make it cleaner. What's the keyboard shortcut?\nA: Ctrl + H\nB: Ctrl + 0\nC: Ctrl + 9\nD: Alt + R",
+      "answer": "Correct: C: Ctrl + 9\nCtrl + 9 hides the currently selected rows. Ctrl + 0 hides columns.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 42,
+      "question": "You've hidden some rows to clean up a schedule. How do you unhide them using a shortcut?\nA: Ctrl + Shift + 9\nB: Ctrl + Shift + 0\nC: Ctrl + U\nD: Ctrl + 9",
+      "answer": "Correct: A: Ctrl + Shift + 9\nCtrl + Shift + ( (left parenthesis) unhides selected rows. Note that the parenthesis is usually associated with the '9' key.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 43,
+      "question": "What is the Excel shortcut to hide selected columns?\nA: Ctrl + 9\nB: Ctrl + 0\nC: Alt + C\nD: Ctrl + H",
+      "answer": "Correct: B: Ctrl + 0\nCtrl + 0 (zero) hides the currently selected columns. Ctrl + 9 hides rows.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 44,
+      "question": "What is the primary keyboard shortcut to unhide one or more selected columns?\nA: Ctrl + 9\nB: Ctrl + Shift + )\nC: Ctrl + 0\nD: Ctrl + Shift + (",
+      "answer": "Correct: B: Ctrl + Shift + )\nCtrl + Shift + ) is the documented shortcut for unhiding selected columns, and the parenthesis sits on the 0 key, which pairs it with Ctrl + 0 in C for hiding them. Be aware of a long-standing quirk: on Windows this combination is frequently inactive by default because it clashes with an input-language switch, so if nothing happens use the ribbon route Alt, H, O, U, L (Home > Format > Hide & Unhide > Unhide Columns), which always works. Ctrl + Shift + ( in D is the row equivalent and unhides rows, while Ctrl + 9 in A hides them. Selecting across the hidden columns first is what makes any of these work.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 45,
+      "question": "Which shortcut lets you edit the active cell without using the mouse?\nA: F4: Toggles through absolute and relative cell references within a formula.\nB: F2: Enters edit mode, placing the cursor at the end of the cell's contents.\nC: Ctrl + 1: Opens the 'Format Cells' dialog box for the selected range.\nD: Shift + F2: Adds or edits a comment attached to the selected cell.",
+      "answer": "Correct: B: F2: Enters edit mode, placing the cursor at the end of the cell's contents. F2 puts the active cell into edit mode, placing the cursor at the end of the cell's contents. This is a fundamental shortcut for formula editing.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 46,
+      "question": "Which shortcut repeats your last formatting or editing action in Excel?\nA: Ctrl + Z: Reverses the last action you took, effectively undoing a mistake.\nB: Ctrl + Y: Re-applies an action that you have just undone using the undo command.\nC: F4: Repeats the previous command, such as applying a fill color or inserting a row. thelocker.ai/lockers/experience\nD: Ctrl + D: Fills the selected cells with the contents of the cell directly above them.",
+      "answer": "Correct: C: F4: Repeats the previous command, such as applying a fill color or inserting a row. F4 repeats the last command or action, which makes it the fastest way to apply the same formatting or insert another row several times over. Ctrl + Y in B is a close cousin and worth understanding precisely: it redoes an action you have just undone, and only falls back to repeating when there is nothing left to redo, so as described it is a redo rather than a repeat. Ctrl + Z in A is the opposite of both, and Ctrl + D in D fills down from the cell above rather than repeating anything. Remember that F4 does double duty: while you are editing a formula it cycles reference types instead of repeating.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 47,
+      "question": "What is the keyboard shortcut to insert a hyperlink into a cell?\nA: Ctrl + K\nB: Ctrl + I\nC: Ctrl + H\nD: Ctrl + L",
+      "answer": "Correct: A: Ctrl + K\nCtrl + K opens the Insert Hyperlink dialog box, allowing you to quickly embed links into your spreadsheet.",
+      "source": [
+        "The 500"
+      ]
+    }
+  ]
+}

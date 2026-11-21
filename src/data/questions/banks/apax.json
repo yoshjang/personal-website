@@ -1,0 +1,60 @@
+{
+  "bank": "Apax",
+  "tier": "Private Equity",
+  "questions": [
+    {
+      "id": "apax-001",
+      "topic": "Behavioral",
+      "question": "Piece of financial analysis that you did recently that you are proud of?",
+      "answer": "",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "apax-002",
+      "topic": "Accounting",
+      "question": "Which company would you invest in Company A or Company B if they had the same rev, same growth, same industry however Company A had 10% EBITDA margin vs Company B’s 20% EBITDA margin?",
+      "answer": "",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "apax-003",
+      "topic": "Accounting",
+      "question": "Walk me through the changes in the 3 financial statements if deferred wages are up by $100M",
+      "answer": "IS: Salaries expense up by $100M. Assuming a 40% tax rate, NI is down by $60M\nCF: NI is down by $60M but since the salaries expense is non-cash we add it back to our CFFO which means that our CFFO is up by $40M. No other changes which means that our overall cash is up by $40M.\nBS: Assets – Cash up by $40M\nLiabilities – Salaries Payable is up by $100M\nShareholders’ Equity – NI is down by $60M which flows into our Retained Earnings. Thus, both sides balance being up by $40M.",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "apax-004",
+      "topic": "Valuation",
+      "question": "Walk me through the changes in the 3 financial statements if we sold an asset with a book value of $10M book value for a $6M gain",
+      "answer": "IS: Gain on Sale up by $6M, which means that our EBIT is up by $6M. Assuming a 20% tax rate, our NI is up by $4.8M.\nCF: NI is up by $4.8M which flows into the top-line of our cash flow statement. No other changes to CFFO which means that our CFFO is up by $4.8M. There are no changes to CFFF. CFFI is up by $10M. Thus, overall our cash is up by $14.8M.\nBS: Assets – Cash up by $14.8M, PP&E down by $10M which means that overall assets up by $4.8M. Liabilities – No changes Shareholders’ Equity – NI is up by $4.8M which flows into our Retained Earnings. Thus, both sides balance being up by $4.8M.",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "apax-005",
+      "topic": "LBO",
+      "question": "Paper LBO & returns attribution: A sponsor buys a company at 8x EBITDA, sells it at 10x EBITDA with $60 LTM EBITDA and 5x leverage. The sponsor held it for 5 years with Year 1 revenue being $350, 70% COGS, 10% OpEx, 10% interest and 50% tax rate. It also had $30 D&A, $15 CapEx and a 2.5x increase in working capital.",
+      "answer": "",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "apax-006",
+      "topic": "Excel",
+      "question": "What are your 3 favorite Excel shortcuts?",
+      "answer": "",
+      "source": [
+        "Insider Edge"
+      ]
+    }
+  ]
+}
