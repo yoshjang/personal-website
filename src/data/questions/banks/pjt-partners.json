@@ -3,32 +3,13 @@
   "tier": "Elite Boutique",
   "questions": [
     {
-      "id": "pjt-partners-001",
-      "topic": "Behavioral",
-      "question": "What are you most proud of on your resume?",
-      "answer": "",
-      "group": "IBD",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
-      "id": "pjt-partners-002",
-      "topic": "Behavioral",
-      "question": "What is a book you read recently?",
-      "answer": "",
-      "group": "IBD",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
       "id": "pjt-partners-003",
       "topic": "Behavioral",
       "question": "What is a continuation vehicle? What are the alternatives of pursuing a continuation vehicle for a GP?",
       "answer": "",
       "group": "Park Hill Private Capital Solutions",
       "source": [
+        "AKPsi IB Behaviorals",
         "IB Questions v12"
       ]
     },
@@ -50,6 +31,60 @@
       "group": "IBD",
       "source": [
         "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-029",
+      "topic": "Accounting",
+      "question": "Walk me through the 3-statement impact of a company purchasing $50 million of equipment using cash on hand.",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "pjt-partners-030",
+      "topic": "Accounting",
+      "question": "A company issues $50M in debt and immediately uses the proceeds to pay a special dividend of the same amount. Assuming a 25% tax rate, walk me through the 3 statements.",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "pjt-partners-031",
+      "topic": "Accounting",
+      "question": "What's the difference between cash and GAAP EPS?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "pjt-partners-032",
+      "topic": "Accounting",
+      "question": "Where on a company's 10-K filing would you typically find the number of shares outstanding?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "pjt-partners-033",
+      "topic": "Accounting",
+      "question": "Walk me through how a capital lease affects the three financial statements upon its inception.",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "pjt-partners-035",
+      "topic": "Accounting",
+      "question": "You have 100 in revenue, 30% in EBITDA margin, $10 in D&A, and a tax rate of 25%. What is net income?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {
@@ -103,16 +138,6 @@
       ]
     },
     {
-      "id": "pjt-partners-011",
-      "topic": "Valuation",
-      "question": "Questions on the P/E ratio.",
-      "answer": "",
-      "group": "IBD",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
       "id": "pjt-partners-012",
       "topic": "DCF",
       "question": "$X revenue, $X one-time legal fee | What is UFCF | Need to ask for X% EBITDA margin, $X D&A, X% Taxes, $X inventory increase, $X accounts payable increase, $X CAPEX",
@@ -120,6 +145,15 @@
       "group": "IBD",
       "source": [
         "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-034",
+      "topic": "M&A",
+      "question": "If A pays $150 m for B whose book equity is $100 m, what is the goodwill / intangible asset created on the combined balance sheet?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {

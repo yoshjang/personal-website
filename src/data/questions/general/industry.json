@@ -349,7 +349,10 @@
     {
       "id": 70,
       "question": "What are monthly recurring revenue and annual recurring revenue used to measure?",
-      "answer": "Monthly recurring revenue (\"MRR\") is a measure of the recurring, predictable revenue generated on a monthly basis by subscription SaaS companies. MRR should include monthly recurring revenue from subscription fees, upgrades, up-selling, and cross-selling, as well as revenue lost from downgrades, discounts, and churn. MRR is equal to the monthly recurring revenue at the end of each month and is computed by taking the MRR from the previous month and adding net new MRR. In contrast, annual recurring revenue (\"ARR\") is just MRR annualized and calculated as ARR = MRR × 12."
+      "answer": "Monthly recurring revenue (\"MRR\") is a measure of the recurring, predictable revenue generated on a monthly basis by subscription SaaS companies. MRR should include monthly recurring revenue from subscription fees, upgrades, up-selling, and cross-selling, as well as revenue lost from downgrades, discounts, and churn. MRR is equal to the monthly recurring revenue at the end of each month and is computed by taking the MRR from the previous month and adding net new MRR. In contrast, annual recurring revenue (\"ARR\") is just MRR annualized and calculated as ARR = MRR × 12.",
+      "source": [
+        "The 500"
+      ]
     },
     {
       "id": 71,
@@ -2336,14 +2339,6 @@
       "answer": "Some important metrics in evaluating the efficiency and profitability of a SaaS model are the retention rate (for recurring revenue streams), the churn rate (the percentage of customers lost), the cost to acquire a customer (CAC), and the lifetime value from a customer (LTV) as well as the Monthly LTV / CAC is a common ratio used in valuation: 2-4 is healthy, while ~3 is a golden ratio. If greater than 4, may want to accelerate customer acquisition strategies, whereas if less than 2, there may be a problem with the product.",
       "source": [
         "scale_techs"
-      ]
-    },
-    {
-      "id": 434,
-      "question": "What does Annual Recurring Revenue actually measure?\nA: Total revenue recognized over the last twelve months, including services\nB: The revenue the company expects to book over the next four quarters\nC: Contracted recurring subscription revenue, annualized at a point in time\nD: Bookings signed during the period, before any revenue is recognized",
-      "answer": "Correct: C: Contracted recurring subscription revenue, annualized at a point in time thelocker.ai/lockers/knowledge ARR annualizes the recurring subscription base as it stands today. It excludes implementation fees, professional services and usage overages, which is why ARR and GAAP revenue rarely match. Option A describes trailing revenue and option D describes bookings, which sits earlier in the cycle.",
-      "source": [
-        "The 500"
       ]
     },
     {

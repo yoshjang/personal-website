@@ -1321,7 +1321,11 @@
       "question": "If a company has $50mm in EBITDA, is trading at 6x, with $200mm in bank debt, $200mm in high yield debt. What will the debt be trading at?",
       "answer": "Company’s Enterprise Value is $300mm ($50mm x 6). Bank debt is worth $200mm as it is secured. The remaining debt must be worth $100mm in value. Therefore, it is trading at $100mm/$200mm = $0.50 on the dollar.",
       "source": [
+        "Insider Edge",
         "scale_techs"
+      ],
+      "askedAt": [
+        "Houlihan Lokey"
       ]
     },
     {
@@ -1946,6 +1950,71 @@
       "answer": "Correct: C: Term Loan B would have a higher recovery rate because it is secured debt with a first-lien claim on the company's assets. Term Loan B is a senior secured debt instrument, meaning it is backed by collateral. In a default or bankruptcy scenario, secured creditors have a prior claim on the pledged assets, leading to generally higher recovery rates compared to senior unsecured bondholders, who only have a general claim on the borrower's unencumbered assets.",
       "source": [
         "The 500"
+      ]
+    },
+    {
+      "id": 332,
+      "question": "Teach me something I don't know (news-focused).",
+      "answer": "",
+      "askedAt": [
+        "RBC"
+      ],
+      "group": "IB",
+      "source": [
+        "AKPsi IB Behaviorals",
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": 333,
+      "question": "LFCF Yield is X%, EBITDA is $X, D&A is $X, Interest Expense is $X, CapEx is $X, Positive Change in NWC $X, Taxes of $X, $X Debt, $X Cash... Find EV (answer for this is X, but to make harder, use X% TR | Hint... LFCF yield is how you find equity value | LFCF / equity value = X%)",
+      "answer": "",
+      "askedAt": [
+        "Moelis",
+        "Morgan Stanley"
+      ],
+      "group": "MOE M&A",
+      "source": [
+        "AKPsi IB Behaviorals",
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": 334,
+      "question": "What recent macroeconomic trend are you watching, and how does it affect investment banking/markets?",
+      "answer": "",
+      "askedAt": [
+        "Evercore",
+        "Goldman Sachs",
+        "J.P. Morgan"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": 335,
+      "question": "How would you assess the creditworthiness of a company in distress?",
+      "answer": "",
+      "askedAt": [
+        "Evercore",
+        "Goldman Sachs"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": 336,
+      "question": "What do you believe will be the biggest challenge facing banks in the next decade?",
+      "answer": "",
+      "askedAt": [
+        "Evercore",
+        "Goldman Sachs",
+        "J.P. Morgan"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     }
   ]

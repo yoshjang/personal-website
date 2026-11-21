@@ -3,17 +3,6 @@
   "tier": "Elite Boutique",
   "questions": [
     {
-      "id": "evercore-001",
-      "topic": "Behavioral",
-      "question": "Walk me through a recent deal you found interesting and why.",
-      "answer": "What it tests: Whether you follow the market or only revised for the interview. This is where prepared answers come apart under a second question.\nA strong answer contains: One deal you can defend in depth: the strategic logic, roughly what was paid and how it was financed, and one thing you would question about it. Pick a deal in the group's sector if you can.\nRed flags: Naming a famous megadeal with no view on it. Also risky: choosing a deal the group actually worked on and getting the facts wrong.",
-      "group": "NY PCM",
-      "source": [
-        "IB Questions v12",
-        "The 500"
-      ]
-    },
-    {
       "id": "evercore-002",
       "topic": "Behavioral",
       "question": "What steps would you take during internship to figure out what group you want to be in?",
@@ -212,15 +201,6 @@
       ]
     },
     {
-      "id": "evercore-022",
-      "topic": "Behavioral",
-      "question": "Tell me about the last book you read",
-      "answer": "",
-      "source": [
-        "Evercore Q Bank"
-      ]
-    },
-    {
       "id": "evercore-023",
       "topic": "Behavioral",
       "question": "In what cases do you see customers paying upfront in cash but company’s not recording the cash as revenue?",
@@ -266,6 +246,24 @@
       "group": "EVR M&A",
       "source": [
         "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-218",
+      "topic": "Behavioral",
+      "question": "How does Evercore’s culture / structure (boutique, advisory-only) influence your decision?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "evercore-221",
+      "topic": "Behavioral",
+      "question": "What is one improvement you would make to the banking / deal-advisory process?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {
@@ -792,8 +790,27 @@
       "answer": "If the capital structure is an integral part of the business, P/E would be a better ratio to use as apposed to EV/EBITDA. For example, financial institutions main source of income is interest which is important to include when valuing businesses within that industry",
       "group": "M&A / RX",
       "source": [
+        "AKPsi IB Behaviorals",
         "Insider Edge",
         "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-217",
+      "topic": "Valuation",
+      "question": "What multiples are relevant in a healthcare carve-out vs a tech IPO?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "evercore-222",
+      "topic": "Valuation",
+      "question": "Would you rather find a company with low EV/EBITDA multiple or high growth rate? Why?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {
@@ -977,6 +994,15 @@
       "group": "M&A / RX",
       "source": [
         "scale_techs"
+      ]
+    },
+    {
+      "id": "evercore-219",
+      "topic": "DCF",
+      "question": "What happens to the WACC if a company takes on more debt?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {
@@ -1449,6 +1475,24 @@
       "answer": "a. With an LBO you do not get any value from the cash flows of a company between year 1 and the final year\nb. You only get the value in the final year",
       "source": [
         "Evercore Q Bank"
+      ]
+    },
+    {
+      "id": "evercore-216",
+      "topic": "LBO",
+      "question": "How do high interest rates and leverage affect an LBO?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "evercore-224",
+      "topic": "LBO",
+      "question": "If you were advising a PE firm, what structure (debt/equity) would you recommend for a $500 m deal?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {
@@ -1963,6 +2007,24 @@
       ]
     },
     {
+      "id": "evercore-215",
+      "topic": "Markets",
+      "question": "What are the main drivers of enterprise value in a restructuring scenario?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "evercore-220",
+      "topic": "Markets",
+      "question": "Debate: “Should advisory banks also do underwriting?” — your position + reasoning.",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
       "id": "evercore-200",
       "topic": "Corporate Finance",
       "question": "When is a company over levered?",
@@ -2109,6 +2171,15 @@
       "group": "EVR M&A",
       "source": [
         "IB Questions v12"
+      ]
+    },
+    {
+      "id": "evercore-223",
+      "topic": "Brain Teasers",
+      "question": "How many ping-pong balls fit into a 747? Justify your estimate.",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     }
   ]

@@ -286,16 +286,6 @@
       ]
     },
     {
-      "id": "houlihan-lokey-029",
-      "topic": "Valuation",
-      "question": "How do you value a pre-revenue company?",
-      "answer": "",
-      "group": "HL CorpFin",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
       "id": "houlihan-lokey-030",
       "topic": "Valuation",
       "question": "How do you value a consumer company?",
@@ -396,17 +386,6 @@
       "group": "RX",
       "source": [
         "IB Questions v12"
-      ]
-    },
-    {
-      "id": "houlihan-lokey-040",
-      "topic": "Markets",
-      "question": "50M EBITDA, Trading at 6 times, 200M in Bank Debt, 200M in High Yield Debt, what will the debt be trading at? (Part 1)",
-      "answer": "The Enterprise Value of this company is 300M. Therefore, Bank Debt will be trading at par (higher seniority than HY Debt) and their High Yield Debt will be trading at 50 cents on the dollar",
-      "group": "Restructuring",
-      "source": [
-        "Insider Edge",
-        "scale_techs"
       ]
     },
     {

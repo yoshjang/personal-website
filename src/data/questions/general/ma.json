@@ -22,11 +22,6 @@
       "answer": "Backward Integration: When an acquirer moves upstream, it means they're purchasing suppliers or manufacturers of the product the company sells – this is known as backward integration. Forward Integration: When an acquirer moves downstream, it means they're purchasing a company that moves them closer to the end customer such as a distributor or technical support – this is known as forward integration."
     },
     {
-      "id": 5,
-      "question": "Describe a recent M&A deal.",
-      "answer": "For M&A interviews, come prepared to discuss at least one recent transaction in-detail. To understand the rationale behind an M&A deal and the market’s perception of the proposed (or closed) transaction, review press releases and articles with commentary on the deal from reliable sources. Also, look at the current competitive dynamics within the industries relevant to the deal and the ongoing trends that could further explain why the transaction was completed. The specific details regarding the deal which should be included in your response include: Name of Acquirer and Target Company (along with a business profiles of each) Merger or Acquisition Strategic Rationale (can be found in the Form S-4 or publicly announced) Approximate Transaction Size, Premium Offered, and Form of Consideration (if publicly disclosed) Acquirer and Target's Share Price Movement Post-Announcement Personal Perspective on the Transaction – \"In your opinion, was this a good deal?\" For an example of how to review an M&A transaction, see our analysis on the acquisition of LinkedIn."
-    },
-    {
       "id": 6,
       "question": "What are synergies and why are they important in a deal?",
       "answer": "Synergies are the expected cost savings or incremental revenues arising from an acquisition. They're important because if an acquirer believes synergies can be realized, a higher premium would be paid. Revenue Synergies: Cross-selling, upselling, product bundling, new distribution channels, geographic expansion, access to new end markets, reduced competition leads to more pricing power Cost Synergies: Eliminate overlapping workforces (reduce headcount), closure or consolidation of redundant facilities, streamlined processes, purchasing power over suppliers, tax savings (NOLs)"
@@ -284,7 +279,15 @@
     {
       "id": 57,
       "question": "Would an acquirer prefer $100 in revenue synergies or $100 in cost synergies?",
-      "answer": "An acquirer would prefer $100 in cost synergies because all those cost savings (after accounting for tax) flow through to the bottom line, while revenue synergies have associated costs that reduce the bottom-line benefit. For example, $100 in revenue synergies for a company with 40% pre-tax profit margins and a 25% tax rate would see $100 x 40% x (1 - 25%) = $30 flow to the bottom line, while the same company with $100 in cost synergies would see $100 x (1 - 25%) = $75 flow to the bottom line."
+      "answer": "An acquirer would prefer $100 in cost synergies because all those cost savings (after accounting for tax) flow through to the bottom line, while revenue synergies have associated costs that reduce the bottom-line benefit. For example, $100 in revenue synergies for a company with 40% pre-tax profit margins and a 25% tax rate would see $100 x 40% x (1 - 25%) = $30 flow to the bottom line, while the same company with $100 in cost synergies would see $100 x (1 - 25%) = $75 flow to the bottom line.",
+      "askedAt": [
+        "Bank of America",
+        "Evercore"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals",
+        "IB Questions v12"
+      ]
     },
     {
       "id": 58,
@@ -813,6 +816,33 @@
       "answer": "Correct: C: The market believes the acquirer overpaid by $50M, effectively destroying that amount of shareholder value. thelocker.ai/lockers/knowledge An acquirer's share price reaction is the market's real-time verdict on a deal. A $50M drop in market capitalization on announcement means investors believe the $100M price exceeds what the target is worth to the acquirer, synergies included, so roughly half the purchase price has effectively been transferred from the acquirer's shareholders to the target's. In an all-stock deal this also feeds back on the consideration, because the shares issued to the seller are now worth less than when the exchange ratio was struck, which is the market risk stock deals carry and cash deals do not. The other options describe mechanics a price move does not imply. The covenant breach in A is a financing event, not a market reaction. In B the seller's value falls because the stock fell, not because a MAC clause was invoked. And goodwill in D is measured at closing from the purchase price and the fair value of net assets acquired, so impairment is a later accounting test rather than an immediate consequence of a share price move.",
       "source": [
         "The 500"
+      ]
+    },
+    {
+      "id": 131,
+      "question": "Walk me through a sell-side process",
+      "answer": "",
+      "askedAt": [
+        "Evercore",
+        "Lazard"
+      ],
+      "group": "IB",
+      "source": [
+        "AKPsi IB Behaviorals",
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": 132,
+      "question": "Pitch me a company you’d like to work on – what sector, what transaction, what makes it interesting?",
+      "answer": "",
+      "askedAt": [
+        "Evercore",
+        "Goldman Sachs",
+        "J.P. Morgan"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     }
   ]

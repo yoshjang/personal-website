@@ -103,16 +103,6 @@
       ]
     },
     {
-      "id": "moelis-011",
-      "topic": "Behavioral",
-      "question": "What are you most afraid of about investment banking?",
-      "answer": "",
-      "group": "MOE M&A",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
       "id": "moelis-012",
       "topic": "Behavioral",
       "question": "Why will you suck at this job?",
@@ -376,16 +366,6 @@
       "id": "moelis-039",
       "topic": "Markets",
       "question": "You’re staffed on a high-stakes deal. The client requests a complex analysis due the next morning, and your associate is unavailable. How would you approach the task and ensure it’s done accurately and on time?",
-      "answer": "",
-      "group": "MOE M&A",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
-      "id": "moelis-040",
-      "topic": "Markets",
-      "question": "LFCF Yield is X%, EBITDA is $X, D&A is $X, Interest Expense is $X, CapEx is $X, Positive Change in NWC $X, Taxes of $X, $X Debt, $X Cash... Find EV (answer for this is X, but to make harder, use X% TR | Hint... LFCF yield is how you find equity value | LFCF / equity value = X%)",
       "answer": "",
       "group": "MOE M&A",
       "source": [
