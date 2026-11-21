@@ -1,0 +1,246 @@
+{
+  "bank": "Greenhill",
+  "tier": "Elite Boutique",
+  "questions": [
+    {
+      "id": "greenhill-001",
+      "topic": "Behavioral",
+      "question": "Why Greenhill RX",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-002",
+      "topic": "Behavioral",
+      "question": "This is a subscription-based company. They will receive $X by the end of the entire year — walk me through what happens with a X% TR after the first month.",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-003",
+      "topic": "Behavioral",
+      "question": "What is secured leverage and total leverage?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-004",
+      "topic": "Accounting",
+      "question": "Year X: Revenue X, EBITDA X. Year X: Revenue X, EBITDA X. What happens here?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-005",
+      "topic": "Accounting",
+      "question": "$X interest expense (X% cash and X% PIK) with $X interest income and a tax rate of X% — walk me through the three statements.",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-006",
+      "topic": "Accounting",
+      "question": "A company has $X of debt with a X% interest rate (X% Cash / X% PIK), and $X of Treasury bill income with an interest rate of X%. Tax rate is X%. Walk me through the 3 statements.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-007",
+      "topic": "Valuation",
+      "question": "What has a greater impact on enterprise value: $X increase in Equity Value vs. $X increase in EBITDA?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-008",
+      "topic": "Valuation",
+      "question": "Rank three valuations highest to lowest",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-009",
+      "topic": "DCF",
+      "question": "You have a large capital expenditure in either year X or year X. How would this affect the Perpetuity growth method vs. Exit multiple strategy for calculating terminal value?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-010",
+      "topic": "Markets",
+      "question": "What is an industry that you follow and how does it relate to the current RX landscape?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-011",
+      "topic": "Markets",
+      "question": "A company has $X of debt, $X of preferred equity, $X of common equity, and $X of cash, and an EBITDA of $X. What is the EV and leverage ratio?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-012",
+      "topic": "Markets",
+      "question": "Let’s say that the company paid down $X of debt using the cash they have, how does this change the EV, EV/EBITDA, and leverage ratio?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-013",
+      "topic": "Markets",
+      "question": "RCF with $X of undrawn capacity, $X in cash, $X in debt. Debt covenants: Xx EBITDA leverage ratio or X% drawn. (Determine liquidity while keeping covenants in mind; follow-ups on how the leverage multiple and EV/EBITDA multiple would change with a discounted debt buyback)",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-014",
+      "topic": "Markets",
+      "question": "You have X bonds. What are their YTMs?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-015",
+      "topic": "Markets",
+      "question": "Bond X: trading at X, X% coupon, matures in 20XX",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-016",
+      "topic": "Markets",
+      "question": "Let’s say there are two senior secured notes with the same maturity date and same coupon rate. Why would they trade differently? (Looking for at least X-X reasons)",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-017",
+      "topic": "Markets",
+      "question": "What are ways for a company to raise liquidity?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-018",
+      "topic": "Markets",
+      "question": "What are signs of distress?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-019",
+      "topic": "Markets",
+      "question": "RCF with $X drawn at S + Xbps (SOFR = X%), 1L $X at X% interest rate, unsecured $X at X% interest rate, and EBITDA of $X.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-020",
+      "topic": "Markets",
+      "question": "What is the expected recovery?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-021",
+      "topic": "Markets",
+      "question": "By some miracle, unsecured $X lies within an OpCo with no upstream guarantee — how does this change recoveries?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-022",
+      "topic": "Markets",
+      "question": "Where do you see the restructuring landscape within the next few months/years?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-023",
+      "topic": "Corporate Finance",
+      "question": "A target company has a PE multiple of X and a COD of X%. Is this accretive or dilutive?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "greenhill-024",
+      "topic": "Corporate Finance",
+      "question": "Company A acquires company B for X% cash and X% debt. Company B has a PE of X, COD X%, COC X%. At a X% tax rate. Would this deal be accretive or dilutive and by how much?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

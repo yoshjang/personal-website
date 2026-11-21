@@ -1,0 +1,24 @@
+{
+  "bank": "Credit Suisse",
+  "tier": "Bulge Bracket",
+  "questions": [
+    {
+      "id": "credit-suisse-001",
+      "topic": "Accounting",
+      "question": "When would CapEx be included in Cash Flow from Operations?",
+      "answer": "",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "credit-suisse-002",
+      "topic": "DCF",
+      "question": "Your company trades at 10x P/FCF and is buying a company with a 20x P/FCF. With 50% debt and 50% stock financing at a rate of 33%, what is the breakeven interest rate? What if this changes to 75% debt and 25% stock?",
+      "answer": "",
+      "source": [
+        "scale_techs"
+      ]
+    }
+  ]
+}

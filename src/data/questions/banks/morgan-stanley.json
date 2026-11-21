@@ -1,0 +1,304 @@
+{
+  "bank": "Morgan Stanley",
+  "tier": "Bulge Bracket",
+  "questions": [
+    {
+      "id": "morgan-stanley-001",
+      "topic": "Behavioral",
+      "question": "Why MS Real Estate IBD",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-002",
+      "topic": "Behavioral",
+      "question": "Why RE?",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-003",
+      "topic": "Behavioral",
+      "question": "Why GCM",
+      "answer": "",
+      "group": "GCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-004",
+      "topic": "Behavioral",
+      "question": "What product within GCM are you most interested in?",
+      "answer": "",
+      "group": "GCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-005",
+      "topic": "Behavioral",
+      "question": "Tell me about a leadership role you had, what you gained from it, and how that's applicable at MS",
+      "answer": "",
+      "group": "MS IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-006",
+      "topic": "Behavioral",
+      "question": "Tell me about a challenge you faced",
+      "answer": "",
+      "group": "MS IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-007",
+      "topic": "Behavioral",
+      "question": "How did you prep for this interview?",
+      "answer": "",
+      "group": "GCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-008",
+      "topic": "Behavioral",
+      "question": "What is the difference between a good and a great analyst?",
+      "answer": "",
+      "group": "GCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-009",
+      "topic": "Behavioral",
+      "question": "What differentiates you?",
+      "answer": "",
+      "group": "GCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-010",
+      "topic": "Behavioral",
+      "question": "What are you most worried about going into a SA program in GCM?",
+      "answer": "",
+      "group": "GCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-011",
+      "topic": "Valuation",
+      "question": "Tell me about a time you had to use multiple pieces of info to make a recommendation — how did you go about sourcing that info?",
+      "answer": "",
+      "group": "MS IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-012",
+      "topic": "Valuation",
+      "question": "What is a RE-specific valuation method?",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-013",
+      "topic": "Valuation",
+      "question": "Walk me through NAV at a high level",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-014",
+      "topic": "Valuation",
+      "question": "How does an increasing fed funds rate affect valuation?",
+      "answer": "",
+      "group": "GCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-015",
+      "topic": "DCF",
+      "question": "Would you rather have $X now or $X into perpetuity?",
+      "answer": "",
+      "group": "MS IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-016",
+      "topic": "DCF",
+      "question": "What is unlevered FCF? Walk me from revenue to unlevered FCF.",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-017",
+      "topic": "DCF",
+      "question": "What discount rate is used in ULFCF?",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-018",
+      "topic": "DCF",
+      "question": "Is the cost of debt lower or higher than the overall discount rate, and why?",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-019",
+      "topic": "M&A",
+      "question": "Accretion/dilution: one company has a higher P/E and the other has a lower P/E — is the deal accretive or dilutive?",
+      "answer": "",
+      "group": "MS IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-020",
+      "topic": "M&A",
+      "question": "A company is acquired for a 50% premium and its EV/EBITDA multiple rises from 10x to 15x. What can you say about the company?",
+      "answer": "If a company is acquired for a 50% premium, this means the equity value, not inherently the enterprise value, has risen by 50%. However, if EV/EBITDA also rises by 50%, as is the case here, then EV must increase by 50% as well. EV = Equity Value + Net Debt, therefore Net Debt must be $0.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "morgan-stanley-021",
+      "topic": "LBO",
+      "question": "What are 3 reasons why a DCF would have a higher valuation than an LBO?",
+      "answer": "1. In an LBO, most of the cash flows from the projection period are used to repay debt, and therefore aren’t available to accrue to the valuation\n2. Cost of Equity for an LBO is higher because the sponsor expects greater returns due to high leverage and illiquidity\n3. The higher amount of leverage and higher interest expense therefore limits both organic value creation and growth projects, producing a lower valuation",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "morgan-stanley-022",
+      "topic": "Markets",
+      "question": "Walk me through a deal on your resume",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-023",
+      "topic": "Markets",
+      "question": "What is a recent RE trend?",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-024",
+      "topic": "Markets",
+      "question": "Walk me through a RE trend in the broader markets",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-025",
+      "topic": "Markets",
+      "question": "What's driving the market right now?",
+      "answer": "",
+      "group": "GCM",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-026",
+      "topic": "Markets",
+      "question": "If credit card rates go down, would you spend less or more?",
+      "answer": "",
+      "group": "MS IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-027",
+      "topic": "Industry",
+      "question": "How is a cap rate different from an IRR?",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-028",
+      "topic": "Industry",
+      "question": "How does property value change when cap rates expand?",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-029",
+      "topic": "Industry",
+      "question": "Calculate P/FFO",
+      "answer": "",
+      "group": "Real Estate IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-030",
+      "topic": "Brain Teasers",
+      "question": "Market sizing: estimate the daily revenue of the Times Square Starbucks",
+      "answer": "",
+      "group": "MS IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

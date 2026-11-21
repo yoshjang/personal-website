@@ -1,0 +1,356 @@
+{
+  "bank": "Allen & Co",
+  "tier": "Elite Boutique",
+  "questions": [
+    {
+      "id": "allen-co-001",
+      "topic": "Behavioral",
+      "question": "Do you want to stay in IB for the long term?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-002",
+      "topic": "Behavioral",
+      "question": "Have you thought about doing something else? Why come back to banking?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-003",
+      "topic": "Behavioral",
+      "question": "What would you like to accomplish in your life?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-004",
+      "topic": "Behavioral",
+      "question": "Anything you learned from past internships that made you more interested in IB?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-005",
+      "topic": "Behavioral",
+      "question": "What is something outside of finance that helps you with IB?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-006",
+      "topic": "Behavioral",
+      "question": "What X words would your friends use to describe you?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-007",
+      "topic": "Behavioral",
+      "question": "Tell me about feedback you've received or something you've had to overcome in your life.",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-008",
+      "topic": "Behavioral",
+      "question": "Which of those do you think would make more sense in different scenarios?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-009",
+      "topic": "Behavioral",
+      "question": "Logically, why is that?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-010",
+      "topic": "Behavioral",
+      "question": "If you own converts in a company and they are in-the-money, why wouldn't you convert them?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-011",
+      "topic": "Behavioral",
+      "question": "What are the qualities of a good person?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-012",
+      "topic": "Behavioral",
+      "question": "Which qualities for a good person do you think you lack?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-013",
+      "topic": "Behavioral",
+      "question": "What else do you do for fun?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-014",
+      "topic": "Behavioral",
+      "question": "Do you write about coffee tasting?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-015",
+      "topic": "Behavioral",
+      "question": "How did you end up in coffee tasting?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-016",
+      "topic": "Behavioral",
+      "question": "What is your favorite class as a numbers person?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-017",
+      "topic": "Behavioral",
+      "question": "Tell me about Forte Foundation",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-018",
+      "topic": "Behavioral",
+      "question": "How do you balance various responsibilities?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-019",
+      "topic": "Accounting",
+      "question": "How does SBC affect the 3 statements?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-020",
+      "topic": "Accounting",
+      "question": "How does an increase from $XM to $XM in SMB affect the 3 statements, with a X% tax rate?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-021",
+      "topic": "Valuation",
+      "question": "How do you get from EV to stock price?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-022",
+      "topic": "Valuation",
+      "question": "What are some usual comps / multiples you'd use for public comps?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-023",
+      "topic": "Valuation",
+      "question": "If you were doing precedent analysis, how do you think that would compare to public comps?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-024",
+      "topic": "Valuation",
+      "question": "Rank from least to most expensive way to fund a business",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-025",
+      "topic": "DCF",
+      "question": "How would you project FCF?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-026",
+      "topic": "DCF",
+      "question": "What costs do you add back to go from levered to unlevered free cash flow?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-027",
+      "topic": "DCF",
+      "question": "How would SBC get factored in a DCF?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-028",
+      "topic": "DCF",
+      "question": "What does CAPM actually say? How would you put it into plain English?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-029",
+      "topic": "DCF",
+      "question": "If you look at a company with political risk, why would Beta, which only looks at correlation to the market, be the only measure you use?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-030",
+      "topic": "DCF",
+      "question": "What's the output of the DCF",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-031",
+      "topic": "M&A",
+      "question": "If you were thinking about M&A, why wouldn't you use the cheapest source of financing?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-032",
+      "topic": "M&A",
+      "question": "Why do we calculate the premium that way? (Why do investors look at cost of equity, and how do you conceptually arrive at the ERP formula?)",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-033",
+      "topic": "M&A",
+      "question": "How do you treat options in an acquisition — some vested, some not vested?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-034",
+      "topic": "Markets",
+      "question": "How do you get your news?",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "allen-co-035",
+      "topic": "Corporate Finance",
+      "question": "How do you get COE",
+      "answer": "",
+      "group": "Allen & Co IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

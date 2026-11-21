@@ -1,0 +1,116 @@
+{
+  "bank": "Barclays",
+  "tier": "Bulge Bracket",
+  "questions": [
+    {
+      "id": "barclays-001",
+      "topic": "Valuation",
+      "question": "Why would you ever do a sum of the parts valuation?",
+      "answer": "8. Liquidation Valuation\n9. Replacement Value (valuing a company based on the cost of replacing its assets)",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "barclays-002",
+      "topic": "DCF",
+      "question": "How is UFCF and LFCF different?",
+      "answer": "UFCF is cash flow available to both debt and equity holders of the company while LFCF is cash flow only available to equity holders. Therefore, the difference between the two are tax affected interest expense and debt repayments",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "barclays-003",
+      "topic": "DCF",
+      "question": "What do you discount LFCF by?",
+      "answer": "We discount LFCF by the Cost of equity as it is a cash flow that is only available to equity holders",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "barclays-004",
+      "topic": "DCF",
+      "question": "What do you get in a DCF using LFCF?",
+      "answer": "Equity Value",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "barclays-005",
+      "topic": "DCF",
+      "question": "If you are creating a model and recognize debt will be issued in the 4th year, do you include that in your LFCF Model?",
+      "answer": "Yes, as this will affect the interest I will need to pay and in turn, alter my LFCF generation",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "barclays-006",
+      "topic": "M&A",
+      "question": "How do you determine Market Risk Premium?",
+      "answer": "Market Risk Premium is the difference between the expected return of the market and the risk-free rate (10- year treasury)",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "barclays-007",
+      "topic": "M&A",
+      "question": "What is the post merger EPS? (Part 2)",
+      "answer": "$5.52. We know the earnings of the combined entity will be $800 and Company A currently has 100 shares outstanding. To determine how many shares must be issued to acquire B, we divide B’s market cap by Company A’s share price which comes to 45. Therefore, 800/(100+45) = $5.52.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "barclays-008",
+      "topic": "M&A",
+      "question": "Assume now that it is 50% debt and 50% stock, what interest rate on the debt would allow for this deal to be accretive at the exact same level of accretion - 20% tax rate (Part 3)",
+      "answer": "6.88% → Solve for i: (500 + 300 – 2250*(1-0.2)*i)/(100+22.5) = $5.52",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "barclays-009",
+      "topic": "M&A",
+      "question": "Company A is acquiring Company B, is it accretive or dilutive? A: NI = $500, SO = 100, SP = $100 B: NI = $300, SO = 100, SP = $45 …… All Stock Deal (Part 1)",
+      "answer": "The deal is accretive. First, we determine the market cap of each company by multiplying the shares outstanding by the price per share. Then, we divide that by their net income to determine their respective P/E multiples. Comparing the two, A has a greater P/E; therefore, in an all stock deal, it will be accretive.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "barclays-010",
+      "topic": "LBO",
+      "question": "What is the purpose of doing an LBO?",
+      "answer": "The purpose of an LBO is to determine a valuation a financial sponsor could pay for to achieve a specific targeted IRR with a highly levered capital structure",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "barclays-011",
+      "topic": "LBO",
+      "question": "If you were to rank precedents, comps, DCF and LBO from lowest to highest valuation how would you do that?",
+      "answer": "1. Precedents\n2. DCF\n3. Comps\n4. LBO (Floor valuation)\n*No decisive answer from my research*",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "bank": "UBS",
+  "tier": "Bulge Bracket",
+  "questions": [
+    {
+      "id": "ubs-001",
+      "topic": "Valuation",
+      "question": "A company (he gives you a BS) has negative non controlling interest in their balance sheets - what does this mean? How does it affect EV? Does it need to be adjusted for in your EV because it's negative?",
+      "answer": "Negative NCI means that the losses attributable to the subsidiary are greater than the NCI’s equity. Since we add this to EV, this will decrease EV. We can adjust it out if the financials of the subsidiary is adjusted out of the parent’s financials and metrics such as EBITDA",
+      "source": [
+        "Insider Edge"
+      ]
+    },
+    {
+      "id": "ubs-002",
+      "topic": "Valuation",
+      "question": "Your EV/Sales multiple is 5x and EBITDA margin is 15%, what is your EV/EBITDA multiple?",
+      "answer": "33.3x",
+      "source": [
+        "Insider Edge"
+      ]
+    }
+  ]
+}

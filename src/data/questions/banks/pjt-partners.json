@@ -1,0 +1,286 @@
+{
+  "bank": "PJT Partners",
+  "tier": "Elite Boutique",
+  "questions": [
+    {
+      "id": "pjt-partners-001",
+      "topic": "Behavioral",
+      "question": "What are you most proud of on your resume?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-002",
+      "topic": "Behavioral",
+      "question": "What is a book you read recently?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-003",
+      "topic": "Behavioral",
+      "question": "What is a continuation vehicle? What are the alternatives of pursuing a continuation vehicle for a GP?",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-004",
+      "topic": "Accounting",
+      "question": "5. What is the EBITDA margin for both years?",
+      "answer": "The EBITDA margin for 2017 is 66.7%, and the EBITDA margin for 2018 is 50%.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "pjt-partners-005",
+      "topic": "Accounting",
+      "question": "$X Inventory Sale, $X COGS, $X Depreciation, X% Tax Rate | Walk through the 3 statements",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-006",
+      "topic": "Valuation",
+      "question": "7x EV/EBITDA, 100m EBITDA, 100m cash, 300 debt, 100 shares outstanding, implied share price? (Part 1)",
+      "answer": "EV = 7*$100 = $700\nEquity value = $700 + $100 - $300 = $500\nShare price = $500/100 shares = $5",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "pjt-partners-007",
+      "topic": "Valuation",
+      "question": "Now you raise 100m of debt, how does this change your equity value? (Part 2)",
+      "answer": "It does not change your equity value unless you used that money to purchase a revenue generating asset",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "pjt-partners-008",
+      "topic": "Valuation",
+      "question": "Xmm market cap, EV/EBITDA = X, net debt = X EBITDA. Find EV.",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-009",
+      "topic": "Valuation",
+      "question": "In 2017, EV/Revenue = 8x and EV/EBITDA = 12x. In 2018, EV/Revenue = 6x and EV/EBITDA = 12x. Is this company growing, and why or why not?",
+      "answer": "Assuming EV remains identical, while EBITDA (and therefore profitability) is not growing year-to-year, the top- line of the company is still growing by 33.3%, and therefore the company is still growing.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "pjt-partners-010",
+      "topic": "Valuation",
+      "question": "Why would one company have an X EV/EBITDA and another have an X EV/EBITDA if they are operationally the same?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-011",
+      "topic": "Valuation",
+      "question": "Questions on the P/E ratio.",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-012",
+      "topic": "DCF",
+      "question": "$X revenue, $X one-time legal fee | What is UFCF | Need to ask for X% EBITDA margin, $X D&A, X% Taxes, $X inventory increase, $X accounts payable increase, $X CAPEX",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-013",
+      "topic": "LBO",
+      "question": "10x EV/EBITDA, 100m EBITDA, 6x leverage, how much equity? (Part 1)",
+      "answer": "Purchase price = 10*100 = 1000\nLeverage = 6*100 = 600\n1000 – 600 = 400",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "pjt-partners-014",
+      "topic": "LBO",
+      "question": "What do you generally consider to be riskier, investing in an LP-led or GP-led secondary transaction",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-015",
+      "topic": "LBO",
+      "question": "What are some reasons a GP might opt for a GP-led secondary transaction?",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-016",
+      "topic": "LBO",
+      "question": "What are some reasons an LP might opt for an LP-led secondary transaction?",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-017",
+      "topic": "LBO",
+      "question": "Why are you interested in secondaries?",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-018",
+      "topic": "LBO",
+      "question": "How would you estimate a discount rate for an LP-led secondary transaction?",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-019",
+      "topic": "LBO",
+      "question": "Walk me through your understanding of the process of a GP-led secondary transaction",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-020",
+      "topic": "LBO",
+      "question": "Why are GPs generally okay with LP-led secondary deals?",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-021",
+      "topic": "LBO",
+      "question": "Where is an LP-interest secondary transaction for a PE buyout selling today relative to NAV?",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-022",
+      "topic": "LBO",
+      "question": "What is a deferral structure in an LP-interest sale?",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-023",
+      "topic": "LBO",
+      "question": "What is the J-curve in private equity and how do secondary deals mitigate that for certain investors?",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-024",
+      "topic": "LBO",
+      "question": "What are some different kinds of GP-led transactions?",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-025",
+      "topic": "LBO",
+      "question": "You buy a company for 10x EV/EBITDA with $100mm in EBITDA and 6x leverage. You sell in 5 years at $150mm EBITDA, paid off $250mm in debt, and sold for 10x. What is the MoM and IRR?",
+      "answer": "NOTE: Assuming cash sweep.\nPurchase Price: $1bn\nSources: Debt - $600mm, Equity - $400mm\nExit Price: $150mm * 10x = $1.5bn. Remaining Debt: $600mm - $250mm = $350mm\nMoM: ($1.5bn – $350mm) / $400mm = $1.15bn / $400mm = 2.875 ~= 3 Use rule of 114: 114/5 = 22.8%. Therefore, the IRR is likely slightly less than 22.8%.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "pjt-partners-026",
+      "topic": "Markets",
+      "question": "Tell me about a company you are following",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-027",
+      "topic": "Markets",
+      "question": "Where do you expect pricing to trend in the future?",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "pjt-partners-028",
+      "topic": "Markets",
+      "question": "Can you talk about a real secondary deal you've read about in the past?",
+      "answer": "",
+      "group": "Park Hill Private Capital Solutions",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

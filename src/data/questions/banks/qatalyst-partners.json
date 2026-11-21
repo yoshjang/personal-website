@@ -1,0 +1,86 @@
+{
+  "bank": "Qatalyst Partners",
+  "tier": "Elite Boutique",
+  "questions": [
+    {
+      "id": "qatalyst-partners-001",
+      "topic": "Accounting",
+      "question": "You buy a chair for 100 in year 0, in year 1, you depreciate on your book for $10, and on your tax filings for $15, walk me through the flow throughs in year 1 & 0 (Assume 40% TR)",
+      "answer": "Year 0:\nIS:\nNo change\nCFS:\nCFI -100\nOverall Cash Change: -100\nBS:\nCash -100\nPPE +100\nYear 1:\nIS:\nD&A -10\nTaxes -4\nNet Income -6\nCF:\nNet Income -6\nD&A +10\nDTL +2\nOverall Cash Change: +6\nBS:\nCash +6\nPPE -10\nDTL +2\nRE -6",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "qatalyst-partners-002",
+      "topic": "Valuation",
+      "question": "Assume the same company has $10,000 in debt, $6,000 in cash, $1,000 in NCI, what is the diluted enterprise value? (Part 2)",
+      "answer": "EV = 20,500 + 10,000 + 1,000 - 6,000 = 25,500",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "qatalyst-partners-003",
+      "topic": "DCF",
+      "question": "If deferred revenue goes up, does LFCF go up or down?",
+      "answer": "Deferred revenue increasing would increase LFCF by decreasing the change in NWC.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "qatalyst-partners-004",
+      "topic": "M&A",
+      "question": "Company A acquires Company B. Company A has a P/E of 10, Company B has a P/E of 20, Accretive or dilutive? What assumptions are you making? (Part 1)",
+      "answer": "I can’t say without knowing how the deal is financed. However, if it is an all stock deal, it will be dilutive since Company A’s P/E is lower than Company B’s",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "qatalyst-partners-005",
+      "topic": "M&A",
+      "question": "What would the tax rate have to be for a company A acquires company B with a cost of debt of 10%, and inflict a neutral impact? (Part 2)",
+      "answer": "Company B’s yield is 5% (1/20), therefore, we will need an after-tax cost of debt of 5% as well to make the deal neutral (10%*(1-TR) = 5%). So, the tax rate needs to be 50%",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "qatalyst-partners-006",
+      "topic": "LBO",
+      "question": "Paper LBO, LFCF margin given, asked for MOIC/IRR. (5x EV/EBITDA purchase & sell, 3x Leverage, 20% LFCF margin, hold for 5 years, LTM EBITDA of $100)",
+      "answer": "Purchase Price: 5*$100 = $500 ($300 debt, $200 equity)\nSelling Price: 5*$100 = $500 ($200 debt, $300 equity) → Reduced debt by $100 with $20 LFCF for 5 years MOIC = $300/$200 = 1.5x",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "qatalyst-partners-007",
+      "topic": "Markets",
+      "question": "You buy a factory for 200, useful life of 10 years, financed using 10% interest rate debt, walk me through year 0, year 1, and year 2 where the asset breaks down, and all debt is paid.",
+      "answer": "Year 0:\nIS:\nNo changs\nCFS:\nCFI -200\nCFF: +200\nOverall Cash Change: 0\nBS\nPPE +200\nDebt +200\nYear 1:\nIS:\nD&A -20\nInt Expense -20\nNet Income -24\nCFS:\nNet Income -24\nD&A +20\nOverall Cash Change: -4\nBS:\nCash -4\nPPE -20\nRE -24\nYear 2:\nIS:\nD&A -20\nInt Expense -20\nRetirement -160\nNet Income -120\nCFS:\nNet Income -120\nRetirement +160\nD&A +20\nDebt Repayment -200\nOverall Cash Change: -140\nBS:\nCash -140\nD&A -20\nPPE -160\nDebt -200\nRE -120",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "qatalyst-partners-008",
+      "topic": "Markets",
+      "question": "You have a company with 50/share price, 200 S/O, 50 options outstanding at an avg exercise price of $20, 30 RSUs, $6000 worth of convertible bonds ($1000 par value, $40 conversion rate), what is the diluted equity value? (Part 1)",
+      "answer": "1. Options are in-the-money. So, we create 50 additional shares. However, we used the funds from these options ($20*50=$1000) to buy back our shares. $1000/$50 = 20 shares bought back +30 shares\n2. RSUs simply get added to the share count\n+30 shares\n3. There are 6 convertible bonds which are in-the-money. At a conversion rate of $40, there are 25 shares created per convertible bond, so we create 150 shares (25 shares * 6 bonds) +150 Now we have, 30+30+150+200 = 410 shares * $50 = $20,500",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    }
+  ]
+}

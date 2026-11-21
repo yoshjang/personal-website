@@ -1,0 +1,276 @@
+{
+  "bank": "RBC",
+  "tier": "Middle Market",
+  "questions": [
+    {
+      "id": "rbc-001",
+      "topic": "Behavioral",
+      "question": "What other firms are you recruiting for? Why that particular mix of firms?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-002",
+      "topic": "Behavioral",
+      "question": "What kind of leader are you?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-003",
+      "topic": "Behavioral",
+      "question": "Tell me about a time when someone on your team wasn't pulling their weight and how you handled it",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-004",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you ran into an ethical issue and how you solved it",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-005",
+      "topic": "Behavioral",
+      "question": "Let's say the company above was the US government, what would the price be?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-006",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you had a hard conversation",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-007",
+      "topic": "Behavioral",
+      "question": "Where do you think interest rates will go in the future?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-008",
+      "topic": "Behavioral",
+      "question": "What is a question you wish I asked you?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-009",
+      "topic": "Behavioral",
+      "question": "M&A comparable company questions.",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-010",
+      "topic": "Accounting",
+      "question": "Where do you find cash on the 3 statements?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-011",
+      "topic": "Accounting",
+      "question": "Where do you find opex on the 3 statements?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-012",
+      "topic": "Accounting",
+      "question": "Where do you find capex on the 3 statements?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-013",
+      "topic": "Valuation",
+      "question": "What are other valuation methods you would use?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-014",
+      "topic": "Valuation",
+      "question": "What is the 4th valuation method",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-015",
+      "topic": "Valuation",
+      "question": "What is the 5th valuation method",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-016",
+      "topic": "DCF",
+      "question": "What WACC did you use for the pitch on your resume?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-017",
+      "topic": "M&A",
+      "question": "Tell me about the M&A markets over the past few months",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-018",
+      "topic": "LBO",
+      "question": "In an LBO, how would you figure out how much debt to use?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-019",
+      "topic": "LBO",
+      "question": "Why is an LBO a floor valuation?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-020",
+      "topic": "Markets",
+      "question": "Tell me about a company you find interesting",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-021",
+      "topic": "Markets",
+      "question": "Teach me something I don't know (news-focused).",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-022",
+      "topic": "Markets",
+      "question": "What is the difference between LevFin and DCM",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-023",
+      "topic": "Markets",
+      "question": "Could you tell me how you would price a bond with a X-year maturity, X par value, and a X% annual coupon? (Trick question — it depends on the company.)",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-024",
+      "topic": "Markets",
+      "question": "If the interest rate / risk-free rate were X, how much would you pay for the above bond?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-025",
+      "topic": "Markets",
+      "question": "How much would you pay for a bond with a par value of X that lasts to perpetuity and has no coupon? (You wouldn't buy it because you would never get paid.)",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-026",
+      "topic": "Markets",
+      "question": "What is the difference between ECM and DCM",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "rbc-027",
+      "topic": "Corporate Finance",
+      "question": "How would a company go about raising capital?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

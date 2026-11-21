@@ -1,0 +1,207 @@
+{
+  "topic": "Corporate Finance",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Buy company at 1000M, sell at 750M, debt stays at 500M, is there any investor return?",
+      "answer": "There could’ve been if the company issued dividends.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ],
+      "askedAt": [
+        "Credit Suisse",
+        "UBS"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Why would a company issue debt vs. equity?",
+      "answer": "",
+      "group": "BofA IBD, RX",
+      "source": [
+        "IB Questions v12"
+      ],
+      "askedAt": [
+        "Bank of America",
+        "Houlihan Lokey"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "As an investor, would you rather have a $10 increase in revenue, a $10 increase in gross profit, or a $10 decrease in CapEx?",
+      "answer": "Best would be decrease in CapEx (doesn’t affect tax), then increase in gross profit, then increase in revenue (as this will also increase COGS).",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Assume a company issues a surprise dividend with excess cash that it has on its balance sheet. What should be the change to the company’s intrinsic P/E ratio as a result?",
+      "answer": "P/E decreases (earnings yield increases). P/E is a blended multiple out of all the assets within the company and cash returns the least earnings to the company. Hence, with fewer assets in the firm due to a decrease in cash, P/E should decrease as a result. (Alternatively, earnings yield increases with an increase in dividend, so P/E, the inverse, decreases).",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which of the following has a greater impact in a DCF valuation? A $1 increase in revenue, a $1 increase in cash OpEx, or a $1 increase in changes in NWC? Rank them.",
+      "answer": "NWC > OpEx > revenue. NWC is the highest as it has no bearing on tax (it follows tax in the model). OpEx will have a greater impact than revenue because an increase in revenue increases COGS as well.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "If a company’s revenue is expected to increase by $100, would you rather buy a company with higher operating leverage or lower?",
+      "answer": "Higher operating leverage, as this implies a greater proportion of costs will be fixed, and therefore the increase in COGS accompanying the revenue increase will be lower.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "When would you rather invest in a company with lower Operating Leverage?",
+      "answer": "If you are investing in a company with demand uncertainty or considerable cyclicality, it is important that the company has lower Operating Leverage so it can weather periods of lower revenue and reduce costs.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "A company has a ROA of 10%. It is financed with 50% debt and 50% equity. The cost of debt is 5%. What is the cost of equity?",
+      "answer": "ROA = WeKe + WdKd --> 0.10 = 0.5(Ke) + 0.5(0.05) --> ROA = 15%",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What type of companies would have a low ROA but high ROE?",
+      "answer": "As the return (the numerator) is identical for both formulas, equity must be response for a small part of the capital structure, and therefore the company is highly levered. An example of a company profile that fits this is a financial institution, which has a large cash balance, or an asset-heavy business model company like manufacturing.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "An airline company has $3000 in revenue, $300 in variable costs, and $1000 in fixed costs. A trucking company has $3000 in revenue, $900 in variable costs and $400 in fixed costs. Which is riskier?",
+      "answer": "The airline company is riskier because it has higher operating leverage – a higher proportion of fixed costs. As a result, in economic downturns when revenue falls, the company continues to pay significant fixed costs and operating leverage compresses more significantly.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Which would have a higher WACC – Dominos or a small pizza store?",
+      "answer": "Generally, the small pizza store would have a higher WACC as it represents an investment that is illiquid and likely riskier, given its smaller potential target audience and limited human capital.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 12,
+      "question": "5. In what circumstances would the small pizza store be less risky?",
+      "answer": "A small pizza store may be less risky if it has a very captive audience (e.g. a University student population).",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What distinguishes a good business from a good investment?",
+      "answer": "You need to be able to buy into a good business at an attractive price for it to be a good investment.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What makes a good business?",
+      "answer": "Look at this from a top-down analysis.\nBelongs to a strong industry (tailwinds, growth, low regulatory risk, high barriers to entry) --> Competitive Advantage (supply-side, demand-side, economies of scale) --> Good Management Team (flexibility) --> Stable Cash Flows, Low Maintenance Capex, etc.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Why would a company stay private?",
+      "answer": "• Not at the whims of public shareholders that want strong quarterly results – makes you freer to optimize operations and not worry about short-term gains\n• Less strict reporting requirements – get to keep financials private\n• Less intense accounting standards\n• Save on the costs of reporting and releasing financials",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Does a weaker $CAD help or hurt exports? Why and when would it hurt?",
+      "answer": "A weaker $CAD typically helps exports as it reduces the relative price of exported goods and makes them more competitive in the international markets, improving commerce. It would hurt exports if the value of the dollar deflates significantly due to high inflation, making it unstable as a currency, which would inhibit trade.",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 17,
+      "question": "If a company has international offices, and has cash in the system, how would you transfer cash to one of the international jurisdictions?",
+      "answer": "To transfer cash to one of the international jurisdictions (as there are limitations in place to transferring wealth across sovereign borders), raise debt in the intended target jurisdiction collateralized against the company’s subsidiary with the cash balance (regardless of its location).",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 18,
+      "question": "How do you determine an appropriate capital structure for a business?",
+      "answer": "In general, a stable company should take on debt to improve its ability to execute on growth projects (whether organic (greenfield, brownfield) or inorganic), but should not impede the company’s stability and ability to grow earnings past the short-term. Once debt begins to significantly diminish cash flow and hurts growth prospects, the company is over-levered. However, the specific capital structure of a business depends on its strategy. Depends on the strategy of the business.\n• Businesses that are early-stage (i.e. looking to grow rapidly, but very risky) are likely to be financed almost entirely with equity – like tech and bio-tech start-ups\n• Taking on significant additional debt can also be acceptable when purchased by a financial sponsor as long as the business supports it",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Would you rather have a 10% increase in revenue or a 2% increase in margin?",
+      "answer": "Depends on what the current revenue and margin is. For example: If revenue is $100 and our margin is 20%, the 10% increase in revenue and the 2% increase in margin result in the same outcome!",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 20,
+      "question": "If you short a stock, and the stock was delisted from the stock exchange. Does that mean you win everything?",
+      "answer": "Having a short sell position on a stock that gets delisted is the optimal scenario for that investor as their obligations become 0 *11. Cash flows of a company are increasing but networking capital is decreasing, can you tell me why? Company is beginning to receive cash from AR increasing cash flow and may also be deferring payment to suppliers *12. ROA increase 10-15%…. ROE decrease 3% why?\nPossible scenario: The company issued a large amount of equity and used the cash proceeds to pay off debt. This increases shareholder’s equity yet does not increase total assets (no increase in cash reserves)",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 21,
+      "question": "5 data points: Gold price, housing, currency ex Cad/USD, Oil, and inflation. Pick 3 and tell me how they are correlated.",
+      "answer": "Possible answer: As oil prices increase, there will be a general increase in inflation due to the creation of jobs and more capital projects. With inflation, the currency ex CAD/USD will be affected",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": 22,
+      "question": "What are the three core financial statements and what is the primary information each one provides?\nA: Income Statement (profitability over a period), Balance Sheet (financial position at a point in time), and Cash Flow Statement (cash movements).\nB: Statement of Operations (asset values), Financial Position sheet (period profitability), and a Statement of Retained Earnings (cash inflows and outflows).\nC: Income Statement (a snapshot of company assets), Balance Sheet (all cash flows from operations), and a Cash Flow Statement (changes in shareholder equity).\nD: Revenue summary (investing activities), Capital Structure sheet (operating performance), and a Cash Reconciliation (all sources and uses of funds).",
+      "answer": "Correct: A: Income Statement (profitability over a period), Balance Sheet (financial position at a point in time), and Cash Flow Statement (cash movements). The Income Statement reports a company's profitability over a period. The Balance Sheet provides a snapshot of assets, liabilities, and equity at a specific point in time. The Cash Flow Statement tracks all cash inflows and outflows.",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 23,
+      "question": "If you could only look at one financial statement to assess a company's overall health, which would it be and why?\nA: The Income Statement, as it provides a clear measure of profitability and is the basis for most valuation multiples.\nB: The Balance Sheet, as it details the company's capital structure and ability to meet its obligations at a point in time.\nC: The Cash Flow Statement, as it reveals a company's true liquidity and cash generation abilities, free of accounting distortions.\nD: The Statement of Shareholders' Equity, as it directly tracks the sources of value creation for the owners.",
+      "answer": "Correct: C: The Cash Flow Statement, as it reveals a company's true liquidity and cash generation abilities, free of accounting distortions. The Cash Flow Statement best reflects a company's overall financial health because it shows how much cash the company is actually generating. This is crucial as it's independent of non-cash accounting expenses and accrual judgments that can obscure true liquidity. thelocker.ai/lockers/knowledge",
+      "source": [
+        "The 500"
+      ]
+    },
+    {
+      "id": 24,
+      "question": "When building a DCF, which free cash flow metric should be used to arrive at Enterprise Value versus Equity Value?\nA: Unlevered FCF is discounted to find Equity Value because it represents cash flows before debt service, which is then subtracted.\nB: Levered FCF is discounted to find Enterprise Value because it accounts for the full capital structure's cash flows.\nC: Unlevered FCF (FCFF) is discounted to find Enterprise Value, while Levered FCF (FCFE) is discounted to find Equity Value.\nD: Enterprise Value is the standard output for both FCF types, with debt adjustments made after the DCF is complete.",
+      "answer": "Correct: C: Unlevered FCF (FCFF) is discounted to find Enterprise Value, while Levered FCF (FCFE) is discounted to find Equity Value. Unlevered Free Cash Flow excludes interest expenses, making it cash flow available to ALL investors (debt and equity), so it is appropriately paired with Enterprise Value. Levered Free Cash Flow already accounts for interest expenses, meaning it's the cash flow available only to equity investors, and thus is paired with Equity Value.",
+      "source": [
+        "The 500"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "bank": "Perella Weinberg",
+  "tier": "Elite Boutique",
+  "questions": [
+    {
+      "id": "perella-weinberg-001",
+      "topic": "Behavioral",
+      "question": "Asked about almost every bullet point on your resume.",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-002",
+      "topic": "Behavioral",
+      "question": "What does a banker do?",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-003",
+      "topic": "Accounting",
+      "question": "A company pays X% interest on debt while depreciating $X of a factory, and repays $X of the loan — walk through the 3 financial statements.",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-004",
+      "topic": "Accounting",
+      "question": "What are the 3 financial statements and their major line items?",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-005",
+      "topic": "Accounting",
+      "question": "Accounting: a company takes $X of debt for a factory; after X years at X% interest, it repays $X of the loan — walk through the 3 financial statements.",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-006",
+      "topic": "Valuation",
+      "question": "Find the share price from a set of metrics.",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-007",
+      "topic": "Valuation",
+      "question": "How do you value a company without revenue?",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-008",
+      "topic": "Valuation",
+      "question": "What are the X valuation methods, and which one gives the highest valuation?",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-009",
+      "topic": "Valuation",
+      "question": "How does leverage affect valuation?",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-010",
+      "topic": "Valuation",
+      "question": "Questions about P/E.",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-011",
+      "topic": "Valuation",
+      "question": "A straightforward debt question: what is it trading at?",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-012",
+      "topic": "Valuation",
+      "question": "X valuation methods plus X more — advantages and disadvantages of each.",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-013",
+      "topic": "DCF",
+      "question": "How do AP and AR impact FCF?",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-014",
+      "topic": "DCF",
+      "question": "What is beta conceptually, and give an example of a company with a negative beta and a beta of X?",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-015",
+      "topic": "DCF",
+      "question": "How to calculate cost of debt and equity",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-016",
+      "topic": "M&A",
+      "question": "What is the M&A outlook?",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-017",
+      "topic": "M&A",
+      "question": "Walk through the steps of a deal and when key events (VDR, exclusivity, etc.) take place.",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-018",
+      "topic": "LBO",
+      "question": "Paper LBO.",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-019",
+      "topic": "Markets",
+      "question": "What is the latest interest rate news?",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-020",
+      "topic": "Markets",
+      "question": "Walk me through another deal.",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-021",
+      "topic": "Markets",
+      "question": "Talk about your experiences (asked in-depth about the industry).",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-022",
+      "topic": "Markets",
+      "question": "Tell me about a time you demonstrated resilience.",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-023",
+      "topic": "Markets",
+      "question": "Accounting question using PIK and cash interest, then selling for a gain after year X.",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "perella-weinberg-024",
+      "topic": "Corporate Finance",
+      "question": "What are some key financial ratios?",
+      "answer": "",
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

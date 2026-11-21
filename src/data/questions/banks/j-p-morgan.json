@@ -1,0 +1,415 @@
+{
+  "bank": "J.P. Morgan",
+  "tier": "Bulge Bracket",
+  "questions": [
+    {
+      "id": "j-p-morgan-001",
+      "topic": "Behavioral",
+      "question": "What is your greatest strength and how did you come to like JPM?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-002",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you worked with a diverse group of people",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-003",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you had a disagreement with someone",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-004",
+      "topic": "Behavioral",
+      "question": "Tell me about an ethical dilemma you faced",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-005",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you had a different perspective than someone else",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-006",
+      "topic": "Behavioral",
+      "question": "What does day-to-day look like for analysts?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-007",
+      "topic": "Behavioral",
+      "question": "JPM supports diversity, equity, and inclusion, and asks all employees to exhibit cultural sensitivity — how have you demonstrated that?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-008",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you've handled complex data.",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-009",
+      "topic": "Behavioral",
+      "question": "How do you adjust your communication style for different people?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-010",
+      "topic": "Accounting",
+      "question": "You have an empty factory that blows up, what happens to the 3 financial statements? Does change in net income outweigh change in cash flow? Why?",
+      "answer": "Write off the asset since it has no value remaining.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "j-p-morgan-011",
+      "topic": "Accounting",
+      "question": "Walk me through the cash flow of the specific company you pitched (focus on revenue drivers, not exact numbers)",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-012",
+      "topic": "Accounting",
+      "question": "Why is EBITDA a good or bad metric?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-013",
+      "topic": "Accounting",
+      "question": "What would you look at other than EBITDA?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-014",
+      "topic": "Accounting",
+      "question": "What other items on the income statement provide a tax shield?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-015",
+      "topic": "Valuation",
+      "question": "How do you calculate FDSO using treasury stock method?",
+      "answer": "If options are in-the-money, I will assume all options are exercised. Using the proceeds from this sale of stock, I will repurchase shares at the current share price to mitigate the dilution of this exercise to determine my FDSO",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "j-p-morgan-016",
+      "topic": "Valuation",
+      "question": "If a company issues a dividend, how do the P/E, EV/EBITDA, and P/B ratios change?",
+      "answer": "P/E decreases (equity value decreases)\nEV/EBITDA remains unchanged (equity value decrease is offset by cash decrease) P/B depends on the ratio prior to the dividend\n• = 1: Unchanged\n• > 1: Increases\n• < 1: Decreases",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "j-p-morgan-017",
+      "topic": "Valuation",
+      "question": "Why would you use comps/precedents instead of intrinsic valuation?",
+      "answer": "Two biggest reasons: Comps are better for determining a valuation in a timely and easy manner. Additionally, a DCF can be less helpful for companies with unpredictable cash flows",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "j-p-morgan-018",
+      "topic": "Valuation",
+      "question": "What is your favorite valuation method and why?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-019",
+      "topic": "Valuation",
+      "question": "Why might companies have similar EBITDA but different multiples?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-020",
+      "topic": "Valuation",
+      "question": "How would you value a coffee company?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-021",
+      "topic": "DCF",
+      "question": "How do you value financial institutions? How does it differ from a DCF?",
+      "answer": "Since they are balance sheet-centric, using a DDM would be more appropriate for valuing financial institutions for several reasons:\n1. To capture the impact of important line items such as interest income/expense\n2. Banks use debt in a fundamentally different way: Create products rather than re-invest into business Compared to a typical DCF, a DDM discounts dividends by the cost of equity rather than discounting cash flows by WACC",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "j-p-morgan-022",
+      "topic": "DCF",
+      "question": "Walk me through levered free cash flow (LFCF)",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-023",
+      "topic": "DCF",
+      "question": "Explain a DCF to a 5-year-old?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-024",
+      "topic": "DCF",
+      "question": "What would the graph of WACC vs. % debt look like?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-025",
+      "topic": "M&A",
+      "question": "What are the ways to finance an acquisition?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-026",
+      "topic": "M&A",
+      "question": "Would a financial or strategic buyer pay more?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-027",
+      "topic": "M&A",
+      "question": "What are some risks of a conglomerate divesting certain subsidiaries?",
+      "answer": "",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "j-p-morgan-028",
+      "topic": "LBO",
+      "question": "What type of financing would you use for an LBO — term loans or bonds?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-029",
+      "topic": "Markets",
+      "question": "Walk me through a company you have been following",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-030",
+      "topic": "Markets",
+      "question": "Tell me about trends you have been following and how they may impact JPMC business",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-031",
+      "topic": "Markets",
+      "question": "What's one group within JPM you're interested in, and what's going on in their industry?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-032",
+      "topic": "Markets",
+      "question": "If my company has been profitable for the past couple years, how can it go bankrupt?",
+      "answer": "Profitability does not mean it is liquid. While a company can show positive net income on the income statement, that does not mean it is generating sufficient cash flows to continue operating. Upcoming interest payments and debt maturities can force “profitable” companies to file for chapter 11",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "j-p-morgan-033",
+      "topic": "Corporate Finance",
+      "question": "What's a risk of being benchmarked to the TSX?",
+      "answer": "Firstly, if you’re a company operating in the States, benchmarking your performance against a stock exchange heavily dominated by Canadian companies may not be the most representative of the general market in which you operate in. Secondly, many of the companies listed on the TSX are mining and O&G companies which also may not be an appropriate benchmark for performance if you operate within a very different sector.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "j-p-morgan-034",
+      "topic": "Corporate Finance",
+      "question": "Walk me through the P&L of a coffee shop in Austin",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-035",
+      "topic": "Corporate Finance",
+      "question": "Why might a company prefer debt or equity in an acquisition?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-036",
+      "topic": "Corporate Finance",
+      "question": "In corporate finance theory, what is the term for the perfect amount of debt and equity?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-037",
+      "topic": "Corporate Finance",
+      "question": "How could they grow, inorganically and organically?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-038",
+      "topic": "Brain Teasers",
+      "question": "You have a gun with 6 chambers and 2 bullets are placed consecutively. I shoot and I don't die. If I gave you the chance to re-calibrate or not, what would you do?",
+      "answer": "I would not re-calibrate. Under the current circumstances, there are four potential spots the gun is current positioned at so I have a 25% chance of dying but if I spin again, I will go back to a 33.33% (2/6) chance of dying",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "j-p-morgan-039",
+      "topic": "Brain Teasers",
+      "question": "You have the numbers X, X, X, X and can only use each operation once — how do you make X?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-040",
+      "topic": "Brain Teasers",
+      "question": "X identical strings take X hour to burn each but burn non-uniformly (in X minutes they may barely burn and finish the rest in the last X minutes, etc.) — how do you measure X minutes?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-041",
+      "topic": "Brain Teasers",
+      "question": "You are a taxi driver at JFK and you can wait X minutes at airport for a guaranteed $X ride to NYC or you can drive back instantly. What would you do?",
+      "answer": "",
+      "group": "IBD",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

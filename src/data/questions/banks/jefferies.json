@@ -1,0 +1,56 @@
+{
+  "bank": "Jefferies",
+  "tier": "Middle Market",
+  "questions": [
+    {
+      "id": "jefferies-001",
+      "topic": "Valuation",
+      "question": "How would you value that company (valuation methods)",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "jefferies-002",
+      "topic": "Valuation",
+      "question": "What time horizons do you use for comparable companies vs. precedent transactions?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "jefferies-003",
+      "topic": "DCF",
+      "question": "If an MD told you to use a X-year time horizon for a DCF, what would you say?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "jefferies-004",
+      "topic": "LBO",
+      "question": "Describe how a DCF and LBO differ in X sentences.",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "jefferies-005",
+      "topic": "LBO",
+      "question": "If you had a DCF and an LBO (with no leverage), how would the DCF exit column differ from the LBO exit column?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

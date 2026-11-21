@@ -1,0 +1,75 @@
+{
+  "bank": "Silver Lake",
+  "tier": "Private Equity",
+  "questions": [
+    {
+      "id": "silver-lake-001",
+      "topic": "Accounting",
+      "question": "You have the previous year’s balance sheet and the current year’s balance sheet, give me EBITDA",
+      "answer": "First, I take the difference between the two Retained Earnings to determine Net Income, adjusting for any Dividends using Dividends Payable. Second, I add back the ending value of Income Tax Payable to get EBT. Third, I calculate interest paid using given interest rates and terms provided in the footnotes to get EBIT. Lastly, I take the difference between accumulated depreciation/amortization of each capital asset and intangible and add the difference back to get EBITDA.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "silver-lake-002",
+      "topic": "Accounting",
+      "question": "The company has 5x Debt/EBITDA and 5x EBITDA/Int Exp, what is the effective interest rate?",
+      "answer": "The effective interest rate is 4%. First, we multiply the two multiples giving us a Debt/Int Exp of 25x (since EBITDA will cancel out). Then, we take the reciprocal (Int Exp/Debt) to arrive at the effective interest rate.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "silver-lake-003",
+      "topic": "Valuation",
+      "question": "How will switching from FIFO to LIFO affect your valuation?",
+      "answer": "In an inflationary environment, switching to LIFO will increase COGS which will lessen the amount of tax paid raising FCF and your valuation. There are no changes to NWC switching between LIFO and FIFO.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "silver-lake-004",
+      "topic": "DCF",
+      "question": "WACC is on the Y axis and Debt/Equity is on the X axis, what does the WACC curve look like?",
+      "answer": "Should look like a parabola. Initially, increasing Debt/Equity will lower WACC as debt is cheaper than equity. However, at a specific point, the risk brought upon by the leverage will outweigh the cheapness of the debt and cause WACC to increase.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "silver-lake-005",
+      "topic": "DCF",
+      "question": "A financial instrument gives you cash flows of $100 in year 1, $200 in year 2, $300 in year 3 and so on into perpetuity…What is the price of this security? Assume 5% discount rate",
+      "answer": "PV: 2000\nPV: 2000\nPV: 2000\nPV: 2000\nPV: 2000\nBasically receiving $2000/year\nPerpetuity of 2000 PV: $2000/0.05 = $40,000\nAdd PV together: $2000 + $40,000 = $42,000",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "silver-lake-006",
+      "topic": "LBO",
+      "question": "Paper LBO Case: EBITDA 100M, bought for 10x, sold for 13x (no EBITDA growth), funded by 50% equity and 50% debt (250 is PIK (10%) and 250 is bank debt (4%)) - Any missing information had to be asked",
+      "answer": "",
+      "source": [
+        "scale_techs"
+      ]
+    },
+    {
+      "id": "silver-lake-007",
+      "topic": "Markets",
+      "question": "There are two oil companies: A’s cost per barrel is $50 and B’s cost per barrel is $30. The price of oil is currently $70, but you are bullish on oil prices and expect prices to rise to $100. Which company would you invest in?",
+      "answer": "I would invest in company A. Under the assumption that oil prices will rise to $100, company A’s margin will increase from $20 to $50 (+150%) while company B’s margin will increase from $40 to $70 (+75%). Since company A’s margin percentage increase is double than that of company B, I expect their stock price to rise significantly higher relative to their current price with news of oil prices rising to $100.",
+      "source": [
+        "Insider Edge",
+        "scale_techs"
+      ]
+    }
+  ]
+}

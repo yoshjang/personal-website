@@ -1,0 +1,186 @@
+{
+  "bank": "Lazard",
+  "tier": "Elite Boutique",
+  "questions": [
+    {
+      "id": "lazard-001",
+      "topic": "Behavioral",
+      "question": "Why Boutique over Bulge",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-002",
+      "topic": "Behavioral",
+      "question": "What is your biggest concern about being a banking intern?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-003",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you worked on a difficult team",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-004",
+      "topic": "Behavioral",
+      "question": "You have a meeting with a public company and we are their RX banker — ask X questions.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-005",
+      "topic": "Valuation",
+      "question": "Why do you not use EV/NI or equity value/EBITDA?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-006",
+      "topic": "Valuation",
+      "question": "Why do you add back NCI",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-007",
+      "topic": "Valuation",
+      "question": "When you use cash to buy back debt at a discount, what is the impact on EV and equity value?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-008",
+      "topic": "Valuation",
+      "question": "Tell me about a time you managed multiple deadlines",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-009",
+      "topic": "Valuation",
+      "question": "How would you value your university?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-010",
+      "topic": "M&A",
+      "question": "New factory purchased for X (X/X cash, X/X debt); debt is X% interest, half PIK half cash; factory useful life X years, salvage value X; factory generates X EBITDA; X% tax. Prior to this, gross leverage was X, 20XX debt was X, debt-to-equity was X to X, cash was X. What is pro forma gross leverage? Walk me through the 3 statements for Year X and Year X.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-011",
+      "topic": "M&A",
+      "question": "Walk me through a sell-side process",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-012",
+      "topic": "LBO",
+      "question": "Why would your mom not hire you?",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-013",
+      "topic": "Markets",
+      "question": "We have X entities: ShoeCo and SockCo. ShoeCo has X% public float; SockCo has X% public float. ShoeCo has X mil debt, X mil preferred, X mil shares, no cash. SockCo has X EBITDA, X multiple, X first lien, X unsecured, X million shares, X mil cash. What are the recoveries if they file tomorrow?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-014",
+      "topic": "Markets",
+      "question": "X% yield — ask me more questions to find the price; then he gives you X-year maturity, X% coupon. Find the price.",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-015",
+      "topic": "Markets",
+      "question": "If we have X companies with the same UFCF but different LFCF, which one would have a higher price? We have an RCF secured against X% of inventory — if we buy X inventory, how does our liquidity change?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-016",
+      "topic": "Markets",
+      "question": "Are you familiar with the interest coverage ratio? (Yes.) Can you give me a more comprehensive ratio that would tell us more about a company's liquidity?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-017",
+      "topic": "Markets",
+      "question": "X coupon bond vs. X% coupon bond — we think rates are going to rise. Which one should we invest in?",
+      "answer": "",
+      "group": "RX",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-018",
+      "topic": "Corporate Finance",
+      "question": "What are the most important things you look for in a business",
+      "answer": "",
+      "group": "IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    }
+  ]
+}

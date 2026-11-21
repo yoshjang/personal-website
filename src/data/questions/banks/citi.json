@@ -1,0 +1,737 @@
+{
+  "bank": "Citi",
+  "tier": "Bulge Bracket",
+  "questions": [
+    {
+      "id": "citi-001",
+      "topic": "Behavioral",
+      "question": "Describe each experience on your resume",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-002",
+      "topic": "Behavioral",
+      "question": "How did you avoid spreading yourself too thin across things on your resume?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-003",
+      "topic": "Behavioral",
+      "question": "In-depth resume questions",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-004",
+      "topic": "Behavioral",
+      "question": "What experiences on your resume will be useful for this role?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-005",
+      "topic": "Behavioral",
+      "question": "What qualities represented on your resume make you a good candidate?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-006",
+      "topic": "Behavioral",
+      "question": "Resume/story-related question (very specific)",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-007",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you had to give critical feedback to someone",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-008",
+      "topic": "Behavioral",
+      "question": "Tell me some of your strengths and weaknesses",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-009",
+      "topic": "Behavioral",
+      "question": "How do you manage a lot of things coming at you at once, both as a leader and a follower?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-010",
+      "topic": "Behavioral",
+      "question": "What is the relationship between an analyst and an associate? An MD?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-011",
+      "topic": "Behavioral",
+      "question": "What are you doing this summer?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-012",
+      "topic": "Behavioral",
+      "question": "What is your least favorite class?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-013",
+      "topic": "Behavioral",
+      "question": "What is the typical role of an analyst?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-014",
+      "topic": "Behavioral",
+      "question": "What trait essential to IB do you bring?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-015",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you had to take accountability for something and roll with the punches",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-016",
+      "topic": "Behavioral",
+      "question": "Basic X-part accounting question",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-017",
+      "topic": "Behavioral",
+      "question": "How about if you could only have two?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-018",
+      "topic": "Behavioral",
+      "question": "A. What happens when the factory is first purchased?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-019",
+      "topic": "Behavioral",
+      "question": "B. What happens at the end of year X?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-020",
+      "topic": "Behavioral",
+      "question": "How long have you been a Liverpool fan?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-021",
+      "topic": "Behavioral",
+      "question": "Tell me about a time you overcame an obstacle.",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-022",
+      "topic": "Behavioral",
+      "question": "Interest rate / macro environment question",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-023",
+      "topic": "Behavioral",
+      "question": "Tell me about a time when you were challenged",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-024",
+      "topic": "Behavioral",
+      "question": "What would some additional methods be?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-025",
+      "topic": "Behavioral",
+      "question": "What if it's in India? (Developing country, higher GDP growth rate)",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-026",
+      "topic": "Accounting",
+      "question": "What is the actual meaning of cash flows?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-027",
+      "topic": "Accounting",
+      "question": "What would you pay for a company with $X in NOLs?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-028",
+      "topic": "Accounting",
+      "question": "How does NWC affect cash?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-029",
+      "topic": "Accounting",
+      "question": "Would a company prefer to issue dividends or buy back shares?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-030",
+      "topic": "Accounting",
+      "question": "What are X ways NWC would be a source of funding for a US department store? (Longer AP cycle than AR, shrinking demand → inventory falls, deferred revenue balance up through subscription revenue)",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-031",
+      "topic": "Accounting",
+      "question": "Most PE transactions of C&R companies fail — why? (Low margin, cyclical businesses)",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-032",
+      "topic": "Accounting",
+      "question": "If you could have one financial statement what would it be?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-033",
+      "topic": "Accounting",
+      "question": "Three-step depreciation without sale of the factory at the end",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-034",
+      "topic": "Accounting",
+      "question": "Multi-step depreciation question",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-035",
+      "topic": "Accounting",
+      "question": "C. What happens if you sell the factory for $X at the beginning of Year X? Take into account depreciation for Year X",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-036",
+      "topic": "Accounting",
+      "question": "What does an increase or decrease in net working capital mean in terms of cash flow?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-037",
+      "topic": "Valuation",
+      "question": "How do you get from EV to EQV?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-038",
+      "topic": "Valuation",
+      "question": "In this building we have a bunch of art in the halls, but we sell all of it. How does this affect EV and EQV?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-039",
+      "topic": "Valuation",
+      "question": "How would you approach value creation for the company you're working for this summer?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-040",
+      "topic": "Valuation",
+      "question": "How do you find the perfect comp for the multiples method when the company isn't mature?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-041",
+      "topic": "Valuation",
+      "question": "Purchase asset YX, then operate it for X years at X% straight-line depreciation with no salvage value — walk through the 3 statements",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-042",
+      "topic": "Valuation",
+      "question": "How do you pick the companies in the comparables valuation method?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-043",
+      "topic": "Valuation",
+      "question": "Which valuation methods would you use for FIG-specific companies?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-044",
+      "topic": "Valuation",
+      "question": "What are some valuation methods and their pros and cons?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-045",
+      "topic": "DCF",
+      "question": "Would you use exit multiples or the perpetuity growth rate for a company in a cyclical industry?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-046",
+      "topic": "DCF",
+      "question": "What are the X ways to find terminal value in a DCF?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-047",
+      "topic": "DCF",
+      "question": "What is the beta of an asteroid mining company?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-048",
+      "topic": "DCF",
+      "question": "Can a company have a negative beta? Give an example.",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-049",
+      "topic": "DCF",
+      "question": "How do you get from levered to unlevered beta?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-050",
+      "topic": "DCF",
+      "question": "Walk me through how to calculate WACC",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-051",
+      "topic": "DCF",
+      "question": "Break down the cost of debt",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-052",
+      "topic": "DCF",
+      "question": "What does an unlevered DCF produce? Levered?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-053",
+      "topic": "DCF",
+      "question": "Tell me about CAPM",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-054",
+      "topic": "DCF",
+      "question": "How do you calculate the terminal value using the Gordon growth model?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-055",
+      "topic": "DCF",
+      "question": "How do you develop assumptions for the Gordon growth method?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-056",
+      "topic": "DCF",
+      "question": "Why do we get enterprise value from a DCF? (By discounting unlevered FCF, reflecting core-business activities)",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-057",
+      "topic": "DCF",
+      "question": "How does interest effect levered and unlevered FCF?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-058",
+      "topic": "M&A",
+      "question": "If you had X identical companies (same industry, growth prospects, etc.) and one was trading at X P/E and the other at X P/E, which one would you want to acquire as an investor?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-059",
+      "topic": "M&A",
+      "question": "Merger math",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-060",
+      "topic": "M&A",
+      "question": "High P/E acquires low P/E in all stock, accretive or dilutive?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-061",
+      "topic": "M&A",
+      "question": "Basic accretion/dilution question",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-062",
+      "topic": "M&A",
+      "question": "X PE company acquires X PE company with all stock and it's accretive. Why?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-063",
+      "topic": "LBO",
+      "question": "Would that company make a good LBO candidate?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-064",
+      "topic": "LBO",
+      "question": "Would a company with X% or X% IRR be valued higher?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-065",
+      "topic": "LBO",
+      "question": "How do you get your return on investment in an LBO?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-066",
+      "topic": "LBO",
+      "question": "How much leverage would you put on the LBO of an art museum?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-067",
+      "topic": "LBO",
+      "question": "Is an LBO an intrinsic valuation? (No — because you don't use the intrinsic discount rate of WACC but choose your own IRR)",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-068",
+      "topic": "LBO",
+      "question": "What are the X most important assumptions in an LBO?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-069",
+      "topic": "Markets",
+      "question": "Tell me about the [industry] on your resume",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-070",
+      "topic": "Markets",
+      "question": "Pepsi issues $X in bonds with an X% coupon and a X-year life in order to purchase a factory",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-071",
+      "topic": "Markets",
+      "question": "Accounting: $X bond for factory, X% coupon, life of X years (three or four steps)",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-072",
+      "topic": "Corporate Finance",
+      "question": "If a company has $X in cash, what can it do with it?",
+      "answer": "",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": "citi-073",
+      "topic": "Brain Teasers",
+      "question": "What angle does the hour and minute hand of the clock form if the time is 3:15?",
+      "answer": "At 3:15, the minute hand is at a 90-degree angle. The hour hand is one-fourth of the way between 3:00 and 4:00. Each hour is 360 / 12 = 30 degrees. 30 / 4 = 7.5 degrees. Therefore, the hands form a 7.5-degree angle.",
+      "group": "Citi IB",
+      "source": [
+        "IB Questions v12",
+        "scale_techs"
+      ]
+    }
+  ]
+}
