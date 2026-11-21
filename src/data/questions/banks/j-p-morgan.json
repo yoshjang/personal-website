@@ -33,16 +33,6 @@
       ]
     },
     {
-      "id": "j-p-morgan-004",
-      "topic": "Behavioral",
-      "question": "Tell me about an ethical dilemma you faced",
-      "answer": "",
-      "group": "IBD",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
       "id": "j-p-morgan-005",
       "topic": "Behavioral",
       "question": "Tell me about a time you had a different perspective than someone else",
@@ -90,6 +80,24 @@
       "group": "IBD",
       "source": [
         "IB Questions v12"
+      ]
+    },
+    {
+      "id": "j-p-morgan-044",
+      "topic": "Behavioral",
+      "question": "How should J.P. Morgan differentiate itself from other banks in advisory?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "j-p-morgan-045",
+      "topic": "Behavioral",
+      "question": "Would you rather advise on a smaller boutique deal or mega-cap transaction and why?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {
@@ -272,6 +280,15 @@
       ]
     },
     {
+      "id": "j-p-morgan-042",
+      "topic": "M&A",
+      "question": "If you had $100 m to allocate to M&A, how would you pick targets and why?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
       "id": "j-p-morgan-028",
       "topic": "LBO",
       "question": "What type of financing would you use for an LBO — term loans or bonds?",
@@ -319,6 +336,15 @@
       "source": [
         "Insider Edge",
         "scale_techs"
+      ]
+    },
+    {
+      "id": "j-p-morgan-043",
+      "topic": "Markets",
+      "question": "How would you evaluate credit risk for a company before advising on a deal?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {

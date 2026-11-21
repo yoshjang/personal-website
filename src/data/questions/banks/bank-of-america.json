@@ -253,16 +253,6 @@
       ]
     },
     {
-      "id": "bank-of-america-026",
-      "topic": "Behavioral",
-      "question": "What do you like to do for fun?",
-      "answer": "",
-      "group": "BofA IBD",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
       "id": "bank-of-america-027",
       "topic": "Behavioral",
       "question": "Is there anything else you want me to know?",
@@ -593,16 +583,6 @@
       "id": "bank-of-america-060",
       "topic": "M&A",
       "question": "Why would a company do M&A?",
-      "answer": "",
-      "group": "BofA IBD",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
-      "id": "bank-of-america-061",
-      "topic": "M&A",
-      "question": "Revenue vs. cost synergies — which would you choose?",
       "answer": "",
       "group": "BofA IBD",
       "source": [

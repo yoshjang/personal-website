@@ -76,11 +76,17 @@
         "Bank of America",
         "Cain Brothers",
         "Citi",
+        "Evercore",
+        "Goldman Sachs",
         "Houlihan Lokey",
+        "J.P. Morgan",
         "Jefferies",
         "Perella Weinberg",
         "RBC",
         "Solomon Partners"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {
@@ -96,7 +102,10 @@
     {
       "id": 44,
       "question": "What is the formula to calculate the weighted average cost of capital (WACC)?",
-      "answer": "The weighted average cost of capital (WACC) can be viewed as the opportunity cost of an investment based on comparable investments with similar risk profiles. WACC is calculated by multiplying the equity weight by the cost of equity and adding the debt weight multiplied by the tax-affected cost of debt. For the equity and debt values, market values must be used rather than book values. WACC = [Equity / (Debt + Equity) × R_equity] + [Debt / (Debt + Equity) × R_debt × (1 - t)]. E / (D + E) and D / (D + E) are the equity and debt weights in the total capital structure; R_equity is the cost of equity; R_debt is the cost of debt and is tax-affected because interest is tax-deductible; and t is the tax rate."
+      "answer": "The weighted average cost of capital (WACC) can be viewed as the opportunity cost of an investment based on comparable investments with similar risk profiles. WACC is calculated by multiplying the equity weight by the cost of equity and adding the debt weight multiplied by the tax-affected cost of debt. For the equity and debt values, market values must be used rather than book values. WACC = [Equity / (Debt + Equity) × R_equity] + [Debt / (Debt + Equity) × R_debt × (1 - t)]. E / (D + E) and D / (D + E) are the equity and debt weights in the total capital structure; R_equity is the cost of equity; R_debt is the cost of debt and is tax-affected because interest is tax-deductible; and t is the tax rate.",
+      "source": [
+        "The 500"
+      ]
     },
     {
       "id": 45,
@@ -237,11 +246,13 @@
       "answer": "",
       "group": "BofA IBD, Citi IB, IB, PWP IB",
       "source": [
+        "AKPsi IB Behaviorals",
         "IB Questions v12"
       ],
       "askedAt": [
         "Bank of America",
         "Citi",
+        "J.P. Morgan",
         "Perella Weinberg",
         "RBC"
       ]
@@ -284,6 +295,7 @@
         "IB Questions v12"
       ],
       "askedAt": [
+        "Citi",
         "Evercore",
         "Perella Weinberg"
       ]
@@ -336,7 +348,11 @@
       "question": "5. What is the impact on your DCF of switching from FIFO to LIFO in an inflationary environment?",
       "answer": "While COGS will increase, lowering the taxes paid in cash, regardless of using FIFO or LIFO, in an inflationary environment the effect on change in NWC (inventory purchases) will be the same whether using FIFO or LIFO. Therefore, using LIFO will actually increase UFCF and thus increase the valuation.",
       "source": [
+        "Insider Edge",
         "scale_techs"
+      ],
+      "askedAt": [
+        "Silver Lake"
       ]
     },
     {
@@ -527,14 +543,6 @@
       "id": 241,
       "question": "You're building an unlevered FCF forecast. After calculating NOPAT and adding back D&A, what are the primary subsequent adjustments?\nA: Subtract interest expense and any mandatory debt amortization to arrive at cash flow available to equity holders.\nB: Subtract Capital Expenditures and add or subtract the period's change in Net Working Capital.\nC: Subtract the company's cash tax payment, as NOPAT is calculated using the accrual tax provision from the income statement.\nD: Add back non-cash expenses like stock-based compensation, which were captured in the initial EBIT calculation.",
       "answer": "Correct: B: Subtract Capital Expenditures and add or subtract the period's change in Net Working Capital. To get to Unlevered Free Cash Flow from EBIT, after multiplying by (1 - Tax Rate) and adding back Depreciation and other non-cash charges, you subtract Capital Expenditures and the change in Working Capital.",
-      "source": [
-        "The 500"
-      ]
-    },
-    {
-      "id": 242,
-      "question": "Which of the following correctly represents the formula for Weighted Average Cost of Capital (WACC)?\nA: The weighted average of the pre-tax cost of debt and cost of equity, since preferred stock is rarely a significant factor.\nB: (E/V * Re) + (D/V * Rd * (1-Tc)) + (P/V * Rp) thelocker.ai/lockers/knowledge\nC: The weighted cost of equity and after-tax cost of debt, using the book value of debt and equity as the weights.\nD: (E/V * Re) + (D/V * Rd), since the tax shield from debt is typically accounted for in the cash flow projections.",
-      "answer": "Correct: B: (E/V * Re) + (D/V * Rd * (1-Tc)) + (P/V * Rp)\nThe WACC formula is: Cost of Equity * (% Equity) + Cost of Debt * (% Debt) * (1 - Tax Rate) + Cost of Preferred * (% Preferred). This formula correctly weights the cost of each component of the capital structure.",
       "source": [
         "The 500"
       ]

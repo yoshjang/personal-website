@@ -93,16 +93,6 @@
       ]
     },
     {
-      "id": "perella-weinberg-010",
-      "topic": "Valuation",
-      "question": "Questions about P/E.",
-      "answer": "",
-      "group": "PWP IB",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
       "id": "perella-weinberg-011",
       "topic": "Valuation",
       "question": "A straightforward debt question: what is it trading at?",
@@ -126,16 +116,6 @@
       "id": "perella-weinberg-013",
       "topic": "DCF",
       "question": "How do AP and AR impact FCF?",
-      "answer": "",
-      "group": "PWP IB",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
-      "id": "perella-weinberg-014",
-      "topic": "DCF",
-      "question": "What is beta conceptually, and give an example of a company with a negative beta and a beta of X?",
       "answer": "",
       "group": "PWP IB",
       "source": [

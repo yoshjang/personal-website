@@ -43,6 +43,24 @@
       ]
     },
     {
+      "id": "lazard-019",
+      "topic": "Behavioral",
+      "question": "In 20 years, if you were to be writing an article about Lazard, what would you imagine the firm would have achieved by then?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "lazard-020",
+      "topic": "Accounting",
+      "question": "What is the disctinction between profit and revenue?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
       "id": "lazard-005",
       "topic": "Valuation",
       "question": "Why do you not use EV/NI or equity value/EBITDA?",
@@ -93,21 +111,20 @@
       ]
     },
     {
+      "id": "lazard-021",
+      "topic": "DCF",
+      "question": "Given an exit multiple, EBITDA, WACC, and last year's FCF. Find the implied growth rate using the GGM.",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
       "id": "lazard-010",
       "topic": "M&A",
       "question": "New factory purchased for X (X/X cash, X/X debt); debt is X% interest, half PIK half cash; factory useful life X years, salvage value X; factory generates X EBITDA; X% tax. Prior to this, gross leverage was X, 20XX debt was X, debt-to-equity was X to X, cash was X. What is pro forma gross leverage? Walk me through the 3 statements for Year X and Year X.",
       "answer": "",
       "group": "RX",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
-      "id": "lazard-011",
-      "topic": "M&A",
-      "question": "Walk me through a sell-side process",
-      "answer": "",
-      "group": "IB",
       "source": [
         "IB Questions v12"
       ]
@@ -120,6 +137,24 @@
       "group": "IB",
       "source": [
         "IB Questions v12"
+      ]
+    },
+    {
+      "id": "lazard-022",
+      "topic": "LBO",
+      "question": "Why does a tightening credit environment shut out sponsore but leave strategic bidders largely unnaffected?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "lazard-023",
+      "topic": "LBO",
+      "question": "Why would a sponsor prefer to take on high hield debt to finance an LBO over bank debt?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {

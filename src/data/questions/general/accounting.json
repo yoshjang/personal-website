@@ -66,8 +66,14 @@
       "askedAt": [
         "Allen & Co",
         "Citi",
+        "Evercore",
+        "Goldman Sachs",
         "Houlihan Lokey",
+        "J.P. Morgan",
         "Jefferies"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {
@@ -138,7 +144,13 @@
     {
       "id": 24,
       "question": "How would a $10 increase in depreciation flow through the financial statements?",
-      "answer": "The depreciation expense will be embedded within either the cost of goods sold or the operating expenses line item on the income statement. IS: When depreciation increases by $10, EBIT would decrease by $10. Assuming a 30% tax rate, net income will decline by $7. CFS: At the top of the cash flow statement, net income has decreased by $7, but the $10 depreciation will be added back since it's a non-cash expense. The net impact on the ending cash balance will be a positive $3 increase. BS: PP&E will decrease by $10 from the depreciation, while cash will be up by $3 on the assets side. On the L&E side, the $7 reduction in net income flows through retained earnings. The balance sheet remains in balance as both sides went down by $7."
+      "answer": "The depreciation expense will be embedded within either the cost of goods sold or the operating expenses line item on the income statement. IS: When depreciation increases by $10, EBIT would decrease by $10. Assuming a 30% tax rate, net income will decline by $7. CFS: At the top of the cash flow statement, net income has decreased by $7, but the $10 depreciation will be added back since it's a non-cash expense. The net impact on the ending cash balance will be a positive $3 increase. BS: PP&E will decrease by $10 from the depreciation, while cash will be up by $3 on the assets side. On the L&E side, the $7 reduction in net income flows through retained earnings. The balance sheet remains in balance as both sides went down by $7.",
+      "askedAt": [
+        "Goldman Sachs"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
     },
     {
       "id": 25,
@@ -351,7 +363,13 @@
     {
       "id": 64,
       "question": "What does change in net working capital tell you about a company's cash flows?",
-      "answer": "The change in net working capital is important because it gives you a sense of how much a company's cash flows will deviate from its accrual-based net income. Change in Net Working Capital = NWC − NWC Prior Period Current Period If a company's NWC has increased year-over-year, its operating assets have grown and/or its operating liabilities have shrunk from the prior year. Since an increase in an operating asset is a cash outflow, it should be intuitive why an increase in NWC means less cash flow for a company (and vice versa)."
+      "answer": "The change in net working capital is important because it gives you a sense of how much a company's cash flows will deviate from its accrual-based net income. Change in Net Working Capital = NWC − NWC Prior Period Current Period If a company's NWC has increased year-over-year, its operating assets have grown and/or its operating liabilities have shrunk from the prior year. Since an increase in an operating asset is a cash outflow, it should be intuitive why an increase in NWC means less cash flow for a company (and vice versa).",
+      "askedAt": [
+        "Morgan Stanley"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
     },
     {
       "id": 65,

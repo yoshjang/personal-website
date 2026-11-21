@@ -23,16 +23,6 @@
       ]
     },
     {
-      "id": "silver-lake-003",
-      "topic": "Valuation",
-      "question": "How will switching from FIFO to LIFO affect your valuation?",
-      "answer": "In an inflationary environment, switching to LIFO will increase COGS which will lessen the amount of tax paid raising FCF and your valuation. There are no changes to NWC switching between LIFO and FIFO.",
-      "source": [
-        "Insider Edge",
-        "scale_techs"
-      ]
-    },
-    {
       "id": "silver-lake-004",
       "topic": "DCF",
       "question": "WACC is on the Y axis and Debt/Equity is on the X axis, what does the WACC curve look like?",

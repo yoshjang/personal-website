@@ -3,6 +3,15 @@
   "tier": "Bulge Bracket",
   "questions": [
     {
+      "id": "goldman-sachs-014",
+      "topic": "Behavioral",
+      "question": "How does Goldman Sachs make money in its investment banking business?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
       "id": "goldman-sachs-001",
       "topic": "Accounting",
       "question": "There are 2 companies with the same profiles and 0% gross margin, one with 15% and one with 20% growth – what metric would you use to differentiate between them?",
@@ -53,6 +62,15 @@
       ]
     },
     {
+      "id": "goldman-sachs-010",
+      "topic": "Valuation",
+      "question": "If a company’s stock price is high but the business fundamentals are weak, why might that be the case?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
       "id": "goldman-sachs-006",
       "topic": "DCF",
       "question": "Value an apple tree producing $100 in revenue a year - now value it if it was 100,200,300,400…",
@@ -73,6 +91,24 @@
       ]
     },
     {
+      "id": "goldman-sachs-011",
+      "topic": "M&A",
+      "question": "Walk me through a merger model: how synergies impact valuation, and what you worry about in integration.",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "goldman-sachs-016",
+      "topic": "M&A",
+      "question": "If you see two potential targets with similar valuation, how would you decide which to recommend?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
       "id": "goldman-sachs-008",
       "topic": "Markets",
       "question": "Interest rates go up, what happens to the dollar?",
@@ -81,6 +117,33 @@
       "source": [
         "Insider Edge",
         "scale_techs"
+      ]
+    },
+    {
+      "id": "goldman-sachs-012",
+      "topic": "Markets",
+      "question": "If you had $100 million to invest today, how would you allocate it and why?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "goldman-sachs-013",
+      "topic": "Markets",
+      "question": "What’s the riskiest sector in the next 3-5 years and why?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "goldman-sachs-015",
+      "topic": "Markets",
+      "question": "What’s one trend in ESG or sustainability you think is being under-priced in the markets?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {

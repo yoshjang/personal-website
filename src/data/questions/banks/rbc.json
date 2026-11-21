@@ -203,16 +203,6 @@
       ]
     },
     {
-      "id": "rbc-021",
-      "topic": "Markets",
-      "question": "Teach me something I don't know (news-focused).",
-      "answer": "",
-      "group": "IB",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
       "id": "rbc-022",
       "topic": "Markets",
       "question": "What is the difference between LevFin and DCM",

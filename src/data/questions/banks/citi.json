@@ -473,16 +473,6 @@
       ]
     },
     {
-      "id": "citi-048",
-      "topic": "DCF",
-      "question": "Can a company have a negative beta? Give an example.",
-      "answer": "",
-      "group": "Citi IB",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
       "id": "citi-049",
       "topic": "DCF",
       "question": "How do you get from levered to unlevered beta?",
@@ -526,16 +516,6 @@
       "id": "citi-053",
       "topic": "DCF",
       "question": "Tell me about CAPM",
-      "answer": "",
-      "group": "Citi IB",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
-      "id": "citi-054",
-      "topic": "DCF",
-      "question": "How do you calculate the terminal value using the Gordon growth model?",
       "answer": "",
       "group": "Citi IB",
       "source": [
@@ -616,16 +596,6 @@
       "id": "citi-062",
       "topic": "M&A",
       "question": "X PE company acquires X PE company with all stock and it's accretive. Why?",
-      "answer": "",
-      "group": "Citi IB",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
-      "id": "citi-063",
-      "topic": "LBO",
-      "question": "Would that company make a good LBO candidate?",
       "answer": "",
       "group": "Citi IB",
       "source": [

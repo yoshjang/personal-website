@@ -143,16 +143,6 @@
       ]
     },
     {
-      "id": "rothschild-015",
-      "topic": "Valuation",
-      "question": "Can you have negative EV? Give examples of industries or companies.",
-      "answer": "",
-      "group": "Roth M&A",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
       "id": "rothschild-016",
       "topic": "Valuation",
       "question": "What is the formula for EV?",

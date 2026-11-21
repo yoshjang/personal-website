@@ -47,7 +47,12 @@
       "askedAt": [
         "Bank of America",
         "Barclays",
+        "Evercore",
+        "J.P. Morgan",
         "Perella Weinberg"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {
@@ -216,12 +221,25 @@
     {
       "id": 58,
       "question": "What are the formulas used to unlever and relever beta?",
-      "answer": "By unlevering beta for the peer group, each comparable company's business risk is isolated, and the distorting effect of leverage is removed. Calculating raw betas from historical returns and even projected betas is an imprecise measurement of future beta because estimation errors, such as standard errors, create a large potential range for beta. As a result, it is recommended to use an industry beta. Since the betas of comparable companies are distorted by different rates of leverage, we unlever the betas of these comparable companies: β Unlevered = β Levered / [1 + (Debt / Equity) × (1 - t)]. Once a median or average unlevered beta is calculated, this beta is relevered at the target company's capital structure: β Levered = β Unlevered × [1 + (1 - t) × (Debt / Equity)]."
+      "answer": "By unlevering beta for the peer group, each comparable company's business risk is isolated, and the distorting effect of leverage is removed. Calculating raw betas from historical returns and even projected betas is an imprecise measurement of future beta because estimation errors, such as standard errors, create a large potential range for beta. As a result, it is recommended to use an industry beta. Since the betas of comparable companies are distorted by different rates of leverage, we unlever the betas of these comparable companies: β Unlevered = β Levered / [1 + (Debt / Equity) × (1 - t)]. Once a median or average unlevered beta is calculated, this beta is relevered at the target company's capital structure: β Levered = β Unlevered × [1 + (1 - t) × (Debt / Equity)].",
+      "askedAt": [
+        "PJT Partners"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
     },
     {
       "id": 59,
       "question": "Is it possible for an asset to have a negative beta?",
-      "answer": "Yes, the most commonly cited example is gold, which has an inverse relationship with the market. When the stock market goes up, the price of gold will often decrease. However, when the stock market undergoes a correction or enters recession territory, investors flee towards gold as a safe-haven, and the increase in demand drives up gold prices."
+      "answer": "Yes, the most commonly cited example is gold, which has an inverse relationship with the market. When the stock market goes up, the price of gold will often decrease. However, when the stock market undergoes a correction or enters recession territory, investors flee towards gold as a safe-haven, and the increase in demand drives up gold prices.",
+      "askedAt": [
+        "Citi",
+        "Perella Weinberg"
+      ],
+      "source": [
+        "IB Questions v12"
+      ]
     },
     {
       "id": 60,
@@ -276,7 +294,14 @@
     {
       "id": 89,
       "question": "When putting together a peer group for comps, what would some key considerations be?",
-      "answer": "Operational Profile: These characteristics entail the nature of the business, such as its industry, business model, products/services sold, and end markets served. In addition, the company’s position within the market (market leader or market challenger), stage in the life cycle, and seasonality/cyclicality should all be considered. The importance of selecting the right peer group for a comps-derived valuation cannot be overstated, and this begins with understanding the target's operational characteristics. Financial Profile: If the company might be a suitable inclusion to the peer group based on its operational characteristics, its financial profile would then be considered. Some metrics to gather would be the company's key cash flow metrics, size in terms of valuation, profitability margins, credit ratios, historical/estimated growth rates, and return metrics. Industry/Sector Size (Enterprise Value, Equity Value) Product and Service Offerings Margin Profile (Gross Margin, Operating Margin, EBITDA Margin) End Markets and Customers Type Historical and Forecasted Growth Rates (Revenue, EBITDA, EPS) Distribution Channels Credit Profile (Leverage Ratios, Coverage Ratios) Cyclicality or Seasonality Return Metrics (ROIC, ROA, ROE)"
+      "answer": "Operational Profile: These characteristics entail the nature of the business, such as its industry, business model, products/services sold, and end markets served. In addition, the company’s position within the market (market leader or market challenger), stage in the life cycle, and seasonality/cyclicality should all be considered. The importance of selecting the right peer group for a comps-derived valuation cannot be overstated, and this begins with understanding the target's operational characteristics. Financial Profile: If the company might be a suitable inclusion to the peer group based on its operational characteristics, its financial profile would then be considered. Some metrics to gather would be the company's key cash flow metrics, size in terms of valuation, profitability margins, credit ratios, historical/estimated growth rates, and return metrics. Industry/Sector Size (Enterprise Value, Equity Value) Product and Service Offerings Margin Profile (Gross Margin, Operating Margin, EBITDA Margin) End Markets and Customers Type Historical and Forecasted Growth Rates (Revenue, EBITDA, EPS) Distribution Channels Credit Profile (Leverage Ratios, Coverage Ratios) Cyclicality or Seasonality Return Metrics (ROIC, ROA, ROE)",
+      "askedAt": [
+        "Goldman Sachs",
+        "J.P. Morgan"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
     },
     {
       "id": 90,
@@ -391,7 +416,16 @@
     {
       "id": 114,
       "question": "How would you value a pre-revenue early stage internet company?",
-      "answer": "An internet company with no revenue or negative profitability could be valued using user engagement metrics such as the subscriber count, monthly active users, daily active users, and website hits. For example, pre- revenue internet startups are often valued using multiples such as EV/DAU or EV/MAU."
+      "answer": "An internet company with no revenue or negative profitability could be valued using user engagement metrics such as the subscriber count, monthly active users, daily active users, and website hits. For example, pre- revenue internet startups are often valued using multiples such as EV/DAU or EV/MAU.",
+      "askedAt": [
+        "Evercore",
+        "Houlihan Lokey",
+        "J.P. Morgan"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals",
+        "IB Questions v12"
+      ]
     },
     {
       "id": 115,
@@ -407,19 +441,6 @@
       "id": 117,
       "question": "When applying a peer group derived EV/EBITDA multiple onto your target company, what is an argument for using the group’s median multiple instead of the mean?",
       "answer": "The simple reason is: Medians remove the distortive impact of outliers on the peer group multiple. When using larger peer groups, the median is preferable over the mean because it limits distortions from outliers, which increases as more companies are included. The mean might be preferable for smaller peer groups with fewer than five comparable companies and no outliers."
-    },
-    {
-      "id": 118,
-      "question": "What's a type of company in which they would have a negative EV?",
-      "answer": "1. Financial institutions\n2. Distressed/insolvent companies",
-      "source": [
-        "Insider Edge",
-        "scale_techs"
-      ],
-      "askedAt": [
-        "Credit Suisse",
-        "UBS"
-      ]
     },
     {
       "id": 119,
@@ -479,7 +500,16 @@
       "question": "What type of companies could have a negative Enterprise Value?",
       "answer": "• Financial institutions with large cash balances\n• Companies in distressed situations\n• Tech companies with large accumulated losses",
       "source": [
+        "AKPsi IB Behaviorals",
+        "IB Questions v12",
+        "Insider Edge",
         "scale_techs"
+      ],
+      "askedAt": [
+        "Credit Suisse",
+        "Lazard",
+        "Rothschild",
+        "UBS"
       ]
     },
     {
@@ -1141,6 +1171,56 @@
       "answer": "Correct: A: Net Income increases by $6, CFO increases by $16, and Total Assets increase by $6. On the Income Statement, Revenue is up $20, COGS is up $10, so Gross Profit and Operating Income are up $10. With a 40% tax rate, Net Income is up $10 * (1 - 0.40) = $6. On the Cash Flow Statement, Net Income is up $6. Inventory (an asset) decreases by $10 (making it a cash inflow), so Cash Flow from Operations increases by $6 + $10 = $16. On the Balance Sheet, Cash (an asset) increases by $16, Inventory (an asset) decreases by $10, so total Assets are up $6. Shareholders' Equity is up $6 (from Net Income), balancing the Balance Sheet.",
       "source": [
         "The 500"
+      ]
+    },
+    {
+      "id": 208,
+      "question": "Questions about P/E.",
+      "answer": "",
+      "askedAt": [
+        "PJT Partners",
+        "Perella Weinberg"
+      ],
+      "group": "PWP IB",
+      "source": [
+        "IB Questions v12"
+      ]
+    },
+    {
+      "id": 209,
+      "question": "How would you value a company with no revenue/negative earnings?",
+      "answer": "",
+      "askedAt": [
+        "Evercore",
+        "Goldman Sachs",
+        "J.P. Morgan"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": 210,
+      "question": "What multiples (EV/EBITDA, P/E, EV/Revenue) matter in tech vs industrials, and why?",
+      "answer": "",
+      "askedAt": [
+        "Goldman Sachs",
+        "J.P. Morgan"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": 211,
+      "question": "How do rising interest rates impact valuations for companies with heavy debt?",
+      "answer": "",
+      "askedAt": [
+        "Goldman Sachs",
+        "J.P. Morgan"
+      ],
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     }
   ]

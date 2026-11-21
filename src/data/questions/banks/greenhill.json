@@ -3,16 +3,6 @@
   "tier": "Elite Boutique",
   "questions": [
     {
-      "id": "greenhill-001",
-      "topic": "Behavioral",
-      "question": "Why Greenhill RX",
-      "answer": "",
-      "group": "RX",
-      "source": [
-        "IB Questions v12"
-      ]
-    },
-    {
       "id": "greenhill-002",
       "topic": "Behavioral",
       "question": "This is a subscription-based company. They will receive $X by the end of the entire year — walk me through what happens with a X% TR after the first month.",

@@ -103,6 +103,24 @@
       ]
     },
     {
+      "id": "morgan-stanley-036",
+      "topic": "Behavioral",
+      "question": "Who is your favorite CEO and why?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "morgan-stanley-035",
+      "topic": "Accounting",
+      "question": "You have the balance sheets for Year 1 and Year 2 plus the cash-flow statement. How would you calculate depreciation for Year 2?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
       "id": "morgan-stanley-011",
       "topic": "Valuation",
       "question": "Tell me about a time you had to use multiple pieces of info to make a recommendation — how did you go about sourcing that info?",
@@ -140,6 +158,15 @@
       "group": "GCM",
       "source": [
         "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-033",
+      "topic": "Valuation",
+      "question": "Why might a company with a higher EV/EBITDA multiple be considered undervalued compared to a company with a lower EV/EBITDA multiple?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     },
     {
@@ -261,6 +288,24 @@
       ]
     },
     {
+      "id": "morgan-stanley-031",
+      "topic": "Markets",
+      "question": "If two bonds yield the same, why would an investor choose to purchase one over the other?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
+      "id": "morgan-stanley-034",
+      "topic": "Markets",
+      "question": "Say a company is going bankrupt, would you rather take 100 in equity or 100 in debt?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
+      ]
+    },
+    {
       "id": "morgan-stanley-027",
       "topic": "Industry",
       "question": "How is a cap rate different from an IRR?",
@@ -298,6 +343,15 @@
       "group": "MS IBD",
       "source": [
         "IB Questions v12"
+      ]
+    },
+    {
+      "id": "morgan-stanley-032",
+      "topic": "Brain Teasers",
+      "question": "How much profit vs revenue does the starbucks downstairs make on a Tuesday morning?",
+      "answer": "",
+      "source": [
+        "AKPsi IB Behaviorals"
       ]
     }
   ]
