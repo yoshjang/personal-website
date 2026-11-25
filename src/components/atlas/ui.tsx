@@ -85,7 +85,7 @@ export function Section({
         <Reveal as="header" variant="rise">
           <div className="mono-label flex items-center gap-3">
             <span className="text-accent">{index}</span>
-            <span aria-hidden="true" className="h-px w-8 bg-border" />
+            <span aria-hidden="true" className="section-rule h-px w-8 bg-border" />
             <span>{kicker}</span>
           </div>
           <h2
@@ -388,11 +388,15 @@ export function Figure({
   frameClassName?: string | undefined;
   imgClassName?: string | undefined;
 }) {
+  // Photos below the fold uncover with a short wipe as they scroll in.
+  const { ref, state } = useReveal<HTMLDivElement>();
   return (
     <figure className={cn("min-w-0", className)}>
       <div
+        ref={ref}
+        data-state={state}
         className={cn(
-          "group relative overflow-hidden rounded-2xl border border-border/60 bg-surface",
+          "photo-wipe group relative overflow-hidden rounded-2xl border border-border/60 bg-surface",
           frameClassName,
         )}
       >

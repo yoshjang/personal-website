@@ -684,15 +684,17 @@ function Flashcard({
         <QuestionMeta question={question} showTopic={showTopic} />
         <div className="mt-8 border-t border-border/70 pt-7" aria-live="polite">
           {revealed ? (
-            <AnswerText answer={question.answer} />
+            <div key={question.studyKey} className="answer-reveal">
+              <AnswerText answer={question.answer} />
+            </div>
           ) : (
             <button
               type="button"
               onClick={onReveal}
-              className="flex min-h-40 w-full items-center justify-center rounded-2xl border border-dashed border-border bg-background/25 px-6 text-center hover:border-accent/60"
+              className="group flex min-h-40 w-full items-center justify-center rounded-2xl border border-dashed border-border bg-background/25 px-6 text-center transition-[border-color,background-color] duration-300 hover:border-accent/60 hover:bg-background/50"
             >
               <span>
-                <Eye className="mx-auto h-6 w-6 text-accent" />
+                <Eye className="mx-auto h-6 w-6 text-accent transition-transform duration-300 group-hover:scale-110" />
                 <span className="mt-3 block font-semibold">Show answer</span>
                 <span className="mt-1 block text-sm text-muted-foreground">Space or Enter</span>
               </span>
@@ -700,7 +702,7 @@ function Flashcard({
           )}
         </div>
         {revealed && (
-          <div className="mt-8 grid gap-3 sm:grid-cols-2">
+          <div className="rate-in mt-8 grid gap-3 sm:grid-cols-2">
             <Button
               variant="outline"
               onClick={() => onRate("review")}

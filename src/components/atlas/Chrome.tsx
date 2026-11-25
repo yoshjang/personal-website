@@ -1,4 +1,4 @@
-import {useEffect, useRef, type CSSProperties} from "react";
+import { useEffect, useRef, type CSSProperties } from "react";
 import { Link } from "@tanstack/react-router";
 import { cn } from "@/lib/utils";
 import {
@@ -139,11 +139,11 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
   const sectionPrefix = aboutActive ? "" : "/";
 
   const topLevelClass =
-    "inline-flex min-h-10 shrink-0 items-center justify-center rounded-full px-2 text-[0.72rem] font-bold tracking-tight transition-all hover:bg-secondary hover:text-foreground sm:min-h-11 sm:px-5 sm:text-[0.95rem]";
+    "relative isolate inline-flex min-h-10 shrink-0 items-center justify-center rounded-full px-2 text-[0.72rem] font-bold tracking-tight transition-all hover:bg-secondary hover:text-foreground sm:min-h-11 sm:px-5 sm:text-[0.95rem]";
 
   return (
     <header
-      className="intro-item fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5"
+      className="site-header intro-item fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5"
       style={{ "--d": "40ms" } as CSSProperties}
     >
       <nav
@@ -175,11 +175,10 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
                   className={cn(
                     topLevelClass,
                     "h-auto bg-transparent",
-                    aboutActive
-                      ? "bg-primary/20 text-foreground"
-                      : "text-muted-foreground",
+                    aboutActive ? "text-foreground" : "text-muted-foreground",
                   )}
                 >
+                  {aboutActive ? <ActivePill /> : null}
                   About
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
@@ -225,11 +224,10 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
             aria-current={currentPage === "markets" ? "page" : undefined}
             className={cn(
               topLevelClass,
-              currentPage === "markets"
-                ? "bg-primary/20 text-foreground"
-                : "text-muted-foreground",
+              currentPage === "markets" ? "text-foreground" : "text-muted-foreground",
             )}
           >
+            {currentPage === "markets" ? <ActivePill /> : null}
             Markets
           </Link>
           <Link
@@ -237,11 +235,10 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
             aria-current={currentPage === "technicals" ? "page" : undefined}
             className={cn(
               topLevelClass,
-              currentPage === "technicals"
-                ? "bg-primary/20 text-foreground"
-                : "text-muted-foreground",
+              currentPage === "technicals" ? "text-foreground" : "text-muted-foreground",
             )}
           >
+            {currentPage === "technicals" ? <ActivePill /> : null}
             <span className="sm:hidden">Technicals</span>
             <span className="hidden sm:inline">IB Technicals</span>
           </Link>
@@ -250,17 +247,25 @@ export function TopNav({ sections, currentPage = "about" }: TopNavProps) {
             aria-current={currentPage === "deals" ? "page" : undefined}
             className={cn(
               topLevelClass,
-              currentPage === "deals"
-                ? "bg-primary/20 text-foreground"
-                : "text-muted-foreground",
+              currentPage === "deals" ? "text-foreground" : "text-muted-foreground",
             )}
           >
+            {currentPage === "deals" ? <ActivePill /> : null}
             Deals
           </Link>
         </div>
       </nav>
     </header>
   );
+}
+
+/**
+ * Highlight behind the current page's nav link. It carries a shared
+ * view-transition name, so on page changes it glides from the old link
+ * to the new one instead of blinking between them.
+ */
+function ActivePill() {
+  return <span aria-hidden="true" className="nav-active-pill" />;
 }
 
 /* ---------- Side dot rail (large screens) ---------- */

@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useState, type CSSProperties, type ReactNode } from "react";
 import { ArrowUpRight, Plus, Search, Trash2 } from "lucide-react";
-import { CountUp } from "@/components/atlas/ui";
+import { CountUp, Reveal } from "@/components/atlas/ui";
 import { Backdrop, Spotlight, TopNav } from "@/components/atlas/Chrome";
 import { SECTIONS } from "@/components/atlas/content";
 import { Button } from "@/components/ui/button";
@@ -277,8 +277,10 @@ function Deals() {
           </div>
 
           <div id="deal-list" className="mt-6 grid gap-4 lg:grid-cols-2">
-            {visible.map((deal) => (
-              <DealCard key={deal.id} deal={deal} onRemove={removeDeal} />
+            {visible.map((deal, i) => (
+              <Reveal key={deal.id} delay={(i % 2) * 70} className="h-full [&>article]:h-full">
+                <DealCard deal={deal} onRemove={removeDeal} />
+              </Reveal>
             ))}
           </div>
           {!visible.length && (

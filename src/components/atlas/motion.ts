@@ -33,7 +33,7 @@ export type RevealState = "idle" | "hidden" | "shown";
  * elements below the fold are hidden and then revealed. Reduced motion
  * users never see anything hidden.
  */
-export function useReveal<T extends HTMLElement>() {
+export function useReveal<T extends Element>() {
   const ref = useRef<T | null>(null);
   const [state, setState] = useState<RevealState>("idle");
 

@@ -13,6 +13,8 @@ import {
   Play,
 } from "lucide-react";
 import { Backdrop, Spotlight, TopNav } from "@/components/atlas/Chrome";
+import { useReveal } from "@/components/atlas/motion";
+import { Reveal } from "@/components/atlas/ui";
 import { MarketNotes } from "@/components/markets/MarketNotes";
 import { SECTIONS } from "@/components/atlas/content";
 import snapshot from "@/data/market-data.json";
@@ -117,8 +119,10 @@ function Markets() {
 
           {marketData.markets.length ? (
             <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-              {marketData.markets.map((market) => (
-                <MarketCard key={market.id} market={market} />
+              {marketData.markets.map((market, i) => (
+                <Reveal key={market.id} delay={i * 80} className="h-full [&>article]:h-full">
+                  <MarketCard market={market} />
+                </Reveal>
               ))}
             </div>
           ) : (
@@ -321,13 +325,18 @@ function Sparkline({ history, up }: { history: Observation[]; up: boolean }) {
       })
       .join(" ");
   }, [history]);
+  // The line draws left to right the first time the card scrolls into view.
+  const { ref, state } = useReveal<SVGSVGElement>();
+  const last = points ? points.split(" ").at(-1)!.split(",") : null;
 
   return (
     <svg
+      ref={ref}
+      data-state={state}
       viewBox="0 0 100 38"
       role="img"
       aria-label="Recent 30-observation trend"
-      className="my-5 h-16 w-full overflow-visible"
+      className="spark-draw my-5 h-16 w-full overflow-visible"
     >
       <line x1="0" y1="35" x2="100" y2="35" stroke="currentColor" className="text-border" />
       {points ? (
@@ -339,6 +348,12 @@ function Sparkline({ history, up }: { history: Observation[]; up: boolean }) {
           vectorEffect="non-scaling-stroke"
           className={up ? "text-lime" : "text-red-300"}
         />
+      ) : null}
+      {last ? (
+        <g className={up ? "text-lime" : "text-red-300"} aria-hidden="true">
+          <circle className="spark-pulse" cx={last[0]} cy={last[1]} r="2.4" fill="currentColor" />
+          <circle cx={last[0]} cy={last[1]} r="1.6" fill="currentColor" />
+        </g>
       ) : null}
     </svg>
   );
