@@ -1370,3 +1370,186 @@
     transform: none;
   }
 }
+
+/* ---------- Motion polish: page transitions, nav, photos, cards ---------- */
+
+/* Page-to-page cross-fade (View Transitions API, progressive enhancement). */
+@keyframes vt-fade-out {
+  to {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes vt-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+
+::view-transition-old(root) {
+  animation: vt-fade-out 200ms cubic-bezier(0.4, 0, 1, 1) both;
+}
+
+::view-transition-new(root) {
+  animation: vt-fade-in 460ms cubic-bezier(0.22, 1, 0.36, 1) 60ms both;
+}
+
+/* The header stays put while the page underneath changes. */
+.site-header {
+  view-transition-name: site-header;
+}
+
+/* Only play the header's load-in on the first page a visitor opens. */
+html[data-navigated] .site-header.intro-item {
+  opacity: 1;
+  animation: none;
+}
+
+/* Active nav highlight. Shared name lets it glide between links. */
+.nav-active-pill {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 9999px;
+  background: color-mix(in oklab, var(--color-primary) 20%, transparent);
+  view-transition-name: nav-active;
+  pointer-events: none;
+}
+
+::view-transition-group(nav-active) {
+  animation-duration: 420ms;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Home page nav is editorial text links: the highlight becomes an underline. */
+.editorial-site .nav-active-pill {
+  inset: auto 0.25rem 0.2rem;
+  height: 1px;
+  border-radius: 0;
+  background: currentColor;
+}
+
+/* Section header rule draws in after the heading appears. */
+.reveal .section-rule {
+  transform-origin: left center;
+  transition: transform 900ms cubic-bezier(0.22, 1, 0.36, 1) 220ms;
+}
+
+.reveal[data-state="hidden"] .section-rule {
+  transform: scaleX(0);
+}
+
+/* Photos uncover upward with a slight settle as they scroll in. */
+.photo-wipe {
+  transition: clip-path 1100ms cubic-bezier(0.65, 0, 0.35, 1);
+  clip-path: inset(0 0 0 0);
+}
+
+.photo-wipe > img {
+  transform: scale(1);
+}
+
+.photo-wipe[data-state="hidden"] {
+  clip-path: inset(100% 0 0 0);
+}
+
+.photo-wipe[data-state="hidden"] > img {
+  transform: scale(1.12);
+}
+
+.photo-wipe[data-state="shown"] > img {
+  transition-duration: 1300ms;
+}
+
+/* Market sparklines draw left to right; the latest point pulses softly. */
+@keyframes spark-pulse {
+  0% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  80%,
+  100% {
+    opacity: 0;
+    transform: scale(3.2);
+  }
+}
+
+.spark-draw polyline {
+  clip-path: inset(0 0 0 0);
+  transition: clip-path 1400ms cubic-bezier(0.65, 0, 0.35, 1) 150ms;
+}
+
+.spark-draw[data-state="hidden"] polyline {
+  clip-path: inset(0 100% 0 0);
+}
+
+.spark-draw g {
+  transition: opacity 300ms ease 1450ms;
+}
+
+.spark-draw[data-state="hidden"] g {
+  opacity: 0;
+}
+
+.spark-pulse {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: spark-pulse 2.4s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+
+/* Flashcards: the answer unfolds, then the self-rating buttons follow. */
+@keyframes answer-unfold {
+  from {
+    opacity: 0;
+    clip-path: inset(0 0 100% 0);
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+    transform: none;
+  }
+}
+
+.answer-reveal {
+  animation: answer-unfold 520ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.rate-in > * {
+  animation: fade-rise 480ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 220ms;
+}
+
+.rate-in > *:nth-child(2) {
+  animation-delay: 300ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+
+  .reveal[data-state="hidden"] .section-rule,
+  .photo-wipe[data-state="hidden"] > img {
+    transform: none;
+  }
+
+  .photo-wipe[data-state="hidden"],
+  .spark-draw[data-state="hidden"] polyline {
+    clip-path: none;
+  }
+
+  .spark-draw[data-state="hidden"] g {
+    opacity: 1;
+  }
+
+  .spark-pulse,
+  .answer-reveal,
+  .rate-in > * {
+    animation: none;
+  }
+}
